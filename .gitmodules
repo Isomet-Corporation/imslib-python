@@ -1,0 +1,3 @@
+[submodule "ims-lib"]
+	path = ims-lib
+	url = https://qytek-dc@bitbucket.org/qytek/ims-lib.git
