@@ -1,5 +1,10 @@
 %module imslib
 
+// Use the Python Stable ABI to avoid rqeuiring a specific minor version of the runtime library
+%begin %{
+#define Py_LIMITED_API 0x03040000
+%}
+
 %{
 // #include "AcoustoOptics.h"
 #include "Containers.h"

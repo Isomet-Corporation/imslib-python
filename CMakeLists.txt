@@ -9,9 +9,14 @@ project(imslib_swig)
 set(CMAKE_CXX_STANDARD 17)
 
 # Locate Python and SWIG
-find_package(Python3 3.13 COMPONENTS Interpreter Development REQUIRED)
+find_package(Python3 3.4 COMPONENTS Interpreter Development REQUIRED)
 if(Python3_FOUND)
+  # Override Python3_LIBRARIES to point to the stable ABI lib
+  set(Python3_LIBRARIES python3)
+
   message(STATUS "Found Python3 at ${Python3_EXECUTABLE}")
+  message(STATUS "Python3_LIBRARIES: ${Python3_LIBRARIES}")
+  message(STATUS "Python3_LIBRARY_DIRS: ${Python3_LIBRARY_DIRS}")
 else()
   message(FATAL_ERROR "No Python3 installation found")
 endif()
@@ -73,4 +78,5 @@ swig_add_library(${SWIG_MODULE_NAME}
 set(IMS_TARGET_NAME ${SWIG_MODULE_NAME})
 add_subdirectory(${IMS_LIB_SUBMODULE})
 
+target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARY_DIRS})
 target_link_libraries(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARIES} ${IMS_LIBRARY_NAME})
