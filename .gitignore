@@ -39,6 +39,7 @@ Thumbs.db
 *.app
 *.exe
 *.war
+*.dll
 
 # Large media files
 *.mp4
@@ -48,3 +49,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+build/
+venv/
+.vscode
+*.bak
