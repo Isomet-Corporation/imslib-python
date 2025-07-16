@@ -11,4 +11,7 @@ cmake --build . --config Release
 call generators\deactivate_conanbuild.bat
 cd ..
 
+copy imslib.py venv\
+copy build\Release\_imslib.pyd venv\
+
 popd

@@ -11,7 +11,7 @@
 // #include "ImageProject.h"
 #include "LibVersion.h"
 #include "ConnectionList.h"
-// #include "IConnectionSettings.h"
+#include "IConnectionSettings.h"
 #include "CS_ETH.h"
 #include "CS_RS422.h"
 // #include "IEventHandler.h"
