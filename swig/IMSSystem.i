@@ -8,6 +8,8 @@
     #include <ctime>
 %}
 
+%include <attribute.i>
+
 namespace iMS {
 
   struct FWVersion
@@ -166,6 +168,11 @@ namespace iMS {
 %ignore iMS::CS_ETH::ProcessData(const std::vector<std::uint8_t>& data);
 %ignore iMS::CS_ETH::ProcessData() const;
 
+%attribute(iMS::CS_ETH, bool, dhcp, UseDHCP, UseDHCP);
+%attributestring(iMS::CS_ETH, std::string, addr, Address, Address);
+%attributestring(iMS::CS_ETH, std::string, mask, Netmask, Netmask);
+%attributestring(iMS::CS_ETH, std::string, gw, Gateway, Gateway);
+
 namespace iMS {
   class CS_ETH : public IConnectionSettings
   {
@@ -194,6 +201,8 @@ namespace iMS {
 
 %ignore iMS::CS_RS422::ProcessData(const std::vector<std::uint8_t>& data);
 %ignore iMS::CS_RS422::ProcessData() const;
+
+%attribute(iMS::CS_RS422, unsigned int, baud, BaudRate, BaudRate);
 
 namespace iMS {
 

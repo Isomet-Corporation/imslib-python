@@ -43,37 +43,37 @@ settings_rs422 = ims.RetrieveSettings(imslib.CS_RS422())
 def display_settings():
     print()
     print(f" Connection settings_eth for module {settings_eth.Ident()}")
-    print(f"    (1) -> UseDHCP = {settings_eth.UseDHCP()}")
-    print(f"    (2) -> Address = {settings_eth.Address()}")
-    print(f"    (3) -> Netmask = {settings_eth.Netmask()}")
-    print(f"    (4) -> Gateway = {settings_eth.Gateway()}")
+    print(f"    (1) -> UseDHCP = {settings_eth.dhcp}")
+    print(f"    (2) -> Address = {settings_eth.addr}")
+    print(f"    (3) -> Netmask = {settings_eth.mask}")
+    print(f"    (4) -> Gateway = {settings_eth.gw}")
 
     print()
     print(f" Connection settings_rs422 for module {settings_rs422.Ident()}")
-    print(f"    (5) -> BaudRate = {settings_rs422.BaudRate()}")
+    print(f"    (5) -> BaudRate = {settings_rs422.baud}")
 
 #############################
 # Settings Update Functions
 #############################
 
 def update_dhcp(value):
-    settings_eth.UseDHCP(value)
+    settings_eth.dhcp = value
     ims.ApplySettings(settings_eth)
 
 def update_address(value):
-    settings_eth.Address(value)
+    settings_eth.addr = value
     ims.ApplySettings(settings_eth)
 
 def update_netmask(value):
-    settings_eth.Netmask(value)
+    settings_eth.mask = value
     ims.ApplySettings(settings_eth)
 
 def update_gateway(value):
-    settings_eth.Gateway(value)
+    settings_eth.gw = value
     ims.ApplySettings(settings_eth)
 
 def update_baudrate(value):
-    settings_rs422.BaudRate(value)
+    settings_rs422.baud = value
     ims.ApplySettings(settings_rs422)
 
 #####################################
@@ -90,7 +90,7 @@ while True:
     elif choice == 'd':
         display_settings()
     elif choice == '1':
-        val = input("Use DHCP => True or False: ").strip().lower()
+        val = input("Use DHCP => True(1) or False(0): ").strip().lower()
         if val in ['true', '1', 'yes']:
             update_dhcp(True)
         elif val in ['false', '0', 'no']:
