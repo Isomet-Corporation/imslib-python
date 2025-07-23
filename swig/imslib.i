@@ -27,6 +27,9 @@
 // #include "SystemFunc.h"
 // #include "Diagnostics.h"
 
+#include <sstream>
+#include <iomanip>
+
   using namespace iMS;
 %}
 
@@ -37,12 +40,47 @@
 // %include "std_deque.i"
 // %include "std_map.i"
 // %include "windows.i"
-// %include "attribute.i"
-// %include "typemaps.i"
+%include <std_array.i>
+%include "attribute.i"
+%include "typemaps.i"
 
 %template(ByteVector) std::vector<uint8_t>;
+%template(UUID) std::array<uint8_t, 16>;
+%template(VelGain) std::array<int16_t, 2>;
+
+// Print UUID in friendly format
+%extend std::array<uint8_t, 16> {
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << "[";
+            oss << std::hex << std::setfill('0');
+            for (auto it = $self->begin(); it != $self->end(); ++it) {
+            if (it != $self->begin()) oss << " ";
+            oss << std::setw(2) << static_cast<unsigned>(*it);
+            }
+            oss << "]";
+            return oss.str();
+        }
+}
 
 // %template(AnalogData) std::map<int, iMS::Percent>;
+
+// Basic SWIG typemap to wrap iMS::ListBase<T> as std::vector<T>
+// %typemap(out) iMS::ListBase<std::string> {
+//     $result = PyList_New($1->size());
+//     int i = 0;
+//     for (auto it = $1->begin(); it != $1->end(); ++it, ++i) {
+//         PyList_SetItem($result, i, PyUnicode_FromString(it->c_str()));
+//     }
+// }
+
+// %typemap(out) const iMS::ListBase<std::string>& {
+//     $result = PyList_New($1->size());
+//     int i = 0;
+//     for (auto it = $1->begin(); it != $1->end(); ++it, ++i) {
+//         PyList_SetItem($result, i, PyUnicode_FromString(it->c_str()));
+//     }
+// }
 
 #define _STATIC_IMS
 

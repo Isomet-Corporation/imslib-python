@@ -1,141 +1,193 @@
-//%attribute_custom(iMS::Frequency, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
-//%attribute_custom(iMS::kHz, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
-//%attribute_custom(iMS::MHz, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
-//%attribute_custom(iMS::Percent, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
-//%attribute_custom(iMS::Degrees, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
+%{
+    // For operator<<
+    #include <sstream>
+%}
+
+%attribute_custom(iMS::Frequency, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::kHz, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::MHz, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::Percent, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::Degrees, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::RFChannel, int, value, GetValue, SetValue, (*self_), (*self_)=(val_ = (val_ == RFChannel::all) ? val_ : (val_ < RFChannel::min) ? RFChannel::min : (val_ > RFChannel::max) ? RFChannel::max : val_));
 
 namespace iMS {
 
-  //  %rename(__set__) Frequency::operator=;
-  //  %rename(__val__) Frequency::operator double;
   %ignore Frequency::operator=;
   %ignore Frequency::operator double;
-  %typemap(csinterfaces) Frequency "System.IDisposable, System.ComponentModel.INotifyPropertyChanged";
 
   class Frequency 
   {
-    %typemap(cscode) Frequency %{
-      public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-
-      public void NotifyPropertyChanged(string propName)
-      {
-	if(this.PropertyChanged != null)
-	  this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propName));
-      }
-
-      public override string ToString()
-      {
-	return this.Value.ToString();
-      }
-
-      public virtual double Value
-      {
-	get {
-	  return getvalue();
-	}
-	set {
-	  setvalue(value);
-	  this.NotifyPropertyChanged("Value");
-	}
-      }
-
-    %}
   public:
-    %extend {
-      double getvalue() {
-	return *self;
-      }
-      void setvalue(double val) {
-	*self = val;
-      }
-    }
-    Frequency(double arg);
+    Frequency(double arg = 1.0);
     Frequency& operator = (double arg);
     operator double() const;
+    %extend {
+        // Explicit constructor to allow kHz(frequency) in Python
+        Frequency(const iMS::kHz& f) {
+            double freq_in_Hz = f * 1000.0;
+            return new iMS::Frequency(freq_in_Hz);
+        }
+        Frequency(const iMS::MHz& f) {
+            double freq_in_Hz = f * 1000000.0;
+            return new iMS::Frequency(freq_in_Hz);
+        }
+        void assign(const Frequency& f) {
+            *self = f;  // call existing kHz::operator=(double)
+        }
+        iMS::Frequency &__add__(const iMS::Frequency& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::Frequency &__iadd__(const iMS::Frequency& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::Frequency &__sub__(const iMS::Frequency& f) {
+            *self = *self - f; 
+            return *self;
+        }
+        iMS::Frequency &__isub__(const iMS::Frequency& f) {
+            *self = *self - f; 
+            return *self;
+        }
+    }
   };
 
-  //  %rename(__set__) kHz::operator=;
-  //  %rename(__val__) kHz::operator double;
+  %ignore kHz::operator=;
+  %ignore kHz::operator double;
+
   class kHz : public Frequency 
   {
-    %typemap(cscode) kHz %{
-      public override double Value
-      {
-	get {
-	  return getvalue();
-	}
-	set {
-	  setvalue(value);
-	  this.NotifyPropertyChanged("Value");
-	}
-      }
-
-    %}
   public:
-    %extend {
-      double getvalue() {
-	return *self;
-      }
-      void setvalue(double val) {
-	*self = val;
-      }
-    }
-    kHz(double arg) : Frequency(arg * 1000.0) {};
+    kHz(double arg = 1.0) : Frequency(arg * 1000.0) {};
     kHz& operator = (double arg);
     operator double() const;
+    %extend {
+        // Explicit constructor to allow kHz(frequency) in Python
+        kHz(const Frequency& f) {
+            double freq_in_kHz = f / 1000.0;
+            return new iMS::kHz(freq_in_kHz);
+        }
+        kHz(const MHz& f) {
+            double freq_in_kHz = f * 1000.0;
+            return new iMS::kHz(freq_in_kHz);
+        }
+        void assign(const Frequency& f) {
+            *self = f;  // call existing kHz::operator=(double)
+        }
+        iMS::kHz &__add__(const iMS::kHz& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::kHz &__add__(const iMS::Frequency& f) {
+            *self = *self + f / 1000.0; 
+            return *self;
+        }
+        iMS::kHz &__iadd__(const iMS::kHz& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::kHz &__iadd__(const iMS::Frequency& f) {
+            *self = *self + f / 1000.0; 
+            return *self;
+        }
+        iMS::kHz &__sub__(const iMS::kHz& f) {
+            *self = *self - f; 
+            return *self;
+        }
+        iMS::kHz &__sub__(const iMS::Frequency& f) {
+            *self = *self - f / 1000.0; 
+            return *self;
+        }
+        iMS::kHz &__isub__(const iMS::kHz& f) {
+            *self = *self - f; 
+            return *self;
+        }
+        iMS::kHz &__isub__(const iMS::Frequency& f) {
+            *self = *self - f / 1000.0; 
+            return *self;
+        }
+    }
   };
 
-  //  %rename(__set__) MHz::operator=;
-  //  %rename(__val__) MHz::operator double;
+  %ignore MHz::operator=;
+  %ignore MHz::operator double;
+
   class MHz : public Frequency 
   {
-    %typemap(cscode) MHz %{
-      public override double Value
-      {
-	get {
-	  return getvalue();
-	}
-	set {
-	  setvalue(value);
-	  this.NotifyPropertyChanged("Value");
-	}
-      }
-
-    %}
   public:
-    %extend {
-      double getvalue() {
-	return *self;
-      }
-      void setvalue(double val) {
-	*self = val;
-      }
-    }
-    MHz(double arg) : Frequency(arg * 1000000.0) {};
+    MHz(double arg = 1.0) : Frequency(arg * 1000000.0) {};
     MHz& operator = (double arg);
     operator double() const;
+    %extend {
+        // Explicit constructor to allow kHz(frequency) in Python
+        MHz(const Frequency& f) {
+            double freq_in_MHz = f / 1000000.0;
+            return new iMS::MHz(freq_in_MHz);
+        }
+        // Explicit constructor to allow kHz(frequency) in Python
+        MHz(const kHz& f) {
+            double freq_in_MHz = f / 1000.0;
+            return new iMS::MHz(freq_in_MHz);
+        }
+        void assign(const Frequency& f) {
+            *self = f;  // call existing kHz::operator=(double)
+        }
+        iMS::MHz &__add__(const iMS::MHz& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::MHz &__add__(const iMS::kHz& f) {
+            *self = *self + f / 1000.0; 
+            return *self;
+        }
+        iMS::MHz &__add__(const iMS::Frequency& f) {
+            *self = *self + f / 1000000.0; 
+            return *self;
+        }
+        iMS::MHz &__iadd__(const iMS::MHz& f) {
+            *self = *self + f; 
+            return *self;
+        }
+        iMS::MHz &__iadd__(const iMS::kHz& f) {
+            *self = *self + f / 1000.0; 
+            return *self;
+        }
+        iMS::MHz &__iadd__(const iMS::Frequency& f) {
+            *self = *self + f / 1000000.0; 
+            return *self;
+        }
+        iMS::MHz &__sub__(const iMS::MHz& f) {
+            *self = *self - f; 
+            return *self;
+        }
+        iMS::MHz &__sub__(const iMS::kHz& f) {
+            *self = *self - f / 1000.0; 
+            return *self;
+        }
+        iMS::MHz &__sub__(const iMS::Frequency& f) {
+            *self = *self - f / 1000000.0; 
+            return *self;
+        }
+        iMS::MHz &__isub__(const iMS::MHz& f) {
+            *self = *self - f; 
+            return *self;
+        }
+        iMS::MHz &__isub__(const iMS::kHz& f) {
+            *self = *self - f / 1000.0; 
+            return *self;
+        }
+        iMS::MHz &__isub__(const iMS::Frequency& f) {
+            *self = *self - f / 1000000.0; 
+            return *self;
+        }
+    }
   };
 
-  //  %rename(__set__) Percent::operator=;
-  //  %rename(__val__) Percent::operator double;
   %ignore Percent::operator=;
   %ignore Percent::operator double;
   class Percent
   {
-    %typemap(cscode) Percent %{
-      public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-
-      public void NotifyPropertyChanged(string propName)
-      {
-	if(this.PropertyChanged != null)
-	  this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propName));
-      }
-
-      public override string ToString()
-      {
-	return this.Value.ToString();
-      }
-    %}
   public:
     Percent();
     Percent(double arg);
@@ -143,34 +195,16 @@ namespace iMS {
     operator double() const;
   };
 
-  //  %rename(__set__) Degrees::operator=;
-  //  %rename(__val__) Degrees::operator double;
   %ignore Degrees::operator=;
   %ignore Degrees::operator double;
   class Degrees
   {
-    %typemap(cscode) Degrees %{
-      public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-
-      public void NotifyPropertyChanged(string propName)
-      {
-	if(this.PropertyChanged != null)
-	  this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propName));
-      }
-
-      public override string ToString()
-      {
-	return this.Value.ToString();
-      }
-    %}
   public:
     Degrees(double arg);
     Degrees& operator = (double arg);
     operator double() const;
   };
 
-  %rename(__eq__) FAP::operator==;
-  %rename(__ne__) FAP::operator!=;
   struct FAP
   {
     MHz freq;
@@ -185,17 +219,36 @@ namespace iMS {
     bool operator!=(const FAP &other) const;
   };
 
-  %rename(__set__) RFChannel::operator=;
-  %rename(__val__) RFChannel::operator int;
-  %rename(PlusPlusPrefix) RFChannel::operator++();
-  %rename(PlusPlusPostfix) RFChannel::operator++(int);
-  %rename(MinusMinusPrefix) RFChannel::operator--();
-  %rename(MinusMinusPostfix) RFChannel::operator--(int);
+      %extend FAP {
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << $self->freq << "MHz / " << $self->ampl << "% / " << $self->phase << "deg";
+            return oss.str();
+        }
+        // Copy constructor
+        FAP(FAP& other) {
+            FAP* newFAP = new FAP();
+            newFAP->freq = other.freq;
+            newFAP->ampl = other.ampl;
+            newFAP->phase = other.phase;
+            return newFAP;
+        }
+    }
+
+//  %rename(__set__) RFChannel::operator=;
+//  %rename(__val__) RFChannel::operator int;
+%ignore RFChannel::operator=;
+%ignore RFChannel::operator int;
+
+   %rename(incr) RFChannel::operator++();
+   %ignore RFChannel::operator++(int);
+   %rename(decr) RFChannel::operator--();
+   %ignore RFChannel::operator--(int);
 
   class RFChannel {
   public:
     RFChannel();
-    RFChannel(int arg);
+//    RFChannel(int arg);
     RFChannel& operator = (int arg);
     RFChannel& operator++();
     RFChannel operator++(int);
@@ -207,6 +260,78 @@ namespace iMS {
     static const int max;
     static const int all;
   };
+
+  %extend RFChannel {
+    RFChannel(int val) {
+        if (val != RFChannel::all) {
+            val = (val < RFChannel::min) ? RFChannel::min : (val > RFChannel::max) ? RFChannel::max : val;
+        }
+        RFChannel* obj = new RFChannel(val);
+        return obj;
+    }
+
+    int __int__() {
+        return (int)*$self;
+    }
+
+    int __index__() {
+        return (int)*$self;
+    }
+
+    // Optional: define __str__ for debugging
+    std::string __str__() {
+        std::ostringstream oss;
+        oss << "RFChannel(" << (int)*$self << ")";
+        return oss.str();
+    }
+    %pythoncode %{
+        def __iter__(self):
+            return iter(range(RFChannel.min, RFChannel.max + 1))
+    %}
+    RFChannel __add__(int delta) {
+        int val = *$self + delta;
+        val = (val < RFChannel::min) ? RFChannel::min : (val > RFChannel::max) ? RFChannel::max : val;
+        return RFChannel(val);
+    }
+
+    RFChannel __sub__(int delta) {
+        int val = *$self - delta;
+        val = (val < RFChannel::min) ? RFChannel::min : (val > RFChannel::max) ? RFChannel::max : val;
+        return RFChannel(val);
+    }
+    
+    RFChannel __iadd__(int delta) {
+        int val = *$self + delta;
+        val = (val < RFChannel::min) ? RFChannel::min : (val > RFChannel::max) ? RFChannel::max : val;
+        return RFChannel(val);
+    }
+
+    RFChannel __isub__(int delta) {
+        int val = *$self - delta;
+        val = (val < RFChannel::min) ? RFChannel::min : (val > RFChannel::max) ? RFChannel::max : val;
+        return RFChannel(val);
+    }
+
+    RFChannel next() {
+        return ++(*$self);
+    }
+
+    RFChannel prev() {
+        return --(*$self);
+    }
+
+    void reset() {
+        *$self = RFChannel::min;
+    }
+
+    bool __eq__(const RFChannel& other) {
+        return int(*$self) == int(other);
+    }
+
+    bool __lt__(const RFChannel& other) {
+        return int(*$self) < int(other);
+    }
+  }
 
   enum class ENHANCED_TONE_MODE
   {
@@ -228,13 +353,13 @@ namespace iMS {
       };
 }
 
-//%attributeref(iMS::SweepTone, iMS::FAP&, start, start);
-//%attributeref(iMS::SweepTone, iMS::FAP&, end, end);
-//%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), up_ramp, up_ramp);
-//%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), down_ramp, down_ramp);
-//%attributeref(iMS::SweepTone, int, n_steps, n_steps);
-//%attributeref(iMS::SweepTone, iMS::ENHANCED_TONE_MODE, mode, mode);
-//%attributeref(iMS::SweepTone, iMS::DAC_CURRENT_REFERENCE, scaling, scaling);
+%attributeref(iMS::SweepTone, iMS::FAP&, start, start);
+%attributeref(iMS::SweepTone, iMS::FAP&, end, end);
+%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), up_ramp, up_ramp);
+%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), down_ramp, down_ramp);
+%attributeref(iMS::SweepTone, int, n_steps, n_steps);
+%attributeref(iMS::SweepTone, iMS::ENHANCED_TONE_MODE, mode, mode);
+%attributeref(iMS::SweepTone, iMS::DAC_CURRENT_REFERENCE, scaling, scaling);
 
 namespace iMS {
 
@@ -257,7 +382,12 @@ namespace iMS {
 
 }
 
-//%attribute_custom(iMS::distance, double, Value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::ratio<1>>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::nano>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::micro>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::milli>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::centi>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
+%attribute_custom(iMS::distance<std::deci>, double, value, GetValue, SetValue, (*self_), (*self_)=val_);
 
 namespace iMS {
 
@@ -266,41 +396,7 @@ namespace iMS {
 
   template <typename Ratio>
     class distance {
-    %typemap(cscode) distance %{
-      public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-
-      public void NotifyPropertyChanged(string propName)
-      {
-	if(this.PropertyChanged != null)
-	  this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propName));
-      }
-
-      public override string ToString()
-      {
-	return this.Value.ToString();
-      }
-
-      public virtual double Value
-      {
-	get {
-	  return getvalue();
-	}
-	set {
-	  setvalue(value);
-	  this.NotifyPropertyChanged("Value");
-	}
-      }
-
-    %}
   public:
-    %extend {
-      double getvalue() {
-	return *self;
-      }
-      void setvalue(double val) {
-	*self = val;
-      }
-    }
 
     distance(double ticks = 1.0);
     template <typename Ratio2>
@@ -320,20 +416,6 @@ namespace iMS {
 %template(Millimetre) iMS::distance<std::milli>;
 %template(Centimetre) iMS::distance<std::centi>;
 %template(Decimetre) iMS::distance<std::deci>;
-
-	// Capture the US spellings!
-//%template(Meter) iMS::distance<std::ratio<1>>;
-//%template(Nanometer) iMS::distance<std::nano>;
-//%template(Micrometer) iMS::distance<std::micro>;
-//%template(Millimeter) iMS::distance<std::milli>;
-//%template(Centimeter) iMS::distance<std::centi>;
-//%template(Decimeter) iMS::distance<std::deci>;
-//%alias(Meter) Metre;
-//%alias(Nanometer) Nanometre;
-//%alias(Micrometer) Micrometre;
-//%alias(Millimeter) Millimetre;
-//%alias(Centimeter) Centimetre;
-//%alias(Decimeter) Decimetre;
 
  enum class Polarity {
   NORMAL,

@@ -8,8 +8,6 @@
     #include <ctime>
 %}
 
-%include <attribute.i>
-
 namespace iMS {
 
   struct FWVersion
@@ -88,6 +86,7 @@ namespace iMS {
     const FWVersion& GetVersion() const;
     const ImageTable& ImgTable() const;  
     const bool IsValid() const;
+    const ListBase<std::string>& Interfaces() const;
   };
 
 }
