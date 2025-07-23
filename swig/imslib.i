@@ -23,7 +23,7 @@
 // #include "FileSystem.h"
 // #include "Compensation.h"
 // #include "ToneBuffer.h"
-// #include "SignalPath.h"
+#include "SignalPath.h"
 // #include "SystemFunc.h"
 // #include "Diagnostics.h"
 
@@ -43,6 +43,8 @@
 %include <std_array.i>
 %include "attribute.i"
 %include "typemaps.i"
+
+%include "ims_std_chrono.i"
 
 %template(ByteVector) std::vector<uint8_t>;
 %template(UUID) std::array<uint8_t, 16>;
@@ -98,6 +100,6 @@
 // %include "Compensation.i"
 // %include "ToneBuffer.i"
 // %include "ImageProject.i"
-// %include "SignalPath.i"
+%include "SignalPath.i"
 // %include "SystemFunc.i"
 // %include "Diagnostics.i"
