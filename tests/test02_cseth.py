@@ -1,4 +1,5 @@
 import imslib
+import sys
 
 print("Test 02: Display/Modify Ethernet Connection Settings")
 
@@ -11,7 +12,7 @@ print("Scanning for iMS Systems . . .")
 systems = conn.scan()
 if (len(systems) == 0):
     print("No systems found.")
-    quit()
+    sys.exit()
 
 for i, ims in enumerate(systems):
     print(f" {i+1}: ", ims.ConnPort())

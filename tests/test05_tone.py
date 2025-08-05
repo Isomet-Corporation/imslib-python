@@ -1,5 +1,12 @@
 import imslib
 
+# Import specific types to avoid retyping imslib (without relying on import *)
+from imslib import MHz
+from imslib import Degrees
+from imslib import Percent
+from imslib import FAP
+from imslib import RFChannel
+
 print("Test 05: Calibration Tone / Single Tone Mode")
 
 ver = imslib.LibVersion()
@@ -36,8 +43,8 @@ ims.Connect()
 sp = imslib.SignalPath(ims)
 
 print("Set RF output to mid-amplitude.")
-sp.UpdateDDSPowerLevel(imslib.Percent(50.0))
-sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, imslib.Percent(50.0))
+sp.UpdateDDSPowerLevel(Percent(50.0))
+sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, Percent(50.0))
 
 # Start with tone disabled
 sp.ClearTone()
@@ -48,10 +55,10 @@ sp.ClearTone()
 
 def display_menu():
     print()
-    print(f" Lock State: Ch1={sp.GetCalibrationChannelLockState(imslib.RFChannel(1))}"
-          f" Ch2={sp.GetCalibrationChannelLockState(imslib.RFChannel(2))}"
-          f" Ch3={sp.GetCalibrationChannelLockState(imslib.RFChannel(3))}"
-          f" Ch4={sp.GetCalibrationChannelLockState(imslib.RFChannel(4))}")
+    print(f" Lock State: Ch1={sp.GetCalibrationChannelLockState(RFChannel(1))}"
+          f" Ch2={sp.GetCalibrationChannelLockState(RFChannel(2))}"
+          f" Ch3={sp.GetCalibrationChannelLockState(RFChannel(3))}"
+          f" Ch4={sp.GetCalibrationChannelLockState(RFChannel(4))}")
     print(" Calibration Tone Menu ")
     print("    (1) -> Enable Tone")
     print("    (2) -> Disable Tone")
@@ -73,7 +80,7 @@ def display_menu():
 class ToneController:
     def __init__(self, sp):
         # Default Frequency, Amplitude & Phase
-        self.tone = imslib.FAP(imslib.MHz(100.0), imslib.Percent(100.0), imslib.Degrees(0.0))
+        self.tone = FAP(MHz(100.0), Percent(100.0), Degrees(0.0))
         self.toneOn = False
         self.sp = sp
 
@@ -86,26 +93,26 @@ class ToneController:
         self.toneOn = False
 
     def update_freq(self, f):
-        self.tone.freq = imslib.MHz(f)
+        self.tone.freq = MHz(f)
         if self.toneOn is True:
             self.enable_tone()
 
     def update_ampl(self, a):
-        self.tone.ampl = imslib.Percent(a)
+        self.tone.ampl = Percent(a)
         if self.toneOn is True:
             self.enable_tone()
 
     def update_phs(self, p):
-        self.tone.phase = imslib.Degrees(p)
+        self.tone.phase = Degrees(p)
         if self.toneOn is True:
             self.enable_tone()
 
     def toggle_lock(self, ch):
-        lock = self.sp.GetCalibrationChannelLockState(imslib.RFChannel(ch))
+        lock = self.sp.GetCalibrationChannelLockState(RFChannel(ch))
         if lock:
-            self.sp.ClearCalibrationChannelLock(imslib.RFChannel(ch))
+            self.sp.ClearCalibrationChannelLock(RFChannel(ch))
         else:
-            self.sp.SetCalibrationChannelLock(imslib.RFChannel(ch))
+            self.sp.SetCalibrationChannelLock(RFChannel(ch))
 
 tc = ToneController(sp)
 

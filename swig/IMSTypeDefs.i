@@ -34,6 +34,12 @@ namespace iMS {
         void assign(const Frequency& f) {
             *self = f;  // call existing kHz::operator=(double)
         }
+        void assign(const kHz& f) {
+            *self = f * 1000.0;  // call existing kHz::operator=(double)
+        }
+        void assign(const MHz& f) {
+            *self = f * 1000000.0;  // call existing kHz::operator=(double)
+        }
         iMS::Frequency &__add__(const iMS::Frequency& f) {
             *self = *self + f; 
             return *self;
@@ -50,6 +56,19 @@ namespace iMS {
             *self = *self - f; 
             return *self;
         }
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self << "Hz";
+            return oss.str();
+        }
+        %pythoncode %{
+        def __format__(self, spec):
+            val = float(self)
+            return format(val, spec) + "Hz"
+        %}        
     }
   };
 
@@ -73,7 +92,13 @@ namespace iMS {
             return new iMS::kHz(freq_in_kHz);
         }
         void assign(const Frequency& f) {
+            *self = f / 1000.0;  // call existing Frequency::operator=(double)
+        }
+        void assign(const kHz& f) {
             *self = f;  // call existing kHz::operator=(double)
+        }
+        void assign(const MHz& f) {
+            *self = f * 1000.0;  // call existing MHz::operator=(double)
         }
         iMS::kHz &__add__(const iMS::kHz& f) {
             *self = *self + f; 
@@ -107,6 +132,19 @@ namespace iMS {
             *self = *self - f / 1000.0; 
             return *self;
         }
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self << "kHz";
+            return oss.str();
+        }
+        %pythoncode %{
+        def __format__(self, spec):
+            val = float(self)
+            return format(val, spec) + "kHz"
+        %}
     }
   };
 
@@ -131,7 +169,13 @@ namespace iMS {
             return new iMS::MHz(freq_in_MHz);
         }
         void assign(const Frequency& f) {
-            *self = f;  // call existing kHz::operator=(double)
+            *self = f / 1000000.0;  // call existing Frequency::operator=(double)
+        }
+        void assign(const kHz& f) {
+            *self = f / 1000.0;  // call existing kHz::operator=(double)
+        }
+        void assign(const MHz& f) {
+            *self = f;  // call existing MHz::operator=(double)
         }
         iMS::MHz &__add__(const iMS::MHz& f) {
             *self = *self + f; 
@@ -181,6 +225,19 @@ namespace iMS {
             *self = *self - f / 1000000.0; 
             return *self;
         }
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self << "MHz";
+            return oss.str();
+        }
+        %pythoncode %{
+        def __format__(self, spec):
+            val = float(self)
+            return format(val, spec) + "MHz"
+        %}
     }
   };
 
@@ -193,6 +250,16 @@ namespace iMS {
     Percent(double arg);
     Percent& operator = (double arg);
     operator double() const;
+    %extend {
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self << "%";
+            return oss.str();
+        }
+    }
   };
 
   %ignore Degrees::operator=;
@@ -203,6 +270,16 @@ namespace iMS {
     Degrees(double arg);
     Degrees& operator = (double arg);
     operator double() const;
+    %extend {
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self << "deg";
+            return oss.str();
+        }
+    }
   };
 
   struct FAP

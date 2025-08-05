@@ -1,4 +1,5 @@
 import imslib
+import sys
 
 print("Test 01: Scan for iMS Systems")
 
@@ -11,7 +12,7 @@ print("Scanning for iMS Systems . . .")
 systems = conn.scan()
 if (len(systems) == 0):
     print("No systems found.")
-    quit()
+    sys.exit()
 
 for i, ims in enumerate(systems):
     print(f"iMS System {i+1}:", ims.ConnPort())

@@ -8,7 +8,7 @@
 %{
 // #include "AcoustoOptics.h"
 #include "Containers.h"
-// #include "ImageProject.h"
+#include "ImageProject.h"
 #include "LibVersion.h"
 #include "ConnectionList.h"
 #include "IConnectionSettings.h"
@@ -18,8 +18,8 @@
 #include "IMSSystem.h"
 #include "IMSTypeDefs.h"
 // #include "Auxiliary.h"
-// #include "Image.h"
-// #include "ImageOps.h"
+#include "Image.h"
+#include "ImageOps.h"
 // #include "FileSystem.h"
 // #include "Compensation.h"
 // #include "ToneBuffer.h"
@@ -65,24 +65,26 @@
         }
 }
 
+%rename(UUID_Stream) operator<<(std::ostream& stream, const std::array<uint8_t, 16>&);
+%inline %{
+    std::ostream& operator <<(std::ostream& stream, const std::array<uint8_t, 16>& uuid) {
+        stream << "[";
+        stream << std::hex << std::setfill('0');
+        for (int i=0; i<=3; i++) stream << std::setw(2) << static_cast<unsigned>(uuid[i]);
+        stream << "-";
+        for (int i=4; i<=5; i++) stream << std::setw(2) << static_cast<unsigned>(uuid[i]);
+        stream << "-";
+        for (int i=6; i<=7; i++) stream << std::setw(2) << static_cast<unsigned>(uuid[i]);
+        stream << "-";
+        for (int i=8; i<=9; i++) stream << std::setw(2) << static_cast<unsigned>(uuid[i]);
+        stream << "-";
+        for (int i=10; i<=15; i++) stream << std::setw(2) << static_cast<unsigned>(uuid[i]);
+        stream << "]";
+        return stream;
+    }    
+%}
+
 // %template(AnalogData) std::map<int, iMS::Percent>;
-
-// Basic SWIG typemap to wrap iMS::ListBase<T> as std::vector<T>
-// %typemap(out) iMS::ListBase<std::string> {
-//     $result = PyList_New($1->size());
-//     int i = 0;
-//     for (auto it = $1->begin(); it != $1->end(); ++it, ++i) {
-//         PyList_SetItem($result, i, PyUnicode_FromString(it->c_str()));
-//     }
-// }
-
-// %typemap(out) const iMS::ListBase<std::string>& {
-//     $result = PyList_New($1->size());
-//     int i = 0;
-//     for (auto it = $1->begin(); it != $1->end(); ++it, ++i) {
-//         PyList_SetItem($result, i, PyUnicode_FromString(it->c_str()));
-//     }
-// }
 
 #define _STATIC_IMS
 
@@ -95,11 +97,11 @@
 // %include "FileSystem.i"
 // %include "AcoustoOptics.i"
 // %include "Auxiliary.i"
-// %include "Image.i"
-// %include "ImageOps.i"
+%include "Image.i"
+%include "ImageOps.i"
 // %include "Compensation.i"
 // %include "ToneBuffer.i"
-// %include "ImageProject.i"
+%include "ImageProject.i"
 %include "SignalPath.i"
 // %include "SystemFunc.i"
 // %include "Diagnostics.i"
