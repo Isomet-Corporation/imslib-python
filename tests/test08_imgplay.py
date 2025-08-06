@@ -146,7 +146,7 @@ while True:
                 index = int(index_str)
             except ValueError:
                 index = -1
-            if index > len(table) or index < 0:
+            if index >= len(table) or index < 0:
                 index = -1
         if ic.is_internal_clock():
             ip = imslib.ImagePlayer(ims, table[index], ic.clockRate)
