@@ -48,20 +48,70 @@ namespace iMS {
 
 //%include "ims_std_chrono.i"
 
+%pythoncode %{
+    import enum
+
+    class PointClock(enum.IntEnum):
+        INTERNAL = 0
+        EXTERNAL = 1
+
+    class ImageTrigger(enum.IntEnum):
+        POST_DELAY = 0
+        EXTERNAL = 1
+        HOST = 2
+        CONTINUOUS = 3
+
+    class StopStyle(enum.IntEnum):
+        GRACEFULLY = 0
+        IMMEDIATELY = 1
+%}
+
+%define ENUM_IN_TYPemap(cpp_enum, py_enum)
+%typemap(in) cpp_enum {
+    if (PyLong_Check($input)) {
+        long val = PyLong_AsLong($input);
+        if (PyErr_Occurred()) SWIG_fail;
+        $1 = static_cast<cpp_enum>(val);
+    } else {
+        SWIG_exception_fail(SWIG_TypeError, "Expected " #py_enum " enum or int");
+    }
+}
+
+%typemap(out) cpp_enum {
+    $result = PyLong_FromLong((long)$1);
+}
+
+%typemap(typecheck, precedence=SWIG_TYPECHECK_INTEGER) cpp_enum {
+    $1 = PyLong_Check($input) ? 1 : 0;
+}
+%enddef
+
+ENUM_IN_TYPemap(iMS::ImagePlayer::PointClock, PointClock)
+ENUM_IN_TYPemap(iMS::ImagePlayer::ImageTrigger, ImageTrigger)
+ENUM_IN_TYPemap(iMS::ImagePlayer::StopStyle, StopStyle)
+
     %inline %{
     namespace iMS {
     struct ImagePlayerConfiguration
     {
-      ImagePlayer::PointClock int_ext{ ImagePlayer::PointClock::INTERNAL };
-      ImagePlayer::ImageTrigger trig{ ImagePlayer::ImageTrigger::CONTINUOUS };
-      ImageRepeats rpts{ ImageRepeats::NONE };
-      int n_rpts{ 0 };
-      Polarity clk_pol{ Polarity::NORMAL };
-      Polarity trig_pol{ Polarity::NORMAL };
+      private:
+        ImagePlayer::PointClock int_ext{ ImagePlayer::PointClock::INTERNAL };
+        ImagePlayer::ImageTrigger trig{ ImagePlayer::ImageTrigger::CONTINUOUS };
+      public:
+        ImageRepeats rpts{ ImageRepeats::NONE };
+        int n_rpts{ 0 };
+        Polarity clk_pol{ Polarity::NORMAL };
+        Polarity trig_pol{ Polarity::NORMAL };
+        
+        using post_delay = std::chrono::duration < std::uint16_t, std::ratio<1, 10000> > ;
+        post_delay delay{ 0 };
       
-      using post_delay = std::chrono::duration < std::uint16_t, std::ratio<1, 10000> > ;
-      post_delay delay{ 0 };
-      
+        iMS::ImagePlayer::PointClock get_int_ext() const {return int_ext;}
+        void set_int_ext(iMS::ImagePlayer::PointClock clk) {int_ext = clk;}
+
+        iMS::ImagePlayer::ImageTrigger get_trig() const {return trig;}
+        void set_trig(iMS::ImagePlayer::ImageTrigger trig_) {trig = trig_;}
+
       ImagePlayerConfiguration() {};
       ImagePlayerConfiguration(ImagePlayer::PointClock c) : int_ext(c) {};
       ImagePlayerConfiguration(ImagePlayer::PointClock c, ImagePlayer::ImageTrigger t) : int_ext(c), trig(t) {};
@@ -72,12 +122,23 @@ namespace iMS {
     };
     }
     %}
+    %ignore iMS::ImagePlayerConfiguration::int_ext;
+    %ignore iMS::ImagePlayerConfiguration::trig;
+    %attribute(iMS::ImagePlayerConfiguration, iMS::ImagePlayer::PointClock, int_ext, get_int_ext, set_int_ext)
+    %attribute(iMS::ImagePlayerConfiguration, iMS::ImagePlayer::ImageTrigger, trig, get_trig, set_trig)
+
+    %extend iMS::ImagePlayerConfiguration{
+        %pythoncode %{
+            Clock = property(get_int_ext, set_int_ext)
+            Trig = property(get_trig, set_trig)
+        %}             
+    }
 
         // Create a typemap to translate the real nested struct to the dummy exposed one
     %typemap(out) iMS::ImagePlayer::PlayConfiguration {
         auto* cfgPtr = new iMS::ImagePlayerConfiguration();
-        cfgPtr->int_ext = $1.int_ext;
-        cfgPtr->trig = $1.trig;
+        cfgPtr->set_int_ext($1.int_ext);
+        cfgPtr->set_trig($1.trig);
         cfgPtr->rpts = $1.rpts;
         cfgPtr->n_rpts = $1.n_rpts;
         cfgPtr->clk_pol = $1.clk_pol;
@@ -96,8 +157,8 @@ namespace iMS {
         pycfg = reinterpret_cast<iMS::ImagePlayerConfiguration*>(ptr);
 
         $1 = new iMS::ImagePlayer::PlayConfiguration();
-        $1->int_ext = pycfg->int_ext;
-        $1->trig = pycfg->trig;
+        $1->int_ext = pycfg->get_int_ext();
+        $1->trig = pycfg->get_trig();
         $1->rpts = pycfg->rpts;
         $1->n_rpts = pycfg->n_rpts;
         $1->clk_pol = pycfg->clk_pol;
@@ -110,32 +171,32 @@ namespace iMS {
   class ImagePlayer
   {
   public:
-    enum class PointClock {
-      INTERNAL,
-	EXTERNAL
-	};
-    enum class ImageTrigger {
-      POST_DELAY,
-	EXTERNAL,
-	HOST,
-	CONTINUOUS
-	};
-    enum class StopStyle {
-      GRACEFULLY,
-	IMMEDIATELY
-	};
+    // enum class PointClock {
+    //   INTERNAL,
+	// EXTERNAL
+	// };
+    // enum class ImageTrigger {
+    //   POST_DELAY,
+	// EXTERNAL,
+	// HOST,
+	// CONTINUOUS
+	// };
+    // enum class StopStyle {
+    //   GRACEFULLY,
+	// IMMEDIATELY
+	// };
     
     ImagePlayer(const IMSSystem& ims, const Image& img);
     ImagePlayer(const IMSSystem& ims, const Image& img, const ImagePlayer::PlayConfiguration& cfg);
     ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const kHz InternalClock);
     ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const int ExtClockDivide);
-    ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const ImagePlayer::PlayConfiguration& cfg, const kHz InternalClock);
-    ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const ImagePlayer::PlayConfiguration& cfg, const int ExtClockDivide);
+    //ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const kHz InternalClock);
+    //ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const int ExtClockDivide);
     
-    bool Play(ImageTrigger start_trig);
+    bool Play(ImagePlayer::ImageTrigger start_trig);
     inline bool Play();
     bool GetProgress();
-    bool Stop(StopStyle stop);
+    bool Stop(ImagePlayer::StopStyle stop);
     inline bool Stop();
     void SetPostDelay(const std::chrono::duration<double>& dly);
     
@@ -146,8 +207,8 @@ namespace iMS {
   %extend ImagePlayer {
     ImagePlayerConfiguration get_cfg() const {
         ImagePlayerConfiguration py;
-        py.int_ext = self->cfg.int_ext;
-        py.trig = self->cfg.trig;
+        py.set_int_ext(self->cfg.int_ext);
+        py.set_trig(self->cfg.trig);
         py.rpts = self->cfg.rpts;
         py.n_rpts = self->cfg.n_rpts;
         py.clk_pol = self->cfg.clk_pol;
@@ -157,8 +218,8 @@ namespace iMS {
     }
 
     void set_cfg(const ImagePlayerConfiguration& py) {
-        self->cfg.int_ext = py.int_ext;
-        self->cfg.trig = py.trig;
+        self->cfg.int_ext = py.get_int_ext();
+        self->cfg.trig = py.get_trig();
         self->cfg.rpts = py.rpts;
         self->cfg.n_rpts = py.n_rpts;
         self->cfg.clk_pol = py.clk_pol;

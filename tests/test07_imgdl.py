@@ -50,14 +50,23 @@ if len(prj.ImageGroupContainer) < 1:
     print("Error: No groups in ImageGroupContainer")
     sys.exit()
 
+#############################
+# Download all Images to iMS
+#############################
+
 grp = prj.ImageGroupContainer[0]
 for img in grp:
     dl = imslib.ImageDownload(ims, img)
     print(f"Downloading Image: {img.Name}")
     dl.StartDownload()
-    time.sleep(1)
+    time.sleep(1)  ## Simple delay as no response capability yet in Python
+
+#############################
+# Display Image Table
+#############################
 
 table=imslib.ImageTableViewer(ims)
 print(f"{len(table)} images in table")
 print(table)
+
 ims.Disconnect()
