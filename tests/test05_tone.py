@@ -42,9 +42,10 @@ ims.Connect()
 
 sp = imslib.SignalPath(ims)
 
-print("Set RF output to mid-amplitude.")
-sp.UpdateDDSPowerLevel(Percent(50.0))
-sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, Percent(50.0))
+print("Set RF output amplitude.")
+sp.UpdateDDSPowerLevel(Percent(80.0))
+sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, Percent(80.0))
+sp.SwitchRFAmplitudeControlSource(imslib.SignalPath.AmplitudeControl_INDEPENDENT)
 
 # Start with tone disabled
 sp.ClearTone()
@@ -160,5 +161,6 @@ while True:
     else:
         print("Invalid selection. Please choose 1-9 or 'q'.")
 
+sp.ClearTone()
 
 ims.Disconnect()

@@ -40,9 +40,10 @@ ims.Connect()
 
 sp = imslib.SignalPath(ims)
 
-print("Set RF output to mid-amplitude.")
-sp.UpdateDDSPowerLevel(Percent(50.0))
-sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, Percent(50.0))
+print("Set RF output amplitude.")
+sp.UpdateDDSPowerLevel(Percent(80.0))
+sp.UpdateRFAmplitude(imslib.SignalPath.AmplitudeControl_INDEPENDENT, Percent(80.0))
+sp.SwitchRFAmplitudeControlSource(imslib.SignalPath.AmplitudeControl_INDEPENDENT)
 
 # Bypass Compensation for this test
 sp.EnableImagePathCompensation(False, False)
@@ -243,5 +244,6 @@ while True:
         print("Invalid selection. Please choose 1-6 or 'q'.")
 
 
+sp.ClearTone()
 
 ims.Disconnect()
