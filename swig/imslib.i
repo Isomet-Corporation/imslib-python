@@ -6,7 +6,7 @@
 %}
 
 %{
-// #include "AcoustoOptics.h"
+#include "AcoustoOptics.h"
 #include "Containers.h"
 #include "ImageProject.h"
 #include "LibVersion.h"
@@ -21,7 +21,7 @@
 #include "Image.h"
 #include "ImageOps.h"
 // #include "FileSystem.h"
-// #include "Compensation.h"
+#include "Compensation.h"
 // #include "ToneBuffer.h"
 #include "SignalPath.h"
 // #include "SystemFunc.h"
@@ -56,10 +56,15 @@
             std::ostringstream oss;
             oss << "[";
             oss << std::hex << std::setfill('0');
-            for (auto it = $self->begin(); it != $self->end(); ++it) {
-            if (it != $self->begin()) oss << " ";
-            oss << std::setw(2) << static_cast<unsigned>(*it);
-            }
+            for (int i=0; i<=3; i++) oss << std::setw(2) << static_cast<unsigned>($self->at(i));
+            oss << "-";
+            for (int i=4; i<=5; i++) oss << std::setw(2) << static_cast<unsigned>($self->at(i));
+            oss << "-";
+            for (int i=6; i<=7; i++) oss << std::setw(2) << static_cast<unsigned>($self->at(i));
+            oss << "-";
+            for (int i=8; i<=9; i++) oss << std::setw(2) << static_cast<unsigned>($self->at(i));
+            oss << "-";
+            for (int i=10; i<=15; i++) oss << std::setw(2) << static_cast<unsigned>($self->at(i));
             oss << "]";
             return oss.str();
         }
@@ -95,11 +100,11 @@
 %include "IMSSystem.i"
 %include "ConnectionList.i"
 // %include "FileSystem.i"
-// %include "AcoustoOptics.i"
+%include "AcoustoOptics.i"
 // %include "Auxiliary.i"
 %include "Image.i"
 %include "ImageOps.i"
-// %include "Compensation.i"
+%include "Compensation.i"
 // %include "ToneBuffer.i"
 %include "ImageProject.i"
 %include "SignalPath.i"

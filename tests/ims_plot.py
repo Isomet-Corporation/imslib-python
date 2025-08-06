@@ -166,3 +166,106 @@ def plot_ImageAll(img):
     plot_ImagPhase(img, axs[2,0])
     plot_ImagSyncA(img, axs[0,1])
     plot_ImagSyncD(img, axs[1,1])
+
+def plot_CompAmpl(comp, ax=None, title=""):
+    if ax == None:
+        fig, ax = plt.subplots()
+
+    d = [pt.Amplitude for pt in comp]
+
+    step = float(comp.Upper - comp.Lower) / (len(comp) - 1)
+    f = [float(comp.Lower) + i * step for i in range(len(comp))]
+
+    # Plot
+    ax.plot(f, d, label="Ampl")
+
+    ax.set_xlabel("Freq (MHz)")
+    ax.set_ylabel("Amplitude (%)")
+    if title=="":
+        ax.set_title("Amplitude Compensation")
+    else:
+        ax.set_title(title)
+    ax.legend()
+    ax.grid(True)
+
+def plot_CompPhase(comp, ax=None, title=""):
+    if ax == None:
+        fig, ax = plt.subplots()
+
+    d = [pt.Phase for pt in comp]
+
+    step = float(comp.Upper - comp.Lower) / (len(comp) - 1)
+    f = [float(comp.Lower) + i * step for i in range(len(comp))]
+
+    # Plot
+    ax.plot(f, d, label="Phase")
+
+    ax.set_xlabel("Freq (MHz)")
+    ax.set_ylabel("Phase (°)")
+    if title=="":
+        ax.set_title("Phase Compensation")
+    else:
+        ax.set_title(title)
+    ax.legend()
+    ax.grid(True)
+
+def plot_CompSyncA(comp, ax=None, title=""):
+    if ax == None:
+        fig, ax = plt.subplots()
+
+    # Extract each channel into a list
+    d = [max(0.0, min(1.0, pt.SyncAnlg)) for pt in comp]
+
+    step = float(comp.Upper - comp.Lower) / (len(comp) - 1)
+    f = [float(comp.Lower) + i * step for i in range(len(comp))]
+
+    # Plot
+    ax.plot(f, d, label="Sync Analogue")
+        
+    ax.set_xlabel("Freq (MHz)")
+    ax.set_ylabel("Analogue Value")
+    if title=="":
+        ax.set_title("Analogue Sync Data")
+    else:
+        ax.set_title(title)
+    ax.legend()
+    ax.grid(True)
+
+def plot_CompSyncD(comp, ax=None, title=""):
+    if ax == None:
+        fig, ax = plt.subplots()
+
+    # Extract Sync Data into a list
+    d = [pt.SyncDig for pt in comp]
+
+    step = float(comp.Upper - comp.Lower) / (len(comp) - 1)
+    f = [float(comp.Lower) + i * step for i in range(len(comp))]
+
+    # Extract each bit
+    bits = [[] for _ in range(12)]
+    for val in d:
+        for i in range(12):
+            bit = (val >> i) & 1
+            bits[i].append(bit)
+
+    # Plot
+    for i in range(12):
+        ax.step(f, [x+3*i for x in bits[i]], 'r', label="Sync Dig")
+
+    for tbit, bit in enumerate(bits):
+        ax.text(float(comp.Lower)-(float(comp.Upper - comp.Lower)/25), 3*tbit, str(tbit))
+        
+    ax.set_xlabel("Freq (MHz)")
+    ax.set_ylabel("Sync Data")
+    if title=="":
+        ax.set_title("Digital Sync Look-Up")
+    else:
+        ax.set_title(title)
+    ax.grid(True)
+
+def plot_CompAll(comp):
+    fig, axs = plt.subplots(4, figsize=(6,12))
+    plot_CompAmpl(comp, axs[0])
+    plot_CompPhase(comp, axs[1])
+    plot_CompSyncA(comp, axs[2])
+    plot_CompSyncD(comp, axs[3])

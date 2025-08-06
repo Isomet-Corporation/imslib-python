@@ -481,6 +481,22 @@ namespace iMS {
 
     distance& operator = (double arg);
     operator double() const;
+
+    %extend {
+        double __float__() {
+            return (double)*$self;
+        }
+        std::string __str__() {
+            std::ostringstream oss;
+            oss << *$self;
+            return oss.str();
+        }
+        %pythoncode %{
+        def __format__(self, spec):
+            val = float(self)
+            return format(val, spec)
+        %}        
+    }
   };
   
   template <typename Ratio1, typename Ratio2>

@@ -1,6 +1,7 @@
 %include <std_shared_ptr.i>
 %include <std_list.i>   // Support for std::list<T>
 %include <std_common.i>
+%include <std_string.i>
 %include <typemaps.i>
 %include <exception.i>
 
@@ -12,32 +13,50 @@
 // Define operator<< for types that don't have it
 %rename(SeqEntry_Stream) operator <<(std::ostream& stream, const std::shared_ptr < SequenceEntry >& seq);
 %inline %{
+    std::ostream& operator <<(std::ostream& stream, const std::shared_ptr < SequenceEntry >& seq) {
+        stream << seq->UUID();
+        return stream;
+    }
     namespace iMS {
         std::ostream& operator <<(std::ostream& stream, const ImageGroup& grp) {
             stream << grp.Name();
             return stream;
-        }    
-    }
-    std::ostream& operator <<(std::ostream& stream, const std::shared_ptr < SequenceEntry >& seq) {
-        stream << seq->UUID();
-        return stream;
-    }    
-    namespace iMS {
+        }   
         std::ostream& operator <<(std::ostream& stream, const Image& img) {
             stream << img.Name();
             return stream;
         }    
-    }
-    namespace iMS {
         std::ostream& operator <<(std::ostream& stream, const ImagePoint& pt) {
             for (int i=1; i<=4; i++) {
                 auto& fap = pt.GetFAP(RFChannel(i));
                 stream << "Ch" << i << ": " << fap.freq << "MHz/" << fap.ampl << "%/" << fap.phase << "deg" << std::endl;
             }
-            stream << "Sync: A1 = " << pt.GetSyncA(0) << " A2 = " << pt.GetSyncA(1) << " D = 0x" << std::hex << std::setfill('0') << std::setw(4) << pt.GetSyncD();
+            stream << "Sync: A1 = " << pt.GetSyncA(0) << " A2 = " << pt.GetSyncA(1) << " D = 0x" << std::hex << std::setfill('0') << std::setw(3) << pt.GetSyncD();
             return stream;
         }    
-    }
+        std::ostream& operator <<(std::ostream& stream, const CompensationFunction& func) {
+            stream << func.Name();
+            return stream;
+        }    
+        std::ostream& operator <<(std::ostream& stream, const CompensationPointSpecification& pt_spec) {
+            stream << pt_spec.Freq() <<": ";
+//            stream << pt_spec.Spec();
+
+            return stream;
+        } 
+        // std::ostream& operator <<(std::ostream& stream, const CompensationPoint& pt) {
+        //     stream << pt.Amplitude() << " / ";
+        //     stream << pt.Phase() << " / ";
+        //     stream << pt.SyncAnlg() << " / 0x";
+        //     stream << std::hex << std::setfill('0') << std::setw(3) << pt.SyncDig();
+
+        //     return stream;
+        // }    
+        std::ostream& operator <<(std::ostream& stream, const CompensationTable& table) {
+            stream << table.Name() << ": (" << table.Size() << "pts): " << table.LowerFrequency() << "-" << table.UpperFrequency();
+            return stream;
+        }   
+    }  
 %}
 
 namespace iMS {
@@ -54,7 +73,7 @@ template <typename CTYPE>
     const_iterator cbegin() const;
     const_iterator cend() const;
     %extend {
-        CTYPE& __getitem__(size_t i) {
+        const CTYPE& __getitem__(size_t i) {
             if (i >= $self->size()) {
                 throw std::out_of_range("Index out of range");
             }
@@ -162,11 +181,11 @@ template <typename CTYPE>
 //%attribute_readonly(iMS::ListBase< iMS::ImageGroup >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
 %attributestring(iMS::ListBase< iMS::ImageGroup >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
-// %template(ListBase_CompensationFunction) iMS::ListBase< iMS::CompensationFunction >;
-// //%attributeval(iMS::ListBase< iMS::CompensationFunction >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
-// //%attributeref(iMS::ListBase< iMS::CompensationFunction >, std::string, Name);
-// //%attribute_readonly(iMS::ListBase< iMS::CompensationFunction >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
-// //%attributestring(iMS::ListBase< iMS::CompensationFunction >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
+%template(ListBase_CompensationFunction) iMS::ListBase< iMS::CompensationFunction >;
+%attributeval(iMS::ListBase< iMS::CompensationFunction >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
+%attributeref(iMS::ListBase< iMS::CompensationFunction >, std::string, Name);
+//%attribute_readonly(iMS::ListBase< iMS::CompensationFunction >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
+%attributestring(iMS::ListBase< iMS::CompensationFunction >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
 // %template(ListBase_ToneBuffer) iMS::ListBase< iMS::ToneBuffer >;
 // //%attributeval(iMS::ListBase< iMS::ToneBuffer >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
@@ -174,11 +193,11 @@ template <typename CTYPE>
 // //%attribute_readonly(iMS::ListBase< iMS::ToneBuffer >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
 // //%attributestring(iMS::ListBase< iMS::ToneBuffer >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
-// %template(ListBase_CompensationPointSpecification) iMS::ListBase< iMS::CompensationPointSpecification >;
-// //%attributeval(iMS::ListBase< iMS::CompensationPointSpecification >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
-// //%attributeref(iMS::ListBase< iMS::CompensationPointSpecification >, std::string, Name);
-// //%attribute_readonly(iMS::ListBase< iMS::CompensationPointSpecification >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
-// //%attributestring(iMS::ListBase< iMS::CompensationPointSpecification >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
+%template(ListBase_CompensationPointSpecification) iMS::ListBase< iMS::CompensationPointSpecification >;
+%attributeval(iMS::ListBase< iMS::CompensationPointSpecification >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
+%attributeref(iMS::ListBase< iMS::CompensationPointSpecification >, std::string, Name);
+//%attribute_readonly(iMS::ListBase< iMS::CompensationPointSpecification >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
+%attributestring(iMS::ListBase< iMS::CompensationPointSpecification >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
 %template(StringList) iMS::ListBase< std::string >;
 %attributeval(iMS::ListBase< std::string >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
@@ -310,14 +329,14 @@ template <typename CTYPE>
 //%attribute_readonly(iMS::DequeBase< iMS::Image >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
 %attributestring(iMS::DequeBase< iMS::Image >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
-//%template(DequeBase_CompensationPoint) iMS::DequeBase< iMS::CompensationPoint >;
-//%attributeval(iMS::DequeBase< iMS::CompensationPoint >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
-//%attributeref(iMS::DequeBase< iMS::CompensationPoint >, std::string, Name);
+%template(DequeBase_CompensationPoint) iMS::DequeBase< iMS::CompensationPoint >;
+%attributeval(iMS::DequeBase< iMS::CompensationPoint >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
+%attributeref(iMS::DequeBase< iMS::CompensationPoint >, std::string, Name);
 //%attribute_readonly(iMS::DequeBase< iMS::CompensationPoint >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
-//%attributestring(iMS::DequeBase< iMS::CompensationPoint >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
+%attributestring(iMS::DequeBase< iMS::CompensationPoint >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
-//%template(DequeBase_CompensationTable) iMS::DequeBase< iMS::CompensationTable >;
-//%attributeval(iMS::DequeBase< iMS::CompensationTable >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
-//%attributeref(iMS::DequeBase< iMS::CompensationTable >, std::string, Name);
+%template(DequeBase_CompensationTable) iMS::DequeBase< iMS::CompensationTable >;
+%attributeval(iMS::DequeBase< iMS::CompensationTable >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
+%attributeref(iMS::DequeBase< iMS::CompensationTable >, std::string, Name);
 //%attribute_readonly(iMS::DequeBase< iMS::CompensationPoint >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
-//%attributestring(iMS::DequeBase< iMS::CompensationTable >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
+%attributestring(iMS::DequeBase< iMS::CompensationTable >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);

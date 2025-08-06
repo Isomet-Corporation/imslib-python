@@ -187,7 +187,7 @@ namespace iMS {
 	// };
     
     ImagePlayer(const IMSSystem& ims, const Image& img);
-    ImagePlayer(const IMSSystem& ims, const Image& img, const ImagePlayer::PlayConfiguration& cfg);
+    //ImagePlayer(const IMSSystem& ims, const Image& img, const ImagePlayer::PlayConfiguration& cfg);
     ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const kHz InternalClock);
     ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const int ExtClockDivide);
     //ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const kHz InternalClock);
