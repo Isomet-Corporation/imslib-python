@@ -1,11 +1,69 @@
 import imslib
 import sys
-import os
+
+from ims_events import EventWaiter
 
 from imslib import kHz, Percent
 from imslib import PointClock, ImageTrigger, StopStyle
 
 from ims_scan import iMSScanner
+from ims_apputil import KeyListener
+
+import threading
+import queue
+import time
+import sys
+
+#############################
+# Event loop thread
+#############################
+
+class PlayerEventLoop(threading.Thread):
+    def __init__(self, player, waiter, event_messages, stop_event_ids=None):
+        super().__init__(daemon=True)
+        self.waiter = waiter
+        self.player = player
+        self.event_messages = event_messages
+        self.stop_event_ids = set(stop_event_ids or [])
+        self._running = threading.Event()
+        self._queue = queue.Queue()
+
+    def subscribe(self):
+        for evt in self.event_messages.keys():
+            self.player.ImagePlayerEventSubscribe(evt, self.waiter)
+
+    def unsubscribe(self):
+        for evt in self.event_messages.keys():
+            self.player.ImagePlayerEventUnsubscribe(evt, self.waiter)
+
+    def run(self):
+        self._running.set()
+        self.subscribe()
+        try:
+            while self._running.is_set():
+                try:
+                    msg, args = self.waiter.wait(timeout=0.1)
+                    self._queue.put((msg, args))
+                    if msg in self.stop_event_ids:
+                        self._running.clear()
+                except TimeoutError:
+                    continue
+        finally:
+            self.unsubscribe()
+
+    def get_event(self):
+        try:
+            return self._queue.get_nowait()
+        except queue.Empty:
+            return None
+
+    def stop(self):
+        self._running.clear()
+
+EVENT_MESSAGES = {
+    imslib.ImagePlayerEvents_POINT_PROGRESS: "Progress",
+    imslib.ImagePlayerEvents_IMAGE_FINISHED: "Playback finished",
+}
 
 print("Test 08: Play Images on iMS System")
 
@@ -149,15 +207,54 @@ while True:
             if index >= len(table) or index < 0:
                 index = -1
         if ic.is_internal_clock():
-            ip = imslib.ImagePlayer(ims, table[index], ic.clockRate)
+            player = imslib.ImagePlayer(ims, table[index], ic.clockRate)
         else:
-            ip = imslib.ImagePlayer(ims, table[index], ic.clockDiv)
+            player = imslib.ImagePlayer(ims, table[index], ic.clockDiv)
         
-        ip.Config = ic.cfg
-        ip.Play()
-        # Currently there is no feedback on image progress or play/stop state so we must prompt the user
-        os.system('pause')
-        ip.Stop(StopStyle.IMMEDIATELY)
+        player.Config = ic.cfg
+
+        waiter = EventWaiter()
+        waiter.listen_for(list(EVENT_MESSAGES.keys()))
+
+        # Start threads to listen for callbacks from library and input from user
+        event_loop = PlayerEventLoop(player, waiter, EVENT_MESSAGES, stop_event_ids=[imslib.ImagePlayerEvents_IMAGE_FINISHED])
+        key_listener = KeyListener()
+
+        event_loop.start()
+        key_listener.start()
+
+        player.Play()
+
+        print("Press <SPACE> to abort playback")
+        running = True
+        while running:
+            # Handle events
+            event = event_loop.get_event()
+            if event:
+                msg, args = event
+                friendly_msg = EVENT_MESSAGES.get(msg, f"Unknown event {msg}")
+                if msg == imslib.ImagePlayerEvents_POINT_PROGRESS:
+                    progress = args[0] if args else 0
+                    print(f"\r{friendly_msg}: {progress}   ", end="", flush=True)
+                elif msg == imslib.ImagePlayerEvents_IMAGE_FINISHED:
+                    print(f"\n{friendly_msg}")
+                    running = False
+
+            # Handle keyboard input
+            key = key_listener.get_key()
+            if key:
+                if key.lower() == ' ':
+                    player.Stop(StopStyle.IMMEDIATELY)
+
+            time.sleep(0.5)
+            player.GetProgress()
+
+        # Stop threads cleanly
+        event_loop.stop()
+        key_listener.stop()
+        event_loop.join()
+        key_listener.join()
+        
     elif choice == '3':
         index = -1
         print()

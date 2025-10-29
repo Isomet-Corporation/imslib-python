@@ -4,16 +4,17 @@
 
 namespace iMS {
 
-    class DownloadEvents {
-        enum Events {
+    //class DownloadEvents {
+        enum class DownloadEvents {
             DOWNLOAD_FINISHED,
             DOWNLOAD_ERROR,
             VERIFY_SUCCESS,
             VERIFY_FAIL,
             DOWNLOAD_FAIL_MEMORY_FULL,
-            DOWNLOAD_FAIL_TRANSFER_ABORT
+            DOWNLOAD_FAIL_TRANSFER_ABORT,
+            IMAGE_DOWNLOAD_NEW_HANDLE
         };
-    };
+    //};
 
   using ImageDownloadEvents = DownloadEvents;
   using SequenceDownloadEvents = DownloadEvents;
@@ -25,6 +26,7 @@ namespace iMS {
   {
   public:
     ImageDownload(IMSSystem& ims, const Image& img);
+    void SetFormat(const ImageFormat& fmt);
     bool StartDownload();
     bool StartVerify();
     int GetVerifyError();
@@ -36,13 +38,13 @@ namespace iMS {
 
 namespace iMS {
 
-    class ImagePlayerEvents {
-        static enum ImagePlayerEvents {
+    //class ImagePlayerEvents {
+        enum class ImagePlayerEvents {
             POINT_PROGRESS,
             IMAGE_STARTED,
             IMAGE_FINISHED
         };
-    };
+    //};
 
 }
 

@@ -208,7 +208,7 @@ namespace iMS {
   struct SequenceEntry {
     SequenceEntry();
     SequenceEntry(const std::array<std::uint8_t, 16>& uuid, const int rpts = 0);
-    //  virtual ~SequenceEntry() = 0;
+    virtual ~SequenceEntry() = 0;
     SequenceEntry(const SequenceEntry&);
     SequenceEntry& operator =(const SequenceEntry&);
     virtual bool operator==(SequenceEntry const& rhs) const = 0;

@@ -158,14 +158,15 @@ namespace iMS {
   class IConnectionSettings
   {
   public:
-    virtual const std::string& Ident() const = 0;
-    virtual void ProcessData(const std::vector<std::uint8_t>& data) = 0;
-    virtual const std::vector<std::uint8_t>& ProcessData() const = 0;
+  	virtual ~IConnectionSettings() {}
+//    virtual const std::string& Ident() const = 0;
+//    virtual void ProcessData(const std::vector<std::uint8_t>& data) = 0;
+//    virtual const std::vector<std::uint8_t>& ProcessData() const = 0;
   };
 }
 
-%ignore iMS::CS_ETH::ProcessData(const std::vector<std::uint8_t>& data);
-%ignore iMS::CS_ETH::ProcessData() const;
+//%ignore iMS::CS_ETH::ProcessData(const std::vector<std::uint8_t>& data);
+//%ignore iMS::CS_ETH::ProcessData() const;
 
 %attribute(iMS::CS_ETH, bool, dhcp, UseDHCP, UseDHCP);
 %attributestring(iMS::CS_ETH, std::string, addr, Address, Address);
@@ -193,13 +194,13 @@ namespace iMS {
        void Gateway(const std::string& gw);
        std::string Gateway() const;
        const std::string& Ident() const;
-       void ProcessData(const std::vector<std::uint8_t>& data);
-       const std::vector<std::uint8_t>& ProcessData() const;
+//       void ProcessData(const std::vector<std::uint8_t>& data);
+//       const std::vector<std::uint8_t>& ProcessData() const;
   };
 }
 
-%ignore iMS::CS_RS422::ProcessData(const std::vector<std::uint8_t>& data);
-%ignore iMS::CS_RS422::ProcessData() const;
+//%ignore iMS::CS_RS422::ProcessData(const std::vector<std::uint8_t>& data);
+//%ignore iMS::CS_RS422::ProcessData() const;
 
 %attribute(iMS::CS_RS422, unsigned int, baud, BaudRate, BaudRate);
 
@@ -217,8 +218,8 @@ namespace iMS {
 	unsigned int BaudRate() const;
 
 		const std::string& Ident() const;
-		void ProcessData(const std::vector<std::uint8_t>& data);
-		const std::vector<std::uint8_t>& ProcessData() const;
+//		void ProcessData(const std::vector<std::uint8_t>& data);
+//		const std::vector<std::uint8_t>& ProcessData() const;
   };
 }
 

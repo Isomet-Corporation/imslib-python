@@ -62,8 +62,17 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/${IMS_LIB_SUBMODULE}/include
 )
 
+# SWIG options:
+#  -c++        : C++ mode
+#  -threads    : Python GIL-safe callback support
+#  -directors  : Support SWIG Callbacks
+#  -Wall       : Warnings
+set(CMAKE_SWIG_FLAGS "-c++" "-threads"  "-directors" "-Wall")
+
 # Define the SWIG module
 set(SWIG_INTERFACE swig/imslib.i)
+
+set(CMAKE_SWIG_OUTDIR ${CMAKE_CURRENT_SOURCE_DIR}/python)
 
 set_property(SOURCE ${SWIG_INTERFACE} PROPERTY CPLUSPLUS ON)
 
@@ -80,3 +89,13 @@ add_subdirectory(${IMS_LIB_SUBMODULE})
 
 target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARY_DIRS})
 target_link_libraries(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARIES} ${IMS_LIBRARY_NAME})
+
+# Optional: copy the .py file next to the module for easy import
+add_custom_command(
+    TARGET ${SWIG_MODULE_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+            $<TARGET_FILE:${SWIG_MODULE_NAME}>
+            ${CMAKE_SWIG_OUTDIR}
+)
+
+message(STATUS "SWIG Python module will be in: ${CMAKE_SWIG_OUTDIR}")
