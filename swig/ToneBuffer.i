@@ -1,397 +1,125 @@
-%include <std_shared_ptr.i>
 
-%attribute_custom(iMS::TBEntry, MHz, FreqCh1, GetFreqCh1, SetFreqCh1, &self_->GetFAP(RFChannel(1)).freq, {\
-    FAP temp = self_->GetFAP(RFChannel(1));\
-    temp.freq = *val_;\
-    self_->SetFAP(RFChannel(1), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) MHz FreqCh1 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("FreqCh1");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Percent, AmplCh1, GetAmplCh1, SetAmplCh1, &self_->GetFAP(RFChannel(1)).ampl, {\
-    FAP temp = self_->GetFAP(RFChannel(1));\
-    temp.ampl = *val_;\
-    self_->SetFAP(RFChannel(1), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Percent AmplCh1 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("AmplCh1");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Degrees, PhaseCh1, GetPhaseCh1, SetPhaseCh1, &self_->GetFAP(RFChannel(1)).phase, {\
-    FAP temp = self_->GetFAP(RFChannel(1));\
-    temp.phase = *val_;\
-    self_->SetFAP(RFChannel(1), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Degrees PhaseCh1 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("PhaseCh1");
-  }
-%}
-%attribute_custom(iMS::TBEntry, MHz, FreqCh2, GetFreqCh2, SetFreqCh2, &self_->GetFAP(RFChannel(2)).freq, {\
-    FAP temp = self_->GetFAP(RFChannel(2));\
-    temp.freq = *val_;\
-    self_->SetFAP(RFChannel(2), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) MHz FreqCh2 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("FreqCh2");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Percent, AmplCh2, GetAmplCh2, SetAmplCh2, &self_->GetFAP(RFChannel(2)).ampl, {\
-    FAP temp = self_->GetFAP(RFChannel(2));\
-    temp.ampl = *val_;\
-    self_->SetFAP(RFChannel(2), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Percent AmplCh2 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("AmplCh2");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Degrees, PhaseCh2, GetPhaseCh2, SetPhaseCh2, &self_->GetFAP(RFChannel(2)).phase, {\
-    FAP temp = self_->GetFAP(RFChannel(2));\
-    temp.phase = *val_;\
-    self_->SetFAP(RFChannel(2), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Degrees PhaseCh2 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("PhaseCh2");
-  }
-%}
-%attribute_custom(iMS::TBEntry, MHz, FreqCh3, GetFreqCh3, SetFreqCh3, &self_->GetFAP(RFChannel(3)).freq, {\
-    FAP temp = self_->GetFAP(RFChannel(3));\
-    temp.freq = *val_;\
-    self_->SetFAP(RFChannel(3), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) MHz FreqCh3 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("FreqCh3");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Percent, AmplCh3, GetAmplCh3, SetAmplCh3, &self_->GetFAP(RFChannel(3)).ampl, {\
-    FAP temp = self_->GetFAP(RFChannel(3));\
-    temp.ampl = *val_;\
-    self_->SetFAP(RFChannel(3), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Percent AmplCh3 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("AmplCh3");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Degrees, PhaseCh3, GetPhaseCh3, SetPhaseCh3, &self_->GetFAP(RFChannel(3)).phase, {\
-    FAP temp = self_->GetFAP(RFChannel(3));\
-    temp.phase = *val_;\
-    self_->SetFAP(RFChannel(3), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Degrees PhaseCh3 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("PhaseCh3");
-  }
-%}
-%attribute_custom(iMS::TBEntry, MHz, FreqCh4, GetFreqCh4, SetFreqCh4, &self_->GetFAP(RFChannel(4)).freq, {\
-    FAP temp = self_->GetFAP(RFChannel(4));\
-    temp.freq = *val_;\
-    self_->SetFAP(RFChannel(4), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) MHz FreqCh4 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("FreqCh4");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Percent, AmplCh4, GetAmplCh4, SetAmplCh4, &self_->GetFAP(RFChannel(4)).ampl, {\
-    FAP temp = self_->GetFAP(RFChannel(4));\
-    temp.ampl = *val_;\
-    self_->SetFAP(RFChannel(4), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Percent AmplCh4 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("AmplCh4");
-  }
-%}
-%attribute_custom(iMS::TBEntry, Degrees, PhaseCh4, GetPhaseCh4, SetPhaseCh4, &self_->GetFAP(RFChannel(4)).phase, {\
-    FAP temp = self_->GetFAP(RFChannel(4));\
-    temp.phase = *val_;\
-    self_->SetFAP(RFChannel(4), temp);\
-  });
-%typemap(csvarin, excode=SWIGEXCODE2) Degrees PhaseCh4 %{
-  set {
-    $imcall;$excode 
-    this.NotifyPropertyChanged("PhaseCh4");
-  }
-%}
 namespace iMS {
-  //typedef ImagePoint TBEntry;
+    enum class ToneBufferEvents
+    {
+        DOWNLOAD_FINISHED,
+        DOWNLOAD_ERROR
+    };
 
-  enum class ToneBufferEvents
-  {
-    DOWNLOAD_FINISHED,
-    DOWNLOAD_ERROR
-  };
-  
-  %rename(__eq__) TBEntry::operator==;
-  %typemap(csinterfaces) TBEntry "System.IDisposable, System.ComponentModel.INotifyPropertyChanged";
-  class TBEntry
-  {
-    %typemap(cscode) TBEntry %{
-      public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+    using TBEntry = ImagePoint;
 
-      public void NotifyPropertyChanged(string propName)
-      {
-	if(this.PropertyChanged != null)
-	  this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propName));
-      }
+    // In Python, return an ImagePoint object when a TBEntry is created
+    %pythoncode %{
+    def TBEntry(*args, **kwargs):
+        return ImagePoint(*args, **kwargs)     
     %}
-  public:
-    TBEntry();
-    TBEntry(FAP fap);
-    TBEntry(FAP ch1, FAP ch2, FAP ch3, FAP ch4);
-    //    TBEntry(FAP fap, float synca, unsigned int syncd);
-    //    TBEntry(FAP ch1, FAP ch2, FAP ch3, FAP ch4, float synca_1, float synca_2, unsigned int syncd);
-    
-    bool operator==(TBEntry const& rhs) const;
-    const FAP& GetFAP(const RFChannel) const;
-    void SetFAP(const RFChannel, const FAP&);
-    //FAP& SetFAP(const RFChannel);
-    void SetAll(const FAP&);
-    /*const float& GetSyncA(int index);
-    void SetSyncA(int index, float value);
-    const unsigned int& GetSyncD() const;
-    void SetSyncD(unsigned int);*/
-  };
-
 }
 
-%template(TBArray) std::array<iMS::TBEntry, 256>;
 %attributeref(iMS::ToneBuffer, std::string, Name, Name);
 %attribute2(iMS::ToneBuffer, %arg(const std::array<uint8_t, 16>), GetUUID, UUID);
 
 namespace iMS {
 
+    %extend ToneBuffer {
+        TBEntry &_getitem(size_t i) {
+            if (i >= $self->Size())
+                throw std::out_of_range("ToneBuffer index out of range");
+            return (*$self)[i];
+        }
+
+        void __setitem__(size_t i, const TBEntry &val) {
+            if (i >= $self->Size())
+                throw std::out_of_range("ToneBuffer index out of range");
+            (*$self)[i] = val;
+        }
+
+        size_t __len__() {
+            return $self->Size();
+        }
+
+        %pythoncode %{
+            def __iter__(self):
+                for i in range(len(self)):
+                    yield self[i]
+            def __getitem__(self, idx):
+                if isinstance(idx, slice):
+                    return [self[i] for i in range(*idx.indices(len(self)))]
+                else:
+                    if idx < 0: idx += len(self)
+                    if idx < 0 or idx >= len(self):
+                        raise IndexError("ToneBuffer index out of range")
+                    return self._getitem(idx)
+        %}
+    }
+
   %rename(__eq__) ToneBuffer::operator==;
   %ignore ToneBuffer::operator=;
-  %typemap(csinterfaces) ToneBuffer "System.IDisposable, System.Collections.IEnumerable";
   class ToneBuffer {
-    %typemap(cscode) ToneBuffer %{
-      public $csclassname(System.Collections.ICollection c) : this() {
-	if (c == null)
-	  throw new System.ArgumentNullException("c");
-	int i = 0;
-	foreach (TBEntry element in c)
-	  {
-	    this.setitem(i, element);
-	  }
-      }
-      
-      public bool IsFixedSize {
-	get {
-	  return true;
-	}
-      }
-      
-      public bool IsReadOnly {
-	get {
-	  return false;
-	}
-      }
-      
-      public TBEntry this[int index]  {
-	get {
-	  return getitem(index);
-	}
-	set {
-	  setitem(index, value);
-	}
-      }
-      
-      public int Count {
-	get {
-	  return (int)Size();
-	}
-      }
-      
-      public bool IsSynchronized {
-	get {
-	  return false;
-	}
-      }
-      
-      public void CopyTo(TBEntry[] array)
-      {
-	CopyTo(0, array, 0, this.Count);
-      }
-      
-      public void CopyTo(TBEntry[] array, int arrayIndex)
-      {
-	CopyTo(0, array, arrayIndex, this.Count);
-      }
-      
-      public void CopyTo(int index, TBEntry[] array, int arrayIndex, int count)
-      {
-	if (array == null)
-	  throw new System.ArgumentNullException("array");
-	if (index < 0)
-	  throw new System.ArgumentOutOfRangeException("index", "Value is less than zero");
-	if (arrayIndex < 0)
-	  throw new System.ArgumentOutOfRangeException("arrayIndex", "Value is less than zero");
-	if (count < 0)
-	  throw new System.ArgumentOutOfRangeException("count", "Value is less than zero");
-	if (array.Rank > 1)
-	  throw new System.ArgumentException("Multi dimensional array.", "array");
-	if (index+count > this.Count || arrayIndex+count > array.Length)
-	  throw new System.ArgumentException("Number of elements to copy is too large.");
-	for (int i=0; i<count; i++)
-	  array.SetValue(getitemcopy(index+i), arrayIndex+i);
-      }
-      
-      System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() {
-	return new $csclassnameEnumerator(this);
-      }
-      
-      public $csclassnameEnumerator GetEnumerator() {
-	return new $csclassnameEnumerator(this);
-      }
-      
-      // Type-safe enumerator
-      /// Note that the IEnumerator documentation requires an InvalidOperationException to be thrown
-      /// whenever the collection is modified. This has been done for changes in the size of the
-      /// collection but not when one of the elements of the collection is modified as it is a bit
-      /// tricky to detect unmanaged code that modifies the collection under our feet.
-      public sealed class $csclassnameEnumerator : System.Collections.IEnumerator
-	, System.Collections.Generic.IEnumerator<TBEntry>
-	{
-	  private $csclassname collectionRef;
-	  private int currentIndex;
-	  private object currentObject;
-	  private int currentSize;
-	  
-	  public $csclassnameEnumerator($csclassname collection) {
-	    collectionRef = collection;
-	    currentIndex = -1;
-	    currentObject = null;
-	    currentSize = collectionRef.Count;
-	  }
-	  
-	  // Type-safe iterator Current
-	  public TBEntry Current {
-	    get {
-	      if (currentIndex == -1)
-		throw new System.InvalidOperationException("Enumeration not started.");
-	      if (currentIndex > currentSize - 1)
-		throw new System.InvalidOperationException("Enumeration finished.");
-	      if (currentObject == null)
-		throw new System.InvalidOperationException("Collection modified.");
-	      return (TBEntry)currentObject;
-	    }
-	  }
-	  
-	  private System.Collections.IEnumerator GetEnumerator()
-	  {
-	    return (System.Collections.IEnumerator)this;
-	  }
-	  
-	  // Type-unsafe IEnumerator.Current
-	  object System.Collections.IEnumerator.Current {
-	    get {
-	      return Current;
-	    }
-	  }
-	  
-	  public bool MoveNext() {
-	    int size = collectionRef.Count;
-	    bool moveOkay = (currentIndex+1 < size) && (size == currentSize);
-	    if (moveOkay) {
-	      currentIndex++;
-	      currentObject = collectionRef[currentIndex];
-	    } else {
-	      currentObject = null;
-	    }
-	    return moveOkay;
-	  }
-	  
-	  public void Reset() {
-	    currentIndex = -1;
-	    currentObject = null;
-	    if (collectionRef.Count != currentSize) {
-	      throw new System.InvalidOperationException("Collection modified.");
-	    }
-	  }
-	  
-	  public void Dispose() {
-	    currentIndex = -1;
-	    currentObject = null;
-	  }
-	}
-      %}
-    
   public:
-    %extend {
-      TBEntry getitemcopy(int index) throw (std::out_of_range) {
-        if (index>=0 && index<(int)$self->Size())
-          return (*$self)[(std::size_t)index];
-        else
-          throw std::out_of_range("index");
-      }
-      const TBEntry& getitem(int index) throw (std::out_of_range) {
-        if (index>=0 && index<(int)$self->Size())
-          return (*$self)[(std::size_t)index];
-        else
-          throw std::out_of_range("index");
-      }
-      void setitem(int index, const TBEntry& val) throw (std::out_of_range) {
-        if (index>=0 && index<(int)$self->Size())
-          *((*$self).begin() + index) = val;
-        else
-          throw std::out_of_range("index");
-      }
-    }    
-    
-    //    typedef TBArray::iterator iterator;
-    //    typedef TBArray::const_iterator const_iterator;
-    ToneBuffer();
-    ToneBuffer(const TBEntry& tbe);
-    ToneBuffer(const int entry);
+    ToneBuffer(const std::string& name = "");
+    ToneBuffer(const TBEntry& tbe, const std::string& name = "");
+    ToneBuffer(const int entry, const std::string& name = "");
     ToneBuffer(const ToneBuffer &);
     ToneBuffer &operator =(const ToneBuffer &);
-    //    iterator begin();
-    //    iterator end();
-    //		const_iterator begin() const;
-    //		const_iterator end() const;
-    //    const_iterator cbegin() const;
-    //    const_iterator cend() const;
+
     const std::array<std::uint8_t, 16> UUID() const;
     
     //const TBEntry& operator[](std::size_t idx) const;
     //TBEntry& operator[](std::size_t idx);
     bool operator==(ToneBuffer const& rhs) const;
     const std::size_t Size() const;
+    const std::string& Name() const;
+    std::string& Name();
   };
 
 }
 
 namespace iMS {
 
+    %rename(StartDownloadAll) ToneBufferDownload::StartDownload();
+    %rename(StartDownloadIndex) ToneBufferDownload::StartDownload(std::size_t index);
+    %rename(StartDownloadRange) ToneBufferDownload::StartDownload(std::size_t index, std::size_t count);
+    
+    %extend ToneBufferDownload {
+        %pythoncode %{
+            def StartDownload(self, arg1=None, arg2=None):
+                """
+                Pythonic StartDownload overloads:
+                - StartDownload()               → full buffer
+                - StartDownload(index)          → single element
+                - StartDownload(start, end)     → range
+                - StartDownload(slice)          → slice range
+                """
+
+                if arg1 is None:
+                    return _imslib.ToneBufferDownload_StartDownloadAll(self)
+
+                elif isinstance(arg1, int) and arg2 is None:
+                    return _imslib.ToneBufferDownload_StartDownloadIndex(self, arg1)
+
+                elif isinstance(arg1, int) and isinstance(arg2, int):
+                    return _imslib.ToneBufferDownload_StartDownloadRange(self, arg1, arg2)
+
+                elif isinstance(arg1, slice):
+                    start, stop, step = arg1.indices(256)
+                    if step != 1:
+                        raise ValueError("Step slicing not supported")
+                    return _imslib.ToneBufferDownload_StartDownloadRange(self, start, (stop - start))
+
+                else:
+                    raise TypeError("Invalid arguments for StartDownload")
+        %}
+    }
+
   class ToneBufferDownload
   {
   public:
     ToneBufferDownload(IMSSystem& ims, const ToneBuffer& tbl);
     bool StartDownload();
+    bool StartDownload(std::size_t index, std::size_t count);
+    bool StartDownload(std::size_t index);
     //    bool StartDownload(ToneBuffer::const_iterator first, ToneBuffer::const_iterator last);
     //    bool StartDownload(ToneBuffer::const_iterator single);
-    bool StartVerify();
-    int GetVerifyError();
     void ToneBufferDownloadEventSubscribe(const int message, IEventHandler* handler);
     void ToneBufferDownloadEventUnsubscribe(const int message, const IEventHandler* handler);
     const FileSystemIndex Store(const std::string& FileName, FileDefault def = FileDefault::NON_DEFAULT) const;	

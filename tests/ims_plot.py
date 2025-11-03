@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Image Plotting Functions
 ###################################
 
-def plot_ImageFreq(img, ax=None, title=""):
+def plot_ImageFreq(img, ax=None, title="", **kwargs):
     if ax == None:
         fig, ax = plt.subplots()
 
@@ -16,10 +16,10 @@ def plot_ImageFreq(img, ax=None, title=""):
     ch4 = [pt.FreqCh4 for pt in img]
 
     # Plot
-    ax.plot(ch1, label="Ch1")
-    ax.plot(ch2, label="Ch2")
-    ax.plot(ch3, label="Ch3")
-    ax.plot(ch4, label="Ch4")
+    ax.plot(ch1, label="Ch1", **kwargs)
+    ax.plot(ch2, label="Ch2", **kwargs)
+    ax.plot(ch3, label="Ch3", **kwargs)
+    ax.plot(ch4, label="Ch4", **kwargs)
 
     ax.set_xlabel("Index")
     ax.set_ylabel("Frequency (MHz)")

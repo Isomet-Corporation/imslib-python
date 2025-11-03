@@ -26,6 +26,10 @@
             stream << img.Name();
             return stream;
         }    
+        std::ostream& operator <<(std::ostream& stream, const ToneBuffer& tbuf) {
+            stream << tbuf.Name();
+            return stream;
+        }    
         std::ostream& operator <<(std::ostream& stream, const ImagePoint& pt) {
             for (int i=1; i<=4; i++) {
                 auto& fap = pt.GetFAP(RFChannel(i));
@@ -187,11 +191,11 @@ template <typename CTYPE>
 //%attribute_readonly(iMS::ListBase< iMS::CompensationFunction >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
 %attributestring(iMS::ListBase< iMS::CompensationFunction >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
-// %template(ListBase_ToneBuffer) iMS::ListBase< iMS::ToneBuffer >;
-// //%attributeval(iMS::ListBase< iMS::ToneBuffer >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
-// //%attributeref(iMS::ListBase< iMS::ToneBuffer >, std::string, Name);
+%template(ListBase_ToneBuffer) iMS::ListBase< iMS::ToneBuffer >;
+%attributeval(iMS::ListBase< iMS::ToneBuffer >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
+%attributeref(iMS::ListBase< iMS::ToneBuffer >, std::string, Name);
 // //%attribute_readonly(iMS::ListBase< iMS::ToneBuffer >, std::time_t, ModifiedTime, ModifiedTime, self_->ModifiedTime());
-// //%attributestring(iMS::ListBase< iMS::ToneBuffer >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
+%attributestring(iMS::ListBase< iMS::ToneBuffer >, std::string, ModifiedTimeFormat, ModifiedTimeFormat);
 
 %template(ListBase_CompensationPointSpecification) iMS::ListBase< iMS::CompensationPointSpecification >;
 %attributeval(iMS::ListBase< iMS::CompensationPointSpecification >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);
