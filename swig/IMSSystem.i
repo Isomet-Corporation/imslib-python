@@ -316,7 +316,7 @@ namespace iMS {
     bool RetrieveSettings(IConnectionSettings& settings);  // ignored
     private:
         IMSSystem();
-        IMSSystem(IConnectionManager* const, const std::string&);
+        IMSSystem(const std::shared_ptr<IConnectionManager>, const std::string&);
   };
 
   %extend IMSSystem {
