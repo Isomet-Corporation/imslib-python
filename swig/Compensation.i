@@ -89,14 +89,14 @@ namespace iMS {
   {
   public:
     CompensationTable();
-    CompensationTable(const IMSSystem& iMS);
+    CompensationTable(std::shared_ptr<IMSSystem> iMS);
     CompensationTable(int LUTDepth, const MHz& lower_freq, const MHz& upper_freq);
-    CompensationTable(const IMSSystem& iMS, const CompensationPoint& pt);
+    CompensationTable(std::shared_ptr<IMSSystem> iMS, const CompensationPoint& pt);
     CompensationTable(int LUTDepth, const MHz& lower_freq, const MHz& upper_freq, const CompensationPoint& pt);
-    CompensationTable(const IMSSystem& iMS, const std::string& fileName, const RFChannel& chan = RFChannel::all);
+    CompensationTable(std::shared_ptr<IMSSystem> iMS, const std::string& fileName, const RFChannel& chan = RFChannel::all);
     CompensationTable(int LUTDepth, const MHz& lower_freq, const MHz& upper_freq, const std::string& fileNamee, const RFChannel& chan = RFChannel::all);
-    CompensationTable(const IMSSystem& iMS, const int entry);
-    CompensationTable(const IMSSystem& iMS, const CompensationTable& tbl);
+    CompensationTable(std::shared_ptr<IMSSystem> iMS, const int entry);
+    CompensationTable(std::shared_ptr<IMSSystem> iMS, const CompensationTable& tbl);
     CompensationTable(int LUTDepth, const MHz& lower_freq, const MHz& upper_freq, const CompensationTable& tbl);
 
     CompensationTable(const CompensationTable &);
@@ -119,7 +119,7 @@ namespace iMS {
   class CompensationTableExporter
   {
   public:
-    CompensationTableExporter(const IMSSystem& ims);
+    CompensationTableExporter(std::shared_ptr<IMSSystem> ims);
     CompensationTableExporter(const int channels);
     CompensationTableExporter();
     CompensationTableExporter(const CompensationTable& tbl);
@@ -160,7 +160,7 @@ namespace iMS {
   class CompensationTableDownload
   {
   public:
-    CompensationTableDownload(IMSSystem& ims, const CompensationTable& tbl);
+    CompensationTableDownload(std::shared_ptr<IMSSystem> ims, const CompensationTable& tbl);
     bool StartDownload();
     bool StartVerify();
     int GetVerifyError();

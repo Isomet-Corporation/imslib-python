@@ -17,7 +17,7 @@ namespace iMS
   class Diagnostics
   {
   public:
-    Diagnostics(const IMSSystem& ims);
+    Diagnostics(std::shared_ptr<IMSSystem> ims);
     enum class TARGET
     {
       SYNTH,

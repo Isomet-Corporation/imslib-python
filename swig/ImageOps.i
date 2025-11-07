@@ -25,7 +25,7 @@ namespace iMS {
   class ImageDownload 
   {
   public:
-    ImageDownload(IMSSystem& ims, const Image& img);
+    ImageDownload(std::shared_ptr<IMSSystem> ims, const Image& img);
     void SetFormat(const ImageFormat& fmt);
     bool StartDownload();
     bool StartVerify();
@@ -188,12 +188,12 @@ namespace iMS {
 	// IMMEDIATELY
 	// };
     
-    ImagePlayer(const IMSSystem& ims, const Image& img);
-    //ImagePlayer(const IMSSystem& ims, const Image& img, const ImagePlayer::PlayConfiguration& cfg);
-    ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const kHz InternalClock);
-    ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const int ExtClockDivide);
-    //ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const kHz InternalClock);
-    //ImagePlayer(const IMSSystem& ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const int ExtClockDivide);
+    ImagePlayer(std::shared_ptr<IMSSystem> ims, const Image& img);
+    //ImagePlayer(std::shared_ptr<IMSSystem> ims, const Image& img, const ImagePlayer::PlayConfiguration& cfg);
+    ImagePlayer(std::shared_ptr<IMSSystem> ims, const ImageTableEntry& ite, const kHz InternalClock);
+    ImagePlayer(std::shared_ptr<IMSSystem> ims, const ImageTableEntry& ite, const int ExtClockDivide);
+    //ImagePlayer(std::shared_ptr<IMSSystem> ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const kHz InternalClock);
+    //ImagePlayer(std::shared_ptr<IMSSystem> ims, const ImageTableEntry& ite, const iMS::ImagePlayer::PlayConfiguration& cfg, const int ExtClockDivide);
     
     bool Play(ImagePlayer::ImageTrigger start_trig);
     inline bool Play();
@@ -268,7 +268,7 @@ namespace iMS {
                     yield self[i]
         %}
     }
-    ImageTableViewer(IMSSystem& ims);
+    ImageTableViewer(std::shared_ptr<IMSSystem> ims);
     
     const int Entries() const;
     //const ImageTableEntry operator[](const std::size_t idx) const;
@@ -284,7 +284,7 @@ namespace iMS {
 //   class SequenceDownload
 //   {
 //   public:
-//     SequenceDownload(IMSSystem& ims, const ImageSequence& seq);
+//     SequenceDownload(std::shared_ptr<IMSSystem> ims, const ImageSequence& seq);
     
 //     bool Download(bool asynchronous = false);
 //     inline bool StartDownload();
@@ -339,7 +339,7 @@ namespace iMS {
 //   class SequenceManager
 //   {
 //   public:
-//     SequenceManager(const IMSSystem&);
+//     SequenceManager(std::shared_ptr<IMSSystem>);
 //     enum class PointClock {
 //       INTERNAL,
 // 	EXTERNAL

@@ -21,7 +21,7 @@ namespace iMS
   class SystemFunc
   {
   public:
-    SystemFunc(IMSSystem& ims);
+    SystemFunc(std::shared_ptr<IMSSystem> ims);
     enum class UpdateClockSource
     {
       INTERNAL,
@@ -54,6 +54,9 @@ namespace iMS
 	};
     
     bool ClearNHF();
+    bool SendHeartbeat();
+    void StartHeartbeat(int intervalMs);
+    void StopHeartbeat();
     bool ConfigureNHF(bool Enabled, int milliSeconds, NHFLocalReset reset);
     bool EnableAmplifier(bool en);
     bool EnableExternal(bool enable);
@@ -66,9 +69,9 @@ namespace iMS
     bool GetClockReferenceStatus();
     bool GetClockReferenceFrequency();
     bool GetClockReferenceMode();
- 		bool ConfigureClockGenerator(const ClockGenConfiguration& cfg);
-		const ClockGenConfiguration& GetClockGenConfiguration() const;
-		bool DisableClockGenerator();
+    bool ConfigureClockGenerator(const ClockGenConfiguration& cfg);
+    const ClockGenConfiguration& GetClockGenConfiguration() const;
+    bool DisableClockGenerator();
     void SystemFuncEventSubscribe(const int message, IEventHandler* handler);
     void SystemFuncEventUnsubscribe(const int message, const IEventHandler* handler);
   };

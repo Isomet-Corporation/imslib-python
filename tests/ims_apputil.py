@@ -1,6 +1,7 @@
 import sys
 import threading
 import queue
+import time
 
 #############################
 # Cross-platform keyboard listener

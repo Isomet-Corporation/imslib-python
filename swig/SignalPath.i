@@ -14,9 +14,13 @@ namespace iMS
   /// Forward Declaration
   struct VelocityConfiguration;
 
+    %rename(UpdateLocalToneBufferCompensation) SignalPath::UpdateLocalToneBuffer(const Compensation, const Compensation);
+    %rename(UpdateLocalToneBufferControl) SignalPath::UpdateLocalToneBuffer(const ToneBufferControl&);
+    %rename(UpdateLocalToneBufferIndex)   SignalPath::UpdateLocalToneBuffer(const unsigned int);
+
   class SignalPath
   {
-  public:
+    public:
     enum class AmplitudeControl
     {
         OFF,
@@ -98,7 +102,7 @@ namespace iMS
         CH_Y
 	};
 
-    SignalPath(IMSSystem& ims);
+    SignalPath(std::shared_ptr<IMSSystem> ims);
 
     bool UpdateDDSPowerLevel(const Percent& power);
     bool UpdateRFAmplitude(const AmplitudeControl src, const Percent& ampl, const RFChannel& chan = RFChannel::all);
@@ -156,7 +160,7 @@ namespace iMS
     uint16_t TrackingLoopIntegrationCoeff { 10000 };
     std::array<int16_t, 2> VelocityGain;
     
-    void SetVelGain(const IMSSystem& ims, SignalPath::ENCODER_CHANNEL chan, kHz EncoderFreq, MHz DesiredFreqDeviation, bool Reverse = false);
+    void SetVelGain(std::shared_ptr<IMSSystem> ims, SignalPath::ENCODER_CHANNEL chan, kHz EncoderFreq, MHz DesiredFreqDeviation, bool Reverse = false);
     
     VelocityConfiguration() : VelocityGain({ { 500, 500 } }) {}
   };

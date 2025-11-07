@@ -1,6 +1,6 @@
 %include "std_string.i"
 
-%template(IMSList) std::vector<iMS::IMSSystem>;
+%template(IMSList) std::vector<std::shared_ptr<iMS::IMSSystem>>;
 
     // Define a dummy mirror struct to replace the nested struct
     %inline %{
@@ -32,7 +32,7 @@ namespace iMS {
   public:
     ConnectionConfig& config(const std::string& module);
     const ListBase<std::string>& modules() const;
-    std::vector<IMSSystem> scan();
+    std::vector<std::shared_ptr<IMSSystem>> scan();
   };
 }
 

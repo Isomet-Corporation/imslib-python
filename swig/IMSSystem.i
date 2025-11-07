@@ -302,6 +302,8 @@ namespace iMS {
   class IMSSystem
   {
   public:
+    template<typename ... T>
+    static std::shared_ptr<IMSSystem> Create(T&& ... t);
     void Connect();
     void Disconnect();
   	void SetTimeouts(int send_timeout_ms, int rx_timeout_ms, int free_timeout_ms, int discover_timeout_ms);
@@ -312,7 +314,9 @@ namespace iMS {
     bool operator==(IMSSystem const& rhs) const;
     bool ApplySettings(const IConnectionSettings& settings);
     bool RetrieveSettings(IConnectionSettings& settings);  // ignored
-
+    private:
+        IMSSystem();
+        IMSSystem(IConnectionManager* const, const std::string&);
   };
 
   %extend IMSSystem {

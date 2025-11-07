@@ -15,7 +15,7 @@ namespace iMS
   class Auxiliary
   {
   public:
-    Auxiliary(const IMSSystem& ims);
+    Auxiliary(std::shared_ptr<IMSSystem> ims);
     enum class LED_SOURCE
     {
       OFF,
@@ -102,7 +102,7 @@ namespace iMS
 	UPDATE = 64
 	};
     
-    DDSScriptRegister(Name name);
+    DDSScriptRegister(Name name = Name::CSR);
     %extend {
       DDSScriptRegister(Name name, const std::vector<uint8_t>& data)
 	{
@@ -132,7 +132,7 @@ namespace iMS {
   class DDSScriptDownload
   {
   public:
-    DDSScriptDownload(IMSSystem& ims, const DDSScript& script);
+    DDSScriptDownload(std::shared_ptr<IMSSystem> ims, const DDSScript& script);
     const FileSystemIndex Program(const std::string& FileName, FileDefault def = FileDefault::NON_DEFAULT) const;
   };
 }
