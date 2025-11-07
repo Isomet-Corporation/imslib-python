@@ -17,15 +17,15 @@
 #include "IEventHandler.h"
 #include "IMSSystem.h"
 #include "IMSTypeDefs.h"
-// #include "Auxiliary.h"
+#include "Auxiliary.h"
 #include "Image.h"
 #include "ImageOps.h"
-// #include "FileSystem.h"
+#include "FileSystem.h"
 #include "Compensation.h"
-// #include "ToneBuffer.h"
+#include "ToneBuffer.h"
 #include "SignalPath.h"
-// #include "SystemFunc.h"
-// #include "Diagnostics.h"
+#include "SystemFunc.h"
+#include "Diagnostics.h"
 
 #include <sstream>
 #include <iomanip>
@@ -38,17 +38,20 @@
 %include <std_vector.i>
 //%include <memory.i>
 // %include "std_deque.i"
-// %include "std_map.i"
+%include "std_map.i"
 // %include "windows.i"
 %include <std_array.i>
 %include "attribute.i"
 %include "typemaps.i"
+%include "std_shared_ptr.i"
 
 %include "ims_std_chrono.i"
 
 %template(ByteVector) std::vector<uint8_t>;
 %template(UUID) std::array<uint8_t, 16>;
 %template(VelGain) std::array<int16_t, 2>;
+
+%shared_ptr(iMS::IMSSystem);
 
 // Print UUID in friendly format
 %extend std::array<uint8_t, 16> {
@@ -89,7 +92,7 @@
     }    
 %}
 
-// %template(AnalogData) std::map<int, iMS::Percent>;
+%template(AnalogData) std::map<int, iMS::Percent>;
 
 #define _STATIC_IMS
 
@@ -99,14 +102,14 @@
 %include "IEventHandler.i"
 %include "IMSSystem.i"
 %include "ConnectionList.i"
-// %include "FileSystem.i"
+%include "FileSystem.i"
 %include "AcoustoOptics.i"
-// %include "Auxiliary.i"
+%include "Auxiliary.i"
 %include "Image.i"
 %include "ImageOps.i"
 %include "Compensation.i"
 %include "ToneBuffer.i"
 %include "ImageProject.i"
 %include "SignalPath.i"
-// %include "SystemFunc.i"
-// %include "Diagnostics.i"
+%include "SystemFunc.i"
+%include "Diagnostics.i"

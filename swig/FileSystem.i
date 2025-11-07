@@ -26,15 +26,15 @@ namespace iMS
 %attribute(iMS::FileSystemTableEntry, std::string, Name, Name);
 
 namespace iMS{
+    %extend FileSystemTableEntry {
+        %pythoncode %{
+            def __str__(self):
+                return f"File type: {self.Type} Def: {self.IsDefault} Addr: 0x{self.Address:06X} Len: {self.Length} Name: {self.Name}"
+        %}
+    }
+
   struct FileSystemTableEntry
   {
-    %typemap(cscode) FileSystemTableEntry %{
-      public override string ToString()
-      {
-	string strOut = "File type: " + Type + " Def: " + IsDefault + " Addr: " + string.Format("0x{0:X6}", Address) +  " Length: " + Length + " Name: " + Name ;
-	return strOut;
-      }
-      %}
     FileSystemTableEntry();
     FileSystemTableEntry(FileSystemTypes type, uint32_t addr, uint32_t length, FileDefault def);
     FileSystemTableEntry(FileSystemTypes type, uint32_t addr, uint32_t length, FileDefault def, std::string name);
@@ -52,167 +52,47 @@ namespace iMS{
 
 }
 
+%attribute(iMS::FileSystemTableViewer, int, Entries, Entries);
+%attribute(iMS::FileSystemTableViewer, bool, IsValid, IsValid);
+
 namespace iMS 
 {
-  
-  %typemap(csinterfaces) FileSystemTableViewer "System.IDisposable, System.Collections.IEnumerable";
-  class FileSystemTableViewer
-  {
-  %typemap(cscode) FileSystemTableViewer %{
+    %extend FileSystemTableViewer {
+        FileSystemTableEntry _getitem(size_t i) {
+            if (i >= $self->Entries())
+                throw std::out_of_range("FileSystemTable index out of range");
+            return (*$self)[i];
+        }
 
-  public bool IsFixedSize {
-    get {
-      return false;
-    }
-  }
+        size_t __len__() {
+            return $self->Entries();
+        }
 
-  public bool IsReadOnly {
-    get {
-      return true;
-    }
-  }
-
-  public FileSystemTableEntry this[int index]  {
-    get {
-      return getitemcopy(index);
-    }
-  }
-
-  public int Count {
-    get {
-      return Entries();
-    }
-  }
-
-  public bool IsSynchronized {
-    get {
-      return false;
-    }
-  }
-
-  public void CopyTo(FileSystemTableEntry[] array)
-  {
-    CopyTo(0, array, 0, this.Count);
-  }
-
-  public void CopyTo(FileSystemTableEntry[] array, int arrayIndex)
-  {
-    CopyTo(0, array, arrayIndex, this.Count);
-  }
-
-  public void CopyTo(int index, FileSystemTableEntry[] array, int arrayIndex, int count)
-  {
-    if (array == null)
-      throw new System.ArgumentNullException("array");
-    if (index < 0)
-      throw new System.ArgumentOutOfRangeException("index", "Value is less than zero");
-    if (arrayIndex < 0)
-      throw new System.ArgumentOutOfRangeException("arrayIndex", "Value is less than zero");
-    if (count < 0)
-      throw new System.ArgumentOutOfRangeException("count", "Value is less than zero");
-    if (array.Rank > 1)
-      throw new System.ArgumentException("Multi dimensional array.", "array");
-    if (index+count > this.Count || arrayIndex+count > array.Length)
-      throw new System.ArgumentException("Number of elements to copy is too large.");
-    for (int i=0; i<count; i++)
-      array.SetValue(getitemcopy(index+i), arrayIndex+i);
-  }
-
-  System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() {
-    return new $csclassnameEnumerator(this);
-  }
-
-  public $csclassnameEnumerator GetEnumerator() {
-    return new $csclassnameEnumerator(this);
-  }
-
-  // Type-safe enumerator
-  /// Note that the IEnumerator documentation requires an InvalidOperationException to be thrown
-  /// whenever the collection is modified. This has been done for changes in the size of the
-  /// collection but not when one of the elements of the collection is modified as it is a bit
-  /// tricky to detect unmanaged code that modifies the collection under our feet.
-  public sealed class $csclassnameEnumerator : System.Collections.IEnumerator
-    , System.Collections.Generic.IEnumerator<FileSystemTableEntry>
-  {
-    private $csclassname collectionRef;
-    private int currentIndex;
-    private object currentObject;
-    private int currentSize;
-
-    public $csclassnameEnumerator($csclassname collection) {
-      collectionRef = collection;
-      currentIndex = -1;
-      currentObject = null;
-      currentSize = collectionRef.Count;
+        %pythoncode %{
+            def __iter__(self):
+                for i in range(len(self)):
+                    yield self[i]
+            def __getitem__(self, idx):
+                if isinstance(idx, slice):
+                    return [self[i] for i in range(*idx.indices(len(self)))]
+                else:
+                    if idx < 0: idx += len(self)
+                    if idx < 0 or idx >= len(self):
+                        raise IndexError("FileSystemTable index out of range")
+                    return self._getitem(idx)
+        %}
     }
 
-    // Type-safe iterator Current
-    public FileSystemTableEntry Current {
-      get {
-        if (currentIndex == -1)
-          throw new System.InvalidOperationException("Enumeration not started.");
-        if (currentIndex > currentSize - 1)
-          throw new System.InvalidOperationException("Enumeration finished.");
-        if (currentObject == null)
-          throw new System.InvalidOperationException("Collection modified.");
-        return (FileSystemTableEntry)currentObject;
-      }
-    }
-
-    private System.Collections.IEnumerator GetEnumerator()
+    class FileSystemTableViewer
     {
-      return (System.Collections.IEnumerator)this;
-    }
-        
-    // Type-unsafe IEnumerator.Current
-    object System.Collections.IEnumerator.Current {
-      get {
-        return Current;
-      }
-    }
+    public:
 
-    public bool MoveNext() {
-      int size = collectionRef.Count;
-      bool moveOkay = (currentIndex+1 < size) && (size == currentSize);
-      if (moveOkay) {
-        currentIndex++;
-        currentObject = collectionRef[currentIndex];
-      } else {
-        currentObject = null;
-      }
-      return moveOkay;
-    }
-
-    public void Reset() {
-      currentIndex = -1;
-      currentObject = null;
-      if (collectionRef.Count != currentSize) {
-        throw new System.InvalidOperationException("Collection modified.");
-      }
-    }
-
-    public void Dispose() {
-        currentIndex = -1;
-        currentObject = null;
-    }
-  }
-  %}
-
-  public:
-    %extend {
-      FileSystemTableEntry getitemcopy(int index) throw (std::out_of_range) {
-        if (index>=0 && index<$self->Entries())
-          return (*$self)[index];
-        else
-          throw std::out_of_range("index");
-      }
-    }
-    FileSystemTableViewer(const IMSSystem& ims);
-    const bool IsValid() const;
-    const int Entries() const;
-    //    const FileSystemTableEntry operator[](const std::size_t idx) const;
-    //    friend LIBSPEC std::ostream& operator<< (std::ostream& stream, const FileSystemTableViewer&);
-  };
+        FileSystemTableViewer(std::shared_ptr<IMSSystem> ims);
+        const bool IsValid() const;
+        const int Entries() const;
+        //    const FileSystemTableEntry operator[](const std::size_t idx) const;
+        //    friend LIBSPEC std::ostream& operator<< (std::ostream& stream, const FileSystemTableViewer&);
+    };
 
 }
 
@@ -223,7 +103,7 @@ namespace iMS {
   class FileSystemManager
   {
   public:
-    FileSystemManager(IMSSystem& ims);
+    FileSystemManager(std::shared_ptr<IMSSystem> ims);
     bool Delete(FileSystemIndex index);
     bool Delete(const std::string& FileName);
     bool SetDefault(FileSystemIndex index);
@@ -235,5 +115,98 @@ namespace iMS {
     bool Execute(FileSystemIndex index);
     bool Execute(const std::string& FileName);
   };
+
+    // ---------- Typemaps for bytes, list[int], and file-like ----------
+
+    // Python → C++  (used by UserFileWriter)
+    %typemap(in) const std::vector<uint8_t>& (std::vector<uint8_t> temp) {
+        if (PyBytes_Check($input)) {
+            char* buf;
+            Py_ssize_t len;
+            PyBytes_AsStringAndSize($input, &buf, &len);
+            temp.assign(buf, buf + len);
+            $1 = &temp;
+        } else if (PyList_Check($input)) {
+            Py_ssize_t len = PyList_Size($input);
+            temp.resize(len);
+            for (Py_ssize_t i = 0; i < len; ++i) {
+                PyObject* item = PyList_GetItem($input, i);
+                temp[i] = static_cast<uint8_t>(PyLong_AsUnsignedLong(item));
+            }
+            $1 = &temp;
+        } else if (PyObject_HasAttrString($input, "read")) {
+            // Handle file-like object with .read()
+            PyObject* data_obj = PyObject_CallMethod($input, (char*)"read", nullptr);
+            if (!data_obj) SWIG_exception_fail(SWIG_RuntimeError, "Failed to read from file-like object");
+            if (!PyBytes_Check(data_obj)) {
+                Py_DECREF(data_obj);
+                SWIG_exception_fail(SWIG_TypeError, ".read() did not return bytes");
+            }
+            char* buf;
+            Py_ssize_t len;
+            PyBytes_AsStringAndSize(data_obj, &buf, &len);
+            temp.assign(buf, buf + len);
+            Py_DECREF(data_obj);
+            $1 = &temp;
+        } else {
+            SWIG_exception_fail(SWIG_TypeError,
+                "Expected bytes, bytearray, list[int], or file-like object for file_data");
+        }
+    }
+
+    // Disable auto cleanup (prevents 'res2 undeclared' error)
+    %typemap(freearg) const std::vector<uint8_t>& "";
+
+    // C++ → Python  (used by Readback with no args)
+    %typemap(out) std::vector<uint8_t> {
+        $result = PyBytes_FromStringAndSize(
+            reinterpret_cast<const char*>($1.data()), $1.size());
+    }
+
+    // ---------- Extended UserFileReader.Readback ----------
+    // Supports:
+    //   Readback()              → returns bytes
+    //   Readback(file_object)   → writes to file_object and returns bool
+
+    %extend UserFileReader {
+        PyObject* Readback(PyObject* out_obj = nullptr) {
+            std::vector<uint8_t> data;
+            bool ok = $self->Readback(data);
+            if (!ok)
+                Py_RETURN_FALSE;
+
+            // If a Python file-like object is passed, call .write()
+            if (out_obj && PyObject_HasAttrString(out_obj, "write")) {
+                PyObject* res = PyObject_CallMethod(out_obj, (char*)"write", (char*)"y#",
+                                                    reinterpret_cast<const char*>(data.data()),
+                                                    (Py_ssize_t)data.size());
+                if (!res) {
+                    SWIG_Error(SWIG_RuntimeError, "Failed to write to file-like object");
+                    Py_RETURN_FALSE;
+                }
+                Py_DECREF(res);
+                Py_RETURN_TRUE;
+            }
+
+            // Default behaviour: return bytes
+            return PyBytes_FromStringAndSize(
+                reinterpret_cast<const char*>(data.data()), data.size());
+        }
+    }
+
+	class UserFileReader
+	{
+	public:
+		UserFileReader(std::shared_ptr<IMSSystem> ims, const FileSystemIndex index);
+		UserFileReader(std::shared_ptr<IMSSystem> ims, const std::string& FileName);
+		bool Readback(std::vector<std::uint8_t>& data); 
+    }; 
+
+	class UserFileWriter
+	{
+	public:
+		UserFileWriter(std::shared_ptr<IMSSystem> ims, const std::vector<std::uint8_t>& file_data, const std::string file_name);
+		FileSystemIndex Program();
+	};
 
 }

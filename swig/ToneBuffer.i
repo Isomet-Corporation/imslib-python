@@ -114,7 +114,7 @@ namespace iMS {
   class ToneBufferDownload
   {
   public:
-    ToneBufferDownload(IMSSystem& ims, const ToneBuffer& tbl);
+    ToneBufferDownload(std::shared_ptr<IMSSystem> ims, const ToneBuffer& tbl);
     bool StartDownload();
     bool StartDownload(std::size_t index, std::size_t count);
     bool StartDownload(std::size_t index);
