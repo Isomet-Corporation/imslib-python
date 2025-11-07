@@ -58,6 +58,8 @@ class _SwigNonDynamicMeta(type):
     __setattr__ = _swig_setattr_nondynamic_class_variable(type.__setattr__)
 
 
+import weakref
+
 class SwigPyIterator(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -118,6 +120,7 @@ class SwigPyIterator(object):
 
 # Register SwigPyIterator in _imslib:
 _imslib.SwigPyIterator_swigregister(SwigPyIterator)
+SHARED_PTR_DISOWN = _imslib.SHARED_PTR_DISOWN
 class PostDelay(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -557,7 +560,113 @@ _imslib.VelGain_swigregister(VelGain)
 
 def UUID_Stream(stream, uuid):
     return _imslib.UUID_Stream(stream, uuid)
-SHARED_PTR_DISOWN = _imslib.SHARED_PTR_DISOWN
+class AnalogData(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _imslib.AnalogData_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _imslib.AnalogData___nonzero__(self)
+
+    def __bool__(self):
+        return _imslib.AnalogData___bool__(self)
+
+    def __len__(self):
+        return _imslib.AnalogData___len__(self)
+    def __iter__(self):
+        return self.key_iterator()
+    def iterkeys(self):
+        return self.key_iterator()
+    def itervalues(self):
+        return self.value_iterator()
+    def iteritems(self):
+        return self.iterator()
+
+    def __getitem__(self, key):
+        return _imslib.AnalogData___getitem__(self, key)
+
+    def __delitem__(self, key):
+        return _imslib.AnalogData___delitem__(self, key)
+
+    def has_key(self, key):
+        return _imslib.AnalogData_has_key(self, key)
+
+    def keys(self):
+        return _imslib.AnalogData_keys(self)
+
+    def values(self):
+        return _imslib.AnalogData_values(self)
+
+    def items(self):
+        return _imslib.AnalogData_items(self)
+
+    def __contains__(self, key):
+        return _imslib.AnalogData___contains__(self, key)
+
+    def key_iterator(self):
+        return _imslib.AnalogData_key_iterator(self)
+
+    def value_iterator(self):
+        return _imslib.AnalogData_value_iterator(self)
+
+    def __setitem__(self, *args):
+        return _imslib.AnalogData___setitem__(self, *args)
+
+    def asdict(self):
+        return _imslib.AnalogData_asdict(self)
+
+    def __init__(self, *args):
+        _imslib.AnalogData_swiginit(self, _imslib.new_AnalogData(*args))
+
+    def empty(self):
+        return _imslib.AnalogData_empty(self)
+
+    def size(self):
+        return _imslib.AnalogData_size(self)
+
+    def swap(self, v):
+        return _imslib.AnalogData_swap(self, v)
+
+    def begin(self):
+        return _imslib.AnalogData_begin(self)
+
+    def end(self):
+        return _imslib.AnalogData_end(self)
+
+    def rbegin(self):
+        return _imslib.AnalogData_rbegin(self)
+
+    def rend(self):
+        return _imslib.AnalogData_rend(self)
+
+    def clear(self):
+        return _imslib.AnalogData_clear(self)
+
+    def get_allocator(self):
+        return _imslib.AnalogData_get_allocator(self)
+
+    def count(self, x):
+        return _imslib.AnalogData_count(self, x)
+
+    def erase(self, *args):
+        return _imslib.AnalogData_erase(self, *args)
+
+    def find(self, x):
+        return _imslib.AnalogData_find(self, x)
+
+    def lower_bound(self, x):
+        return _imslib.AnalogData_lower_bound(self, x)
+
+    def upper_bound(self, x):
+        return _imslib.AnalogData_upper_bound(self, x)
+    __swig_destroy__ = _imslib.delete_AnalogData
+
+# Register AnalogData in _imslib:
+_imslib.AnalogData_swigregister(AnalogData)
 
 def SeqEntry_Stream(stream, seq):
     return _imslib.SeqEntry_Stream(stream, seq)
@@ -828,6 +937,94 @@ class ListBase_CompensationFunction(object):
 
 # Register ListBase_CompensationFunction in _imslib:
 _imslib.ListBase_CompensationFunction_swigregister(ListBase_CompensationFunction)
+class ListBase_ToneBuffer(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def begin(self):
+        return _imslib.ListBase_ToneBuffer_begin(self)
+
+    def end(self):
+        return _imslib.ListBase_ToneBuffer_end(self)
+
+    def cbegin(self):
+        return _imslib.ListBase_ToneBuffer_cbegin(self)
+
+    def cend(self):
+        return _imslib.ListBase_ToneBuffer_cend(self)
+
+    def __getitem__(self, i):
+        return _imslib.ListBase_ToneBuffer___getitem__(self, i)
+
+    def __setitem__(self, i, val):
+        return _imslib.ListBase_ToneBuffer___setitem__(self, i, val)
+
+    def __len__(self):
+        return _imslib.ListBase_ToneBuffer___len__(self)
+
+    def __bool__(self):
+        return _imslib.ListBase_ToneBuffer___bool__(self)
+
+    def append(self, val):
+        return _imslib.ListBase_ToneBuffer_append(self, val)
+
+    def pop(self):
+        return _imslib.ListBase_ToneBuffer_pop(self)
+
+    def __contains__(self, val):
+        return _imslib.ListBase_ToneBuffer___contains__(self, val)
+
+    def __str__(self):
+        return _imslib.ListBase_ToneBuffer___str__(self)
+
+    def __iter__(self):
+        for i in range(len(self)):
+            yield self[i]
+
+    def __eq__(self, rhs):
+        eq = True
+        for i in range(len(self)):
+            if self[i] != rhs[i]:
+                eq = False
+        return eq
+
+
+    def __init__(self, *args):
+        _imslib.ListBase_ToneBuffer_swiginit(self, _imslib.new_ListBase_ToneBuffer(*args))
+
+    def assign(self, n, val):
+        return _imslib.ListBase_ToneBuffer_assign(self, n, val)
+
+    def resize(self, n):
+        return _imslib.ListBase_ToneBuffer_resize(self, n)
+
+    def clear(self):
+        return _imslib.ListBase_ToneBuffer_clear(self)
+
+    def push_back(self, value):
+        return _imslib.ListBase_ToneBuffer_push_back(self, value)
+
+    def pop_back(self):
+        return _imslib.ListBase_ToneBuffer_pop_back(self)
+
+    def push_front(self, value):
+        return _imslib.ListBase_ToneBuffer_push_front(self, value)
+
+    def pop_front(self):
+        return _imslib.ListBase_ToneBuffer_pop_front(self)
+
+    def empty(self):
+        return _imslib.ListBase_ToneBuffer_empty(self)
+
+    def size(self):
+        return _imslib.ListBase_ToneBuffer_size(self)
+    GetUUID = property(_imslib.ListBase_ToneBuffer_GetUUID_get)
+    Name = property(_imslib.ListBase_ToneBuffer_Name_get, _imslib.ListBase_ToneBuffer_Name_set)
+    ModifiedTimeFormat = property(_imslib.ListBase_ToneBuffer_ModifiedTimeFormat_get)
+    __swig_destroy__ = _imslib.delete_ListBase_ToneBuffer
+
+# Register ListBase_ToneBuffer in _imslib:
+_imslib.ListBase_ToneBuffer_swigregister(ListBase_ToneBuffer)
 class ListBase_CompensationPointSpecification(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -1748,6 +1945,27 @@ class Decimetre(object):
 _imslib.Decimetre_swigregister(Decimetre)
 Polarity_NORMAL = _imslib.Polarity_NORMAL
 Polarity_INVERSE = _imslib.Polarity_INVERSE
+class IEventHandler(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        if self.__class__ == IEventHandler:
+            _self = None
+        else:
+            _self = self
+        _imslib.IEventHandler_swiginit(self, _imslib.new_IEventHandler(_self, ))
+    __swig_destroy__ = _imslib.delete_IEventHandler
+
+    def EventAction(self, *args):
+        return _imslib.IEventHandler_EventAction(self, *args)
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_IEventHandler(self)
+        return weakref.proxy(self)
+
+# Register IEventHandler in _imslib:
+_imslib.IEventHandler_swigregister(IEventHandler)
 class FWVersion(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -1888,7 +2106,11 @@ class CS_ETH(object):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        _imslib.CS_ETH_swiginit(self, _imslib.new_CS_ETH(*args))
+        if self.__class__ == CS_ETH:
+            _self = None
+        else:
+            _self = self
+        _imslib.CS_ETH_swiginit(self, _imslib.new_CS_ETH(_self, *args))
     __swig_destroy__ = _imslib.delete_CS_ETH
 
     def Ident(self):
@@ -1897,6 +2119,10 @@ class CS_ETH(object):
     addr = property(_imslib.CS_ETH_addr_get, _imslib.CS_ETH_addr_set)
     mask = property(_imslib.CS_ETH_mask_get, _imslib.CS_ETH_mask_set)
     gw = property(_imslib.CS_ETH_gw_get, _imslib.CS_ETH_gw_set)
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_CS_ETH(self)
+        return weakref.proxy(self)
 
 # Register CS_ETH in _imslib:
 _imslib.CS_ETH_swigregister(CS_ETH)
@@ -1905,17 +2131,28 @@ class CS_RS422(object):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        _imslib.CS_RS422_swiginit(self, _imslib.new_CS_RS422(*args))
+        if self.__class__ == CS_RS422:
+            _self = None
+        else:
+            _self = self
+        _imslib.CS_RS422_swiginit(self, _imslib.new_CS_RS422(_self, *args))
     __swig_destroy__ = _imslib.delete_CS_RS422
 
     def Ident(self):
         return _imslib.CS_RS422_Ident(self)
     baud = property(_imslib.CS_RS422_baud_get, _imslib.CS_RS422_baud_set)
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_CS_RS422(self)
+        return weakref.proxy(self)
 
 # Register CS_RS422 in _imslib:
 _imslib.CS_RS422_swigregister(CS_RS422)
 class IMSSystem(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
 
     def Connect(self):
@@ -1947,9 +2184,6 @@ class IMSSystem(object):
 
     def RetrieveSettings(self, settings):
         return _imslib.IMSSystem_RetrieveSettings(self, settings)
-
-    def __init__(self):
-        _imslib.IMSSystem_swiginit(self, _imslib.new_IMSSystem())
     __swig_destroy__ = _imslib.delete_IMSSystem
 
 # Register IMSSystem in _imslib:
@@ -2090,6 +2324,119 @@ class ConnectionList(object):
 
 # Register ConnectionList in _imslib:
 _imslib.ConnectionList_swigregister(ConnectionList)
+FileSystemTypes_NO_FILE = _imslib.FileSystemTypes_NO_FILE
+FileSystemTypes_COMPENSATION_TABLE = _imslib.FileSystemTypes_COMPENSATION_TABLE
+FileSystemTypes_TONE_BUFFER = _imslib.FileSystemTypes_TONE_BUFFER
+FileSystemTypes_DDS_SCRIPT = _imslib.FileSystemTypes_DDS_SCRIPT
+FileSystemTypes_USER_DATA = _imslib.FileSystemTypes_USER_DATA
+FileDefault_DEFAULT = _imslib.FileDefault_DEFAULT
+FileDefault_NON_DEFAULT = _imslib.FileDefault_NON_DEFAULT
+class FileSystemTableEntry(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        _imslib.FileSystemTableEntry_swiginit(self, _imslib.new_FileSystemTableEntry(*args))
+    Type = property(_imslib.FileSystemTableEntry_Type_get)
+    Address = property(_imslib.FileSystemTableEntry_Address_get)
+    Length = property(_imslib.FileSystemTableEntry_Length_get)
+    IsDefault = property(_imslib.FileSystemTableEntry_IsDefault_get)
+    Name = property(_imslib.FileSystemTableEntry_Name_get)
+
+    def __str__(self):
+        return f"File type: {self.Type} Def: {self.IsDefault} Addr: 0x{self.Address:06X} Len: {self.Length} Name: {self.Name}"
+
+    __swig_destroy__ = _imslib.delete_FileSystemTableEntry
+
+# Register FileSystemTableEntry in _imslib:
+_imslib.FileSystemTableEntry_swigregister(FileSystemTableEntry)
+class FileSystemTableViewer(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims):
+        _imslib.FileSystemTableViewer_swiginit(self, _imslib.new_FileSystemTableViewer(ims))
+    Entries = property(_imslib.FileSystemTableViewer_Entries_get)
+    IsValid = property(_imslib.FileSystemTableViewer_IsValid_get)
+
+    def _getitem(self, i):
+        return _imslib.FileSystemTableViewer__getitem(self, i)
+
+    def __len__(self):
+        return _imslib.FileSystemTableViewer___len__(self)
+
+    def __iter__(self):
+        for i in range(len(self)):
+            yield self[i]
+    def __getitem__(self, idx):
+        if isinstance(idx, slice):
+            return [self[i] for i in range(*idx.indices(len(self)))]
+        else:
+            if idx < 0: idx += len(self)
+            if idx < 0 or idx >= len(self):
+                raise IndexError("FileSystemTable index out of range")
+            return self._getitem(idx)
+
+    __swig_destroy__ = _imslib.delete_FileSystemTableViewer
+
+# Register FileSystemTableViewer in _imslib:
+_imslib.FileSystemTableViewer_swigregister(FileSystemTableViewer)
+MAX_FST_ENTRIES = cvar.MAX_FST_ENTRIES
+
+class FileSystemManager(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims):
+        _imslib.FileSystemManager_swiginit(self, _imslib.new_FileSystemManager(ims))
+
+    def Delete(self, *args):
+        return _imslib.FileSystemManager_Delete(self, *args)
+
+    def SetDefault(self, *args):
+        return _imslib.FileSystemManager_SetDefault(self, *args)
+
+    def ClearDefault(self, *args):
+        return _imslib.FileSystemManager_ClearDefault(self, *args)
+
+    def Sanitize(self):
+        return _imslib.FileSystemManager_Sanitize(self)
+
+    def FindSpace(self, addr, data):
+        return _imslib.FileSystemManager_FindSpace(self, addr, data)
+
+    def Execute(self, *args):
+        return _imslib.FileSystemManager_Execute(self, *args)
+    __swig_destroy__ = _imslib.delete_FileSystemManager
+
+# Register FileSystemManager in _imslib:
+_imslib.FileSystemManager_swigregister(FileSystemManager)
+class UserFileReader(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        _imslib.UserFileReader_swiginit(self, _imslib.new_UserFileReader(*args))
+
+    def Readback(self, *args):
+        return _imslib.UserFileReader_Readback(self, *args)
+    __swig_destroy__ = _imslib.delete_UserFileReader
+
+# Register UserFileReader in _imslib:
+_imslib.UserFileReader_swigregister(UserFileReader)
+class UserFileWriter(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims, file_data, file_name):
+        _imslib.UserFileWriter_swiginit(self, _imslib.new_UserFileWriter(ims, file_data, file_name))
+
+    def Program(self):
+        return _imslib.UserFileWriter_Program(self)
+    __swig_destroy__ = _imslib.delete_UserFileWriter
+
+# Register UserFileWriter in _imslib:
+_imslib.UserFileWriter_swigregister(UserFileWriter)
 class Crystal(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -2151,6 +2498,221 @@ class AODeviceList(object):
 
 # Register AODeviceList in _imslib:
 _imslib.AODeviceList_swigregister(AODeviceList)
+AuxiliaryEvents_EXT_ANLG_UPDATE_AVAILABLE = _imslib.AuxiliaryEvents_EXT_ANLG_UPDATE_AVAILABLE
+AuxiliaryEvents_EXT_ANLG_READ_FAILED = _imslib.AuxiliaryEvents_EXT_ANLG_READ_FAILED
+class Auxiliary(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims):
+        _imslib.Auxiliary_swiginit(self, _imslib.new_Auxiliary(ims))
+    LED_SOURCE_OFF = _imslib.Auxiliary_LED_SOURCE_OFF
+    LED_SOURCE_ON = _imslib.Auxiliary_LED_SOURCE_ON
+    LED_SOURCE_PULS = _imslib.Auxiliary_LED_SOURCE_PULS
+    LED_SOURCE_NPULS = _imslib.Auxiliary_LED_SOURCE_NPULS
+    LED_SOURCE_PIXEL_ACT = _imslib.Auxiliary_LED_SOURCE_PIXEL_ACT
+    LED_SOURCE_CTRL_ACT = _imslib.Auxiliary_LED_SOURCE_CTRL_ACT
+    LED_SOURCE_COMMS_HEALTHY = _imslib.Auxiliary_LED_SOURCE_COMMS_HEALTHY
+    LED_SOURCE_COMMS_UNHEALTHY = _imslib.Auxiliary_LED_SOURCE_COMMS_UNHEALTHY
+    LED_SOURCE_RF_GATE = _imslib.Auxiliary_LED_SOURCE_RF_GATE
+    LED_SOURCE_INTERLOCK = _imslib.Auxiliary_LED_SOURCE_INTERLOCK
+    LED_SOURCE_LASER = _imslib.Auxiliary_LED_SOURCE_LASER
+    LED_SOURCE_CHECKSUM = _imslib.Auxiliary_LED_SOURCE_CHECKSUM
+    LED_SOURCE_OVERTEMP = _imslib.Auxiliary_LED_SOURCE_OVERTEMP
+    LED_SOURCE_PLL_LOCK = _imslib.Auxiliary_LED_SOURCE_PLL_LOCK
+    LED_SINK_GREEN = _imslib.Auxiliary_LED_SINK_GREEN
+    LED_SINK_YELLOW = _imslib.Auxiliary_LED_SINK_YELLOW
+    LED_SINK_RED = _imslib.Auxiliary_LED_SINK_RED
+    DDS_PROFILE_OFF = _imslib.Auxiliary_DDS_PROFILE_OFF
+    DDS_PROFILE_EXTERNAL = _imslib.Auxiliary_DDS_PROFILE_EXTERNAL
+    DDS_PROFILE_HOST = _imslib.Auxiliary_DDS_PROFILE_HOST
+    EXT_ANLG_INPUT_A = _imslib.Auxiliary_EXT_ANLG_INPUT_A
+    EXT_ANLG_INPUT_B = _imslib.Auxiliary_EXT_ANLG_INPUT_B
+
+    def AssignLED(self, sink, src):
+        return _imslib.Auxiliary_AssignLED(self, sink, src)
+
+    def SetDDSProfile(self, *args):
+        return _imslib.Auxiliary_SetDDSProfile(self, *args)
+
+    def UpdateAnalogIn(self):
+        return _imslib.Auxiliary_UpdateAnalogIn(self)
+
+    def GetAnalogData(self):
+        return _imslib.Auxiliary_GetAnalogData(self)
+
+    def UpdateAnalogOut(self, pct):
+        return _imslib.Auxiliary_UpdateAnalogOut(self, pct)
+
+    def AuxiliaryEventSubscribe(self, message, handler):
+        return _imslib.Auxiliary_AuxiliaryEventSubscribe(self, message, handler)
+
+    def AuxiliaryEventUnsubscribe(self, message, handler):
+        return _imslib.Auxiliary_AuxiliaryEventUnsubscribe(self, message, handler)
+    __swig_destroy__ = _imslib.delete_Auxiliary
+
+# Register Auxiliary in _imslib:
+_imslib.Auxiliary_swigregister(Auxiliary)
+class DDSScriptRegister(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    Name_CSR = _imslib.DDSScriptRegister_Name_CSR
+    Name_FR1 = _imslib.DDSScriptRegister_Name_FR1
+    Name_FR2 = _imslib.DDSScriptRegister_Name_FR2
+    Name_CFR = _imslib.DDSScriptRegister_Name_CFR
+    Name_CFTW0 = _imslib.DDSScriptRegister_Name_CFTW0
+    Name_CPOW0 = _imslib.DDSScriptRegister_Name_CPOW0
+    Name_ACR = _imslib.DDSScriptRegister_Name_ACR
+    Name_LSRR = _imslib.DDSScriptRegister_Name_LSRR
+    Name_RDW = _imslib.DDSScriptRegister_Name_RDW
+    Name_FDW = _imslib.DDSScriptRegister_Name_FDW
+    Name_CW1 = _imslib.DDSScriptRegister_Name_CW1
+    Name_CW2 = _imslib.DDSScriptRegister_Name_CW2
+    Name_CW3 = _imslib.DDSScriptRegister_Name_CW3
+    Name_CW4 = _imslib.DDSScriptRegister_Name_CW4
+    Name_CW5 = _imslib.DDSScriptRegister_Name_CW5
+    Name_CW6 = _imslib.DDSScriptRegister_Name_CW6
+    Name_CW7 = _imslib.DDSScriptRegister_Name_CW7
+    Name_CW8 = _imslib.DDSScriptRegister_Name_CW8
+    Name_CW9 = _imslib.DDSScriptRegister_Name_CW9
+    Name_CW10 = _imslib.DDSScriptRegister_Name_CW10
+    Name_CW11 = _imslib.DDSScriptRegister_Name_CW11
+    Name_CW12 = _imslib.DDSScriptRegister_Name_CW12
+    Name_CW13 = _imslib.DDSScriptRegister_Name_CW13
+    Name_CW14 = _imslib.DDSScriptRegister_Name_CW14
+    Name_CW15 = _imslib.DDSScriptRegister_Name_CW15
+    Name_UPDATE = _imslib.DDSScriptRegister_Name_UPDATE
+
+    def __init__(self, *args):
+        _imslib.DDSScriptRegister_swiginit(self, _imslib.new_DDSScriptRegister(*args))
+
+    def append(self, arg2):
+        return _imslib.DDSScriptRegister_append(self, arg2)
+
+    def bytes(self):
+        return _imslib.DDSScriptRegister_bytes(self)
+    __swig_destroy__ = _imslib.delete_DDSScriptRegister
+
+# Register DDSScriptRegister in _imslib:
+_imslib.DDSScriptRegister_swigregister(DDSScriptRegister)
+class DDSScript(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _imslib.DDSScript_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _imslib.DDSScript___nonzero__(self)
+
+    def __bool__(self):
+        return _imslib.DDSScript___bool__(self)
+
+    def __len__(self):
+        return _imslib.DDSScript___len__(self)
+
+    def __getslice__(self, i, j):
+        return _imslib.DDSScript___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _imslib.DDSScript___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _imslib.DDSScript___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _imslib.DDSScript___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _imslib.DDSScript___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _imslib.DDSScript___setitem__(self, *args)
+
+    def pop(self):
+        return _imslib.DDSScript_pop(self)
+
+    def append(self, x):
+        return _imslib.DDSScript_append(self, x)
+
+    def empty(self):
+        return _imslib.DDSScript_empty(self)
+
+    def size(self):
+        return _imslib.DDSScript_size(self)
+
+    def swap(self, v):
+        return _imslib.DDSScript_swap(self, v)
+
+    def begin(self):
+        return _imslib.DDSScript_begin(self)
+
+    def end(self):
+        return _imslib.DDSScript_end(self)
+
+    def rbegin(self):
+        return _imslib.DDSScript_rbegin(self)
+
+    def rend(self):
+        return _imslib.DDSScript_rend(self)
+
+    def clear(self):
+        return _imslib.DDSScript_clear(self)
+
+    def get_allocator(self):
+        return _imslib.DDSScript_get_allocator(self)
+
+    def pop_back(self):
+        return _imslib.DDSScript_pop_back(self)
+
+    def erase(self, *args):
+        return _imslib.DDSScript_erase(self, *args)
+
+    def __init__(self, *args):
+        _imslib.DDSScript_swiginit(self, _imslib.new_DDSScript(*args))
+
+    def push_back(self, x):
+        return _imslib.DDSScript_push_back(self, x)
+
+    def front(self):
+        return _imslib.DDSScript_front(self)
+
+    def back(self):
+        return _imslib.DDSScript_back(self)
+
+    def assign(self, n, x):
+        return _imslib.DDSScript_assign(self, n, x)
+
+    def resize(self, *args):
+        return _imslib.DDSScript_resize(self, *args)
+
+    def insert(self, *args):
+        return _imslib.DDSScript_insert(self, *args)
+
+    def reserve(self, n):
+        return _imslib.DDSScript_reserve(self, n)
+
+    def capacity(self):
+        return _imslib.DDSScript_capacity(self)
+    __swig_destroy__ = _imslib.delete_DDSScript
+
+# Register DDSScript in _imslib:
+_imslib.DDSScript_swigregister(DDSScript)
+class DDSScriptDownload(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims, script):
+        _imslib.DDSScriptDownload_swiginit(self, _imslib.new_DDSScriptDownload(ims, script))
+
+    def Program(self, *args):
+        return _imslib.DDSScriptDownload_Program(self, *args)
+    __swig_destroy__ = _imslib.delete_DDSScriptDownload
+
+# Register DDSScriptDownload in _imslib:
+_imslib.DDSScriptDownload_swigregister(DDSScriptDownload)
 class ImagePoint(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -2249,10 +2811,15 @@ SequenceTermAction_INSERT = _imslib.SequenceTermAction_INSERT
 SequenceTermAction_STOP_INSERT = _imslib.SequenceTermAction_STOP_INSERT
 class SequenceEntry(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, *args, **kwargs):
-        raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    __swig_destroy__ = _imslib.delete_SequenceEntry
+
+    def __init__(self, *args):
+        if self.__class__ == SequenceEntry:
+            _self = None
+        else:
+            _self = self
+        _imslib.SequenceEntry_swiginit(self, _imslib.new_SequenceEntry(_self, *args))
 
     def __eq__(self, rhs):
         return _imslib.SequenceEntry___eq__(self, rhs)
@@ -2265,7 +2832,10 @@ class SequenceEntry(object):
     SyncOutDelay = property(_imslib.SequenceEntry_SyncOutDelay_get, _imslib.SequenceEntry_SyncOutDelay_set)
     UUID = property(_imslib.SequenceEntry_UUID_get)
     NumRpts = property(_imslib.SequenceEntry_NumRpts_get)
-    __swig_destroy__ = _imslib.delete_SequenceEntry
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_SequenceEntry(self)
+        return weakref.proxy(self)
 
 # Register SequenceEntry in _imslib:
 _imslib.SequenceEntry_swigregister(SequenceEntry)
@@ -2274,7 +2844,11 @@ class ImageSequenceEntry(SequenceEntry):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        _imslib.ImageSequenceEntry_swiginit(self, _imslib.new_ImageSequenceEntry(*args))
+        if self.__class__ == ImageSequenceEntry:
+            _self = None
+        else:
+            _self = self
+        _imslib.ImageSequenceEntry_swiginit(self, _imslib.new_ImageSequenceEntry(_self, *args))
 
     def __eq__(self, rhs):
         return _imslib.ImageSequenceEntry___eq__(self, rhs)
@@ -2283,6 +2857,10 @@ class ImageSequenceEntry(SequenceEntry):
     IntOsc = property(_imslib.ImageSequenceEntry_IntOsc_get)
     RptType = property(_imslib.ImageSequenceEntry_RptType_get)
     __swig_destroy__ = _imslib.delete_ImageSequenceEntry
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_ImageSequenceEntry(self)
+        return weakref.proxy(self)
 
 # Register ImageSequenceEntry in _imslib:
 _imslib.ImageSequenceEntry_swigregister(ImageSequenceEntry)
@@ -2326,22 +2904,22 @@ class ImageGroup(DequeBase_Image):
 
 # Register ImageGroup in _imslib:
 _imslib.ImageGroup_swigregister(ImageGroup)
-class DownloadEvents(object):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
-
-    def __init__(self):
-        _imslib.DownloadEvents_swiginit(self, _imslib.new_DownloadEvents())
-    __swig_destroy__ = _imslib.delete_DownloadEvents
-
-# Register DownloadEvents in _imslib:
-_imslib.DownloadEvents_swigregister(DownloadEvents)
+DownloadEvents_DOWNLOAD_FINISHED = _imslib.DownloadEvents_DOWNLOAD_FINISHED
+DownloadEvents_DOWNLOAD_ERROR = _imslib.DownloadEvents_DOWNLOAD_ERROR
+DownloadEvents_VERIFY_SUCCESS = _imslib.DownloadEvents_VERIFY_SUCCESS
+DownloadEvents_VERIFY_FAIL = _imslib.DownloadEvents_VERIFY_FAIL
+DownloadEvents_DOWNLOAD_FAIL_MEMORY_FULL = _imslib.DownloadEvents_DOWNLOAD_FAIL_MEMORY_FULL
+DownloadEvents_DOWNLOAD_FAIL_TRANSFER_ABORT = _imslib.DownloadEvents_DOWNLOAD_FAIL_TRANSFER_ABORT
+DownloadEvents_IMAGE_DOWNLOAD_NEW_HANDLE = _imslib.DownloadEvents_IMAGE_DOWNLOAD_NEW_HANDLE
 class ImageDownload(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, img):
         _imslib.ImageDownload_swiginit(self, _imslib.new_ImageDownload(ims, img))
+
+    def SetFormat(self, fmt):
+        return _imslib.ImageDownload_SetFormat(self, fmt)
 
     def StartDownload(self):
         return _imslib.ImageDownload_StartDownload(self)
@@ -2361,16 +2939,9 @@ class ImageDownload(object):
 
 # Register ImageDownload in _imslib:
 _imslib.ImageDownload_swigregister(ImageDownload)
-class ImagePlayerEvents(object):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
-
-    def __init__(self):
-        _imslib.ImagePlayerEvents_swiginit(self, _imslib.new_ImagePlayerEvents())
-    __swig_destroy__ = _imslib.delete_ImagePlayerEvents
-
-# Register ImagePlayerEvents in _imslib:
-_imslib.ImagePlayerEvents_swigregister(ImagePlayerEvents)
+ImagePlayerEvents_POINT_PROGRESS = _imslib.ImagePlayerEvents_POINT_PROGRESS
+ImagePlayerEvents_IMAGE_STARTED = _imslib.ImagePlayerEvents_IMAGE_STARTED
+ImagePlayerEvents_IMAGE_FINISHED = _imslib.ImagePlayerEvents_IMAGE_FINISHED
 
 import enum
 
@@ -2656,6 +3227,135 @@ class CompensationTableDownload(object):
 
 # Register CompensationTableDownload in _imslib:
 _imslib.CompensationTableDownload_swigregister(CompensationTableDownload)
+ToneBufferEvents_DOWNLOAD_FINISHED = _imslib.ToneBufferEvents_DOWNLOAD_FINISHED
+ToneBufferEvents_DOWNLOAD_ERROR = _imslib.ToneBufferEvents_DOWNLOAD_ERROR
+
+def TBEntry(*args, **kwargs):
+    return ImagePoint(*args, **kwargs)     
+
+class ToneBuffer(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        _imslib.ToneBuffer_swiginit(self, _imslib.new_ToneBuffer(*args))
+
+    def __eq__(self, rhs):
+        return _imslib.ToneBuffer___eq__(self, rhs)
+
+    def Size(self):
+        return _imslib.ToneBuffer_Size(self)
+    Name = property(_imslib.ToneBuffer_Name_get, _imslib.ToneBuffer_Name_set)
+    GetUUID = property(_imslib.ToneBuffer_GetUUID_get)
+
+    def _getitem(self, i):
+        return _imslib.ToneBuffer__getitem(self, i)
+
+    def __setitem__(self, i, val):
+        return _imslib.ToneBuffer___setitem__(self, i, val)
+
+    def __len__(self):
+        return _imslib.ToneBuffer___len__(self)
+
+    def __iter__(self):
+        for i in range(len(self)):
+            yield self[i]
+    def __getitem__(self, idx):
+        if isinstance(idx, slice):
+            return [self[i] for i in range(*idx.indices(len(self)))]
+        else:
+            if idx < 0: idx += len(self)
+            if idx < 0 or idx >= len(self):
+                raise IndexError("ToneBuffer index out of range")
+            return self._getitem(idx)
+
+    __swig_destroy__ = _imslib.delete_ToneBuffer
+
+# Register ToneBuffer in _imslib:
+_imslib.ToneBuffer_swigregister(ToneBuffer)
+class ToneBufferDownload(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims, tbl):
+        _imslib.ToneBufferDownload_swiginit(self, _imslib.new_ToneBufferDownload(ims, tbl))
+
+    def StartDownloadAll(self):
+        return _imslib.ToneBufferDownload_StartDownloadAll(self)
+
+    def StartDownloadRange(self, index, count):
+        return _imslib.ToneBufferDownload_StartDownloadRange(self, index, count)
+
+    def StartDownloadIndex(self, index):
+        return _imslib.ToneBufferDownload_StartDownloadIndex(self, index)
+
+    def ToneBufferDownloadEventSubscribe(self, message, handler):
+        return _imslib.ToneBufferDownload_ToneBufferDownloadEventSubscribe(self, message, handler)
+
+    def ToneBufferDownloadEventUnsubscribe(self, message, handler):
+        return _imslib.ToneBufferDownload_ToneBufferDownloadEventUnsubscribe(self, message, handler)
+
+    def Store(self, *args):
+        return _imslib.ToneBufferDownload_Store(self, *args)
+
+    def StartDownload(self, arg1=None, arg2=None):
+        """
+        Pythonic StartDownload overloads:
+        - StartDownload()               → full buffer
+        - StartDownload(index)          → single element
+        - StartDownload(start, end)     → range
+        - StartDownload(slice)          → slice range
+        """
+
+        if arg1 is None:
+            return _imslib.ToneBufferDownload_StartDownloadAll(self)
+
+        elif isinstance(arg1, int) and arg2 is None:
+            return _imslib.ToneBufferDownload_StartDownloadIndex(self, arg1)
+
+        elif isinstance(arg1, int) and isinstance(arg2, int):
+            return _imslib.ToneBufferDownload_StartDownloadRange(self, arg1, arg2)
+
+        elif isinstance(arg1, slice):
+            start, stop, step = arg1.indices(256)
+            if step != 1:
+                raise ValueError("Step slicing not supported")
+            return _imslib.ToneBufferDownload_StartDownloadRange(self, start, (stop - start))
+
+        else:
+            raise TypeError("Invalid arguments for StartDownload")
+
+    __swig_destroy__ = _imslib.delete_ToneBufferDownload
+
+# Register ToneBufferDownload in _imslib:
+_imslib.ToneBufferDownload_swigregister(ToneBufferDownload)
+class ToneSequenceEntry(SequenceEntry):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        if self.__class__ == ToneSequenceEntry:
+            _self = None
+        else:
+            _self = self
+        _imslib.ToneSequenceEntry_swiginit(self, _imslib.new_ToneSequenceEntry(_self, *args))
+
+    def __eq__(self, rhs):
+        return _imslib.ToneSequenceEntry___eq__(self, rhs)
+
+    def ControlSource(self):
+        return _imslib.ToneSequenceEntry_ControlSource(self)
+
+    def InitialIndex(self):
+        return _imslib.ToneSequenceEntry_InitialIndex(self)
+    __swig_destroy__ = _imslib.delete_ToneSequenceEntry
+    def __disown__(self):
+        self.this.disown()
+        _imslib.disown_ToneSequenceEntry(self)
+        return weakref.proxy(self)
+
+# Register ToneSequenceEntry in _imslib:
+_imslib.ToneSequenceEntry_swigregister(ToneSequenceEntry)
 class ImageGroupList(ListBase_ImageGroup):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -2676,7 +3376,7 @@ class CompensationFunctionList(ListBase_CompensationFunction):
 
 # Register CompensationFunctionList in _imslib:
 _imslib.CompensationFunctionList_swigregister(CompensationFunctionList)
-class ToneBufferList(object):
+class ToneBufferList(ListBase_ToneBuffer):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
@@ -2839,6 +3539,15 @@ class SignalPath(object):
     def UpdateLocalToneBuffer(self, *args):
         return _imslib.SignalPath_UpdateLocalToneBuffer(self, *args)
 
+    def UpdateLocalToneBufferControl(self, tbc):
+        return _imslib.SignalPath_UpdateLocalToneBufferControl(self, tbc)
+
+    def UpdateLocalToneBufferCompensation(self, AmplitudeComp, PhaseComp):
+        return _imslib.SignalPath_UpdateLocalToneBufferCompensation(self, AmplitudeComp, PhaseComp)
+
+    def UpdateLocalToneBufferIndex(self, index):
+        return _imslib.SignalPath_UpdateLocalToneBufferIndex(self, index)
+
     def UpdateEncoder(self, velcomp):
         return _imslib.SignalPath_UpdateEncoder(self, velcomp)
 
@@ -2881,4 +3590,209 @@ class VelocityConfiguration(object):
 
 # Register VelocityConfiguration in _imslib:
 _imslib.VelocityConfiguration_swigregister(VelocityConfiguration)
+SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT = _imslib.SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT
+SystemFuncEvents_MASTER_CLOCK_REF_FREQ = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_FREQ
+SystemFuncEvents_MASTER_CLOCK_REF_MODE = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_MODE
+SystemFuncEvents_MASTER_CLOCK_REF_STATUS = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_STATUS
+SystemFuncEvents_SYNTH_TEMPERATURE_1 = _imslib.SystemFuncEvents_SYNTH_TEMPERATURE_1
+SystemFuncEvents_SYNTH_TEMPERATURE_2 = _imslib.SystemFuncEvents_SYNTH_TEMPERATURE_2
+class SystemFunc(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims):
+        _imslib.SystemFunc_swiginit(self, _imslib.new_SystemFunc(ims))
+    UpdateClockSource_INTERNAL = _imslib.SystemFunc_UpdateClockSource_INTERNAL
+    UpdateClockSource_EXTERNAL = _imslib.SystemFunc_UpdateClockSource_EXTERNAL
+    TemperatureSensor_TEMP_SENSOR_1 = _imslib.SystemFunc_TemperatureSensor_TEMP_SENSOR_1
+    TemperatureSensor_TEMP_SENSOR_2 = _imslib.SystemFunc_TemperatureSensor_TEMP_SENSOR_2
+    PLLLockReference_INTERNAL = _imslib.SystemFunc_PLLLockReference_INTERNAL
+    PLLLockReference_EXTERNAL_FIXED = _imslib.SystemFunc_PLLLockReference_EXTERNAL_FIXED
+    PLLLockReference_EXTERNAL_AUTO = _imslib.SystemFunc_PLLLockReference_EXTERNAL_AUTO
+    PLLLockReference_EXTERNAL_FAILOVER = _imslib.SystemFunc_PLLLockReference_EXTERNAL_FAILOVER
+    PLLLockStatus_EXTERNAL_NOSIGNAL = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_NOSIGNAL
+    PLLLockStatus_INTERNAL_UNLOCKED = _imslib.SystemFunc_PLLLockStatus_INTERNAL_UNLOCKED
+    PLLLockStatus_INTERNAL_LOCKED = _imslib.SystemFunc_PLLLockStatus_INTERNAL_LOCKED
+    PLLLockStatus_EXTERNAL_VALID_UNLOCKED = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_VALID_UNLOCKED
+    PLLLockStatus_EXTERNAL_LOCKED = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_LOCKED
+    NHFLocalReset_NO_ACTION = _imslib.SystemFunc_NHFLocalReset_NO_ACTION
+    NHFLocalReset_RESET_ON_COMMS_UNHEALTHY = _imslib.SystemFunc_NHFLocalReset_RESET_ON_COMMS_UNHEALTHY
+
+    def ClearNHF(self):
+        return _imslib.SystemFunc_ClearNHF(self)
+
+    def SendHeartbeat(self):
+        return _imslib.SystemFunc_SendHeartbeat(self)
+
+    def StartHeartbeat(self, intervalMs):
+        return _imslib.SystemFunc_StartHeartbeat(self, intervalMs)
+
+    def StopHeartbeat(self):
+        return _imslib.SystemFunc_StopHeartbeat(self)
+
+    def ConfigureNHF(self, Enabled, milliSeconds, reset):
+        return _imslib.SystemFunc_ConfigureNHF(self, Enabled, milliSeconds, reset)
+
+    def EnableAmplifier(self, en):
+        return _imslib.SystemFunc_EnableAmplifier(self, en)
+
+    def EnableExternal(self, enable):
+        return _imslib.SystemFunc_EnableExternal(self, enable)
+
+    def EnableRFChannels(self, chan1_2, chan3_4):
+        return _imslib.SystemFunc_EnableRFChannels(self, chan1_2, chan3_4)
+
+    def GetChecksumErrorCount(self, Reset=True):
+        return _imslib.SystemFunc_GetChecksumErrorCount(self, Reset)
+
+    def SetDDSUpdateClockSource(self, *args):
+        return _imslib.SystemFunc_SetDDSUpdateClockSource(self, *args)
+
+    def StoreStartupConfig(self, cfg):
+        return _imslib.SystemFunc_StoreStartupConfig(self, cfg)
+
+    def ReadSystemTemperature(self, sensor):
+        return _imslib.SystemFunc_ReadSystemTemperature(self, sensor)
+
+    def SetClockReferenceMode(self, *args):
+        return _imslib.SystemFunc_SetClockReferenceMode(self, *args)
+
+    def GetClockReferenceStatus(self):
+        return _imslib.SystemFunc_GetClockReferenceStatus(self)
+
+    def GetClockReferenceFrequency(self):
+        return _imslib.SystemFunc_GetClockReferenceFrequency(self)
+
+    def GetClockReferenceMode(self):
+        return _imslib.SystemFunc_GetClockReferenceMode(self)
+
+    def ConfigureClockGenerator(self, cfg):
+        return _imslib.SystemFunc_ConfigureClockGenerator(self, cfg)
+
+    def GetClockGenConfiguration(self):
+        return _imslib.SystemFunc_GetClockGenConfiguration(self)
+
+    def DisableClockGenerator(self):
+        return _imslib.SystemFunc_DisableClockGenerator(self)
+
+    def SystemFuncEventSubscribe(self, message, handler):
+        return _imslib.SystemFunc_SystemFuncEventSubscribe(self, message, handler)
+
+    def SystemFuncEventUnsubscribe(self, message, handler):
+        return _imslib.SystemFunc_SystemFuncEventUnsubscribe(self, message, handler)
+    __swig_destroy__ = _imslib.delete_SystemFunc
+
+# Register SystemFunc in _imslib:
+_imslib.SystemFunc_swigregister(SystemFunc)
+class StartupConfiguration(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    RFAmplitudeWiper1 = property(_imslib.StartupConfiguration_RFAmplitudeWiper1_get, _imslib.StartupConfiguration_RFAmplitudeWiper1_set)
+    RFAmplitudeWiper2 = property(_imslib.StartupConfiguration_RFAmplitudeWiper2_get, _imslib.StartupConfiguration_RFAmplitudeWiper2_set)
+    DDSPower = property(_imslib.StartupConfiguration_DDSPower_get, _imslib.StartupConfiguration_DDSPower_set)
+    AmplitudeControlSource = property(_imslib.StartupConfiguration_AmplitudeControlSource_get, _imslib.StartupConfiguration_AmplitudeControlSource_set)
+    RFGate = property(_imslib.StartupConfiguration_RFGate_get, _imslib.StartupConfiguration_RFGate_set)
+    RFBias12 = property(_imslib.StartupConfiguration_RFBias12_get, _imslib.StartupConfiguration_RFBias12_set)
+    RFBias34 = property(_imslib.StartupConfiguration_RFBias34_get, _imslib.StartupConfiguration_RFBias34_set)
+    ExtEquipmentEnable = property(_imslib.StartupConfiguration_ExtEquipmentEnable_get, _imslib.StartupConfiguration_ExtEquipmentEnable_set)
+    LTBUseAmplitudeCompensation = property(_imslib.StartupConfiguration_LTBUseAmplitudeCompensation_get, _imslib.StartupConfiguration_LTBUseAmplitudeCompensation_set)
+    LTBUsePhaseCompensation = property(_imslib.StartupConfiguration_LTBUsePhaseCompensation_get, _imslib.StartupConfiguration_LTBUsePhaseCompensation_set)
+    LTBControlSource = property(_imslib.StartupConfiguration_LTBControlSource_get, _imslib.StartupConfiguration_LTBControlSource_set)
+    LocalToneIndex = property(_imslib.StartupConfiguration_LocalToneIndex_get, _imslib.StartupConfiguration_LocalToneIndex_set)
+    PhaseTuneCh1 = property(_imslib.StartupConfiguration_PhaseTuneCh1_get, _imslib.StartupConfiguration_PhaseTuneCh1_set)
+    PhaseTuneCh2 = property(_imslib.StartupConfiguration_PhaseTuneCh2_get, _imslib.StartupConfiguration_PhaseTuneCh2_set)
+    PhaseTuneCh3 = property(_imslib.StartupConfiguration_PhaseTuneCh3_get, _imslib.StartupConfiguration_PhaseTuneCh3_set)
+    PhaseTuneCh4 = property(_imslib.StartupConfiguration_PhaseTuneCh4_get, _imslib.StartupConfiguration_PhaseTuneCh4_set)
+    ChannelReversal = property(_imslib.StartupConfiguration_ChannelReversal_get, _imslib.StartupConfiguration_ChannelReversal_set)
+    ImageUseAmplitudeCompensation = property(_imslib.StartupConfiguration_ImageUseAmplitudeCompensation_get, _imslib.StartupConfiguration_ImageUseAmplitudeCompensation_set)
+    ImageUsePhaseCompensation = property(_imslib.StartupConfiguration_ImageUsePhaseCompensation_get, _imslib.StartupConfiguration_ImageUsePhaseCompensation_set)
+    upd_clk = property(_imslib.StartupConfiguration_upd_clk_get, _imslib.StartupConfiguration_upd_clk_set)
+    XYCompEnable = property(_imslib.StartupConfiguration_XYCompEnable_get, _imslib.StartupConfiguration_XYCompEnable_set)
+    LEDGreen = property(_imslib.StartupConfiguration_LEDGreen_get, _imslib.StartupConfiguration_LEDGreen_set)
+    LEDYellow = property(_imslib.StartupConfiguration_LEDYellow_get, _imslib.StartupConfiguration_LEDYellow_set)
+    LEDRed = property(_imslib.StartupConfiguration_LEDRed_get, _imslib.StartupConfiguration_LEDRed_set)
+    GPOutput = property(_imslib.StartupConfiguration_GPOutput_get, _imslib.StartupConfiguration_GPOutput_set)
+    ResetOnUnhealthy = property(_imslib.StartupConfiguration_ResetOnUnhealthy_get, _imslib.StartupConfiguration_ResetOnUnhealthy_set)
+    CommsHealthyCheckEnabled = property(_imslib.StartupConfiguration_CommsHealthyCheckEnabled_get, _imslib.StartupConfiguration_CommsHealthyCheckEnabled_set)
+    CommsHealthyCheckTimerMilliseconds = property(_imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get, _imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set)
+    SyncDigitalSource = property(_imslib.StartupConfiguration_SyncDigitalSource_get, _imslib.StartupConfiguration_SyncDigitalSource_set)
+    SyncAnalogASource = property(_imslib.StartupConfiguration_SyncAnalogASource_get, _imslib.StartupConfiguration_SyncAnalogASource_set)
+    SyncAnalogBSource = property(_imslib.StartupConfiguration_SyncAnalogBSource_get, _imslib.StartupConfiguration_SyncAnalogBSource_set)
+    PLLMode = property(_imslib.StartupConfiguration_PLLMode_get, _imslib.StartupConfiguration_PLLMode_set)
+    ExtClockFrequency = property(_imslib.StartupConfiguration_ExtClockFrequency_get, _imslib.StartupConfiguration_ExtClockFrequency_set)
+    PhaseAccClear = property(_imslib.StartupConfiguration_PhaseAccClear_get, _imslib.StartupConfiguration_PhaseAccClear_set)
+
+    def __init__(self):
+        _imslib.StartupConfiguration_swiginit(self, _imslib.new_StartupConfiguration())
+    __swig_destroy__ = _imslib.delete_StartupConfiguration
+
+# Register StartupConfiguration in _imslib:
+_imslib.StartupConfiguration_swigregister(StartupConfiguration)
+class ClockGenConfiguration(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    ClockFreq = property(_imslib.ClockGenConfiguration_ClockFreq_get, _imslib.ClockGenConfiguration_ClockFreq_set)
+    OscPhase = property(_imslib.ClockGenConfiguration_OscPhase_get, _imslib.ClockGenConfiguration_OscPhase_set)
+    DutyCycle = property(_imslib.ClockGenConfiguration_DutyCycle_get, _imslib.ClockGenConfiguration_DutyCycle_set)
+    AlwaysOn = property(_imslib.ClockGenConfiguration_AlwaysOn_get, _imslib.ClockGenConfiguration_AlwaysOn_set)
+    GenerateTrigger = property(_imslib.ClockGenConfiguration_GenerateTrigger_get, _imslib.ClockGenConfiguration_GenerateTrigger_set)
+    ClockPolarity = property(_imslib.ClockGenConfiguration_ClockPolarity_get, _imslib.ClockGenConfiguration_ClockPolarity_set)
+    TrigPolarity = property(_imslib.ClockGenConfiguration_TrigPolarity_get, _imslib.ClockGenConfiguration_TrigPolarity_set)
+
+    def __init__(self):
+        _imslib.ClockGenConfiguration_swiginit(self, _imslib.new_ClockGenConfiguration())
+    __swig_destroy__ = _imslib.delete_ClockGenConfiguration
+
+# Register ClockGenConfiguration in _imslib:
+_imslib.ClockGenConfiguration_swigregister(ClockGenConfiguration)
+DiagnosticsEvents_AOD_TEMP_UPDATE = _imslib.DiagnosticsEvents_AOD_TEMP_UPDATE
+DiagnosticsEvents_RFA_TEMP_UPDATE = _imslib.DiagnosticsEvents_RFA_TEMP_UPDATE
+DiagnosticsEvents_SYN_LOGGED_HOURS = _imslib.DiagnosticsEvents_SYN_LOGGED_HOURS
+DiagnosticsEvents_AOD_LOGGED_HOURS = _imslib.DiagnosticsEvents_AOD_LOGGED_HOURS
+DiagnosticsEvents_RFA_LOGGED_HOURS = _imslib.DiagnosticsEvents_RFA_LOGGED_HOURS
+DiagnosticsEvents_DIAGNOSTICS_UPDATE_AVAILABLE = _imslib.DiagnosticsEvents_DIAGNOSTICS_UPDATE_AVAILABLE
+DiagnosticsEvents_DIAG_READ_FAILED = _imslib.DiagnosticsEvents_DIAG_READ_FAILED
+class Diagnostics(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims):
+        _imslib.Diagnostics_swiginit(self, _imslib.new_Diagnostics(ims))
+    TARGET_SYNTH = _imslib.Diagnostics_TARGET_SYNTH
+    TARGET_AO_DEVICE = _imslib.Diagnostics_TARGET_AO_DEVICE
+    TARGET_RF_AMPLIFIER = _imslib.Diagnostics_TARGET_RF_AMPLIFIER
+    MEASURE_FORWARD_POWER_CH1 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH1
+    MEASURE_FORWARD_POWER_CH2 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH2
+    MEASURE_FORWARD_POWER_CH3 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH3
+    MEASURE_FORWARD_POWER_CH4 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH4
+    MEASURE_REFLECTED_POWER_CH1 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH1
+    MEASURE_REFLECTED_POWER_CH2 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH2
+    MEASURE_REFLECTED_POWER_CH3 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH3
+    MEASURE_REFLECTED_POWER_CH4 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH4
+    MEASURE_DC_CURRENT_CH1 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH1
+    MEASURE_DC_CURRENT_CH2 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH2
+    MEASURE_DC_CURRENT_CH3 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH3
+    MEASURE_DC_CURRENT_CH4 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH4
+
+    def DiagnosticsEventSubscribe(self, message, handler):
+        return _imslib.Diagnostics_DiagnosticsEventSubscribe(self, message, handler)
+
+    def DiagnosticsEventUnsubscribe(self, message, handler):
+        return _imslib.Diagnostics_DiagnosticsEventUnsubscribe(self, message, handler)
+
+    def GetTemperature(self, tgt):
+        return _imslib.Diagnostics_GetTemperature(self, tgt)
+
+    def GetLoggedHours(self, tgt):
+        return _imslib.Diagnostics_GetLoggedHours(self, tgt)
+
+    def UpdateDiagnostics(self):
+        return _imslib.Diagnostics_UpdateDiagnostics(self)
+
+    def GetDiagnosticsData(self):
+        return _imslib.Diagnostics_GetDiagnosticsData(self)
+    __swig_destroy__ = _imslib.delete_Diagnostics
+
+# Register Diagnostics in _imslib:
+_imslib.Diagnostics_swigregister(Diagnostics)
 
