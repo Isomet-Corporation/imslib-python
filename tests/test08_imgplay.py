@@ -325,5 +325,4 @@ while True:
 
 
 sp.ClearTone()
-
 ims.Disconnect()

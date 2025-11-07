@@ -73,7 +73,7 @@ for i, aod_str in enumerate(AOList):
     proj.ToneBufferContainer.append(aod_tb)
 
     plot_ImageFreq(aod_tb[0:nTones+1], axs[i], title=f"{nTones} Step Tone Buffer for {aod_str}", drawstyle='steps-mid')
-    axs[i].set_ylim(0, 220)
+    axs[i].set_ylim(0, 240)
 
 plt.tight_layout()
 plt.show()
