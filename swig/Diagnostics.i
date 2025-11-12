@@ -14,6 +14,26 @@ namespace iMS
 
 namespace iMS 
 {
+
+    // Use this to interpret the output of GetDiagnosticsData()
+    %pythoncode %{
+    from enum import Enum
+
+    class MEASUREMENT(Enum):
+        FORWARD_POWER_CH1 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH1
+        FORWARD_POWER_CH2 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH2
+        FORWARD_POWER_CH3 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH3
+        FORWARD_POWER_CH4 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH4
+        REFLECTED_POWER_CH1 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH1
+        REFLECTED_POWER_CH2 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH2
+        REFLECTED_POWER_CH3 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH3
+        REFLECTED_POWER_CH4 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH4
+        DC_CURRENT_CH1 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH1
+        DC_CURRENT_CH2 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH2
+        DC_CURRENT_CH3 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH3
+        DC_CURRENT_CH4 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH4
+    %}
+    
   class Diagnostics
   {
   public:
@@ -47,6 +67,7 @@ namespace iMS
     bool GetLoggedHours(const TARGET& tgt) const;
     bool UpdateDiagnostics();
     const std::map<int, Percent>& GetDiagnosticsData() const;
+    std::map<std::string, Percent> GetDiagnosticsDataStr() const;
   };
 
 }

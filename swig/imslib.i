@@ -5,6 +5,9 @@
 #define Py_LIMITED_API 0x03040000
 %}
 
+%feature("autodoc", "1");     // Enables auto docstring extraction from C++ comments
+%feature("docstring") "";     // Optional: ensures all functions can have docstrings
+
 %{
 #include "AcoustoOptics.h"
 #include "Containers.h"
@@ -48,6 +51,7 @@
 %include "ims_std_chrono.i"
 
 %template(ByteVector) std::vector<uint8_t>;
+%template(StringVector) std::vector<std::string>;
 %template(UUID) std::array<uint8_t, 16>;
 %template(VelGain) std::array<int16_t, 2>;
 
@@ -93,6 +97,7 @@
 %}
 
 %template(AnalogData) std::map<int, iMS::Percent>;
+%template(AnalogDataStr) std::map<std::string, iMS::Percent>;
 
 #define _STATIC_IMS
 
