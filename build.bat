@@ -1,4 +1,7 @@
-pushd X:\09014\py_test
+@echo off
+
+if "%1"=="" goto noarg
+if not exist %1\* goto noarg
 
 rmdir /S /Q build
 
@@ -10,7 +13,14 @@ cmake --build . --config Release
 call generators\deactivate_conanbuild.bat
 cd ..
 
-copy python\imslib.py venv\
-copy python\_imslib.pyd venv\
+copy python\imslib.py %1%\
+copy python\_imslib.pyd %1%\
 
-popd
+goto end
+
+:noarg
+echo "usage: build.bat <output folder>"
+echo "e.g. build.bat .\venv"
+
+:end
+echo on
