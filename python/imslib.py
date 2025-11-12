@@ -3929,6 +3929,10 @@ class Auxiliary(object):
     
     LED_SOURCE_PLL_LOCK = _imslib.Auxiliary_LED_SOURCE_PLL_LOCK
     
+    LED_SOURCE_ACTV = _imslib.Auxiliary_LED_SOURCE_ACTV
+    
+    LED_SOURCE_IDLE = _imslib.Auxiliary_LED_SOURCE_IDLE
+    
     LED_SINK_GREEN = _imslib.Auxiliary_LED_SINK_GREEN
     
     LED_SINK_YELLOW = _imslib.Auxiliary_LED_SINK_YELLOW

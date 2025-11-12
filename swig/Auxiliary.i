@@ -31,7 +31,9 @@ namespace iMS
 	LASER,
 	CHECKSUM,
 	OVERTEMP,
-	PLL_LOCK
+	PLL_LOCK,
+    ACTV,
+    IDLE
 	};
     
     enum class LED_SINK

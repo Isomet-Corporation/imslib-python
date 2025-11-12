@@ -21,7 +21,7 @@ print("Using iMS Library version ", ver.GetVersion())
 LED_SOURCE_NAMES = [
     "OFF", "ON", "PULS", "NPULS", "PIXEL_ACT", "CTRL_ACT",
     "COMMS_HEALTHY", "COMMS_UNHEALTHY", "RF_GATE", "INTERLOCK",
-    "LASER", "CHECKSUM", "OVERTEMP", "PLL_LOCK"
+    "LASER", "CHECKSUM", "OVERTEMP", "PLL_LOCK", "ACTV", "IDLE"
 ]
 
 LED_SINK_NAMES = [

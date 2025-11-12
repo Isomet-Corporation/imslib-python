@@ -78817,6 +78817,8 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SOURCE_CHECKSUM",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SOURCE::CHECKSUM)));
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SOURCE_OVERTEMP",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SOURCE::OVERTEMP)));
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SOURCE_PLL_LOCK",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SOURCE::PLL_LOCK)));
+  SWIG_Python_SetConstant(d, "Auxiliary_LED_SOURCE_ACTV",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SOURCE::ACTV)));
+  SWIG_Python_SetConstant(d, "Auxiliary_LED_SOURCE_IDLE",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SOURCE::IDLE)));
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SINK_GREEN",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SINK::GREEN)));
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SINK_YELLOW",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SINK::YELLOW)));
   SWIG_Python_SetConstant(d, "Auxiliary_LED_SINK_RED",SWIG_From_int(static_cast< int >(iMS::Auxiliary::LED_SINK::RED)));
