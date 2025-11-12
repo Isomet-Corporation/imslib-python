@@ -61,6 +61,8 @@ class _SwigNonDynamicMeta(type):
 import weakref
 
 class SwigPyIterator(object):
+    r"""Proxy of C++ swig::SwigPyIterator class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -69,51 +71,70 @@ class SwigPyIterator(object):
     __swig_destroy__ = _imslib.delete_SwigPyIterator
 
     def value(self):
+        r"""value(SwigPyIterator self) -> PyObject *"""
         return _imslib.SwigPyIterator_value(self)
 
     def incr(self, n=1):
+        r"""incr(SwigPyIterator self, size_t n=1) -> SwigPyIterator"""
         return _imslib.SwigPyIterator_incr(self, n)
 
     def decr(self, n=1):
+        r"""decr(SwigPyIterator self, size_t n=1) -> SwigPyIterator"""
         return _imslib.SwigPyIterator_decr(self, n)
 
     def distance(self, x):
+        r"""distance(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t"""
         return _imslib.SwigPyIterator_distance(self, x)
 
     def equal(self, x):
+        r"""equal(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _imslib.SwigPyIterator_equal(self, x)
 
     def copy(self):
+        r"""copy(SwigPyIterator self) -> SwigPyIterator"""
         return _imslib.SwigPyIterator_copy(self)
 
     def next(self):
+        r"""next(SwigPyIterator self) -> PyObject *"""
         return _imslib.SwigPyIterator_next(self)
 
     def __next__(self):
+        r"""__next__(SwigPyIterator self) -> PyObject *"""
         return _imslib.SwigPyIterator___next__(self)
 
     def previous(self):
+        r"""previous(SwigPyIterator self) -> PyObject *"""
         return _imslib.SwigPyIterator_previous(self)
 
     def advance(self, n):
+        r"""advance(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _imslib.SwigPyIterator_advance(self, n)
 
     def __eq__(self, x):
+        r"""__eq__(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _imslib.SwigPyIterator___eq__(self, x)
 
     def __ne__(self, x):
+        r"""__ne__(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _imslib.SwigPyIterator___ne__(self, x)
 
     def __iadd__(self, n):
+        r"""__iadd__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _imslib.SwigPyIterator___iadd__(self, n)
 
     def __isub__(self, n):
+        r"""__isub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _imslib.SwigPyIterator___isub__(self, n)
 
     def __add__(self, n):
+        r"""__add__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _imslib.SwigPyIterator___add__(self, n)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator
+        __sub__(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t
+        """
         return _imslib.SwigPyIterator___sub__(self, *args)
     def __iter__(self):
         return self
@@ -121,437 +142,904 @@ class SwigPyIterator(object):
 # Register SwigPyIterator in _imslib:
 _imslib.SwigPyIterator_swigregister(SwigPyIterator)
 SHARED_PTR_DISOWN = _imslib.SHARED_PTR_DISOWN
+
 class PostDelay(object):
+    r"""Proxy of C++ std::chrono::duration< uint16_t,std::ratio< 1,10000 > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(PostDelay self) -> PostDelay
+        __init__(PostDelay self, PostDelay arg2) -> PostDelay
+        __init__(PostDelay self, unsigned short const & r) -> PostDelay
+        """
         _imslib.PostDelay_swiginit(self, _imslib.new_PostDelay(*args))
 
     def count(self):
+        r"""count(PostDelay self) -> unsigned short"""
         return _imslib.PostDelay_count(self)
 
     def __add__(self, *args):
+        r"""
+        __add__(PostDelay self, PostDelay rhs) -> PostDelay
+        __add__(PostDelay self, unsigned short const & rhs) -> PostDelay
+        """
         return _imslib.PostDelay___add__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(PostDelay self, PostDelay rhs) -> PostDelay
+        __sub__(PostDelay self, unsigned short const & rhs) -> PostDelay
+        """
         return _imslib.PostDelay___sub__(self, *args)
 
     def __neg__(self):
+        r"""__neg__(PostDelay self) -> PostDelay"""
         return _imslib.PostDelay___neg__(self)
 
     def __mul__(self, scale):
+        r"""__mul__(PostDelay self, unsigned short const & scale) -> PostDelay"""
         return _imslib.PostDelay___mul__(self, scale)
 
     def __truediv__(self, scale):
+        r"""__truediv__(PostDelay self, unsigned short const & scale) -> PostDelay"""
         return _imslib.PostDelay___truediv__(self, scale)
 
     def __eq__(self, *args):
+        r"""
+        __eq__(PostDelay self, PostDelay rhs) -> bool
+        __eq__(PostDelay self, unsigned short const & rhs) -> bool
+        """
         return _imslib.PostDelay___eq__(self, *args)
 
     def __lt__(self, *args):
+        r"""
+        __lt__(PostDelay self, PostDelay other) -> bool
+        __lt__(PostDelay self, unsigned short const & rhs) -> bool
+        """
         return _imslib.PostDelay___lt__(self, *args)
 
     def __le__(self, *args):
+        r"""
+        __le__(PostDelay self, PostDelay other) -> bool
+        __le__(PostDelay self, unsigned short const & rhs) -> bool
+        """
         return _imslib.PostDelay___le__(self, *args)
 
     def __gt__(self, *args):
+        r"""
+        __gt__(PostDelay self, PostDelay other) -> bool
+        __gt__(PostDelay self, unsigned short const & rhs) -> bool
+        """
         return _imslib.PostDelay___gt__(self, *args)
 
     def __ge__(self, *args):
+        r"""
+        __ge__(PostDelay self, PostDelay other) -> bool
+        __ge__(PostDelay self, unsigned short const & rhs) -> bool
+        """
         return _imslib.PostDelay___ge__(self, *args)
 
     def __str__(self):
+        r"""__str__(PostDelay self) -> std::string"""
         return _imslib.PostDelay___str__(self)
     __swig_destroy__ = _imslib.delete_PostDelay
 
 # Register PostDelay in _imslib:
 _imslib.PostDelay_swigregister(PostDelay)
 class UnitIntDuration(object):
+    r"""Proxy of C++ std::chrono::duration< int > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(UnitIntDuration self) -> UnitIntDuration
+        __init__(UnitIntDuration self, UnitIntDuration arg2) -> UnitIntDuration
+        __init__(UnitIntDuration self, int const & r) -> UnitIntDuration
+        """
         _imslib.UnitIntDuration_swiginit(self, _imslib.new_UnitIntDuration(*args))
 
     def count(self):
+        r"""count(UnitIntDuration self) -> int"""
         return _imslib.UnitIntDuration_count(self)
 
     def __add__(self, *args):
+        r"""
+        __add__(UnitIntDuration self, UnitIntDuration rhs) -> UnitIntDuration
+        __add__(UnitIntDuration self, int const & rhs) -> UnitIntDuration
+        """
         return _imslib.UnitIntDuration___add__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(UnitIntDuration self, UnitIntDuration rhs) -> UnitIntDuration
+        __sub__(UnitIntDuration self, int const & rhs) -> UnitIntDuration
+        """
         return _imslib.UnitIntDuration___sub__(self, *args)
 
     def __neg__(self):
+        r"""__neg__(UnitIntDuration self) -> UnitIntDuration"""
         return _imslib.UnitIntDuration___neg__(self)
 
     def __mul__(self, scale):
+        r"""__mul__(UnitIntDuration self, int const & scale) -> UnitIntDuration"""
         return _imslib.UnitIntDuration___mul__(self, scale)
 
     def __truediv__(self, scale):
+        r"""__truediv__(UnitIntDuration self, int const & scale) -> UnitIntDuration"""
         return _imslib.UnitIntDuration___truediv__(self, scale)
 
     def __eq__(self, *args):
+        r"""
+        __eq__(UnitIntDuration self, UnitIntDuration rhs) -> bool
+        __eq__(UnitIntDuration self, int const & rhs) -> bool
+        """
         return _imslib.UnitIntDuration___eq__(self, *args)
 
     def __lt__(self, *args):
+        r"""
+        __lt__(UnitIntDuration self, UnitIntDuration other) -> bool
+        __lt__(UnitIntDuration self, int const & rhs) -> bool
+        """
         return _imslib.UnitIntDuration___lt__(self, *args)
 
     def __le__(self, *args):
+        r"""
+        __le__(UnitIntDuration self, UnitIntDuration other) -> bool
+        __le__(UnitIntDuration self, int const & rhs) -> bool
+        """
         return _imslib.UnitIntDuration___le__(self, *args)
 
     def __gt__(self, *args):
+        r"""
+        __gt__(UnitIntDuration self, UnitIntDuration other) -> bool
+        __gt__(UnitIntDuration self, int const & rhs) -> bool
+        """
         return _imslib.UnitIntDuration___gt__(self, *args)
 
     def __ge__(self, *args):
+        r"""
+        __ge__(UnitIntDuration self, UnitIntDuration other) -> bool
+        __ge__(UnitIntDuration self, int const & rhs) -> bool
+        """
         return _imslib.UnitIntDuration___ge__(self, *args)
 
     def __str__(self):
+        r"""__str__(UnitIntDuration self) -> std::string"""
         return _imslib.UnitIntDuration___str__(self)
     __swig_destroy__ = _imslib.delete_UnitIntDuration
 
 # Register UnitIntDuration in _imslib:
 _imslib.UnitIntDuration_swigregister(UnitIntDuration)
 class UnitFloatDuration(object):
+    r"""Proxy of C++ std::chrono::duration< double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(UnitFloatDuration self) -> UnitFloatDuration
+        __init__(UnitFloatDuration self, UnitFloatDuration arg2) -> UnitFloatDuration
+        __init__(UnitFloatDuration self, double const & r) -> UnitFloatDuration
+        """
         _imslib.UnitFloatDuration_swiginit(self, _imslib.new_UnitFloatDuration(*args))
 
     def count(self):
+        r"""count(UnitFloatDuration self) -> double"""
         return _imslib.UnitFloatDuration_count(self)
 
     def __add__(self, *args):
+        r"""
+        __add__(UnitFloatDuration self, UnitFloatDuration rhs) -> UnitFloatDuration
+        __add__(UnitFloatDuration self, double const & rhs) -> UnitFloatDuration
+        """
         return _imslib.UnitFloatDuration___add__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(UnitFloatDuration self, UnitFloatDuration rhs) -> UnitFloatDuration
+        __sub__(UnitFloatDuration self, double const & rhs) -> UnitFloatDuration
+        """
         return _imslib.UnitFloatDuration___sub__(self, *args)
 
     def __neg__(self):
+        r"""__neg__(UnitFloatDuration self) -> UnitFloatDuration"""
         return _imslib.UnitFloatDuration___neg__(self)
 
     def __mul__(self, scale):
+        r"""__mul__(UnitFloatDuration self, double const & scale) -> UnitFloatDuration"""
         return _imslib.UnitFloatDuration___mul__(self, scale)
 
     def __truediv__(self, scale):
+        r"""__truediv__(UnitFloatDuration self, double const & scale) -> UnitFloatDuration"""
         return _imslib.UnitFloatDuration___truediv__(self, scale)
 
     def __eq__(self, *args):
+        r"""
+        __eq__(UnitFloatDuration self, UnitFloatDuration rhs) -> bool
+        __eq__(UnitFloatDuration self, double const & rhs) -> bool
+        """
         return _imslib.UnitFloatDuration___eq__(self, *args)
 
     def __lt__(self, *args):
+        r"""
+        __lt__(UnitFloatDuration self, UnitFloatDuration other) -> bool
+        __lt__(UnitFloatDuration self, double const & rhs) -> bool
+        """
         return _imslib.UnitFloatDuration___lt__(self, *args)
 
     def __le__(self, *args):
+        r"""
+        __le__(UnitFloatDuration self, UnitFloatDuration other) -> bool
+        __le__(UnitFloatDuration self, double const & rhs) -> bool
+        """
         return _imslib.UnitFloatDuration___le__(self, *args)
 
     def __gt__(self, *args):
+        r"""
+        __gt__(UnitFloatDuration self, UnitFloatDuration other) -> bool
+        __gt__(UnitFloatDuration self, double const & rhs) -> bool
+        """
         return _imslib.UnitFloatDuration___gt__(self, *args)
 
     def __ge__(self, *args):
+        r"""
+        __ge__(UnitFloatDuration self, UnitFloatDuration other) -> bool
+        __ge__(UnitFloatDuration self, double const & rhs) -> bool
+        """
         return _imslib.UnitFloatDuration___ge__(self, *args)
 
     def __str__(self):
+        r"""__str__(UnitFloatDuration self) -> std::string"""
         return _imslib.UnitFloatDuration___str__(self)
     __swig_destroy__ = _imslib.delete_UnitFloatDuration
 
 # Register UnitFloatDuration in _imslib:
 _imslib.UnitFloatDuration_swigregister(UnitFloatDuration)
 class NanoSeconds(object):
+    r"""Proxy of C++ std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(NanoSeconds self) -> NanoSeconds
+        __init__(NanoSeconds self, NanoSeconds arg2) -> NanoSeconds
+        __init__(NanoSeconds self, unsigned long long const & r) -> NanoSeconds
+        """
         _imslib.NanoSeconds_swiginit(self, _imslib.new_NanoSeconds(*args))
 
     def count(self):
+        r"""count(NanoSeconds self) -> unsigned long long"""
         return _imslib.NanoSeconds_count(self)
 
     def __add__(self, *args):
+        r"""
+        __add__(NanoSeconds self, NanoSeconds rhs) -> NanoSeconds
+        __add__(NanoSeconds self, unsigned long long const & rhs) -> NanoSeconds
+        """
         return _imslib.NanoSeconds___add__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(NanoSeconds self, NanoSeconds rhs) -> NanoSeconds
+        __sub__(NanoSeconds self, unsigned long long const & rhs) -> NanoSeconds
+        """
         return _imslib.NanoSeconds___sub__(self, *args)
 
     def __neg__(self):
+        r"""__neg__(NanoSeconds self) -> NanoSeconds"""
         return _imslib.NanoSeconds___neg__(self)
 
     def __mul__(self, scale):
+        r"""__mul__(NanoSeconds self, unsigned long long const & scale) -> NanoSeconds"""
         return _imslib.NanoSeconds___mul__(self, scale)
 
     def __truediv__(self, scale):
+        r"""__truediv__(NanoSeconds self, unsigned long long const & scale) -> NanoSeconds"""
         return _imslib.NanoSeconds___truediv__(self, scale)
 
     def __eq__(self, *args):
+        r"""
+        __eq__(NanoSeconds self, NanoSeconds rhs) -> bool
+        __eq__(NanoSeconds self, unsigned long long const & rhs) -> bool
+        """
         return _imslib.NanoSeconds___eq__(self, *args)
 
     def __lt__(self, *args):
+        r"""
+        __lt__(NanoSeconds self, NanoSeconds other) -> bool
+        __lt__(NanoSeconds self, unsigned long long const & rhs) -> bool
+        """
         return _imslib.NanoSeconds___lt__(self, *args)
 
     def __le__(self, *args):
+        r"""
+        __le__(NanoSeconds self, NanoSeconds other) -> bool
+        __le__(NanoSeconds self, unsigned long long const & rhs) -> bool
+        """
         return _imslib.NanoSeconds___le__(self, *args)
 
     def __gt__(self, *args):
+        r"""
+        __gt__(NanoSeconds self, NanoSeconds other) -> bool
+        __gt__(NanoSeconds self, unsigned long long const & rhs) -> bool
+        """
         return _imslib.NanoSeconds___gt__(self, *args)
 
     def __ge__(self, *args):
+        r"""
+        __ge__(NanoSeconds self, NanoSeconds other) -> bool
+        __ge__(NanoSeconds self, unsigned long long const & rhs) -> bool
+        """
         return _imslib.NanoSeconds___ge__(self, *args)
 
     def __str__(self):
+        r"""__str__(NanoSeconds self) -> std::string"""
         return _imslib.NanoSeconds___str__(self)
     __swig_destroy__ = _imslib.delete_NanoSeconds
 
 # Register NanoSeconds in _imslib:
 _imslib.NanoSeconds_swigregister(NanoSeconds)
 class ByteVector(object):
+    r"""Proxy of C++ std::vector< uint8_t > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(ByteVector self) -> SwigPyIterator"""
         return _imslib.ByteVector_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(ByteVector self) -> bool"""
         return _imslib.ByteVector___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(ByteVector self) -> bool"""
         return _imslib.ByteVector___bool__(self)
 
     def __len__(self):
+        r"""__len__(ByteVector self) -> std::vector< unsigned char >::size_type"""
         return _imslib.ByteVector___len__(self)
 
     def __getslice__(self, i, j):
+        r"""__getslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j) -> ByteVector"""
         return _imslib.ByteVector___getslice__(self, i, j)
 
     def __setslice__(self, *args):
+        r"""
+        __setslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j)
+        __setslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j, ByteVector v)
+        """
         return _imslib.ByteVector___setslice__(self, *args)
 
     def __delslice__(self, i, j):
+        r"""__delslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j)"""
         return _imslib.ByteVector___delslice__(self, i, j)
 
     def __delitem__(self, *args):
+        r"""
+        __delitem__(ByteVector self, std::vector< unsigned char >::difference_type i)
+        __delitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice)
+        """
         return _imslib.ByteVector___delitem__(self, *args)
 
     def __getitem__(self, *args):
+        r"""
+        __getitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice) -> ByteVector
+        __getitem__(ByteVector self, std::vector< unsigned char >::difference_type i) -> std::vector< unsigned char >::value_type const &
+        """
         return _imslib.ByteVector___getitem__(self, *args)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice, ByteVector v)
+        __setitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::value_type const & x)
+        """
         return _imslib.ByteVector___setitem__(self, *args)
 
     def pop(self):
+        r"""pop(ByteVector self) -> std::vector< unsigned char >::value_type"""
         return _imslib.ByteVector_pop(self)
 
     def append(self, x):
+        r"""append(ByteVector self, std::vector< unsigned char >::value_type const & x)"""
         return _imslib.ByteVector_append(self, x)
 
     def empty(self):
+        r"""empty(ByteVector self) -> bool"""
         return _imslib.ByteVector_empty(self)
 
     def size(self):
+        r"""size(ByteVector self) -> std::vector< unsigned char >::size_type"""
         return _imslib.ByteVector_size(self)
 
     def swap(self, v):
+        r"""swap(ByteVector self, ByteVector v)"""
         return _imslib.ByteVector_swap(self, v)
 
     def begin(self):
+        r"""begin(ByteVector self) -> std::vector< unsigned char >::iterator"""
         return _imslib.ByteVector_begin(self)
 
     def end(self):
+        r"""end(ByteVector self) -> std::vector< unsigned char >::iterator"""
         return _imslib.ByteVector_end(self)
 
     def rbegin(self):
+        r"""rbegin(ByteVector self) -> std::vector< unsigned char >::reverse_iterator"""
         return _imslib.ByteVector_rbegin(self)
 
     def rend(self):
+        r"""rend(ByteVector self) -> std::vector< unsigned char >::reverse_iterator"""
         return _imslib.ByteVector_rend(self)
 
     def clear(self):
+        r"""clear(ByteVector self)"""
         return _imslib.ByteVector_clear(self)
 
     def get_allocator(self):
+        r"""get_allocator(ByteVector self) -> std::vector< unsigned char >::allocator_type"""
         return _imslib.ByteVector_get_allocator(self)
 
     def pop_back(self):
+        r"""pop_back(ByteVector self)"""
         return _imslib.ByteVector_pop_back(self)
 
     def erase(self, *args):
+        r"""
+        erase(ByteVector self, std::vector< unsigned char >::iterator pos) -> std::vector< unsigned char >::iterator
+        erase(ByteVector self, std::vector< unsigned char >::iterator first, std::vector< unsigned char >::iterator last) -> std::vector< unsigned char >::iterator
+        """
         return _imslib.ByteVector_erase(self, *args)
 
     def __init__(self, *args):
+        r"""
+        __init__(ByteVector self) -> ByteVector
+        __init__(ByteVector self, ByteVector other) -> ByteVector
+        __init__(ByteVector self, std::vector< unsigned char >::size_type size) -> ByteVector
+        __init__(ByteVector self, std::vector< unsigned char >::size_type size, std::vector< unsigned char >::value_type const & value) -> ByteVector
+        """
         _imslib.ByteVector_swiginit(self, _imslib.new_ByteVector(*args))
 
     def push_back(self, x):
+        r"""push_back(ByteVector self, std::vector< unsigned char >::value_type const & x)"""
         return _imslib.ByteVector_push_back(self, x)
 
     def front(self):
+        r"""front(ByteVector self) -> std::vector< unsigned char >::value_type const &"""
         return _imslib.ByteVector_front(self)
 
     def back(self):
+        r"""back(ByteVector self) -> std::vector< unsigned char >::value_type const &"""
         return _imslib.ByteVector_back(self)
 
     def assign(self, n, x):
+        r"""assign(ByteVector self, std::vector< unsigned char >::size_type n, std::vector< unsigned char >::value_type const & x)"""
         return _imslib.ByteVector_assign(self, n, x)
 
     def resize(self, *args):
+        r"""
+        resize(ByteVector self, std::vector< unsigned char >::size_type new_size)
+        resize(ByteVector self, std::vector< unsigned char >::size_type new_size, std::vector< unsigned char >::value_type const & x)
+        """
         return _imslib.ByteVector_resize(self, *args)
 
     def insert(self, *args):
+        r"""
+        insert(ByteVector self, std::vector< unsigned char >::iterator pos, std::vector< unsigned char >::value_type const & x) -> std::vector< unsigned char >::iterator
+        insert(ByteVector self, std::vector< unsigned char >::iterator pos, std::vector< unsigned char >::size_type n, std::vector< unsigned char >::value_type const & x)
+        """
         return _imslib.ByteVector_insert(self, *args)
 
     def reserve(self, n):
+        r"""reserve(ByteVector self, std::vector< unsigned char >::size_type n)"""
         return _imslib.ByteVector_reserve(self, n)
 
     def capacity(self):
+        r"""capacity(ByteVector self) -> std::vector< unsigned char >::size_type"""
         return _imslib.ByteVector_capacity(self)
     __swig_destroy__ = _imslib.delete_ByteVector
 
 # Register ByteVector in _imslib:
 _imslib.ByteVector_swigregister(ByteVector)
-class UUID(object):
+class StringVector(object):
+    r"""Proxy of C++ std::vector< std::string > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(StringVector self) -> SwigPyIterator"""
+        return _imslib.StringVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        r"""__nonzero__(StringVector self) -> bool"""
+        return _imslib.StringVector___nonzero__(self)
+
+    def __bool__(self):
+        r"""__bool__(StringVector self) -> bool"""
+        return _imslib.StringVector___bool__(self)
+
+    def __len__(self):
+        r"""__len__(StringVector self) -> std::vector< std::string >::size_type"""
+        return _imslib.StringVector___len__(self)
+
+    def __getslice__(self, i, j):
+        r"""__getslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j) -> StringVector"""
+        return _imslib.StringVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        r"""
+        __setslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j)
+        __setslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j, StringVector v)
+        """
+        return _imslib.StringVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        r"""__delslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j)"""
+        return _imslib.StringVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        r"""
+        __delitem__(StringVector self, std::vector< std::string >::difference_type i)
+        __delitem__(StringVector self, SWIGPY_SLICEOBJECT * slice)
+        """
+        return _imslib.StringVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        r"""
+        __getitem__(StringVector self, SWIGPY_SLICEOBJECT * slice) -> StringVector
+        __getitem__(StringVector self, std::vector< std::string >::difference_type i) -> std::vector< std::string >::value_type const &
+        """
+        return _imslib.StringVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        r"""
+        __setitem__(StringVector self, SWIGPY_SLICEOBJECT * slice, StringVector v)
+        __setitem__(StringVector self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::value_type const & x)
+        """
+        return _imslib.StringVector___setitem__(self, *args)
+
+    def pop(self):
+        r"""pop(StringVector self) -> std::vector< std::string >::value_type"""
+        return _imslib.StringVector_pop(self)
+
+    def append(self, x):
+        r"""append(StringVector self, std::vector< std::string >::value_type const & x)"""
+        return _imslib.StringVector_append(self, x)
+
+    def empty(self):
+        r"""empty(StringVector self) -> bool"""
+        return _imslib.StringVector_empty(self)
+
+    def size(self):
+        r"""size(StringVector self) -> std::vector< std::string >::size_type"""
+        return _imslib.StringVector_size(self)
+
+    def swap(self, v):
+        r"""swap(StringVector self, StringVector v)"""
+        return _imslib.StringVector_swap(self, v)
+
+    def begin(self):
+        r"""begin(StringVector self) -> std::vector< std::string >::iterator"""
+        return _imslib.StringVector_begin(self)
+
+    def end(self):
+        r"""end(StringVector self) -> std::vector< std::string >::iterator"""
+        return _imslib.StringVector_end(self)
+
+    def rbegin(self):
+        r"""rbegin(StringVector self) -> std::vector< std::string >::reverse_iterator"""
+        return _imslib.StringVector_rbegin(self)
+
+    def rend(self):
+        r"""rend(StringVector self) -> std::vector< std::string >::reverse_iterator"""
+        return _imslib.StringVector_rend(self)
+
+    def clear(self):
+        r"""clear(StringVector self)"""
+        return _imslib.StringVector_clear(self)
+
+    def get_allocator(self):
+        r"""get_allocator(StringVector self) -> std::vector< std::string >::allocator_type"""
+        return _imslib.StringVector_get_allocator(self)
+
+    def pop_back(self):
+        r"""pop_back(StringVector self)"""
+        return _imslib.StringVector_pop_back(self)
+
+    def erase(self, *args):
+        r"""
+        erase(StringVector self, std::vector< std::string >::iterator pos) -> std::vector< std::string >::iterator
+        erase(StringVector self, std::vector< std::string >::iterator first, std::vector< std::string >::iterator last) -> std::vector< std::string >::iterator
+        """
+        return _imslib.StringVector_erase(self, *args)
+
+    def __init__(self, *args):
+        r"""
+        __init__(StringVector self) -> StringVector
+        __init__(StringVector self, StringVector other) -> StringVector
+        __init__(StringVector self, std::vector< std::string >::size_type size) -> StringVector
+        __init__(StringVector self, std::vector< std::string >::size_type size, std::vector< std::string >::value_type const & value) -> StringVector
+        """
+        _imslib.StringVector_swiginit(self, _imslib.new_StringVector(*args))
+
+    def push_back(self, x):
+        r"""push_back(StringVector self, std::vector< std::string >::value_type const & x)"""
+        return _imslib.StringVector_push_back(self, x)
+
+    def front(self):
+        r"""front(StringVector self) -> std::vector< std::string >::value_type const &"""
+        return _imslib.StringVector_front(self)
+
+    def back(self):
+        r"""back(StringVector self) -> std::vector< std::string >::value_type const &"""
+        return _imslib.StringVector_back(self)
+
+    def assign(self, n, x):
+        r"""assign(StringVector self, std::vector< std::string >::size_type n, std::vector< std::string >::value_type const & x)"""
+        return _imslib.StringVector_assign(self, n, x)
+
+    def resize(self, *args):
+        r"""
+        resize(StringVector self, std::vector< std::string >::size_type new_size)
+        resize(StringVector self, std::vector< std::string >::size_type new_size, std::vector< std::string >::value_type const & x)
+        """
+        return _imslib.StringVector_resize(self, *args)
+
+    def insert(self, *args):
+        r"""
+        insert(StringVector self, std::vector< std::string >::iterator pos, std::vector< std::string >::value_type const & x) -> std::vector< std::string >::iterator
+        insert(StringVector self, std::vector< std::string >::iterator pos, std::vector< std::string >::size_type n, std::vector< std::string >::value_type const & x)
+        """
+        return _imslib.StringVector_insert(self, *args)
+
+    def reserve(self, n):
+        r"""reserve(StringVector self, std::vector< std::string >::size_type n)"""
+        return _imslib.StringVector_reserve(self, n)
+
+    def capacity(self):
+        r"""capacity(StringVector self) -> std::vector< std::string >::size_type"""
+        return _imslib.StringVector_capacity(self)
+    __swig_destroy__ = _imslib.delete_StringVector
+
+# Register StringVector in _imslib:
+_imslib.StringVector_swigregister(StringVector)
+class UUID(object):
+    r"""Proxy of C++ std::array< uint8_t,16 > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        r"""iterator(UUID self) -> SwigPyIterator"""
         return _imslib.UUID_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(UUID self) -> bool"""
         return _imslib.UUID___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(UUID self) -> bool"""
         return _imslib.UUID___bool__(self)
 
     def __len__(self):
+        r"""__len__(UUID self) -> std::array< unsigned char,16 >::size_type"""
         return _imslib.UUID___len__(self)
 
     def __getslice__(self, i, j):
+        r"""__getslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j) -> UUID"""
         return _imslib.UUID___getslice__(self, i, j)
 
     def __setslice__(self, *args):
+        r"""
+        __setslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j)
+        __setslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j, UUID v)
+        """
         return _imslib.UUID___setslice__(self, *args)
 
     def __delslice__(self, i, j):
+        r"""__delslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j)"""
         return _imslib.UUID___delslice__(self, i, j)
 
     def __delitem__(self, *args):
+        r"""
+        __delitem__(UUID self, std::array< unsigned char,16 >::difference_type i)
+        __delitem__(UUID self, SWIGPY_SLICEOBJECT * slice)
+        """
         return _imslib.UUID___delitem__(self, *args)
 
     def __getitem__(self, *args):
+        r"""
+        __getitem__(UUID self, SWIGPY_SLICEOBJECT * slice) -> UUID
+        __getitem__(UUID self, std::array< unsigned char,16 >::difference_type i) -> std::array< unsigned char,16 >::value_type const &
+        """
         return _imslib.UUID___getitem__(self, *args)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(UUID self, SWIGPY_SLICEOBJECT * slice, UUID v)
+        __setitem__(UUID self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::value_type const & x)
+        """
         return _imslib.UUID___setitem__(self, *args)
 
     def __init__(self, *args):
+        r"""
+        __init__(UUID self) -> UUID
+        __init__(UUID self, UUID other) -> UUID
+        """
         _imslib.UUID_swiginit(self, _imslib.new_UUID(*args))
 
     def empty(self):
+        r"""empty(UUID self) -> bool"""
         return _imslib.UUID_empty(self)
 
     def size(self):
+        r"""size(UUID self) -> std::array< unsigned char,16 >::size_type"""
         return _imslib.UUID_size(self)
 
     def swap(self, v):
+        r"""swap(UUID self, UUID v)"""
         return _imslib.UUID_swap(self, v)
 
     def begin(self):
+        r"""begin(UUID self) -> std::array< unsigned char,16 >::iterator"""
         return _imslib.UUID_begin(self)
 
     def end(self):
+        r"""end(UUID self) -> std::array< unsigned char,16 >::iterator"""
         return _imslib.UUID_end(self)
 
     def rbegin(self):
+        r"""rbegin(UUID self) -> std::array< unsigned char,16 >::reverse_iterator"""
         return _imslib.UUID_rbegin(self)
 
     def rend(self):
+        r"""rend(UUID self) -> std::array< unsigned char,16 >::reverse_iterator"""
         return _imslib.UUID_rend(self)
 
     def front(self):
+        r"""front(UUID self) -> std::array< unsigned char,16 >::value_type const &"""
         return _imslib.UUID_front(self)
 
     def back(self):
+        r"""back(UUID self) -> std::array< unsigned char,16 >::value_type const &"""
         return _imslib.UUID_back(self)
 
     def fill(self, u):
+        r"""fill(UUID self, std::array< unsigned char,16 >::value_type const & u)"""
         return _imslib.UUID_fill(self, u)
 
     def __str__(self):
+        r"""__str__(UUID self) -> std::string"""
         return _imslib.UUID___str__(self)
     __swig_destroy__ = _imslib.delete_UUID
 
 # Register UUID in _imslib:
 _imslib.UUID_swigregister(UUID)
 class VelGain(object):
+    r"""Proxy of C++ std::array< int16_t,2 > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(VelGain self) -> SwigPyIterator"""
         return _imslib.VelGain_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(VelGain self) -> bool"""
         return _imslib.VelGain___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(VelGain self) -> bool"""
         return _imslib.VelGain___bool__(self)
 
     def __len__(self):
+        r"""__len__(VelGain self) -> std::array< short,2 >::size_type"""
         return _imslib.VelGain___len__(self)
 
     def __getslice__(self, i, j):
+        r"""__getslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j) -> VelGain"""
         return _imslib.VelGain___getslice__(self, i, j)
 
     def __setslice__(self, *args):
+        r"""
+        __setslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j)
+        __setslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j, VelGain v)
+        """
         return _imslib.VelGain___setslice__(self, *args)
 
     def __delslice__(self, i, j):
+        r"""__delslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j)"""
         return _imslib.VelGain___delslice__(self, i, j)
 
     def __delitem__(self, *args):
+        r"""
+        __delitem__(VelGain self, std::array< short,2 >::difference_type i)
+        __delitem__(VelGain self, SWIGPY_SLICEOBJECT * slice)
+        """
         return _imslib.VelGain___delitem__(self, *args)
 
     def __getitem__(self, *args):
+        r"""
+        __getitem__(VelGain self, SWIGPY_SLICEOBJECT * slice) -> VelGain
+        __getitem__(VelGain self, std::array< short,2 >::difference_type i) -> std::array< short,2 >::value_type const &
+        """
         return _imslib.VelGain___getitem__(self, *args)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(VelGain self, SWIGPY_SLICEOBJECT * slice, VelGain v)
+        __setitem__(VelGain self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::value_type const & x)
+        """
         return _imslib.VelGain___setitem__(self, *args)
 
     def __init__(self, *args):
+        r"""
+        __init__(VelGain self) -> VelGain
+        __init__(VelGain self, VelGain other) -> VelGain
+        """
         _imslib.VelGain_swiginit(self, _imslib.new_VelGain(*args))
 
     def empty(self):
+        r"""empty(VelGain self) -> bool"""
         return _imslib.VelGain_empty(self)
 
     def size(self):
+        r"""size(VelGain self) -> std::array< short,2 >::size_type"""
         return _imslib.VelGain_size(self)
 
     def swap(self, v):
+        r"""swap(VelGain self, VelGain v)"""
         return _imslib.VelGain_swap(self, v)
 
     def begin(self):
+        r"""begin(VelGain self) -> std::array< short,2 >::iterator"""
         return _imslib.VelGain_begin(self)
 
     def end(self):
+        r"""end(VelGain self) -> std::array< short,2 >::iterator"""
         return _imslib.VelGain_end(self)
 
     def rbegin(self):
+        r"""rbegin(VelGain self) -> std::array< short,2 >::reverse_iterator"""
         return _imslib.VelGain_rbegin(self)
 
     def rend(self):
+        r"""rend(VelGain self) -> std::array< short,2 >::reverse_iterator"""
         return _imslib.VelGain_rend(self)
 
     def front(self):
+        r"""front(VelGain self) -> std::array< short,2 >::value_type const &"""
         return _imslib.VelGain_front(self)
 
     def back(self):
+        r"""back(VelGain self) -> std::array< short,2 >::value_type const &"""
         return _imslib.VelGain_back(self)
 
     def fill(self, u):
+        r"""fill(VelGain self, std::array< short,2 >::value_type const & u)"""
         return _imslib.VelGain_fill(self, u)
     __swig_destroy__ = _imslib.delete_VelGain
 
@@ -559,23 +1047,30 @@ class VelGain(object):
 _imslib.VelGain_swigregister(VelGain)
 
 def UUID_Stream(stream, uuid):
+    r"""UUID_Stream(std::ostream & stream, UUID uuid) -> std::ostream &"""
     return _imslib.UUID_Stream(stream, uuid)
 class AnalogData(object):
+    r"""Proxy of C++ std::map< int,iMS::Percent > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(AnalogData self) -> SwigPyIterator"""
         return _imslib.AnalogData_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(AnalogData self) -> bool"""
         return _imslib.AnalogData___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(AnalogData self) -> bool"""
         return _imslib.AnalogData___bool__(self)
 
     def __len__(self):
+        r"""__len__(AnalogData self) -> std::map< int,iMS::Percent >::size_type"""
         return _imslib.AnalogData___len__(self)
     def __iter__(self):
         return self.key_iterator()
@@ -587,130 +1082,341 @@ class AnalogData(object):
         return self.iterator()
 
     def __getitem__(self, key):
+        r"""__getitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> Percent"""
         return _imslib.AnalogData___getitem__(self, key)
 
     def __delitem__(self, key):
+        r"""__delitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key)"""
         return _imslib.AnalogData___delitem__(self, key)
 
     def has_key(self, key):
+        r"""has_key(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> bool"""
         return _imslib.AnalogData_has_key(self, key)
 
     def keys(self):
+        r"""keys(AnalogData self) -> PyObject *"""
         return _imslib.AnalogData_keys(self)
 
     def values(self):
+        r"""values(AnalogData self) -> PyObject *"""
         return _imslib.AnalogData_values(self)
 
     def items(self):
+        r"""items(AnalogData self) -> PyObject *"""
         return _imslib.AnalogData_items(self)
 
     def __contains__(self, key):
+        r"""__contains__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> bool"""
         return _imslib.AnalogData___contains__(self, key)
 
     def key_iterator(self):
+        r"""key_iterator(AnalogData self) -> SwigPyIterator"""
         return _imslib.AnalogData_key_iterator(self)
 
     def value_iterator(self):
+        r"""value_iterator(AnalogData self) -> SwigPyIterator"""
         return _imslib.AnalogData_value_iterator(self)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key)
+        __setitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key, Percent x)
+        """
         return _imslib.AnalogData___setitem__(self, *args)
 
     def asdict(self):
+        r"""asdict(AnalogData self) -> PyObject *"""
         return _imslib.AnalogData_asdict(self)
 
     def __init__(self, *args):
+        r"""
+        __init__(AnalogData self, std::less< int > const & other) -> AnalogData
+        __init__(AnalogData self) -> AnalogData
+        __init__(AnalogData self, AnalogData other) -> AnalogData
+        """
         _imslib.AnalogData_swiginit(self, _imslib.new_AnalogData(*args))
 
     def empty(self):
+        r"""empty(AnalogData self) -> bool"""
         return _imslib.AnalogData_empty(self)
 
     def size(self):
+        r"""size(AnalogData self) -> std::map< int,iMS::Percent >::size_type"""
         return _imslib.AnalogData_size(self)
 
     def swap(self, v):
+        r"""swap(AnalogData self, AnalogData v)"""
         return _imslib.AnalogData_swap(self, v)
 
     def begin(self):
+        r"""begin(AnalogData self) -> std::map< int,iMS::Percent >::iterator"""
         return _imslib.AnalogData_begin(self)
 
     def end(self):
+        r"""end(AnalogData self) -> std::map< int,iMS::Percent >::iterator"""
         return _imslib.AnalogData_end(self)
 
     def rbegin(self):
+        r"""rbegin(AnalogData self) -> std::map< int,iMS::Percent >::reverse_iterator"""
         return _imslib.AnalogData_rbegin(self)
 
     def rend(self):
+        r"""rend(AnalogData self) -> std::map< int,iMS::Percent >::reverse_iterator"""
         return _imslib.AnalogData_rend(self)
 
     def clear(self):
+        r"""clear(AnalogData self)"""
         return _imslib.AnalogData_clear(self)
 
     def get_allocator(self):
+        r"""get_allocator(AnalogData self) -> std::map< int,iMS::Percent >::allocator_type"""
         return _imslib.AnalogData_get_allocator(self)
 
     def count(self, x):
+        r"""count(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::size_type"""
         return _imslib.AnalogData_count(self, x)
 
     def erase(self, *args):
+        r"""
+        erase(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::size_type
+        erase(AnalogData self, std::map< int,iMS::Percent >::iterator position)
+        erase(AnalogData self, std::map< int,iMS::Percent >::iterator first, std::map< int,iMS::Percent >::iterator last)
+        """
         return _imslib.AnalogData_erase(self, *args)
 
     def find(self, x):
+        r"""find(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"""
         return _imslib.AnalogData_find(self, x)
 
     def lower_bound(self, x):
+        r"""lower_bound(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"""
         return _imslib.AnalogData_lower_bound(self, x)
 
     def upper_bound(self, x):
+        r"""upper_bound(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"""
         return _imslib.AnalogData_upper_bound(self, x)
     __swig_destroy__ = _imslib.delete_AnalogData
 
 # Register AnalogData in _imslib:
 _imslib.AnalogData_swigregister(AnalogData)
+class AnalogDataStr(object):
+    r"""Proxy of C++ std::map< std::string,iMS::Percent > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        r"""iterator(AnalogDataStr self) -> SwigPyIterator"""
+        return _imslib.AnalogDataStr_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        r"""__nonzero__(AnalogDataStr self) -> bool"""
+        return _imslib.AnalogDataStr___nonzero__(self)
+
+    def __bool__(self):
+        r"""__bool__(AnalogDataStr self) -> bool"""
+        return _imslib.AnalogDataStr___bool__(self)
+
+    def __len__(self):
+        r"""__len__(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::size_type"""
+        return _imslib.AnalogDataStr___len__(self)
+    def __iter__(self):
+        return self.key_iterator()
+    def iterkeys(self):
+        return self.key_iterator()
+    def itervalues(self):
+        return self.value_iterator()
+    def iteritems(self):
+        return self.iterator()
+
+    def __getitem__(self, key):
+        r"""__getitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> Percent"""
+        return _imslib.AnalogDataStr___getitem__(self, key)
+
+    def __delitem__(self, key):
+        r"""__delitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key)"""
+        return _imslib.AnalogDataStr___delitem__(self, key)
+
+    def has_key(self, key):
+        r"""has_key(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> bool"""
+        return _imslib.AnalogDataStr_has_key(self, key)
+
+    def keys(self):
+        r"""keys(AnalogDataStr self) -> PyObject *"""
+        return _imslib.AnalogDataStr_keys(self)
+
+    def values(self):
+        r"""values(AnalogDataStr self) -> PyObject *"""
+        return _imslib.AnalogDataStr_values(self)
+
+    def items(self):
+        r"""items(AnalogDataStr self) -> PyObject *"""
+        return _imslib.AnalogDataStr_items(self)
+
+    def __contains__(self, key):
+        r"""__contains__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> bool"""
+        return _imslib.AnalogDataStr___contains__(self, key)
+
+    def key_iterator(self):
+        r"""key_iterator(AnalogDataStr self) -> SwigPyIterator"""
+        return _imslib.AnalogDataStr_key_iterator(self)
+
+    def value_iterator(self):
+        r"""value_iterator(AnalogDataStr self) -> SwigPyIterator"""
+        return _imslib.AnalogDataStr_value_iterator(self)
+
+    def __setitem__(self, *args):
+        r"""
+        __setitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key)
+        __setitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key, Percent x)
+        """
+        return _imslib.AnalogDataStr___setitem__(self, *args)
+
+    def asdict(self):
+        r"""asdict(AnalogDataStr self) -> PyObject *"""
+        return _imslib.AnalogDataStr_asdict(self)
+
+    def __init__(self, *args):
+        r"""
+        __init__(AnalogDataStr self, std::less< std::string > const & other) -> AnalogDataStr
+        __init__(AnalogDataStr self) -> AnalogDataStr
+        __init__(AnalogDataStr self, AnalogDataStr other) -> AnalogDataStr
+        """
+        _imslib.AnalogDataStr_swiginit(self, _imslib.new_AnalogDataStr(*args))
+
+    def empty(self):
+        r"""empty(AnalogDataStr self) -> bool"""
+        return _imslib.AnalogDataStr_empty(self)
+
+    def size(self):
+        r"""size(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::size_type"""
+        return _imslib.AnalogDataStr_size(self)
+
+    def swap(self, v):
+        r"""swap(AnalogDataStr self, AnalogDataStr v)"""
+        return _imslib.AnalogDataStr_swap(self, v)
+
+    def begin(self):
+        r"""begin(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::iterator"""
+        return _imslib.AnalogDataStr_begin(self)
+
+    def end(self):
+        r"""end(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::iterator"""
+        return _imslib.AnalogDataStr_end(self)
+
+    def rbegin(self):
+        r"""rbegin(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::reverse_iterator"""
+        return _imslib.AnalogDataStr_rbegin(self)
+
+    def rend(self):
+        r"""rend(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::reverse_iterator"""
+        return _imslib.AnalogDataStr_rend(self)
+
+    def clear(self):
+        r"""clear(AnalogDataStr self)"""
+        return _imslib.AnalogDataStr_clear(self)
+
+    def get_allocator(self):
+        r"""get_allocator(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::allocator_type"""
+        return _imslib.AnalogDataStr_get_allocator(self)
+
+    def count(self, x):
+        r"""count(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::size_type"""
+        return _imslib.AnalogDataStr_count(self, x)
+
+    def erase(self, *args):
+        r"""
+        erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::size_type
+        erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::iterator position)
+        erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::iterator first, std::map< std::string,iMS::Percent >::iterator last)
+        """
+        return _imslib.AnalogDataStr_erase(self, *args)
+
+    def find(self, x):
+        r"""find(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"""
+        return _imslib.AnalogDataStr_find(self, x)
+
+    def lower_bound(self, x):
+        r"""lower_bound(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"""
+        return _imslib.AnalogDataStr_lower_bound(self, x)
+
+    def upper_bound(self, x):
+        r"""upper_bound(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"""
+        return _imslib.AnalogDataStr_upper_bound(self, x)
+    __swig_destroy__ = _imslib.delete_AnalogDataStr
+
+# Register AnalogDataStr in _imslib:
+_imslib.AnalogDataStr_swigregister(AnalogDataStr)
 
 def SeqEntry_Stream(stream, seq):
+    r"""SeqEntry_Stream(std::ostream & stream, std::shared_ptr< SequenceEntry > const & seq) -> std::ostream &"""
     return _imslib.SeqEntry_Stream(stream, seq)
 
 def __lshift__(*args):
+    r"""
+    __lshift__(std::ostream & stream, ImageGroup const & grp) -> std::ostream
+    __lshift__(std::ostream & stream, Image const & img) -> std::ostream
+    __lshift__(std::ostream & stream, ToneBuffer const & tbuf) -> std::ostream
+    __lshift__(std::ostream & stream, ImagePoint const & pt) -> std::ostream
+    __lshift__(std::ostream & stream, CompensationFunction const & func) -> std::ostream
+    __lshift__(std::ostream & stream, CompensationPointSpecification const & pt_spec) -> std::ostream
+    __lshift__(std::ostream & stream, CompensationTable const & table) -> std::ostream &
+    """
     return _imslib.__lshift__(*args)
 class ListBase_SequenceEntry(object):
+    r"""Proxy of C++ iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::iterator"""
         return _imslib.ListBase_SequenceEntry_begin(self)
 
     def end(self):
+        r"""end(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::iterator"""
         return _imslib.ListBase_SequenceEntry_end(self)
 
     def cbegin(self):
+        r"""cbegin(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::const_iterator"""
         return _imslib.ListBase_SequenceEntry_cbegin(self)
 
     def cend(self):
+        r"""cend(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::const_iterator"""
         return _imslib.ListBase_SequenceEntry_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(ListBase_SequenceEntry self, size_t i) -> std::shared_ptr< iMS::SequenceEntry > const &"""
         return _imslib.ListBase_SequenceEntry___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ListBase_SequenceEntry self, size_t i, std::shared_ptr< iMS::SequenceEntry > const & val)"""
         return _imslib.ListBase_SequenceEntry___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ListBase_SequenceEntry self) -> size_t"""
         return _imslib.ListBase_SequenceEntry___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ListBase_SequenceEntry self) -> bool"""
         return _imslib.ListBase_SequenceEntry___bool__(self)
 
     def append(self, val):
+        r"""append(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & val)"""
         return _imslib.ListBase_SequenceEntry_append(self, val)
 
     def pop(self):
+        r"""pop(ListBase_SequenceEntry self) -> std::shared_ptr< iMS::SequenceEntry >"""
         return _imslib.ListBase_SequenceEntry_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > val) -> bool"""
         return _imslib.ListBase_SequenceEntry___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(ListBase_SequenceEntry self) -> std::string"""
         return _imslib.ListBase_SequenceEntry___str__(self)
 
     def __iter__(self):
@@ -726,79 +1432,106 @@ class ListBase_SequenceEntry(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(ListBase_SequenceEntry self, std::string const & Name="[no name]") -> ListBase_SequenceEntry
+        __init__(ListBase_SequenceEntry self, ListBase_SequenceEntry arg2) -> ListBase_SequenceEntry
+        """
         _imslib.ListBase_SequenceEntry_swiginit(self, _imslib.new_ListBase_SequenceEntry(*args))
 
     def assign(self, n, val):
+        r"""assign(ListBase_SequenceEntry self, size_t n, std::shared_ptr< iMS::SequenceEntry > const & val)"""
         return _imslib.ListBase_SequenceEntry_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(ListBase_SequenceEntry self, size_t n)"""
         return _imslib.ListBase_SequenceEntry_resize(self, n)
 
     def clear(self):
+        r"""clear(ListBase_SequenceEntry self)"""
         return _imslib.ListBase_SequenceEntry_clear(self)
 
     def push_back(self, value):
+        r"""push_back(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & value)"""
         return _imslib.ListBase_SequenceEntry_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(ListBase_SequenceEntry self)"""
         return _imslib.ListBase_SequenceEntry_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & value)"""
         return _imslib.ListBase_SequenceEntry_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(ListBase_SequenceEntry self)"""
         return _imslib.ListBase_SequenceEntry_pop_front(self)
 
     def empty(self):
+        r"""empty(ListBase_SequenceEntry self) -> bool"""
         return _imslib.ListBase_SequenceEntry_empty(self)
 
     def size(self):
+        r"""size(ListBase_SequenceEntry self) -> std::size_t"""
         return _imslib.ListBase_SequenceEntry_size(self)
-    GetUUID = property(_imslib.ListBase_SequenceEntry_GetUUID_get)
-    Name = property(_imslib.ListBase_SequenceEntry_Name_get, _imslib.ListBase_SequenceEntry_Name_set)
-    ModifiedTimeFormat = property(_imslib.ListBase_SequenceEntry_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.ListBase_SequenceEntry_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ListBase_SequenceEntry_Name_get, _imslib.ListBase_SequenceEntry_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.ListBase_SequenceEntry_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_ListBase_SequenceEntry
 
 # Register ListBase_SequenceEntry in _imslib:
 _imslib.ListBase_SequenceEntry_swigregister(ListBase_SequenceEntry)
 class ListBase_ImageGroup(object):
+    r"""Proxy of C++ iMS::ListBase< iMS::ImageGroup > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::iterator"""
         return _imslib.ListBase_ImageGroup_begin(self)
 
     def end(self):
+        r"""end(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::iterator"""
         return _imslib.ListBase_ImageGroup_end(self)
 
     def cbegin(self):
+        r"""cbegin(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::const_iterator"""
         return _imslib.ListBase_ImageGroup_cbegin(self)
 
     def cend(self):
+        r"""cend(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::const_iterator"""
         return _imslib.ListBase_ImageGroup_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(ListBase_ImageGroup self, size_t i) -> ImageGroup"""
         return _imslib.ListBase_ImageGroup___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ListBase_ImageGroup self, size_t i, ImageGroup val)"""
         return _imslib.ListBase_ImageGroup___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ListBase_ImageGroup self) -> size_t"""
         return _imslib.ListBase_ImageGroup___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ListBase_ImageGroup self) -> bool"""
         return _imslib.ListBase_ImageGroup___bool__(self)
 
     def append(self, val):
+        r"""append(ListBase_ImageGroup self, ImageGroup val)"""
         return _imslib.ListBase_ImageGroup_append(self, val)
 
     def pop(self):
+        r"""pop(ListBase_ImageGroup self) -> ImageGroup"""
         return _imslib.ListBase_ImageGroup_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(ListBase_ImageGroup self, ImageGroup val) -> bool"""
         return _imslib.ListBase_ImageGroup___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(ListBase_ImageGroup self) -> std::string"""
         return _imslib.ListBase_ImageGroup___str__(self)
 
     def __iter__(self):
@@ -814,79 +1547,106 @@ class ListBase_ImageGroup(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(ListBase_ImageGroup self, std::string const & Name="[no name]") -> ListBase_ImageGroup
+        __init__(ListBase_ImageGroup self, ListBase_ImageGroup arg2) -> ListBase_ImageGroup
+        """
         _imslib.ListBase_ImageGroup_swiginit(self, _imslib.new_ListBase_ImageGroup(*args))
 
     def assign(self, n, val):
+        r"""assign(ListBase_ImageGroup self, size_t n, ImageGroup val)"""
         return _imslib.ListBase_ImageGroup_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(ListBase_ImageGroup self, size_t n)"""
         return _imslib.ListBase_ImageGroup_resize(self, n)
 
     def clear(self):
+        r"""clear(ListBase_ImageGroup self)"""
         return _imslib.ListBase_ImageGroup_clear(self)
 
     def push_back(self, value):
+        r"""push_back(ListBase_ImageGroup self, ImageGroup value)"""
         return _imslib.ListBase_ImageGroup_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(ListBase_ImageGroup self)"""
         return _imslib.ListBase_ImageGroup_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(ListBase_ImageGroup self, ImageGroup value)"""
         return _imslib.ListBase_ImageGroup_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(ListBase_ImageGroup self)"""
         return _imslib.ListBase_ImageGroup_pop_front(self)
 
     def empty(self):
+        r"""empty(ListBase_ImageGroup self) -> bool"""
         return _imslib.ListBase_ImageGroup_empty(self)
 
     def size(self):
+        r"""size(ListBase_ImageGroup self) -> std::size_t"""
         return _imslib.ListBase_ImageGroup_size(self)
-    GetUUID = property(_imslib.ListBase_ImageGroup_GetUUID_get)
-    Name = property(_imslib.ListBase_ImageGroup_Name_get, _imslib.ListBase_ImageGroup_Name_set)
-    ModifiedTimeFormat = property(_imslib.ListBase_ImageGroup_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.ListBase_ImageGroup_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ListBase_ImageGroup_Name_get, _imslib.ListBase_ImageGroup_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.ListBase_ImageGroup_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_ListBase_ImageGroup
 
 # Register ListBase_ImageGroup in _imslib:
 _imslib.ListBase_ImageGroup_swigregister(ListBase_ImageGroup)
 class ListBase_CompensationFunction(object):
+    r"""Proxy of C++ iMS::ListBase< iMS::CompensationFunction > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::iterator"""
         return _imslib.ListBase_CompensationFunction_begin(self)
 
     def end(self):
+        r"""end(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::iterator"""
         return _imslib.ListBase_CompensationFunction_end(self)
 
     def cbegin(self):
+        r"""cbegin(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::const_iterator"""
         return _imslib.ListBase_CompensationFunction_cbegin(self)
 
     def cend(self):
+        r"""cend(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::const_iterator"""
         return _imslib.ListBase_CompensationFunction_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(ListBase_CompensationFunction self, size_t i) -> CompensationFunction"""
         return _imslib.ListBase_CompensationFunction___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ListBase_CompensationFunction self, size_t i, CompensationFunction val)"""
         return _imslib.ListBase_CompensationFunction___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ListBase_CompensationFunction self) -> size_t"""
         return _imslib.ListBase_CompensationFunction___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ListBase_CompensationFunction self) -> bool"""
         return _imslib.ListBase_CompensationFunction___bool__(self)
 
     def append(self, val):
+        r"""append(ListBase_CompensationFunction self, CompensationFunction val)"""
         return _imslib.ListBase_CompensationFunction_append(self, val)
 
     def pop(self):
+        r"""pop(ListBase_CompensationFunction self) -> CompensationFunction"""
         return _imslib.ListBase_CompensationFunction_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(ListBase_CompensationFunction self, CompensationFunction val) -> bool"""
         return _imslib.ListBase_CompensationFunction___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(ListBase_CompensationFunction self) -> std::string"""
         return _imslib.ListBase_CompensationFunction___str__(self)
 
     def __iter__(self):
@@ -902,79 +1662,106 @@ class ListBase_CompensationFunction(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(ListBase_CompensationFunction self, std::string const & Name="[no name]") -> ListBase_CompensationFunction
+        __init__(ListBase_CompensationFunction self, ListBase_CompensationFunction arg2) -> ListBase_CompensationFunction
+        """
         _imslib.ListBase_CompensationFunction_swiginit(self, _imslib.new_ListBase_CompensationFunction(*args))
 
     def assign(self, n, val):
+        r"""assign(ListBase_CompensationFunction self, size_t n, CompensationFunction val)"""
         return _imslib.ListBase_CompensationFunction_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(ListBase_CompensationFunction self, size_t n)"""
         return _imslib.ListBase_CompensationFunction_resize(self, n)
 
     def clear(self):
+        r"""clear(ListBase_CompensationFunction self)"""
         return _imslib.ListBase_CompensationFunction_clear(self)
 
     def push_back(self, value):
+        r"""push_back(ListBase_CompensationFunction self, CompensationFunction value)"""
         return _imslib.ListBase_CompensationFunction_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(ListBase_CompensationFunction self)"""
         return _imslib.ListBase_CompensationFunction_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(ListBase_CompensationFunction self, CompensationFunction value)"""
         return _imslib.ListBase_CompensationFunction_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(ListBase_CompensationFunction self)"""
         return _imslib.ListBase_CompensationFunction_pop_front(self)
 
     def empty(self):
+        r"""empty(ListBase_CompensationFunction self) -> bool"""
         return _imslib.ListBase_CompensationFunction_empty(self)
 
     def size(self):
+        r"""size(ListBase_CompensationFunction self) -> std::size_t"""
         return _imslib.ListBase_CompensationFunction_size(self)
-    GetUUID = property(_imslib.ListBase_CompensationFunction_GetUUID_get)
-    Name = property(_imslib.ListBase_CompensationFunction_Name_get, _imslib.ListBase_CompensationFunction_Name_set)
-    ModifiedTimeFormat = property(_imslib.ListBase_CompensationFunction_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.ListBase_CompensationFunction_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ListBase_CompensationFunction_Name_get, _imslib.ListBase_CompensationFunction_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.ListBase_CompensationFunction_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_ListBase_CompensationFunction
 
 # Register ListBase_CompensationFunction in _imslib:
 _imslib.ListBase_CompensationFunction_swigregister(ListBase_CompensationFunction)
 class ListBase_ToneBuffer(object):
+    r"""Proxy of C++ iMS::ListBase< iMS::ToneBuffer > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::iterator"""
         return _imslib.ListBase_ToneBuffer_begin(self)
 
     def end(self):
+        r"""end(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::iterator"""
         return _imslib.ListBase_ToneBuffer_end(self)
 
     def cbegin(self):
+        r"""cbegin(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::const_iterator"""
         return _imslib.ListBase_ToneBuffer_cbegin(self)
 
     def cend(self):
+        r"""cend(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::const_iterator"""
         return _imslib.ListBase_ToneBuffer_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(ListBase_ToneBuffer self, size_t i) -> ToneBuffer"""
         return _imslib.ListBase_ToneBuffer___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ListBase_ToneBuffer self, size_t i, ToneBuffer val)"""
         return _imslib.ListBase_ToneBuffer___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ListBase_ToneBuffer self) -> size_t"""
         return _imslib.ListBase_ToneBuffer___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ListBase_ToneBuffer self) -> bool"""
         return _imslib.ListBase_ToneBuffer___bool__(self)
 
     def append(self, val):
+        r"""append(ListBase_ToneBuffer self, ToneBuffer val)"""
         return _imslib.ListBase_ToneBuffer_append(self, val)
 
     def pop(self):
+        r"""pop(ListBase_ToneBuffer self) -> ToneBuffer"""
         return _imslib.ListBase_ToneBuffer_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(ListBase_ToneBuffer self, ToneBuffer val) -> bool"""
         return _imslib.ListBase_ToneBuffer___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(ListBase_ToneBuffer self) -> std::string"""
         return _imslib.ListBase_ToneBuffer___str__(self)
 
     def __iter__(self):
@@ -990,79 +1777,106 @@ class ListBase_ToneBuffer(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(ListBase_ToneBuffer self, std::string const & Name="[no name]") -> ListBase_ToneBuffer
+        __init__(ListBase_ToneBuffer self, ListBase_ToneBuffer arg2) -> ListBase_ToneBuffer
+        """
         _imslib.ListBase_ToneBuffer_swiginit(self, _imslib.new_ListBase_ToneBuffer(*args))
 
     def assign(self, n, val):
+        r"""assign(ListBase_ToneBuffer self, size_t n, ToneBuffer val)"""
         return _imslib.ListBase_ToneBuffer_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(ListBase_ToneBuffer self, size_t n)"""
         return _imslib.ListBase_ToneBuffer_resize(self, n)
 
     def clear(self):
+        r"""clear(ListBase_ToneBuffer self)"""
         return _imslib.ListBase_ToneBuffer_clear(self)
 
     def push_back(self, value):
+        r"""push_back(ListBase_ToneBuffer self, ToneBuffer value)"""
         return _imslib.ListBase_ToneBuffer_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(ListBase_ToneBuffer self)"""
         return _imslib.ListBase_ToneBuffer_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(ListBase_ToneBuffer self, ToneBuffer value)"""
         return _imslib.ListBase_ToneBuffer_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(ListBase_ToneBuffer self)"""
         return _imslib.ListBase_ToneBuffer_pop_front(self)
 
     def empty(self):
+        r"""empty(ListBase_ToneBuffer self) -> bool"""
         return _imslib.ListBase_ToneBuffer_empty(self)
 
     def size(self):
+        r"""size(ListBase_ToneBuffer self) -> std::size_t"""
         return _imslib.ListBase_ToneBuffer_size(self)
-    GetUUID = property(_imslib.ListBase_ToneBuffer_GetUUID_get)
-    Name = property(_imslib.ListBase_ToneBuffer_Name_get, _imslib.ListBase_ToneBuffer_Name_set)
-    ModifiedTimeFormat = property(_imslib.ListBase_ToneBuffer_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.ListBase_ToneBuffer_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ListBase_ToneBuffer_Name_get, _imslib.ListBase_ToneBuffer_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.ListBase_ToneBuffer_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_ListBase_ToneBuffer
 
 # Register ListBase_ToneBuffer in _imslib:
 _imslib.ListBase_ToneBuffer_swigregister(ListBase_ToneBuffer)
 class ListBase_CompensationPointSpecification(object):
+    r"""Proxy of C++ iMS::ListBase< iMS::CompensationPointSpecification > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::iterator"""
         return _imslib.ListBase_CompensationPointSpecification_begin(self)
 
     def end(self):
+        r"""end(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::iterator"""
         return _imslib.ListBase_CompensationPointSpecification_end(self)
 
     def cbegin(self):
+        r"""cbegin(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::const_iterator"""
         return _imslib.ListBase_CompensationPointSpecification_cbegin(self)
 
     def cend(self):
+        r"""cend(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::const_iterator"""
         return _imslib.ListBase_CompensationPointSpecification_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(ListBase_CompensationPointSpecification self, size_t i) -> CompensationPointSpecification"""
         return _imslib.ListBase_CompensationPointSpecification___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ListBase_CompensationPointSpecification self, size_t i, CompensationPointSpecification val)"""
         return _imslib.ListBase_CompensationPointSpecification___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ListBase_CompensationPointSpecification self) -> size_t"""
         return _imslib.ListBase_CompensationPointSpecification___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ListBase_CompensationPointSpecification self) -> bool"""
         return _imslib.ListBase_CompensationPointSpecification___bool__(self)
 
     def append(self, val):
+        r"""append(ListBase_CompensationPointSpecification self, CompensationPointSpecification val)"""
         return _imslib.ListBase_CompensationPointSpecification_append(self, val)
 
     def pop(self):
+        r"""pop(ListBase_CompensationPointSpecification self) -> CompensationPointSpecification"""
         return _imslib.ListBase_CompensationPointSpecification_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(ListBase_CompensationPointSpecification self, CompensationPointSpecification val) -> bool"""
         return _imslib.ListBase_CompensationPointSpecification___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(ListBase_CompensationPointSpecification self) -> std::string"""
         return _imslib.ListBase_CompensationPointSpecification___str__(self)
 
     def __iter__(self):
@@ -1078,79 +1892,106 @@ class ListBase_CompensationPointSpecification(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(ListBase_CompensationPointSpecification self, std::string const & Name="[no name]") -> ListBase_CompensationPointSpecification
+        __init__(ListBase_CompensationPointSpecification self, ListBase_CompensationPointSpecification arg2) -> ListBase_CompensationPointSpecification
+        """
         _imslib.ListBase_CompensationPointSpecification_swiginit(self, _imslib.new_ListBase_CompensationPointSpecification(*args))
 
     def assign(self, n, val):
+        r"""assign(ListBase_CompensationPointSpecification self, size_t n, CompensationPointSpecification val)"""
         return _imslib.ListBase_CompensationPointSpecification_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(ListBase_CompensationPointSpecification self, size_t n)"""
         return _imslib.ListBase_CompensationPointSpecification_resize(self, n)
 
     def clear(self):
+        r"""clear(ListBase_CompensationPointSpecification self)"""
         return _imslib.ListBase_CompensationPointSpecification_clear(self)
 
     def push_back(self, value):
+        r"""push_back(ListBase_CompensationPointSpecification self, CompensationPointSpecification value)"""
         return _imslib.ListBase_CompensationPointSpecification_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(ListBase_CompensationPointSpecification self)"""
         return _imslib.ListBase_CompensationPointSpecification_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(ListBase_CompensationPointSpecification self, CompensationPointSpecification value)"""
         return _imslib.ListBase_CompensationPointSpecification_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(ListBase_CompensationPointSpecification self)"""
         return _imslib.ListBase_CompensationPointSpecification_pop_front(self)
 
     def empty(self):
+        r"""empty(ListBase_CompensationPointSpecification self) -> bool"""
         return _imslib.ListBase_CompensationPointSpecification_empty(self)
 
     def size(self):
+        r"""size(ListBase_CompensationPointSpecification self) -> std::size_t"""
         return _imslib.ListBase_CompensationPointSpecification_size(self)
-    GetUUID = property(_imslib.ListBase_CompensationPointSpecification_GetUUID_get)
-    Name = property(_imslib.ListBase_CompensationPointSpecification_Name_get, _imslib.ListBase_CompensationPointSpecification_Name_set)
-    ModifiedTimeFormat = property(_imslib.ListBase_CompensationPointSpecification_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.ListBase_CompensationPointSpecification_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ListBase_CompensationPointSpecification_Name_get, _imslib.ListBase_CompensationPointSpecification_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.ListBase_CompensationPointSpecification_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_ListBase_CompensationPointSpecification
 
 # Register ListBase_CompensationPointSpecification in _imslib:
 _imslib.ListBase_CompensationPointSpecification_swigregister(ListBase_CompensationPointSpecification)
 class StringList(object):
+    r"""Proxy of C++ iMS::ListBase< std::string > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(StringList self) -> iMS::ListBase< std::string >::iterator"""
         return _imslib.StringList_begin(self)
 
     def end(self):
+        r"""end(StringList self) -> iMS::ListBase< std::string >::iterator"""
         return _imslib.StringList_end(self)
 
     def cbegin(self):
+        r"""cbegin(StringList self) -> iMS::ListBase< std::string >::const_iterator"""
         return _imslib.StringList_cbegin(self)
 
     def cend(self):
+        r"""cend(StringList self) -> iMS::ListBase< std::string >::const_iterator"""
         return _imslib.StringList_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(StringList self, size_t i) -> std::string const &"""
         return _imslib.StringList___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(StringList self, size_t i, std::string const & val)"""
         return _imslib.StringList___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(StringList self) -> size_t"""
         return _imslib.StringList___len__(self)
 
     def __bool__(self):
+        r"""__bool__(StringList self) -> bool"""
         return _imslib.StringList___bool__(self)
 
     def append(self, val):
+        r"""append(StringList self, std::string const & val)"""
         return _imslib.StringList_append(self, val)
 
     def pop(self):
+        r"""pop(StringList self) -> std::string"""
         return _imslib.StringList_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(StringList self, std::string val) -> bool"""
         return _imslib.StringList___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(StringList self) -> std::string"""
         return _imslib.StringList___str__(self)
 
     def __iter__(self):
@@ -1166,79 +2007,106 @@ class StringList(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(StringList self, std::string const & Name="[no name]") -> StringList
+        __init__(StringList self, StringList arg2) -> StringList
+        """
         _imslib.StringList_swiginit(self, _imslib.new_StringList(*args))
 
     def assign(self, n, val):
+        r"""assign(StringList self, size_t n, std::string const & val)"""
         return _imslib.StringList_assign(self, n, val)
 
     def resize(self, n):
+        r"""resize(StringList self, size_t n)"""
         return _imslib.StringList_resize(self, n)
 
     def clear(self):
+        r"""clear(StringList self)"""
         return _imslib.StringList_clear(self)
 
     def push_back(self, value):
+        r"""push_back(StringList self, std::string const & value)"""
         return _imslib.StringList_push_back(self, value)
 
     def pop_back(self):
+        r"""pop_back(StringList self)"""
         return _imslib.StringList_pop_back(self)
 
     def push_front(self, value):
+        r"""push_front(StringList self, std::string const & value)"""
         return _imslib.StringList_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(StringList self)"""
         return _imslib.StringList_pop_front(self)
 
     def empty(self):
+        r"""empty(StringList self) -> bool"""
         return _imslib.StringList_empty(self)
 
     def size(self):
+        r"""size(StringList self) -> std::size_t"""
         return _imslib.StringList_size(self)
-    GetUUID = property(_imslib.StringList_GetUUID_get)
-    Name = property(_imslib.StringList_Name_get, _imslib.StringList_Name_set)
-    ModifiedTimeFormat = property(_imslib.StringList_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.StringList_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.StringList_Name_get, _imslib.StringList_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.StringList_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_StringList
 
 # Register StringList in _imslib:
 _imslib.StringList_swigregister(StringList)
 class DequeBase_ImagePoint(object):
+    r"""Proxy of C++ iMS::DequeBase< iMS::ImagePoint > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::iterator"""
         return _imslib.DequeBase_ImagePoint_begin(self)
 
     def end(self):
+        r"""end(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::iterator"""
         return _imslib.DequeBase_ImagePoint_end(self)
 
     def cbegin(self):
+        r"""cbegin(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::const_iterator"""
         return _imslib.DequeBase_ImagePoint_cbegin(self)
 
     def cend(self):
+        r"""cend(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::const_iterator"""
         return _imslib.DequeBase_ImagePoint_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(DequeBase_ImagePoint self, size_t i) -> ImagePoint"""
         return _imslib.DequeBase_ImagePoint___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(DequeBase_ImagePoint self, size_t i, ImagePoint val)"""
         return _imslib.DequeBase_ImagePoint___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(DequeBase_ImagePoint self) -> size_t"""
         return _imslib.DequeBase_ImagePoint___len__(self)
 
     def __bool__(self):
+        r"""__bool__(DequeBase_ImagePoint self) -> bool"""
         return _imslib.DequeBase_ImagePoint___bool__(self)
 
     def append(self, val):
+        r"""append(DequeBase_ImagePoint self, ImagePoint val)"""
         return _imslib.DequeBase_ImagePoint_append(self, val)
 
     def pop(self):
+        r"""pop(DequeBase_ImagePoint self) -> ImagePoint"""
         return _imslib.DequeBase_ImagePoint_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(DequeBase_ImagePoint self, ImagePoint val) -> bool"""
         return _imslib.DequeBase_ImagePoint___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(DequeBase_ImagePoint self) -> std::string"""
         return _imslib.DequeBase_ImagePoint___str__(self)
 
     def __iter__(self):
@@ -1254,70 +2122,95 @@ class DequeBase_ImagePoint(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(DequeBase_ImagePoint self, std::string const & Name="[no name]") -> DequeBase_ImagePoint
+        __init__(DequeBase_ImagePoint self, size_t n, ImagePoint value, std::string const & Name="[no name]") -> DequeBase_ImagePoint
+        __init__(DequeBase_ImagePoint self, DequeBase_ImagePoint arg2) -> DequeBase_ImagePoint
+        """
         _imslib.DequeBase_ImagePoint_swiginit(self, _imslib.new_DequeBase_ImagePoint(*args))
 
     def clear(self):
+        r"""clear(DequeBase_ImagePoint self)"""
         return _imslib.DequeBase_ImagePoint_clear(self)
 
     def add(self, value):
+        r"""add(DequeBase_ImagePoint self, ImagePoint value)"""
         return _imslib.DequeBase_ImagePoint_add(self, value)
 
     def remove(self):
+        r"""remove(DequeBase_ImagePoint self)"""
         return _imslib.DequeBase_ImagePoint_remove(self)
 
     def push_front(self, value):
+        r"""push_front(DequeBase_ImagePoint self, ImagePoint value)"""
         return _imslib.DequeBase_ImagePoint_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(DequeBase_ImagePoint self)"""
         return _imslib.DequeBase_ImagePoint_pop_front(self)
 
     def size(self):
+        r"""size(DequeBase_ImagePoint self) -> std::size_t"""
         return _imslib.DequeBase_ImagePoint_size(self)
-    GetUUID = property(_imslib.DequeBase_ImagePoint_GetUUID_get)
-    Name = property(_imslib.DequeBase_ImagePoint_Name_get, _imslib.DequeBase_ImagePoint_Name_set)
-    ModifiedTimeFormat = property(_imslib.DequeBase_ImagePoint_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.DequeBase_ImagePoint_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.DequeBase_ImagePoint_Name_get, _imslib.DequeBase_ImagePoint_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.DequeBase_ImagePoint_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_DequeBase_ImagePoint
 
 # Register DequeBase_ImagePoint in _imslib:
 _imslib.DequeBase_ImagePoint_swigregister(DequeBase_ImagePoint)
 class DequeBase_Image(object):
+    r"""Proxy of C++ iMS::DequeBase< iMS::Image > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::iterator"""
         return _imslib.DequeBase_Image_begin(self)
 
     def end(self):
+        r"""end(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::iterator"""
         return _imslib.DequeBase_Image_end(self)
 
     def cbegin(self):
+        r"""cbegin(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::const_iterator"""
         return _imslib.DequeBase_Image_cbegin(self)
 
     def cend(self):
+        r"""cend(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::const_iterator"""
         return _imslib.DequeBase_Image_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(DequeBase_Image self, size_t i) -> Image"""
         return _imslib.DequeBase_Image___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(DequeBase_Image self, size_t i, Image val)"""
         return _imslib.DequeBase_Image___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(DequeBase_Image self) -> size_t"""
         return _imslib.DequeBase_Image___len__(self)
 
     def __bool__(self):
+        r"""__bool__(DequeBase_Image self) -> bool"""
         return _imslib.DequeBase_Image___bool__(self)
 
     def append(self, val):
+        r"""append(DequeBase_Image self, Image val)"""
         return _imslib.DequeBase_Image_append(self, val)
 
     def pop(self):
+        r"""pop(DequeBase_Image self) -> Image"""
         return _imslib.DequeBase_Image_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(DequeBase_Image self, Image val) -> bool"""
         return _imslib.DequeBase_Image___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(DequeBase_Image self) -> std::string"""
         return _imslib.DequeBase_Image___str__(self)
 
     def __iter__(self):
@@ -1333,70 +2226,95 @@ class DequeBase_Image(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(DequeBase_Image self, std::string const & Name="[no name]") -> DequeBase_Image
+        __init__(DequeBase_Image self, size_t n, Image value, std::string const & Name="[no name]") -> DequeBase_Image
+        __init__(DequeBase_Image self, DequeBase_Image arg2) -> DequeBase_Image
+        """
         _imslib.DequeBase_Image_swiginit(self, _imslib.new_DequeBase_Image(*args))
 
     def clear(self):
+        r"""clear(DequeBase_Image self)"""
         return _imslib.DequeBase_Image_clear(self)
 
     def add(self, value):
+        r"""add(DequeBase_Image self, Image value)"""
         return _imslib.DequeBase_Image_add(self, value)
 
     def remove(self):
+        r"""remove(DequeBase_Image self)"""
         return _imslib.DequeBase_Image_remove(self)
 
     def push_front(self, value):
+        r"""push_front(DequeBase_Image self, Image value)"""
         return _imslib.DequeBase_Image_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(DequeBase_Image self)"""
         return _imslib.DequeBase_Image_pop_front(self)
 
     def size(self):
+        r"""size(DequeBase_Image self) -> std::size_t"""
         return _imslib.DequeBase_Image_size(self)
-    GetUUID = property(_imslib.DequeBase_Image_GetUUID_get)
-    Name = property(_imslib.DequeBase_Image_Name_get, _imslib.DequeBase_Image_Name_set)
-    ModifiedTimeFormat = property(_imslib.DequeBase_Image_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.DequeBase_Image_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.DequeBase_Image_Name_get, _imslib.DequeBase_Image_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.DequeBase_Image_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_DequeBase_Image
 
 # Register DequeBase_Image in _imslib:
 _imslib.DequeBase_Image_swigregister(DequeBase_Image)
 class DequeBase_CompensationPoint(object):
+    r"""Proxy of C++ iMS::DequeBase< iMS::CompensationPoint > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::iterator"""
         return _imslib.DequeBase_CompensationPoint_begin(self)
 
     def end(self):
+        r"""end(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::iterator"""
         return _imslib.DequeBase_CompensationPoint_end(self)
 
     def cbegin(self):
+        r"""cbegin(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::const_iterator"""
         return _imslib.DequeBase_CompensationPoint_cbegin(self)
 
     def cend(self):
+        r"""cend(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::const_iterator"""
         return _imslib.DequeBase_CompensationPoint_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(DequeBase_CompensationPoint self, size_t i) -> CompensationPoint"""
         return _imslib.DequeBase_CompensationPoint___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(DequeBase_CompensationPoint self, size_t i, CompensationPoint val)"""
         return _imslib.DequeBase_CompensationPoint___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(DequeBase_CompensationPoint self) -> size_t"""
         return _imslib.DequeBase_CompensationPoint___len__(self)
 
     def __bool__(self):
+        r"""__bool__(DequeBase_CompensationPoint self) -> bool"""
         return _imslib.DequeBase_CompensationPoint___bool__(self)
 
     def append(self, val):
+        r"""append(DequeBase_CompensationPoint self, CompensationPoint val)"""
         return _imslib.DequeBase_CompensationPoint_append(self, val)
 
     def pop(self):
+        r"""pop(DequeBase_CompensationPoint self) -> CompensationPoint"""
         return _imslib.DequeBase_CompensationPoint_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(DequeBase_CompensationPoint self, CompensationPoint val) -> bool"""
         return _imslib.DequeBase_CompensationPoint___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(DequeBase_CompensationPoint self) -> std::string"""
         return _imslib.DequeBase_CompensationPoint___str__(self)
 
     def __iter__(self):
@@ -1412,70 +2330,95 @@ class DequeBase_CompensationPoint(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(DequeBase_CompensationPoint self, std::string const & Name="[no name]") -> DequeBase_CompensationPoint
+        __init__(DequeBase_CompensationPoint self, size_t n, CompensationPoint value, std::string const & Name="[no name]") -> DequeBase_CompensationPoint
+        __init__(DequeBase_CompensationPoint self, DequeBase_CompensationPoint arg2) -> DequeBase_CompensationPoint
+        """
         _imslib.DequeBase_CompensationPoint_swiginit(self, _imslib.new_DequeBase_CompensationPoint(*args))
 
     def clear(self):
+        r"""clear(DequeBase_CompensationPoint self)"""
         return _imslib.DequeBase_CompensationPoint_clear(self)
 
     def add(self, value):
+        r"""add(DequeBase_CompensationPoint self, CompensationPoint value)"""
         return _imslib.DequeBase_CompensationPoint_add(self, value)
 
     def remove(self):
+        r"""remove(DequeBase_CompensationPoint self)"""
         return _imslib.DequeBase_CompensationPoint_remove(self)
 
     def push_front(self, value):
+        r"""push_front(DequeBase_CompensationPoint self, CompensationPoint value)"""
         return _imslib.DequeBase_CompensationPoint_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(DequeBase_CompensationPoint self)"""
         return _imslib.DequeBase_CompensationPoint_pop_front(self)
 
     def size(self):
+        r"""size(DequeBase_CompensationPoint self) -> std::size_t"""
         return _imslib.DequeBase_CompensationPoint_size(self)
-    GetUUID = property(_imslib.DequeBase_CompensationPoint_GetUUID_get)
-    Name = property(_imslib.DequeBase_CompensationPoint_Name_get, _imslib.DequeBase_CompensationPoint_Name_set)
-    ModifiedTimeFormat = property(_imslib.DequeBase_CompensationPoint_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.DequeBase_CompensationPoint_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.DequeBase_CompensationPoint_Name_get, _imslib.DequeBase_CompensationPoint_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.DequeBase_CompensationPoint_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_DequeBase_CompensationPoint
 
 # Register DequeBase_CompensationPoint in _imslib:
 _imslib.DequeBase_CompensationPoint_swigregister(DequeBase_CompensationPoint)
 class DequeBase_CompensationTable(object):
+    r"""Proxy of C++ iMS::DequeBase< iMS::CompensationTable > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def begin(self):
+        r"""begin(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::iterator"""
         return _imslib.DequeBase_CompensationTable_begin(self)
 
     def end(self):
+        r"""end(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::iterator"""
         return _imslib.DequeBase_CompensationTable_end(self)
 
     def cbegin(self):
+        r"""cbegin(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::const_iterator"""
         return _imslib.DequeBase_CompensationTable_cbegin(self)
 
     def cend(self):
+        r"""cend(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::const_iterator"""
         return _imslib.DequeBase_CompensationTable_cend(self)
 
     def __getitem__(self, i):
+        r"""__getitem__(DequeBase_CompensationTable self, size_t i) -> CompensationTable"""
         return _imslib.DequeBase_CompensationTable___getitem__(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(DequeBase_CompensationTable self, size_t i, CompensationTable val)"""
         return _imslib.DequeBase_CompensationTable___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(DequeBase_CompensationTable self) -> size_t"""
         return _imslib.DequeBase_CompensationTable___len__(self)
 
     def __bool__(self):
+        r"""__bool__(DequeBase_CompensationTable self) -> bool"""
         return _imslib.DequeBase_CompensationTable___bool__(self)
 
     def append(self, val):
+        r"""append(DequeBase_CompensationTable self, CompensationTable val)"""
         return _imslib.DequeBase_CompensationTable_append(self, val)
 
     def pop(self):
+        r"""pop(DequeBase_CompensationTable self) -> CompensationTable"""
         return _imslib.DequeBase_CompensationTable_pop(self)
 
     def __contains__(self, val):
+        r"""__contains__(DequeBase_CompensationTable self, CompensationTable val) -> bool"""
         return _imslib.DequeBase_CompensationTable___contains__(self, val)
 
     def __str__(self):
+        r"""__str__(DequeBase_CompensationTable self) -> std::string"""
         return _imslib.DequeBase_CompensationTable___str__(self)
 
     def __iter__(self):
@@ -1491,257 +2434,395 @@ class DequeBase_CompensationTable(object):
 
 
     def __init__(self, *args):
+        r"""
+        __init__(DequeBase_CompensationTable self, std::string const & Name="[no name]") -> DequeBase_CompensationTable
+        __init__(DequeBase_CompensationTable self, size_t n, CompensationTable value, std::string const & Name="[no name]") -> DequeBase_CompensationTable
+        __init__(DequeBase_CompensationTable self, DequeBase_CompensationTable arg2) -> DequeBase_CompensationTable
+        """
         _imslib.DequeBase_CompensationTable_swiginit(self, _imslib.new_DequeBase_CompensationTable(*args))
 
     def clear(self):
+        r"""clear(DequeBase_CompensationTable self)"""
         return _imslib.DequeBase_CompensationTable_clear(self)
 
     def add(self, value):
+        r"""add(DequeBase_CompensationTable self, CompensationTable value)"""
         return _imslib.DequeBase_CompensationTable_add(self, value)
 
     def remove(self):
+        r"""remove(DequeBase_CompensationTable self)"""
         return _imslib.DequeBase_CompensationTable_remove(self)
 
     def push_front(self, value):
+        r"""push_front(DequeBase_CompensationTable self, CompensationTable value)"""
         return _imslib.DequeBase_CompensationTable_push_front(self, value)
 
     def pop_front(self):
+        r"""pop_front(DequeBase_CompensationTable self)"""
         return _imslib.DequeBase_CompensationTable_pop_front(self)
 
     def size(self):
+        r"""size(DequeBase_CompensationTable self) -> std::size_t"""
         return _imslib.DequeBase_CompensationTable_size(self)
-    GetUUID = property(_imslib.DequeBase_CompensationTable_GetUUID_get)
-    Name = property(_imslib.DequeBase_CompensationTable_Name_get, _imslib.DequeBase_CompensationTable_Name_set)
-    ModifiedTimeFormat = property(_imslib.DequeBase_CompensationTable_ModifiedTimeFormat_get)
+    GetUUID = property(_imslib.DequeBase_CompensationTable_GetUUID_get, doc=r"""GetUUID : std::array<(uint8_t,16)>""")
+    Name = property(_imslib.DequeBase_CompensationTable_Name_get, _imslib.DequeBase_CompensationTable_Name_set, doc=r"""Name : std::string""")
+    ModifiedTimeFormat = property(_imslib.DequeBase_CompensationTable_ModifiedTimeFormat_get, doc=r"""ModifiedTimeFormat : std::string""")
     __swig_destroy__ = _imslib.delete_DequeBase_CompensationTable
 
 # Register DequeBase_CompensationTable in _imslib:
 _imslib.DequeBase_CompensationTable_swigregister(DequeBase_CompensationTable)
 class LibVersion(object):
+    r"""Proxy of C++ iMS::LibVersion class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     @staticmethod
     def GetMajor():
+        r"""GetMajor() -> int"""
         return _imslib.LibVersion_GetMajor()
 
     @staticmethod
     def GetMinor():
+        r"""GetMinor() -> int"""
         return _imslib.LibVersion_GetMinor()
 
     @staticmethod
     def GetPatch():
+        r"""GetPatch() -> int"""
         return _imslib.LibVersion_GetPatch()
 
     @staticmethod
     def GetVersion():
+        r"""GetVersion() -> std::string"""
         return _imslib.LibVersion_GetVersion()
 
     @staticmethod
     def IsAtLeast(major, minor, patch):
+        r"""IsAtLeast(int major, int minor, int patch) -> bool"""
         return _imslib.LibVersion_IsAtLeast(major, minor, patch)
 
     @staticmethod
     def HasFeature(name):
+        r"""HasFeature(std::string const & name) -> bool"""
         return _imslib.LibVersion_HasFeature(name)
 
     def __init__(self):
+        r"""__init__(LibVersion self) -> LibVersion"""
         _imslib.LibVersion_swiginit(self, _imslib.new_LibVersion())
     __swig_destroy__ = _imslib.delete_LibVersion
 
 # Register LibVersion in _imslib:
 _imslib.LibVersion_swigregister(LibVersion)
 class Frequency(object):
+    r"""Proxy of C++ iMS::Frequency class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(Frequency self, double arg=1.0) -> Frequency
+        __init__(Frequency self, kHz f) -> Frequency
+        __init__(Frequency self, MHz f) -> Frequency
+        """
         _imslib.Frequency_swiginit(self, _imslib.new_Frequency(*args))
 
     def assign(self, *args):
+        r"""
+        assign(Frequency self, Frequency f)
+        assign(Frequency self, kHz const & f)
+        assign(Frequency self, MHz const & f)
+        """
         return _imslib.Frequency_assign(self, *args)
 
     def __add__(self, f):
+        r"""__add__(Frequency self, Frequency f) -> Frequency"""
         return _imslib.Frequency___add__(self, f)
 
     def __iadd__(self, f):
+        r"""__iadd__(Frequency self, Frequency f) -> Frequency"""
         return _imslib.Frequency___iadd__(self, f)
 
     def __sub__(self, f):
+        r"""__sub__(Frequency self, Frequency f) -> Frequency"""
         return _imslib.Frequency___sub__(self, f)
 
     def __isub__(self, f):
+        r"""__isub__(Frequency self, Frequency f) -> Frequency"""
         return _imslib.Frequency___isub__(self, f)
 
     def __float__(self):
+        r"""__float__(Frequency self) -> double"""
         return _imslib.Frequency___float__(self)
 
     def __str__(self):
+        r"""__str__(Frequency self) -> std::string"""
         return _imslib.Frequency___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec) + "Hz"
 
-    value = property(_imslib.Frequency_value_get, _imslib.Frequency_value_set)
+    value = property(_imslib.Frequency_value_get, _imslib.Frequency_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Frequency
 
 # Register Frequency in _imslib:
 _imslib.Frequency_swigregister(Frequency)
 class kHz(Frequency):
+    r"""Proxy of C++ iMS::kHz class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(kHz self, double arg=1.0) -> kHz
+        __init__(kHz self, Frequency f) -> kHz
+        __init__(kHz self, MHz const & f) -> kHz
+        """
         _imslib.kHz_swiginit(self, _imslib.new_kHz(*args))
 
     def assign(self, *args):
+        r"""
+        assign(kHz self, Frequency f)
+        assign(kHz self, kHz f)
+        assign(kHz self, MHz const & f)
+        """
         return _imslib.kHz_assign(self, *args)
 
     def __add__(self, *args):
+        r"""
+        __add__(kHz self, kHz f) -> kHz
+        __add__(kHz self, Frequency f) -> kHz
+        """
         return _imslib.kHz___add__(self, *args)
 
     def __iadd__(self, *args):
+        r"""
+        __iadd__(kHz self, kHz f) -> kHz
+        __iadd__(kHz self, Frequency f) -> kHz
+        """
         return _imslib.kHz___iadd__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(kHz self, kHz f) -> kHz
+        __sub__(kHz self, Frequency f) -> kHz
+        """
         return _imslib.kHz___sub__(self, *args)
 
     def __isub__(self, *args):
+        r"""
+        __isub__(kHz self, kHz f) -> kHz
+        __isub__(kHz self, Frequency f) -> kHz
+        """
         return _imslib.kHz___isub__(self, *args)
 
     def __float__(self):
+        r"""__float__(kHz self) -> double"""
         return _imslib.kHz___float__(self)
 
     def __str__(self):
+        r"""__str__(kHz self) -> std::string"""
         return _imslib.kHz___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec) + "kHz"
 
-    value = property(_imslib.kHz_value_get, _imslib.kHz_value_set)
+    value = property(_imslib.kHz_value_get, _imslib.kHz_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_kHz
 
 # Register kHz in _imslib:
 _imslib.kHz_swigregister(kHz)
 class MHz(Frequency):
+    r"""Proxy of C++ iMS::MHz class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(MHz self, double arg=1.0) -> MHz
+        __init__(MHz self, Frequency f) -> MHz
+        __init__(MHz self, kHz f) -> MHz
+        """
         _imslib.MHz_swiginit(self, _imslib.new_MHz(*args))
 
     def assign(self, *args):
+        r"""
+        assign(MHz self, Frequency f)
+        assign(MHz self, kHz f)
+        assign(MHz self, MHz f)
+        """
         return _imslib.MHz_assign(self, *args)
 
     def __add__(self, *args):
+        r"""
+        __add__(MHz self, MHz f) -> MHz
+        __add__(MHz self, kHz f) -> MHz
+        __add__(MHz self, Frequency f) -> MHz
+        """
         return _imslib.MHz___add__(self, *args)
 
     def __iadd__(self, *args):
+        r"""
+        __iadd__(MHz self, MHz f) -> MHz
+        __iadd__(MHz self, kHz f) -> MHz
+        __iadd__(MHz self, Frequency f) -> MHz
+        """
         return _imslib.MHz___iadd__(self, *args)
 
     def __sub__(self, *args):
+        r"""
+        __sub__(MHz self, MHz f) -> MHz
+        __sub__(MHz self, kHz f) -> MHz
+        __sub__(MHz self, Frequency f) -> MHz
+        """
         return _imslib.MHz___sub__(self, *args)
 
     def __isub__(self, *args):
+        r"""
+        __isub__(MHz self, MHz f) -> MHz
+        __isub__(MHz self, kHz f) -> MHz
+        __isub__(MHz self, Frequency f) -> MHz
+        """
         return _imslib.MHz___isub__(self, *args)
 
     def __float__(self):
+        r"""__float__(MHz self) -> double"""
         return _imslib.MHz___float__(self)
 
     def __str__(self):
+        r"""__str__(MHz self) -> std::string"""
         return _imslib.MHz___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec) + "MHz"
 
-    value = property(_imslib.MHz_value_get, _imslib.MHz_value_set)
+    value = property(_imslib.MHz_value_get, _imslib.MHz_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_MHz
 
 # Register MHz in _imslib:
 _imslib.MHz_swigregister(MHz)
 class Percent(object):
+    r"""Proxy of C++ iMS::Percent class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(Percent self) -> Percent
+        __init__(Percent self, double arg) -> Percent
+        """
         _imslib.Percent_swiginit(self, _imslib.new_Percent(*args))
 
     def __float__(self):
+        r"""__float__(Percent self) -> double"""
         return _imslib.Percent___float__(self)
 
     def __str__(self):
+        r"""__str__(Percent self) -> std::string"""
         return _imslib.Percent___str__(self)
-    value = property(_imslib.Percent_value_get, _imslib.Percent_value_set)
+    value = property(_imslib.Percent_value_get, _imslib.Percent_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Percent
 
 # Register Percent in _imslib:
 _imslib.Percent_swigregister(Percent)
 class Degrees(object):
+    r"""Proxy of C++ iMS::Degrees class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, arg):
+        r"""__init__(Degrees self, double arg) -> Degrees"""
         _imslib.Degrees_swiginit(self, _imslib.new_Degrees(arg))
 
     def __float__(self):
+        r"""__float__(Degrees self) -> double"""
         return _imslib.Degrees___float__(self)
 
     def __str__(self):
+        r"""__str__(Degrees self) -> std::string"""
         return _imslib.Degrees___str__(self)
-    value = property(_imslib.Degrees_value_get, _imslib.Degrees_value_set)
+    value = property(_imslib.Degrees_value_get, _imslib.Degrees_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Degrees
 
 # Register Degrees in _imslib:
 _imslib.Degrees_swigregister(Degrees)
 class FAP(object):
+    r"""Proxy of C++ iMS::FAP class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    freq = property(_imslib.FAP_freq_get, _imslib.FAP_freq_set)
-    ampl = property(_imslib.FAP_ampl_get, _imslib.FAP_ampl_set)
-    phase = property(_imslib.FAP_phase_get, _imslib.FAP_phase_set)
+    freq = property(_imslib.FAP_freq_get, _imslib.FAP_freq_set, doc=r"""freq : iMS::MHz""")
+    ampl = property(_imslib.FAP_ampl_get, _imslib.FAP_ampl_set, doc=r"""ampl : iMS::Percent""")
+    phase = property(_imslib.FAP_phase_get, _imslib.FAP_phase_set, doc=r"""phase : iMS::Degrees""")
 
     def __eq__(self, other):
+        r"""__eq__(FAP self, FAP other) -> bool"""
         return _imslib.FAP___eq__(self, other)
 
     def __ne__(self, other):
+        r"""__ne__(FAP self, FAP other) -> bool"""
         return _imslib.FAP___ne__(self, other)
 
     def __str__(self):
+        r"""__str__(FAP self) -> std::string"""
         return _imslib.FAP___str__(self)
 
     def __init__(self, *args):
+        r"""
+        __init__(FAP self) -> FAP
+        __init__(FAP self, double f, double a, double p) -> FAP
+        __init__(FAP self, MHz f, Percent a, Degrees p) -> FAP
+        __init__(FAP self, FAP other) -> FAP
+        """
         _imslib.FAP_swiginit(self, _imslib.new_FAP(*args))
     __swig_destroy__ = _imslib.delete_FAP
 
 # Register FAP in _imslib:
 _imslib.FAP_swigregister(FAP)
 class RFChannel(object):
+    r"""Proxy of C++ iMS::RFChannel class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def incr(self):
+        r"""incr(RFChannel self) -> RFChannel"""
         return _imslib.RFChannel_incr(self)
 
     def decr(self):
+        r"""decr(RFChannel self) -> RFChannel"""
         return _imslib.RFChannel_decr(self)
 
     def IsAll(self):
+        r"""IsAll(RFChannel self) -> bool"""
         return _imslib.RFChannel_IsAll(self)
-    value = property(_imslib.RFChannel_value_get, _imslib.RFChannel_value_set)
+    value = property(_imslib.RFChannel_value_get, _imslib.RFChannel_value_set, doc=r"""value : int""")
 
     def __init__(self, *args):
+        r"""
+        __init__(RFChannel self) -> RFChannel
+        __init__(RFChannel self, int val) -> RFChannel
+        """
         _imslib.RFChannel_swiginit(self, _imslib.new_RFChannel(*args))
 
     def __int__(self):
+        r"""__int__(RFChannel self) -> int"""
         return _imslib.RFChannel___int__(self)
 
     def __index__(self):
+        r"""__index__(RFChannel self) -> int"""
         return _imslib.RFChannel___index__(self)
 
     def __str__(self):
+        r"""__str__(RFChannel self) -> std::string"""
         return _imslib.RFChannel___str__(self)
 
     def __iter__(self):
@@ -1749,30 +2830,39 @@ class RFChannel(object):
 
 
     def __add__(self, delta):
+        r"""__add__(RFChannel self, int delta) -> RFChannel"""
         return _imslib.RFChannel___add__(self, delta)
 
     def __sub__(self, delta):
+        r"""__sub__(RFChannel self, int delta) -> RFChannel"""
         return _imslib.RFChannel___sub__(self, delta)
 
     def __iadd__(self, delta):
+        r"""__iadd__(RFChannel self, int delta) -> RFChannel"""
         return _imslib.RFChannel___iadd__(self, delta)
 
     def __isub__(self, delta):
+        r"""__isub__(RFChannel self, int delta) -> RFChannel"""
         return _imslib.RFChannel___isub__(self, delta)
 
     def next(self):
+        r"""next(RFChannel self) -> RFChannel"""
         return _imslib.RFChannel_next(self)
 
     def prev(self):
+        r"""prev(RFChannel self) -> RFChannel"""
         return _imslib.RFChannel_prev(self)
 
     def reset(self):
+        r"""reset(RFChannel self)"""
         return _imslib.RFChannel_reset(self)
 
     def __eq__(self, other):
+        r"""__eq__(RFChannel self, RFChannel other) -> bool"""
         return _imslib.RFChannel___eq__(self, other)
 
     def __lt__(self, other):
+        r"""__lt__(RFChannel self, RFChannel other) -> bool"""
         return _imslib.RFChannel___lt__(self, other)
     __swig_destroy__ = _imslib.delete_RFChannel
 
@@ -1784,172 +2874,226 @@ RFChannel.max = _imslib.cvar.RFChannel_max
 RFChannel.all = _imslib.cvar.RFChannel_all
 
 ENHANCED_TONE_MODE_NO_SWEEP = _imslib.ENHANCED_TONE_MODE_NO_SWEEP
+
 ENHANCED_TONE_MODE_FREQUENCY_DWELL = _imslib.ENHANCED_TONE_MODE_FREQUENCY_DWELL
+
 ENHANCED_TONE_MODE_FREQUENCY_NO_DWELL = _imslib.ENHANCED_TONE_MODE_FREQUENCY_NO_DWELL
+
 ENHANCED_TONE_MODE_FREQUENCY_FAST_MOD = _imslib.ENHANCED_TONE_MODE_FREQUENCY_FAST_MOD
+
 ENHANCED_TONE_MODE_PHASE_DWELL = _imslib.ENHANCED_TONE_MODE_PHASE_DWELL
+
 ENHANCED_TONE_MODE_PHASE_NO_DWELL = _imslib.ENHANCED_TONE_MODE_PHASE_NO_DWELL
+
 ENHANCED_TONE_MODE_PHASE_FAST_MOD = _imslib.ENHANCED_TONE_MODE_PHASE_FAST_MOD
+
 DAC_CURRENT_REFERENCE_FULL_SCALE = _imslib.DAC_CURRENT_REFERENCE_FULL_SCALE
+
 DAC_CURRENT_REFERENCE_HALF_SCALE = _imslib.DAC_CURRENT_REFERENCE_HALF_SCALE
+
 DAC_CURRENT_REFERENCE_QUARTER_SCALE = _imslib.DAC_CURRENT_REFERENCE_QUARTER_SCALE
+
 DAC_CURRENT_REFERENCE_EIGHTH_SCALE = _imslib.DAC_CURRENT_REFERENCE_EIGHTH_SCALE
+
 class SweepTone(object):
+    r"""Proxy of C++ iMS::SweepTone class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(SweepTone self) -> SweepTone
+        __init__(SweepTone self, FAP tone) -> SweepTone
+        __init__(SweepTone self, FAP start, FAP end, UnitFloatDuration up, UnitFloatDuration down, int steps, iMS::ENHANCED_TONE_MODE mode, iMS::DAC_CURRENT_REFERENCE scaling) -> SweepTone
+        __init__(SweepTone self, SweepTone arg2) -> SweepTone
+        """
         _imslib.SweepTone_swiginit(self, _imslib.new_SweepTone(*args))
-    start = property(_imslib.SweepTone_start_get, _imslib.SweepTone_start_set)
-    end = property(_imslib.SweepTone_end_get, _imslib.SweepTone_end_set)
-    up_ramp = property(_imslib.SweepTone_up_ramp_get, _imslib.SweepTone_up_ramp_set)
-    down_ramp = property(_imslib.SweepTone_down_ramp_get, _imslib.SweepTone_down_ramp_set)
-    n_steps = property(_imslib.SweepTone_n_steps_get, _imslib.SweepTone_n_steps_set)
-    mode = property(_imslib.SweepTone_mode_get, _imslib.SweepTone_mode_set)
-    scaling = property(_imslib.SweepTone_scaling_get, _imslib.SweepTone_scaling_set)
+    start = property(_imslib.SweepTone_start_get, _imslib.SweepTone_start_set, doc=r"""start : r.iMS::FAP""")
+    end = property(_imslib.SweepTone_end_get, _imslib.SweepTone_end_set, doc=r"""end : r.iMS::FAP""")
+    up_ramp = property(_imslib.SweepTone_up_ramp_get, _imslib.SweepTone_up_ramp_set, doc=r"""up_ramp : r.std::chrono::duration<(double,std::ratio<(1,1)>)>""")
+    down_ramp = property(_imslib.SweepTone_down_ramp_get, _imslib.SweepTone_down_ramp_set, doc=r"""down_ramp : r.std::chrono::duration<(double,std::ratio<(1,1)>)>""")
+    n_steps = property(_imslib.SweepTone_n_steps_get, _imslib.SweepTone_n_steps_set, doc=r"""n_steps : int""")
+    mode = property(_imslib.SweepTone_mode_get, _imslib.SweepTone_mode_set, doc=r"""mode : iMS::ENHANCED_TONE_MODE""")
+    scaling = property(_imslib.SweepTone_scaling_get, _imslib.SweepTone_scaling_set, doc=r"""scaling : iMS::DAC_CURRENT_REFERENCE""")
     __swig_destroy__ = _imslib.delete_SweepTone
 
 # Register SweepTone in _imslib:
 _imslib.SweepTone_swigregister(SweepTone)
 class Metre(object):
+    r"""Proxy of C++ iMS::distance< std::ratio< 1 > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Metre self, double ticks=1.0) -> Metre"""
         _imslib.Metre_swiginit(self, _imslib.new_Metre(ticks))
 
     def __float__(self):
+        r"""__float__(Metre self) -> double"""
         return _imslib.Metre___float__(self)
 
     def __str__(self):
+        r"""__str__(Metre self) -> std::string"""
         return _imslib.Metre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Metre_value_get, _imslib.Metre_value_set)
+    value = property(_imslib.Metre_value_get, _imslib.Metre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Metre
 
 # Register Metre in _imslib:
 _imslib.Metre_swigregister(Metre)
 class Nanometre(object):
+    r"""Proxy of C++ iMS::distance< std::nano > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Nanometre self, double ticks=1.0) -> Nanometre"""
         _imslib.Nanometre_swiginit(self, _imslib.new_Nanometre(ticks))
 
     def __float__(self):
+        r"""__float__(Nanometre self) -> double"""
         return _imslib.Nanometre___float__(self)
 
     def __str__(self):
+        r"""__str__(Nanometre self) -> std::string"""
         return _imslib.Nanometre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Nanometre_value_get, _imslib.Nanometre_value_set)
+    value = property(_imslib.Nanometre_value_get, _imslib.Nanometre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Nanometre
 
 # Register Nanometre in _imslib:
 _imslib.Nanometre_swigregister(Nanometre)
 class Micrometre(object):
+    r"""Proxy of C++ iMS::distance< std::micro > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Micrometre self, double ticks=1.0) -> Micrometre"""
         _imslib.Micrometre_swiginit(self, _imslib.new_Micrometre(ticks))
 
     def __float__(self):
+        r"""__float__(Micrometre self) -> double"""
         return _imslib.Micrometre___float__(self)
 
     def __str__(self):
+        r"""__str__(Micrometre self) -> std::string"""
         return _imslib.Micrometre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Micrometre_value_get, _imslib.Micrometre_value_set)
+    value = property(_imslib.Micrometre_value_get, _imslib.Micrometre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Micrometre
 
 # Register Micrometre in _imslib:
 _imslib.Micrometre_swigregister(Micrometre)
 class Millimetre(object):
+    r"""Proxy of C++ iMS::distance< std::milli > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Millimetre self, double ticks=1.0) -> Millimetre"""
         _imslib.Millimetre_swiginit(self, _imslib.new_Millimetre(ticks))
 
     def __float__(self):
+        r"""__float__(Millimetre self) -> double"""
         return _imslib.Millimetre___float__(self)
 
     def __str__(self):
+        r"""__str__(Millimetre self) -> std::string"""
         return _imslib.Millimetre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Millimetre_value_get, _imslib.Millimetre_value_set)
+    value = property(_imslib.Millimetre_value_get, _imslib.Millimetre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Millimetre
 
 # Register Millimetre in _imslib:
 _imslib.Millimetre_swigregister(Millimetre)
 class Centimetre(object):
+    r"""Proxy of C++ iMS::distance< std::centi > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Centimetre self, double ticks=1.0) -> Centimetre"""
         _imslib.Centimetre_swiginit(self, _imslib.new_Centimetre(ticks))
 
     def __float__(self):
+        r"""__float__(Centimetre self) -> double"""
         return _imslib.Centimetre___float__(self)
 
     def __str__(self):
+        r"""__str__(Centimetre self) -> std::string"""
         return _imslib.Centimetre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Centimetre_value_get, _imslib.Centimetre_value_set)
+    value = property(_imslib.Centimetre_value_get, _imslib.Centimetre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Centimetre
 
 # Register Centimetre in _imslib:
 _imslib.Centimetre_swigregister(Centimetre)
 class Decimetre(object):
+    r"""Proxy of C++ iMS::distance< std::deci > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ticks=1.0):
+        r"""__init__(Decimetre self, double ticks=1.0) -> Decimetre"""
         _imslib.Decimetre_swiginit(self, _imslib.new_Decimetre(ticks))
 
     def __float__(self):
+        r"""__float__(Decimetre self) -> double"""
         return _imslib.Decimetre___float__(self)
 
     def __str__(self):
+        r"""__str__(Decimetre self) -> std::string"""
         return _imslib.Decimetre___str__(self)
 
     def __format__(self, spec):
         val = float(self)
         return format(val, spec)
 
-    value = property(_imslib.Decimetre_value_get, _imslib.Decimetre_value_set)
+    value = property(_imslib.Decimetre_value_get, _imslib.Decimetre_value_set, doc=r"""value : double""")
     __swig_destroy__ = _imslib.delete_Decimetre
 
 # Register Decimetre in _imslib:
 _imslib.Decimetre_swigregister(Decimetre)
 Polarity_NORMAL = _imslib.Polarity_NORMAL
+
 Polarity_INVERSE = _imslib.Polarity_INVERSE
+
 class IEventHandler(object):
+    r"""Proxy of C++ iMS::IEventHandler class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self):
+        r"""__init__(IEventHandler self) -> IEventHandler"""
         if self.__class__ == IEventHandler:
             _self = None
         else:
@@ -1958,6 +3102,13 @@ class IEventHandler(object):
     __swig_destroy__ = _imslib.delete_IEventHandler
 
     def EventAction(self, *args):
+        r"""
+        EventAction(IEventHandler self, void * sender, int const message)
+        EventAction(IEventHandler self, void * sender, int const message, int const param)
+        EventAction(IEventHandler self, void * sender, int const message, int const param, int const param2)
+        EventAction(IEventHandler self, void * sender, int const message, double const param)
+        EventAction(IEventHandler self, void * sender, int const message, int const param, ByteVector data)
+        """
         return _imslib.IEventHandler_EventAction(self, *args)
     def __disown__(self):
         self.this.disown()
@@ -1967,145 +3118,183 @@ class IEventHandler(object):
 # Register IEventHandler in _imslib:
 _imslib.IEventHandler_swigregister(IEventHandler)
 class FWVersion(object):
+    r"""Proxy of C++ iMS::FWVersion class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    major = property(_imslib.FWVersion_major_get)
-    minor = property(_imslib.FWVersion_minor_get)
-    revision = property(_imslib.FWVersion_revision_get)
+    major = property(_imslib.FWVersion_major_get, doc=r"""major : q(const).int""")
+    minor = property(_imslib.FWVersion_minor_get, doc=r"""minor : q(const).int""")
+    revision = property(_imslib.FWVersion_revision_get, doc=r"""revision : q(const).int""")
 
     def __str__(self):
+        r"""__str__(FWVersion self) -> std::string"""
         return _imslib.FWVersion___str__(self)
 
     def build_date_str(self):
+        r"""build_date_str(FWVersion self) -> std::string"""
         return _imslib.FWVersion_build_date_str(self)
 
     def __init__(self):
+        r"""__init__(FWVersion self) -> FWVersion"""
         _imslib.FWVersion_swiginit(self, _imslib.new_FWVersion())
     __swig_destroy__ = _imslib.delete_FWVersion
 
 # Register FWVersion in _imslib:
 _imslib.FWVersion_swigregister(FWVersion)
 class IMSOption(object):
+    r"""Proxy of C++ iMS::IMSOption class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def Name(self):
+        r"""Name(IMSOption self) -> std::string const &"""
         return _imslib.IMSOption_Name(self)
 
     def __init__(self):
+        r"""__init__(IMSOption self) -> IMSOption"""
         _imslib.IMSOption_swiginit(self, _imslib.new_IMSOption())
     __swig_destroy__ = _imslib.delete_IMSOption
 
 # Register IMSOption in _imslib:
 _imslib.IMSOption_swigregister(IMSOption)
 class IMSControllerCapabilities(object):
+    r"""Proxy of C++ iMS::IMSControllerCapabilities class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    nSynthInterfaces = property(_imslib.IMSControllerCapabilities_nSynthInterfaces_get)
-    FastImageTransfer = property(_imslib.IMSControllerCapabilities_FastImageTransfer_get)
-    MaxImageSize = property(_imslib.IMSControllerCapabilities_MaxImageSize_get)
-    SimultaneousPlayback = property(_imslib.IMSControllerCapabilities_SimultaneousPlayback_get)
-    MaxImageRate = property(_imslib.IMSControllerCapabilities_MaxImageRate_get)
-    RemoteUpgrade = property(_imslib.IMSControllerCapabilities_RemoteUpgrade_get)
+    nSynthInterfaces = property(_imslib.IMSControllerCapabilities_nSynthInterfaces_get, doc=r"""nSynthInterfaces : int""")
+    FastImageTransfer = property(_imslib.IMSControllerCapabilities_FastImageTransfer_get, doc=r"""FastImageTransfer : bool""")
+    MaxImageSize = property(_imslib.IMSControllerCapabilities_MaxImageSize_get, doc=r"""MaxImageSize : int""")
+    SimultaneousPlayback = property(_imslib.IMSControllerCapabilities_SimultaneousPlayback_get, doc=r"""SimultaneousPlayback : bool""")
+    MaxImageRate = property(_imslib.IMSControllerCapabilities_MaxImageRate_get, doc=r"""MaxImageRate : double""")
+    RemoteUpgrade = property(_imslib.IMSControllerCapabilities_RemoteUpgrade_get, doc=r"""RemoteUpgrade : bool""")
 
     def __init__(self):
+        r"""__init__(IMSControllerCapabilities self) -> IMSControllerCapabilities"""
         _imslib.IMSControllerCapabilities_swiginit(self, _imslib.new_IMSControllerCapabilities())
     __swig_destroy__ = _imslib.delete_IMSControllerCapabilities
 
 # Register IMSControllerCapabilities in _imslib:
 _imslib.IMSControllerCapabilities_swigregister(IMSControllerCapabilities)
 class IMSController(object):
+    r"""Proxy of C++ iMS::IMSController class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def GetCap(self):
+        r"""GetCap(IMSController self) -> iMS::IMSController::Capabilities const"""
         return _imslib.IMSController_GetCap(self)
 
     def Description(self):
+        r"""Description(IMSController self) -> std::string const &"""
         return _imslib.IMSController_Description(self)
 
     def Model(self):
+        r"""Model(IMSController self) -> std::string const &"""
         return _imslib.IMSController_Model(self)
 
     def GetVersion(self):
+        r"""GetVersion(IMSController self) -> FWVersion"""
         return _imslib.IMSController_GetVersion(self)
 
     def ImgTable(self):
+        r"""ImgTable(IMSController self) -> ImageTable const &"""
         return _imslib.IMSController_ImgTable(self)
 
     def IsValid(self):
+        r"""IsValid(IMSController self) -> bool const"""
         return _imslib.IMSController_IsValid(self)
 
     def Interfaces(self):
+        r"""Interfaces(IMSController self) -> StringList"""
         return _imslib.IMSController_Interfaces(self)
 
     def __init__(self):
+        r"""__init__(IMSController self) -> IMSController"""
         _imslib.IMSController_swiginit(self, _imslib.new_IMSController())
     __swig_destroy__ = _imslib.delete_IMSController
 
 # Register IMSController in _imslib:
 _imslib.IMSController_swigregister(IMSController)
 class IMSSynthesiserCapabilities(object):
+    r"""Proxy of C++ iMS::IMSSynthesiserCapabilities class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    lowerFrequency = property(_imslib.IMSSynthesiserCapabilities_lowerFrequency_get)
-    upperFrequency = property(_imslib.IMSSynthesiserCapabilities_upperFrequency_get)
-    freqBits = property(_imslib.IMSSynthesiserCapabilities_freqBits_get)
-    amplBits = property(_imslib.IMSSynthesiserCapabilities_amplBits_get)
-    phaseBits = property(_imslib.IMSSynthesiserCapabilities_phaseBits_get)
-    LUTDepth = property(_imslib.IMSSynthesiserCapabilities_LUTDepth_get)
-    LUTAmplBits = property(_imslib.IMSSynthesiserCapabilities_LUTAmplBits_get)
-    LUTPhaseBits = property(_imslib.IMSSynthesiserCapabilities_LUTPhaseBits_get)
-    LUTSyncABits = property(_imslib.IMSSynthesiserCapabilities_LUTSyncABits_get)
-    LUTSyncDBits = property(_imslib.IMSSynthesiserCapabilities_LUTSyncDBits_get)
-    sysClock = property(_imslib.IMSSynthesiserCapabilities_sysClock_get)
-    syncClock = property(_imslib.IMSSynthesiserCapabilities_syncClock_get)
-    channels = property(_imslib.IMSSynthesiserCapabilities_channels_get)
-    RemoteUpgrade = property(_imslib.IMSSynthesiserCapabilities_RemoteUpgrade_get)
-    ChannelComp = property(_imslib.IMSSynthesiserCapabilities_ChannelComp_get)
+    lowerFrequency = property(_imslib.IMSSynthesiserCapabilities_lowerFrequency_get, doc=r"""lowerFrequency : double""")
+    upperFrequency = property(_imslib.IMSSynthesiserCapabilities_upperFrequency_get, doc=r"""upperFrequency : double""")
+    freqBits = property(_imslib.IMSSynthesiserCapabilities_freqBits_get, doc=r"""freqBits : int""")
+    amplBits = property(_imslib.IMSSynthesiserCapabilities_amplBits_get, doc=r"""amplBits : int""")
+    phaseBits = property(_imslib.IMSSynthesiserCapabilities_phaseBits_get, doc=r"""phaseBits : int""")
+    LUTDepth = property(_imslib.IMSSynthesiserCapabilities_LUTDepth_get, doc=r"""LUTDepth : int""")
+    LUTAmplBits = property(_imslib.IMSSynthesiserCapabilities_LUTAmplBits_get, doc=r"""LUTAmplBits : int""")
+    LUTPhaseBits = property(_imslib.IMSSynthesiserCapabilities_LUTPhaseBits_get, doc=r"""LUTPhaseBits : int""")
+    LUTSyncABits = property(_imslib.IMSSynthesiserCapabilities_LUTSyncABits_get, doc=r"""LUTSyncABits : int""")
+    LUTSyncDBits = property(_imslib.IMSSynthesiserCapabilities_LUTSyncDBits_get, doc=r"""LUTSyncDBits : int""")
+    sysClock = property(_imslib.IMSSynthesiserCapabilities_sysClock_get, doc=r"""sysClock : double""")
+    syncClock = property(_imslib.IMSSynthesiserCapabilities_syncClock_get, doc=r"""syncClock : double""")
+    channels = property(_imslib.IMSSynthesiserCapabilities_channels_get, doc=r"""channels : int""")
+    RemoteUpgrade = property(_imslib.IMSSynthesiserCapabilities_RemoteUpgrade_get, doc=r"""RemoteUpgrade : bool""")
+    ChannelComp = property(_imslib.IMSSynthesiserCapabilities_ChannelComp_get, doc=r"""ChannelComp : bool""")
 
     def __init__(self):
+        r"""__init__(IMSSynthesiserCapabilities self) -> IMSSynthesiserCapabilities"""
         _imslib.IMSSynthesiserCapabilities_swiginit(self, _imslib.new_IMSSynthesiserCapabilities())
     __swig_destroy__ = _imslib.delete_IMSSynthesiserCapabilities
 
 # Register IMSSynthesiserCapabilities in _imslib:
 _imslib.IMSSynthesiserCapabilities_swigregister(IMSSynthesiserCapabilities)
 class IMSSynthesiser(object):
+    r"""Proxy of C++ iMS::IMSSynthesiser class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def AddOn(self):
+        r"""AddOn(IMSSynthesiser self) -> std::shared_ptr< iMS::IMSOption const >"""
         return _imslib.IMSSynthesiser_AddOn(self)
 
     def GetCap(self):
+        r"""GetCap(IMSSynthesiser self) -> iMS::IMSSynthesiser::Capabilities const"""
         return _imslib.IMSSynthesiser_GetCap(self)
 
     def Description(self):
+        r"""Description(IMSSynthesiser self) -> std::string const &"""
         return _imslib.IMSSynthesiser_Description(self)
 
     def Model(self):
+        r"""Model(IMSSynthesiser self) -> std::string const &"""
         return _imslib.IMSSynthesiser_Model(self)
 
     def GetVersion(self):
+        r"""GetVersion(IMSSynthesiser self) -> FWVersion"""
         return _imslib.IMSSynthesiser_GetVersion(self)
 
     def IsValid(self):
+        r"""IsValid(IMSSynthesiser self) -> bool const"""
         return _imslib.IMSSynthesiser_IsValid(self)
 
     def FST(self):
+        r"""FST(IMSSynthesiser self) -> FileSystemTable const &"""
         return _imslib.IMSSynthesiser_FST(self)
 
     def __init__(self):
+        r"""__init__(IMSSynthesiser self) -> IMSSynthesiser"""
         _imslib.IMSSynthesiser_swiginit(self, _imslib.new_IMSSynthesiser())
     __swig_destroy__ = _imslib.delete_IMSSynthesiser
 
 # Register IMSSynthesiser in _imslib:
 _imslib.IMSSynthesiser_swigregister(IMSSynthesiser)
 class CS_ETH(object):
+    r"""Proxy of C++ iMS::CS_ETH class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""__init__(CS_ETH self, bool use_dhcp=False, std::string addr=std::string("192.168.1.10"), std::string netmask=std::string("255.255.255.0"), std::string gw=std::string("192.168.1.1")) -> CS_ETH"""
         if self.__class__ == CS_ETH:
             _self = None
         else:
@@ -2114,11 +3303,12 @@ class CS_ETH(object):
     __swig_destroy__ = _imslib.delete_CS_ETH
 
     def Ident(self):
+        r"""Ident(CS_ETH self) -> std::string const &"""
         return _imslib.CS_ETH_Ident(self)
-    dhcp = property(_imslib.CS_ETH_dhcp_get, _imslib.CS_ETH_dhcp_set)
-    addr = property(_imslib.CS_ETH_addr_get, _imslib.CS_ETH_addr_set)
-    mask = property(_imslib.CS_ETH_mask_get, _imslib.CS_ETH_mask_set)
-    gw = property(_imslib.CS_ETH_gw_get, _imslib.CS_ETH_gw_set)
+    dhcp = property(_imslib.CS_ETH_dhcp_get, _imslib.CS_ETH_dhcp_set, doc=r"""dhcp : bool""")
+    addr = property(_imslib.CS_ETH_addr_get, _imslib.CS_ETH_addr_set, doc=r"""addr : std::string""")
+    mask = property(_imslib.CS_ETH_mask_get, _imslib.CS_ETH_mask_set, doc=r"""mask : std::string""")
+    gw = property(_imslib.CS_ETH_gw_get, _imslib.CS_ETH_gw_set, doc=r"""gw : std::string""")
     def __disown__(self):
         self.this.disown()
         _imslib.disown_CS_ETH(self)
@@ -2127,10 +3317,17 @@ class CS_ETH(object):
 # Register CS_ETH in _imslib:
 _imslib.CS_ETH_swigregister(CS_ETH)
 class CS_RS422(object):
+    r"""Proxy of C++ iMS::CS_RS422 class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(CS_RS422 self) -> CS_RS422
+        __init__(CS_RS422 self, unsigned int baud_rate) -> CS_RS422
+        __init__(CS_RS422 self, ByteVector process_data) -> CS_RS422
+        """
         if self.__class__ == CS_RS422:
             _self = None
         else:
@@ -2139,8 +3336,9 @@ class CS_RS422(object):
     __swig_destroy__ = _imslib.delete_CS_RS422
 
     def Ident(self):
+        r"""Ident(CS_RS422 self) -> std::string const &"""
         return _imslib.CS_RS422_Ident(self)
-    baud = property(_imslib.CS_RS422_baud_get, _imslib.CS_RS422_baud_set)
+    baud = property(_imslib.CS_RS422_baud_get, _imslib.CS_RS422_baud_set, doc=r"""baud : unsigned int""")
     def __disown__(self):
         self.this.disown()
         _imslib.disown_CS_RS422(self)
@@ -2149,6 +3347,8 @@ class CS_RS422(object):
 # Register CS_RS422 in _imslib:
 _imslib.CS_RS422_swigregister(CS_RS422)
 class IMSSystem(object):
+    r"""Proxy of C++ iMS::IMSSystem class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -2156,192 +3356,309 @@ class IMSSystem(object):
     __repr__ = _swig_repr
 
     def Connect(self):
+        r"""Connect(IMSSystem self)"""
         return _imslib.IMSSystem_Connect(self)
 
     def Disconnect(self):
+        r"""Disconnect(IMSSystem self)"""
         return _imslib.IMSSystem_Disconnect(self)
 
     def SetTimeouts(self, send_timeout_ms, rx_timeout_ms, free_timeout_ms, discover_timeout_ms):
+        r"""SetTimeouts(IMSSystem self, int send_timeout_ms, int rx_timeout_ms, int free_timeout_ms, int discover_timeout_ms)"""
         return _imslib.IMSSystem_SetTimeouts(self, send_timeout_ms, rx_timeout_ms, free_timeout_ms, discover_timeout_ms)
 
     def Open(self):
+        r"""Open(IMSSystem self) -> bool"""
         return _imslib.IMSSystem_Open(self)
 
     def Ctlr(self):
+        r"""Ctlr(IMSSystem self) -> IMSController"""
         return _imslib.IMSSystem_Ctlr(self)
 
     def Synth(self):
+        r"""Synth(IMSSystem self) -> IMSSynthesiser"""
         return _imslib.IMSSystem_Synth(self)
 
     def ConnPort(self):
+        r"""ConnPort(IMSSystem self) -> std::string const &"""
         return _imslib.IMSSystem_ConnPort(self)
 
     def __eq__(self, rhs):
+        r"""__eq__(IMSSystem self, IMSSystem rhs) -> bool"""
         return _imslib.IMSSystem___eq__(self, rhs)
 
     def ApplySettings(self, settings):
+        r"""ApplySettings(IMSSystem self, iMS::IConnectionSettings const & settings) -> bool"""
         return _imslib.IMSSystem_ApplySettings(self, settings)
 
     def RetrieveSettings(self, settings):
+        r"""RetrieveSettings(IMSSystem self, std::string const & settings) -> iMS::IConnectionSettings *"""
         return _imslib.IMSSystem_RetrieveSettings(self, settings)
     __swig_destroy__ = _imslib.delete_IMSSystem
 
 # Register IMSSystem in _imslib:
 _imslib.IMSSystem_swigregister(IMSSystem)
 class IMSList(object):
+    r"""Proxy of C++ std::vector< std::shared_ptr< iMS::IMSSystem > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(IMSList self) -> SwigPyIterator"""
         return _imslib.IMSList_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(IMSList self) -> bool"""
         return _imslib.IMSList___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(IMSList self) -> bool"""
         return _imslib.IMSList___bool__(self)
 
     def __len__(self):
+        r"""__len__(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"""
         return _imslib.IMSList___len__(self)
 
     def __getslice__(self, i, j):
+        r"""__getslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j) -> IMSList"""
         return _imslib.IMSList___getslice__(self, i, j)
 
     def __setslice__(self, *args):
+        r"""
+        __setslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j)
+        __setslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j, IMSList v)
+        """
         return _imslib.IMSList___setslice__(self, *args)
 
     def __delslice__(self, i, j):
+        r"""__delslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j)"""
         return _imslib.IMSList___delslice__(self, i, j)
 
     def __delitem__(self, *args):
+        r"""
+        __delitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i)
+        __delitem__(IMSList self, SWIGPY_SLICEOBJECT * slice)
+        """
         return _imslib.IMSList___delitem__(self, *args)
 
     def __getitem__(self, *args):
+        r"""
+        __getitem__(IMSList self, SWIGPY_SLICEOBJECT * slice) -> IMSList
+        __getitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &
+        """
         return _imslib.IMSList___getitem__(self, *args)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(IMSList self, SWIGPY_SLICEOBJECT * slice, IMSList v)
+        __setitem__(IMSList self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)
+        """
         return _imslib.IMSList___setitem__(self, *args)
 
     def pop(self):
+        r"""pop(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type"""
         return _imslib.IMSList_pop(self)
 
     def append(self, x):
+        r"""append(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"""
         return _imslib.IMSList_append(self, x)
 
     def empty(self):
+        r"""empty(IMSList self) -> bool"""
         return _imslib.IMSList_empty(self)
 
     def size(self):
+        r"""size(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"""
         return _imslib.IMSList_size(self)
 
     def swap(self, v):
+        r"""swap(IMSList self, IMSList v)"""
         return _imslib.IMSList_swap(self, v)
 
     def begin(self):
+        r"""begin(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator"""
         return _imslib.IMSList_begin(self)
 
     def end(self):
+        r"""end(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator"""
         return _imslib.IMSList_end(self)
 
     def rbegin(self):
+        r"""rbegin(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::reverse_iterator"""
         return _imslib.IMSList_rbegin(self)
 
     def rend(self):
+        r"""rend(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::reverse_iterator"""
         return _imslib.IMSList_rend(self)
 
     def clear(self):
+        r"""clear(IMSList self)"""
         return _imslib.IMSList_clear(self)
 
     def get_allocator(self):
+        r"""get_allocator(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::allocator_type"""
         return _imslib.IMSList_get_allocator(self)
 
     def pop_back(self):
+        r"""pop_back(IMSList self)"""
         return _imslib.IMSList_pop_back(self)
 
     def erase(self, *args):
+        r"""
+        erase(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator
+        erase(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator first, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator last) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator
+        """
         return _imslib.IMSList_erase(self, *args)
 
     def __init__(self, *args):
+        r"""
+        __init__(IMSList self) -> IMSList
+        __init__(IMSList self, IMSList other) -> IMSList
+        __init__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type size) -> IMSList
+        __init__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type size, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & value) -> IMSList
+        """
         _imslib.IMSList_swiginit(self, _imslib.new_IMSList(*args))
 
     def push_back(self, x):
+        r"""push_back(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"""
         return _imslib.IMSList_push_back(self, x)
 
     def front(self):
+        r"""front(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &"""
         return _imslib.IMSList_front(self)
 
     def back(self):
+        r"""back(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &"""
         return _imslib.IMSList_back(self)
 
     def assign(self, n, x):
+        r"""assign(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"""
         return _imslib.IMSList_assign(self, n, x)
 
     def resize(self, *args):
+        r"""
+        resize(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type new_size)
+        resize(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type new_size, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)
+        """
         return _imslib.IMSList_resize(self, *args)
 
     def insert(self, *args):
+        r"""
+        insert(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator
+        insert(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)
+        """
         return _imslib.IMSList_insert(self, *args)
 
     def reserve(self, n):
+        r"""reserve(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n)"""
         return _imslib.IMSList_reserve(self, n)
 
     def capacity(self):
+        r"""capacity(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"""
         return _imslib.IMSList_capacity(self)
     __swig_destroy__ = _imslib.delete_IMSList
 
 # Register IMSList in _imslib:
 _imslib.IMSList_swigregister(IMSList)
 class ConnectionConfig(object):
+    r"""Proxy of C++ iMS::ConnectionConfig class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    IncludeInScan = property(_imslib.ConnectionConfig_IncludeInScan_get, _imslib.ConnectionConfig_IncludeInScan_set)
-    PortMask = property(_imslib.ConnectionConfig_PortMask_get, _imslib.ConnectionConfig_PortMask_set)
+    IncludeInScan = property(_imslib.ConnectionConfig_IncludeInScan_get, _imslib.ConnectionConfig_IncludeInScan_set, doc=r"""IncludeInScan : bool""")
+    PortMask = property(_imslib.ConnectionConfig_PortMask_get, _imslib.ConnectionConfig_PortMask_set, doc=r"""PortMask : iMS::ListBase<(std::string)>""")
 
     def __init__(self, *args):
+        r"""
+        __init__(ConnectionConfig self) -> ConnectionConfig
+        __init__(ConnectionConfig self, bool inc) -> ConnectionConfig
+        __init__(ConnectionConfig self, StringList mask) -> ConnectionConfig
+        """
         _imslib.ConnectionConfig_swiginit(self, _imslib.new_ConnectionConfig(*args))
     __swig_destroy__ = _imslib.delete_ConnectionConfig
 
 # Register ConnectionConfig in _imslib:
 _imslib.ConnectionConfig_swigregister(ConnectionConfig)
 class ConnectionList(object):
+    r"""Proxy of C++ iMS::ConnectionList class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def config(self, module):
-        return _imslib.ConnectionList_config(self, module)
+    def __init__(self, max_discover_timeout_ms=500):
+        r"""__init__(ConnectionList self, unsigned int max_discover_timeout_ms=500) -> ConnectionList"""
+        _imslib.ConnectionList_swiginit(self, _imslib.new_ConnectionList(max_discover_timeout_ms))
 
-    def modules(self):
-        return _imslib.ConnectionList_modules(self)
+    def Config(self, module):
+        r"""Config(ConnectionList self, std::string const & module) -> ConnectionConfig"""
+        return _imslib.ConnectionList_Config(self, module)
 
-    def scan(self):
-        return _imslib.ConnectionList_scan(self)
+    def Modules(self):
+        r"""Modules(ConnectionList self) -> StringList"""
+        return _imslib.ConnectionList_Modules(self)
 
-    def __init__(self):
-        _imslib.ConnectionList_swiginit(self, _imslib.new_ConnectionList())
+    def _Scan(self):
+        r"""_Scan(ConnectionList self) -> IMSList"""
+        return _imslib.ConnectionList__Scan(self)
+
+    def _ScanInterface(self, *args):
+        r"""_ScanInterface(ConnectionList self, std::string const & arg2, StringVector arg3={}) -> std::shared_ptr< iMS::IMSSystem >"""
+        return _imslib.ConnectionList__ScanInterface(self, *args)
+
+    def Find(self, *args):
+        r"""Find(ConnectionList self, std::string const & arg2, std::string const & arg3, StringVector arg4={}) -> std::shared_ptr< iMS::IMSSystem >"""
+        return _imslib.ConnectionList_Find(self, *args)
+
+    def Scan(self, *args):
+        """
+        Scan() -> list[IMSSystem]
+        Scan(interfaceName: str, addressHints: list[str] = []) -> IMSSystem or None
+        """
+        if not args:
+            return self._Scan()  # C++ Scan()
+        else:
+            return self._ScanInterface(*args)
+
     __swig_destroy__ = _imslib.delete_ConnectionList
 
 # Register ConnectionList in _imslib:
 _imslib.ConnectionList_swigregister(ConnectionList)
 FileSystemTypes_NO_FILE = _imslib.FileSystemTypes_NO_FILE
+
 FileSystemTypes_COMPENSATION_TABLE = _imslib.FileSystemTypes_COMPENSATION_TABLE
+
 FileSystemTypes_TONE_BUFFER = _imslib.FileSystemTypes_TONE_BUFFER
+
 FileSystemTypes_DDS_SCRIPT = _imslib.FileSystemTypes_DDS_SCRIPT
+
 FileSystemTypes_USER_DATA = _imslib.FileSystemTypes_USER_DATA
+
 FileDefault_DEFAULT = _imslib.FileDefault_DEFAULT
+
 FileDefault_NON_DEFAULT = _imslib.FileDefault_NON_DEFAULT
+
 class FileSystemTableEntry(object):
+    r"""Proxy of C++ iMS::FileSystemTableEntry class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(FileSystemTableEntry self) -> FileSystemTableEntry
+        __init__(FileSystemTableEntry self, iMS::FileSystemTypes type, uint32_t addr, uint32_t length, iMS::FileDefault _def) -> FileSystemTableEntry
+        __init__(FileSystemTableEntry self, iMS::FileSystemTypes type, uint32_t addr, uint32_t length, iMS::FileDefault _def, std::string name) -> FileSystemTableEntry
+        """
         _imslib.FileSystemTableEntry_swiginit(self, _imslib.new_FileSystemTableEntry(*args))
-    Type = property(_imslib.FileSystemTableEntry_Type_get)
-    Address = property(_imslib.FileSystemTableEntry_Address_get)
-    Length = property(_imslib.FileSystemTableEntry_Length_get)
-    IsDefault = property(_imslib.FileSystemTableEntry_IsDefault_get)
-    Name = property(_imslib.FileSystemTableEntry_Name_get)
+    Type = property(_imslib.FileSystemTableEntry_Type_get, doc=r"""Type : iMS::FileSystemTypes""")
+    Address = property(_imslib.FileSystemTableEntry_Address_get, doc=r"""Address : uint32_t""")
+    Length = property(_imslib.FileSystemTableEntry_Length_get, doc=r"""Length : uint32_t""")
+    IsDefault = property(_imslib.FileSystemTableEntry_IsDefault_get, doc=r"""IsDefault : bool""")
+    Name = property(_imslib.FileSystemTableEntry_Name_get, doc=r"""Name : std::string""")
 
     def __str__(self):
         return f"File type: {self.Type} Def: {self.IsDefault} Addr: 0x{self.Address:06X} Len: {self.Length} Name: {self.Name}"
@@ -2351,18 +3668,23 @@ class FileSystemTableEntry(object):
 # Register FileSystemTableEntry in _imslib:
 _imslib.FileSystemTableEntry_swigregister(FileSystemTableEntry)
 class FileSystemTableViewer(object):
+    r"""Proxy of C++ iMS::FileSystemTableViewer class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims):
+        r"""__init__(FileSystemTableViewer self, std::shared_ptr< iMS::IMSSystem > ims) -> FileSystemTableViewer"""
         _imslib.FileSystemTableViewer_swiginit(self, _imslib.new_FileSystemTableViewer(ims))
-    Entries = property(_imslib.FileSystemTableViewer_Entries_get)
-    IsValid = property(_imslib.FileSystemTableViewer_IsValid_get)
+    Entries = property(_imslib.FileSystemTableViewer_Entries_get, doc=r"""Entries : int""")
+    IsValid = property(_imslib.FileSystemTableViewer_IsValid_get, doc=r"""IsValid : bool""")
 
     def _getitem(self, i):
+        r"""_getitem(FileSystemTableViewer self, size_t i) -> FileSystemTableEntry"""
         return _imslib.FileSystemTableViewer__getitem(self, i)
 
     def __len__(self):
+        r"""__len__(FileSystemTableViewer self) -> size_t"""
         return _imslib.FileSystemTableViewer___len__(self)
 
     def __iter__(self):
@@ -2384,108 +3706,175 @@ _imslib.FileSystemTableViewer_swigregister(FileSystemTableViewer)
 MAX_FST_ENTRIES = cvar.MAX_FST_ENTRIES
 
 class FileSystemManager(object):
+    r"""Proxy of C++ iMS::FileSystemManager class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims):
+        r"""__init__(FileSystemManager self, std::shared_ptr< iMS::IMSSystem > ims) -> FileSystemManager"""
         _imslib.FileSystemManager_swiginit(self, _imslib.new_FileSystemManager(ims))
 
     def Delete(self, *args):
+        r"""
+        Delete(FileSystemManager self, iMS::FileSystemIndex index) -> bool
+        Delete(FileSystemManager self, std::string const & FileName) -> bool
+        """
         return _imslib.FileSystemManager_Delete(self, *args)
 
     def SetDefault(self, *args):
+        r"""
+        SetDefault(FileSystemManager self, iMS::FileSystemIndex index) -> bool
+        SetDefault(FileSystemManager self, std::string const & FileName) -> bool
+        """
         return _imslib.FileSystemManager_SetDefault(self, *args)
 
     def ClearDefault(self, *args):
+        r"""
+        ClearDefault(FileSystemManager self, iMS::FileSystemIndex index) -> bool
+        ClearDefault(FileSystemManager self, std::string const & FileName) -> bool
+        """
         return _imslib.FileSystemManager_ClearDefault(self, *args)
 
     def Sanitize(self):
+        r"""Sanitize(FileSystemManager self) -> bool"""
         return _imslib.FileSystemManager_Sanitize(self)
 
     def FindSpace(self, addr, data):
+        r"""FindSpace(FileSystemManager self, uint32_t & addr, ByteVector data) -> bool"""
         return _imslib.FileSystemManager_FindSpace(self, addr, data)
 
     def Execute(self, *args):
+        r"""
+        Execute(FileSystemManager self, iMS::FileSystemIndex index) -> bool
+        Execute(FileSystemManager self, std::string const & FileName) -> bool
+        """
         return _imslib.FileSystemManager_Execute(self, *args)
     __swig_destroy__ = _imslib.delete_FileSystemManager
 
 # Register FileSystemManager in _imslib:
 _imslib.FileSystemManager_swigregister(FileSystemManager)
 class UserFileReader(object):
+    r"""Proxy of C++ iMS::UserFileReader class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(UserFileReader self, std::shared_ptr< iMS::IMSSystem > ims, iMS::FileSystemIndex const index) -> UserFileReader
+        __init__(UserFileReader self, std::shared_ptr< iMS::IMSSystem > ims, std::string const & FileName) -> UserFileReader
+        """
         _imslib.UserFileReader_swiginit(self, _imslib.new_UserFileReader(*args))
 
     def Readback(self, *args):
+        r"""
+        Readback(UserFileReader self, ByteVector data) -> bool
+        Readback(UserFileReader self, PyObject * out_obj=None) -> PyObject
+        """
         return _imslib.UserFileReader_Readback(self, *args)
     __swig_destroy__ = _imslib.delete_UserFileReader
 
 # Register UserFileReader in _imslib:
 _imslib.UserFileReader_swigregister(UserFileReader)
 class UserFileWriter(object):
+    r"""Proxy of C++ iMS::UserFileWriter class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, file_data, file_name):
+        r"""__init__(UserFileWriter self, std::shared_ptr< iMS::IMSSystem > ims, ByteVector file_data, std::string const file_name) -> UserFileWriter"""
         _imslib.UserFileWriter_swiginit(self, _imslib.new_UserFileWriter(ims, file_data, file_name))
 
     def Program(self):
+        r"""Program(UserFileWriter self) -> iMS::FileSystemIndex"""
         return _imslib.UserFileWriter_Program(self)
     __swig_destroy__ = _imslib.delete_UserFileWriter
 
 # Register UserFileWriter in _imslib:
 _imslib.UserFileWriter_swigregister(UserFileWriter)
 class Crystal(object):
+    r"""Proxy of C++ iMS::Crystal class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     Material_PbMoO4 = _imslib.Crystal_Material_PbMoO4
+    
     Material_TeO2 = _imslib.Crystal_Material_TeO2
+    
     Material_TeO2S = _imslib.Crystal_Material_TeO2S
+    
     Material_aQuartz = _imslib.Crystal_Material_aQuartz
+    
     Material_fSilica = _imslib.Crystal_Material_fSilica
+    
     Material_fSilicaS = _imslib.Crystal_Material_fSilicaS
+    
     Material_Ge = _imslib.Crystal_Material_Ge
+    
 
     def __init__(self, *args):
+        r"""
+        __init__(Crystal self, iMS::Crystal::Material material=TeO2) -> Crystal
+        __init__(Crystal self, Crystal arg2) -> Crystal
+        """
         _imslib.Crystal_swiginit(self, _imslib.new_Crystal(*args))
 
     def RefractiveIndex(self, wavelength):
+        r"""RefractiveIndex(Crystal self, Micrometre wavelength) -> double"""
         return _imslib.Crystal_RefractiveIndex(self, wavelength)
 
     def BraggAngle(self, wavelength, frequency):
+        r"""BraggAngle(Crystal self, Micrometre wavelength, MHz frequency) -> Degrees"""
         return _imslib.Crystal_BraggAngle(self, wavelength, frequency)
-    Type = property(_imslib.Crystal_Type_get)
-    Description = property(_imslib.Crystal_Description_get)
-    AcousticVelocity = property(_imslib.Crystal_AcousticVelocity_get)
+    Type = property(_imslib.Crystal_Type_get, doc=r"""Type : iMS::Crystal::Material""")
+    Description = property(_imslib.Crystal_Description_get, doc=r"""Description : std::string""")
+    AcousticVelocity = property(_imslib.Crystal_AcousticVelocity_get, doc=r"""AcousticVelocity : double""")
     __swig_destroy__ = _imslib.delete_Crystal
 
 # Register Crystal in _imslib:
 _imslib.Crystal_swigregister(Crystal)
 class AODevice(object):
+    r"""Proxy of C++ iMS::AODevice class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(AODevice self, Crystal xtal, double GeomConstant=4.0, MHz Centre=100.0, MHz Bandwidth=60.0) -> AODevice
+        __init__(AODevice self, std::string const & Model) -> AODevice
+        __init__(AODevice self, AODevice arg2) -> AODevice
+        """
         _imslib.AODevice_swiginit(self, _imslib.new_AODevice(*args))
 
     def ExternalBragg(self, *args):
+        r"""
+        ExternalBragg(AODevice self) -> Degrees
+        ExternalBragg(AODevice self, Micrometre wavelength) -> Degrees
+        """
         return _imslib.AODevice_ExternalBragg(self, *args)
 
     def GetCompensationFunction(self, *args):
+        r"""
+        GetCompensationFunction(AODevice self) -> CompensationFunction
+        GetCompensationFunction(AODevice self, Micrometre wavelength) -> CompensationFunction
+        """
         return _imslib.AODevice_GetCompensationFunction(self, *args)
-    Model = property(_imslib.AODevice_Model_get)
-    Material = property(_imslib.AODevice_Material_get)
-    CentreFrequency = property(_imslib.AODevice_CentreFrequency_get)
-    SweepBW = property(_imslib.AODevice_SweepBW_get)
-    OperatingWavelength = property(_imslib.AODevice_OperatingWavelength_get)
-    GeomConstant = property(_imslib.AODevice_GeomConstant_get)
+    Model = property(_imslib.AODevice_Model_get, doc=r"""Model : std::string""")
+    Material = property(_imslib.AODevice_Material_get, doc=r"""Material : iMS::Crystal""")
+    CentreFrequency = property(_imslib.AODevice_CentreFrequency_get, doc=r"""CentreFrequency : iMS::MHz""")
+    SweepBW = property(_imslib.AODevice_SweepBW_get, doc=r"""SweepBW : iMS::MHz""")
+    OperatingWavelength = property(_imslib.AODevice_OperatingWavelength_get, doc=r"""OperatingWavelength : iMS::distance<(std::micro)>""")
+    GeomConstant = property(_imslib.AODevice_GeomConstant_get, doc=r"""GeomConstant : double""")
     __swig_destroy__ = _imslib.delete_AODevice
 
 # Register AODevice in _imslib:
 _imslib.AODevice_swigregister(AODevice)
 class AODeviceList(object):
+    r"""Proxy of C++ iMS::AODeviceList class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
@@ -2494,327 +3883,520 @@ class AODeviceList(object):
 
     @staticmethod
     def GetList():
+        r"""GetList() -> StringList"""
         return _imslib.AODeviceList_GetList()
 
 # Register AODeviceList in _imslib:
 _imslib.AODeviceList_swigregister(AODeviceList)
 AuxiliaryEvents_EXT_ANLG_UPDATE_AVAILABLE = _imslib.AuxiliaryEvents_EXT_ANLG_UPDATE_AVAILABLE
+
 AuxiliaryEvents_EXT_ANLG_READ_FAILED = _imslib.AuxiliaryEvents_EXT_ANLG_READ_FAILED
+
 class Auxiliary(object):
+    r"""Proxy of C++ iMS::Auxiliary class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims):
+        r"""__init__(Auxiliary self, std::shared_ptr< iMS::IMSSystem > ims) -> Auxiliary"""
         _imslib.Auxiliary_swiginit(self, _imslib.new_Auxiliary(ims))
     LED_SOURCE_OFF = _imslib.Auxiliary_LED_SOURCE_OFF
+    
     LED_SOURCE_ON = _imslib.Auxiliary_LED_SOURCE_ON
+    
     LED_SOURCE_PULS = _imslib.Auxiliary_LED_SOURCE_PULS
+    
     LED_SOURCE_NPULS = _imslib.Auxiliary_LED_SOURCE_NPULS
+    
     LED_SOURCE_PIXEL_ACT = _imslib.Auxiliary_LED_SOURCE_PIXEL_ACT
+    
     LED_SOURCE_CTRL_ACT = _imslib.Auxiliary_LED_SOURCE_CTRL_ACT
+    
     LED_SOURCE_COMMS_HEALTHY = _imslib.Auxiliary_LED_SOURCE_COMMS_HEALTHY
+    
     LED_SOURCE_COMMS_UNHEALTHY = _imslib.Auxiliary_LED_SOURCE_COMMS_UNHEALTHY
+    
     LED_SOURCE_RF_GATE = _imslib.Auxiliary_LED_SOURCE_RF_GATE
+    
     LED_SOURCE_INTERLOCK = _imslib.Auxiliary_LED_SOURCE_INTERLOCK
+    
     LED_SOURCE_LASER = _imslib.Auxiliary_LED_SOURCE_LASER
+    
     LED_SOURCE_CHECKSUM = _imslib.Auxiliary_LED_SOURCE_CHECKSUM
+    
     LED_SOURCE_OVERTEMP = _imslib.Auxiliary_LED_SOURCE_OVERTEMP
+    
     LED_SOURCE_PLL_LOCK = _imslib.Auxiliary_LED_SOURCE_PLL_LOCK
+    
     LED_SINK_GREEN = _imslib.Auxiliary_LED_SINK_GREEN
+    
     LED_SINK_YELLOW = _imslib.Auxiliary_LED_SINK_YELLOW
+    
     LED_SINK_RED = _imslib.Auxiliary_LED_SINK_RED
+    
     DDS_PROFILE_OFF = _imslib.Auxiliary_DDS_PROFILE_OFF
+    
     DDS_PROFILE_EXTERNAL = _imslib.Auxiliary_DDS_PROFILE_EXTERNAL
+    
     DDS_PROFILE_HOST = _imslib.Auxiliary_DDS_PROFILE_HOST
+    
     EXT_ANLG_INPUT_A = _imslib.Auxiliary_EXT_ANLG_INPUT_A
+    
     EXT_ANLG_INPUT_B = _imslib.Auxiliary_EXT_ANLG_INPUT_B
+    
 
     def AssignLED(self, sink, src):
+        r"""AssignLED(Auxiliary self, iMS::Auxiliary::LED_SINK const & sink, iMS::Auxiliary::LED_SOURCE const & src) -> bool"""
         return _imslib.Auxiliary_AssignLED(self, sink, src)
 
     def SetDDSProfile(self, *args):
+        r"""
+        SetDDSProfile(Auxiliary self, iMS::Auxiliary::DDS_PROFILE const & prfl) -> bool
+        SetDDSProfile(Auxiliary self, iMS::Auxiliary::DDS_PROFILE const & prfl, uint16_t const & select) -> bool
+        """
         return _imslib.Auxiliary_SetDDSProfile(self, *args)
 
     def UpdateAnalogIn(self):
+        r"""UpdateAnalogIn(Auxiliary self) -> bool"""
         return _imslib.Auxiliary_UpdateAnalogIn(self)
 
     def GetAnalogData(self):
+        r"""GetAnalogData(Auxiliary self) -> AnalogData"""
         return _imslib.Auxiliary_GetAnalogData(self)
 
     def UpdateAnalogOut(self, pct):
+        r"""UpdateAnalogOut(Auxiliary self, Percent pct) -> bool"""
         return _imslib.Auxiliary_UpdateAnalogOut(self, pct)
 
     def AuxiliaryEventSubscribe(self, message, handler):
+        r"""AuxiliaryEventSubscribe(Auxiliary self, int const message, IEventHandler handler)"""
         return _imslib.Auxiliary_AuxiliaryEventSubscribe(self, message, handler)
 
     def AuxiliaryEventUnsubscribe(self, message, handler):
+        r"""AuxiliaryEventUnsubscribe(Auxiliary self, int const message, IEventHandler handler)"""
         return _imslib.Auxiliary_AuxiliaryEventUnsubscribe(self, message, handler)
     __swig_destroy__ = _imslib.delete_Auxiliary
 
 # Register Auxiliary in _imslib:
 _imslib.Auxiliary_swigregister(Auxiliary)
 class DDSScriptRegister(object):
+    r"""Proxy of C++ iMS::DDSScriptRegister class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     Name_CSR = _imslib.DDSScriptRegister_Name_CSR
+    
     Name_FR1 = _imslib.DDSScriptRegister_Name_FR1
+    
     Name_FR2 = _imslib.DDSScriptRegister_Name_FR2
+    
     Name_CFR = _imslib.DDSScriptRegister_Name_CFR
+    
     Name_CFTW0 = _imslib.DDSScriptRegister_Name_CFTW0
+    
     Name_CPOW0 = _imslib.DDSScriptRegister_Name_CPOW0
+    
     Name_ACR = _imslib.DDSScriptRegister_Name_ACR
+    
     Name_LSRR = _imslib.DDSScriptRegister_Name_LSRR
+    
     Name_RDW = _imslib.DDSScriptRegister_Name_RDW
+    
     Name_FDW = _imslib.DDSScriptRegister_Name_FDW
+    
     Name_CW1 = _imslib.DDSScriptRegister_Name_CW1
+    
     Name_CW2 = _imslib.DDSScriptRegister_Name_CW2
+    
     Name_CW3 = _imslib.DDSScriptRegister_Name_CW3
+    
     Name_CW4 = _imslib.DDSScriptRegister_Name_CW4
+    
     Name_CW5 = _imslib.DDSScriptRegister_Name_CW5
+    
     Name_CW6 = _imslib.DDSScriptRegister_Name_CW6
+    
     Name_CW7 = _imslib.DDSScriptRegister_Name_CW7
+    
     Name_CW8 = _imslib.DDSScriptRegister_Name_CW8
+    
     Name_CW9 = _imslib.DDSScriptRegister_Name_CW9
+    
     Name_CW10 = _imslib.DDSScriptRegister_Name_CW10
+    
     Name_CW11 = _imslib.DDSScriptRegister_Name_CW11
+    
     Name_CW12 = _imslib.DDSScriptRegister_Name_CW12
+    
     Name_CW13 = _imslib.DDSScriptRegister_Name_CW13
+    
     Name_CW14 = _imslib.DDSScriptRegister_Name_CW14
+    
     Name_CW15 = _imslib.DDSScriptRegister_Name_CW15
+    
     Name_UPDATE = _imslib.DDSScriptRegister_Name_UPDATE
+    
 
     def __init__(self, *args):
+        r"""
+        __init__(DDSScriptRegister self, iMS::DDSScriptRegister::Name name=CSR) -> DDSScriptRegister
+        __init__(DDSScriptRegister self, iMS::DDSScriptRegister::Name name, ByteVector data) -> DDSScriptRegister
+        __init__(DDSScriptRegister self, DDSScriptRegister arg2) -> DDSScriptRegister
+        """
         _imslib.DDSScriptRegister_swiginit(self, _imslib.new_DDSScriptRegister(*args))
 
     def append(self, arg2):
+        r"""append(DDSScriptRegister self, uint8_t const & arg2) -> int"""
         return _imslib.DDSScriptRegister_append(self, arg2)
 
     def bytes(self):
+        r"""bytes(DDSScriptRegister self) -> ByteVector"""
         return _imslib.DDSScriptRegister_bytes(self)
     __swig_destroy__ = _imslib.delete_DDSScriptRegister
 
 # Register DDSScriptRegister in _imslib:
 _imslib.DDSScriptRegister_swigregister(DDSScriptRegister)
 class DDSScript(object):
+    r"""Proxy of C++ std::vector< iMS::DDSScriptRegister > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def iterator(self):
+        r"""iterator(DDSScript self) -> SwigPyIterator"""
         return _imslib.DDSScript_iterator(self)
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        r"""__nonzero__(DDSScript self) -> bool"""
         return _imslib.DDSScript___nonzero__(self)
 
     def __bool__(self):
+        r"""__bool__(DDSScript self) -> bool"""
         return _imslib.DDSScript___bool__(self)
 
     def __len__(self):
+        r"""__len__(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"""
         return _imslib.DDSScript___len__(self)
 
     def __getslice__(self, i, j):
+        r"""__getslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j) -> DDSScript"""
         return _imslib.DDSScript___getslice__(self, i, j)
 
     def __setslice__(self, *args):
+        r"""
+        __setslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j)
+        __setslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j, DDSScript v)
+        """
         return _imslib.DDSScript___setslice__(self, *args)
 
     def __delslice__(self, i, j):
+        r"""__delslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j)"""
         return _imslib.DDSScript___delslice__(self, i, j)
 
     def __delitem__(self, *args):
+        r"""
+        __delitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i)
+        __delitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice)
+        """
         return _imslib.DDSScript___delitem__(self, *args)
 
     def __getitem__(self, *args):
+        r"""
+        __getitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice) -> DDSScript
+        __getitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i) -> DDSScriptRegister
+        """
         return _imslib.DDSScript___getitem__(self, *args)
 
     def __setitem__(self, *args):
+        r"""
+        __setitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice, DDSScript v)
+        __setitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice)
+        __setitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, DDSScriptRegister x)
+        """
         return _imslib.DDSScript___setitem__(self, *args)
 
     def pop(self):
+        r"""pop(DDSScript self) -> DDSScriptRegister"""
         return _imslib.DDSScript_pop(self)
 
     def append(self, x):
+        r"""append(DDSScript self, DDSScriptRegister x)"""
         return _imslib.DDSScript_append(self, x)
 
     def empty(self):
+        r"""empty(DDSScript self) -> bool"""
         return _imslib.DDSScript_empty(self)
 
     def size(self):
+        r"""size(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"""
         return _imslib.DDSScript_size(self)
 
     def swap(self, v):
+        r"""swap(DDSScript self, DDSScript v)"""
         return _imslib.DDSScript_swap(self, v)
 
     def begin(self):
+        r"""begin(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::iterator"""
         return _imslib.DDSScript_begin(self)
 
     def end(self):
+        r"""end(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::iterator"""
         return _imslib.DDSScript_end(self)
 
     def rbegin(self):
+        r"""rbegin(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::reverse_iterator"""
         return _imslib.DDSScript_rbegin(self)
 
     def rend(self):
+        r"""rend(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::reverse_iterator"""
         return _imslib.DDSScript_rend(self)
 
     def clear(self):
+        r"""clear(DDSScript self)"""
         return _imslib.DDSScript_clear(self)
 
     def get_allocator(self):
+        r"""get_allocator(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::allocator_type"""
         return _imslib.DDSScript_get_allocator(self)
 
     def pop_back(self):
+        r"""pop_back(DDSScript self)"""
         return _imslib.DDSScript_pop_back(self)
 
     def erase(self, *args):
+        r"""
+        erase(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos) -> std::vector< iMS::DDSScriptRegister >::iterator
+        erase(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator first, std::vector< iMS::DDSScriptRegister >::iterator last) -> std::vector< iMS::DDSScriptRegister >::iterator
+        """
         return _imslib.DDSScript_erase(self, *args)
 
     def __init__(self, *args):
+        r"""
+        __init__(DDSScript self) -> DDSScript
+        __init__(DDSScript self, DDSScript other) -> DDSScript
+        __init__(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type size) -> DDSScript
+        __init__(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type size, DDSScriptRegister value) -> DDSScript
+        """
         _imslib.DDSScript_swiginit(self, _imslib.new_DDSScript(*args))
 
     def push_back(self, x):
+        r"""push_back(DDSScript self, DDSScriptRegister x)"""
         return _imslib.DDSScript_push_back(self, x)
 
     def front(self):
+        r"""front(DDSScript self) -> DDSScriptRegister"""
         return _imslib.DDSScript_front(self)
 
     def back(self):
+        r"""back(DDSScript self) -> DDSScriptRegister"""
         return _imslib.DDSScript_back(self)
 
     def assign(self, n, x):
+        r"""assign(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type n, DDSScriptRegister x)"""
         return _imslib.DDSScript_assign(self, n, x)
 
     def resize(self, *args):
+        r"""
+        resize(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type new_size)
+        resize(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type new_size, DDSScriptRegister x)
+        """
         return _imslib.DDSScript_resize(self, *args)
 
     def insert(self, *args):
+        r"""
+        insert(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos, DDSScriptRegister x) -> std::vector< iMS::DDSScriptRegister >::iterator
+        insert(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos, std::vector< iMS::DDSScriptRegister >::size_type n, DDSScriptRegister x)
+        """
         return _imslib.DDSScript_insert(self, *args)
 
     def reserve(self, n):
+        r"""reserve(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type n)"""
         return _imslib.DDSScript_reserve(self, n)
 
     def capacity(self):
+        r"""capacity(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"""
         return _imslib.DDSScript_capacity(self)
     __swig_destroy__ = _imslib.delete_DDSScript
 
 # Register DDSScript in _imslib:
 _imslib.DDSScript_swigregister(DDSScript)
 class DDSScriptDownload(object):
+    r"""Proxy of C++ iMS::DDSScriptDownload class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, script):
+        r"""__init__(DDSScriptDownload self, std::shared_ptr< iMS::IMSSystem > ims, DDSScript script) -> DDSScriptDownload"""
         _imslib.DDSScriptDownload_swiginit(self, _imslib.new_DDSScriptDownload(ims, script))
 
     def Program(self, *args):
+        r"""Program(DDSScriptDownload self, std::string const & FileName, iMS::FileDefault _def=NON_DEFAULT) -> iMS::FileSystemIndex const"""
         return _imslib.DDSScriptDownload_Program(self, *args)
     __swig_destroy__ = _imslib.delete_DDSScriptDownload
 
 # Register DDSScriptDownload in _imslib:
 _imslib.DDSScriptDownload_swigregister(DDSScriptDownload)
 class ImagePoint(object):
+    r"""Proxy of C++ iMS::ImagePoint class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __str__(self):
+        r"""__str__(ImagePoint self) -> std::string"""
         return _imslib.ImagePoint___str__(self)
 
     def __eq__(self, rhs):
+        r"""__eq__(ImagePoint self, ImagePoint rhs) -> bool"""
         return _imslib.ImagePoint___eq__(self, rhs)
 
     def GetFAP(self, arg2):
+        r"""GetFAP(ImagePoint self, RFChannel arg2) -> FAP"""
         return _imslib.ImagePoint_GetFAP(self, arg2)
 
     def SetFAP(self, arg2, arg3):
+        r"""SetFAP(ImagePoint self, RFChannel arg2, FAP arg3)"""
         return _imslib.ImagePoint_SetFAP(self, arg2, arg3)
 
     def SetAll(self, arg2):
+        r"""SetAll(ImagePoint self, FAP arg2)"""
         return _imslib.ImagePoint_SetAll(self, arg2)
 
     def GetSyncA(self, index):
+        r"""GetSyncA(ImagePoint self, int index) -> float const &"""
         return _imslib.ImagePoint_GetSyncA(self, index)
 
     def SetSyncA(self, index, value):
+        r"""SetSyncA(ImagePoint self, int index, float value)"""
         return _imslib.ImagePoint_SetSyncA(self, index, value)
-    SyncD = property(_imslib.ImagePoint_SyncD_get, _imslib.ImagePoint_SyncD_set)
-    SyncA1 = property(_imslib.ImagePoint_SyncA1_get, _imslib.ImagePoint_SyncA1_set)
-    SyncA2 = property(_imslib.ImagePoint_SyncA2_get, _imslib.ImagePoint_SyncA2_set)
-    FreqCh1 = property(_imslib.ImagePoint_FreqCh1_get, _imslib.ImagePoint_FreqCh1_set)
-    AmplCh1 = property(_imslib.ImagePoint_AmplCh1_get, _imslib.ImagePoint_AmplCh1_set)
-    PhaseCh1 = property(_imslib.ImagePoint_PhaseCh1_get, _imslib.ImagePoint_PhaseCh1_set)
-    FreqCh2 = property(_imslib.ImagePoint_FreqCh2_get, _imslib.ImagePoint_FreqCh2_set)
-    AmplCh2 = property(_imslib.ImagePoint_AmplCh2_get, _imslib.ImagePoint_AmplCh2_set)
-    PhaseCh2 = property(_imslib.ImagePoint_PhaseCh2_get, _imslib.ImagePoint_PhaseCh2_set)
-    FreqCh3 = property(_imslib.ImagePoint_FreqCh3_get, _imslib.ImagePoint_FreqCh3_set)
-    AmplCh3 = property(_imslib.ImagePoint_AmplCh3_get, _imslib.ImagePoint_AmplCh3_set)
-    PhaseCh3 = property(_imslib.ImagePoint_PhaseCh3_get, _imslib.ImagePoint_PhaseCh3_set)
-    FreqCh4 = property(_imslib.ImagePoint_FreqCh4_get, _imslib.ImagePoint_FreqCh4_set)
-    AmplCh4 = property(_imslib.ImagePoint_AmplCh4_get, _imslib.ImagePoint_AmplCh4_set)
-    PhaseCh4 = property(_imslib.ImagePoint_PhaseCh4_get, _imslib.ImagePoint_PhaseCh4_set)
+    SyncD = property(_imslib.ImagePoint_SyncD_get, _imslib.ImagePoint_SyncD_set, doc=r"""SyncD : unsigned int""")
+    SyncA1 = property(_imslib.ImagePoint_SyncA1_get, _imslib.ImagePoint_SyncA1_set, doc=r"""SyncA1 : float""")
+    SyncA2 = property(_imslib.ImagePoint_SyncA2_get, _imslib.ImagePoint_SyncA2_set, doc=r"""SyncA2 : float""")
+    FreqCh1 = property(_imslib.ImagePoint_FreqCh1_get, _imslib.ImagePoint_FreqCh1_set, doc=r"""FreqCh1 : iMS::MHz""")
+    AmplCh1 = property(_imslib.ImagePoint_AmplCh1_get, _imslib.ImagePoint_AmplCh1_set, doc=r"""AmplCh1 : iMS::Percent""")
+    PhaseCh1 = property(_imslib.ImagePoint_PhaseCh1_get, _imslib.ImagePoint_PhaseCh1_set, doc=r"""PhaseCh1 : iMS::Degrees""")
+    FreqCh2 = property(_imslib.ImagePoint_FreqCh2_get, _imslib.ImagePoint_FreqCh2_set, doc=r"""FreqCh2 : iMS::MHz""")
+    AmplCh2 = property(_imslib.ImagePoint_AmplCh2_get, _imslib.ImagePoint_AmplCh2_set, doc=r"""AmplCh2 : iMS::Percent""")
+    PhaseCh2 = property(_imslib.ImagePoint_PhaseCh2_get, _imslib.ImagePoint_PhaseCh2_set, doc=r"""PhaseCh2 : iMS::Degrees""")
+    FreqCh3 = property(_imslib.ImagePoint_FreqCh3_get, _imslib.ImagePoint_FreqCh3_set, doc=r"""FreqCh3 : iMS::MHz""")
+    AmplCh3 = property(_imslib.ImagePoint_AmplCh3_get, _imslib.ImagePoint_AmplCh3_set, doc=r"""AmplCh3 : iMS::Percent""")
+    PhaseCh3 = property(_imslib.ImagePoint_PhaseCh3_get, _imslib.ImagePoint_PhaseCh3_set, doc=r"""PhaseCh3 : iMS::Degrees""")
+    FreqCh4 = property(_imslib.ImagePoint_FreqCh4_get, _imslib.ImagePoint_FreqCh4_set, doc=r"""FreqCh4 : iMS::MHz""")
+    AmplCh4 = property(_imslib.ImagePoint_AmplCh4_get, _imslib.ImagePoint_AmplCh4_set, doc=r"""AmplCh4 : iMS::Percent""")
+    PhaseCh4 = property(_imslib.ImagePoint_PhaseCh4_get, _imslib.ImagePoint_PhaseCh4_set, doc=r"""PhaseCh4 : iMS::Degrees""")
 
     def __init__(self, *args):
+        r"""
+        __init__(ImagePoint self) -> ImagePoint
+        __init__(ImagePoint self, FAP fap) -> ImagePoint
+        __init__(ImagePoint self, FAP ch1, FAP ch2, FAP ch3, FAP ch4) -> ImagePoint
+        __init__(ImagePoint self, FAP fap, float synca, unsigned int syncd) -> ImagePoint
+        __init__(ImagePoint self, FAP ch1, FAP ch2, FAP ch3, FAP ch4, float synca_1, float synca_2, unsigned int syncd) -> ImagePoint
+        __init__(ImagePoint self, ImagePoint other) -> ImagePoint
+        """
         _imslib.ImagePoint_swiginit(self, _imslib.new_ImagePoint(*args))
     __swig_destroy__ = _imslib.delete_ImagePoint
 
 # Register ImagePoint in _imslib:
 _imslib.ImagePoint_swigregister(ImagePoint)
 class Image(DequeBase_ImagePoint):
+    r"""Proxy of C++ iMS::Image class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(Image self, std::string const & name="") -> Image
+        __init__(Image self, size_t nPts, ImagePoint pt, std::string const & name="") -> Image
+        __init__(Image self, size_t nPts, ImagePoint pt, Frequency f, std::string const & name="") -> Image
+        __init__(Image self, size_t nPts, ImagePoint pt, int const div, std::string const & name="") -> Image
+        __init__(Image self, Image arg2) -> Image
+        """
         _imslib.Image_swiginit(self, _imslib.new_Image(*args))
 
     def __str__(self):
+        r"""__str__(Image self) -> std::string"""
         return _imslib.Image___str__(self)
-    ClockRate = property(_imslib.Image_ClockRate_get, _imslib.Image_ClockRate_set)
-    ExtClockDivide = property(_imslib.Image_ExtClockDivide_get, _imslib.Image_ExtClockDivide_set)
-    Description = property(_imslib.Image_Description_get, _imslib.Image_Description_set)
+    ClockRate = property(_imslib.Image_ClockRate_get, _imslib.Image_ClockRate_set, doc=r"""ClockRate : r.iMS::Frequency""")
+    ExtClockDivide = property(_imslib.Image_ExtClockDivide_get, _imslib.Image_ExtClockDivide_set, doc=r"""ExtClockDivide : int""")
+    Description = property(_imslib.Image_Description_get, _imslib.Image_Description_set, doc=r"""Description : std::string""")
     __swig_destroy__ = _imslib.delete_Image
 
 # Register Image in _imslib:
 _imslib.Image_swigregister(Image)
 class ImageTableEntry(object):
+    r"""Proxy of C++ iMS::ImageTableEntry class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __str__(self):
+        r"""__str__(ImageTableEntry self) -> std::string"""
         return _imslib.ImageTableEntry___str__(self)
 
     def __init__(self, *args):
+        r"""
+        __init__(ImageTableEntry self) -> ImageTableEntry
+        __init__(ImageTableEntry self, iMS::ImageIndex handle, unsigned int address, int n_pts, int size, unsigned int fmt, UUID uuid, std::string name) -> ImageTableEntry
+        __init__(ImageTableEntry self, iMS::ImageIndex handle, ByteVector arg3) -> ImageTableEntry
+        __init__(ImageTableEntry self, ImageTableEntry arg2) -> ImageTableEntry
+        """
         _imslib.ImageTableEntry_swiginit(self, _imslib.new_ImageTableEntry(*args))
 
     def Matches(self, img):
+        r"""Matches(ImageTableEntry self, Image img) -> bool"""
         return _imslib.ImageTableEntry_Matches(self, img)
-    Handle = property(_imslib.ImageTableEntry_Handle_get)
-    Address = property(_imslib.ImageTableEntry_Address_get)
-    NPts = property(_imslib.ImageTableEntry_NPts_get)
-    Size = property(_imslib.ImageTableEntry_Size_get)
-    Format = property(_imslib.ImageTableEntry_Format_get)
-    GetUUID = property(_imslib.ImageTableEntry_GetUUID_get)
-    Name = property(_imslib.ImageTableEntry_Name_get)
+    Handle = property(_imslib.ImageTableEntry_Handle_get, doc=r"""Handle : iMS::ImageIndex""")
+    Address = property(_imslib.ImageTableEntry_Address_get, doc=r"""Address : unsigned int""")
+    NPts = property(_imslib.ImageTableEntry_NPts_get, doc=r"""NPts : int""")
+    Size = property(_imslib.ImageTableEntry_Size_get, doc=r"""Size : int""")
+    Format = property(_imslib.ImageTableEntry_Format_get, doc=r"""Format : unsigned int""")
+    GetUUID = property(_imslib.ImageTableEntry_GetUUID_get, doc=r"""GetUUID : q(const).std::array<(uint8_t,16)>""")
+    Name = property(_imslib.ImageTableEntry_Name_get, doc=r"""Name : std::string""")
     __swig_destroy__ = _imslib.delete_ImageTableEntry
 
 # Register ImageTableEntry in _imslib:
 _imslib.ImageTableEntry_swigregister(ImageTableEntry)
 ImageRepeats_NONE = _imslib.ImageRepeats_NONE
+
 ImageRepeats_PROGRAM = _imslib.ImageRepeats_PROGRAM
+
 ImageRepeats_FOREVER = _imslib.ImageRepeats_FOREVER
+
 SequenceTermAction_DISCARD = _imslib.SequenceTermAction_DISCARD
+
 SequenceTermAction_RECYCLE = _imslib.SequenceTermAction_RECYCLE
+
 SequenceTermAction_STOP_DISCARD = _imslib.SequenceTermAction_STOP_DISCARD
+
 SequenceTermAction_STOP_RECYCLE = _imslib.SequenceTermAction_STOP_RECYCLE
+
 SequenceTermAction_REPEAT = _imslib.SequenceTermAction_REPEAT
+
 SequenceTermAction_REPEAT_FROM = _imslib.SequenceTermAction_REPEAT_FROM
+
 SequenceTermAction_INSERT = _imslib.SequenceTermAction_INSERT
+
 SequenceTermAction_STOP_INSERT = _imslib.SequenceTermAction_STOP_INSERT
+
 class SequenceEntry(object):
+    r"""Proxy of C++ iMS::SequenceEntry class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     __swig_destroy__ = _imslib.delete_SequenceEntry
 
     def __init__(self, *args):
+        r"""
+        __init__(SequenceEntry self) -> SequenceEntry
+        __init__(SequenceEntry self, UUID uuid, int const rpts=0) -> SequenceEntry
+        __init__(SequenceEntry self, SequenceEntry arg2) -> SequenceEntry
+        """
         if self.__class__ == SequenceEntry:
             _self = None
         else:
@@ -2822,16 +4404,19 @@ class SequenceEntry(object):
         _imslib.SequenceEntry_swiginit(self, _imslib.new_SequenceEntry(_self, *args))
 
     def __eq__(self, rhs):
+        r"""__eq__(SequenceEntry self, SequenceEntry rhs) -> bool"""
         return _imslib.SequenceEntry___eq__(self, rhs)
 
     def SetFrequencyOffset(self, *args):
+        r"""SetFrequencyOffset(SequenceEntry self, MHz offset, RFChannel chan=all)"""
         return _imslib.SequenceEntry_SetFrequencyOffset(self, *args)
 
     def GetFrequencyOffset(self, chan):
+        r"""GetFrequencyOffset(SequenceEntry self, RFChannel chan) -> MHz"""
         return _imslib.SequenceEntry_GetFrequencyOffset(self, chan)
-    SyncOutDelay = property(_imslib.SequenceEntry_SyncOutDelay_get, _imslib.SequenceEntry_SyncOutDelay_set)
-    UUID = property(_imslib.SequenceEntry_UUID_get)
-    NumRpts = property(_imslib.SequenceEntry_NumRpts_get)
+    SyncOutDelay = property(_imslib.SequenceEntry_SyncOutDelay_get, _imslib.SequenceEntry_SyncOutDelay_set, doc=r"""SyncOutDelay : r.std::chrono::duration<(double,std::ratio<(1,1)>)>""")
+    UUID = property(_imslib.SequenceEntry_UUID_get, doc=r"""UUID : std::array<(uint8_t,16)>""")
+    NumRpts = property(_imslib.SequenceEntry_NumRpts_get, doc=r"""NumRpts : int""")
     def __disown__(self):
         self.this.disown()
         _imslib.disown_SequenceEntry(self)
@@ -2840,10 +4425,20 @@ class SequenceEntry(object):
 # Register SequenceEntry in _imslib:
 _imslib.SequenceEntry_swigregister(SequenceEntry)
 class ImageSequenceEntry(SequenceEntry):
+    r"""Proxy of C++ iMS::ImageSequenceEntry class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ImageSequenceEntry self) -> ImageSequenceEntry
+        __init__(ImageSequenceEntry self, Image img, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0) -> ImageSequenceEntry
+        __init__(ImageSequenceEntry self, ImageTableEntry ite, kHz InternalClock, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0) -> ImageSequenceEntry
+        __init__(ImageSequenceEntry self, ImageTableEntry ite, int const ExtClockDivide, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0) -> ImageSequenceEntry
+        __init__(ImageSequenceEntry self, ImageSequenceEntry arg2) -> ImageSequenceEntry
+        __init__(ImageSequenceEntry self, SequenceEntry arg2) -> ImageSequenceEntry
+        """
         if self.__class__ == ImageSequenceEntry:
             _self = None
         else:
@@ -2851,11 +4446,12 @@ class ImageSequenceEntry(SequenceEntry):
         _imslib.ImageSequenceEntry_swiginit(self, _imslib.new_ImageSequenceEntry(_self, *args))
 
     def __eq__(self, rhs):
+        r"""__eq__(ImageSequenceEntry self, SequenceEntry rhs) -> bool"""
         return _imslib.ImageSequenceEntry___eq__(self, rhs)
-    PostImgDelay = property(_imslib.ImageSequenceEntry_PostImgDelay_get, _imslib.ImageSequenceEntry_PostImgDelay_set)
-    ExtDiv = property(_imslib.ImageSequenceEntry_ExtDiv_get)
-    IntOsc = property(_imslib.ImageSequenceEntry_IntOsc_get)
-    RptType = property(_imslib.ImageSequenceEntry_RptType_get)
+    PostImgDelay = property(_imslib.ImageSequenceEntry_PostImgDelay_get, _imslib.ImageSequenceEntry_PostImgDelay_set, doc=r"""PostImgDelay : r.std::chrono::duration<(double,std::ratio<(1,1)>)>""")
+    ExtDiv = property(_imslib.ImageSequenceEntry_ExtDiv_get, doc=r"""ExtDiv : int""")
+    IntOsc = property(_imslib.ImageSequenceEntry_IntOsc_get, doc=r"""IntOsc : r.iMS::Frequency""")
+    RptType = property(_imslib.ImageSequenceEntry_RptType_get, doc=r"""RptType : r.q(const).iMS::ImageRepeats""")
     __swig_destroy__ = _imslib.delete_ImageSequenceEntry
     def __disown__(self):
         self.this.disown()
@@ -2865,83 +4461,124 @@ class ImageSequenceEntry(SequenceEntry):
 # Register ImageSequenceEntry in _imslib:
 _imslib.ImageSequenceEntry_swigregister(ImageSequenceEntry)
 class ImageSequence(ListBase_SequenceEntry):
+    r"""Proxy of C++ iMS::ImageSequence class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ImageSequence self) -> ImageSequence
+        __init__(ImageSequence self, iMS::SequenceTermAction action, int val=0) -> ImageSequence
+        __init__(ImageSequence self, iMS::SequenceTermAction action, ImageSequence insert_before) -> ImageSequence
+        __init__(ImageSequence self, ImageSequence arg2) -> ImageSequence
+        """
         _imslib.ImageSequence_swiginit(self, _imslib.new_ImageSequence(*args))
 
     def OnTermination(self, *args):
+        r"""
+        OnTermination(ImageSequence self, iMS::SequenceTermAction act, int val=0)
+        OnTermination(ImageSequence self, iMS::SequenceTermAction act, ImageSequence term_seq)
+        """
         return _imslib.ImageSequence_OnTermination(self, *args)
 
     def TermInsertBefore(self):
+        r"""TermInsertBefore(ImageSequence self) -> ImageSequence"""
         return _imslib.ImageSequence_TermInsertBefore(self)
-    TermAction = property(_imslib.ImageSequence_TermAction_get)
-    TermValue = property(_imslib.ImageSequence_TermValue_get)
+    TermAction = property(_imslib.ImageSequence_TermAction_get, doc=r"""TermAction : iMS::SequenceTermAction""")
+    TermValue = property(_imslib.ImageSequence_TermValue_get, doc=r"""TermValue : int""")
     __swig_destroy__ = _imslib.delete_ImageSequence
 
 # Register ImageSequence in _imslib:
 _imslib.ImageSequence_swigregister(ImageSequence)
 class ImageGroup(DequeBase_Image):
+    r"""Proxy of C++ iMS::ImageGroup class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ImageGroup self, std::string const & name="") -> ImageGroup
+        __init__(ImageGroup self, size_t n, std::string const & name="") -> ImageGroup
+        __init__(ImageGroup self, ImageGroup arg2) -> ImageGroup
+        """
         _imslib.ImageGroup_swiginit(self, _imslib.new_ImageGroup(*args))
 
     def __str__(self):
+        r"""__str__(ImageGroup self) -> std::string"""
         return _imslib.ImageGroup___str__(self)
 
     def Size(self):
+        r"""Size(ImageGroup self) -> int"""
         return _imslib.ImageGroup_Size(self)
-    Author = property(_imslib.ImageGroup_Author_get, _imslib.ImageGroup_Author_set)
-    Company = property(_imslib.ImageGroup_Company_get, _imslib.ImageGroup_Company_set)
-    Revision = property(_imslib.ImageGroup_Revision_get, _imslib.ImageGroup_Revision_set)
-    Description = property(_imslib.ImageGroup_Description_get, _imslib.ImageGroup_Description_set)
-    CreatedTimeFormat = property(_imslib.ImageGroup_CreatedTimeFormat_get)
-    Sequence = property(_imslib.ImageGroup_Sequence_get, _imslib.ImageGroup_Sequence_set)
+    Author = property(_imslib.ImageGroup_Author_get, _imslib.ImageGroup_Author_set, doc=r"""Author : std::string""")
+    Company = property(_imslib.ImageGroup_Company_get, _imslib.ImageGroup_Company_set, doc=r"""Company : std::string""")
+    Revision = property(_imslib.ImageGroup_Revision_get, _imslib.ImageGroup_Revision_set, doc=r"""Revision : std::string""")
+    Description = property(_imslib.ImageGroup_Description_get, _imslib.ImageGroup_Description_set, doc=r"""Description : std::string""")
+    CreatedTimeFormat = property(_imslib.ImageGroup_CreatedTimeFormat_get, doc=r"""CreatedTimeFormat : std::string""")
+    Sequence = property(_imslib.ImageGroup_Sequence_get, _imslib.ImageGroup_Sequence_set, doc=r"""Sequence : iMS::ImageSequence""")
     __swig_destroy__ = _imslib.delete_ImageGroup
 
 # Register ImageGroup in _imslib:
 _imslib.ImageGroup_swigregister(ImageGroup)
 DownloadEvents_DOWNLOAD_FINISHED = _imslib.DownloadEvents_DOWNLOAD_FINISHED
+
 DownloadEvents_DOWNLOAD_ERROR = _imslib.DownloadEvents_DOWNLOAD_ERROR
+
 DownloadEvents_VERIFY_SUCCESS = _imslib.DownloadEvents_VERIFY_SUCCESS
+
 DownloadEvents_VERIFY_FAIL = _imslib.DownloadEvents_VERIFY_FAIL
+
 DownloadEvents_DOWNLOAD_FAIL_MEMORY_FULL = _imslib.DownloadEvents_DOWNLOAD_FAIL_MEMORY_FULL
+
 DownloadEvents_DOWNLOAD_FAIL_TRANSFER_ABORT = _imslib.DownloadEvents_DOWNLOAD_FAIL_TRANSFER_ABORT
+
 DownloadEvents_IMAGE_DOWNLOAD_NEW_HANDLE = _imslib.DownloadEvents_IMAGE_DOWNLOAD_NEW_HANDLE
+
 class ImageDownload(object):
+    r"""Proxy of C++ iMS::ImageDownload class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, img):
+        r"""__init__(ImageDownload self, std::shared_ptr< iMS::IMSSystem > ims, Image img) -> ImageDownload"""
         _imslib.ImageDownload_swiginit(self, _imslib.new_ImageDownload(ims, img))
 
     def SetFormat(self, fmt):
+        r"""SetFormat(ImageDownload self, ImageFormat const & fmt)"""
         return _imslib.ImageDownload_SetFormat(self, fmt)
 
     def StartDownload(self):
+        r"""StartDownload(ImageDownload self) -> bool"""
         return _imslib.ImageDownload_StartDownload(self)
 
     def StartVerify(self):
+        r"""StartVerify(ImageDownload self) -> bool"""
         return _imslib.ImageDownload_StartVerify(self)
 
     def GetVerifyError(self):
+        r"""GetVerifyError(ImageDownload self) -> int"""
         return _imslib.ImageDownload_GetVerifyError(self)
 
     def ImageDownloadEventSubscribe(self, message, handler):
+        r"""ImageDownloadEventSubscribe(ImageDownload self, int const message, IEventHandler handler)"""
         return _imslib.ImageDownload_ImageDownloadEventSubscribe(self, message, handler)
 
     def ImageDownloadEventUnsubscribe(self, message, handler):
+        r"""ImageDownloadEventUnsubscribe(ImageDownload self, int const message, IEventHandler handler)"""
         return _imslib.ImageDownload_ImageDownloadEventUnsubscribe(self, message, handler)
     __swig_destroy__ = _imslib.delete_ImageDownload
 
 # Register ImageDownload in _imslib:
 _imslib.ImageDownload_swigregister(ImageDownload)
 ImagePlayerEvents_POINT_PROGRESS = _imslib.ImagePlayerEvents_POINT_PROGRESS
+
 ImagePlayerEvents_IMAGE_STARTED = _imslib.ImagePlayerEvents_IMAGE_STARTED
+
 ImagePlayerEvents_IMAGE_FINISHED = _imslib.ImagePlayerEvents_IMAGE_FINISHED
+
 
 import enum
 
@@ -2960,27 +4597,42 @@ class StopStyle(enum.IntEnum):
     IMMEDIATELY = 1
 
 class ImagePlayerConfiguration(object):
+    r"""Proxy of C++ iMS::ImagePlayerConfiguration class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    rpts = property(_imslib.ImagePlayerConfiguration_rpts_get, _imslib.ImagePlayerConfiguration_rpts_set)
-    n_rpts = property(_imslib.ImagePlayerConfiguration_n_rpts_get, _imslib.ImagePlayerConfiguration_n_rpts_set)
-    clk_pol = property(_imslib.ImagePlayerConfiguration_clk_pol_get, _imslib.ImagePlayerConfiguration_clk_pol_set)
-    trig_pol = property(_imslib.ImagePlayerConfiguration_trig_pol_get, _imslib.ImagePlayerConfiguration_trig_pol_set)
-    delay = property(_imslib.ImagePlayerConfiguration_delay_get, _imslib.ImagePlayerConfiguration_delay_set)
+    rpts = property(_imslib.ImagePlayerConfiguration_rpts_get, _imslib.ImagePlayerConfiguration_rpts_set, doc=r"""rpts : iMS::ImageRepeats""")
+    n_rpts = property(_imslib.ImagePlayerConfiguration_n_rpts_get, _imslib.ImagePlayerConfiguration_n_rpts_set, doc=r"""n_rpts : int""")
+    clk_pol = property(_imslib.ImagePlayerConfiguration_clk_pol_get, _imslib.ImagePlayerConfiguration_clk_pol_set, doc=r"""clk_pol : Polarity""")
+    trig_pol = property(_imslib.ImagePlayerConfiguration_trig_pol_get, _imslib.ImagePlayerConfiguration_trig_pol_set, doc=r"""trig_pol : Polarity""")
+    delay = property(_imslib.ImagePlayerConfiguration_delay_get, _imslib.ImagePlayerConfiguration_delay_set, doc=r"""delay : iMS::ImagePlayerConfiguration::post_delay""")
 
     def get_int_ext(self):
+        r"""get_int_ext(ImagePlayerConfiguration self) -> iMS::ImagePlayer::PointClock"""
         return _imslib.ImagePlayerConfiguration_get_int_ext(self)
 
     def set_int_ext(self, clk):
+        r"""set_int_ext(ImagePlayerConfiguration self, iMS::ImagePlayer::PointClock clk)"""
         return _imslib.ImagePlayerConfiguration_set_int_ext(self, clk)
 
     def get_trig(self):
+        r"""get_trig(ImagePlayerConfiguration self) -> iMS::ImagePlayer::ImageTrigger"""
         return _imslib.ImagePlayerConfiguration_get_trig(self)
 
     def set_trig(self, trig_):
+        r"""set_trig(ImagePlayerConfiguration self, iMS::ImagePlayer::ImageTrigger trig_)"""
         return _imslib.ImagePlayerConfiguration_set_trig(self, trig_)
 
     def __init__(self, *args):
+        r"""
+        __init__(ImagePlayerConfiguration self) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, ImagePlayer::PointClock c) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, ImagePlayer::PointClock c, ImagePlayer::ImageTrigger t) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, ImagePlayer::PointClock c, UnitIntDuration d) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, ImagePlayer::PointClock c, UnitIntDuration d, iMS::ImageRepeats r, int n_rpts) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, iMS::ImageRepeats r) -> ImagePlayerConfiguration
+        __init__(ImagePlayerConfiguration self, iMS::ImageRepeats r, int n_rpts) -> ImagePlayerConfiguration
+        """
         _imslib.ImagePlayerConfiguration_swiginit(self, _imslib.new_ImagePlayerConfiguration(*args))
 
     Clock = property(get_int_ext, set_int_ext)
@@ -2991,34 +4643,55 @@ class ImagePlayerConfiguration(object):
 # Register ImagePlayerConfiguration in _imslib:
 _imslib.ImagePlayerConfiguration_swigregister(ImagePlayerConfiguration)
 class ImagePlayer(object):
+    r"""Proxy of C++ iMS::ImagePlayer class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ImagePlayer self, std::shared_ptr< iMS::IMSSystem > ims, Image img) -> ImagePlayer
+        __init__(ImagePlayer self, std::shared_ptr< iMS::IMSSystem > ims, ImageTableEntry ite, kHz InternalClock) -> ImagePlayer
+        __init__(ImagePlayer self, std::shared_ptr< iMS::IMSSystem > ims, ImageTableEntry ite, int const ExtClockDivide) -> ImagePlayer
+        """
         _imslib.ImagePlayer_swiginit(self, _imslib.new_ImagePlayer(*args))
 
     def Play(self, *args):
+        r"""
+        Play(ImagePlayer self, iMS::ImagePlayer::ImageTrigger start_trig) -> bool
+        Play(ImagePlayer self) -> bool
+        """
         return _imslib.ImagePlayer_Play(self, *args)
 
     def GetProgress(self):
+        r"""GetProgress(ImagePlayer self) -> bool"""
         return _imslib.ImagePlayer_GetProgress(self)
 
     def Stop(self, *args):
+        r"""
+        Stop(ImagePlayer self, iMS::ImagePlayer::StopStyle stop) -> bool
+        Stop(ImagePlayer self) -> bool
+        """
         return _imslib.ImagePlayer_Stop(self, *args)
 
     def SetPostDelay(self, dly):
+        r"""SetPostDelay(ImagePlayer self, UnitFloatDuration dly)"""
         return _imslib.ImagePlayer_SetPostDelay(self, dly)
 
     def ImagePlayerEventSubscribe(self, message, handler):
+        r"""ImagePlayerEventSubscribe(ImagePlayer self, int const message, IEventHandler handler)"""
         return _imslib.ImagePlayer_ImagePlayerEventSubscribe(self, message, handler)
 
     def ImagePlayerEventUnsubscribe(self, message, handler):
+        r"""ImagePlayerEventUnsubscribe(ImagePlayer self, int const message, IEventHandler handler)"""
         return _imslib.ImagePlayer_ImagePlayerEventUnsubscribe(self, message, handler)
 
     def get_cfg(self):
+        r"""get_cfg(ImagePlayer self) -> ImagePlayerConfiguration"""
         return _imslib.ImagePlayer_get_cfg(self)
 
     def set_cfg(self, py):
+        r"""set_cfg(ImagePlayer self, ImagePlayerConfiguration py)"""
         return _imslib.ImagePlayer_set_cfg(self, py)
 
     Config = property(get_cfg, set_cfg)
@@ -3028,16 +4701,21 @@ class ImagePlayer(object):
 # Register ImagePlayer in _imslib:
 _imslib.ImagePlayer_swigregister(ImagePlayer)
 class ImageTableViewer(object):
+    r"""Proxy of C++ iMS::ImageTableViewer class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __getitem__(self, i):
+        r"""__getitem__(ImageTableViewer self, size_t i) -> ImageTableEntry"""
         return _imslib.ImageTableViewer___getitem__(self, i)
 
     def __len__(self):
+        r"""__len__(ImageTableViewer self) -> size_t"""
         return _imslib.ImageTableViewer___len__(self)
 
     def __bool__(self):
+        r"""__bool__(ImageTableViewer self) -> bool"""
         return _imslib.ImageTableViewer___bool__(self)
 
     def __str__(self):
@@ -3052,209 +4730,316 @@ class ImageTableViewer(object):
 
 
     def __init__(self, ims):
+        r"""__init__(ImageTableViewer self, std::shared_ptr< iMS::IMSSystem > ims) -> ImageTableViewer"""
         _imslib.ImageTableViewer_swiginit(self, _imslib.new_ImageTableViewer(ims))
 
     def Entries(self):
+        r"""Entries(ImageTableViewer self) -> int const"""
         return _imslib.ImageTableViewer_Entries(self)
 
     def Erase(self, *args):
+        r"""
+        Erase(ImageTableViewer self, std::size_t const idx) -> bool
+        Erase(ImageTableViewer self, ImageTableEntry ite) -> bool
+        """
         return _imslib.ImageTableViewer_Erase(self, *args)
 
     def Clear(self):
+        r"""Clear(ImageTableViewer self) -> bool"""
         return _imslib.ImageTableViewer_Clear(self)
     __swig_destroy__ = _imslib.delete_ImageTableViewer
 
 # Register ImageTableViewer in _imslib:
 _imslib.ImageTableViewer_swigregister(ImageTableViewer)
 CompensationEvents_RX_DDS_POWER = _imslib.CompensationEvents_RX_DDS_POWER
+
 CompensationEvents_DOWNLOAD_FINISHED = _imslib.CompensationEvents_DOWNLOAD_FINISHED
+
 CompensationEvents_DOWNLOAD_ERROR = _imslib.CompensationEvents_DOWNLOAD_ERROR
+
 CompensationEvents_VERIFY_SUCCESS = _imslib.CompensationEvents_VERIFY_SUCCESS
+
 CompensationEvents_VERIFY_FAIL = _imslib.CompensationEvents_VERIFY_FAIL
+
 CompensationFeature_AMPLITUDE = _imslib.CompensationFeature_AMPLITUDE
+
 CompensationFeature_PHASE = _imslib.CompensationFeature_PHASE
+
 CompensationFeature_SYNC_DIG = _imslib.CompensationFeature_SYNC_DIG
+
 CompensationFeature_SYNC_ANLG = _imslib.CompensationFeature_SYNC_ANLG
+
 CompensationModifier_REPLACE = _imslib.CompensationModifier_REPLACE
+
 CompensationModifier_MULTIPLY = _imslib.CompensationModifier_MULTIPLY
+
 class CompensationPoint(object):
+    r"""Proxy of C++ iMS::CompensationPoint class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(CompensationPoint self, Percent ampl=iMS::Percent(0.0), Degrees phase=iMS::Degrees(0.0), unsigned int sync_dig=0, double sync_anlg=0.0) -> CompensationPoint
+        __init__(CompensationPoint self, Degrees phase, unsigned int sync_dig=0, double sync_anlg=0.0) -> CompensationPoint
+        __init__(CompensationPoint self, unsigned int sync_dig, double sync_anlg=0.0) -> CompensationPoint
+        __init__(CompensationPoint self, double sync_anlg) -> CompensationPoint
+        """
         _imslib.CompensationPoint_swiginit(self, _imslib.new_CompensationPoint(*args))
-    Amplitude = property(_imslib.CompensationPoint_Amplitude_get, _imslib.CompensationPoint_Amplitude_set)
-    Phase = property(_imslib.CompensationPoint_Phase_get, _imslib.CompensationPoint_Phase_set)
-    SyncDig = property(_imslib.CompensationPoint_SyncDig_get, _imslib.CompensationPoint_SyncDig_set)
-    SyncAnlg = property(_imslib.CompensationPoint_SyncAnlg_get, _imslib.CompensationPoint_SyncAnlg_set)
+    Amplitude = property(_imslib.CompensationPoint_Amplitude_get, _imslib.CompensationPoint_Amplitude_set, doc=r"""Amplitude : r.iMS::Percent""")
+    Phase = property(_imslib.CompensationPoint_Phase_get, _imslib.CompensationPoint_Phase_set, doc=r"""Phase : r.iMS::Degrees""")
+    SyncDig = property(_imslib.CompensationPoint_SyncDig_get, _imslib.CompensationPoint_SyncDig_set, doc=r"""SyncDig : uint32_t""")
+    SyncAnlg = property(_imslib.CompensationPoint_SyncAnlg_get, _imslib.CompensationPoint_SyncAnlg_set, doc=r"""SyncAnlg : double""")
     __swig_destroy__ = _imslib.delete_CompensationPoint
 
 # Register CompensationPoint in _imslib:
 _imslib.CompensationPoint_swigregister(CompensationPoint)
 class CompensationPointSpecification(object):
+    r"""Proxy of C++ iMS::CompensationPointSpecification class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(CompensationPointSpecification self, CompensationPoint pt=iMS::CompensationPoint(), MHz f=50.0) -> CompensationPointSpecification
+        __init__(CompensationPointSpecification self, CompensationPointSpecification arg2) -> CompensationPointSpecification
+        """
         _imslib.CompensationPointSpecification_swiginit(self, _imslib.new_CompensationPointSpecification(*args))
-    Freq = property(_imslib.CompensationPointSpecification_Freq_get, _imslib.CompensationPointSpecification_Freq_set)
-    Spec = property(_imslib.CompensationPointSpecification_Spec_get)
+    Freq = property(_imslib.CompensationPointSpecification_Freq_get, _imslib.CompensationPointSpecification_Freq_set, doc=r"""Freq : r.iMS::MHz""")
+    Spec = property(_imslib.CompensationPointSpecification_Spec_get, doc=r"""Spec : r.iMS::CompensationPoint""")
     __swig_destroy__ = _imslib.delete_CompensationPointSpecification
 
 # Register CompensationPointSpecification in _imslib:
 _imslib.CompensationPointSpecification_swigregister(CompensationPointSpecification)
 class CompensationFunction(ListBase_CompensationPointSpecification):
+    r"""Proxy of C++ iMS::CompensationFunction class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     InterpolationStyle_SPOT = _imslib.CompensationFunction_InterpolationStyle_SPOT
+    
     InterpolationStyle_STEP = _imslib.CompensationFunction_InterpolationStyle_STEP
+    
     InterpolationStyle_LINEAR = _imslib.CompensationFunction_InterpolationStyle_LINEAR
+    
     InterpolationStyle_LINEXTEND = _imslib.CompensationFunction_InterpolationStyle_LINEXTEND
+    
     InterpolationStyle_BSPLINE = _imslib.CompensationFunction_InterpolationStyle_BSPLINE
+    
 
     def __init__(self, *args):
+        r"""
+        __init__(CompensationFunction self) -> CompensationFunction
+        __init__(CompensationFunction self, CompensationFunction arg2) -> CompensationFunction
+        """
         _imslib.CompensationFunction_swiginit(self, _imslib.new_CompensationFunction(*args))
-    AmplitudeInterpolationStyle = property(_imslib.CompensationFunction_AmplitudeInterpolationStyle_get, _imslib.CompensationFunction_AmplitudeInterpolationStyle_set)
-    PhaseInterpolationStyle = property(_imslib.CompensationFunction_PhaseInterpolationStyle_get, _imslib.CompensationFunction_PhaseInterpolationStyle_set)
-    SyncAnlgInterpolationStyle = property(_imslib.CompensationFunction_SyncAnlgInterpolationStyle_get, _imslib.CompensationFunction_SyncAnlgInterpolationStyle_set)
-    SyncDigInterpolationStyle = property(_imslib.CompensationFunction_SyncDigInterpolationStyle_get, _imslib.CompensationFunction_SyncDigInterpolationStyle_set)
+    AmplitudeInterpolationStyle = property(_imslib.CompensationFunction_AmplitudeInterpolationStyle_get, _imslib.CompensationFunction_AmplitudeInterpolationStyle_set, doc=r"""AmplitudeInterpolationStyle : iMS::CompensationFunction::InterpolationStyle""")
+    PhaseInterpolationStyle = property(_imslib.CompensationFunction_PhaseInterpolationStyle_get, _imslib.CompensationFunction_PhaseInterpolationStyle_set, doc=r"""PhaseInterpolationStyle : iMS::CompensationFunction::InterpolationStyle""")
+    SyncAnlgInterpolationStyle = property(_imslib.CompensationFunction_SyncAnlgInterpolationStyle_get, _imslib.CompensationFunction_SyncAnlgInterpolationStyle_set, doc=r"""SyncAnlgInterpolationStyle : iMS::CompensationFunction::InterpolationStyle""")
+    SyncDigInterpolationStyle = property(_imslib.CompensationFunction_SyncDigInterpolationStyle_get, _imslib.CompensationFunction_SyncDigInterpolationStyle_set, doc=r"""SyncDigInterpolationStyle : iMS::CompensationFunction::InterpolationStyle""")
     __swig_destroy__ = _imslib.delete_CompensationFunction
 
 # Register CompensationFunction in _imslib:
 _imslib.CompensationFunction_swigregister(CompensationFunction)
 class CompensationTable(DequeBase_CompensationPoint):
+    r"""Proxy of C++ iMS::CompensationTable class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(CompensationTable self) -> CompensationTable
+        __init__(CompensationTable self, std::shared_ptr< iMS::IMSSystem > iMS) -> CompensationTable
+        __init__(CompensationTable self, int LUTDepth, MHz lower_freq, MHz upper_freq) -> CompensationTable
+        __init__(CompensationTable self, std::shared_ptr< iMS::IMSSystem > iMS, CompensationPoint pt) -> CompensationTable
+        __init__(CompensationTable self, int LUTDepth, MHz lower_freq, MHz upper_freq, CompensationPoint pt) -> CompensationTable
+        __init__(CompensationTable self, std::shared_ptr< iMS::IMSSystem > iMS, std::string const & fileName, RFChannel chan=all) -> CompensationTable
+        __init__(CompensationTable self, int LUTDepth, MHz lower_freq, MHz upper_freq, std::string const & fileNamee, RFChannel chan=all) -> CompensationTable
+        __init__(CompensationTable self, std::shared_ptr< iMS::IMSSystem > iMS, int const entry) -> CompensationTable
+        __init__(CompensationTable self, std::shared_ptr< iMS::IMSSystem > iMS, CompensationTable tbl) -> CompensationTable
+        __init__(CompensationTable self, int LUTDepth, MHz lower_freq, MHz upper_freq, CompensationTable tbl) -> CompensationTable
+        __init__(CompensationTable self, CompensationTable arg2) -> CompensationTable
+        """
         _imslib.CompensationTable_swiginit(self, _imslib.new_CompensationTable(*args))
 
     def assign(self, arg2):
+        r"""assign(CompensationTable self, CompensationTable arg2) -> CompensationTable"""
         return _imslib.CompensationTable_assign(self, arg2)
 
     def ApplyFunction(self, *args):
+        r"""ApplyFunction(CompensationTable self, CompensationFunction func, iMS::CompensationFeature const feat, iMS::CompensationModifier modifier=REPLACE) -> bool"""
         return _imslib.CompensationTable_ApplyFunction(self, *args)
 
     def Size(self):
+        r"""Size(CompensationTable self) -> std::size_t const"""
         return _imslib.CompensationTable_Size(self)
 
     def FrequencyAt(self, index):
+        r"""FrequencyAt(CompensationTable self, unsigned int const index) -> MHz"""
         return _imslib.CompensationTable_FrequencyAt(self, index)
 
     def Save(self, fileName):
+        r"""Save(CompensationTable self, std::string const & fileName) -> bool const"""
         return _imslib.CompensationTable_Save(self, fileName)
-    Upper = property(_imslib.CompensationTable_Upper_get)
-    Lower = property(_imslib.CompensationTable_Lower_get)
+    Upper = property(_imslib.CompensationTable_Upper_get, doc=r"""Upper : iMS::MHz""")
+    Lower = property(_imslib.CompensationTable_Lower_get, doc=r"""Lower : iMS::MHz""")
     __swig_destroy__ = _imslib.delete_CompensationTable
 
 # Register CompensationTable in _imslib:
 _imslib.CompensationTable_swigregister(CompensationTable)
 class CompensationTableExporter(object):
+    r"""Proxy of C++ iMS::CompensationTableExporter class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(CompensationTableExporter self, std::shared_ptr< iMS::IMSSystem > ims) -> CompensationTableExporter
+        __init__(CompensationTableExporter self, int const channels) -> CompensationTableExporter
+        __init__(CompensationTableExporter self) -> CompensationTableExporter
+        __init__(CompensationTableExporter self, CompensationTable tbl) -> CompensationTableExporter
+        """
         _imslib.CompensationTableExporter_swiginit(self, _imslib.new_CompensationTableExporter(*args))
 
     def ProvideGlobalTable(self, tbl):
+        r"""ProvideGlobalTable(CompensationTableExporter self, CompensationTable tbl)"""
         return _imslib.CompensationTableExporter_ProvideGlobalTable(self, tbl)
 
     def ProvideChannelTable(self, chan, tbl):
+        r"""ProvideChannelTable(CompensationTableExporter self, RFChannel chan, CompensationTable tbl)"""
         return _imslib.CompensationTableExporter_ProvideChannelTable(self, chan, tbl)
 
     def ExportGlobalLUT(self, fileName):
+        r"""ExportGlobalLUT(CompensationTableExporter self, std::string const & fileName) -> bool"""
         return _imslib.CompensationTableExporter_ExportGlobalLUT(self, fileName)
 
     def ExportChannelLUT(self, fileName):
+        r"""ExportChannelLUT(CompensationTableExporter self, std::string const & fileName) -> bool"""
         return _imslib.CompensationTableExporter_ExportChannelLUT(self, fileName)
     __swig_destroy__ = _imslib.delete_CompensationTableExporter
 
 # Register CompensationTableExporter in _imslib:
 _imslib.CompensationTableExporter_swigregister(CompensationTableExporter)
 class CompensationTableImporter(object):
+    r"""Proxy of C++ iMS::CompensationTableImporter class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, fileName):
+        r"""__init__(CompensationTableImporter self, std::string const & fileName) -> CompensationTableImporter"""
         _imslib.CompensationTableImporter_swiginit(self, _imslib.new_CompensationTableImporter(fileName))
 
     def IsValid(self):
+        r"""IsValid(CompensationTableImporter self) -> bool"""
         return _imslib.CompensationTableImporter_IsValid(self)
 
     def IsGlobal(self):
+        r"""IsGlobal(CompensationTableImporter self) -> bool"""
         return _imslib.CompensationTableImporter_IsGlobal(self)
 
     def Channels(self):
+        r"""Channels(CompensationTableImporter self) -> int"""
         return _imslib.CompensationTableImporter_Channels(self)
 
     def RetrieveGlobalLUT(self):
+        r"""RetrieveGlobalLUT(CompensationTableImporter self) -> CompensationTable"""
         return _imslib.CompensationTableImporter_RetrieveGlobalLUT(self)
 
     def RetrieveChannelLUT(self, chan):
+        r"""RetrieveChannelLUT(CompensationTableImporter self, RFChannel chan) -> CompensationTable"""
         return _imslib.CompensationTableImporter_RetrieveChannelLUT(self, chan)
-    Size = property(_imslib.CompensationTableImporter_Size_get)
-    LowerFrequency = property(_imslib.CompensationTableImporter_LowerFrequency_get)
-    UpperFrequency = property(_imslib.CompensationTableImporter_UpperFrequency_get)
+    Size = property(_imslib.CompensationTableImporter_Size_get, doc=r"""Size : int""")
+    LowerFrequency = property(_imslib.CompensationTableImporter_LowerFrequency_get, doc=r"""LowerFrequency : iMS::MHz""")
+    UpperFrequency = property(_imslib.CompensationTableImporter_UpperFrequency_get, doc=r"""UpperFrequency : iMS::MHz""")
     __swig_destroy__ = _imslib.delete_CompensationTableImporter
 
 # Register CompensationTableImporter in _imslib:
 _imslib.CompensationTableImporter_swigregister(CompensationTableImporter)
 class CompensationTableDownload(object):
+    r"""Proxy of C++ iMS::CompensationTableDownload class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, tbl):
+        r"""__init__(CompensationTableDownload self, std::shared_ptr< iMS::IMSSystem > ims, CompensationTable tbl) -> CompensationTableDownload"""
         _imslib.CompensationTableDownload_swiginit(self, _imslib.new_CompensationTableDownload(ims, tbl))
 
     def StartDownload(self):
+        r"""StartDownload(CompensationTableDownload self) -> bool"""
         return _imslib.CompensationTableDownload_StartDownload(self)
 
     def StartVerify(self):
+        r"""StartVerify(CompensationTableDownload self) -> bool"""
         return _imslib.CompensationTableDownload_StartVerify(self)
 
     def GetVerifyError(self):
+        r"""GetVerifyError(CompensationTableDownload self) -> int"""
         return _imslib.CompensationTableDownload_GetVerifyError(self)
 
     def CompensationTableDownloadEventSubscribe(self, message, handler):
+        r"""CompensationTableDownloadEventSubscribe(CompensationTableDownload self, int const message, IEventHandler handler)"""
         return _imslib.CompensationTableDownload_CompensationTableDownloadEventSubscribe(self, message, handler)
 
     def CompensationTableDownloadEventUnsubscribe(self, message, handler):
+        r"""CompensationTableDownloadEventUnsubscribe(CompensationTableDownload self, int const message, IEventHandler handler)"""
         return _imslib.CompensationTableDownload_CompensationTableDownloadEventUnsubscribe(self, message, handler)
 
     def Store(self, _def, FileName):
+        r"""Store(CompensationTableDownload self, iMS::FileDefault _def, std::string const & FileName) -> iMS::FileSystemIndex const"""
         return _imslib.CompensationTableDownload_Store(self, _def, FileName)
     __swig_destroy__ = _imslib.delete_CompensationTableDownload
 
 # Register CompensationTableDownload in _imslib:
 _imslib.CompensationTableDownload_swigregister(CompensationTableDownload)
 ToneBufferEvents_DOWNLOAD_FINISHED = _imslib.ToneBufferEvents_DOWNLOAD_FINISHED
+
 ToneBufferEvents_DOWNLOAD_ERROR = _imslib.ToneBufferEvents_DOWNLOAD_ERROR
+
 
 def TBEntry(*args, **kwargs):
     return ImagePoint(*args, **kwargs)     
 
 class ToneBuffer(object):
+    r"""Proxy of C++ iMS::ToneBuffer class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ToneBuffer self, std::string const & name="") -> ToneBuffer
+        __init__(ToneBuffer self, ImagePoint tbe, std::string const & name="") -> ToneBuffer
+        __init__(ToneBuffer self, int const entry, std::string const & name="") -> ToneBuffer
+        __init__(ToneBuffer self, ToneBuffer arg2) -> ToneBuffer
+        """
         _imslib.ToneBuffer_swiginit(self, _imslib.new_ToneBuffer(*args))
 
     def __eq__(self, rhs):
+        r"""__eq__(ToneBuffer self, ToneBuffer rhs) -> bool"""
         return _imslib.ToneBuffer___eq__(self, rhs)
 
     def Size(self):
+        r"""Size(ToneBuffer self) -> std::size_t const"""
         return _imslib.ToneBuffer_Size(self)
-    Name = property(_imslib.ToneBuffer_Name_get, _imslib.ToneBuffer_Name_set)
-    GetUUID = property(_imslib.ToneBuffer_GetUUID_get)
+    Name = property(_imslib.ToneBuffer_Name_get, _imslib.ToneBuffer_Name_set, doc=r"""Name : std::string""")
+    GetUUID = property(_imslib.ToneBuffer_GetUUID_get, doc=r"""GetUUID : q(const).std::array<(uint8_t,16)>""")
 
     def _getitem(self, i):
+        r"""_getitem(ToneBuffer self, size_t i) -> ImagePoint"""
         return _imslib.ToneBuffer__getitem(self, i)
 
     def __setitem__(self, i, val):
+        r"""__setitem__(ToneBuffer self, size_t i, ImagePoint val)"""
         return _imslib.ToneBuffer___setitem__(self, i, val)
 
     def __len__(self):
+        r"""__len__(ToneBuffer self) -> size_t"""
         return _imslib.ToneBuffer___len__(self)
 
     def __iter__(self):
@@ -3274,28 +5059,37 @@ class ToneBuffer(object):
 # Register ToneBuffer in _imslib:
 _imslib.ToneBuffer_swigregister(ToneBuffer)
 class ToneBufferDownload(object):
+    r"""Proxy of C++ iMS::ToneBufferDownload class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims, tbl):
+        r"""__init__(ToneBufferDownload self, std::shared_ptr< iMS::IMSSystem > ims, ToneBuffer tbl) -> ToneBufferDownload"""
         _imslib.ToneBufferDownload_swiginit(self, _imslib.new_ToneBufferDownload(ims, tbl))
 
     def StartDownloadAll(self):
+        r"""StartDownloadAll(ToneBufferDownload self) -> bool"""
         return _imslib.ToneBufferDownload_StartDownloadAll(self)
 
     def StartDownloadRange(self, index, count):
+        r"""StartDownloadRange(ToneBufferDownload self, std::size_t index, std::size_t count) -> bool"""
         return _imslib.ToneBufferDownload_StartDownloadRange(self, index, count)
 
     def StartDownloadIndex(self, index):
+        r"""StartDownloadIndex(ToneBufferDownload self, std::size_t index) -> bool"""
         return _imslib.ToneBufferDownload_StartDownloadIndex(self, index)
 
     def ToneBufferDownloadEventSubscribe(self, message, handler):
+        r"""ToneBufferDownloadEventSubscribe(ToneBufferDownload self, int const message, IEventHandler handler)"""
         return _imslib.ToneBufferDownload_ToneBufferDownloadEventSubscribe(self, message, handler)
 
     def ToneBufferDownloadEventUnsubscribe(self, message, handler):
+        r"""ToneBufferDownloadEventUnsubscribe(ToneBufferDownload self, int const message, IEventHandler handler)"""
         return _imslib.ToneBufferDownload_ToneBufferDownloadEventUnsubscribe(self, message, handler)
 
     def Store(self, *args):
+        r"""Store(ToneBufferDownload self, std::string const & FileName, iMS::FileDefault _def=NON_DEFAULT) -> iMS::FileSystemIndex const"""
         return _imslib.ToneBufferDownload_Store(self, *args)
 
     def StartDownload(self, arg1=None, arg2=None):
@@ -3330,10 +5124,18 @@ class ToneBufferDownload(object):
 # Register ToneBufferDownload in _imslib:
 _imslib.ToneBufferDownload_swigregister(ToneBufferDownload)
 class ToneSequenceEntry(SequenceEntry):
+    r"""Proxy of C++ iMS::ToneSequenceEntry class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ToneSequenceEntry self) -> ToneSequenceEntry
+        __init__(ToneSequenceEntry self, ToneBuffer tb, iMS::SignalPath::ToneBufferControl tbc=HOST, unsigned int const initial_index=0) -> ToneSequenceEntry
+        __init__(ToneSequenceEntry self, ToneSequenceEntry arg2) -> ToneSequenceEntry
+        __init__(ToneSequenceEntry self, SequenceEntry entry) -> ToneSequenceEntry
+        """
         if self.__class__ == ToneSequenceEntry:
             _self = None
         else:
@@ -3341,12 +5143,15 @@ class ToneSequenceEntry(SequenceEntry):
         _imslib.ToneSequenceEntry_swiginit(self, _imslib.new_ToneSequenceEntry(_self, *args))
 
     def __eq__(self, rhs):
+        r"""__eq__(ToneSequenceEntry self, SequenceEntry rhs) -> bool"""
         return _imslib.ToneSequenceEntry___eq__(self, rhs)
 
     def ControlSource(self):
+        r"""ControlSource(ToneSequenceEntry self) -> iMS::SignalPath::ToneBufferControl"""
         return _imslib.ToneSequenceEntry_ControlSource(self)
 
     def InitialIndex(self):
+        r"""InitialIndex(ToneSequenceEntry self) -> int"""
         return _imslib.ToneSequenceEntry_InitialIndex(self)
     __swig_destroy__ = _imslib.delete_ToneSequenceEntry
     def __disown__(self):
@@ -3357,440 +5162,651 @@ class ToneSequenceEntry(SequenceEntry):
 # Register ToneSequenceEntry in _imslib:
 _imslib.ToneSequenceEntry_swigregister(ToneSequenceEntry)
 class ImageGroupList(ListBase_ImageGroup):
+    r"""Proxy of C++ iMS::ImageGroupList class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self):
+        r"""__init__(ImageGroupList self) -> ImageGroupList"""
         _imslib.ImageGroupList_swiginit(self, _imslib.new_ImageGroupList())
     __swig_destroy__ = _imslib.delete_ImageGroupList
 
 # Register ImageGroupList in _imslib:
 _imslib.ImageGroupList_swigregister(ImageGroupList)
 class CompensationFunctionList(ListBase_CompensationFunction):
+    r"""Proxy of C++ iMS::CompensationFunctionList class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self):
+        r"""__init__(CompensationFunctionList self) -> CompensationFunctionList"""
         _imslib.CompensationFunctionList_swiginit(self, _imslib.new_CompensationFunctionList())
     __swig_destroy__ = _imslib.delete_CompensationFunctionList
 
 # Register CompensationFunctionList in _imslib:
 _imslib.CompensationFunctionList_swigregister(CompensationFunctionList)
 class ToneBufferList(ListBase_ToneBuffer):
+    r"""Proxy of C++ iMS::ToneBufferList class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self):
+        r"""__init__(ToneBufferList self) -> ToneBufferList"""
         _imslib.ToneBufferList_swiginit(self, _imslib.new_ToneBufferList())
     __swig_destroy__ = _imslib.delete_ToneBufferList
 
 # Register ToneBufferList in _imslib:
 _imslib.ToneBufferList_swigregister(ToneBufferList)
 class ImageProject(object):
+    r"""Proxy of C++ iMS::ImageProject class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(ImageProject self) -> ImageProject
+        __init__(ImageProject self, std::string const & fileName) -> ImageProject
+        """
         _imslib.ImageProject_swiginit(self, _imslib.new_ImageProject(*args))
 
     def Clear(self):
+        r"""Clear(ImageProject self)"""
         return _imslib.ImageProject_Clear(self)
 
     def Save(self, fileName):
+        r"""Save(ImageProject self, std::string const & fileName) -> bool"""
         return _imslib.ImageProject_Save(self, fileName)
 
     def Load(self, fileName):
+        r"""Load(ImageProject self, std::string const & fileName) -> bool"""
         return _imslib.ImageProject_Load(self, fileName)
-    ImageGroupContainer = property(_imslib.ImageProject_ImageGroupContainer_get, _imslib.ImageProject_ImageGroupContainer_set)
-    CompensationFunctionContainer = property(_imslib.ImageProject_CompensationFunctionContainer_get, _imslib.ImageProject_CompensationFunctionContainer_set)
-    ToneBufferContainer = property(_imslib.ImageProject_ToneBufferContainer_get, _imslib.ImageProject_ToneBufferContainer_set)
-    FreeImageContainer = property(_imslib.ImageProject_FreeImageContainer_get, _imslib.ImageProject_FreeImageContainer_set)
+    ImageGroupContainer = property(_imslib.ImageProject_ImageGroupContainer_get, _imslib.ImageProject_ImageGroupContainer_set, doc=r"""ImageGroupContainer : iMS::ImageGroupList""")
+    CompensationFunctionContainer = property(_imslib.ImageProject_CompensationFunctionContainer_get, _imslib.ImageProject_CompensationFunctionContainer_set, doc=r"""CompensationFunctionContainer : iMS::CompensationFunctionList""")
+    ToneBufferContainer = property(_imslib.ImageProject_ToneBufferContainer_get, _imslib.ImageProject_ToneBufferContainer_set, doc=r"""ToneBufferContainer : iMS::ToneBufferList""")
+    FreeImageContainer = property(_imslib.ImageProject_FreeImageContainer_get, _imslib.ImageProject_FreeImageContainer_set, doc=r"""FreeImageContainer : iMS::ImageGroup""")
     __swig_destroy__ = _imslib.delete_ImageProject
 
 # Register ImageProject in _imslib:
 _imslib.ImageProject_swigregister(ImageProject)
 SignalPathEvents_RX_DDS_POWER = _imslib.SignalPathEvents_RX_DDS_POWER
+
 SignalPathEvents_ENC_VEL_CH_X = _imslib.SignalPathEvents_ENC_VEL_CH_X
+
 SignalPathEvents_ENC_VEL_CH_Y = _imslib.SignalPathEvents_ENC_VEL_CH_Y
+
 class SignalPath(object):
+    r"""Proxy of C++ iMS::SignalPath class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     AmplitudeControl_OFF = _imslib.SignalPath_AmplitudeControl_OFF
+    
     AmplitudeControl_EXTERNAL = _imslib.SignalPath_AmplitudeControl_EXTERNAL
+    
     AmplitudeControl_WIPER_1 = _imslib.SignalPath_AmplitudeControl_WIPER_1
+    
     AmplitudeControl_WIPER_2 = _imslib.SignalPath_AmplitudeControl_WIPER_2
+    
     AmplitudeControl_INDEPENDENT = _imslib.SignalPath_AmplitudeControl_INDEPENDENT
+    
     ToneBufferControl_HOST = _imslib.SignalPath_ToneBufferControl_HOST
+    
     ToneBufferControl_EXTERNAL = _imslib.SignalPath_ToneBufferControl_EXTERNAL
+    
     ToneBufferControl_EXTERNAL_EXTENDED = _imslib.SignalPath_ToneBufferControl_EXTERNAL_EXTENDED
+    
     ToneBufferControl_OFF = _imslib.SignalPath_ToneBufferControl_OFF
+    
     Compensation_ACTIVE = _imslib.SignalPath_Compensation_ACTIVE
+    
     Compensation_BYPASS = _imslib.SignalPath_Compensation_BYPASS
+    
     SYNC_SRC_FREQUENCY_CH1 = _imslib.SignalPath_SYNC_SRC_FREQUENCY_CH1
+    
     SYNC_SRC_FREQUENCY_CH2 = _imslib.SignalPath_SYNC_SRC_FREQUENCY_CH2
+    
     SYNC_SRC_FREQUENCY_CH3 = _imslib.SignalPath_SYNC_SRC_FREQUENCY_CH3
+    
     SYNC_SRC_FREQUENCY_CH4 = _imslib.SignalPath_SYNC_SRC_FREQUENCY_CH4
+    
     SYNC_SRC_AMPLITUDE_CH1 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_CH1
+    
     SYNC_SRC_AMPLITUDE_CH2 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_CH2
+    
     SYNC_SRC_AMPLITUDE_CH3 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_CH3
+    
     SYNC_SRC_AMPLITUDE_CH4 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_CH4
+    
     SYNC_SRC_AMPLITUDE_PRE_COMP_CH1 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_PRE_COMP_CH1
+    
     SYNC_SRC_AMPLITUDE_PRE_COMP_CH2 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_PRE_COMP_CH2
+    
     SYNC_SRC_AMPLITUDE_PRE_COMP_CH3 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_PRE_COMP_CH3
+    
     SYNC_SRC_AMPLITUDE_PRE_COMP_CH4 = _imslib.SignalPath_SYNC_SRC_AMPLITUDE_PRE_COMP_CH4
+    
     SYNC_SRC_PHASE_CH1 = _imslib.SignalPath_SYNC_SRC_PHASE_CH1
+    
     SYNC_SRC_PHASE_CH2 = _imslib.SignalPath_SYNC_SRC_PHASE_CH2
+    
     SYNC_SRC_PHASE_CH3 = _imslib.SignalPath_SYNC_SRC_PHASE_CH3
+    
     SYNC_SRC_PHASE_CH4 = _imslib.SignalPath_SYNC_SRC_PHASE_CH4
+    
     SYNC_SRC_LOOKUP_FIELD_CH1 = _imslib.SignalPath_SYNC_SRC_LOOKUP_FIELD_CH1
+    
     SYNC_SRC_LOOKUP_FIELD_CH2 = _imslib.SignalPath_SYNC_SRC_LOOKUP_FIELD_CH2
+    
     SYNC_SRC_LOOKUP_FIELD_CH3 = _imslib.SignalPath_SYNC_SRC_LOOKUP_FIELD_CH3
+    
     SYNC_SRC_LOOKUP_FIELD_CH4 = _imslib.SignalPath_SYNC_SRC_LOOKUP_FIELD_CH4
+    
     SYNC_SRC_IMAGE_ANLG_A = _imslib.SignalPath_SYNC_SRC_IMAGE_ANLG_A
+    
     SYNC_SRC_IMAGE_ANLG_B = _imslib.SignalPath_SYNC_SRC_IMAGE_ANLG_B
+    
     SYNC_SRC_IMAGE_DIG = _imslib.SignalPath_SYNC_SRC_IMAGE_DIG
+    
     SYNC_SINK_ANLG_A = _imslib.SignalPath_SYNC_SINK_ANLG_A
+    
     SYNC_SINK_ANLG_B = _imslib.SignalPath_SYNC_SINK_ANLG_B
+    
     SYNC_SINK_DIG = _imslib.SignalPath_SYNC_SINK_DIG
+    
     SYNC_DIG_MODE_PULSE = _imslib.SignalPath_SYNC_DIG_MODE_PULSE
+    
     SYNC_DIG_MODE_LEVEL = _imslib.SignalPath_SYNC_DIG_MODE_LEVEL
+    
     ENCODER_MODE_QUADRATURE = _imslib.SignalPath_ENCODER_MODE_QUADRATURE
+    
     ENCODER_MODE_COUNT_DIRECTION = _imslib.SignalPath_ENCODER_MODE_COUNT_DIRECTION
+    
     VELOCITY_MODE_FAST = _imslib.SignalPath_VELOCITY_MODE_FAST
+    
     VELOCITY_MODE_SLOW = _imslib.SignalPath_VELOCITY_MODE_SLOW
+    
     ENCODER_CHANNEL_CH_X = _imslib.SignalPath_ENCODER_CHANNEL_CH_X
+    
     ENCODER_CHANNEL_CH_Y = _imslib.SignalPath_ENCODER_CHANNEL_CH_Y
+    
 
     def __init__(self, ims):
+        r"""__init__(SignalPath self, std::shared_ptr< iMS::IMSSystem > ims) -> SignalPath"""
         _imslib.SignalPath_swiginit(self, _imslib.new_SignalPath(ims))
 
     def UpdateDDSPowerLevel(self, power):
+        r"""UpdateDDSPowerLevel(SignalPath self, Percent power) -> bool"""
         return _imslib.SignalPath_UpdateDDSPowerLevel(self, power)
 
     def UpdateRFAmplitude(self, *args):
+        r"""UpdateRFAmplitude(SignalPath self, iMS::SignalPath::AmplitudeControl const src, Percent ampl, RFChannel chan=all) -> bool"""
         return _imslib.SignalPath_UpdateRFAmplitude(self, *args)
 
     def SwitchRFAmplitudeControlSource(self, *args):
+        r"""SwitchRFAmplitudeControlSource(SignalPath self, iMS::SignalPath::AmplitudeControl const src, RFChannel chan=all) -> bool"""
         return _imslib.SignalPath_SwitchRFAmplitudeControlSource(self, *args)
 
     def UpdatePhaseTuning(self, channel, phase):
+        r"""UpdatePhaseTuning(SignalPath self, RFChannel channel, Degrees phase) -> bool"""
         return _imslib.SignalPath_UpdatePhaseTuning(self, channel, phase)
 
     def SetChannelReversal(self, reversal):
+        r"""SetChannelReversal(SignalPath self, bool reversal) -> bool"""
         return _imslib.SignalPath_SetChannelReversal(self, reversal)
 
     def EnableImagePathCompensation(self, amplComp, phaseComp):
+        r"""EnableImagePathCompensation(SignalPath self, iMS::SignalPath::Compensation amplComp, iMS::SignalPath::Compensation phaseComp) -> bool"""
         return _imslib.SignalPath_EnableImagePathCompensation(self, amplComp, phaseComp)
 
     def EnableXYPhaseCompensation(self, XYCompEnable):
+        r"""EnableXYPhaseCompensation(SignalPath self, bool XYCompEnable) -> bool"""
         return _imslib.SignalPath_EnableXYPhaseCompensation(self, XYCompEnable)
 
     def SetXYChannelDelay(self, delay):
+        r"""SetXYChannelDelay(SignalPath self, NanoSeconds delay) -> bool"""
         return _imslib.SignalPath_SetXYChannelDelay(self, delay)
 
     def SetChannelDelay(self, first, second):
+        r"""SetChannelDelay(SignalPath self, NanoSeconds first, NanoSeconds second) -> bool"""
         return _imslib.SignalPath_SetChannelDelay(self, first, second)
 
     def SetCalibrationTone(self, fap):
+        r"""SetCalibrationTone(SignalPath self, FAP fap) -> bool"""
         return _imslib.SignalPath_SetCalibrationTone(self, fap)
 
     def ClearTone(self):
+        r"""ClearTone(SignalPath self) -> bool"""
         return _imslib.SignalPath_ClearTone(self)
 
     def SetCalibrationChannelLock(self, chan):
+        r"""SetCalibrationChannelLock(SignalPath self, RFChannel chan) -> bool"""
         return _imslib.SignalPath_SetCalibrationChannelLock(self, chan)
 
     def ClearCalibrationChannelLock(self, *args):
+        r"""ClearCalibrationChannelLock(SignalPath self, RFChannel chan=all) -> bool"""
         return _imslib.SignalPath_ClearCalibrationChannelLock(self, *args)
 
     def GetCalibrationChannelLockState(self, chan):
+        r"""GetCalibrationChannelLockState(SignalPath self, RFChannel chan) -> bool"""
         return _imslib.SignalPath_GetCalibrationChannelLockState(self, chan)
 
     def PhaseResync(self):
+        r"""PhaseResync(SignalPath self) -> bool"""
         return _imslib.SignalPath_PhaseResync(self)
 
     def AutoPhaseResync(self, enable=True):
+        r"""AutoPhaseResync(SignalPath self, bool enable=True) -> bool"""
         return _imslib.SignalPath_AutoPhaseResync(self, enable)
 
     def SetEnhancedToneMode(self, tone_ch1, tone_ch2, tone_ch3, tone_ch4):
+        r"""SetEnhancedToneMode(SignalPath self, SweepTone tone_ch1, SweepTone tone_ch2, SweepTone tone_ch3, SweepTone tone_ch4) -> bool"""
         return _imslib.SignalPath_SetEnhancedToneMode(self, tone_ch1, tone_ch2, tone_ch3, tone_ch4)
 
     def SetEnhancedToneChannel(self, chan, tone):
+        r"""SetEnhancedToneChannel(SignalPath self, RFChannel chan, SweepTone tone) -> bool"""
         return _imslib.SignalPath_SetEnhancedToneChannel(self, chan, tone)
 
     def ClearEnhancedToneMode(self):
+        r"""ClearEnhancedToneMode(SignalPath self) -> bool"""
         return _imslib.SignalPath_ClearEnhancedToneMode(self)
 
     def ClearEnhancedToneChannel(self, chan):
+        r"""ClearEnhancedToneChannel(SignalPath self, RFChannel chan) -> bool"""
         return _imslib.SignalPath_ClearEnhancedToneChannel(self, chan)
 
     def AssignSynchronousOutput(self, sink, src):
+        r"""AssignSynchronousOutput(SignalPath self, iMS::SignalPath::SYNC_SINK const & sink, iMS::SignalPath::SYNC_SRC const & src) -> bool"""
         return _imslib.SignalPath_AssignSynchronousOutput(self, sink, src)
 
     def ConfigureSyncDigitalOutput(self, delay, pulse_length):
+        r"""ConfigureSyncDigitalOutput(SignalPath self, NanoSeconds delay, NanoSeconds pulse_length) -> bool"""
         return _imslib.SignalPath_ConfigureSyncDigitalOutput(self, delay, pulse_length)
 
     def SyncDigitalOutputInvert(self, invert):
+        r"""SyncDigitalOutputInvert(SignalPath self, bool invert) -> bool"""
         return _imslib.SignalPath_SyncDigitalOutputInvert(self, invert)
 
     def SyncDigitalOutputMode(self, mode, index):
+        r"""SyncDigitalOutputMode(SignalPath self, iMS::SignalPath::SYNC_DIG_MODE mode, int index) -> bool"""
         return _imslib.SignalPath_SyncDigitalOutputMode(self, mode, index)
 
     def UpdateLocalToneBuffer(self, *args):
+        r"""UpdateLocalToneBuffer(SignalPath self, iMS::SignalPath::ToneBufferControl const & tbc, unsigned int const index, iMS::SignalPath::Compensation const AmplitudeComp=ACTIVE, iMS::SignalPath::Compensation const PhaseComp=ACTIVE) -> bool"""
         return _imslib.SignalPath_UpdateLocalToneBuffer(self, *args)
 
     def UpdateLocalToneBufferControl(self, tbc):
+        r"""UpdateLocalToneBufferControl(SignalPath self, iMS::SignalPath::ToneBufferControl const & tbc) -> bool"""
         return _imslib.SignalPath_UpdateLocalToneBufferControl(self, tbc)
 
     def UpdateLocalToneBufferCompensation(self, AmplitudeComp, PhaseComp):
+        r"""UpdateLocalToneBufferCompensation(SignalPath self, iMS::SignalPath::Compensation const AmplitudeComp, iMS::SignalPath::Compensation const PhaseComp) -> bool"""
         return _imslib.SignalPath_UpdateLocalToneBufferCompensation(self, AmplitudeComp, PhaseComp)
 
     def UpdateLocalToneBufferIndex(self, index):
+        r"""UpdateLocalToneBufferIndex(SignalPath self, unsigned int const index) -> bool"""
         return _imslib.SignalPath_UpdateLocalToneBufferIndex(self, index)
 
     def UpdateEncoder(self, velcomp):
+        r"""UpdateEncoder(SignalPath self, VelocityConfiguration velcomp) -> bool"""
         return _imslib.SignalPath_UpdateEncoder(self, velcomp)
 
     def DisableEncoder(self):
+        r"""DisableEncoder(SignalPath self) -> bool"""
         return _imslib.SignalPath_DisableEncoder(self)
 
     def ReportEncoderVelocity(self, chan):
+        r"""ReportEncoderVelocity(SignalPath self, iMS::SignalPath::ENCODER_CHANNEL chan) -> bool"""
         return _imslib.SignalPath_ReportEncoderVelocity(self, chan)
 
     def AddFrequencyOffset(self, *args):
+        r"""AddFrequencyOffset(SignalPath self, MHz offset, RFChannel chan=all) -> bool"""
         return _imslib.SignalPath_AddFrequencyOffset(self, *args)
 
     def SubtractFrequencyOffset(self, *args):
+        r"""SubtractFrequencyOffset(SignalPath self, MHz offset, RFChannel chan=all) -> bool"""
         return _imslib.SignalPath_SubtractFrequencyOffset(self, *args)
 
     def SignalPathEventSubscribe(self, message, handler):
+        r"""SignalPathEventSubscribe(SignalPath self, int const message, IEventHandler handler)"""
         return _imslib.SignalPath_SignalPathEventSubscribe(self, message, handler)
 
     def SignalPathEventUnsubscribe(self, message, handler):
+        r"""SignalPathEventUnsubscribe(SignalPath self, int const message, IEventHandler handler)"""
         return _imslib.SignalPath_SignalPathEventUnsubscribe(self, message, handler)
     __swig_destroy__ = _imslib.delete_SignalPath
 
 # Register SignalPath in _imslib:
 _imslib.SignalPath_swigregister(SignalPath)
 class VelocityConfiguration(object):
+    r"""Proxy of C++ iMS::VelocityConfiguration class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    EncoderMode = property(_imslib.VelocityConfiguration_EncoderMode_get, _imslib.VelocityConfiguration_EncoderMode_set)
-    VelocityMode = property(_imslib.VelocityConfiguration_VelocityMode_get, _imslib.VelocityConfiguration_VelocityMode_set)
-    TrackingLoopProportionCoeff = property(_imslib.VelocityConfiguration_TrackingLoopProportionCoeff_get, _imslib.VelocityConfiguration_TrackingLoopProportionCoeff_set)
-    TrackingLoopIntegrationCoeff = property(_imslib.VelocityConfiguration_TrackingLoopIntegrationCoeff_get, _imslib.VelocityConfiguration_TrackingLoopIntegrationCoeff_set)
-    VelocityGain = property(_imslib.VelocityConfiguration_VelocityGain_get, _imslib.VelocityConfiguration_VelocityGain_set)
+    EncoderMode = property(_imslib.VelocityConfiguration_EncoderMode_get, _imslib.VelocityConfiguration_EncoderMode_set, doc=r"""EncoderMode : iMS::SignalPath::ENCODER_MODE""")
+    VelocityMode = property(_imslib.VelocityConfiguration_VelocityMode_get, _imslib.VelocityConfiguration_VelocityMode_set, doc=r"""VelocityMode : iMS::SignalPath::VELOCITY_MODE""")
+    TrackingLoopProportionCoeff = property(_imslib.VelocityConfiguration_TrackingLoopProportionCoeff_get, _imslib.VelocityConfiguration_TrackingLoopProportionCoeff_set, doc=r"""TrackingLoopProportionCoeff : uint16_t""")
+    TrackingLoopIntegrationCoeff = property(_imslib.VelocityConfiguration_TrackingLoopIntegrationCoeff_get, _imslib.VelocityConfiguration_TrackingLoopIntegrationCoeff_set, doc=r"""TrackingLoopIntegrationCoeff : uint16_t""")
+    VelocityGain = property(_imslib.VelocityConfiguration_VelocityGain_get, _imslib.VelocityConfiguration_VelocityGain_set, doc=r"""VelocityGain : std::array<(int16_t,2)>""")
 
     def SetVelGain(self, ims, chan, EncoderFreq, DesiredFreqDeviation, Reverse=False):
+        r"""SetVelGain(VelocityConfiguration self, std::shared_ptr< iMS::IMSSystem > ims, iMS::SignalPath::ENCODER_CHANNEL chan, kHz EncoderFreq, MHz DesiredFreqDeviation, bool Reverse=False)"""
         return _imslib.VelocityConfiguration_SetVelGain(self, ims, chan, EncoderFreq, DesiredFreqDeviation, Reverse)
 
     def __init__(self):
+        r"""__init__(VelocityConfiguration self) -> VelocityConfiguration"""
         _imslib.VelocityConfiguration_swiginit(self, _imslib.new_VelocityConfiguration())
     __swig_destroy__ = _imslib.delete_VelocityConfiguration
 
 # Register VelocityConfiguration in _imslib:
 _imslib.VelocityConfiguration_swigregister(VelocityConfiguration)
 SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT = _imslib.SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT
+
 SystemFuncEvents_MASTER_CLOCK_REF_FREQ = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_FREQ
+
 SystemFuncEvents_MASTER_CLOCK_REF_MODE = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_MODE
+
 SystemFuncEvents_MASTER_CLOCK_REF_STATUS = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_STATUS
+
 SystemFuncEvents_SYNTH_TEMPERATURE_1 = _imslib.SystemFuncEvents_SYNTH_TEMPERATURE_1
+
 SystemFuncEvents_SYNTH_TEMPERATURE_2 = _imslib.SystemFuncEvents_SYNTH_TEMPERATURE_2
+
 class SystemFunc(object):
+    r"""Proxy of C++ iMS::SystemFunc class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims):
+        r"""__init__(SystemFunc self, std::shared_ptr< iMS::IMSSystem > ims) -> SystemFunc"""
         _imslib.SystemFunc_swiginit(self, _imslib.new_SystemFunc(ims))
     UpdateClockSource_INTERNAL = _imslib.SystemFunc_UpdateClockSource_INTERNAL
+    
     UpdateClockSource_EXTERNAL = _imslib.SystemFunc_UpdateClockSource_EXTERNAL
+    
     TemperatureSensor_TEMP_SENSOR_1 = _imslib.SystemFunc_TemperatureSensor_TEMP_SENSOR_1
+    
     TemperatureSensor_TEMP_SENSOR_2 = _imslib.SystemFunc_TemperatureSensor_TEMP_SENSOR_2
+    
     PLLLockReference_INTERNAL = _imslib.SystemFunc_PLLLockReference_INTERNAL
+    
     PLLLockReference_EXTERNAL_FIXED = _imslib.SystemFunc_PLLLockReference_EXTERNAL_FIXED
+    
     PLLLockReference_EXTERNAL_AUTO = _imslib.SystemFunc_PLLLockReference_EXTERNAL_AUTO
+    
     PLLLockReference_EXTERNAL_FAILOVER = _imslib.SystemFunc_PLLLockReference_EXTERNAL_FAILOVER
+    
     PLLLockStatus_EXTERNAL_NOSIGNAL = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_NOSIGNAL
+    
     PLLLockStatus_INTERNAL_UNLOCKED = _imslib.SystemFunc_PLLLockStatus_INTERNAL_UNLOCKED
+    
     PLLLockStatus_INTERNAL_LOCKED = _imslib.SystemFunc_PLLLockStatus_INTERNAL_LOCKED
+    
     PLLLockStatus_EXTERNAL_VALID_UNLOCKED = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_VALID_UNLOCKED
+    
     PLLLockStatus_EXTERNAL_LOCKED = _imslib.SystemFunc_PLLLockStatus_EXTERNAL_LOCKED
+    
     NHFLocalReset_NO_ACTION = _imslib.SystemFunc_NHFLocalReset_NO_ACTION
+    
     NHFLocalReset_RESET_ON_COMMS_UNHEALTHY = _imslib.SystemFunc_NHFLocalReset_RESET_ON_COMMS_UNHEALTHY
+    
 
     def ClearNHF(self):
+        r"""ClearNHF(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_ClearNHF(self)
 
     def SendHeartbeat(self):
+        r"""SendHeartbeat(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_SendHeartbeat(self)
 
     def StartHeartbeat(self, intervalMs):
+        r"""StartHeartbeat(SystemFunc self, int intervalMs)"""
         return _imslib.SystemFunc_StartHeartbeat(self, intervalMs)
 
     def StopHeartbeat(self):
+        r"""StopHeartbeat(SystemFunc self)"""
         return _imslib.SystemFunc_StopHeartbeat(self)
 
     def ConfigureNHF(self, Enabled, milliSeconds, reset):
+        r"""ConfigureNHF(SystemFunc self, bool Enabled, int milliSeconds, iMS::SystemFunc::NHFLocalReset reset) -> bool"""
         return _imslib.SystemFunc_ConfigureNHF(self, Enabled, milliSeconds, reset)
 
     def EnableAmplifier(self, en):
+        r"""EnableAmplifier(SystemFunc self, bool en) -> bool"""
         return _imslib.SystemFunc_EnableAmplifier(self, en)
 
     def EnableExternal(self, enable):
+        r"""EnableExternal(SystemFunc self, bool enable) -> bool"""
         return _imslib.SystemFunc_EnableExternal(self, enable)
 
     def EnableRFChannels(self, chan1_2, chan3_4):
+        r"""EnableRFChannels(SystemFunc self, bool chan1_2, bool chan3_4) -> bool"""
         return _imslib.SystemFunc_EnableRFChannels(self, chan1_2, chan3_4)
 
     def GetChecksumErrorCount(self, Reset=True):
+        r"""GetChecksumErrorCount(SystemFunc self, bool Reset=True) -> bool"""
         return _imslib.SystemFunc_GetChecksumErrorCount(self, Reset)
 
     def SetDDSUpdateClockSource(self, *args):
+        r"""SetDDSUpdateClockSource(SystemFunc self, iMS::SystemFunc::UpdateClockSource src=INTERNAL) -> bool"""
         return _imslib.SystemFunc_SetDDSUpdateClockSource(self, *args)
 
     def StoreStartupConfig(self, cfg):
+        r"""StoreStartupConfig(SystemFunc self, StartupConfiguration cfg) -> bool"""
         return _imslib.SystemFunc_StoreStartupConfig(self, cfg)
 
     def ReadSystemTemperature(self, sensor):
+        r"""ReadSystemTemperature(SystemFunc self, iMS::SystemFunc::TemperatureSensor sensor) -> bool"""
         return _imslib.SystemFunc_ReadSystemTemperature(self, sensor)
 
     def SetClockReferenceMode(self, *args):
+        r"""SetClockReferenceMode(SystemFunc self, iMS::SystemFunc::PLLLockReference mode, kHz ExternalFixedFreq=iMS::kHz(1000.0)) -> bool"""
         return _imslib.SystemFunc_SetClockReferenceMode(self, *args)
 
     def GetClockReferenceStatus(self):
+        r"""GetClockReferenceStatus(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_GetClockReferenceStatus(self)
 
     def GetClockReferenceFrequency(self):
+        r"""GetClockReferenceFrequency(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_GetClockReferenceFrequency(self)
 
     def GetClockReferenceMode(self):
+        r"""GetClockReferenceMode(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_GetClockReferenceMode(self)
 
     def ConfigureClockGenerator(self, cfg):
+        r"""ConfigureClockGenerator(SystemFunc self, ClockGenConfiguration cfg) -> bool"""
         return _imslib.SystemFunc_ConfigureClockGenerator(self, cfg)
 
     def GetClockGenConfiguration(self):
+        r"""GetClockGenConfiguration(SystemFunc self) -> ClockGenConfiguration"""
         return _imslib.SystemFunc_GetClockGenConfiguration(self)
 
     def DisableClockGenerator(self):
+        r"""DisableClockGenerator(SystemFunc self) -> bool"""
         return _imslib.SystemFunc_DisableClockGenerator(self)
 
     def SystemFuncEventSubscribe(self, message, handler):
+        r"""SystemFuncEventSubscribe(SystemFunc self, int const message, IEventHandler handler)"""
         return _imslib.SystemFunc_SystemFuncEventSubscribe(self, message, handler)
 
     def SystemFuncEventUnsubscribe(self, message, handler):
+        r"""SystemFuncEventUnsubscribe(SystemFunc self, int const message, IEventHandler handler)"""
         return _imslib.SystemFunc_SystemFuncEventUnsubscribe(self, message, handler)
     __swig_destroy__ = _imslib.delete_SystemFunc
 
 # Register SystemFunc in _imslib:
 _imslib.SystemFunc_swigregister(SystemFunc)
 class StartupConfiguration(object):
+    r"""Proxy of C++ iMS::StartupConfiguration class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    RFAmplitudeWiper1 = property(_imslib.StartupConfiguration_RFAmplitudeWiper1_get, _imslib.StartupConfiguration_RFAmplitudeWiper1_set)
-    RFAmplitudeWiper2 = property(_imslib.StartupConfiguration_RFAmplitudeWiper2_get, _imslib.StartupConfiguration_RFAmplitudeWiper2_set)
-    DDSPower = property(_imslib.StartupConfiguration_DDSPower_get, _imslib.StartupConfiguration_DDSPower_set)
-    AmplitudeControlSource = property(_imslib.StartupConfiguration_AmplitudeControlSource_get, _imslib.StartupConfiguration_AmplitudeControlSource_set)
-    RFGate = property(_imslib.StartupConfiguration_RFGate_get, _imslib.StartupConfiguration_RFGate_set)
-    RFBias12 = property(_imslib.StartupConfiguration_RFBias12_get, _imslib.StartupConfiguration_RFBias12_set)
-    RFBias34 = property(_imslib.StartupConfiguration_RFBias34_get, _imslib.StartupConfiguration_RFBias34_set)
-    ExtEquipmentEnable = property(_imslib.StartupConfiguration_ExtEquipmentEnable_get, _imslib.StartupConfiguration_ExtEquipmentEnable_set)
-    LTBUseAmplitudeCompensation = property(_imslib.StartupConfiguration_LTBUseAmplitudeCompensation_get, _imslib.StartupConfiguration_LTBUseAmplitudeCompensation_set)
-    LTBUsePhaseCompensation = property(_imslib.StartupConfiguration_LTBUsePhaseCompensation_get, _imslib.StartupConfiguration_LTBUsePhaseCompensation_set)
-    LTBControlSource = property(_imslib.StartupConfiguration_LTBControlSource_get, _imslib.StartupConfiguration_LTBControlSource_set)
-    LocalToneIndex = property(_imslib.StartupConfiguration_LocalToneIndex_get, _imslib.StartupConfiguration_LocalToneIndex_set)
-    PhaseTuneCh1 = property(_imslib.StartupConfiguration_PhaseTuneCh1_get, _imslib.StartupConfiguration_PhaseTuneCh1_set)
-    PhaseTuneCh2 = property(_imslib.StartupConfiguration_PhaseTuneCh2_get, _imslib.StartupConfiguration_PhaseTuneCh2_set)
-    PhaseTuneCh3 = property(_imslib.StartupConfiguration_PhaseTuneCh3_get, _imslib.StartupConfiguration_PhaseTuneCh3_set)
-    PhaseTuneCh4 = property(_imslib.StartupConfiguration_PhaseTuneCh4_get, _imslib.StartupConfiguration_PhaseTuneCh4_set)
-    ChannelReversal = property(_imslib.StartupConfiguration_ChannelReversal_get, _imslib.StartupConfiguration_ChannelReversal_set)
-    ImageUseAmplitudeCompensation = property(_imslib.StartupConfiguration_ImageUseAmplitudeCompensation_get, _imslib.StartupConfiguration_ImageUseAmplitudeCompensation_set)
-    ImageUsePhaseCompensation = property(_imslib.StartupConfiguration_ImageUsePhaseCompensation_get, _imslib.StartupConfiguration_ImageUsePhaseCompensation_set)
-    upd_clk = property(_imslib.StartupConfiguration_upd_clk_get, _imslib.StartupConfiguration_upd_clk_set)
-    XYCompEnable = property(_imslib.StartupConfiguration_XYCompEnable_get, _imslib.StartupConfiguration_XYCompEnable_set)
-    LEDGreen = property(_imslib.StartupConfiguration_LEDGreen_get, _imslib.StartupConfiguration_LEDGreen_set)
-    LEDYellow = property(_imslib.StartupConfiguration_LEDYellow_get, _imslib.StartupConfiguration_LEDYellow_set)
-    LEDRed = property(_imslib.StartupConfiguration_LEDRed_get, _imslib.StartupConfiguration_LEDRed_set)
-    GPOutput = property(_imslib.StartupConfiguration_GPOutput_get, _imslib.StartupConfiguration_GPOutput_set)
-    ResetOnUnhealthy = property(_imslib.StartupConfiguration_ResetOnUnhealthy_get, _imslib.StartupConfiguration_ResetOnUnhealthy_set)
-    CommsHealthyCheckEnabled = property(_imslib.StartupConfiguration_CommsHealthyCheckEnabled_get, _imslib.StartupConfiguration_CommsHealthyCheckEnabled_set)
-    CommsHealthyCheckTimerMilliseconds = property(_imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get, _imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set)
-    SyncDigitalSource = property(_imslib.StartupConfiguration_SyncDigitalSource_get, _imslib.StartupConfiguration_SyncDigitalSource_set)
-    SyncAnalogASource = property(_imslib.StartupConfiguration_SyncAnalogASource_get, _imslib.StartupConfiguration_SyncAnalogASource_set)
-    SyncAnalogBSource = property(_imslib.StartupConfiguration_SyncAnalogBSource_get, _imslib.StartupConfiguration_SyncAnalogBSource_set)
-    PLLMode = property(_imslib.StartupConfiguration_PLLMode_get, _imslib.StartupConfiguration_PLLMode_set)
-    ExtClockFrequency = property(_imslib.StartupConfiguration_ExtClockFrequency_get, _imslib.StartupConfiguration_ExtClockFrequency_set)
-    PhaseAccClear = property(_imslib.StartupConfiguration_PhaseAccClear_get, _imslib.StartupConfiguration_PhaseAccClear_set)
+    RFAmplitudeWiper1 = property(_imslib.StartupConfiguration_RFAmplitudeWiper1_get, _imslib.StartupConfiguration_RFAmplitudeWiper1_set, doc=r"""RFAmplitudeWiper1 : iMS::Percent""")
+    RFAmplitudeWiper2 = property(_imslib.StartupConfiguration_RFAmplitudeWiper2_get, _imslib.StartupConfiguration_RFAmplitudeWiper2_set, doc=r"""RFAmplitudeWiper2 : iMS::Percent""")
+    DDSPower = property(_imslib.StartupConfiguration_DDSPower_get, _imslib.StartupConfiguration_DDSPower_set, doc=r"""DDSPower : iMS::Percent""")
+    AmplitudeControlSource = property(_imslib.StartupConfiguration_AmplitudeControlSource_get, _imslib.StartupConfiguration_AmplitudeControlSource_set, doc=r"""AmplitudeControlSource : iMS::SignalPath::AmplitudeControl""")
+    RFGate = property(_imslib.StartupConfiguration_RFGate_get, _imslib.StartupConfiguration_RFGate_set, doc=r"""RFGate : bool""")
+    RFBias12 = property(_imslib.StartupConfiguration_RFBias12_get, _imslib.StartupConfiguration_RFBias12_set, doc=r"""RFBias12 : bool""")
+    RFBias34 = property(_imslib.StartupConfiguration_RFBias34_get, _imslib.StartupConfiguration_RFBias34_set, doc=r"""RFBias34 : bool""")
+    ExtEquipmentEnable = property(_imslib.StartupConfiguration_ExtEquipmentEnable_get, _imslib.StartupConfiguration_ExtEquipmentEnable_set, doc=r"""ExtEquipmentEnable : bool""")
+    LTBUseAmplitudeCompensation = property(_imslib.StartupConfiguration_LTBUseAmplitudeCompensation_get, _imslib.StartupConfiguration_LTBUseAmplitudeCompensation_set, doc=r"""LTBUseAmplitudeCompensation : iMS::SignalPath::Compensation""")
+    LTBUsePhaseCompensation = property(_imslib.StartupConfiguration_LTBUsePhaseCompensation_get, _imslib.StartupConfiguration_LTBUsePhaseCompensation_set, doc=r"""LTBUsePhaseCompensation : iMS::SignalPath::Compensation""")
+    LTBControlSource = property(_imslib.StartupConfiguration_LTBControlSource_get, _imslib.StartupConfiguration_LTBControlSource_set, doc=r"""LTBControlSource : iMS::SignalPath::ToneBufferControl""")
+    LocalToneIndex = property(_imslib.StartupConfiguration_LocalToneIndex_get, _imslib.StartupConfiguration_LocalToneIndex_set, doc=r"""LocalToneIndex : uint8_t""")
+    PhaseTuneCh1 = property(_imslib.StartupConfiguration_PhaseTuneCh1_get, _imslib.StartupConfiguration_PhaseTuneCh1_set, doc=r"""PhaseTuneCh1 : iMS::Degrees""")
+    PhaseTuneCh2 = property(_imslib.StartupConfiguration_PhaseTuneCh2_get, _imslib.StartupConfiguration_PhaseTuneCh2_set, doc=r"""PhaseTuneCh2 : iMS::Degrees""")
+    PhaseTuneCh3 = property(_imslib.StartupConfiguration_PhaseTuneCh3_get, _imslib.StartupConfiguration_PhaseTuneCh3_set, doc=r"""PhaseTuneCh3 : iMS::Degrees""")
+    PhaseTuneCh4 = property(_imslib.StartupConfiguration_PhaseTuneCh4_get, _imslib.StartupConfiguration_PhaseTuneCh4_set, doc=r"""PhaseTuneCh4 : iMS::Degrees""")
+    ChannelReversal = property(_imslib.StartupConfiguration_ChannelReversal_get, _imslib.StartupConfiguration_ChannelReversal_set, doc=r"""ChannelReversal : bool""")
+    ImageUseAmplitudeCompensation = property(_imslib.StartupConfiguration_ImageUseAmplitudeCompensation_get, _imslib.StartupConfiguration_ImageUseAmplitudeCompensation_set, doc=r"""ImageUseAmplitudeCompensation : iMS::SignalPath::Compensation""")
+    ImageUsePhaseCompensation = property(_imslib.StartupConfiguration_ImageUsePhaseCompensation_get, _imslib.StartupConfiguration_ImageUsePhaseCompensation_set, doc=r"""ImageUsePhaseCompensation : iMS::SignalPath::Compensation""")
+    upd_clk = property(_imslib.StartupConfiguration_upd_clk_get, _imslib.StartupConfiguration_upd_clk_set, doc=r"""upd_clk : iMS::SystemFunc::UpdateClockSource""")
+    XYCompEnable = property(_imslib.StartupConfiguration_XYCompEnable_get, _imslib.StartupConfiguration_XYCompEnable_set, doc=r"""XYCompEnable : bool""")
+    LEDGreen = property(_imslib.StartupConfiguration_LEDGreen_get, _imslib.StartupConfiguration_LEDGreen_set, doc=r"""LEDGreen : iMS::Auxiliary::LED_SOURCE""")
+    LEDYellow = property(_imslib.StartupConfiguration_LEDYellow_get, _imslib.StartupConfiguration_LEDYellow_set, doc=r"""LEDYellow : iMS::Auxiliary::LED_SOURCE""")
+    LEDRed = property(_imslib.StartupConfiguration_LEDRed_get, _imslib.StartupConfiguration_LEDRed_set, doc=r"""LEDRed : iMS::Auxiliary::LED_SOURCE""")
+    GPOutput = property(_imslib.StartupConfiguration_GPOutput_get, _imslib.StartupConfiguration_GPOutput_set, doc=r"""GPOutput : uint8_t""")
+    ResetOnUnhealthy = property(_imslib.StartupConfiguration_ResetOnUnhealthy_get, _imslib.StartupConfiguration_ResetOnUnhealthy_set, doc=r"""ResetOnUnhealthy : iMS::SystemFunc::NHFLocalReset""")
+    CommsHealthyCheckEnabled = property(_imslib.StartupConfiguration_CommsHealthyCheckEnabled_get, _imslib.StartupConfiguration_CommsHealthyCheckEnabled_set, doc=r"""CommsHealthyCheckEnabled : bool""")
+    CommsHealthyCheckTimerMilliseconds = property(_imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get, _imslib.StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set, doc=r"""CommsHealthyCheckTimerMilliseconds : unsigned int""")
+    SyncDigitalSource = property(_imslib.StartupConfiguration_SyncDigitalSource_get, _imslib.StartupConfiguration_SyncDigitalSource_set, doc=r"""SyncDigitalSource : iMS::SignalPath::SYNC_SRC""")
+    SyncAnalogASource = property(_imslib.StartupConfiguration_SyncAnalogASource_get, _imslib.StartupConfiguration_SyncAnalogASource_set, doc=r"""SyncAnalogASource : iMS::SignalPath::SYNC_SRC""")
+    SyncAnalogBSource = property(_imslib.StartupConfiguration_SyncAnalogBSource_get, _imslib.StartupConfiguration_SyncAnalogBSource_set, doc=r"""SyncAnalogBSource : iMS::SignalPath::SYNC_SRC""")
+    PLLMode = property(_imslib.StartupConfiguration_PLLMode_get, _imslib.StartupConfiguration_PLLMode_set, doc=r"""PLLMode : iMS::SystemFunc::PLLLockReference""")
+    ExtClockFrequency = property(_imslib.StartupConfiguration_ExtClockFrequency_get, _imslib.StartupConfiguration_ExtClockFrequency_set, doc=r"""ExtClockFrequency : iMS::kHz""")
+    PhaseAccClear = property(_imslib.StartupConfiguration_PhaseAccClear_get, _imslib.StartupConfiguration_PhaseAccClear_set, doc=r"""PhaseAccClear : bool""")
 
     def __init__(self):
+        r"""__init__(StartupConfiguration self) -> StartupConfiguration"""
         _imslib.StartupConfiguration_swiginit(self, _imslib.new_StartupConfiguration())
     __swig_destroy__ = _imslib.delete_StartupConfiguration
 
 # Register StartupConfiguration in _imslib:
 _imslib.StartupConfiguration_swigregister(StartupConfiguration)
 class ClockGenConfiguration(object):
+    r"""Proxy of C++ iMS::ClockGenConfiguration class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    ClockFreq = property(_imslib.ClockGenConfiguration_ClockFreq_get, _imslib.ClockGenConfiguration_ClockFreq_set)
-    OscPhase = property(_imslib.ClockGenConfiguration_OscPhase_get, _imslib.ClockGenConfiguration_OscPhase_set)
-    DutyCycle = property(_imslib.ClockGenConfiguration_DutyCycle_get, _imslib.ClockGenConfiguration_DutyCycle_set)
-    AlwaysOn = property(_imslib.ClockGenConfiguration_AlwaysOn_get, _imslib.ClockGenConfiguration_AlwaysOn_set)
-    GenerateTrigger = property(_imslib.ClockGenConfiguration_GenerateTrigger_get, _imslib.ClockGenConfiguration_GenerateTrigger_set)
-    ClockPolarity = property(_imslib.ClockGenConfiguration_ClockPolarity_get, _imslib.ClockGenConfiguration_ClockPolarity_set)
-    TrigPolarity = property(_imslib.ClockGenConfiguration_TrigPolarity_get, _imslib.ClockGenConfiguration_TrigPolarity_set)
+    ClockFreq = property(_imslib.ClockGenConfiguration_ClockFreq_get, _imslib.ClockGenConfiguration_ClockFreq_set, doc=r"""ClockFreq : iMS::Frequency""")
+    OscPhase = property(_imslib.ClockGenConfiguration_OscPhase_get, _imslib.ClockGenConfiguration_OscPhase_set, doc=r"""OscPhase : iMS::Degrees""")
+    DutyCycle = property(_imslib.ClockGenConfiguration_DutyCycle_get, _imslib.ClockGenConfiguration_DutyCycle_set, doc=r"""DutyCycle : iMS::Percent""")
+    AlwaysOn = property(_imslib.ClockGenConfiguration_AlwaysOn_get, _imslib.ClockGenConfiguration_AlwaysOn_set, doc=r"""AlwaysOn : bool""")
+    GenerateTrigger = property(_imslib.ClockGenConfiguration_GenerateTrigger_get, _imslib.ClockGenConfiguration_GenerateTrigger_set, doc=r"""GenerateTrigger : bool""")
+    ClockPolarity = property(_imslib.ClockGenConfiguration_ClockPolarity_get, _imslib.ClockGenConfiguration_ClockPolarity_set, doc=r"""ClockPolarity : Polarity""")
+    TrigPolarity = property(_imslib.ClockGenConfiguration_TrigPolarity_get, _imslib.ClockGenConfiguration_TrigPolarity_set, doc=r"""TrigPolarity : Polarity""")
 
     def __init__(self):
+        r"""__init__(ClockGenConfiguration self) -> ClockGenConfiguration"""
         _imslib.ClockGenConfiguration_swiginit(self, _imslib.new_ClockGenConfiguration())
     __swig_destroy__ = _imslib.delete_ClockGenConfiguration
 
 # Register ClockGenConfiguration in _imslib:
 _imslib.ClockGenConfiguration_swigregister(ClockGenConfiguration)
 DiagnosticsEvents_AOD_TEMP_UPDATE = _imslib.DiagnosticsEvents_AOD_TEMP_UPDATE
+
 DiagnosticsEvents_RFA_TEMP_UPDATE = _imslib.DiagnosticsEvents_RFA_TEMP_UPDATE
+
 DiagnosticsEvents_SYN_LOGGED_HOURS = _imslib.DiagnosticsEvents_SYN_LOGGED_HOURS
+
 DiagnosticsEvents_AOD_LOGGED_HOURS = _imslib.DiagnosticsEvents_AOD_LOGGED_HOURS
+
 DiagnosticsEvents_RFA_LOGGED_HOURS = _imslib.DiagnosticsEvents_RFA_LOGGED_HOURS
+
 DiagnosticsEvents_DIAGNOSTICS_UPDATE_AVAILABLE = _imslib.DiagnosticsEvents_DIAGNOSTICS_UPDATE_AVAILABLE
+
 DiagnosticsEvents_DIAG_READ_FAILED = _imslib.DiagnosticsEvents_DIAG_READ_FAILED
+
+
+from enum import Enum
+
+class MEASUREMENT(Enum):
+    FORWARD_POWER_CH1 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH1
+    FORWARD_POWER_CH2 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH2
+    FORWARD_POWER_CH3 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH3
+    FORWARD_POWER_CH4 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH4
+    REFLECTED_POWER_CH1 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH1
+    REFLECTED_POWER_CH2 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH2
+    REFLECTED_POWER_CH3 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH3
+    REFLECTED_POWER_CH4 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH4
+    DC_CURRENT_CH1 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH1
+    DC_CURRENT_CH2 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH2
+    DC_CURRENT_CH3 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH3
+    DC_CURRENT_CH4 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH4
+
 class Diagnostics(object):
+    r"""Proxy of C++ iMS::Diagnostics class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, ims):
+        r"""__init__(Diagnostics self, std::shared_ptr< iMS::IMSSystem > ims) -> Diagnostics"""
         _imslib.Diagnostics_swiginit(self, _imslib.new_Diagnostics(ims))
     TARGET_SYNTH = _imslib.Diagnostics_TARGET_SYNTH
+    
     TARGET_AO_DEVICE = _imslib.Diagnostics_TARGET_AO_DEVICE
+    
     TARGET_RF_AMPLIFIER = _imslib.Diagnostics_TARGET_RF_AMPLIFIER
+    
     MEASURE_FORWARD_POWER_CH1 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH1
+    
     MEASURE_FORWARD_POWER_CH2 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH2
+    
     MEASURE_FORWARD_POWER_CH3 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH3
+    
     MEASURE_FORWARD_POWER_CH4 = _imslib.Diagnostics_MEASURE_FORWARD_POWER_CH4
+    
     MEASURE_REFLECTED_POWER_CH1 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH1
+    
     MEASURE_REFLECTED_POWER_CH2 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH2
+    
     MEASURE_REFLECTED_POWER_CH3 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH3
+    
     MEASURE_REFLECTED_POWER_CH4 = _imslib.Diagnostics_MEASURE_REFLECTED_POWER_CH4
+    
     MEASURE_DC_CURRENT_CH1 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH1
+    
     MEASURE_DC_CURRENT_CH2 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH2
+    
     MEASURE_DC_CURRENT_CH3 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH3
+    
     MEASURE_DC_CURRENT_CH4 = _imslib.Diagnostics_MEASURE_DC_CURRENT_CH4
+    
 
     def DiagnosticsEventSubscribe(self, message, handler):
+        r"""DiagnosticsEventSubscribe(Diagnostics self, int const message, IEventHandler handler)"""
         return _imslib.Diagnostics_DiagnosticsEventSubscribe(self, message, handler)
 
     def DiagnosticsEventUnsubscribe(self, message, handler):
+        r"""DiagnosticsEventUnsubscribe(Diagnostics self, int const message, IEventHandler handler)"""
         return _imslib.Diagnostics_DiagnosticsEventUnsubscribe(self, message, handler)
 
     def GetTemperature(self, tgt):
+        r"""GetTemperature(Diagnostics self, iMS::Diagnostics::TARGET const & tgt) -> bool"""
         return _imslib.Diagnostics_GetTemperature(self, tgt)
 
     def GetLoggedHours(self, tgt):
+        r"""GetLoggedHours(Diagnostics self, iMS::Diagnostics::TARGET const & tgt) -> bool"""
         return _imslib.Diagnostics_GetLoggedHours(self, tgt)
 
     def UpdateDiagnostics(self):
+        r"""UpdateDiagnostics(Diagnostics self) -> bool"""
         return _imslib.Diagnostics_UpdateDiagnostics(self)
 
     def GetDiagnosticsData(self):
+        r"""GetDiagnosticsData(Diagnostics self) -> AnalogData"""
         return _imslib.Diagnostics_GetDiagnosticsData(self)
+
+    def GetDiagnosticsDataStr(self):
+        r"""GetDiagnosticsDataStr(Diagnostics self) -> AnalogDataStr"""
+        return _imslib.Diagnostics_GetDiagnosticsDataStr(self)
     __swig_destroy__ = _imslib.delete_Diagnostics
 
 # Register Diagnostics in _imslib:

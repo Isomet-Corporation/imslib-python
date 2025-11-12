@@ -3826,56 +3826,61 @@ namespace Swig {
 #define SWIGTYPE_p_size_type swig_types[108]
 #define SWIGTYPE_p_std__allocatorT_iMS__DDSScriptRegister_t swig_types[109]
 #define SWIGTYPE_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t swig_types[110]
-#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[111]
-#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[112]
-#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[113]
-#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[114]
-#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[115]
-#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[116]
-#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[117]
-#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[118]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[119]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[120]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[121]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[122]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[123]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[124]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[125]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[126]
-#define SWIGTYPE_p_std__invalid_argument swig_types[127]
-#define SWIGTYPE_p_std__lessT_int_t swig_types[128]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[129]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[130]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[131]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[132]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[133]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[134]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[135]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[136]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[137]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[138]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[139]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[140]
-#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[141]
-#define SWIGTYPE_p_std__ostream swig_types[142]
-#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[143]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[144]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[145]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[146]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[147]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[148]
-#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[149]
-#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[150]
-#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[151]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[152]
-#define SWIGTYPE_p_unsigned_char swig_types[153]
-#define SWIGTYPE_p_unsigned_int swig_types[154]
-#define SWIGTYPE_p_unsigned_long_long swig_types[155]
-#define SWIGTYPE_p_unsigned_short swig_types[156]
-#define SWIGTYPE_p_value_type swig_types[157]
-#define SWIGTYPE_p_void swig_types[158]
-static swig_type_info *swig_types[160];
-static swig_module_info swig_module = {swig_types, 159, 0, 0, 0, 0};
+#define SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t swig_types[111]
+#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[112]
+#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[113]
+#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[114]
+#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[115]
+#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[116]
+#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[117]
+#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[118]
+#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[119]
+#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[120]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[121]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[122]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[123]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[124]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[125]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[126]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[127]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[128]
+#define SWIGTYPE_p_std__invalid_argument swig_types[129]
+#define SWIGTYPE_p_std__lessT_int_t swig_types[130]
+#define SWIGTYPE_p_std__lessT_std__string_t swig_types[131]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[132]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[133]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[134]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[135]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[136]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[137]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[138]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[139]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[140]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[141]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[142]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[143]
+#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[144]
+#define SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t swig_types[145]
+#define SWIGTYPE_p_std__ostream swig_types[146]
+#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[147]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[148]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[149]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[150]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[151]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[152]
+#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[153]
+#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[154]
+#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[155]
+#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[156]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[157]
+#define SWIGTYPE_p_unsigned_char swig_types[158]
+#define SWIGTYPE_p_unsigned_int swig_types[159]
+#define SWIGTYPE_p_unsigned_long_long swig_types[160]
+#define SWIGTYPE_p_unsigned_short swig_types[161]
+#define SWIGTYPE_p_value_type swig_types[162]
+#define SWIGTYPE_p_void swig_types[163]
+static swig_type_info *swig_types[165];
+static swig_module_info swig_module = {swig_types, 164, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -6091,6 +6096,259 @@ SWIGINTERN std::vector< unsigned char >::iterator std_vector_Sl_uint8_t_Sg__eras
 SWIGINTERN std::vector< unsigned char >::iterator std_vector_Sl_uint8_t_Sg__insert__SWIG_0(std::vector< uint8_t > *self,std::vector< unsigned char >::iterator pos,std::vector< unsigned char >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_uint8_t_Sg__insert__SWIG_1(std::vector< uint8_t > *self,std::vector< unsigned char >::iterator pos,std::vector< unsigned char >::size_type n,std::vector< unsigned char >::value_type const &x){ self->insert(pos, n, x); }
 
+/* Return string from Python obj. NOTE: obj must remain in scope in order
+   to use the returned cptr (but only when alloc is set to SWIG_OLDOBJ) */
+SWIGINTERN int
+SWIG_AsCharPtrAndSize(PyObject *obj, char **cptr, size_t *psize, int *alloc)
+{
+#if PY_VERSION_HEX>=0x03000000
+#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
+  if (PyBytes_Check(obj))
+#else
+  if (PyUnicode_Check(obj))
+#endif
+#else  
+  if (PyString_Check(obj))
+#endif
+  {
+    char *cstr; Py_ssize_t len;
+    PyObject *bytes = NULL;
+    int ret = SWIG_OK;
+    if (alloc)
+      *alloc = SWIG_OLDOBJ;
+#if PY_VERSION_HEX>=0x03000000 && defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
+    if (PyBytes_AsStringAndSize(obj, &cstr, &len) == -1)
+      return SWIG_TypeError;
+#else
+    cstr = (char *)SWIG_PyUnicode_AsUTF8AndSize(obj, &len, &bytes);
+    if (!cstr)
+      return SWIG_TypeError;
+    /* The returned string is only duplicated if the char * returned is not owned and memory managed by obj */
+    if (bytes && cptr) {
+      if (alloc) {
+        cstr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
+        *alloc = SWIG_NEWOBJ;
+      } else {
+        /* alloc must be set in order to clean up allocated memory */
+        return SWIG_RuntimeError;
+      }
+    }
+#endif
+    if (cptr) *cptr = cstr;
+    if (psize) *psize = len + 1;
+    SWIG_Py_XDECREF(bytes);
+    return ret;
+  } else {
+#if defined(SWIG_PYTHON_2_UNICODE)
+#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
+#error "Cannot use both SWIG_PYTHON_2_UNICODE and SWIG_PYTHON_STRICT_BYTE_CHAR at once"
+#endif
+#if PY_VERSION_HEX<0x03000000
+    if (PyUnicode_Check(obj)) {
+      char *cstr; Py_ssize_t len;
+      if (!alloc && cptr) {
+        return SWIG_RuntimeError;
+      }
+      obj = PyUnicode_AsUTF8String(obj);
+      if (!obj)
+        return SWIG_TypeError;
+      if (PyString_AsStringAndSize(obj, &cstr, &len) != -1) {
+        if (cptr) {
+          if (alloc) *alloc = SWIG_NEWOBJ;
+          *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
+        }
+        if (psize) *psize = len + 1;
+
+        SWIG_Py_XDECREF(obj);
+        return SWIG_OK;
+      } else {
+        SWIG_Py_XDECREF(obj);
+      }
+    }
+#endif
+#endif
+
+    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
+    if (pchar_descriptor) {
+      void* vptr = 0;
+      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
+	if (cptr) *cptr = (char *) vptr;
+	if (psize) *psize = vptr ? (strlen((char *)vptr) + 1) : 0;
+	if (alloc) *alloc = SWIG_OLDOBJ;
+	return SWIG_OK;
+      }
+    }
+  }
+  return SWIG_TypeError;
+}
+
+
+SWIGINTERN int
+SWIG_AsPtr_std_string (PyObject * obj, std::string **val) 
+{
+  char* buf = 0 ; size_t size = 0; int alloc = SWIG_OLDOBJ;
+  if (SWIG_IsOK((SWIG_AsCharPtrAndSize(obj, &buf, &size, &alloc)))) {
+    if (buf) {
+      if (val) *val = new std::string(buf, size - 1);
+      if (alloc == SWIG_NEWOBJ) delete[] buf;
+      return SWIG_NEWOBJ;
+    } else {
+      if (val) *val = 0;
+      return SWIG_OLDOBJ;
+    }
+  } else {
+    PyErr_Clear();
+    static swig_type_info *descriptor = SWIG_TypeQuery("std::string" " *");
+    if (descriptor) {
+      std::string *vptr;
+      int res = SWIG_ConvertPtr(obj, (void**)&vptr, descriptor, 0);
+      if (SWIG_IsOK(res) && val) *val = vptr;
+      return res;
+    }
+  }
+  return SWIG_ERROR;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_std_string (PyObject * obj, std::string *val)
+{
+  std::string* v = (std::string *) 0;
+  int res = SWIG_AsPtr_std_string (obj, &v);
+  if (!SWIG_IsOK(res)) return res;
+  if (v) {
+    if (val) *val = *v;
+    if (SWIG_IsNewObj(res)) {
+      delete v;
+      res = SWIG_DelNewMask(res);
+    }
+    return res;
+  }
+  return SWIG_ERROR;
+}
+
+
+namespace swig {
+  template <> struct traits< std::string > {
+    typedef value_category category;
+    static const char* type_name() { return"std::string"; }
+  };
+  template <>  struct traits_asval< std::string > {
+    typedef std::string value_type;
+    static int asval(PyObject *obj, value_type *val) {
+      return SWIG_AsVal_std_string (obj, val);
+    }
+  };
+  template <>  struct traits_from< std::string > {
+    typedef std::string value_type;
+    static PyObject *from(const value_type& val) {
+      return SWIG_From_std_string  (val);
+    }
+  };
+}
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< std::string, std::allocator< std::string > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "std::string" "," "std::allocator< std::string >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_std_string_Sg__iterator(std::vector< std::string > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_std_string_Sg____nonzero__(std::vector< std::string > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_std_string_Sg____bool__(std::vector< std::string > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< std::string >::size_type std_vector_Sl_std_string_Sg____len__(std::vector< std::string > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< std::string,std::allocator< std::string > > *std_vector_Sl_std_string_Sg____getslice__(std::vector< std::string > *self,std::vector< std::string >::difference_type i,std::vector< std::string >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____setslice____SWIG_0(std::vector< std::string > *self,std::vector< std::string >::difference_type i,std::vector< std::string >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< std::string,std::allocator< std::string > >());
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____setslice____SWIG_1(std::vector< std::string > *self,std::vector< std::string >::difference_type i,std::vector< std::string >::difference_type j,std::vector< std::string,std::allocator< std::string > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____delslice__(std::vector< std::string > *self,std::vector< std::string >::difference_type i,std::vector< std::string >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____delitem____SWIG_0(std::vector< std::string > *self,std::vector< std::string >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< std::string,std::allocator< std::string > > *std_vector_Sl_std_string_Sg____getitem____SWIG_0(std::vector< std::string > *self,SWIGPY_SLICEOBJECT *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::string,std::allocator< std::string > >::difference_type id = i;
+      std::vector< std::string,std::allocator< std::string > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____setitem____SWIG_0(std::vector< std::string > *self,SWIGPY_SLICEOBJECT *slice,std::vector< std::string,std::allocator< std::string > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::string,std::allocator< std::string > >::difference_type id = i;
+      std::vector< std::string,std::allocator< std::string > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____setitem____SWIG_1(std::vector< std::string > *self,SWIGPY_SLICEOBJECT *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::string,std::allocator< std::string > >::difference_type id = i;
+      std::vector< std::string,std::allocator< std::string > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____delitem____SWIG_1(std::vector< std::string > *self,SWIGPY_SLICEOBJECT *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::string,std::allocator< std::string > >::difference_type id = i;
+      std::vector< std::string,std::allocator< std::string > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< std::string >::value_type const &std_vector_Sl_std_string_Sg____getitem____SWIG_1(std::vector< std::string > const *self,std::vector< std::string >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg____setitem____SWIG_2(std::vector< std::string > *self,std::vector< std::string >::difference_type i,std::vector< std::string >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< std::string >::value_type std_vector_Sl_std_string_Sg__pop(std::vector< std::string > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< std::string,std::allocator< std::string > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_std_string_Sg__append(std::vector< std::string > *self,std::vector< std::string >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__erase__SWIG_0(std::vector< std::string > *self,std::vector< std::string >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__erase__SWIG_1(std::vector< std::string > *self,std::vector< std::string >::iterator first,std::vector< std::string >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< std::string >::iterator std_vector_Sl_std_string_Sg__insert__SWIG_0(std::vector< std::string > *self,std::vector< std::string >::iterator pos,std::vector< std::string >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_std_string_Sg__insert__SWIG_1(std::vector< std::string > *self,std::vector< std::string >::iterator pos,std::vector< std::string >::size_type n,std::vector< std::string >::value_type const &x){ self->insert(pos, n, x); }
+
   namespace swig {
     template <class T, size_t N>
     struct traits_asptr<std::array<T, N> >  {
@@ -6889,6 +7147,131 @@ SWIGINTERN PyObject *std_map_Sl_int_Sc_iMS_Percent_Sg__asdict(std::map< int,iMS:
 SWIGINTERN void std_map_Sl_int_Sc_iMS_Percent_Sg__erase__SWIG_1(std::map< int,iMS::Percent > *self,std::map< int,iMS::Percent >::iterator position){ self->erase(position); }
 SWIGINTERN void std_map_Sl_int_Sc_iMS_Percent_Sg__erase__SWIG_2(std::map< int,iMS::Percent > *self,std::map< int,iMS::Percent >::iterator first,std::map< int,iMS::Percent >::iterator last){ self->erase(first, last); }
 
+      namespace swig {
+	template <>  struct traits<std::pair< std::string, iMS::Percent > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::pair<" "std::string" "," "iMS::Percent" " >";
+	  }
+	};
+      }
+    
+
+      namespace swig {
+	template <>  struct traits<std::map< std::string, iMS::Percent, std::less< std::string >, std::allocator< std::pair< std::string const,iMS::Percent > > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::map<" "std::string" "," "iMS::Percent" "," "std::less< std::string >" "," "std::allocator< std::pair< std::string const,iMS::Percent > >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_map_Sl_std_string_Sc_iMS_Percent_Sg__iterator(std::map< std::string,iMS::Percent > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_map_Sl_std_string_Sc_iMS_Percent_Sg____nonzero__(std::map< std::string,iMS::Percent > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_map_Sl_std_string_Sc_iMS_Percent_Sg____bool__(std::map< std::string,iMS::Percent > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::map< std::string,iMS::Percent >::size_type std_map_Sl_std_string_Sc_iMS_Percent_Sg____len__(std::map< std::string,iMS::Percent > const *self){
+      return self->size();
+    }
+SWIGINTERN std::map< std::string,iMS::Percent >::mapped_type const &std_map_Sl_std_string_Sc_iMS_Percent_Sg____getitem__(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::key_type const &key){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::const_iterator i = self->find(key);
+      if (i != self->end())
+	return i->second;
+      else
+	throw std::out_of_range("key not found");
+    }
+SWIGINTERN void std_map_Sl_std_string_Sc_iMS_Percent_Sg____delitem__(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::key_type const &key){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::iterator i = self->find(key);
+      if (i != self->end())
+	self->erase(i);
+      else
+	throw std::out_of_range("key not found");
+    }
+SWIGINTERN bool std_map_Sl_std_string_Sc_iMS_Percent_Sg__has_key(std::map< std::string,iMS::Percent > const *self,std::map< std::string,iMS::Percent >::key_type const &key){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::const_iterator i = self->find(key);
+      return i != self->end();
+    }
+SWIGINTERN PyObject *std_map_Sl_std_string_Sc_iMS_Percent_Sg__keys(std::map< std::string,iMS::Percent > *self){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type size = self->size();
+      Py_ssize_t pysize = (size <= (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type) INT_MAX) ? (Py_ssize_t) size : -1;
+      SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+      if (pysize < 0) {
+	PyErr_SetString(PyExc_OverflowError, "map size not valid in python");
+	SWIG_PYTHON_THREAD_END_BLOCK;
+	return NULL;
+      }
+      PyObject* keyList = PyList_New(pysize);
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::const_iterator i = self->begin();
+      for (Py_ssize_t j = 0; j < pysize; ++i, ++j) {
+	PyList_SET_ITEM(keyList, j, swig::from(i->first));
+      }
+      SWIG_PYTHON_THREAD_END_BLOCK;
+      return keyList;
+    }
+SWIGINTERN PyObject *std_map_Sl_std_string_Sc_iMS_Percent_Sg__values(std::map< std::string,iMS::Percent > *self){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type size = self->size();
+      Py_ssize_t pysize = (size <= (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type) INT_MAX) ? (Py_ssize_t) size : -1;
+      SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+      if (pysize < 0) {
+	PyErr_SetString(PyExc_OverflowError, "map size not valid in python");
+	SWIG_PYTHON_THREAD_END_BLOCK;
+	return NULL;
+      }
+      PyObject* valList = PyList_New(pysize);
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::const_iterator i = self->begin();
+      for (Py_ssize_t j = 0; j < pysize; ++i, ++j) {
+	PyList_SET_ITEM(valList, j, swig::from(i->second));
+      }
+      SWIG_PYTHON_THREAD_END_BLOCK;
+      return valList;
+    }
+SWIGINTERN PyObject *std_map_Sl_std_string_Sc_iMS_Percent_Sg__items(std::map< std::string,iMS::Percent > *self){
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type size = self->size();
+      Py_ssize_t pysize = (size <= (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::size_type) INT_MAX) ? (Py_ssize_t) size : -1;
+      SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+      if (pysize < 0) {
+	PyErr_SetString(PyExc_OverflowError, "map size not valid in python");
+	SWIG_PYTHON_THREAD_END_BLOCK;
+	return NULL;
+      }    
+      PyObject* itemList = PyList_New(pysize);
+      std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >::const_iterator i = self->begin();
+      for (Py_ssize_t j = 0; j < pysize; ++i, ++j) {
+	PyList_SET_ITEM(itemList, j, swig::from(*i));
+      }
+      SWIG_PYTHON_THREAD_END_BLOCK;
+      return itemList;
+    }
+SWIGINTERN bool std_map_Sl_std_string_Sc_iMS_Percent_Sg____contains__(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::key_type const &key){
+      return self->find(key) != self->end();
+    }
+SWIGINTERN swig::SwigPyIterator *std_map_Sl_std_string_Sc_iMS_Percent_Sg__key_iterator(std::map< std::string,iMS::Percent > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_key_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN swig::SwigPyIterator *std_map_Sl_std_string_Sc_iMS_Percent_Sg__value_iterator(std::map< std::string,iMS::Percent > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_value_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN void std_map_Sl_std_string_Sc_iMS_Percent_Sg____setitem____SWIG_0(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::key_type const &key){
+      self->erase(key);
+    }
+SWIGINTERN void std_map_Sl_std_string_Sc_iMS_Percent_Sg____setitem____SWIG_1(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::key_type const &key,std::map< std::string,iMS::Percent >::mapped_type const &x){
+#ifdef __cpp_lib_map_try_emplace
+      (*self).insert_or_assign(key, x);
+#else
+      (*self)[key] = x;
+#endif
+    }
+SWIGINTERN PyObject *std_map_Sl_std_string_Sc_iMS_Percent_Sg__asdict(std::map< std::string,iMS::Percent > *self){
+      return swig::traits_from< std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > >::asdict(*self);
+    }
+SWIGINTERN void std_map_Sl_std_string_Sc_iMS_Percent_Sg__erase__SWIG_1(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::iterator position){ self->erase(position); }
+SWIGINTERN void std_map_Sl_std_string_Sc_iMS_Percent_Sg__erase__SWIG_2(std::map< std::string,iMS::Percent > *self,std::map< std::string,iMS::Percent >::iterator first,std::map< std::string,iMS::Percent >::iterator last){ self->erase(first, last); }
+
 #include <list>
 
 
@@ -6994,120 +7377,6 @@ SWIGINTERN std::string iMS_ListBase_Sl_std_shared_ptr_Sl_iMS_SequenceEntry_Sg__S
             oss << "]";
             return oss.str();
         }
-
-/* Return string from Python obj. NOTE: obj must remain in scope in order
-   to use the returned cptr (but only when alloc is set to SWIG_OLDOBJ) */
-SWIGINTERN int
-SWIG_AsCharPtrAndSize(PyObject *obj, char **cptr, size_t *psize, int *alloc)
-{
-#if PY_VERSION_HEX>=0x03000000
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-  if (PyBytes_Check(obj))
-#else
-  if (PyUnicode_Check(obj))
-#endif
-#else  
-  if (PyString_Check(obj))
-#endif
-  {
-    char *cstr; Py_ssize_t len;
-    PyObject *bytes = NULL;
-    int ret = SWIG_OK;
-    if (alloc)
-      *alloc = SWIG_OLDOBJ;
-#if PY_VERSION_HEX>=0x03000000 && defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-    if (PyBytes_AsStringAndSize(obj, &cstr, &len) == -1)
-      return SWIG_TypeError;
-#else
-    cstr = (char *)SWIG_PyUnicode_AsUTF8AndSize(obj, &len, &bytes);
-    if (!cstr)
-      return SWIG_TypeError;
-    /* The returned string is only duplicated if the char * returned is not owned and memory managed by obj */
-    if (bytes && cptr) {
-      if (alloc) {
-        cstr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-        *alloc = SWIG_NEWOBJ;
-      } else {
-        /* alloc must be set in order to clean up allocated memory */
-        return SWIG_RuntimeError;
-      }
-    }
-#endif
-    if (cptr) *cptr = cstr;
-    if (psize) *psize = len + 1;
-    SWIG_Py_XDECREF(bytes);
-    return ret;
-  } else {
-#if defined(SWIG_PYTHON_2_UNICODE)
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-#error "Cannot use both SWIG_PYTHON_2_UNICODE and SWIG_PYTHON_STRICT_BYTE_CHAR at once"
-#endif
-#if PY_VERSION_HEX<0x03000000
-    if (PyUnicode_Check(obj)) {
-      char *cstr; Py_ssize_t len;
-      if (!alloc && cptr) {
-        return SWIG_RuntimeError;
-      }
-      obj = PyUnicode_AsUTF8String(obj);
-      if (!obj)
-        return SWIG_TypeError;
-      if (PyString_AsStringAndSize(obj, &cstr, &len) != -1) {
-        if (cptr) {
-          if (alloc) *alloc = SWIG_NEWOBJ;
-          *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-        }
-        if (psize) *psize = len + 1;
-
-        SWIG_Py_XDECREF(obj);
-        return SWIG_OK;
-      } else {
-        SWIG_Py_XDECREF(obj);
-      }
-    }
-#endif
-#endif
-
-    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-    if (pchar_descriptor) {
-      void* vptr = 0;
-      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
-	if (cptr) *cptr = (char *) vptr;
-	if (psize) *psize = vptr ? (strlen((char *)vptr) + 1) : 0;
-	if (alloc) *alloc = SWIG_OLDOBJ;
-	return SWIG_OK;
-      }
-    }
-  }
-  return SWIG_TypeError;
-}
-
-
-SWIGINTERN int
-SWIG_AsPtr_std_string (PyObject * obj, std::string **val) 
-{
-  char* buf = 0 ; size_t size = 0; int alloc = SWIG_OLDOBJ;
-  if (SWIG_IsOK((SWIG_AsCharPtrAndSize(obj, &buf, &size, &alloc)))) {
-    if (buf) {
-      if (val) *val = new std::string(buf, size - 1);
-      if (alloc == SWIG_NEWOBJ) delete[] buf;
-      return SWIG_NEWOBJ;
-    } else {
-      if (val) *val = 0;
-      return SWIG_OLDOBJ;
-    }
-  } else {
-    PyErr_Clear();
-    static swig_type_info *descriptor = SWIG_TypeQuery("std::string" " *");
-    if (descriptor) {
-      std::string *vptr;
-      int res = SWIG_ConvertPtr(obj, (void**)&vptr, descriptor, 0);
-      if (SWIG_IsOK(res) && val) *val = vptr;
-      return res;
-    }
-  }
-  return SWIG_ERROR;
-}
-
 
 #define iMS_ListBase_Sl_std_shared_ptr_Sl_iMS_SequenceEntry_Sg__Sg__GetUUID_get(self_) new std::array<uint8_t,16>(self_->GetUUID())
   
@@ -17258,6 +17527,2080 @@ SWIGINTERN PyObject *ByteVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObjec
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_StringVector_iterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_iterator" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_vector_Sl_std_string_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___nonzero__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___nonzero__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_std_string_Sg____nonzero__((std::vector< std::string > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___bool__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___bool__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_std_string_Sg____bool__((std::vector< std::string > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___len__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___len__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_std_string_Sg____len__((std::vector< std::string > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getslice__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___getslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____setslice____SWIG_0(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  std::vector< std::string,std::allocator< std::string > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___setslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector___setslice__" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____setslice____SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::vector< std::string,std::allocator< std::string > > const &)*arg4);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_StringVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< std::string,std::allocator< std::string > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_StringVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type)\n"
+    "    std::vector< std::string >::__setslice__(std::vector< std::string >::difference_type,std::vector< std::string >::difference_type,std::vector< std::string,std::allocator< std::string > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delslice__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delslice__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delslice__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector___delslice__" "', argument " "3"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____delslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____delitem____SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< std::string,std::allocator< std::string > > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< std::string,std::allocator< std::string > > *)std_vector_Sl_std_string_Sg____getitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  std::vector< std::string,std::allocator< std::string > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< std::string,std::allocator< std::string > > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____setitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___delitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector___delitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
+    }
+    arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____delitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__delitem__(std::vector< std::string >::difference_type)\n"
+    "    std::vector< std::string >::__delitem__(SWIGPY_SLICEOBJECT *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___getitem__" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___getitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< std::string >::value_type *) &std_vector_Sl_std_string_Sg____getitem____SWIG_1((std::vector< std::string > const *)arg1,SWIG_STD_MOVE(arg2));
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__getitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< std::string >::__getitem__(std::vector< std::string >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem____SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::difference_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector___setitem__" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector___setitem__" "', argument " "2"" of type '" "std::vector< std::string >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::difference_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector___setitem__" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_std_string_Sg____setitem____SWIG_2(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_StringVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< std::string,std::allocator< std::string > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *,std::vector< std::string,std::allocator< std::string > > const &)\n"
+    "    std::vector< std::string >::__setitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< std::string >::__setitem__(std::vector< std::string >::difference_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_pop(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = std_vector_Sl_std_string_Sg__pop(arg1);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_append(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_append" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_append" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_std_string_Sg__append(arg1,(std::string const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string > *)new std::vector< std::string >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string > *)new std::vector< std::string >((std::vector< std::string > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_empty(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_empty" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::vector< std::string > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_size(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_size" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< std::string > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_swap(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_swap" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_std__string_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_swap" "', argument " "2"" of type '" "std::vector< std::string > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::string > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_begin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_begin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_end(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_end" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_rbegin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rbegin" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_rend(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_rend" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_clear(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_clear" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_get_allocator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< std::string > > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_get_allocator" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< std::string > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< std::string >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_std__string_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string > *)new std::vector< std::string >(SWIG_STD_MOVE(arg1));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_pop_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_pop_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->pop_back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_std_string_Sg__erase__SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_erase" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_erase" "', argument " "3"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_std_string_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_StringVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_StringVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::erase(std::vector< std::string >::iterator)\n"
+    "    std::vector< std::string >::erase(std::vector< std::string >::iterator,std::vector< std::string >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector__SWIG_3(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string >::size_type arg1 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  std::vector< std::string > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_StringVector" "', argument " "1"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::string >::size_type >(val1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_StringVector" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string > *)new std::vector< std::string >(SWIG_STD_MOVE(arg1),(std::vector< std::string >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StringVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_StringVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_StringVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_StringVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_StringVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_StringVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_StringVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::vector()\n"
+    "    std::vector< std::string >::vector(std::vector< std::string > const &)\n"
+    "    std::vector< std::string >::vector(std::vector< std::string >::size_type)\n"
+    "    std::vector< std::string >::vector(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_push_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_push_back" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_push_back" "', argument " "2"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->push_back((std::vector< std::string >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_front(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_front" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->front();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_back(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::value_type *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_back" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< std::string >::value_type *) &((std::vector< std::string > const *)arg1)->back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::string >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_assign(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_assign" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_assign" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_assign" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->assign(SWIG_STD_MOVE(arg2),(std::vector< std::string >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_resize" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_resize" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_resize" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(SWIG_STD_MOVE(arg2),(std::vector< std::string >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_StringVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::resize(std::vector< std::string >::size_type)\n"
+    "    std::vector< std::string >::resize(std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  int res3 = SWIG_OLDOBJ ;
+  std::vector< std::string >::iterator result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_std_string_Sg__insert__SWIG_0(arg1,SWIG_STD_MOVE(arg2),(std::string const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::string >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::iterator arg2 ;
+  std::vector< std::string >::size_type arg3 ;
+  std::vector< std::string >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_insert" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::string >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "StringVector_insert" "', argument " "2"" of type '" "std::vector< std::string >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StringVector_insert" "', argument " "3"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::string >::size_type >(val3);
+  {
+    std::string *ptr = (std::string *)0;
+    res4 = SWIG_AsPtr_std_string(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "StringVector_insert" "', argument " "4"" of type '" "std::vector< std::string >::value_type const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_std_string_Sg__insert__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::string const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "StringVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_StringVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::vector< std::string,std::allocator< std::string > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::string >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_StringVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'StringVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::value_type const &)\n"
+    "    std::vector< std::string >::insert(std::vector< std::string >::iterator,std::vector< std::string >::size_type,std::vector< std::string >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_reserve(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  std::vector< std::string >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StringVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_reserve" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StringVector_reserve" "', argument " "2"" of type '" "std::vector< std::string >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::string >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->reserve(SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StringVector_capacity(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::string >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StringVector_capacity" "', argument " "1"" of type '" "std::vector< std::string > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< std::string > const *)arg1)->capacity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_StringVector(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__string_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StringVector" "', argument " "1"" of type '" "std::vector< std::string > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StringVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_std__string_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *StringVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_UUID_iterator(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   std::array< uint8_t,16 > *arg1 = (std::array< uint8_t,16 > *) 0 ;
@@ -21177,6 +23520,1394 @@ SWIGINTERN PyObject *AnalogData_swigregister(PyObject *SWIGUNUSEDPARM(self), PyO
 }
 
 SWIGINTERN PyObject *AnalogData_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_AnalogDataStr__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::less< std::string > *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::map< std::string,iMS::Percent > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1, SWIGTYPE_p_std__lessT_std__string_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_AnalogDataStr" "', argument " "1"" of type '" "std::less< std::string > const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_AnalogDataStr" "', argument " "1"" of type '" "std::less< std::string > const &""'"); 
+  }
+  arg1 = reinterpret_cast< std::less< std::string > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::map< std::string,iMS::Percent > *)new std::map< std::string,iMS::Percent >((std::less< std::string > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_iterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_iterator" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___nonzero__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___nonzero__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_map_Sl_std_string_Sc_iMS_Percent_Sg____nonzero__((std::map< std::string,iMS::Percent > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___bool__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___bool__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_map_Sl_std_string_Sc_iMS_Percent_Sg____bool__((std::map< std::string,iMS::Percent > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___len__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___len__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_map_Sl_std_string_Sc_iMS_Percent_Sg____len__((std::map< std::string,iMS::Percent > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___getitem__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  std::map< std::string,iMS::Percent >::mapped_type *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr___getitem__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___getitem__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr___getitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___getitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::map< std::string,iMS::Percent >::mapped_type *) &std_map_Sl_std_string_Sc_iMS_Percent_Sg____getitem__(arg1,(std::string const &)*arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__Percent, 0 |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___delitem__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr___delitem__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___delitem__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr___delitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___delitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_map_Sl_std_string_Sc_iMS_Percent_Sg____delitem__(arg1,(std::string const &)*arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_has_key(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_has_key", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_has_key" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_has_key" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_has_key" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_map_Sl_std_string_Sc_iMS_Percent_Sg__has_key((std::map< std::string,iMS::Percent > const *)arg1,(std::string const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_keys(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_keys" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (PyObject *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__keys(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_values(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_values" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (PyObject *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__values(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_items(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_items" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (PyObject *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__items(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___contains__(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr___contains__", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___contains__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr___contains__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___contains__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_map_Sl_std_string_Sc_iMS_Percent_Sg____contains__(arg1,(std::string const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_key_iterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_key_iterator" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__key_iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_value_iterator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_value_iterator" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__value_iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___setitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___setitem__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr___setitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___setitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_map_Sl_std_string_Sc_iMS_Percent_Sg____setitem____SWIG_0(arg1,(std::string const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___setitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  std::map< std::string,iMS::Percent >::mapped_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr___setitem__" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr___setitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___setitem__" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__Percent,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "AnalogDataStr___setitem__" "', argument " "3"" of type '" "std::map< std::string,iMS::Percent >::mapped_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr___setitem__" "', argument " "3"" of type '" "std::map< std::string,iMS::Percent >::mapped_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::map< std::string,iMS::Percent >::mapped_type * >(argp3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_map_Sl_std_string_Sc_iMS_Percent_Sg____setitem____SWIG_1(arg1,(std::string const &)*arg2,(iMS::Percent const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "AnalogDataStr___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_AnalogDataStr___setitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_AnalogDataStr___setitem____SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'AnalogDataStr___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::map< std::string,iMS::Percent >::__setitem__(std::map< std::string,iMS::Percent >::key_type const &)\n"
+    "    std::map< std::string,iMS::Percent >::__setitem__(std::map< std::string,iMS::Percent >::key_type const &,std::map< std::string,iMS::Percent >::mapped_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_asdict(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_asdict" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (PyObject *)std_map_Sl_std_string_Sc_iMS_Percent_Sg__asdict(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_AnalogDataStr__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::map< std::string,iMS::Percent > *)new std::map< std::string,iMS::Percent >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_AnalogDataStr__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::map< std::string,iMS::Percent > *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > *ptr = (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_AnalogDataStr" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_AnalogDataStr" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::map< std::string,iMS::Percent > *)new std::map< std::string,iMS::Percent >((std::map< std::string,iMS::Percent > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_AnalogDataStr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_AnalogDataStr", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_AnalogDataStr__SWIG_1(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_std__lessT_std__string_t, SWIG_POINTER_NO_NULL | 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_AnalogDataStr__SWIG_0(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_AnalogDataStr__SWIG_2(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_AnalogDataStr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::map< std::string,iMS::Percent >::map(std::less< std::string > const &)\n"
+    "    std::map< std::string,iMS::Percent >::map()\n"
+    "    std::map< std::string,iMS::Percent >::map(std::map< std::string,iMS::Percent > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_empty(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_empty" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::map< std::string,iMS::Percent > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_size(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::size_type result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_size" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::map< std::string,iMS::Percent > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_swap(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_swap" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_swap" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_swap" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_begin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_begin" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_end(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_end" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_rbegin(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_rbegin" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_rend(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent >::reverse_iterator result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_rend" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_clear(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_clear" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_get_allocator(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< std::pair< std::string const,iMS::Percent > > > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_get_allocator" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::map< std::string,iMS::Percent > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::map< std::string,iMS::Percent >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_erase__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  std::map< std::string,iMS::Percent >::size_type result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_erase" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase((std::map< std::string,iMS::Percent >::key_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_count(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  std::map< std::string,iMS::Percent >::size_type result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_count", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_count" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_count" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_count" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::map< std::string,iMS::Percent > const *)arg1)->count((std::map< std::string,iMS::Percent >::key_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_erase__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_erase" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_map_Sl_std_string_Sc_iMS_Percent_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_erase__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::iterator arg2 ;
+  std::map< std::string,iMS::Percent >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_erase" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "3"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "AnalogDataStr_erase" "', argument " "3"" of type '" "std::map< std::string,iMS::Percent >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_map_Sl_std_string_Sc_iMS_Percent_Sg__erase__SWIG_2(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "AnalogDataStr_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_AnalogDataStr_erase__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_AnalogDataStr_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    int res = swig::asptr(argv[0], (std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::map< std::string,iMS::Percent >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_AnalogDataStr_erase__SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'AnalogDataStr_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::map< std::string,iMS::Percent >::erase(std::map< std::string,iMS::Percent >::key_type const &)\n"
+    "    std::map< std::string,iMS::Percent >::erase(std::map< std::string,iMS::Percent >::iterator)\n"
+    "    std::map< std::string,iMS::Percent >::erase(std::map< std::string,iMS::Percent >::iterator,std::map< std::string,iMS::Percent >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_find(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  std::map< std::string,iMS::Percent >::iterator result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_find", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_find" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_find" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_find" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->find((std::map< std::string,iMS::Percent >::key_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_lower_bound(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  std::map< std::string,iMS::Percent >::iterator result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_lower_bound", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_lower_bound" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_lower_bound" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_lower_bound" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->lower_bound((std::map< std::string,iMS::Percent >::key_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalogDataStr_upper_bound(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  std::map< std::string,iMS::Percent >::key_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  std::map< std::string,iMS::Percent >::iterator result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "AnalogDataStr_upper_bound", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalogDataStr_upper_bound" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalogDataStr_upper_bound" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "AnalogDataStr_upper_bound" "', argument " "2"" of type '" "std::map< std::string,iMS::Percent >::key_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->upper_bound((std::map< std::string,iMS::Percent >::key_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::map< std::string,iMS::Percent >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_AnalogDataStr(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::map< std::string,iMS::Percent > *arg1 = (std::map< std::string,iMS::Percent > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_AnalogDataStr" "', argument " "1"" of type '" "std::map< std::string,iMS::Percent > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::map< std::string,iMS::Percent > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *AnalogDataStr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *AnalogDataStr_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
@@ -44117,7 +47848,82 @@ SWIGINTERN PyObject *ConnectionConfig_swiginit(PyObject *SWIGUNUSEDPARM(self), P
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_ConnectionList_config(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_ConnectionList__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  unsigned int arg1 ;
+  unsigned int val1 ;
+  int ecode1 = 0 ;
+  iMS::ConnectionList *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_unsigned_SS_int(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_ConnectionList" "', argument " "1"" of type '" "unsigned int""'");
+  } 
+  arg1 = static_cast< unsigned int >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::ConnectionList *)new iMS::ConnectionList(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ConnectionList, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ConnectionList__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  iMS::ConnectionList *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::ConnectionList *)new iMS::ConnectionList();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ConnectionList, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ConnectionList(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_ConnectionList", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_ConnectionList__SWIG_1(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_unsigned_SS_int(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_ConnectionList__SWIG_0(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_ConnectionList'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::ConnectionList::ConnectionList(unsigned int)\n"
+    "    iMS::ConnectionList::ConnectionList()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList_Config(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
   std::string *arg2 = 0 ;
@@ -44128,26 +47934,26 @@ SWIGINTERN PyObject *_wrap_ConnectionList_config(PyObject *self, PyObject *args)
   iMS::ConnectionConfig *result = 0 ;
   
   (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "ConnectionList_config", 2, 2, swig_obj)) SWIG_fail;
+  if (!SWIG_Python_UnpackTuple(args, "ConnectionList_Config", 2, 2, swig_obj)) SWIG_fail;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_config" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_Config" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
   }
   arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
   {
     std::string *ptr = (std::string *)0;
     res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList_config" "', argument " "2"" of type '" "std::string const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList_Config" "', argument " "2"" of type '" "std::string const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_config" "', argument " "2"" of type '" "std::string const &""'"); 
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Config" "', argument " "2"" of type '" "std::string const &""'"); 
     }
     arg2 = ptr;
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::ConnectionConfig *) &(arg1)->config((std::string const &)*arg2);
+    result = (iMS::ConnectionConfig *) &(arg1)->Config((std::string const &)*arg2);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ConnectionConfig, 0 |  0 );
@@ -44159,7 +47965,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ConnectionList_modules(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_ConnectionList_Modules(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
   void *argp1 = 0 ;
@@ -44172,12 +47978,12 @@ SWIGINTERN PyObject *_wrap_ConnectionList_modules(PyObject *self, PyObject *args
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_modules" "', argument " "1"" of type '" "iMS::ConnectionList const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_Modules" "', argument " "1"" of type '" "iMS::ConnectionList const *""'"); 
   }
   arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::ListBase< std::string > *) &((iMS::ConnectionList const *)arg1)->modules();
+    result = (iMS::ListBase< std::string > *) &((iMS::ConnectionList const *)arg1)->Modules();
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ListBaseT_std__string_t, 0 |  0 );
@@ -44187,7 +47993,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ConnectionList_scan(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_ConnectionList__Scan(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
   void *argp1 = 0 ;
@@ -44200,12 +48006,12 @@ SWIGINTERN PyObject *_wrap_ConnectionList_scan(PyObject *self, PyObject *args) {
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_scan" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList__Scan" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
   }
   arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (arg1)->scan();
+    result = (arg1)->Scan();
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = swig::from(static_cast< std::vector< std::shared_ptr< iMS::IMSSystem >,std::allocator< std::shared_ptr< iMS::IMSSystem > > > >(result));
@@ -44215,21 +48021,343 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_new_ConnectionList(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_ConnectionList__ScanInterface__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  iMS::ConnectionList *result = 0 ;
+  iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
+  std::string *arg2 = 0 ;
+  std::vector< std::string,std::allocator< std::string > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  std::shared_ptr< iMS::IMSSystem > result;
   
   (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "new_ConnectionList", 0, 0, 0)) SWIG_fail;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList__ScanInterface" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList__ScanInterface" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList__ScanInterface" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ConnectionList__ScanInterface" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList__ScanInterface" "', argument " "3"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::ConnectionList *)new iMS::ConnectionList();
+    result = (arg1)->Scan((std::string const &)*arg2,(std::vector< std::string,std::allocator< std::string > > const &)*arg3);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ConnectionList, SWIG_POINTER_NEW |  0 );
+  {
+    std::shared_ptr<  iMS::IMSSystem > *smartresult = result ? new std::shared_ptr<  iMS::IMSSystem >(result) : 0;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(smartresult), SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, SWIG_POINTER_OWN);
+  }
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
   return resultobj;
 fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList__ScanInterface__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  std::shared_ptr< iMS::IMSSystem > result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList__ScanInterface" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList__ScanInterface" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList__ScanInterface" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->Scan((std::string const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  {
+    std::shared_ptr<  iMS::IMSSystem > *smartresult = result ? new std::shared_ptr<  iMS::IMSSystem >(result) : 0;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(smartresult), SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, SWIG_POINTER_OWN);
+  }
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList__ScanInterface(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ConnectionList__ScanInterface", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__ConnectionList, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_ConnectionList__ScanInterface__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__ConnectionList, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< std::string,std::allocator< std::string > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ConnectionList__ScanInterface__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ConnectionList__ScanInterface'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::ConnectionList::Scan(std::string const &,std::vector< std::string,std::allocator< std::string > > const &)\n"
+    "    iMS::ConnectionList::Scan(std::string const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList_Find__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  std::vector< std::string,std::allocator< std::string > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  int res4 = SWIG_OLDOBJ ;
+  std::shared_ptr< iMS::IMSSystem > result;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_Find" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList_Find" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Find" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ConnectionList_Find" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Find" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    std::vector< std::string,std::allocator< std::string > > *ptr = (std::vector< std::string,std::allocator< std::string > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "ConnectionList_Find" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Find" "', argument " "4"" of type '" "std::vector< std::string,std::allocator< std::string > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->Find((std::string const &)*arg2,(std::string const &)*arg3,(std::vector< std::string,std::allocator< std::string > > const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  {
+    std::shared_ptr<  iMS::IMSSystem > *smartresult = result ? new std::shared_ptr<  iMS::IMSSystem >(result) : 0;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(smartresult), SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, SWIG_POINTER_OWN);
+  }
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList_Find__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  std::shared_ptr< iMS::IMSSystem > result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_Find" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList_Find" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Find" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ConnectionList_Find" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Find" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->Find((std::string const &)*arg2,(std::string const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  {
+    std::shared_ptr<  iMS::IMSSystem > *smartresult = result ? new std::shared_ptr<  iMS::IMSSystem >(result) : 0;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(smartresult), SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, SWIG_POINTER_OWN);
+  }
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList_Find(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ConnectionList_Find", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__ConnectionList, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ConnectionList_Find__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__ConnectionList, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< std::string,std::allocator< std::string > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_ConnectionList_Find__SWIG_0(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ConnectionList_Find'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::ConnectionList::Find(std::string const &,std::string const &,std::vector< std::string,std::allocator< std::string > > const &)\n"
+    "    iMS::ConnectionList::Find(std::string const &,std::string const &)\n");
+  return 0;
 }
 
 
@@ -71387,6 +75515,34 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Diagnostics_GetDiagnosticsDataStr(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::Diagnostics *arg1 = (iMS::Diagnostics *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__Diagnostics, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Diagnostics_GetDiagnosticsDataStr" "', argument " "1"" of type '" "iMS::Diagnostics const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::Diagnostics * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((iMS::Diagnostics const *)arg1)->GetDiagnosticsDataStr();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = swig::from(static_cast< std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_delete_Diagnostics(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::Diagnostics *arg1 = (iMS::Diagnostics *) 0 ;
@@ -71426,1392 +75582,1997 @@ SWIGINTERN PyObject *Diagnostics_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObje
 }
 
 static PyMethodDef SwigMethods[] = {
-	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, NULL},
-	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, NULL},
-	 { "SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, NULL},
-	 { "SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, NULL},
-	 { "SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, NULL},
-	 { "SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, NULL},
-	 { "SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_O, NULL},
-	 { "SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_O, NULL},
-	 { "SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_O, NULL},
-	 { "SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_O, NULL},
-	 { "SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, NULL},
-	 { "SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
-	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
+	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, "delete_SwigPyIterator(SwigPyIterator self)"},
+	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, "SwigPyIterator_value(SwigPyIterator self) -> PyObject *"},
+	 { "SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, "SwigPyIterator_incr(SwigPyIterator self, size_t n=1) -> SwigPyIterator"},
+	 { "SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, "SwigPyIterator_decr(SwigPyIterator self, size_t n=1) -> SwigPyIterator"},
+	 { "SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, "SwigPyIterator_distance(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t"},
+	 { "SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, "SwigPyIterator_equal(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { "SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_O, "SwigPyIterator_copy(SwigPyIterator self) -> SwigPyIterator"},
+	 { "SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_O, "SwigPyIterator_next(SwigPyIterator self) -> PyObject *"},
+	 { "SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_O, "SwigPyIterator___next__(SwigPyIterator self) -> PyObject *"},
+	 { "SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_O, "SwigPyIterator_previous(SwigPyIterator self) -> PyObject *"},
+	 { "SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, "SwigPyIterator_advance(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { "SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, "SwigPyIterator___eq__(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { "SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, "SwigPyIterator___ne__(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { "SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, "SwigPyIterator___iadd__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { "SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, "SwigPyIterator___isub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { "SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, "SwigPyIterator___add__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, "\n"
+		"SwigPyIterator___sub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator\n"
+		"SwigPyIterator___sub__(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t\n"
+		""},
 	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
-	 { "new_PostDelay", _wrap_new_PostDelay, METH_VARARGS, NULL},
-	 { "PostDelay_count", _wrap_PostDelay_count, METH_O, NULL},
-	 { "PostDelay___add__", _wrap_PostDelay___add__, METH_VARARGS, NULL},
-	 { "PostDelay___sub__", _wrap_PostDelay___sub__, METH_VARARGS, NULL},
-	 { "PostDelay___neg__", _wrap_PostDelay___neg__, METH_O, NULL},
-	 { "PostDelay___mul__", _wrap_PostDelay___mul__, METH_VARARGS, NULL},
-	 { "PostDelay___truediv__", _wrap_PostDelay___truediv__, METH_VARARGS, NULL},
-	 { "PostDelay___eq__", _wrap_PostDelay___eq__, METH_VARARGS, NULL},
-	 { "PostDelay___lt__", _wrap_PostDelay___lt__, METH_VARARGS, NULL},
-	 { "PostDelay___le__", _wrap_PostDelay___le__, METH_VARARGS, NULL},
-	 { "PostDelay___gt__", _wrap_PostDelay___gt__, METH_VARARGS, NULL},
-	 { "PostDelay___ge__", _wrap_PostDelay___ge__, METH_VARARGS, NULL},
-	 { "PostDelay___str__", _wrap_PostDelay___str__, METH_O, NULL},
-	 { "delete_PostDelay", _wrap_delete_PostDelay, METH_O, NULL},
+	 { "new_PostDelay", _wrap_new_PostDelay, METH_VARARGS, "\n"
+		"PostDelay()\n"
+		"PostDelay(PostDelay arg1)\n"
+		"new_PostDelay(unsigned short const & r) -> PostDelay\n"
+		""},
+	 { "PostDelay_count", _wrap_PostDelay_count, METH_O, "PostDelay_count(PostDelay self) -> unsigned short"},
+	 { "PostDelay___add__", _wrap_PostDelay___add__, METH_VARARGS, "\n"
+		"PostDelay___add__(PostDelay self, PostDelay rhs) -> PostDelay\n"
+		"PostDelay___add__(PostDelay self, unsigned short const & rhs) -> PostDelay\n"
+		""},
+	 { "PostDelay___sub__", _wrap_PostDelay___sub__, METH_VARARGS, "\n"
+		"PostDelay___sub__(PostDelay self, PostDelay rhs) -> PostDelay\n"
+		"PostDelay___sub__(PostDelay self, unsigned short const & rhs) -> PostDelay\n"
+		""},
+	 { "PostDelay___neg__", _wrap_PostDelay___neg__, METH_O, "PostDelay___neg__(PostDelay self) -> PostDelay"},
+	 { "PostDelay___mul__", _wrap_PostDelay___mul__, METH_VARARGS, "PostDelay___mul__(PostDelay self, unsigned short const & scale) -> PostDelay"},
+	 { "PostDelay___truediv__", _wrap_PostDelay___truediv__, METH_VARARGS, "PostDelay___truediv__(PostDelay self, unsigned short const & scale) -> PostDelay"},
+	 { "PostDelay___eq__", _wrap_PostDelay___eq__, METH_VARARGS, "\n"
+		"PostDelay___eq__(PostDelay self, PostDelay rhs) -> bool\n"
+		"PostDelay___eq__(PostDelay self, unsigned short const & rhs) -> bool\n"
+		""},
+	 { "PostDelay___lt__", _wrap_PostDelay___lt__, METH_VARARGS, "\n"
+		"PostDelay___lt__(PostDelay self, PostDelay other) -> bool\n"
+		"PostDelay___lt__(PostDelay self, unsigned short const & rhs) -> bool\n"
+		""},
+	 { "PostDelay___le__", _wrap_PostDelay___le__, METH_VARARGS, "\n"
+		"PostDelay___le__(PostDelay self, PostDelay other) -> bool\n"
+		"PostDelay___le__(PostDelay self, unsigned short const & rhs) -> bool\n"
+		""},
+	 { "PostDelay___gt__", _wrap_PostDelay___gt__, METH_VARARGS, "\n"
+		"PostDelay___gt__(PostDelay self, PostDelay other) -> bool\n"
+		"PostDelay___gt__(PostDelay self, unsigned short const & rhs) -> bool\n"
+		""},
+	 { "PostDelay___ge__", _wrap_PostDelay___ge__, METH_VARARGS, "\n"
+		"PostDelay___ge__(PostDelay self, PostDelay other) -> bool\n"
+		"PostDelay___ge__(PostDelay self, unsigned short const & rhs) -> bool\n"
+		""},
+	 { "PostDelay___str__", _wrap_PostDelay___str__, METH_O, "PostDelay___str__(PostDelay self) -> std::string"},
+	 { "delete_PostDelay", _wrap_delete_PostDelay, METH_O, "delete_PostDelay(PostDelay self)"},
 	 { "PostDelay_swigregister", PostDelay_swigregister, METH_O, NULL},
 	 { "PostDelay_swiginit", PostDelay_swiginit, METH_VARARGS, NULL},
-	 { "new_UnitIntDuration", _wrap_new_UnitIntDuration, METH_VARARGS, NULL},
-	 { "UnitIntDuration_count", _wrap_UnitIntDuration_count, METH_O, NULL},
-	 { "UnitIntDuration___add__", _wrap_UnitIntDuration___add__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___sub__", _wrap_UnitIntDuration___sub__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___neg__", _wrap_UnitIntDuration___neg__, METH_O, NULL},
-	 { "UnitIntDuration___mul__", _wrap_UnitIntDuration___mul__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___truediv__", _wrap_UnitIntDuration___truediv__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___eq__", _wrap_UnitIntDuration___eq__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___lt__", _wrap_UnitIntDuration___lt__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___le__", _wrap_UnitIntDuration___le__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___gt__", _wrap_UnitIntDuration___gt__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___ge__", _wrap_UnitIntDuration___ge__, METH_VARARGS, NULL},
-	 { "UnitIntDuration___str__", _wrap_UnitIntDuration___str__, METH_O, NULL},
-	 { "delete_UnitIntDuration", _wrap_delete_UnitIntDuration, METH_O, NULL},
+	 { "new_UnitIntDuration", _wrap_new_UnitIntDuration, METH_VARARGS, "\n"
+		"UnitIntDuration()\n"
+		"UnitIntDuration(UnitIntDuration arg1)\n"
+		"new_UnitIntDuration(int const & r) -> UnitIntDuration\n"
+		""},
+	 { "UnitIntDuration_count", _wrap_UnitIntDuration_count, METH_O, "UnitIntDuration_count(UnitIntDuration self) -> int"},
+	 { "UnitIntDuration___add__", _wrap_UnitIntDuration___add__, METH_VARARGS, "\n"
+		"UnitIntDuration___add__(UnitIntDuration self, UnitIntDuration rhs) -> UnitIntDuration\n"
+		"UnitIntDuration___add__(UnitIntDuration self, int const & rhs) -> UnitIntDuration\n"
+		""},
+	 { "UnitIntDuration___sub__", _wrap_UnitIntDuration___sub__, METH_VARARGS, "\n"
+		"UnitIntDuration___sub__(UnitIntDuration self, UnitIntDuration rhs) -> UnitIntDuration\n"
+		"UnitIntDuration___sub__(UnitIntDuration self, int const & rhs) -> UnitIntDuration\n"
+		""},
+	 { "UnitIntDuration___neg__", _wrap_UnitIntDuration___neg__, METH_O, "UnitIntDuration___neg__(UnitIntDuration self) -> UnitIntDuration"},
+	 { "UnitIntDuration___mul__", _wrap_UnitIntDuration___mul__, METH_VARARGS, "UnitIntDuration___mul__(UnitIntDuration self, int const & scale) -> UnitIntDuration"},
+	 { "UnitIntDuration___truediv__", _wrap_UnitIntDuration___truediv__, METH_VARARGS, "UnitIntDuration___truediv__(UnitIntDuration self, int const & scale) -> UnitIntDuration"},
+	 { "UnitIntDuration___eq__", _wrap_UnitIntDuration___eq__, METH_VARARGS, "\n"
+		"UnitIntDuration___eq__(UnitIntDuration self, UnitIntDuration rhs) -> bool\n"
+		"UnitIntDuration___eq__(UnitIntDuration self, int const & rhs) -> bool\n"
+		""},
+	 { "UnitIntDuration___lt__", _wrap_UnitIntDuration___lt__, METH_VARARGS, "\n"
+		"UnitIntDuration___lt__(UnitIntDuration self, UnitIntDuration other) -> bool\n"
+		"UnitIntDuration___lt__(UnitIntDuration self, int const & rhs) -> bool\n"
+		""},
+	 { "UnitIntDuration___le__", _wrap_UnitIntDuration___le__, METH_VARARGS, "\n"
+		"UnitIntDuration___le__(UnitIntDuration self, UnitIntDuration other) -> bool\n"
+		"UnitIntDuration___le__(UnitIntDuration self, int const & rhs) -> bool\n"
+		""},
+	 { "UnitIntDuration___gt__", _wrap_UnitIntDuration___gt__, METH_VARARGS, "\n"
+		"UnitIntDuration___gt__(UnitIntDuration self, UnitIntDuration other) -> bool\n"
+		"UnitIntDuration___gt__(UnitIntDuration self, int const & rhs) -> bool\n"
+		""},
+	 { "UnitIntDuration___ge__", _wrap_UnitIntDuration___ge__, METH_VARARGS, "\n"
+		"UnitIntDuration___ge__(UnitIntDuration self, UnitIntDuration other) -> bool\n"
+		"UnitIntDuration___ge__(UnitIntDuration self, int const & rhs) -> bool\n"
+		""},
+	 { "UnitIntDuration___str__", _wrap_UnitIntDuration___str__, METH_O, "UnitIntDuration___str__(UnitIntDuration self) -> std::string"},
+	 { "delete_UnitIntDuration", _wrap_delete_UnitIntDuration, METH_O, "delete_UnitIntDuration(UnitIntDuration self)"},
 	 { "UnitIntDuration_swigregister", UnitIntDuration_swigregister, METH_O, NULL},
 	 { "UnitIntDuration_swiginit", UnitIntDuration_swiginit, METH_VARARGS, NULL},
-	 { "new_UnitFloatDuration", _wrap_new_UnitFloatDuration, METH_VARARGS, NULL},
-	 { "UnitFloatDuration_count", _wrap_UnitFloatDuration_count, METH_O, NULL},
-	 { "UnitFloatDuration___add__", _wrap_UnitFloatDuration___add__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___sub__", _wrap_UnitFloatDuration___sub__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___neg__", _wrap_UnitFloatDuration___neg__, METH_O, NULL},
-	 { "UnitFloatDuration___mul__", _wrap_UnitFloatDuration___mul__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___truediv__", _wrap_UnitFloatDuration___truediv__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___eq__", _wrap_UnitFloatDuration___eq__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___lt__", _wrap_UnitFloatDuration___lt__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___le__", _wrap_UnitFloatDuration___le__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___gt__", _wrap_UnitFloatDuration___gt__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___ge__", _wrap_UnitFloatDuration___ge__, METH_VARARGS, NULL},
-	 { "UnitFloatDuration___str__", _wrap_UnitFloatDuration___str__, METH_O, NULL},
-	 { "delete_UnitFloatDuration", _wrap_delete_UnitFloatDuration, METH_O, NULL},
+	 { "new_UnitFloatDuration", _wrap_new_UnitFloatDuration, METH_VARARGS, "\n"
+		"UnitFloatDuration()\n"
+		"UnitFloatDuration(UnitFloatDuration arg1)\n"
+		"new_UnitFloatDuration(double const & r) -> UnitFloatDuration\n"
+		""},
+	 { "UnitFloatDuration_count", _wrap_UnitFloatDuration_count, METH_O, "UnitFloatDuration_count(UnitFloatDuration self) -> double"},
+	 { "UnitFloatDuration___add__", _wrap_UnitFloatDuration___add__, METH_VARARGS, "\n"
+		"UnitFloatDuration___add__(UnitFloatDuration self, UnitFloatDuration rhs) -> UnitFloatDuration\n"
+		"UnitFloatDuration___add__(UnitFloatDuration self, double const & rhs) -> UnitFloatDuration\n"
+		""},
+	 { "UnitFloatDuration___sub__", _wrap_UnitFloatDuration___sub__, METH_VARARGS, "\n"
+		"UnitFloatDuration___sub__(UnitFloatDuration self, UnitFloatDuration rhs) -> UnitFloatDuration\n"
+		"UnitFloatDuration___sub__(UnitFloatDuration self, double const & rhs) -> UnitFloatDuration\n"
+		""},
+	 { "UnitFloatDuration___neg__", _wrap_UnitFloatDuration___neg__, METH_O, "UnitFloatDuration___neg__(UnitFloatDuration self) -> UnitFloatDuration"},
+	 { "UnitFloatDuration___mul__", _wrap_UnitFloatDuration___mul__, METH_VARARGS, "UnitFloatDuration___mul__(UnitFloatDuration self, double const & scale) -> UnitFloatDuration"},
+	 { "UnitFloatDuration___truediv__", _wrap_UnitFloatDuration___truediv__, METH_VARARGS, "UnitFloatDuration___truediv__(UnitFloatDuration self, double const & scale) -> UnitFloatDuration"},
+	 { "UnitFloatDuration___eq__", _wrap_UnitFloatDuration___eq__, METH_VARARGS, "\n"
+		"UnitFloatDuration___eq__(UnitFloatDuration self, UnitFloatDuration rhs) -> bool\n"
+		"UnitFloatDuration___eq__(UnitFloatDuration self, double const & rhs) -> bool\n"
+		""},
+	 { "UnitFloatDuration___lt__", _wrap_UnitFloatDuration___lt__, METH_VARARGS, "\n"
+		"UnitFloatDuration___lt__(UnitFloatDuration self, UnitFloatDuration other) -> bool\n"
+		"UnitFloatDuration___lt__(UnitFloatDuration self, double const & rhs) -> bool\n"
+		""},
+	 { "UnitFloatDuration___le__", _wrap_UnitFloatDuration___le__, METH_VARARGS, "\n"
+		"UnitFloatDuration___le__(UnitFloatDuration self, UnitFloatDuration other) -> bool\n"
+		"UnitFloatDuration___le__(UnitFloatDuration self, double const & rhs) -> bool\n"
+		""},
+	 { "UnitFloatDuration___gt__", _wrap_UnitFloatDuration___gt__, METH_VARARGS, "\n"
+		"UnitFloatDuration___gt__(UnitFloatDuration self, UnitFloatDuration other) -> bool\n"
+		"UnitFloatDuration___gt__(UnitFloatDuration self, double const & rhs) -> bool\n"
+		""},
+	 { "UnitFloatDuration___ge__", _wrap_UnitFloatDuration___ge__, METH_VARARGS, "\n"
+		"UnitFloatDuration___ge__(UnitFloatDuration self, UnitFloatDuration other) -> bool\n"
+		"UnitFloatDuration___ge__(UnitFloatDuration self, double const & rhs) -> bool\n"
+		""},
+	 { "UnitFloatDuration___str__", _wrap_UnitFloatDuration___str__, METH_O, "UnitFloatDuration___str__(UnitFloatDuration self) -> std::string"},
+	 { "delete_UnitFloatDuration", _wrap_delete_UnitFloatDuration, METH_O, "delete_UnitFloatDuration(UnitFloatDuration self)"},
 	 { "UnitFloatDuration_swigregister", UnitFloatDuration_swigregister, METH_O, NULL},
 	 { "UnitFloatDuration_swiginit", UnitFloatDuration_swiginit, METH_VARARGS, NULL},
-	 { "new_NanoSeconds", _wrap_new_NanoSeconds, METH_VARARGS, NULL},
-	 { "NanoSeconds_count", _wrap_NanoSeconds_count, METH_O, NULL},
-	 { "NanoSeconds___add__", _wrap_NanoSeconds___add__, METH_VARARGS, NULL},
-	 { "NanoSeconds___sub__", _wrap_NanoSeconds___sub__, METH_VARARGS, NULL},
-	 { "NanoSeconds___neg__", _wrap_NanoSeconds___neg__, METH_O, NULL},
-	 { "NanoSeconds___mul__", _wrap_NanoSeconds___mul__, METH_VARARGS, NULL},
-	 { "NanoSeconds___truediv__", _wrap_NanoSeconds___truediv__, METH_VARARGS, NULL},
-	 { "NanoSeconds___eq__", _wrap_NanoSeconds___eq__, METH_VARARGS, NULL},
-	 { "NanoSeconds___lt__", _wrap_NanoSeconds___lt__, METH_VARARGS, NULL},
-	 { "NanoSeconds___le__", _wrap_NanoSeconds___le__, METH_VARARGS, NULL},
-	 { "NanoSeconds___gt__", _wrap_NanoSeconds___gt__, METH_VARARGS, NULL},
-	 { "NanoSeconds___ge__", _wrap_NanoSeconds___ge__, METH_VARARGS, NULL},
-	 { "NanoSeconds___str__", _wrap_NanoSeconds___str__, METH_O, NULL},
-	 { "delete_NanoSeconds", _wrap_delete_NanoSeconds, METH_O, NULL},
+	 { "new_NanoSeconds", _wrap_new_NanoSeconds, METH_VARARGS, "\n"
+		"NanoSeconds()\n"
+		"NanoSeconds(NanoSeconds arg1)\n"
+		"new_NanoSeconds(unsigned long long const & r) -> NanoSeconds\n"
+		""},
+	 { "NanoSeconds_count", _wrap_NanoSeconds_count, METH_O, "NanoSeconds_count(NanoSeconds self) -> unsigned long long"},
+	 { "NanoSeconds___add__", _wrap_NanoSeconds___add__, METH_VARARGS, "\n"
+		"NanoSeconds___add__(NanoSeconds self, NanoSeconds rhs) -> NanoSeconds\n"
+		"NanoSeconds___add__(NanoSeconds self, unsigned long long const & rhs) -> NanoSeconds\n"
+		""},
+	 { "NanoSeconds___sub__", _wrap_NanoSeconds___sub__, METH_VARARGS, "\n"
+		"NanoSeconds___sub__(NanoSeconds self, NanoSeconds rhs) -> NanoSeconds\n"
+		"NanoSeconds___sub__(NanoSeconds self, unsigned long long const & rhs) -> NanoSeconds\n"
+		""},
+	 { "NanoSeconds___neg__", _wrap_NanoSeconds___neg__, METH_O, "NanoSeconds___neg__(NanoSeconds self) -> NanoSeconds"},
+	 { "NanoSeconds___mul__", _wrap_NanoSeconds___mul__, METH_VARARGS, "NanoSeconds___mul__(NanoSeconds self, unsigned long long const & scale) -> NanoSeconds"},
+	 { "NanoSeconds___truediv__", _wrap_NanoSeconds___truediv__, METH_VARARGS, "NanoSeconds___truediv__(NanoSeconds self, unsigned long long const & scale) -> NanoSeconds"},
+	 { "NanoSeconds___eq__", _wrap_NanoSeconds___eq__, METH_VARARGS, "\n"
+		"NanoSeconds___eq__(NanoSeconds self, NanoSeconds rhs) -> bool\n"
+		"NanoSeconds___eq__(NanoSeconds self, unsigned long long const & rhs) -> bool\n"
+		""},
+	 { "NanoSeconds___lt__", _wrap_NanoSeconds___lt__, METH_VARARGS, "\n"
+		"NanoSeconds___lt__(NanoSeconds self, NanoSeconds other) -> bool\n"
+		"NanoSeconds___lt__(NanoSeconds self, unsigned long long const & rhs) -> bool\n"
+		""},
+	 { "NanoSeconds___le__", _wrap_NanoSeconds___le__, METH_VARARGS, "\n"
+		"NanoSeconds___le__(NanoSeconds self, NanoSeconds other) -> bool\n"
+		"NanoSeconds___le__(NanoSeconds self, unsigned long long const & rhs) -> bool\n"
+		""},
+	 { "NanoSeconds___gt__", _wrap_NanoSeconds___gt__, METH_VARARGS, "\n"
+		"NanoSeconds___gt__(NanoSeconds self, NanoSeconds other) -> bool\n"
+		"NanoSeconds___gt__(NanoSeconds self, unsigned long long const & rhs) -> bool\n"
+		""},
+	 { "NanoSeconds___ge__", _wrap_NanoSeconds___ge__, METH_VARARGS, "\n"
+		"NanoSeconds___ge__(NanoSeconds self, NanoSeconds other) -> bool\n"
+		"NanoSeconds___ge__(NanoSeconds self, unsigned long long const & rhs) -> bool\n"
+		""},
+	 { "NanoSeconds___str__", _wrap_NanoSeconds___str__, METH_O, "NanoSeconds___str__(NanoSeconds self) -> std::string"},
+	 { "delete_NanoSeconds", _wrap_delete_NanoSeconds, METH_O, "delete_NanoSeconds(NanoSeconds self)"},
 	 { "NanoSeconds_swigregister", NanoSeconds_swigregister, METH_O, NULL},
 	 { "NanoSeconds_swiginit", NanoSeconds_swiginit, METH_VARARGS, NULL},
-	 { "ByteVector_iterator", _wrap_ByteVector_iterator, METH_O, NULL},
-	 { "ByteVector___nonzero__", _wrap_ByteVector___nonzero__, METH_O, NULL},
-	 { "ByteVector___bool__", _wrap_ByteVector___bool__, METH_O, NULL},
-	 { "ByteVector___len__", _wrap_ByteVector___len__, METH_O, NULL},
-	 { "ByteVector___getslice__", _wrap_ByteVector___getslice__, METH_VARARGS, NULL},
-	 { "ByteVector___setslice__", _wrap_ByteVector___setslice__, METH_VARARGS, NULL},
-	 { "ByteVector___delslice__", _wrap_ByteVector___delslice__, METH_VARARGS, NULL},
-	 { "ByteVector___delitem__", _wrap_ByteVector___delitem__, METH_VARARGS, NULL},
-	 { "ByteVector___getitem__", _wrap_ByteVector___getitem__, METH_VARARGS, NULL},
-	 { "ByteVector___setitem__", _wrap_ByteVector___setitem__, METH_VARARGS, NULL},
-	 { "ByteVector_pop", _wrap_ByteVector_pop, METH_O, NULL},
-	 { "ByteVector_append", _wrap_ByteVector_append, METH_VARARGS, NULL},
-	 { "ByteVector_empty", _wrap_ByteVector_empty, METH_O, NULL},
-	 { "ByteVector_size", _wrap_ByteVector_size, METH_O, NULL},
-	 { "ByteVector_swap", _wrap_ByteVector_swap, METH_VARARGS, NULL},
-	 { "ByteVector_begin", _wrap_ByteVector_begin, METH_O, NULL},
-	 { "ByteVector_end", _wrap_ByteVector_end, METH_O, NULL},
-	 { "ByteVector_rbegin", _wrap_ByteVector_rbegin, METH_O, NULL},
-	 { "ByteVector_rend", _wrap_ByteVector_rend, METH_O, NULL},
-	 { "ByteVector_clear", _wrap_ByteVector_clear, METH_O, NULL},
-	 { "ByteVector_get_allocator", _wrap_ByteVector_get_allocator, METH_O, NULL},
-	 { "ByteVector_pop_back", _wrap_ByteVector_pop_back, METH_O, NULL},
-	 { "ByteVector_erase", _wrap_ByteVector_erase, METH_VARARGS, NULL},
-	 { "new_ByteVector", _wrap_new_ByteVector, METH_VARARGS, NULL},
-	 { "ByteVector_push_back", _wrap_ByteVector_push_back, METH_VARARGS, NULL},
-	 { "ByteVector_front", _wrap_ByteVector_front, METH_O, NULL},
-	 { "ByteVector_back", _wrap_ByteVector_back, METH_O, NULL},
-	 { "ByteVector_assign", _wrap_ByteVector_assign, METH_VARARGS, NULL},
-	 { "ByteVector_resize", _wrap_ByteVector_resize, METH_VARARGS, NULL},
-	 { "ByteVector_insert", _wrap_ByteVector_insert, METH_VARARGS, NULL},
-	 { "ByteVector_reserve", _wrap_ByteVector_reserve, METH_VARARGS, NULL},
-	 { "ByteVector_capacity", _wrap_ByteVector_capacity, METH_O, NULL},
-	 { "delete_ByteVector", _wrap_delete_ByteVector, METH_O, NULL},
+	 { "ByteVector_iterator", _wrap_ByteVector_iterator, METH_O, "ByteVector_iterator(ByteVector self) -> SwigPyIterator"},
+	 { "ByteVector___nonzero__", _wrap_ByteVector___nonzero__, METH_O, "ByteVector___nonzero__(ByteVector self) -> bool"},
+	 { "ByteVector___bool__", _wrap_ByteVector___bool__, METH_O, "ByteVector___bool__(ByteVector self) -> bool"},
+	 { "ByteVector___len__", _wrap_ByteVector___len__, METH_O, "ByteVector___len__(ByteVector self) -> std::vector< unsigned char >::size_type"},
+	 { "ByteVector___getslice__", _wrap_ByteVector___getslice__, METH_VARARGS, "ByteVector___getslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j) -> ByteVector"},
+	 { "ByteVector___setslice__", _wrap_ByteVector___setslice__, METH_VARARGS, "\n"
+		"ByteVector___setslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j)\n"
+		"ByteVector___setslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j, ByteVector v)\n"
+		""},
+	 { "ByteVector___delslice__", _wrap_ByteVector___delslice__, METH_VARARGS, "ByteVector___delslice__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::difference_type j)"},
+	 { "ByteVector___delitem__", _wrap_ByteVector___delitem__, METH_VARARGS, "\n"
+		"ByteVector___delitem__(ByteVector self, std::vector< unsigned char >::difference_type i)\n"
+		"ByteVector___delitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "ByteVector___getitem__", _wrap_ByteVector___getitem__, METH_VARARGS, "\n"
+		"ByteVector___getitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice) -> ByteVector\n"
+		"ByteVector___getitem__(ByteVector self, std::vector< unsigned char >::difference_type i) -> std::vector< unsigned char >::value_type const &\n"
+		""},
+	 { "ByteVector___setitem__", _wrap_ByteVector___setitem__, METH_VARARGS, "\n"
+		"ByteVector___setitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice, ByteVector v)\n"
+		"ByteVector___setitem__(ByteVector self, SWIGPY_SLICEOBJECT * slice)\n"
+		"ByteVector___setitem__(ByteVector self, std::vector< unsigned char >::difference_type i, std::vector< unsigned char >::value_type const & x)\n"
+		""},
+	 { "ByteVector_pop", _wrap_ByteVector_pop, METH_O, "ByteVector_pop(ByteVector self) -> std::vector< unsigned char >::value_type"},
+	 { "ByteVector_append", _wrap_ByteVector_append, METH_VARARGS, "ByteVector_append(ByteVector self, std::vector< unsigned char >::value_type const & x)"},
+	 { "ByteVector_empty", _wrap_ByteVector_empty, METH_O, "ByteVector_empty(ByteVector self) -> bool"},
+	 { "ByteVector_size", _wrap_ByteVector_size, METH_O, "ByteVector_size(ByteVector self) -> std::vector< unsigned char >::size_type"},
+	 { "ByteVector_swap", _wrap_ByteVector_swap, METH_VARARGS, "ByteVector_swap(ByteVector self, ByteVector v)"},
+	 { "ByteVector_begin", _wrap_ByteVector_begin, METH_O, "ByteVector_begin(ByteVector self) -> std::vector< unsigned char >::iterator"},
+	 { "ByteVector_end", _wrap_ByteVector_end, METH_O, "ByteVector_end(ByteVector self) -> std::vector< unsigned char >::iterator"},
+	 { "ByteVector_rbegin", _wrap_ByteVector_rbegin, METH_O, "ByteVector_rbegin(ByteVector self) -> std::vector< unsigned char >::reverse_iterator"},
+	 { "ByteVector_rend", _wrap_ByteVector_rend, METH_O, "ByteVector_rend(ByteVector self) -> std::vector< unsigned char >::reverse_iterator"},
+	 { "ByteVector_clear", _wrap_ByteVector_clear, METH_O, "ByteVector_clear(ByteVector self)"},
+	 { "ByteVector_get_allocator", _wrap_ByteVector_get_allocator, METH_O, "ByteVector_get_allocator(ByteVector self) -> std::vector< unsigned char >::allocator_type"},
+	 { "ByteVector_pop_back", _wrap_ByteVector_pop_back, METH_O, "ByteVector_pop_back(ByteVector self)"},
+	 { "ByteVector_erase", _wrap_ByteVector_erase, METH_VARARGS, "\n"
+		"ByteVector_erase(ByteVector self, std::vector< unsigned char >::iterator pos) -> std::vector< unsigned char >::iterator\n"
+		"ByteVector_erase(ByteVector self, std::vector< unsigned char >::iterator first, std::vector< unsigned char >::iterator last) -> std::vector< unsigned char >::iterator\n"
+		""},
+	 { "new_ByteVector", _wrap_new_ByteVector, METH_VARARGS, "\n"
+		"ByteVector()\n"
+		"ByteVector(ByteVector other)\n"
+		"ByteVector(std::vector< unsigned char >::size_type size)\n"
+		"new_ByteVector(std::vector< unsigned char >::size_type size, std::vector< unsigned char >::value_type const & value) -> ByteVector\n"
+		""},
+	 { "ByteVector_push_back", _wrap_ByteVector_push_back, METH_VARARGS, "ByteVector_push_back(ByteVector self, std::vector< unsigned char >::value_type const & x)"},
+	 { "ByteVector_front", _wrap_ByteVector_front, METH_O, "ByteVector_front(ByteVector self) -> std::vector< unsigned char >::value_type const &"},
+	 { "ByteVector_back", _wrap_ByteVector_back, METH_O, "ByteVector_back(ByteVector self) -> std::vector< unsigned char >::value_type const &"},
+	 { "ByteVector_assign", _wrap_ByteVector_assign, METH_VARARGS, "ByteVector_assign(ByteVector self, std::vector< unsigned char >::size_type n, std::vector< unsigned char >::value_type const & x)"},
+	 { "ByteVector_resize", _wrap_ByteVector_resize, METH_VARARGS, "\n"
+		"ByteVector_resize(ByteVector self, std::vector< unsigned char >::size_type new_size)\n"
+		"ByteVector_resize(ByteVector self, std::vector< unsigned char >::size_type new_size, std::vector< unsigned char >::value_type const & x)\n"
+		""},
+	 { "ByteVector_insert", _wrap_ByteVector_insert, METH_VARARGS, "\n"
+		"ByteVector_insert(ByteVector self, std::vector< unsigned char >::iterator pos, std::vector< unsigned char >::value_type const & x) -> std::vector< unsigned char >::iterator\n"
+		"ByteVector_insert(ByteVector self, std::vector< unsigned char >::iterator pos, std::vector< unsigned char >::size_type n, std::vector< unsigned char >::value_type const & x)\n"
+		""},
+	 { "ByteVector_reserve", _wrap_ByteVector_reserve, METH_VARARGS, "ByteVector_reserve(ByteVector self, std::vector< unsigned char >::size_type n)"},
+	 { "ByteVector_capacity", _wrap_ByteVector_capacity, METH_O, "ByteVector_capacity(ByteVector self) -> std::vector< unsigned char >::size_type"},
+	 { "delete_ByteVector", _wrap_delete_ByteVector, METH_O, "delete_ByteVector(ByteVector self)"},
 	 { "ByteVector_swigregister", ByteVector_swigregister, METH_O, NULL},
 	 { "ByteVector_swiginit", ByteVector_swiginit, METH_VARARGS, NULL},
-	 { "UUID_iterator", _wrap_UUID_iterator, METH_O, NULL},
-	 { "UUID___nonzero__", _wrap_UUID___nonzero__, METH_O, NULL},
-	 { "UUID___bool__", _wrap_UUID___bool__, METH_O, NULL},
-	 { "UUID___len__", _wrap_UUID___len__, METH_O, NULL},
-	 { "UUID___getslice__", _wrap_UUID___getslice__, METH_VARARGS, NULL},
-	 { "UUID___setslice__", _wrap_UUID___setslice__, METH_VARARGS, NULL},
-	 { "UUID___delslice__", _wrap_UUID___delslice__, METH_VARARGS, NULL},
-	 { "UUID___delitem__", _wrap_UUID___delitem__, METH_VARARGS, NULL},
-	 { "UUID___getitem__", _wrap_UUID___getitem__, METH_VARARGS, NULL},
-	 { "UUID___setitem__", _wrap_UUID___setitem__, METH_VARARGS, NULL},
-	 { "new_UUID", _wrap_new_UUID, METH_VARARGS, NULL},
-	 { "UUID_empty", _wrap_UUID_empty, METH_O, NULL},
-	 { "UUID_size", _wrap_UUID_size, METH_O, NULL},
-	 { "UUID_swap", _wrap_UUID_swap, METH_VARARGS, NULL},
-	 { "UUID_begin", _wrap_UUID_begin, METH_O, NULL},
-	 { "UUID_end", _wrap_UUID_end, METH_O, NULL},
-	 { "UUID_rbegin", _wrap_UUID_rbegin, METH_O, NULL},
-	 { "UUID_rend", _wrap_UUID_rend, METH_O, NULL},
-	 { "UUID_front", _wrap_UUID_front, METH_O, NULL},
-	 { "UUID_back", _wrap_UUID_back, METH_O, NULL},
-	 { "UUID_fill", _wrap_UUID_fill, METH_VARARGS, NULL},
-	 { "UUID___str__", _wrap_UUID___str__, METH_O, NULL},
-	 { "delete_UUID", _wrap_delete_UUID, METH_O, NULL},
+	 { "StringVector_iterator", _wrap_StringVector_iterator, METH_O, "StringVector_iterator(StringVector self) -> SwigPyIterator"},
+	 { "StringVector___nonzero__", _wrap_StringVector___nonzero__, METH_O, "StringVector___nonzero__(StringVector self) -> bool"},
+	 { "StringVector___bool__", _wrap_StringVector___bool__, METH_O, "StringVector___bool__(StringVector self) -> bool"},
+	 { "StringVector___len__", _wrap_StringVector___len__, METH_O, "StringVector___len__(StringVector self) -> std::vector< std::string >::size_type"},
+	 { "StringVector___getslice__", _wrap_StringVector___getslice__, METH_VARARGS, "StringVector___getslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j) -> StringVector"},
+	 { "StringVector___setslice__", _wrap_StringVector___setslice__, METH_VARARGS, "\n"
+		"StringVector___setslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j)\n"
+		"StringVector___setslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j, StringVector v)\n"
+		""},
+	 { "StringVector___delslice__", _wrap_StringVector___delslice__, METH_VARARGS, "StringVector___delslice__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::difference_type j)"},
+	 { "StringVector___delitem__", _wrap_StringVector___delitem__, METH_VARARGS, "\n"
+		"StringVector___delitem__(StringVector self, std::vector< std::string >::difference_type i)\n"
+		"StringVector___delitem__(StringVector self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "StringVector___getitem__", _wrap_StringVector___getitem__, METH_VARARGS, "\n"
+		"StringVector___getitem__(StringVector self, SWIGPY_SLICEOBJECT * slice) -> StringVector\n"
+		"StringVector___getitem__(StringVector self, std::vector< std::string >::difference_type i) -> std::vector< std::string >::value_type const &\n"
+		""},
+	 { "StringVector___setitem__", _wrap_StringVector___setitem__, METH_VARARGS, "\n"
+		"StringVector___setitem__(StringVector self, SWIGPY_SLICEOBJECT * slice, StringVector v)\n"
+		"StringVector___setitem__(StringVector self, SWIGPY_SLICEOBJECT * slice)\n"
+		"StringVector___setitem__(StringVector self, std::vector< std::string >::difference_type i, std::vector< std::string >::value_type const & x)\n"
+		""},
+	 { "StringVector_pop", _wrap_StringVector_pop, METH_O, "StringVector_pop(StringVector self) -> std::vector< std::string >::value_type"},
+	 { "StringVector_append", _wrap_StringVector_append, METH_VARARGS, "StringVector_append(StringVector self, std::vector< std::string >::value_type const & x)"},
+	 { "StringVector_empty", _wrap_StringVector_empty, METH_O, "StringVector_empty(StringVector self) -> bool"},
+	 { "StringVector_size", _wrap_StringVector_size, METH_O, "StringVector_size(StringVector self) -> std::vector< std::string >::size_type"},
+	 { "StringVector_swap", _wrap_StringVector_swap, METH_VARARGS, "StringVector_swap(StringVector self, StringVector v)"},
+	 { "StringVector_begin", _wrap_StringVector_begin, METH_O, "StringVector_begin(StringVector self) -> std::vector< std::string >::iterator"},
+	 { "StringVector_end", _wrap_StringVector_end, METH_O, "StringVector_end(StringVector self) -> std::vector< std::string >::iterator"},
+	 { "StringVector_rbegin", _wrap_StringVector_rbegin, METH_O, "StringVector_rbegin(StringVector self) -> std::vector< std::string >::reverse_iterator"},
+	 { "StringVector_rend", _wrap_StringVector_rend, METH_O, "StringVector_rend(StringVector self) -> std::vector< std::string >::reverse_iterator"},
+	 { "StringVector_clear", _wrap_StringVector_clear, METH_O, "StringVector_clear(StringVector self)"},
+	 { "StringVector_get_allocator", _wrap_StringVector_get_allocator, METH_O, "StringVector_get_allocator(StringVector self) -> std::vector< std::string >::allocator_type"},
+	 { "StringVector_pop_back", _wrap_StringVector_pop_back, METH_O, "StringVector_pop_back(StringVector self)"},
+	 { "StringVector_erase", _wrap_StringVector_erase, METH_VARARGS, "\n"
+		"StringVector_erase(StringVector self, std::vector< std::string >::iterator pos) -> std::vector< std::string >::iterator\n"
+		"StringVector_erase(StringVector self, std::vector< std::string >::iterator first, std::vector< std::string >::iterator last) -> std::vector< std::string >::iterator\n"
+		""},
+	 { "new_StringVector", _wrap_new_StringVector, METH_VARARGS, "\n"
+		"StringVector()\n"
+		"StringVector(StringVector other)\n"
+		"StringVector(std::vector< std::string >::size_type size)\n"
+		"new_StringVector(std::vector< std::string >::size_type size, std::vector< std::string >::value_type const & value) -> StringVector\n"
+		""},
+	 { "StringVector_push_back", _wrap_StringVector_push_back, METH_VARARGS, "StringVector_push_back(StringVector self, std::vector< std::string >::value_type const & x)"},
+	 { "StringVector_front", _wrap_StringVector_front, METH_O, "StringVector_front(StringVector self) -> std::vector< std::string >::value_type const &"},
+	 { "StringVector_back", _wrap_StringVector_back, METH_O, "StringVector_back(StringVector self) -> std::vector< std::string >::value_type const &"},
+	 { "StringVector_assign", _wrap_StringVector_assign, METH_VARARGS, "StringVector_assign(StringVector self, std::vector< std::string >::size_type n, std::vector< std::string >::value_type const & x)"},
+	 { "StringVector_resize", _wrap_StringVector_resize, METH_VARARGS, "\n"
+		"StringVector_resize(StringVector self, std::vector< std::string >::size_type new_size)\n"
+		"StringVector_resize(StringVector self, std::vector< std::string >::size_type new_size, std::vector< std::string >::value_type const & x)\n"
+		""},
+	 { "StringVector_insert", _wrap_StringVector_insert, METH_VARARGS, "\n"
+		"StringVector_insert(StringVector self, std::vector< std::string >::iterator pos, std::vector< std::string >::value_type const & x) -> std::vector< std::string >::iterator\n"
+		"StringVector_insert(StringVector self, std::vector< std::string >::iterator pos, std::vector< std::string >::size_type n, std::vector< std::string >::value_type const & x)\n"
+		""},
+	 { "StringVector_reserve", _wrap_StringVector_reserve, METH_VARARGS, "StringVector_reserve(StringVector self, std::vector< std::string >::size_type n)"},
+	 { "StringVector_capacity", _wrap_StringVector_capacity, METH_O, "StringVector_capacity(StringVector self) -> std::vector< std::string >::size_type"},
+	 { "delete_StringVector", _wrap_delete_StringVector, METH_O, "delete_StringVector(StringVector self)"},
+	 { "StringVector_swigregister", StringVector_swigregister, METH_O, NULL},
+	 { "StringVector_swiginit", StringVector_swiginit, METH_VARARGS, NULL},
+	 { "UUID_iterator", _wrap_UUID_iterator, METH_O, "UUID_iterator(UUID self) -> SwigPyIterator"},
+	 { "UUID___nonzero__", _wrap_UUID___nonzero__, METH_O, "UUID___nonzero__(UUID self) -> bool"},
+	 { "UUID___bool__", _wrap_UUID___bool__, METH_O, "UUID___bool__(UUID self) -> bool"},
+	 { "UUID___len__", _wrap_UUID___len__, METH_O, "UUID___len__(UUID self) -> std::array< unsigned char,16 >::size_type"},
+	 { "UUID___getslice__", _wrap_UUID___getslice__, METH_VARARGS, "UUID___getslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j) -> UUID"},
+	 { "UUID___setslice__", _wrap_UUID___setslice__, METH_VARARGS, "\n"
+		"UUID___setslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j)\n"
+		"UUID___setslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j, UUID v)\n"
+		""},
+	 { "UUID___delslice__", _wrap_UUID___delslice__, METH_VARARGS, "UUID___delslice__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::difference_type j)"},
+	 { "UUID___delitem__", _wrap_UUID___delitem__, METH_VARARGS, "\n"
+		"UUID___delitem__(UUID self, std::array< unsigned char,16 >::difference_type i)\n"
+		"UUID___delitem__(UUID self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "UUID___getitem__", _wrap_UUID___getitem__, METH_VARARGS, "\n"
+		"UUID___getitem__(UUID self, SWIGPY_SLICEOBJECT * slice) -> UUID\n"
+		"UUID___getitem__(UUID self, std::array< unsigned char,16 >::difference_type i) -> std::array< unsigned char,16 >::value_type const &\n"
+		""},
+	 { "UUID___setitem__", _wrap_UUID___setitem__, METH_VARARGS, "\n"
+		"UUID___setitem__(UUID self, SWIGPY_SLICEOBJECT * slice, UUID v)\n"
+		"UUID___setitem__(UUID self, SWIGPY_SLICEOBJECT * slice)\n"
+		"UUID___setitem__(UUID self, std::array< unsigned char,16 >::difference_type i, std::array< unsigned char,16 >::value_type const & x)\n"
+		""},
+	 { "new_UUID", _wrap_new_UUID, METH_VARARGS, "\n"
+		"UUID()\n"
+		"new_UUID(UUID other) -> UUID\n"
+		""},
+	 { "UUID_empty", _wrap_UUID_empty, METH_O, "UUID_empty(UUID self) -> bool"},
+	 { "UUID_size", _wrap_UUID_size, METH_O, "UUID_size(UUID self) -> std::array< unsigned char,16 >::size_type"},
+	 { "UUID_swap", _wrap_UUID_swap, METH_VARARGS, "UUID_swap(UUID self, UUID v)"},
+	 { "UUID_begin", _wrap_UUID_begin, METH_O, "UUID_begin(UUID self) -> std::array< unsigned char,16 >::iterator"},
+	 { "UUID_end", _wrap_UUID_end, METH_O, "UUID_end(UUID self) -> std::array< unsigned char,16 >::iterator"},
+	 { "UUID_rbegin", _wrap_UUID_rbegin, METH_O, "UUID_rbegin(UUID self) -> std::array< unsigned char,16 >::reverse_iterator"},
+	 { "UUID_rend", _wrap_UUID_rend, METH_O, "UUID_rend(UUID self) -> std::array< unsigned char,16 >::reverse_iterator"},
+	 { "UUID_front", _wrap_UUID_front, METH_O, "UUID_front(UUID self) -> std::array< unsigned char,16 >::value_type const &"},
+	 { "UUID_back", _wrap_UUID_back, METH_O, "UUID_back(UUID self) -> std::array< unsigned char,16 >::value_type const &"},
+	 { "UUID_fill", _wrap_UUID_fill, METH_VARARGS, "UUID_fill(UUID self, std::array< unsigned char,16 >::value_type const & u)"},
+	 { "UUID___str__", _wrap_UUID___str__, METH_O, "UUID___str__(UUID self) -> std::string"},
+	 { "delete_UUID", _wrap_delete_UUID, METH_O, "delete_UUID(UUID self)"},
 	 { "UUID_swigregister", UUID_swigregister, METH_O, NULL},
 	 { "UUID_swiginit", UUID_swiginit, METH_VARARGS, NULL},
-	 { "VelGain_iterator", _wrap_VelGain_iterator, METH_O, NULL},
-	 { "VelGain___nonzero__", _wrap_VelGain___nonzero__, METH_O, NULL},
-	 { "VelGain___bool__", _wrap_VelGain___bool__, METH_O, NULL},
-	 { "VelGain___len__", _wrap_VelGain___len__, METH_O, NULL},
-	 { "VelGain___getslice__", _wrap_VelGain___getslice__, METH_VARARGS, NULL},
-	 { "VelGain___setslice__", _wrap_VelGain___setslice__, METH_VARARGS, NULL},
-	 { "VelGain___delslice__", _wrap_VelGain___delslice__, METH_VARARGS, NULL},
-	 { "VelGain___delitem__", _wrap_VelGain___delitem__, METH_VARARGS, NULL},
-	 { "VelGain___getitem__", _wrap_VelGain___getitem__, METH_VARARGS, NULL},
-	 { "VelGain___setitem__", _wrap_VelGain___setitem__, METH_VARARGS, NULL},
-	 { "new_VelGain", _wrap_new_VelGain, METH_VARARGS, NULL},
-	 { "VelGain_empty", _wrap_VelGain_empty, METH_O, NULL},
-	 { "VelGain_size", _wrap_VelGain_size, METH_O, NULL},
-	 { "VelGain_swap", _wrap_VelGain_swap, METH_VARARGS, NULL},
-	 { "VelGain_begin", _wrap_VelGain_begin, METH_O, NULL},
-	 { "VelGain_end", _wrap_VelGain_end, METH_O, NULL},
-	 { "VelGain_rbegin", _wrap_VelGain_rbegin, METH_O, NULL},
-	 { "VelGain_rend", _wrap_VelGain_rend, METH_O, NULL},
-	 { "VelGain_front", _wrap_VelGain_front, METH_O, NULL},
-	 { "VelGain_back", _wrap_VelGain_back, METH_O, NULL},
-	 { "VelGain_fill", _wrap_VelGain_fill, METH_VARARGS, NULL},
-	 { "delete_VelGain", _wrap_delete_VelGain, METH_O, NULL},
+	 { "VelGain_iterator", _wrap_VelGain_iterator, METH_O, "VelGain_iterator(VelGain self) -> SwigPyIterator"},
+	 { "VelGain___nonzero__", _wrap_VelGain___nonzero__, METH_O, "VelGain___nonzero__(VelGain self) -> bool"},
+	 { "VelGain___bool__", _wrap_VelGain___bool__, METH_O, "VelGain___bool__(VelGain self) -> bool"},
+	 { "VelGain___len__", _wrap_VelGain___len__, METH_O, "VelGain___len__(VelGain self) -> std::array< short,2 >::size_type"},
+	 { "VelGain___getslice__", _wrap_VelGain___getslice__, METH_VARARGS, "VelGain___getslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j) -> VelGain"},
+	 { "VelGain___setslice__", _wrap_VelGain___setslice__, METH_VARARGS, "\n"
+		"VelGain___setslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j)\n"
+		"VelGain___setslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j, VelGain v)\n"
+		""},
+	 { "VelGain___delslice__", _wrap_VelGain___delslice__, METH_VARARGS, "VelGain___delslice__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::difference_type j)"},
+	 { "VelGain___delitem__", _wrap_VelGain___delitem__, METH_VARARGS, "\n"
+		"VelGain___delitem__(VelGain self, std::array< short,2 >::difference_type i)\n"
+		"VelGain___delitem__(VelGain self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "VelGain___getitem__", _wrap_VelGain___getitem__, METH_VARARGS, "\n"
+		"VelGain___getitem__(VelGain self, SWIGPY_SLICEOBJECT * slice) -> VelGain\n"
+		"VelGain___getitem__(VelGain self, std::array< short,2 >::difference_type i) -> std::array< short,2 >::value_type const &\n"
+		""},
+	 { "VelGain___setitem__", _wrap_VelGain___setitem__, METH_VARARGS, "\n"
+		"VelGain___setitem__(VelGain self, SWIGPY_SLICEOBJECT * slice, VelGain v)\n"
+		"VelGain___setitem__(VelGain self, SWIGPY_SLICEOBJECT * slice)\n"
+		"VelGain___setitem__(VelGain self, std::array< short,2 >::difference_type i, std::array< short,2 >::value_type const & x)\n"
+		""},
+	 { "new_VelGain", _wrap_new_VelGain, METH_VARARGS, "\n"
+		"VelGain()\n"
+		"new_VelGain(VelGain other) -> VelGain\n"
+		""},
+	 { "VelGain_empty", _wrap_VelGain_empty, METH_O, "VelGain_empty(VelGain self) -> bool"},
+	 { "VelGain_size", _wrap_VelGain_size, METH_O, "VelGain_size(VelGain self) -> std::array< short,2 >::size_type"},
+	 { "VelGain_swap", _wrap_VelGain_swap, METH_VARARGS, "VelGain_swap(VelGain self, VelGain v)"},
+	 { "VelGain_begin", _wrap_VelGain_begin, METH_O, "VelGain_begin(VelGain self) -> std::array< short,2 >::iterator"},
+	 { "VelGain_end", _wrap_VelGain_end, METH_O, "VelGain_end(VelGain self) -> std::array< short,2 >::iterator"},
+	 { "VelGain_rbegin", _wrap_VelGain_rbegin, METH_O, "VelGain_rbegin(VelGain self) -> std::array< short,2 >::reverse_iterator"},
+	 { "VelGain_rend", _wrap_VelGain_rend, METH_O, "VelGain_rend(VelGain self) -> std::array< short,2 >::reverse_iterator"},
+	 { "VelGain_front", _wrap_VelGain_front, METH_O, "VelGain_front(VelGain self) -> std::array< short,2 >::value_type const &"},
+	 { "VelGain_back", _wrap_VelGain_back, METH_O, "VelGain_back(VelGain self) -> std::array< short,2 >::value_type const &"},
+	 { "VelGain_fill", _wrap_VelGain_fill, METH_VARARGS, "VelGain_fill(VelGain self, std::array< short,2 >::value_type const & u)"},
+	 { "delete_VelGain", _wrap_delete_VelGain, METH_O, "delete_VelGain(VelGain self)"},
 	 { "VelGain_swigregister", VelGain_swigregister, METH_O, NULL},
 	 { "VelGain_swiginit", VelGain_swiginit, METH_VARARGS, NULL},
-	 { "UUID_Stream", _wrap_UUID_Stream, METH_VARARGS, NULL},
-	 { "AnalogData_iterator", _wrap_AnalogData_iterator, METH_O, NULL},
-	 { "AnalogData___nonzero__", _wrap_AnalogData___nonzero__, METH_O, NULL},
-	 { "AnalogData___bool__", _wrap_AnalogData___bool__, METH_O, NULL},
-	 { "AnalogData___len__", _wrap_AnalogData___len__, METH_O, NULL},
-	 { "AnalogData___getitem__", _wrap_AnalogData___getitem__, METH_VARARGS, NULL},
-	 { "AnalogData___delitem__", _wrap_AnalogData___delitem__, METH_VARARGS, NULL},
-	 { "AnalogData_has_key", _wrap_AnalogData_has_key, METH_VARARGS, NULL},
-	 { "AnalogData_keys", _wrap_AnalogData_keys, METH_O, NULL},
-	 { "AnalogData_values", _wrap_AnalogData_values, METH_O, NULL},
-	 { "AnalogData_items", _wrap_AnalogData_items, METH_O, NULL},
-	 { "AnalogData___contains__", _wrap_AnalogData___contains__, METH_VARARGS, NULL},
-	 { "AnalogData_key_iterator", _wrap_AnalogData_key_iterator, METH_O, NULL},
-	 { "AnalogData_value_iterator", _wrap_AnalogData_value_iterator, METH_O, NULL},
-	 { "AnalogData___setitem__", _wrap_AnalogData___setitem__, METH_VARARGS, NULL},
-	 { "AnalogData_asdict", _wrap_AnalogData_asdict, METH_O, NULL},
-	 { "new_AnalogData", _wrap_new_AnalogData, METH_VARARGS, NULL},
-	 { "AnalogData_empty", _wrap_AnalogData_empty, METH_O, NULL},
-	 { "AnalogData_size", _wrap_AnalogData_size, METH_O, NULL},
-	 { "AnalogData_swap", _wrap_AnalogData_swap, METH_VARARGS, NULL},
-	 { "AnalogData_begin", _wrap_AnalogData_begin, METH_O, NULL},
-	 { "AnalogData_end", _wrap_AnalogData_end, METH_O, NULL},
-	 { "AnalogData_rbegin", _wrap_AnalogData_rbegin, METH_O, NULL},
-	 { "AnalogData_rend", _wrap_AnalogData_rend, METH_O, NULL},
-	 { "AnalogData_clear", _wrap_AnalogData_clear, METH_O, NULL},
-	 { "AnalogData_get_allocator", _wrap_AnalogData_get_allocator, METH_O, NULL},
-	 { "AnalogData_count", _wrap_AnalogData_count, METH_VARARGS, NULL},
-	 { "AnalogData_erase", _wrap_AnalogData_erase, METH_VARARGS, NULL},
-	 { "AnalogData_find", _wrap_AnalogData_find, METH_VARARGS, NULL},
-	 { "AnalogData_lower_bound", _wrap_AnalogData_lower_bound, METH_VARARGS, NULL},
-	 { "AnalogData_upper_bound", _wrap_AnalogData_upper_bound, METH_VARARGS, NULL},
-	 { "delete_AnalogData", _wrap_delete_AnalogData, METH_O, NULL},
+	 { "UUID_Stream", _wrap_UUID_Stream, METH_VARARGS, "UUID_Stream(std::ostream & stream, UUID uuid) -> std::ostream &"},
+	 { "AnalogData_iterator", _wrap_AnalogData_iterator, METH_O, "AnalogData_iterator(AnalogData self) -> SwigPyIterator"},
+	 { "AnalogData___nonzero__", _wrap_AnalogData___nonzero__, METH_O, "AnalogData___nonzero__(AnalogData self) -> bool"},
+	 { "AnalogData___bool__", _wrap_AnalogData___bool__, METH_O, "AnalogData___bool__(AnalogData self) -> bool"},
+	 { "AnalogData___len__", _wrap_AnalogData___len__, METH_O, "AnalogData___len__(AnalogData self) -> std::map< int,iMS::Percent >::size_type"},
+	 { "AnalogData___getitem__", _wrap_AnalogData___getitem__, METH_VARARGS, "AnalogData___getitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> Percent"},
+	 { "AnalogData___delitem__", _wrap_AnalogData___delitem__, METH_VARARGS, "AnalogData___delitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key)"},
+	 { "AnalogData_has_key", _wrap_AnalogData_has_key, METH_VARARGS, "AnalogData_has_key(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> bool"},
+	 { "AnalogData_keys", _wrap_AnalogData_keys, METH_O, "AnalogData_keys(AnalogData self) -> PyObject *"},
+	 { "AnalogData_values", _wrap_AnalogData_values, METH_O, "AnalogData_values(AnalogData self) -> PyObject *"},
+	 { "AnalogData_items", _wrap_AnalogData_items, METH_O, "AnalogData_items(AnalogData self) -> PyObject *"},
+	 { "AnalogData___contains__", _wrap_AnalogData___contains__, METH_VARARGS, "AnalogData___contains__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key) -> bool"},
+	 { "AnalogData_key_iterator", _wrap_AnalogData_key_iterator, METH_O, "AnalogData_key_iterator(AnalogData self) -> SwigPyIterator"},
+	 { "AnalogData_value_iterator", _wrap_AnalogData_value_iterator, METH_O, "AnalogData_value_iterator(AnalogData self) -> SwigPyIterator"},
+	 { "AnalogData___setitem__", _wrap_AnalogData___setitem__, METH_VARARGS, "\n"
+		"AnalogData___setitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key)\n"
+		"AnalogData___setitem__(AnalogData self, std::map< int,iMS::Percent >::key_type const & key, Percent x)\n"
+		""},
+	 { "AnalogData_asdict", _wrap_AnalogData_asdict, METH_O, "AnalogData_asdict(AnalogData self) -> PyObject *"},
+	 { "new_AnalogData", _wrap_new_AnalogData, METH_VARARGS, "\n"
+		"AnalogData(std::less< int > const & other)\n"
+		"AnalogData()\n"
+		"new_AnalogData(AnalogData other) -> AnalogData\n"
+		""},
+	 { "AnalogData_empty", _wrap_AnalogData_empty, METH_O, "AnalogData_empty(AnalogData self) -> bool"},
+	 { "AnalogData_size", _wrap_AnalogData_size, METH_O, "AnalogData_size(AnalogData self) -> std::map< int,iMS::Percent >::size_type"},
+	 { "AnalogData_swap", _wrap_AnalogData_swap, METH_VARARGS, "AnalogData_swap(AnalogData self, AnalogData v)"},
+	 { "AnalogData_begin", _wrap_AnalogData_begin, METH_O, "AnalogData_begin(AnalogData self) -> std::map< int,iMS::Percent >::iterator"},
+	 { "AnalogData_end", _wrap_AnalogData_end, METH_O, "AnalogData_end(AnalogData self) -> std::map< int,iMS::Percent >::iterator"},
+	 { "AnalogData_rbegin", _wrap_AnalogData_rbegin, METH_O, "AnalogData_rbegin(AnalogData self) -> std::map< int,iMS::Percent >::reverse_iterator"},
+	 { "AnalogData_rend", _wrap_AnalogData_rend, METH_O, "AnalogData_rend(AnalogData self) -> std::map< int,iMS::Percent >::reverse_iterator"},
+	 { "AnalogData_clear", _wrap_AnalogData_clear, METH_O, "AnalogData_clear(AnalogData self)"},
+	 { "AnalogData_get_allocator", _wrap_AnalogData_get_allocator, METH_O, "AnalogData_get_allocator(AnalogData self) -> std::map< int,iMS::Percent >::allocator_type"},
+	 { "AnalogData_count", _wrap_AnalogData_count, METH_VARARGS, "AnalogData_count(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::size_type"},
+	 { "AnalogData_erase", _wrap_AnalogData_erase, METH_VARARGS, "\n"
+		"AnalogData_erase(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::size_type\n"
+		"AnalogData_erase(AnalogData self, std::map< int,iMS::Percent >::iterator position)\n"
+		"AnalogData_erase(AnalogData self, std::map< int,iMS::Percent >::iterator first, std::map< int,iMS::Percent >::iterator last)\n"
+		""},
+	 { "AnalogData_find", _wrap_AnalogData_find, METH_VARARGS, "AnalogData_find(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"},
+	 { "AnalogData_lower_bound", _wrap_AnalogData_lower_bound, METH_VARARGS, "AnalogData_lower_bound(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"},
+	 { "AnalogData_upper_bound", _wrap_AnalogData_upper_bound, METH_VARARGS, "AnalogData_upper_bound(AnalogData self, std::map< int,iMS::Percent >::key_type const & x) -> std::map< int,iMS::Percent >::iterator"},
+	 { "delete_AnalogData", _wrap_delete_AnalogData, METH_O, "delete_AnalogData(AnalogData self)"},
 	 { "AnalogData_swigregister", AnalogData_swigregister, METH_O, NULL},
 	 { "AnalogData_swiginit", AnalogData_swiginit, METH_VARARGS, NULL},
-	 { "SeqEntry_Stream", _wrap_SeqEntry_Stream, METH_VARARGS, NULL},
-	 { "__lshift__", _wrap___lshift__, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_begin", _wrap_ListBase_SequenceEntry_begin, METH_O, NULL},
-	 { "ListBase_SequenceEntry_end", _wrap_ListBase_SequenceEntry_end, METH_O, NULL},
-	 { "ListBase_SequenceEntry_cbegin", _wrap_ListBase_SequenceEntry_cbegin, METH_O, NULL},
-	 { "ListBase_SequenceEntry_cend", _wrap_ListBase_SequenceEntry_cend, METH_O, NULL},
-	 { "ListBase_SequenceEntry___getitem__", _wrap_ListBase_SequenceEntry___getitem__, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry___setitem__", _wrap_ListBase_SequenceEntry___setitem__, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry___len__", _wrap_ListBase_SequenceEntry___len__, METH_O, NULL},
-	 { "ListBase_SequenceEntry___bool__", _wrap_ListBase_SequenceEntry___bool__, METH_O, NULL},
-	 { "ListBase_SequenceEntry_append", _wrap_ListBase_SequenceEntry_append, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_pop", _wrap_ListBase_SequenceEntry_pop, METH_O, NULL},
-	 { "ListBase_SequenceEntry___contains__", _wrap_ListBase_SequenceEntry___contains__, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry___str__", _wrap_ListBase_SequenceEntry___str__, METH_O, NULL},
-	 { "new_ListBase_SequenceEntry", _wrap_new_ListBase_SequenceEntry, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_assign", _wrap_ListBase_SequenceEntry_assign, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_resize", _wrap_ListBase_SequenceEntry_resize, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_clear", _wrap_ListBase_SequenceEntry_clear, METH_O, NULL},
-	 { "ListBase_SequenceEntry_push_back", _wrap_ListBase_SequenceEntry_push_back, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_pop_back", _wrap_ListBase_SequenceEntry_pop_back, METH_O, NULL},
-	 { "ListBase_SequenceEntry_push_front", _wrap_ListBase_SequenceEntry_push_front, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_pop_front", _wrap_ListBase_SequenceEntry_pop_front, METH_O, NULL},
-	 { "ListBase_SequenceEntry_empty", _wrap_ListBase_SequenceEntry_empty, METH_O, NULL},
-	 { "ListBase_SequenceEntry_size", _wrap_ListBase_SequenceEntry_size, METH_O, NULL},
-	 { "ListBase_SequenceEntry_GetUUID_get", _wrap_ListBase_SequenceEntry_GetUUID_get, METH_O, NULL},
-	 { "ListBase_SequenceEntry_Name_set", _wrap_ListBase_SequenceEntry_Name_set, METH_VARARGS, NULL},
-	 { "ListBase_SequenceEntry_Name_get", _wrap_ListBase_SequenceEntry_Name_get, METH_O, NULL},
-	 { "ListBase_SequenceEntry_ModifiedTimeFormat_get", _wrap_ListBase_SequenceEntry_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_ListBase_SequenceEntry", _wrap_delete_ListBase_SequenceEntry, METH_O, NULL},
+	 { "AnalogDataStr_iterator", _wrap_AnalogDataStr_iterator, METH_O, "AnalogDataStr_iterator(AnalogDataStr self) -> SwigPyIterator"},
+	 { "AnalogDataStr___nonzero__", _wrap_AnalogDataStr___nonzero__, METH_O, "AnalogDataStr___nonzero__(AnalogDataStr self) -> bool"},
+	 { "AnalogDataStr___bool__", _wrap_AnalogDataStr___bool__, METH_O, "AnalogDataStr___bool__(AnalogDataStr self) -> bool"},
+	 { "AnalogDataStr___len__", _wrap_AnalogDataStr___len__, METH_O, "AnalogDataStr___len__(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::size_type"},
+	 { "AnalogDataStr___getitem__", _wrap_AnalogDataStr___getitem__, METH_VARARGS, "AnalogDataStr___getitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> Percent"},
+	 { "AnalogDataStr___delitem__", _wrap_AnalogDataStr___delitem__, METH_VARARGS, "AnalogDataStr___delitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key)"},
+	 { "AnalogDataStr_has_key", _wrap_AnalogDataStr_has_key, METH_VARARGS, "AnalogDataStr_has_key(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> bool"},
+	 { "AnalogDataStr_keys", _wrap_AnalogDataStr_keys, METH_O, "AnalogDataStr_keys(AnalogDataStr self) -> PyObject *"},
+	 { "AnalogDataStr_values", _wrap_AnalogDataStr_values, METH_O, "AnalogDataStr_values(AnalogDataStr self) -> PyObject *"},
+	 { "AnalogDataStr_items", _wrap_AnalogDataStr_items, METH_O, "AnalogDataStr_items(AnalogDataStr self) -> PyObject *"},
+	 { "AnalogDataStr___contains__", _wrap_AnalogDataStr___contains__, METH_VARARGS, "AnalogDataStr___contains__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key) -> bool"},
+	 { "AnalogDataStr_key_iterator", _wrap_AnalogDataStr_key_iterator, METH_O, "AnalogDataStr_key_iterator(AnalogDataStr self) -> SwigPyIterator"},
+	 { "AnalogDataStr_value_iterator", _wrap_AnalogDataStr_value_iterator, METH_O, "AnalogDataStr_value_iterator(AnalogDataStr self) -> SwigPyIterator"},
+	 { "AnalogDataStr___setitem__", _wrap_AnalogDataStr___setitem__, METH_VARARGS, "\n"
+		"AnalogDataStr___setitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key)\n"
+		"AnalogDataStr___setitem__(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & key, Percent x)\n"
+		""},
+	 { "AnalogDataStr_asdict", _wrap_AnalogDataStr_asdict, METH_O, "AnalogDataStr_asdict(AnalogDataStr self) -> PyObject *"},
+	 { "new_AnalogDataStr", _wrap_new_AnalogDataStr, METH_VARARGS, "\n"
+		"AnalogDataStr(std::less< std::string > const & other)\n"
+		"AnalogDataStr()\n"
+		"new_AnalogDataStr(AnalogDataStr other) -> AnalogDataStr\n"
+		""},
+	 { "AnalogDataStr_empty", _wrap_AnalogDataStr_empty, METH_O, "AnalogDataStr_empty(AnalogDataStr self) -> bool"},
+	 { "AnalogDataStr_size", _wrap_AnalogDataStr_size, METH_O, "AnalogDataStr_size(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::size_type"},
+	 { "AnalogDataStr_swap", _wrap_AnalogDataStr_swap, METH_VARARGS, "AnalogDataStr_swap(AnalogDataStr self, AnalogDataStr v)"},
+	 { "AnalogDataStr_begin", _wrap_AnalogDataStr_begin, METH_O, "AnalogDataStr_begin(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::iterator"},
+	 { "AnalogDataStr_end", _wrap_AnalogDataStr_end, METH_O, "AnalogDataStr_end(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::iterator"},
+	 { "AnalogDataStr_rbegin", _wrap_AnalogDataStr_rbegin, METH_O, "AnalogDataStr_rbegin(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::reverse_iterator"},
+	 { "AnalogDataStr_rend", _wrap_AnalogDataStr_rend, METH_O, "AnalogDataStr_rend(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::reverse_iterator"},
+	 { "AnalogDataStr_clear", _wrap_AnalogDataStr_clear, METH_O, "AnalogDataStr_clear(AnalogDataStr self)"},
+	 { "AnalogDataStr_get_allocator", _wrap_AnalogDataStr_get_allocator, METH_O, "AnalogDataStr_get_allocator(AnalogDataStr self) -> std::map< std::string,iMS::Percent >::allocator_type"},
+	 { "AnalogDataStr_count", _wrap_AnalogDataStr_count, METH_VARARGS, "AnalogDataStr_count(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::size_type"},
+	 { "AnalogDataStr_erase", _wrap_AnalogDataStr_erase, METH_VARARGS, "\n"
+		"AnalogDataStr_erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::size_type\n"
+		"AnalogDataStr_erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::iterator position)\n"
+		"AnalogDataStr_erase(AnalogDataStr self, std::map< std::string,iMS::Percent >::iterator first, std::map< std::string,iMS::Percent >::iterator last)\n"
+		""},
+	 { "AnalogDataStr_find", _wrap_AnalogDataStr_find, METH_VARARGS, "AnalogDataStr_find(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"},
+	 { "AnalogDataStr_lower_bound", _wrap_AnalogDataStr_lower_bound, METH_VARARGS, "AnalogDataStr_lower_bound(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"},
+	 { "AnalogDataStr_upper_bound", _wrap_AnalogDataStr_upper_bound, METH_VARARGS, "AnalogDataStr_upper_bound(AnalogDataStr self, std::map< std::string,iMS::Percent >::key_type const & x) -> std::map< std::string,iMS::Percent >::iterator"},
+	 { "delete_AnalogDataStr", _wrap_delete_AnalogDataStr, METH_O, "delete_AnalogDataStr(AnalogDataStr self)"},
+	 { "AnalogDataStr_swigregister", AnalogDataStr_swigregister, METH_O, NULL},
+	 { "AnalogDataStr_swiginit", AnalogDataStr_swiginit, METH_VARARGS, NULL},
+	 { "SeqEntry_Stream", _wrap_SeqEntry_Stream, METH_VARARGS, "SeqEntry_Stream(std::ostream & stream, std::shared_ptr< SequenceEntry > const & seq) -> std::ostream &"},
+	 { "__lshift__", _wrap___lshift__, METH_VARARGS, "\n"
+		"__lshift__(std::ostream & stream, ImageGroup const & grp) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, Image const & img) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, ToneBuffer const & tbuf) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, ImagePoint const & pt) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, CompensationFunction const & func) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, CompensationPointSpecification const & pt_spec) -> std::ostream\n"
+		"__lshift__(std::ostream & stream, CompensationTable const & table) -> std::ostream &\n"
+		""},
+	 { "ListBase_SequenceEntry_begin", _wrap_ListBase_SequenceEntry_begin, METH_O, "ListBase_SequenceEntry_begin(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::iterator"},
+	 { "ListBase_SequenceEntry_end", _wrap_ListBase_SequenceEntry_end, METH_O, "ListBase_SequenceEntry_end(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::iterator"},
+	 { "ListBase_SequenceEntry_cbegin", _wrap_ListBase_SequenceEntry_cbegin, METH_O, "ListBase_SequenceEntry_cbegin(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::const_iterator"},
+	 { "ListBase_SequenceEntry_cend", _wrap_ListBase_SequenceEntry_cend, METH_O, "ListBase_SequenceEntry_cend(ListBase_SequenceEntry self) -> iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > >::const_iterator"},
+	 { "ListBase_SequenceEntry___getitem__", _wrap_ListBase_SequenceEntry___getitem__, METH_VARARGS, "ListBase_SequenceEntry___getitem__(ListBase_SequenceEntry self, size_t i) -> std::shared_ptr< iMS::SequenceEntry > const &"},
+	 { "ListBase_SequenceEntry___setitem__", _wrap_ListBase_SequenceEntry___setitem__, METH_VARARGS, "ListBase_SequenceEntry___setitem__(ListBase_SequenceEntry self, size_t i, std::shared_ptr< iMS::SequenceEntry > const & val)"},
+	 { "ListBase_SequenceEntry___len__", _wrap_ListBase_SequenceEntry___len__, METH_O, "ListBase_SequenceEntry___len__(ListBase_SequenceEntry self) -> size_t"},
+	 { "ListBase_SequenceEntry___bool__", _wrap_ListBase_SequenceEntry___bool__, METH_O, "ListBase_SequenceEntry___bool__(ListBase_SequenceEntry self) -> bool"},
+	 { "ListBase_SequenceEntry_append", _wrap_ListBase_SequenceEntry_append, METH_VARARGS, "ListBase_SequenceEntry_append(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & val)"},
+	 { "ListBase_SequenceEntry_pop", _wrap_ListBase_SequenceEntry_pop, METH_O, "ListBase_SequenceEntry_pop(ListBase_SequenceEntry self) -> std::shared_ptr< iMS::SequenceEntry >"},
+	 { "ListBase_SequenceEntry___contains__", _wrap_ListBase_SequenceEntry___contains__, METH_VARARGS, "ListBase_SequenceEntry___contains__(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > val) -> bool"},
+	 { "ListBase_SequenceEntry___str__", _wrap_ListBase_SequenceEntry___str__, METH_O, "ListBase_SequenceEntry___str__(ListBase_SequenceEntry self) -> std::string"},
+	 { "new_ListBase_SequenceEntry", _wrap_new_ListBase_SequenceEntry, METH_VARARGS, "\n"
+		"ListBase_SequenceEntry(std::string const & Name=\"[no name]\")\n"
+		"new_ListBase_SequenceEntry(ListBase_SequenceEntry arg1) -> ListBase_SequenceEntry\n"
+		""},
+	 { "ListBase_SequenceEntry_assign", _wrap_ListBase_SequenceEntry_assign, METH_VARARGS, "ListBase_SequenceEntry_assign(ListBase_SequenceEntry self, size_t n, std::shared_ptr< iMS::SequenceEntry > const & val)"},
+	 { "ListBase_SequenceEntry_resize", _wrap_ListBase_SequenceEntry_resize, METH_VARARGS, "ListBase_SequenceEntry_resize(ListBase_SequenceEntry self, size_t n)"},
+	 { "ListBase_SequenceEntry_clear", _wrap_ListBase_SequenceEntry_clear, METH_O, "ListBase_SequenceEntry_clear(ListBase_SequenceEntry self)"},
+	 { "ListBase_SequenceEntry_push_back", _wrap_ListBase_SequenceEntry_push_back, METH_VARARGS, "ListBase_SequenceEntry_push_back(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & value)"},
+	 { "ListBase_SequenceEntry_pop_back", _wrap_ListBase_SequenceEntry_pop_back, METH_O, "ListBase_SequenceEntry_pop_back(ListBase_SequenceEntry self)"},
+	 { "ListBase_SequenceEntry_push_front", _wrap_ListBase_SequenceEntry_push_front, METH_VARARGS, "ListBase_SequenceEntry_push_front(ListBase_SequenceEntry self, std::shared_ptr< iMS::SequenceEntry > const & value)"},
+	 { "ListBase_SequenceEntry_pop_front", _wrap_ListBase_SequenceEntry_pop_front, METH_O, "ListBase_SequenceEntry_pop_front(ListBase_SequenceEntry self)"},
+	 { "ListBase_SequenceEntry_empty", _wrap_ListBase_SequenceEntry_empty, METH_O, "ListBase_SequenceEntry_empty(ListBase_SequenceEntry self) -> bool"},
+	 { "ListBase_SequenceEntry_size", _wrap_ListBase_SequenceEntry_size, METH_O, "ListBase_SequenceEntry_size(ListBase_SequenceEntry self) -> std::size_t"},
+	 { "ListBase_SequenceEntry_GetUUID_get", _wrap_ListBase_SequenceEntry_GetUUID_get, METH_O, "ListBase_SequenceEntry_GetUUID_get(ListBase_SequenceEntry self) -> UUID"},
+	 { "ListBase_SequenceEntry_Name_set", _wrap_ListBase_SequenceEntry_Name_set, METH_VARARGS, "ListBase_SequenceEntry_Name_set(ListBase_SequenceEntry self, std::string const & Name)"},
+	 { "ListBase_SequenceEntry_Name_get", _wrap_ListBase_SequenceEntry_Name_get, METH_O, "ListBase_SequenceEntry_Name_get(ListBase_SequenceEntry self) -> std::string const &"},
+	 { "ListBase_SequenceEntry_ModifiedTimeFormat_get", _wrap_ListBase_SequenceEntry_ModifiedTimeFormat_get, METH_O, "ListBase_SequenceEntry_ModifiedTimeFormat_get(ListBase_SequenceEntry self) -> std::string const &"},
+	 { "delete_ListBase_SequenceEntry", _wrap_delete_ListBase_SequenceEntry, METH_O, "delete_ListBase_SequenceEntry(ListBase_SequenceEntry self)"},
 	 { "ListBase_SequenceEntry_swigregister", ListBase_SequenceEntry_swigregister, METH_O, NULL},
 	 { "ListBase_SequenceEntry_swiginit", ListBase_SequenceEntry_swiginit, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_begin", _wrap_ListBase_ImageGroup_begin, METH_O, NULL},
-	 { "ListBase_ImageGroup_end", _wrap_ListBase_ImageGroup_end, METH_O, NULL},
-	 { "ListBase_ImageGroup_cbegin", _wrap_ListBase_ImageGroup_cbegin, METH_O, NULL},
-	 { "ListBase_ImageGroup_cend", _wrap_ListBase_ImageGroup_cend, METH_O, NULL},
-	 { "ListBase_ImageGroup___getitem__", _wrap_ListBase_ImageGroup___getitem__, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup___setitem__", _wrap_ListBase_ImageGroup___setitem__, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup___len__", _wrap_ListBase_ImageGroup___len__, METH_O, NULL},
-	 { "ListBase_ImageGroup___bool__", _wrap_ListBase_ImageGroup___bool__, METH_O, NULL},
-	 { "ListBase_ImageGroup_append", _wrap_ListBase_ImageGroup_append, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_pop", _wrap_ListBase_ImageGroup_pop, METH_O, NULL},
-	 { "ListBase_ImageGroup___contains__", _wrap_ListBase_ImageGroup___contains__, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup___str__", _wrap_ListBase_ImageGroup___str__, METH_O, NULL},
-	 { "new_ListBase_ImageGroup", _wrap_new_ListBase_ImageGroup, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_assign", _wrap_ListBase_ImageGroup_assign, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_resize", _wrap_ListBase_ImageGroup_resize, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_clear", _wrap_ListBase_ImageGroup_clear, METH_O, NULL},
-	 { "ListBase_ImageGroup_push_back", _wrap_ListBase_ImageGroup_push_back, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_pop_back", _wrap_ListBase_ImageGroup_pop_back, METH_O, NULL},
-	 { "ListBase_ImageGroup_push_front", _wrap_ListBase_ImageGroup_push_front, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_pop_front", _wrap_ListBase_ImageGroup_pop_front, METH_O, NULL},
-	 { "ListBase_ImageGroup_empty", _wrap_ListBase_ImageGroup_empty, METH_O, NULL},
-	 { "ListBase_ImageGroup_size", _wrap_ListBase_ImageGroup_size, METH_O, NULL},
-	 { "ListBase_ImageGroup_GetUUID_get", _wrap_ListBase_ImageGroup_GetUUID_get, METH_O, NULL},
-	 { "ListBase_ImageGroup_Name_set", _wrap_ListBase_ImageGroup_Name_set, METH_VARARGS, NULL},
-	 { "ListBase_ImageGroup_Name_get", _wrap_ListBase_ImageGroup_Name_get, METH_O, NULL},
-	 { "ListBase_ImageGroup_ModifiedTimeFormat_get", _wrap_ListBase_ImageGroup_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_ListBase_ImageGroup", _wrap_delete_ListBase_ImageGroup, METH_O, NULL},
+	 { "ListBase_ImageGroup_begin", _wrap_ListBase_ImageGroup_begin, METH_O, "ListBase_ImageGroup_begin(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::iterator"},
+	 { "ListBase_ImageGroup_end", _wrap_ListBase_ImageGroup_end, METH_O, "ListBase_ImageGroup_end(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::iterator"},
+	 { "ListBase_ImageGroup_cbegin", _wrap_ListBase_ImageGroup_cbegin, METH_O, "ListBase_ImageGroup_cbegin(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::const_iterator"},
+	 { "ListBase_ImageGroup_cend", _wrap_ListBase_ImageGroup_cend, METH_O, "ListBase_ImageGroup_cend(ListBase_ImageGroup self) -> iMS::ListBase< iMS::ImageGroup >::const_iterator"},
+	 { "ListBase_ImageGroup___getitem__", _wrap_ListBase_ImageGroup___getitem__, METH_VARARGS, "ListBase_ImageGroup___getitem__(ListBase_ImageGroup self, size_t i) -> ImageGroup"},
+	 { "ListBase_ImageGroup___setitem__", _wrap_ListBase_ImageGroup___setitem__, METH_VARARGS, "ListBase_ImageGroup___setitem__(ListBase_ImageGroup self, size_t i, ImageGroup val)"},
+	 { "ListBase_ImageGroup___len__", _wrap_ListBase_ImageGroup___len__, METH_O, "ListBase_ImageGroup___len__(ListBase_ImageGroup self) -> size_t"},
+	 { "ListBase_ImageGroup___bool__", _wrap_ListBase_ImageGroup___bool__, METH_O, "ListBase_ImageGroup___bool__(ListBase_ImageGroup self) -> bool"},
+	 { "ListBase_ImageGroup_append", _wrap_ListBase_ImageGroup_append, METH_VARARGS, "ListBase_ImageGroup_append(ListBase_ImageGroup self, ImageGroup val)"},
+	 { "ListBase_ImageGroup_pop", _wrap_ListBase_ImageGroup_pop, METH_O, "ListBase_ImageGroup_pop(ListBase_ImageGroup self) -> ImageGroup"},
+	 { "ListBase_ImageGroup___contains__", _wrap_ListBase_ImageGroup___contains__, METH_VARARGS, "ListBase_ImageGroup___contains__(ListBase_ImageGroup self, ImageGroup val) -> bool"},
+	 { "ListBase_ImageGroup___str__", _wrap_ListBase_ImageGroup___str__, METH_O, "ListBase_ImageGroup___str__(ListBase_ImageGroup self) -> std::string"},
+	 { "new_ListBase_ImageGroup", _wrap_new_ListBase_ImageGroup, METH_VARARGS, "\n"
+		"ListBase_ImageGroup(std::string const & Name=\"[no name]\")\n"
+		"new_ListBase_ImageGroup(ListBase_ImageGroup arg1) -> ListBase_ImageGroup\n"
+		""},
+	 { "ListBase_ImageGroup_assign", _wrap_ListBase_ImageGroup_assign, METH_VARARGS, "ListBase_ImageGroup_assign(ListBase_ImageGroup self, size_t n, ImageGroup val)"},
+	 { "ListBase_ImageGroup_resize", _wrap_ListBase_ImageGroup_resize, METH_VARARGS, "ListBase_ImageGroup_resize(ListBase_ImageGroup self, size_t n)"},
+	 { "ListBase_ImageGroup_clear", _wrap_ListBase_ImageGroup_clear, METH_O, "ListBase_ImageGroup_clear(ListBase_ImageGroup self)"},
+	 { "ListBase_ImageGroup_push_back", _wrap_ListBase_ImageGroup_push_back, METH_VARARGS, "ListBase_ImageGroup_push_back(ListBase_ImageGroup self, ImageGroup value)"},
+	 { "ListBase_ImageGroup_pop_back", _wrap_ListBase_ImageGroup_pop_back, METH_O, "ListBase_ImageGroup_pop_back(ListBase_ImageGroup self)"},
+	 { "ListBase_ImageGroup_push_front", _wrap_ListBase_ImageGroup_push_front, METH_VARARGS, "ListBase_ImageGroup_push_front(ListBase_ImageGroup self, ImageGroup value)"},
+	 { "ListBase_ImageGroup_pop_front", _wrap_ListBase_ImageGroup_pop_front, METH_O, "ListBase_ImageGroup_pop_front(ListBase_ImageGroup self)"},
+	 { "ListBase_ImageGroup_empty", _wrap_ListBase_ImageGroup_empty, METH_O, "ListBase_ImageGroup_empty(ListBase_ImageGroup self) -> bool"},
+	 { "ListBase_ImageGroup_size", _wrap_ListBase_ImageGroup_size, METH_O, "ListBase_ImageGroup_size(ListBase_ImageGroup self) -> std::size_t"},
+	 { "ListBase_ImageGroup_GetUUID_get", _wrap_ListBase_ImageGroup_GetUUID_get, METH_O, "ListBase_ImageGroup_GetUUID_get(ListBase_ImageGroup self) -> UUID"},
+	 { "ListBase_ImageGroup_Name_set", _wrap_ListBase_ImageGroup_Name_set, METH_VARARGS, "ListBase_ImageGroup_Name_set(ListBase_ImageGroup self, std::string const & Name)"},
+	 { "ListBase_ImageGroup_Name_get", _wrap_ListBase_ImageGroup_Name_get, METH_O, "ListBase_ImageGroup_Name_get(ListBase_ImageGroup self) -> std::string const &"},
+	 { "ListBase_ImageGroup_ModifiedTimeFormat_get", _wrap_ListBase_ImageGroup_ModifiedTimeFormat_get, METH_O, "ListBase_ImageGroup_ModifiedTimeFormat_get(ListBase_ImageGroup self) -> std::string const &"},
+	 { "delete_ListBase_ImageGroup", _wrap_delete_ListBase_ImageGroup, METH_O, "delete_ListBase_ImageGroup(ListBase_ImageGroup self)"},
 	 { "ListBase_ImageGroup_swigregister", ListBase_ImageGroup_swigregister, METH_O, NULL},
 	 { "ListBase_ImageGroup_swiginit", ListBase_ImageGroup_swiginit, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_begin", _wrap_ListBase_CompensationFunction_begin, METH_O, NULL},
-	 { "ListBase_CompensationFunction_end", _wrap_ListBase_CompensationFunction_end, METH_O, NULL},
-	 { "ListBase_CompensationFunction_cbegin", _wrap_ListBase_CompensationFunction_cbegin, METH_O, NULL},
-	 { "ListBase_CompensationFunction_cend", _wrap_ListBase_CompensationFunction_cend, METH_O, NULL},
-	 { "ListBase_CompensationFunction___getitem__", _wrap_ListBase_CompensationFunction___getitem__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction___setitem__", _wrap_ListBase_CompensationFunction___setitem__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction___len__", _wrap_ListBase_CompensationFunction___len__, METH_O, NULL},
-	 { "ListBase_CompensationFunction___bool__", _wrap_ListBase_CompensationFunction___bool__, METH_O, NULL},
-	 { "ListBase_CompensationFunction_append", _wrap_ListBase_CompensationFunction_append, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_pop", _wrap_ListBase_CompensationFunction_pop, METH_O, NULL},
-	 { "ListBase_CompensationFunction___contains__", _wrap_ListBase_CompensationFunction___contains__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction___str__", _wrap_ListBase_CompensationFunction___str__, METH_O, NULL},
-	 { "new_ListBase_CompensationFunction", _wrap_new_ListBase_CompensationFunction, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_assign", _wrap_ListBase_CompensationFunction_assign, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_resize", _wrap_ListBase_CompensationFunction_resize, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_clear", _wrap_ListBase_CompensationFunction_clear, METH_O, NULL},
-	 { "ListBase_CompensationFunction_push_back", _wrap_ListBase_CompensationFunction_push_back, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_pop_back", _wrap_ListBase_CompensationFunction_pop_back, METH_O, NULL},
-	 { "ListBase_CompensationFunction_push_front", _wrap_ListBase_CompensationFunction_push_front, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_pop_front", _wrap_ListBase_CompensationFunction_pop_front, METH_O, NULL},
-	 { "ListBase_CompensationFunction_empty", _wrap_ListBase_CompensationFunction_empty, METH_O, NULL},
-	 { "ListBase_CompensationFunction_size", _wrap_ListBase_CompensationFunction_size, METH_O, NULL},
-	 { "ListBase_CompensationFunction_GetUUID_get", _wrap_ListBase_CompensationFunction_GetUUID_get, METH_O, NULL},
-	 { "ListBase_CompensationFunction_Name_set", _wrap_ListBase_CompensationFunction_Name_set, METH_VARARGS, NULL},
-	 { "ListBase_CompensationFunction_Name_get", _wrap_ListBase_CompensationFunction_Name_get, METH_O, NULL},
-	 { "ListBase_CompensationFunction_ModifiedTimeFormat_get", _wrap_ListBase_CompensationFunction_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_ListBase_CompensationFunction", _wrap_delete_ListBase_CompensationFunction, METH_O, NULL},
+	 { "ListBase_CompensationFunction_begin", _wrap_ListBase_CompensationFunction_begin, METH_O, "ListBase_CompensationFunction_begin(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::iterator"},
+	 { "ListBase_CompensationFunction_end", _wrap_ListBase_CompensationFunction_end, METH_O, "ListBase_CompensationFunction_end(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::iterator"},
+	 { "ListBase_CompensationFunction_cbegin", _wrap_ListBase_CompensationFunction_cbegin, METH_O, "ListBase_CompensationFunction_cbegin(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::const_iterator"},
+	 { "ListBase_CompensationFunction_cend", _wrap_ListBase_CompensationFunction_cend, METH_O, "ListBase_CompensationFunction_cend(ListBase_CompensationFunction self) -> iMS::ListBase< iMS::CompensationFunction >::const_iterator"},
+	 { "ListBase_CompensationFunction___getitem__", _wrap_ListBase_CompensationFunction___getitem__, METH_VARARGS, "ListBase_CompensationFunction___getitem__(ListBase_CompensationFunction self, size_t i) -> CompensationFunction"},
+	 { "ListBase_CompensationFunction___setitem__", _wrap_ListBase_CompensationFunction___setitem__, METH_VARARGS, "ListBase_CompensationFunction___setitem__(ListBase_CompensationFunction self, size_t i, CompensationFunction val)"},
+	 { "ListBase_CompensationFunction___len__", _wrap_ListBase_CompensationFunction___len__, METH_O, "ListBase_CompensationFunction___len__(ListBase_CompensationFunction self) -> size_t"},
+	 { "ListBase_CompensationFunction___bool__", _wrap_ListBase_CompensationFunction___bool__, METH_O, "ListBase_CompensationFunction___bool__(ListBase_CompensationFunction self) -> bool"},
+	 { "ListBase_CompensationFunction_append", _wrap_ListBase_CompensationFunction_append, METH_VARARGS, "ListBase_CompensationFunction_append(ListBase_CompensationFunction self, CompensationFunction val)"},
+	 { "ListBase_CompensationFunction_pop", _wrap_ListBase_CompensationFunction_pop, METH_O, "ListBase_CompensationFunction_pop(ListBase_CompensationFunction self) -> CompensationFunction"},
+	 { "ListBase_CompensationFunction___contains__", _wrap_ListBase_CompensationFunction___contains__, METH_VARARGS, "ListBase_CompensationFunction___contains__(ListBase_CompensationFunction self, CompensationFunction val) -> bool"},
+	 { "ListBase_CompensationFunction___str__", _wrap_ListBase_CompensationFunction___str__, METH_O, "ListBase_CompensationFunction___str__(ListBase_CompensationFunction self) -> std::string"},
+	 { "new_ListBase_CompensationFunction", _wrap_new_ListBase_CompensationFunction, METH_VARARGS, "\n"
+		"ListBase_CompensationFunction(std::string const & Name=\"[no name]\")\n"
+		"new_ListBase_CompensationFunction(ListBase_CompensationFunction arg1) -> ListBase_CompensationFunction\n"
+		""},
+	 { "ListBase_CompensationFunction_assign", _wrap_ListBase_CompensationFunction_assign, METH_VARARGS, "ListBase_CompensationFunction_assign(ListBase_CompensationFunction self, size_t n, CompensationFunction val)"},
+	 { "ListBase_CompensationFunction_resize", _wrap_ListBase_CompensationFunction_resize, METH_VARARGS, "ListBase_CompensationFunction_resize(ListBase_CompensationFunction self, size_t n)"},
+	 { "ListBase_CompensationFunction_clear", _wrap_ListBase_CompensationFunction_clear, METH_O, "ListBase_CompensationFunction_clear(ListBase_CompensationFunction self)"},
+	 { "ListBase_CompensationFunction_push_back", _wrap_ListBase_CompensationFunction_push_back, METH_VARARGS, "ListBase_CompensationFunction_push_back(ListBase_CompensationFunction self, CompensationFunction value)"},
+	 { "ListBase_CompensationFunction_pop_back", _wrap_ListBase_CompensationFunction_pop_back, METH_O, "ListBase_CompensationFunction_pop_back(ListBase_CompensationFunction self)"},
+	 { "ListBase_CompensationFunction_push_front", _wrap_ListBase_CompensationFunction_push_front, METH_VARARGS, "ListBase_CompensationFunction_push_front(ListBase_CompensationFunction self, CompensationFunction value)"},
+	 { "ListBase_CompensationFunction_pop_front", _wrap_ListBase_CompensationFunction_pop_front, METH_O, "ListBase_CompensationFunction_pop_front(ListBase_CompensationFunction self)"},
+	 { "ListBase_CompensationFunction_empty", _wrap_ListBase_CompensationFunction_empty, METH_O, "ListBase_CompensationFunction_empty(ListBase_CompensationFunction self) -> bool"},
+	 { "ListBase_CompensationFunction_size", _wrap_ListBase_CompensationFunction_size, METH_O, "ListBase_CompensationFunction_size(ListBase_CompensationFunction self) -> std::size_t"},
+	 { "ListBase_CompensationFunction_GetUUID_get", _wrap_ListBase_CompensationFunction_GetUUID_get, METH_O, "ListBase_CompensationFunction_GetUUID_get(ListBase_CompensationFunction self) -> UUID"},
+	 { "ListBase_CompensationFunction_Name_set", _wrap_ListBase_CompensationFunction_Name_set, METH_VARARGS, "ListBase_CompensationFunction_Name_set(ListBase_CompensationFunction self, std::string const & Name)"},
+	 { "ListBase_CompensationFunction_Name_get", _wrap_ListBase_CompensationFunction_Name_get, METH_O, "ListBase_CompensationFunction_Name_get(ListBase_CompensationFunction self) -> std::string const &"},
+	 { "ListBase_CompensationFunction_ModifiedTimeFormat_get", _wrap_ListBase_CompensationFunction_ModifiedTimeFormat_get, METH_O, "ListBase_CompensationFunction_ModifiedTimeFormat_get(ListBase_CompensationFunction self) -> std::string const &"},
+	 { "delete_ListBase_CompensationFunction", _wrap_delete_ListBase_CompensationFunction, METH_O, "delete_ListBase_CompensationFunction(ListBase_CompensationFunction self)"},
 	 { "ListBase_CompensationFunction_swigregister", ListBase_CompensationFunction_swigregister, METH_O, NULL},
 	 { "ListBase_CompensationFunction_swiginit", ListBase_CompensationFunction_swiginit, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_begin", _wrap_ListBase_ToneBuffer_begin, METH_O, NULL},
-	 { "ListBase_ToneBuffer_end", _wrap_ListBase_ToneBuffer_end, METH_O, NULL},
-	 { "ListBase_ToneBuffer_cbegin", _wrap_ListBase_ToneBuffer_cbegin, METH_O, NULL},
-	 { "ListBase_ToneBuffer_cend", _wrap_ListBase_ToneBuffer_cend, METH_O, NULL},
-	 { "ListBase_ToneBuffer___getitem__", _wrap_ListBase_ToneBuffer___getitem__, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer___setitem__", _wrap_ListBase_ToneBuffer___setitem__, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer___len__", _wrap_ListBase_ToneBuffer___len__, METH_O, NULL},
-	 { "ListBase_ToneBuffer___bool__", _wrap_ListBase_ToneBuffer___bool__, METH_O, NULL},
-	 { "ListBase_ToneBuffer_append", _wrap_ListBase_ToneBuffer_append, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_pop", _wrap_ListBase_ToneBuffer_pop, METH_O, NULL},
-	 { "ListBase_ToneBuffer___contains__", _wrap_ListBase_ToneBuffer___contains__, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer___str__", _wrap_ListBase_ToneBuffer___str__, METH_O, NULL},
-	 { "new_ListBase_ToneBuffer", _wrap_new_ListBase_ToneBuffer, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_assign", _wrap_ListBase_ToneBuffer_assign, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_resize", _wrap_ListBase_ToneBuffer_resize, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_clear", _wrap_ListBase_ToneBuffer_clear, METH_O, NULL},
-	 { "ListBase_ToneBuffer_push_back", _wrap_ListBase_ToneBuffer_push_back, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_pop_back", _wrap_ListBase_ToneBuffer_pop_back, METH_O, NULL},
-	 { "ListBase_ToneBuffer_push_front", _wrap_ListBase_ToneBuffer_push_front, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_pop_front", _wrap_ListBase_ToneBuffer_pop_front, METH_O, NULL},
-	 { "ListBase_ToneBuffer_empty", _wrap_ListBase_ToneBuffer_empty, METH_O, NULL},
-	 { "ListBase_ToneBuffer_size", _wrap_ListBase_ToneBuffer_size, METH_O, NULL},
-	 { "ListBase_ToneBuffer_GetUUID_get", _wrap_ListBase_ToneBuffer_GetUUID_get, METH_O, NULL},
-	 { "ListBase_ToneBuffer_Name_set", _wrap_ListBase_ToneBuffer_Name_set, METH_VARARGS, NULL},
-	 { "ListBase_ToneBuffer_Name_get", _wrap_ListBase_ToneBuffer_Name_get, METH_O, NULL},
-	 { "ListBase_ToneBuffer_ModifiedTimeFormat_get", _wrap_ListBase_ToneBuffer_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_ListBase_ToneBuffer", _wrap_delete_ListBase_ToneBuffer, METH_O, NULL},
+	 { "ListBase_ToneBuffer_begin", _wrap_ListBase_ToneBuffer_begin, METH_O, "ListBase_ToneBuffer_begin(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::iterator"},
+	 { "ListBase_ToneBuffer_end", _wrap_ListBase_ToneBuffer_end, METH_O, "ListBase_ToneBuffer_end(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::iterator"},
+	 { "ListBase_ToneBuffer_cbegin", _wrap_ListBase_ToneBuffer_cbegin, METH_O, "ListBase_ToneBuffer_cbegin(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::const_iterator"},
+	 { "ListBase_ToneBuffer_cend", _wrap_ListBase_ToneBuffer_cend, METH_O, "ListBase_ToneBuffer_cend(ListBase_ToneBuffer self) -> iMS::ListBase< iMS::ToneBuffer >::const_iterator"},
+	 { "ListBase_ToneBuffer___getitem__", _wrap_ListBase_ToneBuffer___getitem__, METH_VARARGS, "ListBase_ToneBuffer___getitem__(ListBase_ToneBuffer self, size_t i) -> ToneBuffer"},
+	 { "ListBase_ToneBuffer___setitem__", _wrap_ListBase_ToneBuffer___setitem__, METH_VARARGS, "ListBase_ToneBuffer___setitem__(ListBase_ToneBuffer self, size_t i, ToneBuffer val)"},
+	 { "ListBase_ToneBuffer___len__", _wrap_ListBase_ToneBuffer___len__, METH_O, "ListBase_ToneBuffer___len__(ListBase_ToneBuffer self) -> size_t"},
+	 { "ListBase_ToneBuffer___bool__", _wrap_ListBase_ToneBuffer___bool__, METH_O, "ListBase_ToneBuffer___bool__(ListBase_ToneBuffer self) -> bool"},
+	 { "ListBase_ToneBuffer_append", _wrap_ListBase_ToneBuffer_append, METH_VARARGS, "ListBase_ToneBuffer_append(ListBase_ToneBuffer self, ToneBuffer val)"},
+	 { "ListBase_ToneBuffer_pop", _wrap_ListBase_ToneBuffer_pop, METH_O, "ListBase_ToneBuffer_pop(ListBase_ToneBuffer self) -> ToneBuffer"},
+	 { "ListBase_ToneBuffer___contains__", _wrap_ListBase_ToneBuffer___contains__, METH_VARARGS, "ListBase_ToneBuffer___contains__(ListBase_ToneBuffer self, ToneBuffer val) -> bool"},
+	 { "ListBase_ToneBuffer___str__", _wrap_ListBase_ToneBuffer___str__, METH_O, "ListBase_ToneBuffer___str__(ListBase_ToneBuffer self) -> std::string"},
+	 { "new_ListBase_ToneBuffer", _wrap_new_ListBase_ToneBuffer, METH_VARARGS, "\n"
+		"ListBase_ToneBuffer(std::string const & Name=\"[no name]\")\n"
+		"new_ListBase_ToneBuffer(ListBase_ToneBuffer arg1) -> ListBase_ToneBuffer\n"
+		""},
+	 { "ListBase_ToneBuffer_assign", _wrap_ListBase_ToneBuffer_assign, METH_VARARGS, "ListBase_ToneBuffer_assign(ListBase_ToneBuffer self, size_t n, ToneBuffer val)"},
+	 { "ListBase_ToneBuffer_resize", _wrap_ListBase_ToneBuffer_resize, METH_VARARGS, "ListBase_ToneBuffer_resize(ListBase_ToneBuffer self, size_t n)"},
+	 { "ListBase_ToneBuffer_clear", _wrap_ListBase_ToneBuffer_clear, METH_O, "ListBase_ToneBuffer_clear(ListBase_ToneBuffer self)"},
+	 { "ListBase_ToneBuffer_push_back", _wrap_ListBase_ToneBuffer_push_back, METH_VARARGS, "ListBase_ToneBuffer_push_back(ListBase_ToneBuffer self, ToneBuffer value)"},
+	 { "ListBase_ToneBuffer_pop_back", _wrap_ListBase_ToneBuffer_pop_back, METH_O, "ListBase_ToneBuffer_pop_back(ListBase_ToneBuffer self)"},
+	 { "ListBase_ToneBuffer_push_front", _wrap_ListBase_ToneBuffer_push_front, METH_VARARGS, "ListBase_ToneBuffer_push_front(ListBase_ToneBuffer self, ToneBuffer value)"},
+	 { "ListBase_ToneBuffer_pop_front", _wrap_ListBase_ToneBuffer_pop_front, METH_O, "ListBase_ToneBuffer_pop_front(ListBase_ToneBuffer self)"},
+	 { "ListBase_ToneBuffer_empty", _wrap_ListBase_ToneBuffer_empty, METH_O, "ListBase_ToneBuffer_empty(ListBase_ToneBuffer self) -> bool"},
+	 { "ListBase_ToneBuffer_size", _wrap_ListBase_ToneBuffer_size, METH_O, "ListBase_ToneBuffer_size(ListBase_ToneBuffer self) -> std::size_t"},
+	 { "ListBase_ToneBuffer_GetUUID_get", _wrap_ListBase_ToneBuffer_GetUUID_get, METH_O, "ListBase_ToneBuffer_GetUUID_get(ListBase_ToneBuffer self) -> UUID"},
+	 { "ListBase_ToneBuffer_Name_set", _wrap_ListBase_ToneBuffer_Name_set, METH_VARARGS, "ListBase_ToneBuffer_Name_set(ListBase_ToneBuffer self, std::string const & Name)"},
+	 { "ListBase_ToneBuffer_Name_get", _wrap_ListBase_ToneBuffer_Name_get, METH_O, "ListBase_ToneBuffer_Name_get(ListBase_ToneBuffer self) -> std::string const &"},
+	 { "ListBase_ToneBuffer_ModifiedTimeFormat_get", _wrap_ListBase_ToneBuffer_ModifiedTimeFormat_get, METH_O, "ListBase_ToneBuffer_ModifiedTimeFormat_get(ListBase_ToneBuffer self) -> std::string const &"},
+	 { "delete_ListBase_ToneBuffer", _wrap_delete_ListBase_ToneBuffer, METH_O, "delete_ListBase_ToneBuffer(ListBase_ToneBuffer self)"},
 	 { "ListBase_ToneBuffer_swigregister", ListBase_ToneBuffer_swigregister, METH_O, NULL},
 	 { "ListBase_ToneBuffer_swiginit", ListBase_ToneBuffer_swiginit, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_begin", _wrap_ListBase_CompensationPointSpecification_begin, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_end", _wrap_ListBase_CompensationPointSpecification_end, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_cbegin", _wrap_ListBase_CompensationPointSpecification_cbegin, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_cend", _wrap_ListBase_CompensationPointSpecification_cend, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification___getitem__", _wrap_ListBase_CompensationPointSpecification___getitem__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification___setitem__", _wrap_ListBase_CompensationPointSpecification___setitem__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification___len__", _wrap_ListBase_CompensationPointSpecification___len__, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification___bool__", _wrap_ListBase_CompensationPointSpecification___bool__, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_append", _wrap_ListBase_CompensationPointSpecification_append, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_pop", _wrap_ListBase_CompensationPointSpecification_pop, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification___contains__", _wrap_ListBase_CompensationPointSpecification___contains__, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification___str__", _wrap_ListBase_CompensationPointSpecification___str__, METH_O, NULL},
-	 { "new_ListBase_CompensationPointSpecification", _wrap_new_ListBase_CompensationPointSpecification, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_assign", _wrap_ListBase_CompensationPointSpecification_assign, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_resize", _wrap_ListBase_CompensationPointSpecification_resize, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_clear", _wrap_ListBase_CompensationPointSpecification_clear, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_push_back", _wrap_ListBase_CompensationPointSpecification_push_back, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_pop_back", _wrap_ListBase_CompensationPointSpecification_pop_back, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_push_front", _wrap_ListBase_CompensationPointSpecification_push_front, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_pop_front", _wrap_ListBase_CompensationPointSpecification_pop_front, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_empty", _wrap_ListBase_CompensationPointSpecification_empty, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_size", _wrap_ListBase_CompensationPointSpecification_size, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_GetUUID_get", _wrap_ListBase_CompensationPointSpecification_GetUUID_get, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_Name_set", _wrap_ListBase_CompensationPointSpecification_Name_set, METH_VARARGS, NULL},
-	 { "ListBase_CompensationPointSpecification_Name_get", _wrap_ListBase_CompensationPointSpecification_Name_get, METH_O, NULL},
-	 { "ListBase_CompensationPointSpecification_ModifiedTimeFormat_get", _wrap_ListBase_CompensationPointSpecification_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_ListBase_CompensationPointSpecification", _wrap_delete_ListBase_CompensationPointSpecification, METH_O, NULL},
+	 { "ListBase_CompensationPointSpecification_begin", _wrap_ListBase_CompensationPointSpecification_begin, METH_O, "ListBase_CompensationPointSpecification_begin(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::iterator"},
+	 { "ListBase_CompensationPointSpecification_end", _wrap_ListBase_CompensationPointSpecification_end, METH_O, "ListBase_CompensationPointSpecification_end(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::iterator"},
+	 { "ListBase_CompensationPointSpecification_cbegin", _wrap_ListBase_CompensationPointSpecification_cbegin, METH_O, "ListBase_CompensationPointSpecification_cbegin(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::const_iterator"},
+	 { "ListBase_CompensationPointSpecification_cend", _wrap_ListBase_CompensationPointSpecification_cend, METH_O, "ListBase_CompensationPointSpecification_cend(ListBase_CompensationPointSpecification self) -> iMS::ListBase< iMS::CompensationPointSpecification >::const_iterator"},
+	 { "ListBase_CompensationPointSpecification___getitem__", _wrap_ListBase_CompensationPointSpecification___getitem__, METH_VARARGS, "ListBase_CompensationPointSpecification___getitem__(ListBase_CompensationPointSpecification self, size_t i) -> CompensationPointSpecification"},
+	 { "ListBase_CompensationPointSpecification___setitem__", _wrap_ListBase_CompensationPointSpecification___setitem__, METH_VARARGS, "ListBase_CompensationPointSpecification___setitem__(ListBase_CompensationPointSpecification self, size_t i, CompensationPointSpecification val)"},
+	 { "ListBase_CompensationPointSpecification___len__", _wrap_ListBase_CompensationPointSpecification___len__, METH_O, "ListBase_CompensationPointSpecification___len__(ListBase_CompensationPointSpecification self) -> size_t"},
+	 { "ListBase_CompensationPointSpecification___bool__", _wrap_ListBase_CompensationPointSpecification___bool__, METH_O, "ListBase_CompensationPointSpecification___bool__(ListBase_CompensationPointSpecification self) -> bool"},
+	 { "ListBase_CompensationPointSpecification_append", _wrap_ListBase_CompensationPointSpecification_append, METH_VARARGS, "ListBase_CompensationPointSpecification_append(ListBase_CompensationPointSpecification self, CompensationPointSpecification val)"},
+	 { "ListBase_CompensationPointSpecification_pop", _wrap_ListBase_CompensationPointSpecification_pop, METH_O, "ListBase_CompensationPointSpecification_pop(ListBase_CompensationPointSpecification self) -> CompensationPointSpecification"},
+	 { "ListBase_CompensationPointSpecification___contains__", _wrap_ListBase_CompensationPointSpecification___contains__, METH_VARARGS, "ListBase_CompensationPointSpecification___contains__(ListBase_CompensationPointSpecification self, CompensationPointSpecification val) -> bool"},
+	 { "ListBase_CompensationPointSpecification___str__", _wrap_ListBase_CompensationPointSpecification___str__, METH_O, "ListBase_CompensationPointSpecification___str__(ListBase_CompensationPointSpecification self) -> std::string"},
+	 { "new_ListBase_CompensationPointSpecification", _wrap_new_ListBase_CompensationPointSpecification, METH_VARARGS, "\n"
+		"ListBase_CompensationPointSpecification(std::string const & Name=\"[no name]\")\n"
+		"new_ListBase_CompensationPointSpecification(ListBase_CompensationPointSpecification arg1) -> ListBase_CompensationPointSpecification\n"
+		""},
+	 { "ListBase_CompensationPointSpecification_assign", _wrap_ListBase_CompensationPointSpecification_assign, METH_VARARGS, "ListBase_CompensationPointSpecification_assign(ListBase_CompensationPointSpecification self, size_t n, CompensationPointSpecification val)"},
+	 { "ListBase_CompensationPointSpecification_resize", _wrap_ListBase_CompensationPointSpecification_resize, METH_VARARGS, "ListBase_CompensationPointSpecification_resize(ListBase_CompensationPointSpecification self, size_t n)"},
+	 { "ListBase_CompensationPointSpecification_clear", _wrap_ListBase_CompensationPointSpecification_clear, METH_O, "ListBase_CompensationPointSpecification_clear(ListBase_CompensationPointSpecification self)"},
+	 { "ListBase_CompensationPointSpecification_push_back", _wrap_ListBase_CompensationPointSpecification_push_back, METH_VARARGS, "ListBase_CompensationPointSpecification_push_back(ListBase_CompensationPointSpecification self, CompensationPointSpecification value)"},
+	 { "ListBase_CompensationPointSpecification_pop_back", _wrap_ListBase_CompensationPointSpecification_pop_back, METH_O, "ListBase_CompensationPointSpecification_pop_back(ListBase_CompensationPointSpecification self)"},
+	 { "ListBase_CompensationPointSpecification_push_front", _wrap_ListBase_CompensationPointSpecification_push_front, METH_VARARGS, "ListBase_CompensationPointSpecification_push_front(ListBase_CompensationPointSpecification self, CompensationPointSpecification value)"},
+	 { "ListBase_CompensationPointSpecification_pop_front", _wrap_ListBase_CompensationPointSpecification_pop_front, METH_O, "ListBase_CompensationPointSpecification_pop_front(ListBase_CompensationPointSpecification self)"},
+	 { "ListBase_CompensationPointSpecification_empty", _wrap_ListBase_CompensationPointSpecification_empty, METH_O, "ListBase_CompensationPointSpecification_empty(ListBase_CompensationPointSpecification self) -> bool"},
+	 { "ListBase_CompensationPointSpecification_size", _wrap_ListBase_CompensationPointSpecification_size, METH_O, "ListBase_CompensationPointSpecification_size(ListBase_CompensationPointSpecification self) -> std::size_t"},
+	 { "ListBase_CompensationPointSpecification_GetUUID_get", _wrap_ListBase_CompensationPointSpecification_GetUUID_get, METH_O, "ListBase_CompensationPointSpecification_GetUUID_get(ListBase_CompensationPointSpecification self) -> UUID"},
+	 { "ListBase_CompensationPointSpecification_Name_set", _wrap_ListBase_CompensationPointSpecification_Name_set, METH_VARARGS, "ListBase_CompensationPointSpecification_Name_set(ListBase_CompensationPointSpecification self, std::string const & Name)"},
+	 { "ListBase_CompensationPointSpecification_Name_get", _wrap_ListBase_CompensationPointSpecification_Name_get, METH_O, "ListBase_CompensationPointSpecification_Name_get(ListBase_CompensationPointSpecification self) -> std::string const &"},
+	 { "ListBase_CompensationPointSpecification_ModifiedTimeFormat_get", _wrap_ListBase_CompensationPointSpecification_ModifiedTimeFormat_get, METH_O, "ListBase_CompensationPointSpecification_ModifiedTimeFormat_get(ListBase_CompensationPointSpecification self) -> std::string const &"},
+	 { "delete_ListBase_CompensationPointSpecification", _wrap_delete_ListBase_CompensationPointSpecification, METH_O, "delete_ListBase_CompensationPointSpecification(ListBase_CompensationPointSpecification self)"},
 	 { "ListBase_CompensationPointSpecification_swigregister", ListBase_CompensationPointSpecification_swigregister, METH_O, NULL},
 	 { "ListBase_CompensationPointSpecification_swiginit", ListBase_CompensationPointSpecification_swiginit, METH_VARARGS, NULL},
-	 { "StringList_begin", _wrap_StringList_begin, METH_O, NULL},
-	 { "StringList_end", _wrap_StringList_end, METH_O, NULL},
-	 { "StringList_cbegin", _wrap_StringList_cbegin, METH_O, NULL},
-	 { "StringList_cend", _wrap_StringList_cend, METH_O, NULL},
-	 { "StringList___getitem__", _wrap_StringList___getitem__, METH_VARARGS, NULL},
-	 { "StringList___setitem__", _wrap_StringList___setitem__, METH_VARARGS, NULL},
-	 { "StringList___len__", _wrap_StringList___len__, METH_O, NULL},
-	 { "StringList___bool__", _wrap_StringList___bool__, METH_O, NULL},
-	 { "StringList_append", _wrap_StringList_append, METH_VARARGS, NULL},
-	 { "StringList_pop", _wrap_StringList_pop, METH_O, NULL},
-	 { "StringList___contains__", _wrap_StringList___contains__, METH_VARARGS, NULL},
-	 { "StringList___str__", _wrap_StringList___str__, METH_O, NULL},
-	 { "new_StringList", _wrap_new_StringList, METH_VARARGS, NULL},
-	 { "StringList_assign", _wrap_StringList_assign, METH_VARARGS, NULL},
-	 { "StringList_resize", _wrap_StringList_resize, METH_VARARGS, NULL},
-	 { "StringList_clear", _wrap_StringList_clear, METH_O, NULL},
-	 { "StringList_push_back", _wrap_StringList_push_back, METH_VARARGS, NULL},
-	 { "StringList_pop_back", _wrap_StringList_pop_back, METH_O, NULL},
-	 { "StringList_push_front", _wrap_StringList_push_front, METH_VARARGS, NULL},
-	 { "StringList_pop_front", _wrap_StringList_pop_front, METH_O, NULL},
-	 { "StringList_empty", _wrap_StringList_empty, METH_O, NULL},
-	 { "StringList_size", _wrap_StringList_size, METH_O, NULL},
-	 { "StringList_GetUUID_get", _wrap_StringList_GetUUID_get, METH_O, NULL},
-	 { "StringList_Name_set", _wrap_StringList_Name_set, METH_VARARGS, NULL},
-	 { "StringList_Name_get", _wrap_StringList_Name_get, METH_O, NULL},
-	 { "StringList_ModifiedTimeFormat_get", _wrap_StringList_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_StringList", _wrap_delete_StringList, METH_O, NULL},
+	 { "StringList_begin", _wrap_StringList_begin, METH_O, "StringList_begin(StringList self) -> iMS::ListBase< std::string >::iterator"},
+	 { "StringList_end", _wrap_StringList_end, METH_O, "StringList_end(StringList self) -> iMS::ListBase< std::string >::iterator"},
+	 { "StringList_cbegin", _wrap_StringList_cbegin, METH_O, "StringList_cbegin(StringList self) -> iMS::ListBase< std::string >::const_iterator"},
+	 { "StringList_cend", _wrap_StringList_cend, METH_O, "StringList_cend(StringList self) -> iMS::ListBase< std::string >::const_iterator"},
+	 { "StringList___getitem__", _wrap_StringList___getitem__, METH_VARARGS, "StringList___getitem__(StringList self, size_t i) -> std::string const &"},
+	 { "StringList___setitem__", _wrap_StringList___setitem__, METH_VARARGS, "StringList___setitem__(StringList self, size_t i, std::string const & val)"},
+	 { "StringList___len__", _wrap_StringList___len__, METH_O, "StringList___len__(StringList self) -> size_t"},
+	 { "StringList___bool__", _wrap_StringList___bool__, METH_O, "StringList___bool__(StringList self) -> bool"},
+	 { "StringList_append", _wrap_StringList_append, METH_VARARGS, "StringList_append(StringList self, std::string const & val)"},
+	 { "StringList_pop", _wrap_StringList_pop, METH_O, "StringList_pop(StringList self) -> std::string"},
+	 { "StringList___contains__", _wrap_StringList___contains__, METH_VARARGS, "StringList___contains__(StringList self, std::string val) -> bool"},
+	 { "StringList___str__", _wrap_StringList___str__, METH_O, "StringList___str__(StringList self) -> std::string"},
+	 { "new_StringList", _wrap_new_StringList, METH_VARARGS, "\n"
+		"StringList(std::string const & Name=\"[no name]\")\n"
+		"new_StringList(StringList arg1) -> StringList\n"
+		""},
+	 { "StringList_assign", _wrap_StringList_assign, METH_VARARGS, "StringList_assign(StringList self, size_t n, std::string const & val)"},
+	 { "StringList_resize", _wrap_StringList_resize, METH_VARARGS, "StringList_resize(StringList self, size_t n)"},
+	 { "StringList_clear", _wrap_StringList_clear, METH_O, "StringList_clear(StringList self)"},
+	 { "StringList_push_back", _wrap_StringList_push_back, METH_VARARGS, "StringList_push_back(StringList self, std::string const & value)"},
+	 { "StringList_pop_back", _wrap_StringList_pop_back, METH_O, "StringList_pop_back(StringList self)"},
+	 { "StringList_push_front", _wrap_StringList_push_front, METH_VARARGS, "StringList_push_front(StringList self, std::string const & value)"},
+	 { "StringList_pop_front", _wrap_StringList_pop_front, METH_O, "StringList_pop_front(StringList self)"},
+	 { "StringList_empty", _wrap_StringList_empty, METH_O, "StringList_empty(StringList self) -> bool"},
+	 { "StringList_size", _wrap_StringList_size, METH_O, "StringList_size(StringList self) -> std::size_t"},
+	 { "StringList_GetUUID_get", _wrap_StringList_GetUUID_get, METH_O, "StringList_GetUUID_get(StringList self) -> UUID"},
+	 { "StringList_Name_set", _wrap_StringList_Name_set, METH_VARARGS, "StringList_Name_set(StringList self, std::string const & Name)"},
+	 { "StringList_Name_get", _wrap_StringList_Name_get, METH_O, "StringList_Name_get(StringList self) -> std::string const &"},
+	 { "StringList_ModifiedTimeFormat_get", _wrap_StringList_ModifiedTimeFormat_get, METH_O, "StringList_ModifiedTimeFormat_get(StringList self) -> std::string const &"},
+	 { "delete_StringList", _wrap_delete_StringList, METH_O, "delete_StringList(StringList self)"},
 	 { "StringList_swigregister", StringList_swigregister, METH_O, NULL},
 	 { "StringList_swiginit", StringList_swiginit, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_begin", _wrap_DequeBase_ImagePoint_begin, METH_O, NULL},
-	 { "DequeBase_ImagePoint_end", _wrap_DequeBase_ImagePoint_end, METH_O, NULL},
-	 { "DequeBase_ImagePoint_cbegin", _wrap_DequeBase_ImagePoint_cbegin, METH_O, NULL},
-	 { "DequeBase_ImagePoint_cend", _wrap_DequeBase_ImagePoint_cend, METH_O, NULL},
-	 { "DequeBase_ImagePoint___getitem__", _wrap_DequeBase_ImagePoint___getitem__, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint___setitem__", _wrap_DequeBase_ImagePoint___setitem__, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint___len__", _wrap_DequeBase_ImagePoint___len__, METH_O, NULL},
-	 { "DequeBase_ImagePoint___bool__", _wrap_DequeBase_ImagePoint___bool__, METH_O, NULL},
-	 { "DequeBase_ImagePoint_append", _wrap_DequeBase_ImagePoint_append, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_pop", _wrap_DequeBase_ImagePoint_pop, METH_O, NULL},
-	 { "DequeBase_ImagePoint___contains__", _wrap_DequeBase_ImagePoint___contains__, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint___str__", _wrap_DequeBase_ImagePoint___str__, METH_O, NULL},
-	 { "new_DequeBase_ImagePoint", _wrap_new_DequeBase_ImagePoint, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_clear", _wrap_DequeBase_ImagePoint_clear, METH_O, NULL},
-	 { "DequeBase_ImagePoint_add", _wrap_DequeBase_ImagePoint_add, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_remove", _wrap_DequeBase_ImagePoint_remove, METH_O, NULL},
-	 { "DequeBase_ImagePoint_push_front", _wrap_DequeBase_ImagePoint_push_front, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_pop_front", _wrap_DequeBase_ImagePoint_pop_front, METH_O, NULL},
-	 { "DequeBase_ImagePoint_size", _wrap_DequeBase_ImagePoint_size, METH_O, NULL},
-	 { "DequeBase_ImagePoint_GetUUID_get", _wrap_DequeBase_ImagePoint_GetUUID_get, METH_O, NULL},
-	 { "DequeBase_ImagePoint_Name_set", _wrap_DequeBase_ImagePoint_Name_set, METH_VARARGS, NULL},
-	 { "DequeBase_ImagePoint_Name_get", _wrap_DequeBase_ImagePoint_Name_get, METH_O, NULL},
-	 { "DequeBase_ImagePoint_ModifiedTimeFormat_get", _wrap_DequeBase_ImagePoint_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_DequeBase_ImagePoint", _wrap_delete_DequeBase_ImagePoint, METH_O, NULL},
+	 { "DequeBase_ImagePoint_begin", _wrap_DequeBase_ImagePoint_begin, METH_O, "DequeBase_ImagePoint_begin(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::iterator"},
+	 { "DequeBase_ImagePoint_end", _wrap_DequeBase_ImagePoint_end, METH_O, "DequeBase_ImagePoint_end(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::iterator"},
+	 { "DequeBase_ImagePoint_cbegin", _wrap_DequeBase_ImagePoint_cbegin, METH_O, "DequeBase_ImagePoint_cbegin(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::const_iterator"},
+	 { "DequeBase_ImagePoint_cend", _wrap_DequeBase_ImagePoint_cend, METH_O, "DequeBase_ImagePoint_cend(DequeBase_ImagePoint self) -> iMS::DequeBase< iMS::ImagePoint >::const_iterator"},
+	 { "DequeBase_ImagePoint___getitem__", _wrap_DequeBase_ImagePoint___getitem__, METH_VARARGS, "DequeBase_ImagePoint___getitem__(DequeBase_ImagePoint self, size_t i) -> ImagePoint"},
+	 { "DequeBase_ImagePoint___setitem__", _wrap_DequeBase_ImagePoint___setitem__, METH_VARARGS, "DequeBase_ImagePoint___setitem__(DequeBase_ImagePoint self, size_t i, ImagePoint val)"},
+	 { "DequeBase_ImagePoint___len__", _wrap_DequeBase_ImagePoint___len__, METH_O, "DequeBase_ImagePoint___len__(DequeBase_ImagePoint self) -> size_t"},
+	 { "DequeBase_ImagePoint___bool__", _wrap_DequeBase_ImagePoint___bool__, METH_O, "DequeBase_ImagePoint___bool__(DequeBase_ImagePoint self) -> bool"},
+	 { "DequeBase_ImagePoint_append", _wrap_DequeBase_ImagePoint_append, METH_VARARGS, "DequeBase_ImagePoint_append(DequeBase_ImagePoint self, ImagePoint val)"},
+	 { "DequeBase_ImagePoint_pop", _wrap_DequeBase_ImagePoint_pop, METH_O, "DequeBase_ImagePoint_pop(DequeBase_ImagePoint self) -> ImagePoint"},
+	 { "DequeBase_ImagePoint___contains__", _wrap_DequeBase_ImagePoint___contains__, METH_VARARGS, "DequeBase_ImagePoint___contains__(DequeBase_ImagePoint self, ImagePoint val) -> bool"},
+	 { "DequeBase_ImagePoint___str__", _wrap_DequeBase_ImagePoint___str__, METH_O, "DequeBase_ImagePoint___str__(DequeBase_ImagePoint self) -> std::string"},
+	 { "new_DequeBase_ImagePoint", _wrap_new_DequeBase_ImagePoint, METH_VARARGS, "\n"
+		"DequeBase_ImagePoint(std::string const & Name=\"[no name]\")\n"
+		"DequeBase_ImagePoint(size_t n, ImagePoint value, std::string const & Name=\"[no name]\")\n"
+		"new_DequeBase_ImagePoint(DequeBase_ImagePoint arg1) -> DequeBase_ImagePoint\n"
+		""},
+	 { "DequeBase_ImagePoint_clear", _wrap_DequeBase_ImagePoint_clear, METH_O, "DequeBase_ImagePoint_clear(DequeBase_ImagePoint self)"},
+	 { "DequeBase_ImagePoint_add", _wrap_DequeBase_ImagePoint_add, METH_VARARGS, "DequeBase_ImagePoint_add(DequeBase_ImagePoint self, ImagePoint value)"},
+	 { "DequeBase_ImagePoint_remove", _wrap_DequeBase_ImagePoint_remove, METH_O, "DequeBase_ImagePoint_remove(DequeBase_ImagePoint self)"},
+	 { "DequeBase_ImagePoint_push_front", _wrap_DequeBase_ImagePoint_push_front, METH_VARARGS, "DequeBase_ImagePoint_push_front(DequeBase_ImagePoint self, ImagePoint value)"},
+	 { "DequeBase_ImagePoint_pop_front", _wrap_DequeBase_ImagePoint_pop_front, METH_O, "DequeBase_ImagePoint_pop_front(DequeBase_ImagePoint self)"},
+	 { "DequeBase_ImagePoint_size", _wrap_DequeBase_ImagePoint_size, METH_O, "DequeBase_ImagePoint_size(DequeBase_ImagePoint self) -> std::size_t"},
+	 { "DequeBase_ImagePoint_GetUUID_get", _wrap_DequeBase_ImagePoint_GetUUID_get, METH_O, "DequeBase_ImagePoint_GetUUID_get(DequeBase_ImagePoint self) -> UUID"},
+	 { "DequeBase_ImagePoint_Name_set", _wrap_DequeBase_ImagePoint_Name_set, METH_VARARGS, "DequeBase_ImagePoint_Name_set(DequeBase_ImagePoint self, std::string const & Name)"},
+	 { "DequeBase_ImagePoint_Name_get", _wrap_DequeBase_ImagePoint_Name_get, METH_O, "DequeBase_ImagePoint_Name_get(DequeBase_ImagePoint self) -> std::string const &"},
+	 { "DequeBase_ImagePoint_ModifiedTimeFormat_get", _wrap_DequeBase_ImagePoint_ModifiedTimeFormat_get, METH_O, "DequeBase_ImagePoint_ModifiedTimeFormat_get(DequeBase_ImagePoint self) -> std::string const &"},
+	 { "delete_DequeBase_ImagePoint", _wrap_delete_DequeBase_ImagePoint, METH_O, "delete_DequeBase_ImagePoint(DequeBase_ImagePoint self)"},
 	 { "DequeBase_ImagePoint_swigregister", DequeBase_ImagePoint_swigregister, METH_O, NULL},
 	 { "DequeBase_ImagePoint_swiginit", DequeBase_ImagePoint_swiginit, METH_VARARGS, NULL},
-	 { "DequeBase_Image_begin", _wrap_DequeBase_Image_begin, METH_O, NULL},
-	 { "DequeBase_Image_end", _wrap_DequeBase_Image_end, METH_O, NULL},
-	 { "DequeBase_Image_cbegin", _wrap_DequeBase_Image_cbegin, METH_O, NULL},
-	 { "DequeBase_Image_cend", _wrap_DequeBase_Image_cend, METH_O, NULL},
-	 { "DequeBase_Image___getitem__", _wrap_DequeBase_Image___getitem__, METH_VARARGS, NULL},
-	 { "DequeBase_Image___setitem__", _wrap_DequeBase_Image___setitem__, METH_VARARGS, NULL},
-	 { "DequeBase_Image___len__", _wrap_DequeBase_Image___len__, METH_O, NULL},
-	 { "DequeBase_Image___bool__", _wrap_DequeBase_Image___bool__, METH_O, NULL},
-	 { "DequeBase_Image_append", _wrap_DequeBase_Image_append, METH_VARARGS, NULL},
-	 { "DequeBase_Image_pop", _wrap_DequeBase_Image_pop, METH_O, NULL},
-	 { "DequeBase_Image___contains__", _wrap_DequeBase_Image___contains__, METH_VARARGS, NULL},
-	 { "DequeBase_Image___str__", _wrap_DequeBase_Image___str__, METH_O, NULL},
-	 { "new_DequeBase_Image", _wrap_new_DequeBase_Image, METH_VARARGS, NULL},
-	 { "DequeBase_Image_clear", _wrap_DequeBase_Image_clear, METH_O, NULL},
-	 { "DequeBase_Image_add", _wrap_DequeBase_Image_add, METH_VARARGS, NULL},
-	 { "DequeBase_Image_remove", _wrap_DequeBase_Image_remove, METH_O, NULL},
-	 { "DequeBase_Image_push_front", _wrap_DequeBase_Image_push_front, METH_VARARGS, NULL},
-	 { "DequeBase_Image_pop_front", _wrap_DequeBase_Image_pop_front, METH_O, NULL},
-	 { "DequeBase_Image_size", _wrap_DequeBase_Image_size, METH_O, NULL},
-	 { "DequeBase_Image_GetUUID_get", _wrap_DequeBase_Image_GetUUID_get, METH_O, NULL},
-	 { "DequeBase_Image_Name_set", _wrap_DequeBase_Image_Name_set, METH_VARARGS, NULL},
-	 { "DequeBase_Image_Name_get", _wrap_DequeBase_Image_Name_get, METH_O, NULL},
-	 { "DequeBase_Image_ModifiedTimeFormat_get", _wrap_DequeBase_Image_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_DequeBase_Image", _wrap_delete_DequeBase_Image, METH_O, NULL},
+	 { "DequeBase_Image_begin", _wrap_DequeBase_Image_begin, METH_O, "DequeBase_Image_begin(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::iterator"},
+	 { "DequeBase_Image_end", _wrap_DequeBase_Image_end, METH_O, "DequeBase_Image_end(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::iterator"},
+	 { "DequeBase_Image_cbegin", _wrap_DequeBase_Image_cbegin, METH_O, "DequeBase_Image_cbegin(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::const_iterator"},
+	 { "DequeBase_Image_cend", _wrap_DequeBase_Image_cend, METH_O, "DequeBase_Image_cend(DequeBase_Image self) -> iMS::DequeBase< iMS::Image >::const_iterator"},
+	 { "DequeBase_Image___getitem__", _wrap_DequeBase_Image___getitem__, METH_VARARGS, "DequeBase_Image___getitem__(DequeBase_Image self, size_t i) -> Image"},
+	 { "DequeBase_Image___setitem__", _wrap_DequeBase_Image___setitem__, METH_VARARGS, "DequeBase_Image___setitem__(DequeBase_Image self, size_t i, Image val)"},
+	 { "DequeBase_Image___len__", _wrap_DequeBase_Image___len__, METH_O, "DequeBase_Image___len__(DequeBase_Image self) -> size_t"},
+	 { "DequeBase_Image___bool__", _wrap_DequeBase_Image___bool__, METH_O, "DequeBase_Image___bool__(DequeBase_Image self) -> bool"},
+	 { "DequeBase_Image_append", _wrap_DequeBase_Image_append, METH_VARARGS, "DequeBase_Image_append(DequeBase_Image self, Image val)"},
+	 { "DequeBase_Image_pop", _wrap_DequeBase_Image_pop, METH_O, "DequeBase_Image_pop(DequeBase_Image self) -> Image"},
+	 { "DequeBase_Image___contains__", _wrap_DequeBase_Image___contains__, METH_VARARGS, "DequeBase_Image___contains__(DequeBase_Image self, Image val) -> bool"},
+	 { "DequeBase_Image___str__", _wrap_DequeBase_Image___str__, METH_O, "DequeBase_Image___str__(DequeBase_Image self) -> std::string"},
+	 { "new_DequeBase_Image", _wrap_new_DequeBase_Image, METH_VARARGS, "\n"
+		"DequeBase_Image(std::string const & Name=\"[no name]\")\n"
+		"DequeBase_Image(size_t n, Image value, std::string const & Name=\"[no name]\")\n"
+		"new_DequeBase_Image(DequeBase_Image arg1) -> DequeBase_Image\n"
+		""},
+	 { "DequeBase_Image_clear", _wrap_DequeBase_Image_clear, METH_O, "DequeBase_Image_clear(DequeBase_Image self)"},
+	 { "DequeBase_Image_add", _wrap_DequeBase_Image_add, METH_VARARGS, "DequeBase_Image_add(DequeBase_Image self, Image value)"},
+	 { "DequeBase_Image_remove", _wrap_DequeBase_Image_remove, METH_O, "DequeBase_Image_remove(DequeBase_Image self)"},
+	 { "DequeBase_Image_push_front", _wrap_DequeBase_Image_push_front, METH_VARARGS, "DequeBase_Image_push_front(DequeBase_Image self, Image value)"},
+	 { "DequeBase_Image_pop_front", _wrap_DequeBase_Image_pop_front, METH_O, "DequeBase_Image_pop_front(DequeBase_Image self)"},
+	 { "DequeBase_Image_size", _wrap_DequeBase_Image_size, METH_O, "DequeBase_Image_size(DequeBase_Image self) -> std::size_t"},
+	 { "DequeBase_Image_GetUUID_get", _wrap_DequeBase_Image_GetUUID_get, METH_O, "DequeBase_Image_GetUUID_get(DequeBase_Image self) -> UUID"},
+	 { "DequeBase_Image_Name_set", _wrap_DequeBase_Image_Name_set, METH_VARARGS, "DequeBase_Image_Name_set(DequeBase_Image self, std::string const & Name)"},
+	 { "DequeBase_Image_Name_get", _wrap_DequeBase_Image_Name_get, METH_O, "DequeBase_Image_Name_get(DequeBase_Image self) -> std::string const &"},
+	 { "DequeBase_Image_ModifiedTimeFormat_get", _wrap_DequeBase_Image_ModifiedTimeFormat_get, METH_O, "DequeBase_Image_ModifiedTimeFormat_get(DequeBase_Image self) -> std::string const &"},
+	 { "delete_DequeBase_Image", _wrap_delete_DequeBase_Image, METH_O, "delete_DequeBase_Image(DequeBase_Image self)"},
 	 { "DequeBase_Image_swigregister", DequeBase_Image_swigregister, METH_O, NULL},
 	 { "DequeBase_Image_swiginit", DequeBase_Image_swiginit, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_begin", _wrap_DequeBase_CompensationPoint_begin, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_end", _wrap_DequeBase_CompensationPoint_end, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_cbegin", _wrap_DequeBase_CompensationPoint_cbegin, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_cend", _wrap_DequeBase_CompensationPoint_cend, METH_O, NULL},
-	 { "DequeBase_CompensationPoint___getitem__", _wrap_DequeBase_CompensationPoint___getitem__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint___setitem__", _wrap_DequeBase_CompensationPoint___setitem__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint___len__", _wrap_DequeBase_CompensationPoint___len__, METH_O, NULL},
-	 { "DequeBase_CompensationPoint___bool__", _wrap_DequeBase_CompensationPoint___bool__, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_append", _wrap_DequeBase_CompensationPoint_append, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_pop", _wrap_DequeBase_CompensationPoint_pop, METH_O, NULL},
-	 { "DequeBase_CompensationPoint___contains__", _wrap_DequeBase_CompensationPoint___contains__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint___str__", _wrap_DequeBase_CompensationPoint___str__, METH_O, NULL},
-	 { "new_DequeBase_CompensationPoint", _wrap_new_DequeBase_CompensationPoint, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_clear", _wrap_DequeBase_CompensationPoint_clear, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_add", _wrap_DequeBase_CompensationPoint_add, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_remove", _wrap_DequeBase_CompensationPoint_remove, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_push_front", _wrap_DequeBase_CompensationPoint_push_front, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_pop_front", _wrap_DequeBase_CompensationPoint_pop_front, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_size", _wrap_DequeBase_CompensationPoint_size, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_GetUUID_get", _wrap_DequeBase_CompensationPoint_GetUUID_get, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_Name_set", _wrap_DequeBase_CompensationPoint_Name_set, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationPoint_Name_get", _wrap_DequeBase_CompensationPoint_Name_get, METH_O, NULL},
-	 { "DequeBase_CompensationPoint_ModifiedTimeFormat_get", _wrap_DequeBase_CompensationPoint_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_DequeBase_CompensationPoint", _wrap_delete_DequeBase_CompensationPoint, METH_O, NULL},
+	 { "DequeBase_CompensationPoint_begin", _wrap_DequeBase_CompensationPoint_begin, METH_O, "DequeBase_CompensationPoint_begin(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::iterator"},
+	 { "DequeBase_CompensationPoint_end", _wrap_DequeBase_CompensationPoint_end, METH_O, "DequeBase_CompensationPoint_end(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::iterator"},
+	 { "DequeBase_CompensationPoint_cbegin", _wrap_DequeBase_CompensationPoint_cbegin, METH_O, "DequeBase_CompensationPoint_cbegin(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::const_iterator"},
+	 { "DequeBase_CompensationPoint_cend", _wrap_DequeBase_CompensationPoint_cend, METH_O, "DequeBase_CompensationPoint_cend(DequeBase_CompensationPoint self) -> iMS::DequeBase< iMS::CompensationPoint >::const_iterator"},
+	 { "DequeBase_CompensationPoint___getitem__", _wrap_DequeBase_CompensationPoint___getitem__, METH_VARARGS, "DequeBase_CompensationPoint___getitem__(DequeBase_CompensationPoint self, size_t i) -> CompensationPoint"},
+	 { "DequeBase_CompensationPoint___setitem__", _wrap_DequeBase_CompensationPoint___setitem__, METH_VARARGS, "DequeBase_CompensationPoint___setitem__(DequeBase_CompensationPoint self, size_t i, CompensationPoint val)"},
+	 { "DequeBase_CompensationPoint___len__", _wrap_DequeBase_CompensationPoint___len__, METH_O, "DequeBase_CompensationPoint___len__(DequeBase_CompensationPoint self) -> size_t"},
+	 { "DequeBase_CompensationPoint___bool__", _wrap_DequeBase_CompensationPoint___bool__, METH_O, "DequeBase_CompensationPoint___bool__(DequeBase_CompensationPoint self) -> bool"},
+	 { "DequeBase_CompensationPoint_append", _wrap_DequeBase_CompensationPoint_append, METH_VARARGS, "DequeBase_CompensationPoint_append(DequeBase_CompensationPoint self, CompensationPoint val)"},
+	 { "DequeBase_CompensationPoint_pop", _wrap_DequeBase_CompensationPoint_pop, METH_O, "DequeBase_CompensationPoint_pop(DequeBase_CompensationPoint self) -> CompensationPoint"},
+	 { "DequeBase_CompensationPoint___contains__", _wrap_DequeBase_CompensationPoint___contains__, METH_VARARGS, "DequeBase_CompensationPoint___contains__(DequeBase_CompensationPoint self, CompensationPoint val) -> bool"},
+	 { "DequeBase_CompensationPoint___str__", _wrap_DequeBase_CompensationPoint___str__, METH_O, "DequeBase_CompensationPoint___str__(DequeBase_CompensationPoint self) -> std::string"},
+	 { "new_DequeBase_CompensationPoint", _wrap_new_DequeBase_CompensationPoint, METH_VARARGS, "\n"
+		"DequeBase_CompensationPoint(std::string const & Name=\"[no name]\")\n"
+		"DequeBase_CompensationPoint(size_t n, CompensationPoint value, std::string const & Name=\"[no name]\")\n"
+		"new_DequeBase_CompensationPoint(DequeBase_CompensationPoint arg1) -> DequeBase_CompensationPoint\n"
+		""},
+	 { "DequeBase_CompensationPoint_clear", _wrap_DequeBase_CompensationPoint_clear, METH_O, "DequeBase_CompensationPoint_clear(DequeBase_CompensationPoint self)"},
+	 { "DequeBase_CompensationPoint_add", _wrap_DequeBase_CompensationPoint_add, METH_VARARGS, "DequeBase_CompensationPoint_add(DequeBase_CompensationPoint self, CompensationPoint value)"},
+	 { "DequeBase_CompensationPoint_remove", _wrap_DequeBase_CompensationPoint_remove, METH_O, "DequeBase_CompensationPoint_remove(DequeBase_CompensationPoint self)"},
+	 { "DequeBase_CompensationPoint_push_front", _wrap_DequeBase_CompensationPoint_push_front, METH_VARARGS, "DequeBase_CompensationPoint_push_front(DequeBase_CompensationPoint self, CompensationPoint value)"},
+	 { "DequeBase_CompensationPoint_pop_front", _wrap_DequeBase_CompensationPoint_pop_front, METH_O, "DequeBase_CompensationPoint_pop_front(DequeBase_CompensationPoint self)"},
+	 { "DequeBase_CompensationPoint_size", _wrap_DequeBase_CompensationPoint_size, METH_O, "DequeBase_CompensationPoint_size(DequeBase_CompensationPoint self) -> std::size_t"},
+	 { "DequeBase_CompensationPoint_GetUUID_get", _wrap_DequeBase_CompensationPoint_GetUUID_get, METH_O, "DequeBase_CompensationPoint_GetUUID_get(DequeBase_CompensationPoint self) -> UUID"},
+	 { "DequeBase_CompensationPoint_Name_set", _wrap_DequeBase_CompensationPoint_Name_set, METH_VARARGS, "DequeBase_CompensationPoint_Name_set(DequeBase_CompensationPoint self, std::string const & Name)"},
+	 { "DequeBase_CompensationPoint_Name_get", _wrap_DequeBase_CompensationPoint_Name_get, METH_O, "DequeBase_CompensationPoint_Name_get(DequeBase_CompensationPoint self) -> std::string const &"},
+	 { "DequeBase_CompensationPoint_ModifiedTimeFormat_get", _wrap_DequeBase_CompensationPoint_ModifiedTimeFormat_get, METH_O, "DequeBase_CompensationPoint_ModifiedTimeFormat_get(DequeBase_CompensationPoint self) -> std::string const &"},
+	 { "delete_DequeBase_CompensationPoint", _wrap_delete_DequeBase_CompensationPoint, METH_O, "delete_DequeBase_CompensationPoint(DequeBase_CompensationPoint self)"},
 	 { "DequeBase_CompensationPoint_swigregister", DequeBase_CompensationPoint_swigregister, METH_O, NULL},
 	 { "DequeBase_CompensationPoint_swiginit", DequeBase_CompensationPoint_swiginit, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_begin", _wrap_DequeBase_CompensationTable_begin, METH_O, NULL},
-	 { "DequeBase_CompensationTable_end", _wrap_DequeBase_CompensationTable_end, METH_O, NULL},
-	 { "DequeBase_CompensationTable_cbegin", _wrap_DequeBase_CompensationTable_cbegin, METH_O, NULL},
-	 { "DequeBase_CompensationTable_cend", _wrap_DequeBase_CompensationTable_cend, METH_O, NULL},
-	 { "DequeBase_CompensationTable___getitem__", _wrap_DequeBase_CompensationTable___getitem__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable___setitem__", _wrap_DequeBase_CompensationTable___setitem__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable___len__", _wrap_DequeBase_CompensationTable___len__, METH_O, NULL},
-	 { "DequeBase_CompensationTable___bool__", _wrap_DequeBase_CompensationTable___bool__, METH_O, NULL},
-	 { "DequeBase_CompensationTable_append", _wrap_DequeBase_CompensationTable_append, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_pop", _wrap_DequeBase_CompensationTable_pop, METH_O, NULL},
-	 { "DequeBase_CompensationTable___contains__", _wrap_DequeBase_CompensationTable___contains__, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable___str__", _wrap_DequeBase_CompensationTable___str__, METH_O, NULL},
-	 { "new_DequeBase_CompensationTable", _wrap_new_DequeBase_CompensationTable, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_clear", _wrap_DequeBase_CompensationTable_clear, METH_O, NULL},
-	 { "DequeBase_CompensationTable_add", _wrap_DequeBase_CompensationTable_add, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_remove", _wrap_DequeBase_CompensationTable_remove, METH_O, NULL},
-	 { "DequeBase_CompensationTable_push_front", _wrap_DequeBase_CompensationTable_push_front, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_pop_front", _wrap_DequeBase_CompensationTable_pop_front, METH_O, NULL},
-	 { "DequeBase_CompensationTable_size", _wrap_DequeBase_CompensationTable_size, METH_O, NULL},
-	 { "DequeBase_CompensationTable_GetUUID_get", _wrap_DequeBase_CompensationTable_GetUUID_get, METH_O, NULL},
-	 { "DequeBase_CompensationTable_Name_set", _wrap_DequeBase_CompensationTable_Name_set, METH_VARARGS, NULL},
-	 { "DequeBase_CompensationTable_Name_get", _wrap_DequeBase_CompensationTable_Name_get, METH_O, NULL},
-	 { "DequeBase_CompensationTable_ModifiedTimeFormat_get", _wrap_DequeBase_CompensationTable_ModifiedTimeFormat_get, METH_O, NULL},
-	 { "delete_DequeBase_CompensationTable", _wrap_delete_DequeBase_CompensationTable, METH_O, NULL},
+	 { "DequeBase_CompensationTable_begin", _wrap_DequeBase_CompensationTable_begin, METH_O, "DequeBase_CompensationTable_begin(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::iterator"},
+	 { "DequeBase_CompensationTable_end", _wrap_DequeBase_CompensationTable_end, METH_O, "DequeBase_CompensationTable_end(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::iterator"},
+	 { "DequeBase_CompensationTable_cbegin", _wrap_DequeBase_CompensationTable_cbegin, METH_O, "DequeBase_CompensationTable_cbegin(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::const_iterator"},
+	 { "DequeBase_CompensationTable_cend", _wrap_DequeBase_CompensationTable_cend, METH_O, "DequeBase_CompensationTable_cend(DequeBase_CompensationTable self) -> iMS::DequeBase< iMS::CompensationTable >::const_iterator"},
+	 { "DequeBase_CompensationTable___getitem__", _wrap_DequeBase_CompensationTable___getitem__, METH_VARARGS, "DequeBase_CompensationTable___getitem__(DequeBase_CompensationTable self, size_t i) -> CompensationTable"},
+	 { "DequeBase_CompensationTable___setitem__", _wrap_DequeBase_CompensationTable___setitem__, METH_VARARGS, "DequeBase_CompensationTable___setitem__(DequeBase_CompensationTable self, size_t i, CompensationTable val)"},
+	 { "DequeBase_CompensationTable___len__", _wrap_DequeBase_CompensationTable___len__, METH_O, "DequeBase_CompensationTable___len__(DequeBase_CompensationTable self) -> size_t"},
+	 { "DequeBase_CompensationTable___bool__", _wrap_DequeBase_CompensationTable___bool__, METH_O, "DequeBase_CompensationTable___bool__(DequeBase_CompensationTable self) -> bool"},
+	 { "DequeBase_CompensationTable_append", _wrap_DequeBase_CompensationTable_append, METH_VARARGS, "DequeBase_CompensationTable_append(DequeBase_CompensationTable self, CompensationTable val)"},
+	 { "DequeBase_CompensationTable_pop", _wrap_DequeBase_CompensationTable_pop, METH_O, "DequeBase_CompensationTable_pop(DequeBase_CompensationTable self) -> CompensationTable"},
+	 { "DequeBase_CompensationTable___contains__", _wrap_DequeBase_CompensationTable___contains__, METH_VARARGS, "DequeBase_CompensationTable___contains__(DequeBase_CompensationTable self, CompensationTable val) -> bool"},
+	 { "DequeBase_CompensationTable___str__", _wrap_DequeBase_CompensationTable___str__, METH_O, "DequeBase_CompensationTable___str__(DequeBase_CompensationTable self) -> std::string"},
+	 { "new_DequeBase_CompensationTable", _wrap_new_DequeBase_CompensationTable, METH_VARARGS, "\n"
+		"DequeBase_CompensationTable(std::string const & Name=\"[no name]\")\n"
+		"DequeBase_CompensationTable(size_t n, CompensationTable value, std::string const & Name=\"[no name]\")\n"
+		"new_DequeBase_CompensationTable(DequeBase_CompensationTable arg1) -> DequeBase_CompensationTable\n"
+		""},
+	 { "DequeBase_CompensationTable_clear", _wrap_DequeBase_CompensationTable_clear, METH_O, "DequeBase_CompensationTable_clear(DequeBase_CompensationTable self)"},
+	 { "DequeBase_CompensationTable_add", _wrap_DequeBase_CompensationTable_add, METH_VARARGS, "DequeBase_CompensationTable_add(DequeBase_CompensationTable self, CompensationTable value)"},
+	 { "DequeBase_CompensationTable_remove", _wrap_DequeBase_CompensationTable_remove, METH_O, "DequeBase_CompensationTable_remove(DequeBase_CompensationTable self)"},
+	 { "DequeBase_CompensationTable_push_front", _wrap_DequeBase_CompensationTable_push_front, METH_VARARGS, "DequeBase_CompensationTable_push_front(DequeBase_CompensationTable self, CompensationTable value)"},
+	 { "DequeBase_CompensationTable_pop_front", _wrap_DequeBase_CompensationTable_pop_front, METH_O, "DequeBase_CompensationTable_pop_front(DequeBase_CompensationTable self)"},
+	 { "DequeBase_CompensationTable_size", _wrap_DequeBase_CompensationTable_size, METH_O, "DequeBase_CompensationTable_size(DequeBase_CompensationTable self) -> std::size_t"},
+	 { "DequeBase_CompensationTable_GetUUID_get", _wrap_DequeBase_CompensationTable_GetUUID_get, METH_O, "DequeBase_CompensationTable_GetUUID_get(DequeBase_CompensationTable self) -> UUID"},
+	 { "DequeBase_CompensationTable_Name_set", _wrap_DequeBase_CompensationTable_Name_set, METH_VARARGS, "DequeBase_CompensationTable_Name_set(DequeBase_CompensationTable self, std::string const & Name)"},
+	 { "DequeBase_CompensationTable_Name_get", _wrap_DequeBase_CompensationTable_Name_get, METH_O, "DequeBase_CompensationTable_Name_get(DequeBase_CompensationTable self) -> std::string const &"},
+	 { "DequeBase_CompensationTable_ModifiedTimeFormat_get", _wrap_DequeBase_CompensationTable_ModifiedTimeFormat_get, METH_O, "DequeBase_CompensationTable_ModifiedTimeFormat_get(DequeBase_CompensationTable self) -> std::string const &"},
+	 { "delete_DequeBase_CompensationTable", _wrap_delete_DequeBase_CompensationTable, METH_O, "delete_DequeBase_CompensationTable(DequeBase_CompensationTable self)"},
 	 { "DequeBase_CompensationTable_swigregister", DequeBase_CompensationTable_swigregister, METH_O, NULL},
 	 { "DequeBase_CompensationTable_swiginit", DequeBase_CompensationTable_swiginit, METH_VARARGS, NULL},
-	 { "LibVersion_GetMajor", _wrap_LibVersion_GetMajor, METH_NOARGS, NULL},
-	 { "LibVersion_GetMinor", _wrap_LibVersion_GetMinor, METH_NOARGS, NULL},
-	 { "LibVersion_GetPatch", _wrap_LibVersion_GetPatch, METH_NOARGS, NULL},
-	 { "LibVersion_GetVersion", _wrap_LibVersion_GetVersion, METH_NOARGS, NULL},
-	 { "LibVersion_IsAtLeast", _wrap_LibVersion_IsAtLeast, METH_VARARGS, NULL},
-	 { "LibVersion_HasFeature", _wrap_LibVersion_HasFeature, METH_O, NULL},
-	 { "new_LibVersion", _wrap_new_LibVersion, METH_NOARGS, NULL},
-	 { "delete_LibVersion", _wrap_delete_LibVersion, METH_O, NULL},
+	 { "LibVersion_GetMajor", _wrap_LibVersion_GetMajor, METH_NOARGS, "LibVersion_GetMajor() -> int"},
+	 { "LibVersion_GetMinor", _wrap_LibVersion_GetMinor, METH_NOARGS, "LibVersion_GetMinor() -> int"},
+	 { "LibVersion_GetPatch", _wrap_LibVersion_GetPatch, METH_NOARGS, "LibVersion_GetPatch() -> int"},
+	 { "LibVersion_GetVersion", _wrap_LibVersion_GetVersion, METH_NOARGS, "LibVersion_GetVersion() -> std::string"},
+	 { "LibVersion_IsAtLeast", _wrap_LibVersion_IsAtLeast, METH_VARARGS, "LibVersion_IsAtLeast(int major, int minor, int patch) -> bool"},
+	 { "LibVersion_HasFeature", _wrap_LibVersion_HasFeature, METH_O, "LibVersion_HasFeature(std::string const & name) -> bool"},
+	 { "new_LibVersion", _wrap_new_LibVersion, METH_NOARGS, "new_LibVersion() -> LibVersion"},
+	 { "delete_LibVersion", _wrap_delete_LibVersion, METH_O, "delete_LibVersion(LibVersion self)"},
 	 { "LibVersion_swigregister", LibVersion_swigregister, METH_O, NULL},
 	 { "LibVersion_swiginit", LibVersion_swiginit, METH_VARARGS, NULL},
-	 { "new_Frequency", _wrap_new_Frequency, METH_VARARGS, NULL},
-	 { "Frequency_assign", _wrap_Frequency_assign, METH_VARARGS, NULL},
-	 { "Frequency___add__", _wrap_Frequency___add__, METH_VARARGS, NULL},
-	 { "Frequency___iadd__", _wrap_Frequency___iadd__, METH_VARARGS, NULL},
-	 { "Frequency___sub__", _wrap_Frequency___sub__, METH_VARARGS, NULL},
-	 { "Frequency___isub__", _wrap_Frequency___isub__, METH_VARARGS, NULL},
-	 { "Frequency___float__", _wrap_Frequency___float__, METH_O, NULL},
-	 { "Frequency___str__", _wrap_Frequency___str__, METH_O, NULL},
-	 { "Frequency_value_set", _wrap_Frequency_value_set, METH_VARARGS, NULL},
-	 { "Frequency_value_get", _wrap_Frequency_value_get, METH_O, NULL},
-	 { "delete_Frequency", _wrap_delete_Frequency, METH_O, NULL},
+	 { "new_Frequency", _wrap_new_Frequency, METH_VARARGS, "\n"
+		"Frequency(double arg=1.0)\n"
+		"Frequency(kHz f)\n"
+		"new_Frequency(MHz f) -> Frequency\n"
+		""},
+	 { "Frequency_assign", _wrap_Frequency_assign, METH_VARARGS, "\n"
+		"Frequency_assign(Frequency self, Frequency f)\n"
+		"Frequency_assign(Frequency self, kHz const & f)\n"
+		"Frequency_assign(Frequency self, MHz const & f)\n"
+		""},
+	 { "Frequency___add__", _wrap_Frequency___add__, METH_VARARGS, "Frequency___add__(Frequency self, Frequency f) -> Frequency"},
+	 { "Frequency___iadd__", _wrap_Frequency___iadd__, METH_VARARGS, "Frequency___iadd__(Frequency self, Frequency f) -> Frequency"},
+	 { "Frequency___sub__", _wrap_Frequency___sub__, METH_VARARGS, "Frequency___sub__(Frequency self, Frequency f) -> Frequency"},
+	 { "Frequency___isub__", _wrap_Frequency___isub__, METH_VARARGS, "Frequency___isub__(Frequency self, Frequency f) -> Frequency"},
+	 { "Frequency___float__", _wrap_Frequency___float__, METH_O, "Frequency___float__(Frequency self) -> double"},
+	 { "Frequency___str__", _wrap_Frequency___str__, METH_O, "Frequency___str__(Frequency self) -> std::string"},
+	 { "Frequency_value_set", _wrap_Frequency_value_set, METH_VARARGS, "Frequency_value_set(Frequency self, double value)"},
+	 { "Frequency_value_get", _wrap_Frequency_value_get, METH_O, "Frequency_value_get(Frequency self) -> double"},
+	 { "delete_Frequency", _wrap_delete_Frequency, METH_O, "delete_Frequency(Frequency self)"},
 	 { "Frequency_swigregister", Frequency_swigregister, METH_O, NULL},
 	 { "Frequency_swiginit", Frequency_swiginit, METH_VARARGS, NULL},
-	 { "new_kHz", _wrap_new_kHz, METH_VARARGS, NULL},
-	 { "kHz_assign", _wrap_kHz_assign, METH_VARARGS, NULL},
-	 { "kHz___add__", _wrap_kHz___add__, METH_VARARGS, NULL},
-	 { "kHz___iadd__", _wrap_kHz___iadd__, METH_VARARGS, NULL},
-	 { "kHz___sub__", _wrap_kHz___sub__, METH_VARARGS, NULL},
-	 { "kHz___isub__", _wrap_kHz___isub__, METH_VARARGS, NULL},
-	 { "kHz___float__", _wrap_kHz___float__, METH_O, NULL},
-	 { "kHz___str__", _wrap_kHz___str__, METH_O, NULL},
-	 { "kHz_value_set", _wrap_kHz_value_set, METH_VARARGS, NULL},
-	 { "kHz_value_get", _wrap_kHz_value_get, METH_O, NULL},
-	 { "delete_kHz", _wrap_delete_kHz, METH_O, NULL},
+	 { "new_kHz", _wrap_new_kHz, METH_VARARGS, "\n"
+		"kHz(double arg=1.0)\n"
+		"kHz(Frequency f)\n"
+		"new_kHz(MHz const & f) -> kHz\n"
+		""},
+	 { "kHz_assign", _wrap_kHz_assign, METH_VARARGS, "\n"
+		"kHz_assign(kHz self, Frequency f)\n"
+		"kHz_assign(kHz self, kHz f)\n"
+		"kHz_assign(kHz self, MHz const & f)\n"
+		""},
+	 { "kHz___add__", _wrap_kHz___add__, METH_VARARGS, "\n"
+		"kHz___add__(kHz self, kHz f) -> kHz\n"
+		"kHz___add__(kHz self, Frequency f) -> kHz\n"
+		""},
+	 { "kHz___iadd__", _wrap_kHz___iadd__, METH_VARARGS, "\n"
+		"kHz___iadd__(kHz self, kHz f) -> kHz\n"
+		"kHz___iadd__(kHz self, Frequency f) -> kHz\n"
+		""},
+	 { "kHz___sub__", _wrap_kHz___sub__, METH_VARARGS, "\n"
+		"kHz___sub__(kHz self, kHz f) -> kHz\n"
+		"kHz___sub__(kHz self, Frequency f) -> kHz\n"
+		""},
+	 { "kHz___isub__", _wrap_kHz___isub__, METH_VARARGS, "\n"
+		"kHz___isub__(kHz self, kHz f) -> kHz\n"
+		"kHz___isub__(kHz self, Frequency f) -> kHz\n"
+		""},
+	 { "kHz___float__", _wrap_kHz___float__, METH_O, "kHz___float__(kHz self) -> double"},
+	 { "kHz___str__", _wrap_kHz___str__, METH_O, "kHz___str__(kHz self) -> std::string"},
+	 { "kHz_value_set", _wrap_kHz_value_set, METH_VARARGS, "kHz_value_set(kHz self, double value)"},
+	 { "kHz_value_get", _wrap_kHz_value_get, METH_O, "kHz_value_get(kHz self) -> double"},
+	 { "delete_kHz", _wrap_delete_kHz, METH_O, "delete_kHz(kHz self)"},
 	 { "kHz_swigregister", kHz_swigregister, METH_O, NULL},
 	 { "kHz_swiginit", kHz_swiginit, METH_VARARGS, NULL},
-	 { "new_MHz", _wrap_new_MHz, METH_VARARGS, NULL},
-	 { "MHz_assign", _wrap_MHz_assign, METH_VARARGS, NULL},
-	 { "MHz___add__", _wrap_MHz___add__, METH_VARARGS, NULL},
-	 { "MHz___iadd__", _wrap_MHz___iadd__, METH_VARARGS, NULL},
-	 { "MHz___sub__", _wrap_MHz___sub__, METH_VARARGS, NULL},
-	 { "MHz___isub__", _wrap_MHz___isub__, METH_VARARGS, NULL},
-	 { "MHz___float__", _wrap_MHz___float__, METH_O, NULL},
-	 { "MHz___str__", _wrap_MHz___str__, METH_O, NULL},
-	 { "MHz_value_set", _wrap_MHz_value_set, METH_VARARGS, NULL},
-	 { "MHz_value_get", _wrap_MHz_value_get, METH_O, NULL},
-	 { "delete_MHz", _wrap_delete_MHz, METH_O, NULL},
+	 { "new_MHz", _wrap_new_MHz, METH_VARARGS, "\n"
+		"MHz(double arg=1.0)\n"
+		"MHz(Frequency f)\n"
+		"new_MHz(kHz f) -> MHz\n"
+		""},
+	 { "MHz_assign", _wrap_MHz_assign, METH_VARARGS, "\n"
+		"MHz_assign(MHz self, Frequency f)\n"
+		"MHz_assign(MHz self, kHz f)\n"
+		"MHz_assign(MHz self, MHz f)\n"
+		""},
+	 { "MHz___add__", _wrap_MHz___add__, METH_VARARGS, "\n"
+		"MHz___add__(MHz self, MHz f) -> MHz\n"
+		"MHz___add__(MHz self, kHz f) -> MHz\n"
+		"MHz___add__(MHz self, Frequency f) -> MHz\n"
+		""},
+	 { "MHz___iadd__", _wrap_MHz___iadd__, METH_VARARGS, "\n"
+		"MHz___iadd__(MHz self, MHz f) -> MHz\n"
+		"MHz___iadd__(MHz self, kHz f) -> MHz\n"
+		"MHz___iadd__(MHz self, Frequency f) -> MHz\n"
+		""},
+	 { "MHz___sub__", _wrap_MHz___sub__, METH_VARARGS, "\n"
+		"MHz___sub__(MHz self, MHz f) -> MHz\n"
+		"MHz___sub__(MHz self, kHz f) -> MHz\n"
+		"MHz___sub__(MHz self, Frequency f) -> MHz\n"
+		""},
+	 { "MHz___isub__", _wrap_MHz___isub__, METH_VARARGS, "\n"
+		"MHz___isub__(MHz self, MHz f) -> MHz\n"
+		"MHz___isub__(MHz self, kHz f) -> MHz\n"
+		"MHz___isub__(MHz self, Frequency f) -> MHz\n"
+		""},
+	 { "MHz___float__", _wrap_MHz___float__, METH_O, "MHz___float__(MHz self) -> double"},
+	 { "MHz___str__", _wrap_MHz___str__, METH_O, "MHz___str__(MHz self) -> std::string"},
+	 { "MHz_value_set", _wrap_MHz_value_set, METH_VARARGS, "MHz_value_set(MHz self, double value)"},
+	 { "MHz_value_get", _wrap_MHz_value_get, METH_O, "MHz_value_get(MHz self) -> double"},
+	 { "delete_MHz", _wrap_delete_MHz, METH_O, "delete_MHz(MHz self)"},
 	 { "MHz_swigregister", MHz_swigregister, METH_O, NULL},
 	 { "MHz_swiginit", MHz_swiginit, METH_VARARGS, NULL},
-	 { "new_Percent", _wrap_new_Percent, METH_VARARGS, NULL},
-	 { "Percent___float__", _wrap_Percent___float__, METH_O, NULL},
-	 { "Percent___str__", _wrap_Percent___str__, METH_O, NULL},
-	 { "Percent_value_set", _wrap_Percent_value_set, METH_VARARGS, NULL},
-	 { "Percent_value_get", _wrap_Percent_value_get, METH_O, NULL},
-	 { "delete_Percent", _wrap_delete_Percent, METH_O, NULL},
+	 { "new_Percent", _wrap_new_Percent, METH_VARARGS, "\n"
+		"Percent()\n"
+		"new_Percent(double arg) -> Percent\n"
+		""},
+	 { "Percent___float__", _wrap_Percent___float__, METH_O, "Percent___float__(Percent self) -> double"},
+	 { "Percent___str__", _wrap_Percent___str__, METH_O, "Percent___str__(Percent self) -> std::string"},
+	 { "Percent_value_set", _wrap_Percent_value_set, METH_VARARGS, "Percent_value_set(Percent self, double value)"},
+	 { "Percent_value_get", _wrap_Percent_value_get, METH_O, "Percent_value_get(Percent self) -> double"},
+	 { "delete_Percent", _wrap_delete_Percent, METH_O, "delete_Percent(Percent self)"},
 	 { "Percent_swigregister", Percent_swigregister, METH_O, NULL},
 	 { "Percent_swiginit", Percent_swiginit, METH_VARARGS, NULL},
-	 { "new_Degrees", _wrap_new_Degrees, METH_O, NULL},
-	 { "Degrees___float__", _wrap_Degrees___float__, METH_O, NULL},
-	 { "Degrees___str__", _wrap_Degrees___str__, METH_O, NULL},
-	 { "Degrees_value_set", _wrap_Degrees_value_set, METH_VARARGS, NULL},
-	 { "Degrees_value_get", _wrap_Degrees_value_get, METH_O, NULL},
-	 { "delete_Degrees", _wrap_delete_Degrees, METH_O, NULL},
+	 { "new_Degrees", _wrap_new_Degrees, METH_O, "new_Degrees(double arg) -> Degrees"},
+	 { "Degrees___float__", _wrap_Degrees___float__, METH_O, "Degrees___float__(Degrees self) -> double"},
+	 { "Degrees___str__", _wrap_Degrees___str__, METH_O, "Degrees___str__(Degrees self) -> std::string"},
+	 { "Degrees_value_set", _wrap_Degrees_value_set, METH_VARARGS, "Degrees_value_set(Degrees self, double value)"},
+	 { "Degrees_value_get", _wrap_Degrees_value_get, METH_O, "Degrees_value_get(Degrees self) -> double"},
+	 { "delete_Degrees", _wrap_delete_Degrees, METH_O, "delete_Degrees(Degrees self)"},
 	 { "Degrees_swigregister", Degrees_swigregister, METH_O, NULL},
 	 { "Degrees_swiginit", Degrees_swiginit, METH_VARARGS, NULL},
-	 { "FAP_freq_set", _wrap_FAP_freq_set, METH_VARARGS, NULL},
-	 { "FAP_freq_get", _wrap_FAP_freq_get, METH_O, NULL},
-	 { "FAP_ampl_set", _wrap_FAP_ampl_set, METH_VARARGS, NULL},
-	 { "FAP_ampl_get", _wrap_FAP_ampl_get, METH_O, NULL},
-	 { "FAP_phase_set", _wrap_FAP_phase_set, METH_VARARGS, NULL},
-	 { "FAP_phase_get", _wrap_FAP_phase_get, METH_O, NULL},
-	 { "FAP___eq__", _wrap_FAP___eq__, METH_VARARGS, NULL},
-	 { "FAP___ne__", _wrap_FAP___ne__, METH_VARARGS, NULL},
-	 { "FAP___str__", _wrap_FAP___str__, METH_O, NULL},
-	 { "new_FAP", _wrap_new_FAP, METH_VARARGS, NULL},
-	 { "delete_FAP", _wrap_delete_FAP, METH_O, NULL},
+	 { "FAP_freq_set", _wrap_FAP_freq_set, METH_VARARGS, "FAP_freq_set(FAP self, MHz freq)"},
+	 { "FAP_freq_get", _wrap_FAP_freq_get, METH_O, "FAP_freq_get(FAP self) -> MHz"},
+	 { "FAP_ampl_set", _wrap_FAP_ampl_set, METH_VARARGS, "FAP_ampl_set(FAP self, Percent ampl)"},
+	 { "FAP_ampl_get", _wrap_FAP_ampl_get, METH_O, "FAP_ampl_get(FAP self) -> Percent"},
+	 { "FAP_phase_set", _wrap_FAP_phase_set, METH_VARARGS, "FAP_phase_set(FAP self, Degrees phase)"},
+	 { "FAP_phase_get", _wrap_FAP_phase_get, METH_O, "FAP_phase_get(FAP self) -> Degrees"},
+	 { "FAP___eq__", _wrap_FAP___eq__, METH_VARARGS, "FAP___eq__(FAP self, FAP other) -> bool"},
+	 { "FAP___ne__", _wrap_FAP___ne__, METH_VARARGS, "FAP___ne__(FAP self, FAP other) -> bool"},
+	 { "FAP___str__", _wrap_FAP___str__, METH_O, "FAP___str__(FAP self) -> std::string"},
+	 { "new_FAP", _wrap_new_FAP, METH_VARARGS, "\n"
+		"FAP()\n"
+		"FAP(double f, double a, double p)\n"
+		"FAP(MHz f, Percent a, Degrees p)\n"
+		"new_FAP(FAP other) -> FAP\n"
+		""},
+	 { "delete_FAP", _wrap_delete_FAP, METH_O, "delete_FAP(FAP self)"},
 	 { "FAP_swigregister", FAP_swigregister, METH_O, NULL},
 	 { "FAP_swiginit", FAP_swiginit, METH_VARARGS, NULL},
-	 { "RFChannel_incr", _wrap_RFChannel_incr, METH_O, NULL},
-	 { "RFChannel_decr", _wrap_RFChannel_decr, METH_O, NULL},
-	 { "RFChannel_IsAll", _wrap_RFChannel_IsAll, METH_O, NULL},
-	 { "RFChannel_value_set", _wrap_RFChannel_value_set, METH_VARARGS, NULL},
-	 { "RFChannel_value_get", _wrap_RFChannel_value_get, METH_O, NULL},
-	 { "new_RFChannel", _wrap_new_RFChannel, METH_VARARGS, NULL},
-	 { "RFChannel___int__", _wrap_RFChannel___int__, METH_O, NULL},
-	 { "RFChannel___index__", _wrap_RFChannel___index__, METH_O, NULL},
-	 { "RFChannel___str__", _wrap_RFChannel___str__, METH_O, NULL},
-	 { "RFChannel___add__", _wrap_RFChannel___add__, METH_VARARGS, NULL},
-	 { "RFChannel___sub__", _wrap_RFChannel___sub__, METH_VARARGS, NULL},
-	 { "RFChannel___iadd__", _wrap_RFChannel___iadd__, METH_VARARGS, NULL},
-	 { "RFChannel___isub__", _wrap_RFChannel___isub__, METH_VARARGS, NULL},
-	 { "RFChannel_next", _wrap_RFChannel_next, METH_O, NULL},
-	 { "RFChannel_prev", _wrap_RFChannel_prev, METH_O, NULL},
-	 { "RFChannel_reset", _wrap_RFChannel_reset, METH_O, NULL},
-	 { "RFChannel___eq__", _wrap_RFChannel___eq__, METH_VARARGS, NULL},
-	 { "RFChannel___lt__", _wrap_RFChannel___lt__, METH_VARARGS, NULL},
-	 { "delete_RFChannel", _wrap_delete_RFChannel, METH_O, NULL},
+	 { "RFChannel_incr", _wrap_RFChannel_incr, METH_O, "RFChannel_incr(RFChannel self) -> RFChannel"},
+	 { "RFChannel_decr", _wrap_RFChannel_decr, METH_O, "RFChannel_decr(RFChannel self) -> RFChannel"},
+	 { "RFChannel_IsAll", _wrap_RFChannel_IsAll, METH_O, "RFChannel_IsAll(RFChannel self) -> bool"},
+	 { "RFChannel_value_set", _wrap_RFChannel_value_set, METH_VARARGS, "RFChannel_value_set(RFChannel self, int value)"},
+	 { "RFChannel_value_get", _wrap_RFChannel_value_get, METH_O, "RFChannel_value_get(RFChannel self) -> int"},
+	 { "new_RFChannel", _wrap_new_RFChannel, METH_VARARGS, "\n"
+		"RFChannel()\n"
+		"new_RFChannel(int val) -> RFChannel\n"
+		""},
+	 { "RFChannel___int__", _wrap_RFChannel___int__, METH_O, "RFChannel___int__(RFChannel self) -> int"},
+	 { "RFChannel___index__", _wrap_RFChannel___index__, METH_O, "RFChannel___index__(RFChannel self) -> int"},
+	 { "RFChannel___str__", _wrap_RFChannel___str__, METH_O, "RFChannel___str__(RFChannel self) -> std::string"},
+	 { "RFChannel___add__", _wrap_RFChannel___add__, METH_VARARGS, "RFChannel___add__(RFChannel self, int delta) -> RFChannel"},
+	 { "RFChannel___sub__", _wrap_RFChannel___sub__, METH_VARARGS, "RFChannel___sub__(RFChannel self, int delta) -> RFChannel"},
+	 { "RFChannel___iadd__", _wrap_RFChannel___iadd__, METH_VARARGS, "RFChannel___iadd__(RFChannel self, int delta) -> RFChannel"},
+	 { "RFChannel___isub__", _wrap_RFChannel___isub__, METH_VARARGS, "RFChannel___isub__(RFChannel self, int delta) -> RFChannel"},
+	 { "RFChannel_next", _wrap_RFChannel_next, METH_O, "RFChannel_next(RFChannel self) -> RFChannel"},
+	 { "RFChannel_prev", _wrap_RFChannel_prev, METH_O, "RFChannel_prev(RFChannel self) -> RFChannel"},
+	 { "RFChannel_reset", _wrap_RFChannel_reset, METH_O, "RFChannel_reset(RFChannel self)"},
+	 { "RFChannel___eq__", _wrap_RFChannel___eq__, METH_VARARGS, "RFChannel___eq__(RFChannel self, RFChannel other) -> bool"},
+	 { "RFChannel___lt__", _wrap_RFChannel___lt__, METH_VARARGS, "RFChannel___lt__(RFChannel self, RFChannel other) -> bool"},
+	 { "delete_RFChannel", _wrap_delete_RFChannel, METH_O, "delete_RFChannel(RFChannel self)"},
 	 { "RFChannel_swigregister", RFChannel_swigregister, METH_O, NULL},
 	 { "RFChannel_swiginit", RFChannel_swiginit, METH_VARARGS, NULL},
-	 { "new_SweepTone", _wrap_new_SweepTone, METH_VARARGS, NULL},
-	 { "SweepTone_start_set", _wrap_SweepTone_start_set, METH_VARARGS, NULL},
-	 { "SweepTone_start_get", _wrap_SweepTone_start_get, METH_O, NULL},
-	 { "SweepTone_end_set", _wrap_SweepTone_end_set, METH_VARARGS, NULL},
-	 { "SweepTone_end_get", _wrap_SweepTone_end_get, METH_O, NULL},
-	 { "SweepTone_up_ramp_set", _wrap_SweepTone_up_ramp_set, METH_VARARGS, NULL},
-	 { "SweepTone_up_ramp_get", _wrap_SweepTone_up_ramp_get, METH_O, NULL},
-	 { "SweepTone_down_ramp_set", _wrap_SweepTone_down_ramp_set, METH_VARARGS, NULL},
-	 { "SweepTone_down_ramp_get", _wrap_SweepTone_down_ramp_get, METH_O, NULL},
-	 { "SweepTone_n_steps_set", _wrap_SweepTone_n_steps_set, METH_VARARGS, NULL},
-	 { "SweepTone_n_steps_get", _wrap_SweepTone_n_steps_get, METH_O, NULL},
-	 { "SweepTone_mode_set", _wrap_SweepTone_mode_set, METH_VARARGS, NULL},
-	 { "SweepTone_mode_get", _wrap_SweepTone_mode_get, METH_O, NULL},
-	 { "SweepTone_scaling_set", _wrap_SweepTone_scaling_set, METH_VARARGS, NULL},
-	 { "SweepTone_scaling_get", _wrap_SweepTone_scaling_get, METH_O, NULL},
-	 { "delete_SweepTone", _wrap_delete_SweepTone, METH_O, NULL},
+	 { "new_SweepTone", _wrap_new_SweepTone, METH_VARARGS, "\n"
+		"SweepTone()\n"
+		"SweepTone(FAP tone)\n"
+		"SweepTone(FAP start, FAP end, UnitFloatDuration up, UnitFloatDuration down, int steps, iMS::ENHANCED_TONE_MODE mode, iMS::DAC_CURRENT_REFERENCE scaling)\n"
+		"new_SweepTone(SweepTone arg1) -> SweepTone\n"
+		""},
+	 { "SweepTone_start_set", _wrap_SweepTone_start_set, METH_VARARGS, "SweepTone_start_set(SweepTone self, FAP start)"},
+	 { "SweepTone_start_get", _wrap_SweepTone_start_get, METH_O, "SweepTone_start_get(SweepTone self) -> FAP"},
+	 { "SweepTone_end_set", _wrap_SweepTone_end_set, METH_VARARGS, "SweepTone_end_set(SweepTone self, FAP end)"},
+	 { "SweepTone_end_get", _wrap_SweepTone_end_get, METH_O, "SweepTone_end_get(SweepTone self) -> FAP"},
+	 { "SweepTone_up_ramp_set", _wrap_SweepTone_up_ramp_set, METH_VARARGS, "SweepTone_up_ramp_set(SweepTone self, UnitFloatDuration up_ramp)"},
+	 { "SweepTone_up_ramp_get", _wrap_SweepTone_up_ramp_get, METH_O, "SweepTone_up_ramp_get(SweepTone self) -> UnitFloatDuration"},
+	 { "SweepTone_down_ramp_set", _wrap_SweepTone_down_ramp_set, METH_VARARGS, "SweepTone_down_ramp_set(SweepTone self, UnitFloatDuration down_ramp)"},
+	 { "SweepTone_down_ramp_get", _wrap_SweepTone_down_ramp_get, METH_O, "SweepTone_down_ramp_get(SweepTone self) -> UnitFloatDuration"},
+	 { "SweepTone_n_steps_set", _wrap_SweepTone_n_steps_set, METH_VARARGS, "SweepTone_n_steps_set(SweepTone self, int n_steps)"},
+	 { "SweepTone_n_steps_get", _wrap_SweepTone_n_steps_get, METH_O, "SweepTone_n_steps_get(SweepTone self) -> int"},
+	 { "SweepTone_mode_set", _wrap_SweepTone_mode_set, METH_VARARGS, "SweepTone_mode_set(SweepTone self, iMS::ENHANCED_TONE_MODE mode)"},
+	 { "SweepTone_mode_get", _wrap_SweepTone_mode_get, METH_O, "SweepTone_mode_get(SweepTone self) -> iMS::ENHANCED_TONE_MODE"},
+	 { "SweepTone_scaling_set", _wrap_SweepTone_scaling_set, METH_VARARGS, "SweepTone_scaling_set(SweepTone self, iMS::DAC_CURRENT_REFERENCE scaling)"},
+	 { "SweepTone_scaling_get", _wrap_SweepTone_scaling_get, METH_O, "SweepTone_scaling_get(SweepTone self) -> iMS::DAC_CURRENT_REFERENCE"},
+	 { "delete_SweepTone", _wrap_delete_SweepTone, METH_O, "delete_SweepTone(SweepTone self)"},
 	 { "SweepTone_swigregister", SweepTone_swigregister, METH_O, NULL},
 	 { "SweepTone_swiginit", SweepTone_swiginit, METH_VARARGS, NULL},
-	 { "new_Metre", _wrap_new_Metre, METH_VARARGS, NULL},
-	 { "Metre___float__", _wrap_Metre___float__, METH_O, NULL},
-	 { "Metre___str__", _wrap_Metre___str__, METH_O, NULL},
-	 { "Metre_value_set", _wrap_Metre_value_set, METH_VARARGS, NULL},
-	 { "Metre_value_get", _wrap_Metre_value_get, METH_O, NULL},
-	 { "delete_Metre", _wrap_delete_Metre, METH_O, NULL},
+	 { "new_Metre", _wrap_new_Metre, METH_VARARGS, "Metre(double ticks=1.0)"},
+	 { "Metre___float__", _wrap_Metre___float__, METH_O, "Metre___float__(Metre self) -> double"},
+	 { "Metre___str__", _wrap_Metre___str__, METH_O, "Metre___str__(Metre self) -> std::string"},
+	 { "Metre_value_set", _wrap_Metre_value_set, METH_VARARGS, "Metre_value_set(Metre self, double value)"},
+	 { "Metre_value_get", _wrap_Metre_value_get, METH_O, "Metre_value_get(Metre self) -> double"},
+	 { "delete_Metre", _wrap_delete_Metre, METH_O, "delete_Metre(Metre self)"},
 	 { "Metre_swigregister", Metre_swigregister, METH_O, NULL},
 	 { "Metre_swiginit", Metre_swiginit, METH_VARARGS, NULL},
-	 { "new_Nanometre", _wrap_new_Nanometre, METH_VARARGS, NULL},
-	 { "Nanometre___float__", _wrap_Nanometre___float__, METH_O, NULL},
-	 { "Nanometre___str__", _wrap_Nanometre___str__, METH_O, NULL},
-	 { "Nanometre_value_set", _wrap_Nanometre_value_set, METH_VARARGS, NULL},
-	 { "Nanometre_value_get", _wrap_Nanometre_value_get, METH_O, NULL},
-	 { "delete_Nanometre", _wrap_delete_Nanometre, METH_O, NULL},
+	 { "new_Nanometre", _wrap_new_Nanometre, METH_VARARGS, "Nanometre(double ticks=1.0)"},
+	 { "Nanometre___float__", _wrap_Nanometre___float__, METH_O, "Nanometre___float__(Nanometre self) -> double"},
+	 { "Nanometre___str__", _wrap_Nanometre___str__, METH_O, "Nanometre___str__(Nanometre self) -> std::string"},
+	 { "Nanometre_value_set", _wrap_Nanometre_value_set, METH_VARARGS, "Nanometre_value_set(Nanometre self, double value)"},
+	 { "Nanometre_value_get", _wrap_Nanometre_value_get, METH_O, "Nanometre_value_get(Nanometre self) -> double"},
+	 { "delete_Nanometre", _wrap_delete_Nanometre, METH_O, "delete_Nanometre(Nanometre self)"},
 	 { "Nanometre_swigregister", Nanometre_swigregister, METH_O, NULL},
 	 { "Nanometre_swiginit", Nanometre_swiginit, METH_VARARGS, NULL},
-	 { "new_Micrometre", _wrap_new_Micrometre, METH_VARARGS, NULL},
-	 { "Micrometre___float__", _wrap_Micrometre___float__, METH_O, NULL},
-	 { "Micrometre___str__", _wrap_Micrometre___str__, METH_O, NULL},
-	 { "Micrometre_value_set", _wrap_Micrometre_value_set, METH_VARARGS, NULL},
-	 { "Micrometre_value_get", _wrap_Micrometre_value_get, METH_O, NULL},
-	 { "delete_Micrometre", _wrap_delete_Micrometre, METH_O, NULL},
+	 { "new_Micrometre", _wrap_new_Micrometre, METH_VARARGS, "Micrometre(double ticks=1.0)"},
+	 { "Micrometre___float__", _wrap_Micrometre___float__, METH_O, "Micrometre___float__(Micrometre self) -> double"},
+	 { "Micrometre___str__", _wrap_Micrometre___str__, METH_O, "Micrometre___str__(Micrometre self) -> std::string"},
+	 { "Micrometre_value_set", _wrap_Micrometre_value_set, METH_VARARGS, "Micrometre_value_set(Micrometre self, double value)"},
+	 { "Micrometre_value_get", _wrap_Micrometre_value_get, METH_O, "Micrometre_value_get(Micrometre self) -> double"},
+	 { "delete_Micrometre", _wrap_delete_Micrometre, METH_O, "delete_Micrometre(Micrometre self)"},
 	 { "Micrometre_swigregister", Micrometre_swigregister, METH_O, NULL},
 	 { "Micrometre_swiginit", Micrometre_swiginit, METH_VARARGS, NULL},
-	 { "new_Millimetre", _wrap_new_Millimetre, METH_VARARGS, NULL},
-	 { "Millimetre___float__", _wrap_Millimetre___float__, METH_O, NULL},
-	 { "Millimetre___str__", _wrap_Millimetre___str__, METH_O, NULL},
-	 { "Millimetre_value_set", _wrap_Millimetre_value_set, METH_VARARGS, NULL},
-	 { "Millimetre_value_get", _wrap_Millimetre_value_get, METH_O, NULL},
-	 { "delete_Millimetre", _wrap_delete_Millimetre, METH_O, NULL},
+	 { "new_Millimetre", _wrap_new_Millimetre, METH_VARARGS, "Millimetre(double ticks=1.0)"},
+	 { "Millimetre___float__", _wrap_Millimetre___float__, METH_O, "Millimetre___float__(Millimetre self) -> double"},
+	 { "Millimetre___str__", _wrap_Millimetre___str__, METH_O, "Millimetre___str__(Millimetre self) -> std::string"},
+	 { "Millimetre_value_set", _wrap_Millimetre_value_set, METH_VARARGS, "Millimetre_value_set(Millimetre self, double value)"},
+	 { "Millimetre_value_get", _wrap_Millimetre_value_get, METH_O, "Millimetre_value_get(Millimetre self) -> double"},
+	 { "delete_Millimetre", _wrap_delete_Millimetre, METH_O, "delete_Millimetre(Millimetre self)"},
 	 { "Millimetre_swigregister", Millimetre_swigregister, METH_O, NULL},
 	 { "Millimetre_swiginit", Millimetre_swiginit, METH_VARARGS, NULL},
-	 { "new_Centimetre", _wrap_new_Centimetre, METH_VARARGS, NULL},
-	 { "Centimetre___float__", _wrap_Centimetre___float__, METH_O, NULL},
-	 { "Centimetre___str__", _wrap_Centimetre___str__, METH_O, NULL},
-	 { "Centimetre_value_set", _wrap_Centimetre_value_set, METH_VARARGS, NULL},
-	 { "Centimetre_value_get", _wrap_Centimetre_value_get, METH_O, NULL},
-	 { "delete_Centimetre", _wrap_delete_Centimetre, METH_O, NULL},
+	 { "new_Centimetre", _wrap_new_Centimetre, METH_VARARGS, "Centimetre(double ticks=1.0)"},
+	 { "Centimetre___float__", _wrap_Centimetre___float__, METH_O, "Centimetre___float__(Centimetre self) -> double"},
+	 { "Centimetre___str__", _wrap_Centimetre___str__, METH_O, "Centimetre___str__(Centimetre self) -> std::string"},
+	 { "Centimetre_value_set", _wrap_Centimetre_value_set, METH_VARARGS, "Centimetre_value_set(Centimetre self, double value)"},
+	 { "Centimetre_value_get", _wrap_Centimetre_value_get, METH_O, "Centimetre_value_get(Centimetre self) -> double"},
+	 { "delete_Centimetre", _wrap_delete_Centimetre, METH_O, "delete_Centimetre(Centimetre self)"},
 	 { "Centimetre_swigregister", Centimetre_swigregister, METH_O, NULL},
 	 { "Centimetre_swiginit", Centimetre_swiginit, METH_VARARGS, NULL},
-	 { "new_Decimetre", _wrap_new_Decimetre, METH_VARARGS, NULL},
-	 { "Decimetre___float__", _wrap_Decimetre___float__, METH_O, NULL},
-	 { "Decimetre___str__", _wrap_Decimetre___str__, METH_O, NULL},
-	 { "Decimetre_value_set", _wrap_Decimetre_value_set, METH_VARARGS, NULL},
-	 { "Decimetre_value_get", _wrap_Decimetre_value_get, METH_O, NULL},
-	 { "delete_Decimetre", _wrap_delete_Decimetre, METH_O, NULL},
+	 { "new_Decimetre", _wrap_new_Decimetre, METH_VARARGS, "Decimetre(double ticks=1.0)"},
+	 { "Decimetre___float__", _wrap_Decimetre___float__, METH_O, "Decimetre___float__(Decimetre self) -> double"},
+	 { "Decimetre___str__", _wrap_Decimetre___str__, METH_O, "Decimetre___str__(Decimetre self) -> std::string"},
+	 { "Decimetre_value_set", _wrap_Decimetre_value_set, METH_VARARGS, "Decimetre_value_set(Decimetre self, double value)"},
+	 { "Decimetre_value_get", _wrap_Decimetre_value_get, METH_O, "Decimetre_value_get(Decimetre self) -> double"},
+	 { "delete_Decimetre", _wrap_delete_Decimetre, METH_O, "delete_Decimetre(Decimetre self)"},
 	 { "Decimetre_swigregister", Decimetre_swigregister, METH_O, NULL},
 	 { "Decimetre_swiginit", Decimetre_swiginit, METH_VARARGS, NULL},
-	 { "new_IEventHandler", _wrap_new_IEventHandler, METH_O, NULL},
-	 { "delete_IEventHandler", _wrap_delete_IEventHandler, METH_O, NULL},
-	 { "IEventHandler_EventAction", _wrap_IEventHandler_EventAction, METH_VARARGS, NULL},
+	 { "new_IEventHandler", _wrap_new_IEventHandler, METH_O, "new_IEventHandler(PyObject * _self) -> IEventHandler"},
+	 { "delete_IEventHandler", _wrap_delete_IEventHandler, METH_O, "delete_IEventHandler(IEventHandler self)"},
+	 { "IEventHandler_EventAction", _wrap_IEventHandler_EventAction, METH_VARARGS, "\n"
+		"IEventHandler_EventAction(IEventHandler self, void * sender, int const message)\n"
+		"IEventHandler_EventAction(IEventHandler self, void * sender, int const message, int const param)\n"
+		"IEventHandler_EventAction(IEventHandler self, void * sender, int const message, int const param, int const param2)\n"
+		"IEventHandler_EventAction(IEventHandler self, void * sender, int const message, double const param)\n"
+		"IEventHandler_EventAction(IEventHandler self, void * sender, int const message, int const param, ByteVector data)\n"
+		""},
 	 { "disown_IEventHandler", _wrap_disown_IEventHandler, METH_O, NULL},
 	 { "IEventHandler_swigregister", IEventHandler_swigregister, METH_O, NULL},
 	 { "IEventHandler_swiginit", IEventHandler_swiginit, METH_VARARGS, NULL},
-	 { "FWVersion_major_get", _wrap_FWVersion_major_get, METH_O, NULL},
-	 { "FWVersion_minor_get", _wrap_FWVersion_minor_get, METH_O, NULL},
-	 { "FWVersion_revision_get", _wrap_FWVersion_revision_get, METH_O, NULL},
-	 { "FWVersion___str__", _wrap_FWVersion___str__, METH_O, NULL},
-	 { "FWVersion_build_date_str", _wrap_FWVersion_build_date_str, METH_O, NULL},
-	 { "new_FWVersion", _wrap_new_FWVersion, METH_NOARGS, NULL},
-	 { "delete_FWVersion", _wrap_delete_FWVersion, METH_O, NULL},
+	 { "FWVersion_major_get", _wrap_FWVersion_major_get, METH_O, "FWVersion_major_get(FWVersion self) -> int const"},
+	 { "FWVersion_minor_get", _wrap_FWVersion_minor_get, METH_O, "FWVersion_minor_get(FWVersion self) -> int const"},
+	 { "FWVersion_revision_get", _wrap_FWVersion_revision_get, METH_O, "FWVersion_revision_get(FWVersion self) -> int const"},
+	 { "FWVersion___str__", _wrap_FWVersion___str__, METH_O, "FWVersion___str__(FWVersion self) -> std::string"},
+	 { "FWVersion_build_date_str", _wrap_FWVersion_build_date_str, METH_O, "FWVersion_build_date_str(FWVersion self) -> std::string"},
+	 { "new_FWVersion", _wrap_new_FWVersion, METH_NOARGS, "new_FWVersion() -> FWVersion"},
+	 { "delete_FWVersion", _wrap_delete_FWVersion, METH_O, "delete_FWVersion(FWVersion self)"},
 	 { "FWVersion_swigregister", FWVersion_swigregister, METH_O, NULL},
 	 { "FWVersion_swiginit", FWVersion_swiginit, METH_VARARGS, NULL},
-	 { "IMSOption_Name", _wrap_IMSOption_Name, METH_O, NULL},
-	 { "new_IMSOption", _wrap_new_IMSOption, METH_NOARGS, NULL},
-	 { "delete_IMSOption", _wrap_delete_IMSOption, METH_O, NULL},
+	 { "IMSOption_Name", _wrap_IMSOption_Name, METH_O, "IMSOption_Name(IMSOption self) -> std::string const &"},
+	 { "new_IMSOption", _wrap_new_IMSOption, METH_NOARGS, "new_IMSOption() -> IMSOption"},
+	 { "delete_IMSOption", _wrap_delete_IMSOption, METH_O, "delete_IMSOption(IMSOption self)"},
 	 { "IMSOption_swigregister", IMSOption_swigregister, METH_O, NULL},
 	 { "IMSOption_swiginit", IMSOption_swiginit, METH_VARARGS, NULL},
-	 { "IMSControllerCapabilities_nSynthInterfaces_get", _wrap_IMSControllerCapabilities_nSynthInterfaces_get, METH_O, NULL},
-	 { "IMSControllerCapabilities_FastImageTransfer_get", _wrap_IMSControllerCapabilities_FastImageTransfer_get, METH_O, NULL},
-	 { "IMSControllerCapabilities_MaxImageSize_get", _wrap_IMSControllerCapabilities_MaxImageSize_get, METH_O, NULL},
-	 { "IMSControllerCapabilities_SimultaneousPlayback_get", _wrap_IMSControllerCapabilities_SimultaneousPlayback_get, METH_O, NULL},
-	 { "IMSControllerCapabilities_MaxImageRate_get", _wrap_IMSControllerCapabilities_MaxImageRate_get, METH_O, NULL},
-	 { "IMSControllerCapabilities_RemoteUpgrade_get", _wrap_IMSControllerCapabilities_RemoteUpgrade_get, METH_O, NULL},
-	 { "new_IMSControllerCapabilities", _wrap_new_IMSControllerCapabilities, METH_NOARGS, NULL},
-	 { "delete_IMSControllerCapabilities", _wrap_delete_IMSControllerCapabilities, METH_O, NULL},
+	 { "IMSControllerCapabilities_nSynthInterfaces_get", _wrap_IMSControllerCapabilities_nSynthInterfaces_get, METH_O, "IMSControllerCapabilities_nSynthInterfaces_get(IMSControllerCapabilities self) -> int"},
+	 { "IMSControllerCapabilities_FastImageTransfer_get", _wrap_IMSControllerCapabilities_FastImageTransfer_get, METH_O, "IMSControllerCapabilities_FastImageTransfer_get(IMSControllerCapabilities self) -> bool"},
+	 { "IMSControllerCapabilities_MaxImageSize_get", _wrap_IMSControllerCapabilities_MaxImageSize_get, METH_O, "IMSControllerCapabilities_MaxImageSize_get(IMSControllerCapabilities self) -> int"},
+	 { "IMSControllerCapabilities_SimultaneousPlayback_get", _wrap_IMSControllerCapabilities_SimultaneousPlayback_get, METH_O, "IMSControllerCapabilities_SimultaneousPlayback_get(IMSControllerCapabilities self) -> bool"},
+	 { "IMSControllerCapabilities_MaxImageRate_get", _wrap_IMSControllerCapabilities_MaxImageRate_get, METH_O, "IMSControllerCapabilities_MaxImageRate_get(IMSControllerCapabilities self) -> double"},
+	 { "IMSControllerCapabilities_RemoteUpgrade_get", _wrap_IMSControllerCapabilities_RemoteUpgrade_get, METH_O, "IMSControllerCapabilities_RemoteUpgrade_get(IMSControllerCapabilities self) -> bool"},
+	 { "new_IMSControllerCapabilities", _wrap_new_IMSControllerCapabilities, METH_NOARGS, "new_IMSControllerCapabilities() -> IMSControllerCapabilities"},
+	 { "delete_IMSControllerCapabilities", _wrap_delete_IMSControllerCapabilities, METH_O, "delete_IMSControllerCapabilities(IMSControllerCapabilities self)"},
 	 { "IMSControllerCapabilities_swigregister", IMSControllerCapabilities_swigregister, METH_O, NULL},
 	 { "IMSControllerCapabilities_swiginit", IMSControllerCapabilities_swiginit, METH_VARARGS, NULL},
-	 { "IMSController_GetCap", _wrap_IMSController_GetCap, METH_O, NULL},
-	 { "IMSController_Description", _wrap_IMSController_Description, METH_O, NULL},
-	 { "IMSController_Model", _wrap_IMSController_Model, METH_O, NULL},
-	 { "IMSController_GetVersion", _wrap_IMSController_GetVersion, METH_O, NULL},
-	 { "IMSController_ImgTable", _wrap_IMSController_ImgTable, METH_O, NULL},
-	 { "IMSController_IsValid", _wrap_IMSController_IsValid, METH_O, NULL},
-	 { "IMSController_Interfaces", _wrap_IMSController_Interfaces, METH_O, NULL},
-	 { "new_IMSController", _wrap_new_IMSController, METH_NOARGS, NULL},
-	 { "delete_IMSController", _wrap_delete_IMSController, METH_O, NULL},
+	 { "IMSController_GetCap", _wrap_IMSController_GetCap, METH_O, "IMSController_GetCap(IMSController self) -> iMS::IMSController::Capabilities const"},
+	 { "IMSController_Description", _wrap_IMSController_Description, METH_O, "IMSController_Description(IMSController self) -> std::string const &"},
+	 { "IMSController_Model", _wrap_IMSController_Model, METH_O, "IMSController_Model(IMSController self) -> std::string const &"},
+	 { "IMSController_GetVersion", _wrap_IMSController_GetVersion, METH_O, "IMSController_GetVersion(IMSController self) -> FWVersion"},
+	 { "IMSController_ImgTable", _wrap_IMSController_ImgTable, METH_O, "IMSController_ImgTable(IMSController self) -> ImageTable const &"},
+	 { "IMSController_IsValid", _wrap_IMSController_IsValid, METH_O, "IMSController_IsValid(IMSController self) -> bool const"},
+	 { "IMSController_Interfaces", _wrap_IMSController_Interfaces, METH_O, "IMSController_Interfaces(IMSController self) -> StringList"},
+	 { "new_IMSController", _wrap_new_IMSController, METH_NOARGS, "new_IMSController() -> IMSController"},
+	 { "delete_IMSController", _wrap_delete_IMSController, METH_O, "delete_IMSController(IMSController self)"},
 	 { "IMSController_swigregister", IMSController_swigregister, METH_O, NULL},
 	 { "IMSController_swiginit", IMSController_swiginit, METH_VARARGS, NULL},
-	 { "IMSSynthesiserCapabilities_lowerFrequency_get", _wrap_IMSSynthesiserCapabilities_lowerFrequency_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_upperFrequency_get", _wrap_IMSSynthesiserCapabilities_upperFrequency_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_freqBits_get", _wrap_IMSSynthesiserCapabilities_freqBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_amplBits_get", _wrap_IMSSynthesiserCapabilities_amplBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_phaseBits_get", _wrap_IMSSynthesiserCapabilities_phaseBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_LUTDepth_get", _wrap_IMSSynthesiserCapabilities_LUTDepth_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_LUTAmplBits_get", _wrap_IMSSynthesiserCapabilities_LUTAmplBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_LUTPhaseBits_get", _wrap_IMSSynthesiserCapabilities_LUTPhaseBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_LUTSyncABits_get", _wrap_IMSSynthesiserCapabilities_LUTSyncABits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_LUTSyncDBits_get", _wrap_IMSSynthesiserCapabilities_LUTSyncDBits_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_sysClock_get", _wrap_IMSSynthesiserCapabilities_sysClock_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_syncClock_get", _wrap_IMSSynthesiserCapabilities_syncClock_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_channels_get", _wrap_IMSSynthesiserCapabilities_channels_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_RemoteUpgrade_get", _wrap_IMSSynthesiserCapabilities_RemoteUpgrade_get, METH_O, NULL},
-	 { "IMSSynthesiserCapabilities_ChannelComp_get", _wrap_IMSSynthesiserCapabilities_ChannelComp_get, METH_O, NULL},
-	 { "new_IMSSynthesiserCapabilities", _wrap_new_IMSSynthesiserCapabilities, METH_NOARGS, NULL},
-	 { "delete_IMSSynthesiserCapabilities", _wrap_delete_IMSSynthesiserCapabilities, METH_O, NULL},
+	 { "IMSSynthesiserCapabilities_lowerFrequency_get", _wrap_IMSSynthesiserCapabilities_lowerFrequency_get, METH_O, "IMSSynthesiserCapabilities_lowerFrequency_get(IMSSynthesiserCapabilities self) -> double"},
+	 { "IMSSynthesiserCapabilities_upperFrequency_get", _wrap_IMSSynthesiserCapabilities_upperFrequency_get, METH_O, "IMSSynthesiserCapabilities_upperFrequency_get(IMSSynthesiserCapabilities self) -> double"},
+	 { "IMSSynthesiserCapabilities_freqBits_get", _wrap_IMSSynthesiserCapabilities_freqBits_get, METH_O, "IMSSynthesiserCapabilities_freqBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_amplBits_get", _wrap_IMSSynthesiserCapabilities_amplBits_get, METH_O, "IMSSynthesiserCapabilities_amplBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_phaseBits_get", _wrap_IMSSynthesiserCapabilities_phaseBits_get, METH_O, "IMSSynthesiserCapabilities_phaseBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_LUTDepth_get", _wrap_IMSSynthesiserCapabilities_LUTDepth_get, METH_O, "IMSSynthesiserCapabilities_LUTDepth_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_LUTAmplBits_get", _wrap_IMSSynthesiserCapabilities_LUTAmplBits_get, METH_O, "IMSSynthesiserCapabilities_LUTAmplBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_LUTPhaseBits_get", _wrap_IMSSynthesiserCapabilities_LUTPhaseBits_get, METH_O, "IMSSynthesiserCapabilities_LUTPhaseBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_LUTSyncABits_get", _wrap_IMSSynthesiserCapabilities_LUTSyncABits_get, METH_O, "IMSSynthesiserCapabilities_LUTSyncABits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_LUTSyncDBits_get", _wrap_IMSSynthesiserCapabilities_LUTSyncDBits_get, METH_O, "IMSSynthesiserCapabilities_LUTSyncDBits_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_sysClock_get", _wrap_IMSSynthesiserCapabilities_sysClock_get, METH_O, "IMSSynthesiserCapabilities_sysClock_get(IMSSynthesiserCapabilities self) -> double"},
+	 { "IMSSynthesiserCapabilities_syncClock_get", _wrap_IMSSynthesiserCapabilities_syncClock_get, METH_O, "IMSSynthesiserCapabilities_syncClock_get(IMSSynthesiserCapabilities self) -> double"},
+	 { "IMSSynthesiserCapabilities_channels_get", _wrap_IMSSynthesiserCapabilities_channels_get, METH_O, "IMSSynthesiserCapabilities_channels_get(IMSSynthesiserCapabilities self) -> int"},
+	 { "IMSSynthesiserCapabilities_RemoteUpgrade_get", _wrap_IMSSynthesiserCapabilities_RemoteUpgrade_get, METH_O, "IMSSynthesiserCapabilities_RemoteUpgrade_get(IMSSynthesiserCapabilities self) -> bool"},
+	 { "IMSSynthesiserCapabilities_ChannelComp_get", _wrap_IMSSynthesiserCapabilities_ChannelComp_get, METH_O, "IMSSynthesiserCapabilities_ChannelComp_get(IMSSynthesiserCapabilities self) -> bool"},
+	 { "new_IMSSynthesiserCapabilities", _wrap_new_IMSSynthesiserCapabilities, METH_NOARGS, "new_IMSSynthesiserCapabilities() -> IMSSynthesiserCapabilities"},
+	 { "delete_IMSSynthesiserCapabilities", _wrap_delete_IMSSynthesiserCapabilities, METH_O, "delete_IMSSynthesiserCapabilities(IMSSynthesiserCapabilities self)"},
 	 { "IMSSynthesiserCapabilities_swigregister", IMSSynthesiserCapabilities_swigregister, METH_O, NULL},
 	 { "IMSSynthesiserCapabilities_swiginit", IMSSynthesiserCapabilities_swiginit, METH_VARARGS, NULL},
-	 { "IMSSynthesiser_AddOn", _wrap_IMSSynthesiser_AddOn, METH_O, NULL},
-	 { "IMSSynthesiser_GetCap", _wrap_IMSSynthesiser_GetCap, METH_O, NULL},
-	 { "IMSSynthesiser_Description", _wrap_IMSSynthesiser_Description, METH_O, NULL},
-	 { "IMSSynthesiser_Model", _wrap_IMSSynthesiser_Model, METH_O, NULL},
-	 { "IMSSynthesiser_GetVersion", _wrap_IMSSynthesiser_GetVersion, METH_O, NULL},
-	 { "IMSSynthesiser_IsValid", _wrap_IMSSynthesiser_IsValid, METH_O, NULL},
-	 { "IMSSynthesiser_FST", _wrap_IMSSynthesiser_FST, METH_O, NULL},
-	 { "new_IMSSynthesiser", _wrap_new_IMSSynthesiser, METH_NOARGS, NULL},
-	 { "delete_IMSSynthesiser", _wrap_delete_IMSSynthesiser, METH_O, NULL},
+	 { "IMSSynthesiser_AddOn", _wrap_IMSSynthesiser_AddOn, METH_O, "IMSSynthesiser_AddOn(IMSSynthesiser self) -> std::shared_ptr< iMS::IMSOption const >"},
+	 { "IMSSynthesiser_GetCap", _wrap_IMSSynthesiser_GetCap, METH_O, "IMSSynthesiser_GetCap(IMSSynthesiser self) -> iMS::IMSSynthesiser::Capabilities const"},
+	 { "IMSSynthesiser_Description", _wrap_IMSSynthesiser_Description, METH_O, "IMSSynthesiser_Description(IMSSynthesiser self) -> std::string const &"},
+	 { "IMSSynthesiser_Model", _wrap_IMSSynthesiser_Model, METH_O, "IMSSynthesiser_Model(IMSSynthesiser self) -> std::string const &"},
+	 { "IMSSynthesiser_GetVersion", _wrap_IMSSynthesiser_GetVersion, METH_O, "IMSSynthesiser_GetVersion(IMSSynthesiser self) -> FWVersion"},
+	 { "IMSSynthesiser_IsValid", _wrap_IMSSynthesiser_IsValid, METH_O, "IMSSynthesiser_IsValid(IMSSynthesiser self) -> bool const"},
+	 { "IMSSynthesiser_FST", _wrap_IMSSynthesiser_FST, METH_O, "IMSSynthesiser_FST(IMSSynthesiser self) -> FileSystemTable const &"},
+	 { "new_IMSSynthesiser", _wrap_new_IMSSynthesiser, METH_NOARGS, "new_IMSSynthesiser() -> IMSSynthesiser"},
+	 { "delete_IMSSynthesiser", _wrap_delete_IMSSynthesiser, METH_O, "delete_IMSSynthesiser(IMSSynthesiser self)"},
 	 { "IMSSynthesiser_swigregister", IMSSynthesiser_swigregister, METH_O, NULL},
 	 { "IMSSynthesiser_swiginit", IMSSynthesiser_swiginit, METH_VARARGS, NULL},
-	 { "new_CS_ETH", _wrap_new_CS_ETH, METH_VARARGS, NULL},
-	 { "delete_CS_ETH", _wrap_delete_CS_ETH, METH_O, NULL},
-	 { "CS_ETH_Ident", _wrap_CS_ETH_Ident, METH_O, NULL},
-	 { "CS_ETH_dhcp_set", _wrap_CS_ETH_dhcp_set, METH_VARARGS, NULL},
-	 { "CS_ETH_dhcp_get", _wrap_CS_ETH_dhcp_get, METH_O, NULL},
-	 { "CS_ETH_addr_set", _wrap_CS_ETH_addr_set, METH_VARARGS, NULL},
-	 { "CS_ETH_addr_get", _wrap_CS_ETH_addr_get, METH_O, NULL},
-	 { "CS_ETH_mask_set", _wrap_CS_ETH_mask_set, METH_VARARGS, NULL},
-	 { "CS_ETH_mask_get", _wrap_CS_ETH_mask_get, METH_O, NULL},
-	 { "CS_ETH_gw_set", _wrap_CS_ETH_gw_set, METH_VARARGS, NULL},
-	 { "CS_ETH_gw_get", _wrap_CS_ETH_gw_get, METH_O, NULL},
+	 { "new_CS_ETH", _wrap_new_CS_ETH, METH_VARARGS, "CS_ETH(bool use_dhcp=False, std::string addr=std::string(\"192.168.1.10\"), std::string netmask=std::string(\"255.255.255.0\"), std::string gw=std::string(\"192.168.1.1\"))"},
+	 { "delete_CS_ETH", _wrap_delete_CS_ETH, METH_O, "delete_CS_ETH(CS_ETH self)"},
+	 { "CS_ETH_Ident", _wrap_CS_ETH_Ident, METH_O, "CS_ETH_Ident(CS_ETH self) -> std::string const &"},
+	 { "CS_ETH_dhcp_set", _wrap_CS_ETH_dhcp_set, METH_VARARGS, "CS_ETH_dhcp_set(CS_ETH self, bool dhcp)"},
+	 { "CS_ETH_dhcp_get", _wrap_CS_ETH_dhcp_get, METH_O, "CS_ETH_dhcp_get(CS_ETH self) -> bool"},
+	 { "CS_ETH_addr_set", _wrap_CS_ETH_addr_set, METH_VARARGS, "CS_ETH_addr_set(CS_ETH self, std::string const & addr)"},
+	 { "CS_ETH_addr_get", _wrap_CS_ETH_addr_get, METH_O, "CS_ETH_addr_get(CS_ETH self) -> std::string const &"},
+	 { "CS_ETH_mask_set", _wrap_CS_ETH_mask_set, METH_VARARGS, "CS_ETH_mask_set(CS_ETH self, std::string const & mask)"},
+	 { "CS_ETH_mask_get", _wrap_CS_ETH_mask_get, METH_O, "CS_ETH_mask_get(CS_ETH self) -> std::string const &"},
+	 { "CS_ETH_gw_set", _wrap_CS_ETH_gw_set, METH_VARARGS, "CS_ETH_gw_set(CS_ETH self, std::string const & gw)"},
+	 { "CS_ETH_gw_get", _wrap_CS_ETH_gw_get, METH_O, "CS_ETH_gw_get(CS_ETH self) -> std::string const &"},
 	 { "disown_CS_ETH", _wrap_disown_CS_ETH, METH_O, NULL},
 	 { "CS_ETH_swigregister", CS_ETH_swigregister, METH_O, NULL},
 	 { "CS_ETH_swiginit", CS_ETH_swiginit, METH_VARARGS, NULL},
-	 { "new_CS_RS422", _wrap_new_CS_RS422, METH_VARARGS, NULL},
-	 { "delete_CS_RS422", _wrap_delete_CS_RS422, METH_O, NULL},
-	 { "CS_RS422_Ident", _wrap_CS_RS422_Ident, METH_O, NULL},
-	 { "CS_RS422_baud_set", _wrap_CS_RS422_baud_set, METH_VARARGS, NULL},
-	 { "CS_RS422_baud_get", _wrap_CS_RS422_baud_get, METH_O, NULL},
+	 { "new_CS_RS422", _wrap_new_CS_RS422, METH_VARARGS, "\n"
+		"CS_RS422()\n"
+		"CS_RS422(unsigned int baud_rate)\n"
+		"new_CS_RS422(PyObject * _self, ByteVector process_data) -> CS_RS422\n"
+		""},
+	 { "delete_CS_RS422", _wrap_delete_CS_RS422, METH_O, "delete_CS_RS422(CS_RS422 self)"},
+	 { "CS_RS422_Ident", _wrap_CS_RS422_Ident, METH_O, "CS_RS422_Ident(CS_RS422 self) -> std::string const &"},
+	 { "CS_RS422_baud_set", _wrap_CS_RS422_baud_set, METH_VARARGS, "CS_RS422_baud_set(CS_RS422 self, unsigned int baud)"},
+	 { "CS_RS422_baud_get", _wrap_CS_RS422_baud_get, METH_O, "CS_RS422_baud_get(CS_RS422 self) -> unsigned int"},
 	 { "disown_CS_RS422", _wrap_disown_CS_RS422, METH_O, NULL},
 	 { "CS_RS422_swigregister", CS_RS422_swigregister, METH_O, NULL},
 	 { "CS_RS422_swiginit", CS_RS422_swiginit, METH_VARARGS, NULL},
-	 { "IMSSystem_Connect", _wrap_IMSSystem_Connect, METH_O, NULL},
-	 { "IMSSystem_Disconnect", _wrap_IMSSystem_Disconnect, METH_O, NULL},
-	 { "IMSSystem_SetTimeouts", _wrap_IMSSystem_SetTimeouts, METH_VARARGS, NULL},
-	 { "IMSSystem_Open", _wrap_IMSSystem_Open, METH_O, NULL},
-	 { "IMSSystem_Ctlr", _wrap_IMSSystem_Ctlr, METH_O, NULL},
-	 { "IMSSystem_Synth", _wrap_IMSSystem_Synth, METH_O, NULL},
-	 { "IMSSystem_ConnPort", _wrap_IMSSystem_ConnPort, METH_O, NULL},
-	 { "IMSSystem___eq__", _wrap_IMSSystem___eq__, METH_VARARGS, NULL},
-	 { "IMSSystem_ApplySettings", _wrap_IMSSystem_ApplySettings, METH_VARARGS, NULL},
-	 { "IMSSystem_RetrieveSettings", _wrap_IMSSystem_RetrieveSettings, METH_VARARGS, NULL},
-	 { "delete_IMSSystem", _wrap_delete_IMSSystem, METH_O, NULL},
+	 { "IMSSystem_Connect", _wrap_IMSSystem_Connect, METH_O, "IMSSystem_Connect(IMSSystem self)"},
+	 { "IMSSystem_Disconnect", _wrap_IMSSystem_Disconnect, METH_O, "IMSSystem_Disconnect(IMSSystem self)"},
+	 { "IMSSystem_SetTimeouts", _wrap_IMSSystem_SetTimeouts, METH_VARARGS, "IMSSystem_SetTimeouts(IMSSystem self, int send_timeout_ms, int rx_timeout_ms, int free_timeout_ms, int discover_timeout_ms)"},
+	 { "IMSSystem_Open", _wrap_IMSSystem_Open, METH_O, "IMSSystem_Open(IMSSystem self) -> bool"},
+	 { "IMSSystem_Ctlr", _wrap_IMSSystem_Ctlr, METH_O, "IMSSystem_Ctlr(IMSSystem self) -> IMSController"},
+	 { "IMSSystem_Synth", _wrap_IMSSystem_Synth, METH_O, "IMSSystem_Synth(IMSSystem self) -> IMSSynthesiser"},
+	 { "IMSSystem_ConnPort", _wrap_IMSSystem_ConnPort, METH_O, "IMSSystem_ConnPort(IMSSystem self) -> std::string const &"},
+	 { "IMSSystem___eq__", _wrap_IMSSystem___eq__, METH_VARARGS, "IMSSystem___eq__(IMSSystem self, IMSSystem rhs) -> bool"},
+	 { "IMSSystem_ApplySettings", _wrap_IMSSystem_ApplySettings, METH_VARARGS, "IMSSystem_ApplySettings(IMSSystem self, iMS::IConnectionSettings const & settings) -> bool"},
+	 { "IMSSystem_RetrieveSettings", _wrap_IMSSystem_RetrieveSettings, METH_VARARGS, "IMSSystem_RetrieveSettings(IMSSystem self, std::string const & settings) -> iMS::IConnectionSettings *"},
+	 { "delete_IMSSystem", _wrap_delete_IMSSystem, METH_O, "delete_IMSSystem(IMSSystem self)"},
 	 { "IMSSystem_swigregister", IMSSystem_swigregister, METH_O, NULL},
-	 { "IMSList_iterator", _wrap_IMSList_iterator, METH_O, NULL},
-	 { "IMSList___nonzero__", _wrap_IMSList___nonzero__, METH_O, NULL},
-	 { "IMSList___bool__", _wrap_IMSList___bool__, METH_O, NULL},
-	 { "IMSList___len__", _wrap_IMSList___len__, METH_O, NULL},
-	 { "IMSList___getslice__", _wrap_IMSList___getslice__, METH_VARARGS, NULL},
-	 { "IMSList___setslice__", _wrap_IMSList___setslice__, METH_VARARGS, NULL},
-	 { "IMSList___delslice__", _wrap_IMSList___delslice__, METH_VARARGS, NULL},
-	 { "IMSList___delitem__", _wrap_IMSList___delitem__, METH_VARARGS, NULL},
-	 { "IMSList___getitem__", _wrap_IMSList___getitem__, METH_VARARGS, NULL},
-	 { "IMSList___setitem__", _wrap_IMSList___setitem__, METH_VARARGS, NULL},
-	 { "IMSList_pop", _wrap_IMSList_pop, METH_O, NULL},
-	 { "IMSList_append", _wrap_IMSList_append, METH_VARARGS, NULL},
-	 { "IMSList_empty", _wrap_IMSList_empty, METH_O, NULL},
-	 { "IMSList_size", _wrap_IMSList_size, METH_O, NULL},
-	 { "IMSList_swap", _wrap_IMSList_swap, METH_VARARGS, NULL},
-	 { "IMSList_begin", _wrap_IMSList_begin, METH_O, NULL},
-	 { "IMSList_end", _wrap_IMSList_end, METH_O, NULL},
-	 { "IMSList_rbegin", _wrap_IMSList_rbegin, METH_O, NULL},
-	 { "IMSList_rend", _wrap_IMSList_rend, METH_O, NULL},
-	 { "IMSList_clear", _wrap_IMSList_clear, METH_O, NULL},
-	 { "IMSList_get_allocator", _wrap_IMSList_get_allocator, METH_O, NULL},
-	 { "IMSList_pop_back", _wrap_IMSList_pop_back, METH_O, NULL},
-	 { "IMSList_erase", _wrap_IMSList_erase, METH_VARARGS, NULL},
-	 { "new_IMSList", _wrap_new_IMSList, METH_VARARGS, NULL},
-	 { "IMSList_push_back", _wrap_IMSList_push_back, METH_VARARGS, NULL},
-	 { "IMSList_front", _wrap_IMSList_front, METH_O, NULL},
-	 { "IMSList_back", _wrap_IMSList_back, METH_O, NULL},
-	 { "IMSList_assign", _wrap_IMSList_assign, METH_VARARGS, NULL},
-	 { "IMSList_resize", _wrap_IMSList_resize, METH_VARARGS, NULL},
-	 { "IMSList_insert", _wrap_IMSList_insert, METH_VARARGS, NULL},
-	 { "IMSList_reserve", _wrap_IMSList_reserve, METH_VARARGS, NULL},
-	 { "IMSList_capacity", _wrap_IMSList_capacity, METH_O, NULL},
-	 { "delete_IMSList", _wrap_delete_IMSList, METH_O, NULL},
+	 { "IMSList_iterator", _wrap_IMSList_iterator, METH_O, "IMSList_iterator(IMSList self) -> SwigPyIterator"},
+	 { "IMSList___nonzero__", _wrap_IMSList___nonzero__, METH_O, "IMSList___nonzero__(IMSList self) -> bool"},
+	 { "IMSList___bool__", _wrap_IMSList___bool__, METH_O, "IMSList___bool__(IMSList self) -> bool"},
+	 { "IMSList___len__", _wrap_IMSList___len__, METH_O, "IMSList___len__(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"},
+	 { "IMSList___getslice__", _wrap_IMSList___getslice__, METH_VARARGS, "IMSList___getslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j) -> IMSList"},
+	 { "IMSList___setslice__", _wrap_IMSList___setslice__, METH_VARARGS, "\n"
+		"IMSList___setslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j)\n"
+		"IMSList___setslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j, IMSList v)\n"
+		""},
+	 { "IMSList___delslice__", _wrap_IMSList___delslice__, METH_VARARGS, "IMSList___delslice__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type j)"},
+	 { "IMSList___delitem__", _wrap_IMSList___delitem__, METH_VARARGS, "\n"
+		"IMSList___delitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i)\n"
+		"IMSList___delitem__(IMSList self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "IMSList___getitem__", _wrap_IMSList___getitem__, METH_VARARGS, "\n"
+		"IMSList___getitem__(IMSList self, SWIGPY_SLICEOBJECT * slice) -> IMSList\n"
+		"IMSList___getitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &\n"
+		""},
+	 { "IMSList___setitem__", _wrap_IMSList___setitem__, METH_VARARGS, "\n"
+		"IMSList___setitem__(IMSList self, SWIGPY_SLICEOBJECT * slice, IMSList v)\n"
+		"IMSList___setitem__(IMSList self, SWIGPY_SLICEOBJECT * slice)\n"
+		"IMSList___setitem__(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::difference_type i, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)\n"
+		""},
+	 { "IMSList_pop", _wrap_IMSList_pop, METH_O, "IMSList_pop(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type"},
+	 { "IMSList_append", _wrap_IMSList_append, METH_VARARGS, "IMSList_append(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"},
+	 { "IMSList_empty", _wrap_IMSList_empty, METH_O, "IMSList_empty(IMSList self) -> bool"},
+	 { "IMSList_size", _wrap_IMSList_size, METH_O, "IMSList_size(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"},
+	 { "IMSList_swap", _wrap_IMSList_swap, METH_VARARGS, "IMSList_swap(IMSList self, IMSList v)"},
+	 { "IMSList_begin", _wrap_IMSList_begin, METH_O, "IMSList_begin(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator"},
+	 { "IMSList_end", _wrap_IMSList_end, METH_O, "IMSList_end(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator"},
+	 { "IMSList_rbegin", _wrap_IMSList_rbegin, METH_O, "IMSList_rbegin(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::reverse_iterator"},
+	 { "IMSList_rend", _wrap_IMSList_rend, METH_O, "IMSList_rend(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::reverse_iterator"},
+	 { "IMSList_clear", _wrap_IMSList_clear, METH_O, "IMSList_clear(IMSList self)"},
+	 { "IMSList_get_allocator", _wrap_IMSList_get_allocator, METH_O, "IMSList_get_allocator(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::allocator_type"},
+	 { "IMSList_pop_back", _wrap_IMSList_pop_back, METH_O, "IMSList_pop_back(IMSList self)"},
+	 { "IMSList_erase", _wrap_IMSList_erase, METH_VARARGS, "\n"
+		"IMSList_erase(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator\n"
+		"IMSList_erase(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator first, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator last) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator\n"
+		""},
+	 { "new_IMSList", _wrap_new_IMSList, METH_VARARGS, "\n"
+		"IMSList()\n"
+		"IMSList(IMSList other)\n"
+		"IMSList(std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type size)\n"
+		"new_IMSList(std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type size, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & value) -> IMSList\n"
+		""},
+	 { "IMSList_push_back", _wrap_IMSList_push_back, METH_VARARGS, "IMSList_push_back(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"},
+	 { "IMSList_front", _wrap_IMSList_front, METH_O, "IMSList_front(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &"},
+	 { "IMSList_back", _wrap_IMSList_back, METH_O, "IMSList_back(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const &"},
+	 { "IMSList_assign", _wrap_IMSList_assign, METH_VARARGS, "IMSList_assign(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)"},
+	 { "IMSList_resize", _wrap_IMSList_resize, METH_VARARGS, "\n"
+		"IMSList_resize(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type new_size)\n"
+		"IMSList_resize(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type new_size, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)\n"
+		""},
+	 { "IMSList_insert", _wrap_IMSList_insert, METH_VARARGS, "\n"
+		"IMSList_insert(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator\n"
+		"IMSList_insert(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::iterator pos, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n, std::vector< std::shared_ptr< iMS::IMSSystem > >::value_type const & x)\n"
+		""},
+	 { "IMSList_reserve", _wrap_IMSList_reserve, METH_VARARGS, "IMSList_reserve(IMSList self, std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type n)"},
+	 { "IMSList_capacity", _wrap_IMSList_capacity, METH_O, "IMSList_capacity(IMSList self) -> std::vector< std::shared_ptr< iMS::IMSSystem > >::size_type"},
+	 { "delete_IMSList", _wrap_delete_IMSList, METH_O, "delete_IMSList(IMSList self)"},
 	 { "IMSList_swigregister", IMSList_swigregister, METH_O, NULL},
 	 { "IMSList_swiginit", IMSList_swiginit, METH_VARARGS, NULL},
-	 { "ConnectionConfig_IncludeInScan_set", _wrap_ConnectionConfig_IncludeInScan_set, METH_VARARGS, NULL},
-	 { "ConnectionConfig_IncludeInScan_get", _wrap_ConnectionConfig_IncludeInScan_get, METH_O, NULL},
-	 { "ConnectionConfig_PortMask_set", _wrap_ConnectionConfig_PortMask_set, METH_VARARGS, NULL},
-	 { "ConnectionConfig_PortMask_get", _wrap_ConnectionConfig_PortMask_get, METH_O, NULL},
-	 { "new_ConnectionConfig", _wrap_new_ConnectionConfig, METH_VARARGS, NULL},
-	 { "delete_ConnectionConfig", _wrap_delete_ConnectionConfig, METH_O, NULL},
+	 { "ConnectionConfig_IncludeInScan_set", _wrap_ConnectionConfig_IncludeInScan_set, METH_VARARGS, "ConnectionConfig_IncludeInScan_set(ConnectionConfig self, bool IncludeInScan)"},
+	 { "ConnectionConfig_IncludeInScan_get", _wrap_ConnectionConfig_IncludeInScan_get, METH_O, "ConnectionConfig_IncludeInScan_get(ConnectionConfig self) -> bool"},
+	 { "ConnectionConfig_PortMask_set", _wrap_ConnectionConfig_PortMask_set, METH_VARARGS, "ConnectionConfig_PortMask_set(ConnectionConfig self, StringList PortMask)"},
+	 { "ConnectionConfig_PortMask_get", _wrap_ConnectionConfig_PortMask_get, METH_O, "ConnectionConfig_PortMask_get(ConnectionConfig self) -> StringList"},
+	 { "new_ConnectionConfig", _wrap_new_ConnectionConfig, METH_VARARGS, "\n"
+		"ConnectionConfig()\n"
+		"ConnectionConfig(bool inc)\n"
+		"new_ConnectionConfig(StringList mask) -> ConnectionConfig\n"
+		""},
+	 { "delete_ConnectionConfig", _wrap_delete_ConnectionConfig, METH_O, "delete_ConnectionConfig(ConnectionConfig self)"},
 	 { "ConnectionConfig_swigregister", ConnectionConfig_swigregister, METH_O, NULL},
 	 { "ConnectionConfig_swiginit", ConnectionConfig_swiginit, METH_VARARGS, NULL},
-	 { "ConnectionList_config", _wrap_ConnectionList_config, METH_VARARGS, NULL},
-	 { "ConnectionList_modules", _wrap_ConnectionList_modules, METH_O, NULL},
-	 { "ConnectionList_scan", _wrap_ConnectionList_scan, METH_O, NULL},
-	 { "new_ConnectionList", _wrap_new_ConnectionList, METH_NOARGS, NULL},
-	 { "delete_ConnectionList", _wrap_delete_ConnectionList, METH_O, NULL},
+	 { "new_ConnectionList", _wrap_new_ConnectionList, METH_VARARGS, "ConnectionList(unsigned int max_discover_timeout_ms=500)"},
+	 { "ConnectionList_Config", _wrap_ConnectionList_Config, METH_VARARGS, "ConnectionList_Config(ConnectionList self, std::string const & module) -> ConnectionConfig"},
+	 { "ConnectionList_Modules", _wrap_ConnectionList_Modules, METH_O, "ConnectionList_Modules(ConnectionList self) -> StringList"},
+	 { "ConnectionList__Scan", _wrap_ConnectionList__Scan, METH_O, "ConnectionList__Scan(ConnectionList self) -> IMSList"},
+	 { "ConnectionList__ScanInterface", _wrap_ConnectionList__ScanInterface, METH_VARARGS, "ConnectionList__ScanInterface(ConnectionList self, std::string const & arg2, StringVector arg3={}) -> std::shared_ptr< iMS::IMSSystem >"},
+	 { "ConnectionList_Find", _wrap_ConnectionList_Find, METH_VARARGS, "ConnectionList_Find(ConnectionList self, std::string const & arg2, std::string const & arg3, StringVector arg4={}) -> std::shared_ptr< iMS::IMSSystem >"},
+	 { "delete_ConnectionList", _wrap_delete_ConnectionList, METH_O, "delete_ConnectionList(ConnectionList self)"},
 	 { "ConnectionList_swigregister", ConnectionList_swigregister, METH_O, NULL},
 	 { "ConnectionList_swiginit", ConnectionList_swiginit, METH_VARARGS, NULL},
-	 { "new_FileSystemTableEntry", _wrap_new_FileSystemTableEntry, METH_VARARGS, NULL},
-	 { "FileSystemTableEntry_Type_get", _wrap_FileSystemTableEntry_Type_get, METH_O, NULL},
-	 { "FileSystemTableEntry_Address_get", _wrap_FileSystemTableEntry_Address_get, METH_O, NULL},
-	 { "FileSystemTableEntry_Length_get", _wrap_FileSystemTableEntry_Length_get, METH_O, NULL},
-	 { "FileSystemTableEntry_IsDefault_get", _wrap_FileSystemTableEntry_IsDefault_get, METH_O, NULL},
-	 { "FileSystemTableEntry_Name_get", _wrap_FileSystemTableEntry_Name_get, METH_O, NULL},
-	 { "delete_FileSystemTableEntry", _wrap_delete_FileSystemTableEntry, METH_O, NULL},
+	 { "new_FileSystemTableEntry", _wrap_new_FileSystemTableEntry, METH_VARARGS, "\n"
+		"FileSystemTableEntry()\n"
+		"FileSystemTableEntry(iMS::FileSystemTypes type, uint32_t addr, uint32_t length, iMS::FileDefault _def)\n"
+		"new_FileSystemTableEntry(iMS::FileSystemTypes type, uint32_t addr, uint32_t length, iMS::FileDefault _def, std::string name) -> FileSystemTableEntry\n"
+		""},
+	 { "FileSystemTableEntry_Type_get", _wrap_FileSystemTableEntry_Type_get, METH_O, "FileSystemTableEntry_Type_get(FileSystemTableEntry self) -> iMS::FileSystemTypes"},
+	 { "FileSystemTableEntry_Address_get", _wrap_FileSystemTableEntry_Address_get, METH_O, "FileSystemTableEntry_Address_get(FileSystemTableEntry self) -> uint32_t"},
+	 { "FileSystemTableEntry_Length_get", _wrap_FileSystemTableEntry_Length_get, METH_O, "FileSystemTableEntry_Length_get(FileSystemTableEntry self) -> uint32_t"},
+	 { "FileSystemTableEntry_IsDefault_get", _wrap_FileSystemTableEntry_IsDefault_get, METH_O, "FileSystemTableEntry_IsDefault_get(FileSystemTableEntry self) -> bool"},
+	 { "FileSystemTableEntry_Name_get", _wrap_FileSystemTableEntry_Name_get, METH_O, "FileSystemTableEntry_Name_get(FileSystemTableEntry self) -> std::string const &"},
+	 { "delete_FileSystemTableEntry", _wrap_delete_FileSystemTableEntry, METH_O, "delete_FileSystemTableEntry(FileSystemTableEntry self)"},
 	 { "FileSystemTableEntry_swigregister", FileSystemTableEntry_swigregister, METH_O, NULL},
 	 { "FileSystemTableEntry_swiginit", FileSystemTableEntry_swiginit, METH_VARARGS, NULL},
-	 { "new_FileSystemTableViewer", _wrap_new_FileSystemTableViewer, METH_O, NULL},
-	 { "FileSystemTableViewer_Entries_get", _wrap_FileSystemTableViewer_Entries_get, METH_O, NULL},
-	 { "FileSystemTableViewer_IsValid_get", _wrap_FileSystemTableViewer_IsValid_get, METH_O, NULL},
-	 { "FileSystemTableViewer__getitem", _wrap_FileSystemTableViewer__getitem, METH_VARARGS, NULL},
-	 { "FileSystemTableViewer___len__", _wrap_FileSystemTableViewer___len__, METH_O, NULL},
-	 { "delete_FileSystemTableViewer", _wrap_delete_FileSystemTableViewer, METH_O, NULL},
+	 { "new_FileSystemTableViewer", _wrap_new_FileSystemTableViewer, METH_O, "new_FileSystemTableViewer(std::shared_ptr< iMS::IMSSystem > ims) -> FileSystemTableViewer"},
+	 { "FileSystemTableViewer_Entries_get", _wrap_FileSystemTableViewer_Entries_get, METH_O, "FileSystemTableViewer_Entries_get(FileSystemTableViewer self) -> int"},
+	 { "FileSystemTableViewer_IsValid_get", _wrap_FileSystemTableViewer_IsValid_get, METH_O, "FileSystemTableViewer_IsValid_get(FileSystemTableViewer self) -> bool"},
+	 { "FileSystemTableViewer__getitem", _wrap_FileSystemTableViewer__getitem, METH_VARARGS, "FileSystemTableViewer__getitem(FileSystemTableViewer self, size_t i) -> FileSystemTableEntry"},
+	 { "FileSystemTableViewer___len__", _wrap_FileSystemTableViewer___len__, METH_O, "FileSystemTableViewer___len__(FileSystemTableViewer self) -> size_t"},
+	 { "delete_FileSystemTableViewer", _wrap_delete_FileSystemTableViewer, METH_O, "delete_FileSystemTableViewer(FileSystemTableViewer self)"},
 	 { "FileSystemTableViewer_swigregister", FileSystemTableViewer_swigregister, METH_O, NULL},
 	 { "FileSystemTableViewer_swiginit", FileSystemTableViewer_swiginit, METH_VARARGS, NULL},
-	 { "new_FileSystemManager", _wrap_new_FileSystemManager, METH_O, NULL},
-	 { "FileSystemManager_Delete", _wrap_FileSystemManager_Delete, METH_VARARGS, NULL},
-	 { "FileSystemManager_SetDefault", _wrap_FileSystemManager_SetDefault, METH_VARARGS, NULL},
-	 { "FileSystemManager_ClearDefault", _wrap_FileSystemManager_ClearDefault, METH_VARARGS, NULL},
-	 { "FileSystemManager_Sanitize", _wrap_FileSystemManager_Sanitize, METH_O, NULL},
-	 { "FileSystemManager_FindSpace", _wrap_FileSystemManager_FindSpace, METH_VARARGS, NULL},
-	 { "FileSystemManager_Execute", _wrap_FileSystemManager_Execute, METH_VARARGS, NULL},
-	 { "delete_FileSystemManager", _wrap_delete_FileSystemManager, METH_O, NULL},
+	 { "new_FileSystemManager", _wrap_new_FileSystemManager, METH_O, "new_FileSystemManager(std::shared_ptr< iMS::IMSSystem > ims) -> FileSystemManager"},
+	 { "FileSystemManager_Delete", _wrap_FileSystemManager_Delete, METH_VARARGS, "\n"
+		"FileSystemManager_Delete(FileSystemManager self, iMS::FileSystemIndex index) -> bool\n"
+		"FileSystemManager_Delete(FileSystemManager self, std::string const & FileName) -> bool\n"
+		""},
+	 { "FileSystemManager_SetDefault", _wrap_FileSystemManager_SetDefault, METH_VARARGS, "\n"
+		"FileSystemManager_SetDefault(FileSystemManager self, iMS::FileSystemIndex index) -> bool\n"
+		"FileSystemManager_SetDefault(FileSystemManager self, std::string const & FileName) -> bool\n"
+		""},
+	 { "FileSystemManager_ClearDefault", _wrap_FileSystemManager_ClearDefault, METH_VARARGS, "\n"
+		"FileSystemManager_ClearDefault(FileSystemManager self, iMS::FileSystemIndex index) -> bool\n"
+		"FileSystemManager_ClearDefault(FileSystemManager self, std::string const & FileName) -> bool\n"
+		""},
+	 { "FileSystemManager_Sanitize", _wrap_FileSystemManager_Sanitize, METH_O, "FileSystemManager_Sanitize(FileSystemManager self) -> bool"},
+	 { "FileSystemManager_FindSpace", _wrap_FileSystemManager_FindSpace, METH_VARARGS, "FileSystemManager_FindSpace(FileSystemManager self, uint32_t & addr, ByteVector data) -> bool"},
+	 { "FileSystemManager_Execute", _wrap_FileSystemManager_Execute, METH_VARARGS, "\n"
+		"FileSystemManager_Execute(FileSystemManager self, iMS::FileSystemIndex index) -> bool\n"
+		"FileSystemManager_Execute(FileSystemManager self, std::string const & FileName) -> bool\n"
+		""},
+	 { "delete_FileSystemManager", _wrap_delete_FileSystemManager, METH_O, "delete_FileSystemManager(FileSystemManager self)"},
 	 { "FileSystemManager_swigregister", FileSystemManager_swigregister, METH_O, NULL},
 	 { "FileSystemManager_swiginit", FileSystemManager_swiginit, METH_VARARGS, NULL},
-	 { "new_UserFileReader", _wrap_new_UserFileReader, METH_VARARGS, NULL},
-	 { "UserFileReader_Readback", _wrap_UserFileReader_Readback, METH_VARARGS, NULL},
-	 { "delete_UserFileReader", _wrap_delete_UserFileReader, METH_O, NULL},
+	 { "new_UserFileReader", _wrap_new_UserFileReader, METH_VARARGS, "\n"
+		"UserFileReader(std::shared_ptr< iMS::IMSSystem > ims, iMS::FileSystemIndex const index)\n"
+		"new_UserFileReader(std::shared_ptr< iMS::IMSSystem > ims, std::string const & FileName) -> UserFileReader\n"
+		""},
+	 { "UserFileReader_Readback", _wrap_UserFileReader_Readback, METH_VARARGS, "\n"
+		"UserFileReader_Readback(UserFileReader self, ByteVector data) -> bool\n"
+		"UserFileReader_Readback(UserFileReader self, PyObject * out_obj=None) -> PyObject\n"
+		""},
+	 { "delete_UserFileReader", _wrap_delete_UserFileReader, METH_O, "delete_UserFileReader(UserFileReader self)"},
 	 { "UserFileReader_swigregister", UserFileReader_swigregister, METH_O, NULL},
 	 { "UserFileReader_swiginit", UserFileReader_swiginit, METH_VARARGS, NULL},
-	 { "new_UserFileWriter", _wrap_new_UserFileWriter, METH_VARARGS, NULL},
-	 { "UserFileWriter_Program", _wrap_UserFileWriter_Program, METH_O, NULL},
-	 { "delete_UserFileWriter", _wrap_delete_UserFileWriter, METH_O, NULL},
+	 { "new_UserFileWriter", _wrap_new_UserFileWriter, METH_VARARGS, "new_UserFileWriter(std::shared_ptr< iMS::IMSSystem > ims, ByteVector file_data, std::string const file_name) -> UserFileWriter"},
+	 { "UserFileWriter_Program", _wrap_UserFileWriter_Program, METH_O, "UserFileWriter_Program(UserFileWriter self) -> iMS::FileSystemIndex"},
+	 { "delete_UserFileWriter", _wrap_delete_UserFileWriter, METH_O, "delete_UserFileWriter(UserFileWriter self)"},
 	 { "UserFileWriter_swigregister", UserFileWriter_swigregister, METH_O, NULL},
 	 { "UserFileWriter_swiginit", UserFileWriter_swiginit, METH_VARARGS, NULL},
-	 { "new_Crystal", _wrap_new_Crystal, METH_VARARGS, NULL},
-	 { "Crystal_RefractiveIndex", _wrap_Crystal_RefractiveIndex, METH_VARARGS, NULL},
-	 { "Crystal_BraggAngle", _wrap_Crystal_BraggAngle, METH_VARARGS, NULL},
-	 { "Crystal_Type_get", _wrap_Crystal_Type_get, METH_O, NULL},
-	 { "Crystal_Description_get", _wrap_Crystal_Description_get, METH_O, NULL},
-	 { "Crystal_AcousticVelocity_get", _wrap_Crystal_AcousticVelocity_get, METH_O, NULL},
-	 { "delete_Crystal", _wrap_delete_Crystal, METH_O, NULL},
+	 { "new_Crystal", _wrap_new_Crystal, METH_VARARGS, "\n"
+		"Crystal(iMS::Crystal::Material material=TeO2)\n"
+		"new_Crystal(Crystal arg1) -> Crystal\n"
+		""},
+	 { "Crystal_RefractiveIndex", _wrap_Crystal_RefractiveIndex, METH_VARARGS, "Crystal_RefractiveIndex(Crystal self, Micrometre wavelength) -> double"},
+	 { "Crystal_BraggAngle", _wrap_Crystal_BraggAngle, METH_VARARGS, "Crystal_BraggAngle(Crystal self, Micrometre wavelength, MHz frequency) -> Degrees"},
+	 { "Crystal_Type_get", _wrap_Crystal_Type_get, METH_O, "Crystal_Type_get(Crystal self) -> iMS::Crystal::Material"},
+	 { "Crystal_Description_get", _wrap_Crystal_Description_get, METH_O, "Crystal_Description_get(Crystal self) -> std::string const &"},
+	 { "Crystal_AcousticVelocity_get", _wrap_Crystal_AcousticVelocity_get, METH_O, "Crystal_AcousticVelocity_get(Crystal self) -> double"},
+	 { "delete_Crystal", _wrap_delete_Crystal, METH_O, "delete_Crystal(Crystal self)"},
 	 { "Crystal_swigregister", Crystal_swigregister, METH_O, NULL},
 	 { "Crystal_swiginit", Crystal_swiginit, METH_VARARGS, NULL},
-	 { "new_AODevice", _wrap_new_AODevice, METH_VARARGS, NULL},
-	 { "AODevice_ExternalBragg", _wrap_AODevice_ExternalBragg, METH_VARARGS, NULL},
-	 { "AODevice_GetCompensationFunction", _wrap_AODevice_GetCompensationFunction, METH_VARARGS, NULL},
-	 { "AODevice_Model_get", _wrap_AODevice_Model_get, METH_O, NULL},
-	 { "AODevice_Material_get", _wrap_AODevice_Material_get, METH_O, NULL},
-	 { "AODevice_CentreFrequency_get", _wrap_AODevice_CentreFrequency_get, METH_O, NULL},
-	 { "AODevice_SweepBW_get", _wrap_AODevice_SweepBW_get, METH_O, NULL},
-	 { "AODevice_OperatingWavelength_get", _wrap_AODevice_OperatingWavelength_get, METH_O, NULL},
-	 { "AODevice_GeomConstant_get", _wrap_AODevice_GeomConstant_get, METH_O, NULL},
-	 { "delete_AODevice", _wrap_delete_AODevice, METH_O, NULL},
+	 { "new_AODevice", _wrap_new_AODevice, METH_VARARGS, "\n"
+		"AODevice(Crystal xtal, double GeomConstant=4.0, MHz Centre=100.0, MHz Bandwidth=60.0)\n"
+		"AODevice(std::string const & Model)\n"
+		"new_AODevice(AODevice arg1) -> AODevice\n"
+		""},
+	 { "AODevice_ExternalBragg", _wrap_AODevice_ExternalBragg, METH_VARARGS, "\n"
+		"AODevice_ExternalBragg(AODevice self) -> Degrees\n"
+		"AODevice_ExternalBragg(AODevice self, Micrometre wavelength) -> Degrees\n"
+		""},
+	 { "AODevice_GetCompensationFunction", _wrap_AODevice_GetCompensationFunction, METH_VARARGS, "\n"
+		"AODevice_GetCompensationFunction(AODevice self) -> CompensationFunction\n"
+		"AODevice_GetCompensationFunction(AODevice self, Micrometre wavelength) -> CompensationFunction\n"
+		""},
+	 { "AODevice_Model_get", _wrap_AODevice_Model_get, METH_O, "AODevice_Model_get(AODevice self) -> std::string const &"},
+	 { "AODevice_Material_get", _wrap_AODevice_Material_get, METH_O, "AODevice_Material_get(AODevice self) -> Crystal"},
+	 { "AODevice_CentreFrequency_get", _wrap_AODevice_CentreFrequency_get, METH_O, "AODevice_CentreFrequency_get(AODevice self) -> MHz"},
+	 { "AODevice_SweepBW_get", _wrap_AODevice_SweepBW_get, METH_O, "AODevice_SweepBW_get(AODevice self) -> MHz"},
+	 { "AODevice_OperatingWavelength_get", _wrap_AODevice_OperatingWavelength_get, METH_O, "AODevice_OperatingWavelength_get(AODevice self) -> Micrometre"},
+	 { "AODevice_GeomConstant_get", _wrap_AODevice_GeomConstant_get, METH_O, "AODevice_GeomConstant_get(AODevice self) -> double"},
+	 { "delete_AODevice", _wrap_delete_AODevice, METH_O, "delete_AODevice(AODevice self)"},
 	 { "AODevice_swigregister", AODevice_swigregister, METH_O, NULL},
 	 { "AODevice_swiginit", AODevice_swiginit, METH_VARARGS, NULL},
-	 { "AODeviceList_GetList", _wrap_AODeviceList_GetList, METH_NOARGS, NULL},
+	 { "AODeviceList_GetList", _wrap_AODeviceList_GetList, METH_NOARGS, "AODeviceList_GetList() -> StringList"},
 	 { "AODeviceList_swigregister", AODeviceList_swigregister, METH_O, NULL},
-	 { "new_Auxiliary", _wrap_new_Auxiliary, METH_O, NULL},
-	 { "Auxiliary_AssignLED", _wrap_Auxiliary_AssignLED, METH_VARARGS, NULL},
-	 { "Auxiliary_SetDDSProfile", _wrap_Auxiliary_SetDDSProfile, METH_VARARGS, NULL},
-	 { "Auxiliary_UpdateAnalogIn", _wrap_Auxiliary_UpdateAnalogIn, METH_O, NULL},
-	 { "Auxiliary_GetAnalogData", _wrap_Auxiliary_GetAnalogData, METH_O, NULL},
-	 { "Auxiliary_UpdateAnalogOut", _wrap_Auxiliary_UpdateAnalogOut, METH_VARARGS, NULL},
-	 { "Auxiliary_AuxiliaryEventSubscribe", _wrap_Auxiliary_AuxiliaryEventSubscribe, METH_VARARGS, NULL},
-	 { "Auxiliary_AuxiliaryEventUnsubscribe", _wrap_Auxiliary_AuxiliaryEventUnsubscribe, METH_VARARGS, NULL},
-	 { "delete_Auxiliary", _wrap_delete_Auxiliary, METH_O, NULL},
+	 { "new_Auxiliary", _wrap_new_Auxiliary, METH_O, "new_Auxiliary(std::shared_ptr< iMS::IMSSystem > ims) -> Auxiliary"},
+	 { "Auxiliary_AssignLED", _wrap_Auxiliary_AssignLED, METH_VARARGS, "Auxiliary_AssignLED(Auxiliary self, iMS::Auxiliary::LED_SINK const & sink, iMS::Auxiliary::LED_SOURCE const & src) -> bool"},
+	 { "Auxiliary_SetDDSProfile", _wrap_Auxiliary_SetDDSProfile, METH_VARARGS, "\n"
+		"Auxiliary_SetDDSProfile(Auxiliary self, iMS::Auxiliary::DDS_PROFILE const & prfl) -> bool\n"
+		"Auxiliary_SetDDSProfile(Auxiliary self, iMS::Auxiliary::DDS_PROFILE const & prfl, uint16_t const & select) -> bool\n"
+		""},
+	 { "Auxiliary_UpdateAnalogIn", _wrap_Auxiliary_UpdateAnalogIn, METH_O, "Auxiliary_UpdateAnalogIn(Auxiliary self) -> bool"},
+	 { "Auxiliary_GetAnalogData", _wrap_Auxiliary_GetAnalogData, METH_O, "Auxiliary_GetAnalogData(Auxiliary self) -> AnalogData"},
+	 { "Auxiliary_UpdateAnalogOut", _wrap_Auxiliary_UpdateAnalogOut, METH_VARARGS, "Auxiliary_UpdateAnalogOut(Auxiliary self, Percent pct) -> bool"},
+	 { "Auxiliary_AuxiliaryEventSubscribe", _wrap_Auxiliary_AuxiliaryEventSubscribe, METH_VARARGS, "Auxiliary_AuxiliaryEventSubscribe(Auxiliary self, int const message, IEventHandler handler)"},
+	 { "Auxiliary_AuxiliaryEventUnsubscribe", _wrap_Auxiliary_AuxiliaryEventUnsubscribe, METH_VARARGS, "Auxiliary_AuxiliaryEventUnsubscribe(Auxiliary self, int const message, IEventHandler handler)"},
+	 { "delete_Auxiliary", _wrap_delete_Auxiliary, METH_O, "delete_Auxiliary(Auxiliary self)"},
 	 { "Auxiliary_swigregister", Auxiliary_swigregister, METH_O, NULL},
 	 { "Auxiliary_swiginit", Auxiliary_swiginit, METH_VARARGS, NULL},
-	 { "new_DDSScriptRegister", _wrap_new_DDSScriptRegister, METH_VARARGS, NULL},
-	 { "DDSScriptRegister_append", _wrap_DDSScriptRegister_append, METH_VARARGS, NULL},
-	 { "DDSScriptRegister_bytes", _wrap_DDSScriptRegister_bytes, METH_O, NULL},
-	 { "delete_DDSScriptRegister", _wrap_delete_DDSScriptRegister, METH_O, NULL},
+	 { "new_DDSScriptRegister", _wrap_new_DDSScriptRegister, METH_VARARGS, "\n"
+		"DDSScriptRegister(iMS::DDSScriptRegister::Name name=CSR)\n"
+		"DDSScriptRegister(iMS::DDSScriptRegister::Name name, ByteVector data)\n"
+		"new_DDSScriptRegister(DDSScriptRegister arg1) -> DDSScriptRegister\n"
+		""},
+	 { "DDSScriptRegister_append", _wrap_DDSScriptRegister_append, METH_VARARGS, "DDSScriptRegister_append(DDSScriptRegister self, uint8_t const & arg2) -> int"},
+	 { "DDSScriptRegister_bytes", _wrap_DDSScriptRegister_bytes, METH_O, "DDSScriptRegister_bytes(DDSScriptRegister self) -> ByteVector"},
+	 { "delete_DDSScriptRegister", _wrap_delete_DDSScriptRegister, METH_O, "delete_DDSScriptRegister(DDSScriptRegister self)"},
 	 { "DDSScriptRegister_swigregister", DDSScriptRegister_swigregister, METH_O, NULL},
 	 { "DDSScriptRegister_swiginit", DDSScriptRegister_swiginit, METH_VARARGS, NULL},
-	 { "DDSScript_iterator", _wrap_DDSScript_iterator, METH_O, NULL},
-	 { "DDSScript___nonzero__", _wrap_DDSScript___nonzero__, METH_O, NULL},
-	 { "DDSScript___bool__", _wrap_DDSScript___bool__, METH_O, NULL},
-	 { "DDSScript___len__", _wrap_DDSScript___len__, METH_O, NULL},
-	 { "DDSScript___getslice__", _wrap_DDSScript___getslice__, METH_VARARGS, NULL},
-	 { "DDSScript___setslice__", _wrap_DDSScript___setslice__, METH_VARARGS, NULL},
-	 { "DDSScript___delslice__", _wrap_DDSScript___delslice__, METH_VARARGS, NULL},
-	 { "DDSScript___delitem__", _wrap_DDSScript___delitem__, METH_VARARGS, NULL},
-	 { "DDSScript___getitem__", _wrap_DDSScript___getitem__, METH_VARARGS, NULL},
-	 { "DDSScript___setitem__", _wrap_DDSScript___setitem__, METH_VARARGS, NULL},
-	 { "DDSScript_pop", _wrap_DDSScript_pop, METH_O, NULL},
-	 { "DDSScript_append", _wrap_DDSScript_append, METH_VARARGS, NULL},
-	 { "DDSScript_empty", _wrap_DDSScript_empty, METH_O, NULL},
-	 { "DDSScript_size", _wrap_DDSScript_size, METH_O, NULL},
-	 { "DDSScript_swap", _wrap_DDSScript_swap, METH_VARARGS, NULL},
-	 { "DDSScript_begin", _wrap_DDSScript_begin, METH_O, NULL},
-	 { "DDSScript_end", _wrap_DDSScript_end, METH_O, NULL},
-	 { "DDSScript_rbegin", _wrap_DDSScript_rbegin, METH_O, NULL},
-	 { "DDSScript_rend", _wrap_DDSScript_rend, METH_O, NULL},
-	 { "DDSScript_clear", _wrap_DDSScript_clear, METH_O, NULL},
-	 { "DDSScript_get_allocator", _wrap_DDSScript_get_allocator, METH_O, NULL},
-	 { "DDSScript_pop_back", _wrap_DDSScript_pop_back, METH_O, NULL},
-	 { "DDSScript_erase", _wrap_DDSScript_erase, METH_VARARGS, NULL},
-	 { "new_DDSScript", _wrap_new_DDSScript, METH_VARARGS, NULL},
-	 { "DDSScript_push_back", _wrap_DDSScript_push_back, METH_VARARGS, NULL},
-	 { "DDSScript_front", _wrap_DDSScript_front, METH_O, NULL},
-	 { "DDSScript_back", _wrap_DDSScript_back, METH_O, NULL},
-	 { "DDSScript_assign", _wrap_DDSScript_assign, METH_VARARGS, NULL},
-	 { "DDSScript_resize", _wrap_DDSScript_resize, METH_VARARGS, NULL},
-	 { "DDSScript_insert", _wrap_DDSScript_insert, METH_VARARGS, NULL},
-	 { "DDSScript_reserve", _wrap_DDSScript_reserve, METH_VARARGS, NULL},
-	 { "DDSScript_capacity", _wrap_DDSScript_capacity, METH_O, NULL},
-	 { "delete_DDSScript", _wrap_delete_DDSScript, METH_O, NULL},
+	 { "DDSScript_iterator", _wrap_DDSScript_iterator, METH_O, "DDSScript_iterator(DDSScript self) -> SwigPyIterator"},
+	 { "DDSScript___nonzero__", _wrap_DDSScript___nonzero__, METH_O, "DDSScript___nonzero__(DDSScript self) -> bool"},
+	 { "DDSScript___bool__", _wrap_DDSScript___bool__, METH_O, "DDSScript___bool__(DDSScript self) -> bool"},
+	 { "DDSScript___len__", _wrap_DDSScript___len__, METH_O, "DDSScript___len__(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"},
+	 { "DDSScript___getslice__", _wrap_DDSScript___getslice__, METH_VARARGS, "DDSScript___getslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j) -> DDSScript"},
+	 { "DDSScript___setslice__", _wrap_DDSScript___setslice__, METH_VARARGS, "\n"
+		"DDSScript___setslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j)\n"
+		"DDSScript___setslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j, DDSScript v)\n"
+		""},
+	 { "DDSScript___delslice__", _wrap_DDSScript___delslice__, METH_VARARGS, "DDSScript___delslice__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, std::vector< iMS::DDSScriptRegister >::difference_type j)"},
+	 { "DDSScript___delitem__", _wrap_DDSScript___delitem__, METH_VARARGS, "\n"
+		"DDSScript___delitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i)\n"
+		"DDSScript___delitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice)\n"
+		""},
+	 { "DDSScript___getitem__", _wrap_DDSScript___getitem__, METH_VARARGS, "\n"
+		"DDSScript___getitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice) -> DDSScript\n"
+		"DDSScript___getitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i) -> DDSScriptRegister\n"
+		""},
+	 { "DDSScript___setitem__", _wrap_DDSScript___setitem__, METH_VARARGS, "\n"
+		"DDSScript___setitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice, DDSScript v)\n"
+		"DDSScript___setitem__(DDSScript self, SWIGPY_SLICEOBJECT * slice)\n"
+		"DDSScript___setitem__(DDSScript self, std::vector< iMS::DDSScriptRegister >::difference_type i, DDSScriptRegister x)\n"
+		""},
+	 { "DDSScript_pop", _wrap_DDSScript_pop, METH_O, "DDSScript_pop(DDSScript self) -> DDSScriptRegister"},
+	 { "DDSScript_append", _wrap_DDSScript_append, METH_VARARGS, "DDSScript_append(DDSScript self, DDSScriptRegister x)"},
+	 { "DDSScript_empty", _wrap_DDSScript_empty, METH_O, "DDSScript_empty(DDSScript self) -> bool"},
+	 { "DDSScript_size", _wrap_DDSScript_size, METH_O, "DDSScript_size(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"},
+	 { "DDSScript_swap", _wrap_DDSScript_swap, METH_VARARGS, "DDSScript_swap(DDSScript self, DDSScript v)"},
+	 { "DDSScript_begin", _wrap_DDSScript_begin, METH_O, "DDSScript_begin(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::iterator"},
+	 { "DDSScript_end", _wrap_DDSScript_end, METH_O, "DDSScript_end(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::iterator"},
+	 { "DDSScript_rbegin", _wrap_DDSScript_rbegin, METH_O, "DDSScript_rbegin(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::reverse_iterator"},
+	 { "DDSScript_rend", _wrap_DDSScript_rend, METH_O, "DDSScript_rend(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::reverse_iterator"},
+	 { "DDSScript_clear", _wrap_DDSScript_clear, METH_O, "DDSScript_clear(DDSScript self)"},
+	 { "DDSScript_get_allocator", _wrap_DDSScript_get_allocator, METH_O, "DDSScript_get_allocator(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::allocator_type"},
+	 { "DDSScript_pop_back", _wrap_DDSScript_pop_back, METH_O, "DDSScript_pop_back(DDSScript self)"},
+	 { "DDSScript_erase", _wrap_DDSScript_erase, METH_VARARGS, "\n"
+		"DDSScript_erase(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos) -> std::vector< iMS::DDSScriptRegister >::iterator\n"
+		"DDSScript_erase(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator first, std::vector< iMS::DDSScriptRegister >::iterator last) -> std::vector< iMS::DDSScriptRegister >::iterator\n"
+		""},
+	 { "new_DDSScript", _wrap_new_DDSScript, METH_VARARGS, "\n"
+		"DDSScript()\n"
+		"DDSScript(DDSScript other)\n"
+		"DDSScript(std::vector< iMS::DDSScriptRegister >::size_type size)\n"
+		"new_DDSScript(std::vector< iMS::DDSScriptRegister >::size_type size, DDSScriptRegister value) -> DDSScript\n"
+		""},
+	 { "DDSScript_push_back", _wrap_DDSScript_push_back, METH_VARARGS, "DDSScript_push_back(DDSScript self, DDSScriptRegister x)"},
+	 { "DDSScript_front", _wrap_DDSScript_front, METH_O, "DDSScript_front(DDSScript self) -> DDSScriptRegister"},
+	 { "DDSScript_back", _wrap_DDSScript_back, METH_O, "DDSScript_back(DDSScript self) -> DDSScriptRegister"},
+	 { "DDSScript_assign", _wrap_DDSScript_assign, METH_VARARGS, "DDSScript_assign(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type n, DDSScriptRegister x)"},
+	 { "DDSScript_resize", _wrap_DDSScript_resize, METH_VARARGS, "\n"
+		"DDSScript_resize(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type new_size)\n"
+		"DDSScript_resize(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type new_size, DDSScriptRegister x)\n"
+		""},
+	 { "DDSScript_insert", _wrap_DDSScript_insert, METH_VARARGS, "\n"
+		"DDSScript_insert(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos, DDSScriptRegister x) -> std::vector< iMS::DDSScriptRegister >::iterator\n"
+		"DDSScript_insert(DDSScript self, std::vector< iMS::DDSScriptRegister >::iterator pos, std::vector< iMS::DDSScriptRegister >::size_type n, DDSScriptRegister x)\n"
+		""},
+	 { "DDSScript_reserve", _wrap_DDSScript_reserve, METH_VARARGS, "DDSScript_reserve(DDSScript self, std::vector< iMS::DDSScriptRegister >::size_type n)"},
+	 { "DDSScript_capacity", _wrap_DDSScript_capacity, METH_O, "DDSScript_capacity(DDSScript self) -> std::vector< iMS::DDSScriptRegister >::size_type"},
+	 { "delete_DDSScript", _wrap_delete_DDSScript, METH_O, "delete_DDSScript(DDSScript self)"},
 	 { "DDSScript_swigregister", DDSScript_swigregister, METH_O, NULL},
 	 { "DDSScript_swiginit", DDSScript_swiginit, METH_VARARGS, NULL},
-	 { "new_DDSScriptDownload", _wrap_new_DDSScriptDownload, METH_VARARGS, NULL},
-	 { "DDSScriptDownload_Program", _wrap_DDSScriptDownload_Program, METH_VARARGS, NULL},
-	 { "delete_DDSScriptDownload", _wrap_delete_DDSScriptDownload, METH_O, NULL},
+	 { "new_DDSScriptDownload", _wrap_new_DDSScriptDownload, METH_VARARGS, "new_DDSScriptDownload(std::shared_ptr< iMS::IMSSystem > ims, DDSScript script) -> DDSScriptDownload"},
+	 { "DDSScriptDownload_Program", _wrap_DDSScriptDownload_Program, METH_VARARGS, "DDSScriptDownload_Program(DDSScriptDownload self, std::string const & FileName, iMS::FileDefault _def=NON_DEFAULT) -> iMS::FileSystemIndex const"},
+	 { "delete_DDSScriptDownload", _wrap_delete_DDSScriptDownload, METH_O, "delete_DDSScriptDownload(DDSScriptDownload self)"},
 	 { "DDSScriptDownload_swigregister", DDSScriptDownload_swigregister, METH_O, NULL},
 	 { "DDSScriptDownload_swiginit", DDSScriptDownload_swiginit, METH_VARARGS, NULL},
-	 { "ImagePoint___str__", _wrap_ImagePoint___str__, METH_O, NULL},
-	 { "ImagePoint___eq__", _wrap_ImagePoint___eq__, METH_VARARGS, NULL},
-	 { "ImagePoint_GetFAP", _wrap_ImagePoint_GetFAP, METH_VARARGS, NULL},
-	 { "ImagePoint_SetFAP", _wrap_ImagePoint_SetFAP, METH_VARARGS, NULL},
-	 { "ImagePoint_SetAll", _wrap_ImagePoint_SetAll, METH_VARARGS, NULL},
-	 { "ImagePoint_GetSyncA", _wrap_ImagePoint_GetSyncA, METH_VARARGS, NULL},
-	 { "ImagePoint_SetSyncA", _wrap_ImagePoint_SetSyncA, METH_VARARGS, NULL},
-	 { "ImagePoint_SyncD_set", _wrap_ImagePoint_SyncD_set, METH_VARARGS, NULL},
-	 { "ImagePoint_SyncD_get", _wrap_ImagePoint_SyncD_get, METH_O, NULL},
-	 { "ImagePoint_SyncA1_set", _wrap_ImagePoint_SyncA1_set, METH_VARARGS, NULL},
-	 { "ImagePoint_SyncA1_get", _wrap_ImagePoint_SyncA1_get, METH_O, NULL},
-	 { "ImagePoint_SyncA2_set", _wrap_ImagePoint_SyncA2_set, METH_VARARGS, NULL},
-	 { "ImagePoint_SyncA2_get", _wrap_ImagePoint_SyncA2_get, METH_O, NULL},
-	 { "ImagePoint_FreqCh1_set", _wrap_ImagePoint_FreqCh1_set, METH_VARARGS, NULL},
-	 { "ImagePoint_FreqCh1_get", _wrap_ImagePoint_FreqCh1_get, METH_O, NULL},
-	 { "ImagePoint_AmplCh1_set", _wrap_ImagePoint_AmplCh1_set, METH_VARARGS, NULL},
-	 { "ImagePoint_AmplCh1_get", _wrap_ImagePoint_AmplCh1_get, METH_O, NULL},
-	 { "ImagePoint_PhaseCh1_set", _wrap_ImagePoint_PhaseCh1_set, METH_VARARGS, NULL},
-	 { "ImagePoint_PhaseCh1_get", _wrap_ImagePoint_PhaseCh1_get, METH_O, NULL},
-	 { "ImagePoint_FreqCh2_set", _wrap_ImagePoint_FreqCh2_set, METH_VARARGS, NULL},
-	 { "ImagePoint_FreqCh2_get", _wrap_ImagePoint_FreqCh2_get, METH_O, NULL},
-	 { "ImagePoint_AmplCh2_set", _wrap_ImagePoint_AmplCh2_set, METH_VARARGS, NULL},
-	 { "ImagePoint_AmplCh2_get", _wrap_ImagePoint_AmplCh2_get, METH_O, NULL},
-	 { "ImagePoint_PhaseCh2_set", _wrap_ImagePoint_PhaseCh2_set, METH_VARARGS, NULL},
-	 { "ImagePoint_PhaseCh2_get", _wrap_ImagePoint_PhaseCh2_get, METH_O, NULL},
-	 { "ImagePoint_FreqCh3_set", _wrap_ImagePoint_FreqCh3_set, METH_VARARGS, NULL},
-	 { "ImagePoint_FreqCh3_get", _wrap_ImagePoint_FreqCh3_get, METH_O, NULL},
-	 { "ImagePoint_AmplCh3_set", _wrap_ImagePoint_AmplCh3_set, METH_VARARGS, NULL},
-	 { "ImagePoint_AmplCh3_get", _wrap_ImagePoint_AmplCh3_get, METH_O, NULL},
-	 { "ImagePoint_PhaseCh3_set", _wrap_ImagePoint_PhaseCh3_set, METH_VARARGS, NULL},
-	 { "ImagePoint_PhaseCh3_get", _wrap_ImagePoint_PhaseCh3_get, METH_O, NULL},
-	 { "ImagePoint_FreqCh4_set", _wrap_ImagePoint_FreqCh4_set, METH_VARARGS, NULL},
-	 { "ImagePoint_FreqCh4_get", _wrap_ImagePoint_FreqCh4_get, METH_O, NULL},
-	 { "ImagePoint_AmplCh4_set", _wrap_ImagePoint_AmplCh4_set, METH_VARARGS, NULL},
-	 { "ImagePoint_AmplCh4_get", _wrap_ImagePoint_AmplCh4_get, METH_O, NULL},
-	 { "ImagePoint_PhaseCh4_set", _wrap_ImagePoint_PhaseCh4_set, METH_VARARGS, NULL},
-	 { "ImagePoint_PhaseCh4_get", _wrap_ImagePoint_PhaseCh4_get, METH_O, NULL},
-	 { "new_ImagePoint", _wrap_new_ImagePoint, METH_VARARGS, NULL},
-	 { "delete_ImagePoint", _wrap_delete_ImagePoint, METH_O, NULL},
+	 { "ImagePoint___str__", _wrap_ImagePoint___str__, METH_O, "ImagePoint___str__(ImagePoint self) -> std::string"},
+	 { "ImagePoint___eq__", _wrap_ImagePoint___eq__, METH_VARARGS, "ImagePoint___eq__(ImagePoint self, ImagePoint rhs) -> bool"},
+	 { "ImagePoint_GetFAP", _wrap_ImagePoint_GetFAP, METH_VARARGS, "ImagePoint_GetFAP(ImagePoint self, RFChannel arg2) -> FAP"},
+	 { "ImagePoint_SetFAP", _wrap_ImagePoint_SetFAP, METH_VARARGS, "ImagePoint_SetFAP(ImagePoint self, RFChannel arg2, FAP arg3)"},
+	 { "ImagePoint_SetAll", _wrap_ImagePoint_SetAll, METH_VARARGS, "ImagePoint_SetAll(ImagePoint self, FAP arg2)"},
+	 { "ImagePoint_GetSyncA", _wrap_ImagePoint_GetSyncA, METH_VARARGS, "ImagePoint_GetSyncA(ImagePoint self, int index) -> float const &"},
+	 { "ImagePoint_SetSyncA", _wrap_ImagePoint_SetSyncA, METH_VARARGS, "ImagePoint_SetSyncA(ImagePoint self, int index, float value)"},
+	 { "ImagePoint_SyncD_set", _wrap_ImagePoint_SyncD_set, METH_VARARGS, "ImagePoint_SyncD_set(ImagePoint self, unsigned int SyncD)"},
+	 { "ImagePoint_SyncD_get", _wrap_ImagePoint_SyncD_get, METH_O, "ImagePoint_SyncD_get(ImagePoint self) -> unsigned int"},
+	 { "ImagePoint_SyncA1_set", _wrap_ImagePoint_SyncA1_set, METH_VARARGS, "ImagePoint_SyncA1_set(ImagePoint self, float SyncA1)"},
+	 { "ImagePoint_SyncA1_get", _wrap_ImagePoint_SyncA1_get, METH_O, "ImagePoint_SyncA1_get(ImagePoint self) -> float"},
+	 { "ImagePoint_SyncA2_set", _wrap_ImagePoint_SyncA2_set, METH_VARARGS, "ImagePoint_SyncA2_set(ImagePoint self, float SyncA2)"},
+	 { "ImagePoint_SyncA2_get", _wrap_ImagePoint_SyncA2_get, METH_O, "ImagePoint_SyncA2_get(ImagePoint self) -> float"},
+	 { "ImagePoint_FreqCh1_set", _wrap_ImagePoint_FreqCh1_set, METH_VARARGS, "ImagePoint_FreqCh1_set(ImagePoint self, MHz FreqCh1)"},
+	 { "ImagePoint_FreqCh1_get", _wrap_ImagePoint_FreqCh1_get, METH_O, "ImagePoint_FreqCh1_get(ImagePoint self) -> MHz"},
+	 { "ImagePoint_AmplCh1_set", _wrap_ImagePoint_AmplCh1_set, METH_VARARGS, "ImagePoint_AmplCh1_set(ImagePoint self, Percent AmplCh1)"},
+	 { "ImagePoint_AmplCh1_get", _wrap_ImagePoint_AmplCh1_get, METH_O, "ImagePoint_AmplCh1_get(ImagePoint self) -> Percent"},
+	 { "ImagePoint_PhaseCh1_set", _wrap_ImagePoint_PhaseCh1_set, METH_VARARGS, "ImagePoint_PhaseCh1_set(ImagePoint self, Degrees PhaseCh1)"},
+	 { "ImagePoint_PhaseCh1_get", _wrap_ImagePoint_PhaseCh1_get, METH_O, "ImagePoint_PhaseCh1_get(ImagePoint self) -> Degrees"},
+	 { "ImagePoint_FreqCh2_set", _wrap_ImagePoint_FreqCh2_set, METH_VARARGS, "ImagePoint_FreqCh2_set(ImagePoint self, MHz FreqCh2)"},
+	 { "ImagePoint_FreqCh2_get", _wrap_ImagePoint_FreqCh2_get, METH_O, "ImagePoint_FreqCh2_get(ImagePoint self) -> MHz"},
+	 { "ImagePoint_AmplCh2_set", _wrap_ImagePoint_AmplCh2_set, METH_VARARGS, "ImagePoint_AmplCh2_set(ImagePoint self, Percent AmplCh2)"},
+	 { "ImagePoint_AmplCh2_get", _wrap_ImagePoint_AmplCh2_get, METH_O, "ImagePoint_AmplCh2_get(ImagePoint self) -> Percent"},
+	 { "ImagePoint_PhaseCh2_set", _wrap_ImagePoint_PhaseCh2_set, METH_VARARGS, "ImagePoint_PhaseCh2_set(ImagePoint self, Degrees PhaseCh2)"},
+	 { "ImagePoint_PhaseCh2_get", _wrap_ImagePoint_PhaseCh2_get, METH_O, "ImagePoint_PhaseCh2_get(ImagePoint self) -> Degrees"},
+	 { "ImagePoint_FreqCh3_set", _wrap_ImagePoint_FreqCh3_set, METH_VARARGS, "ImagePoint_FreqCh3_set(ImagePoint self, MHz FreqCh3)"},
+	 { "ImagePoint_FreqCh3_get", _wrap_ImagePoint_FreqCh3_get, METH_O, "ImagePoint_FreqCh3_get(ImagePoint self) -> MHz"},
+	 { "ImagePoint_AmplCh3_set", _wrap_ImagePoint_AmplCh3_set, METH_VARARGS, "ImagePoint_AmplCh3_set(ImagePoint self, Percent AmplCh3)"},
+	 { "ImagePoint_AmplCh3_get", _wrap_ImagePoint_AmplCh3_get, METH_O, "ImagePoint_AmplCh3_get(ImagePoint self) -> Percent"},
+	 { "ImagePoint_PhaseCh3_set", _wrap_ImagePoint_PhaseCh3_set, METH_VARARGS, "ImagePoint_PhaseCh3_set(ImagePoint self, Degrees PhaseCh3)"},
+	 { "ImagePoint_PhaseCh3_get", _wrap_ImagePoint_PhaseCh3_get, METH_O, "ImagePoint_PhaseCh3_get(ImagePoint self) -> Degrees"},
+	 { "ImagePoint_FreqCh4_set", _wrap_ImagePoint_FreqCh4_set, METH_VARARGS, "ImagePoint_FreqCh4_set(ImagePoint self, MHz FreqCh4)"},
+	 { "ImagePoint_FreqCh4_get", _wrap_ImagePoint_FreqCh4_get, METH_O, "ImagePoint_FreqCh4_get(ImagePoint self) -> MHz"},
+	 { "ImagePoint_AmplCh4_set", _wrap_ImagePoint_AmplCh4_set, METH_VARARGS, "ImagePoint_AmplCh4_set(ImagePoint self, Percent AmplCh4)"},
+	 { "ImagePoint_AmplCh4_get", _wrap_ImagePoint_AmplCh4_get, METH_O, "ImagePoint_AmplCh4_get(ImagePoint self) -> Percent"},
+	 { "ImagePoint_PhaseCh4_set", _wrap_ImagePoint_PhaseCh4_set, METH_VARARGS, "ImagePoint_PhaseCh4_set(ImagePoint self, Degrees PhaseCh4)"},
+	 { "ImagePoint_PhaseCh4_get", _wrap_ImagePoint_PhaseCh4_get, METH_O, "ImagePoint_PhaseCh4_get(ImagePoint self) -> Degrees"},
+	 { "new_ImagePoint", _wrap_new_ImagePoint, METH_VARARGS, "\n"
+		"ImagePoint()\n"
+		"ImagePoint(FAP fap)\n"
+		"ImagePoint(FAP ch1, FAP ch2, FAP ch3, FAP ch4)\n"
+		"ImagePoint(FAP fap, float synca, unsigned int syncd)\n"
+		"ImagePoint(FAP ch1, FAP ch2, FAP ch3, FAP ch4, float synca_1, float synca_2, unsigned int syncd)\n"
+		"new_ImagePoint(ImagePoint other) -> ImagePoint\n"
+		""},
+	 { "delete_ImagePoint", _wrap_delete_ImagePoint, METH_O, "delete_ImagePoint(ImagePoint self)"},
 	 { "ImagePoint_swigregister", ImagePoint_swigregister, METH_O, NULL},
 	 { "ImagePoint_swiginit", ImagePoint_swiginit, METH_VARARGS, NULL},
-	 { "new_Image", _wrap_new_Image, METH_VARARGS, NULL},
-	 { "Image___str__", _wrap_Image___str__, METH_O, NULL},
-	 { "Image_ClockRate_set", _wrap_Image_ClockRate_set, METH_VARARGS, NULL},
-	 { "Image_ClockRate_get", _wrap_Image_ClockRate_get, METH_O, NULL},
-	 { "Image_ExtClockDivide_set", _wrap_Image_ExtClockDivide_set, METH_VARARGS, NULL},
-	 { "Image_ExtClockDivide_get", _wrap_Image_ExtClockDivide_get, METH_O, NULL},
-	 { "Image_Description_set", _wrap_Image_Description_set, METH_VARARGS, NULL},
-	 { "Image_Description_get", _wrap_Image_Description_get, METH_O, NULL},
-	 { "delete_Image", _wrap_delete_Image, METH_O, NULL},
+	 { "new_Image", _wrap_new_Image, METH_VARARGS, "\n"
+		"Image(std::string const & name=\"\")\n"
+		"Image(size_t nPts, ImagePoint pt, std::string const & name=\"\")\n"
+		"Image(size_t nPts, ImagePoint pt, Frequency f, std::string const & name=\"\")\n"
+		"Image(size_t nPts, ImagePoint pt, int const div, std::string const & name=\"\")\n"
+		"new_Image(Image arg1) -> Image\n"
+		""},
+	 { "Image___str__", _wrap_Image___str__, METH_O, "Image___str__(Image self) -> std::string"},
+	 { "Image_ClockRate_set", _wrap_Image_ClockRate_set, METH_VARARGS, "Image_ClockRate_set(Image self, Frequency ClockRate)"},
+	 { "Image_ClockRate_get", _wrap_Image_ClockRate_get, METH_O, "Image_ClockRate_get(Image self) -> Frequency"},
+	 { "Image_ExtClockDivide_set", _wrap_Image_ExtClockDivide_set, METH_VARARGS, "Image_ExtClockDivide_set(Image self, int ExtClockDivide)"},
+	 { "Image_ExtClockDivide_get", _wrap_Image_ExtClockDivide_get, METH_O, "Image_ExtClockDivide_get(Image self) -> int"},
+	 { "Image_Description_set", _wrap_Image_Description_set, METH_VARARGS, "Image_Description_set(Image self, std::string const & Description)"},
+	 { "Image_Description_get", _wrap_Image_Description_get, METH_O, "Image_Description_get(Image self) -> std::string const &"},
+	 { "delete_Image", _wrap_delete_Image, METH_O, "delete_Image(Image self)"},
 	 { "Image_swigregister", Image_swigregister, METH_O, NULL},
 	 { "Image_swiginit", Image_swiginit, METH_VARARGS, NULL},
-	 { "ImageTableEntry___str__", _wrap_ImageTableEntry___str__, METH_O, NULL},
-	 { "new_ImageTableEntry", _wrap_new_ImageTableEntry, METH_VARARGS, NULL},
-	 { "ImageTableEntry_Matches", _wrap_ImageTableEntry_Matches, METH_VARARGS, NULL},
-	 { "ImageTableEntry_Handle_get", _wrap_ImageTableEntry_Handle_get, METH_O, NULL},
-	 { "ImageTableEntry_Address_get", _wrap_ImageTableEntry_Address_get, METH_O, NULL},
-	 { "ImageTableEntry_NPts_get", _wrap_ImageTableEntry_NPts_get, METH_O, NULL},
-	 { "ImageTableEntry_Size_get", _wrap_ImageTableEntry_Size_get, METH_O, NULL},
-	 { "ImageTableEntry_Format_get", _wrap_ImageTableEntry_Format_get, METH_O, NULL},
-	 { "ImageTableEntry_GetUUID_get", _wrap_ImageTableEntry_GetUUID_get, METH_O, NULL},
-	 { "ImageTableEntry_Name_get", _wrap_ImageTableEntry_Name_get, METH_O, NULL},
-	 { "delete_ImageTableEntry", _wrap_delete_ImageTableEntry, METH_O, NULL},
+	 { "ImageTableEntry___str__", _wrap_ImageTableEntry___str__, METH_O, "ImageTableEntry___str__(ImageTableEntry self) -> std::string"},
+	 { "new_ImageTableEntry", _wrap_new_ImageTableEntry, METH_VARARGS, "\n"
+		"ImageTableEntry()\n"
+		"ImageTableEntry(iMS::ImageIndex handle, unsigned int address, int n_pts, int size, unsigned int fmt, UUID uuid, std::string name)\n"
+		"ImageTableEntry(iMS::ImageIndex handle, ByteVector arg2)\n"
+		"new_ImageTableEntry(ImageTableEntry arg1) -> ImageTableEntry\n"
+		""},
+	 { "ImageTableEntry_Matches", _wrap_ImageTableEntry_Matches, METH_VARARGS, "ImageTableEntry_Matches(ImageTableEntry self, Image img) -> bool"},
+	 { "ImageTableEntry_Handle_get", _wrap_ImageTableEntry_Handle_get, METH_O, "ImageTableEntry_Handle_get(ImageTableEntry self) -> iMS::ImageIndex"},
+	 { "ImageTableEntry_Address_get", _wrap_ImageTableEntry_Address_get, METH_O, "ImageTableEntry_Address_get(ImageTableEntry self) -> unsigned int"},
+	 { "ImageTableEntry_NPts_get", _wrap_ImageTableEntry_NPts_get, METH_O, "ImageTableEntry_NPts_get(ImageTableEntry self) -> int"},
+	 { "ImageTableEntry_Size_get", _wrap_ImageTableEntry_Size_get, METH_O, "ImageTableEntry_Size_get(ImageTableEntry self) -> int"},
+	 { "ImageTableEntry_Format_get", _wrap_ImageTableEntry_Format_get, METH_O, "ImageTableEntry_Format_get(ImageTableEntry self) -> unsigned int"},
+	 { "ImageTableEntry_GetUUID_get", _wrap_ImageTableEntry_GetUUID_get, METH_O, "ImageTableEntry_GetUUID_get(ImageTableEntry self) -> UUID"},
+	 { "ImageTableEntry_Name_get", _wrap_ImageTableEntry_Name_get, METH_O, "ImageTableEntry_Name_get(ImageTableEntry self) -> std::string const &"},
+	 { "delete_ImageTableEntry", _wrap_delete_ImageTableEntry, METH_O, "delete_ImageTableEntry(ImageTableEntry self)"},
 	 { "ImageTableEntry_swigregister", ImageTableEntry_swigregister, METH_O, NULL},
 	 { "ImageTableEntry_swiginit", ImageTableEntry_swiginit, METH_VARARGS, NULL},
-	 { "delete_SequenceEntry", _wrap_delete_SequenceEntry, METH_O, NULL},
-	 { "new_SequenceEntry", _wrap_new_SequenceEntry, METH_VARARGS, NULL},
-	 { "SequenceEntry___eq__", _wrap_SequenceEntry___eq__, METH_VARARGS, NULL},
-	 { "SequenceEntry_SetFrequencyOffset", _wrap_SequenceEntry_SetFrequencyOffset, METH_VARARGS, NULL},
-	 { "SequenceEntry_GetFrequencyOffset", _wrap_SequenceEntry_GetFrequencyOffset, METH_VARARGS, NULL},
-	 { "SequenceEntry_SyncOutDelay_set", _wrap_SequenceEntry_SyncOutDelay_set, METH_VARARGS, NULL},
-	 { "SequenceEntry_SyncOutDelay_get", _wrap_SequenceEntry_SyncOutDelay_get, METH_O, NULL},
-	 { "SequenceEntry_UUID_get", _wrap_SequenceEntry_UUID_get, METH_O, NULL},
-	 { "SequenceEntry_NumRpts_get", _wrap_SequenceEntry_NumRpts_get, METH_O, NULL},
+	 { "delete_SequenceEntry", _wrap_delete_SequenceEntry, METH_O, "delete_SequenceEntry(SequenceEntry self)"},
+	 { "new_SequenceEntry", _wrap_new_SequenceEntry, METH_VARARGS, "\n"
+		"SequenceEntry()\n"
+		"SequenceEntry(UUID uuid, int const rpts=0)\n"
+		"new_SequenceEntry(PyObject * _self, SequenceEntry arg2) -> SequenceEntry\n"
+		""},
+	 { "SequenceEntry___eq__", _wrap_SequenceEntry___eq__, METH_VARARGS, "SequenceEntry___eq__(SequenceEntry self, SequenceEntry rhs) -> bool"},
+	 { "SequenceEntry_SetFrequencyOffset", _wrap_SequenceEntry_SetFrequencyOffset, METH_VARARGS, "SequenceEntry_SetFrequencyOffset(SequenceEntry self, MHz offset, RFChannel chan=all)"},
+	 { "SequenceEntry_GetFrequencyOffset", _wrap_SequenceEntry_GetFrequencyOffset, METH_VARARGS, "SequenceEntry_GetFrequencyOffset(SequenceEntry self, RFChannel chan) -> MHz"},
+	 { "SequenceEntry_SyncOutDelay_set", _wrap_SequenceEntry_SyncOutDelay_set, METH_VARARGS, "SequenceEntry_SyncOutDelay_set(SequenceEntry self, UnitFloatDuration SyncOutDelay)"},
+	 { "SequenceEntry_SyncOutDelay_get", _wrap_SequenceEntry_SyncOutDelay_get, METH_O, "SequenceEntry_SyncOutDelay_get(SequenceEntry self) -> UnitFloatDuration"},
+	 { "SequenceEntry_UUID_get", _wrap_SequenceEntry_UUID_get, METH_O, "SequenceEntry_UUID_get(SequenceEntry self) -> UUID"},
+	 { "SequenceEntry_NumRpts_get", _wrap_SequenceEntry_NumRpts_get, METH_O, "SequenceEntry_NumRpts_get(SequenceEntry self) -> int"},
 	 { "disown_SequenceEntry", _wrap_disown_SequenceEntry, METH_O, NULL},
 	 { "SequenceEntry_swigregister", SequenceEntry_swigregister, METH_O, NULL},
 	 { "SequenceEntry_swiginit", SequenceEntry_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageSequenceEntry", _wrap_new_ImageSequenceEntry, METH_VARARGS, NULL},
-	 { "ImageSequenceEntry___eq__", _wrap_ImageSequenceEntry___eq__, METH_VARARGS, NULL},
-	 { "ImageSequenceEntry_PostImgDelay_set", _wrap_ImageSequenceEntry_PostImgDelay_set, METH_VARARGS, NULL},
-	 { "ImageSequenceEntry_PostImgDelay_get", _wrap_ImageSequenceEntry_PostImgDelay_get, METH_O, NULL},
-	 { "ImageSequenceEntry_ExtDiv_get", _wrap_ImageSequenceEntry_ExtDiv_get, METH_O, NULL},
-	 { "ImageSequenceEntry_IntOsc_get", _wrap_ImageSequenceEntry_IntOsc_get, METH_O, NULL},
-	 { "ImageSequenceEntry_RptType_get", _wrap_ImageSequenceEntry_RptType_get, METH_O, NULL},
-	 { "delete_ImageSequenceEntry", _wrap_delete_ImageSequenceEntry, METH_O, NULL},
+	 { "new_ImageSequenceEntry", _wrap_new_ImageSequenceEntry, METH_VARARGS, "\n"
+		"ImageSequenceEntry()\n"
+		"ImageSequenceEntry(Image img, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0)\n"
+		"ImageSequenceEntry(ImageTableEntry ite, kHz InternalClock, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0)\n"
+		"ImageSequenceEntry(ImageTableEntry ite, int const ExtClockDivide, iMS::ImageRepeats const & Rpt=NONE, int const rpts=0)\n"
+		"ImageSequenceEntry(ImageSequenceEntry arg1)\n"
+		"new_ImageSequenceEntry(PyObject * _self, SequenceEntry arg2) -> ImageSequenceEntry\n"
+		""},
+	 { "ImageSequenceEntry___eq__", _wrap_ImageSequenceEntry___eq__, METH_VARARGS, "ImageSequenceEntry___eq__(ImageSequenceEntry self, SequenceEntry rhs) -> bool"},
+	 { "ImageSequenceEntry_PostImgDelay_set", _wrap_ImageSequenceEntry_PostImgDelay_set, METH_VARARGS, "ImageSequenceEntry_PostImgDelay_set(ImageSequenceEntry self, UnitFloatDuration PostImgDelay)"},
+	 { "ImageSequenceEntry_PostImgDelay_get", _wrap_ImageSequenceEntry_PostImgDelay_get, METH_O, "ImageSequenceEntry_PostImgDelay_get(ImageSequenceEntry self) -> UnitFloatDuration"},
+	 { "ImageSequenceEntry_ExtDiv_get", _wrap_ImageSequenceEntry_ExtDiv_get, METH_O, "ImageSequenceEntry_ExtDiv_get(ImageSequenceEntry self) -> int"},
+	 { "ImageSequenceEntry_IntOsc_get", _wrap_ImageSequenceEntry_IntOsc_get, METH_O, "ImageSequenceEntry_IntOsc_get(ImageSequenceEntry self) -> Frequency"},
+	 { "ImageSequenceEntry_RptType_get", _wrap_ImageSequenceEntry_RptType_get, METH_O, "ImageSequenceEntry_RptType_get(ImageSequenceEntry self) -> iMS::ImageRepeats const &"},
+	 { "delete_ImageSequenceEntry", _wrap_delete_ImageSequenceEntry, METH_O, "delete_ImageSequenceEntry(ImageSequenceEntry self)"},
 	 { "disown_ImageSequenceEntry", _wrap_disown_ImageSequenceEntry, METH_O, NULL},
 	 { "ImageSequenceEntry_swigregister", ImageSequenceEntry_swigregister, METH_O, NULL},
 	 { "ImageSequenceEntry_swiginit", ImageSequenceEntry_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageSequence", _wrap_new_ImageSequence, METH_VARARGS, NULL},
-	 { "ImageSequence_OnTermination", _wrap_ImageSequence_OnTermination, METH_VARARGS, NULL},
-	 { "ImageSequence_TermInsertBefore", _wrap_ImageSequence_TermInsertBefore, METH_O, NULL},
-	 { "ImageSequence_TermAction_get", _wrap_ImageSequence_TermAction_get, METH_O, NULL},
-	 { "ImageSequence_TermValue_get", _wrap_ImageSequence_TermValue_get, METH_O, NULL},
-	 { "delete_ImageSequence", _wrap_delete_ImageSequence, METH_O, NULL},
+	 { "new_ImageSequence", _wrap_new_ImageSequence, METH_VARARGS, "\n"
+		"ImageSequence()\n"
+		"ImageSequence(iMS::SequenceTermAction action, int val=0)\n"
+		"ImageSequence(iMS::SequenceTermAction action, ImageSequence insert_before)\n"
+		"new_ImageSequence(ImageSequence arg1) -> ImageSequence\n"
+		""},
+	 { "ImageSequence_OnTermination", _wrap_ImageSequence_OnTermination, METH_VARARGS, "\n"
+		"ImageSequence_OnTermination(ImageSequence self, iMS::SequenceTermAction act, int val=0)\n"
+		"ImageSequence_OnTermination(ImageSequence self, iMS::SequenceTermAction act, ImageSequence term_seq)\n"
+		""},
+	 { "ImageSequence_TermInsertBefore", _wrap_ImageSequence_TermInsertBefore, METH_O, "ImageSequence_TermInsertBefore(ImageSequence self) -> ImageSequence"},
+	 { "ImageSequence_TermAction_get", _wrap_ImageSequence_TermAction_get, METH_O, "ImageSequence_TermAction_get(ImageSequence self) -> iMS::SequenceTermAction"},
+	 { "ImageSequence_TermValue_get", _wrap_ImageSequence_TermValue_get, METH_O, "ImageSequence_TermValue_get(ImageSequence self) -> int"},
+	 { "delete_ImageSequence", _wrap_delete_ImageSequence, METH_O, "delete_ImageSequence(ImageSequence self)"},
 	 { "ImageSequence_swigregister", ImageSequence_swigregister, METH_O, NULL},
 	 { "ImageSequence_swiginit", ImageSequence_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageGroup", _wrap_new_ImageGroup, METH_VARARGS, NULL},
-	 { "ImageGroup___str__", _wrap_ImageGroup___str__, METH_O, NULL},
-	 { "ImageGroup_Size", _wrap_ImageGroup_Size, METH_O, NULL},
-	 { "ImageGroup_Author_set", _wrap_ImageGroup_Author_set, METH_VARARGS, NULL},
-	 { "ImageGroup_Author_get", _wrap_ImageGroup_Author_get, METH_O, NULL},
-	 { "ImageGroup_Company_set", _wrap_ImageGroup_Company_set, METH_VARARGS, NULL},
-	 { "ImageGroup_Company_get", _wrap_ImageGroup_Company_get, METH_O, NULL},
-	 { "ImageGroup_Revision_set", _wrap_ImageGroup_Revision_set, METH_VARARGS, NULL},
-	 { "ImageGroup_Revision_get", _wrap_ImageGroup_Revision_get, METH_O, NULL},
-	 { "ImageGroup_Description_set", _wrap_ImageGroup_Description_set, METH_VARARGS, NULL},
-	 { "ImageGroup_Description_get", _wrap_ImageGroup_Description_get, METH_O, NULL},
-	 { "ImageGroup_CreatedTimeFormat_get", _wrap_ImageGroup_CreatedTimeFormat_get, METH_O, NULL},
-	 { "ImageGroup_Sequence_set", _wrap_ImageGroup_Sequence_set, METH_VARARGS, NULL},
-	 { "ImageGroup_Sequence_get", _wrap_ImageGroup_Sequence_get, METH_O, NULL},
-	 { "delete_ImageGroup", _wrap_delete_ImageGroup, METH_O, NULL},
+	 { "new_ImageGroup", _wrap_new_ImageGroup, METH_VARARGS, "\n"
+		"ImageGroup(std::string const & name=\"\")\n"
+		"ImageGroup(size_t n, std::string const & name=\"\")\n"
+		"new_ImageGroup(ImageGroup arg1) -> ImageGroup\n"
+		""},
+	 { "ImageGroup___str__", _wrap_ImageGroup___str__, METH_O, "ImageGroup___str__(ImageGroup self) -> std::string"},
+	 { "ImageGroup_Size", _wrap_ImageGroup_Size, METH_O, "ImageGroup_Size(ImageGroup self) -> int"},
+	 { "ImageGroup_Author_set", _wrap_ImageGroup_Author_set, METH_VARARGS, "ImageGroup_Author_set(ImageGroup self, std::string const & Author)"},
+	 { "ImageGroup_Author_get", _wrap_ImageGroup_Author_get, METH_O, "ImageGroup_Author_get(ImageGroup self) -> std::string const &"},
+	 { "ImageGroup_Company_set", _wrap_ImageGroup_Company_set, METH_VARARGS, "ImageGroup_Company_set(ImageGroup self, std::string const & Company)"},
+	 { "ImageGroup_Company_get", _wrap_ImageGroup_Company_get, METH_O, "ImageGroup_Company_get(ImageGroup self) -> std::string const &"},
+	 { "ImageGroup_Revision_set", _wrap_ImageGroup_Revision_set, METH_VARARGS, "ImageGroup_Revision_set(ImageGroup self, std::string const & Revision)"},
+	 { "ImageGroup_Revision_get", _wrap_ImageGroup_Revision_get, METH_O, "ImageGroup_Revision_get(ImageGroup self) -> std::string const &"},
+	 { "ImageGroup_Description_set", _wrap_ImageGroup_Description_set, METH_VARARGS, "ImageGroup_Description_set(ImageGroup self, std::string const & Description)"},
+	 { "ImageGroup_Description_get", _wrap_ImageGroup_Description_get, METH_O, "ImageGroup_Description_get(ImageGroup self) -> std::string const &"},
+	 { "ImageGroup_CreatedTimeFormat_get", _wrap_ImageGroup_CreatedTimeFormat_get, METH_O, "ImageGroup_CreatedTimeFormat_get(ImageGroup self) -> std::string const &"},
+	 { "ImageGroup_Sequence_set", _wrap_ImageGroup_Sequence_set, METH_VARARGS, "ImageGroup_Sequence_set(ImageGroup self, ImageSequence Sequence)"},
+	 { "ImageGroup_Sequence_get", _wrap_ImageGroup_Sequence_get, METH_O, "ImageGroup_Sequence_get(ImageGroup self) -> ImageSequence"},
+	 { "delete_ImageGroup", _wrap_delete_ImageGroup, METH_O, "delete_ImageGroup(ImageGroup self)"},
 	 { "ImageGroup_swigregister", ImageGroup_swigregister, METH_O, NULL},
 	 { "ImageGroup_swiginit", ImageGroup_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageDownload", _wrap_new_ImageDownload, METH_VARARGS, NULL},
-	 { "ImageDownload_SetFormat", _wrap_ImageDownload_SetFormat, METH_VARARGS, NULL},
-	 { "ImageDownload_StartDownload", _wrap_ImageDownload_StartDownload, METH_O, NULL},
-	 { "ImageDownload_StartVerify", _wrap_ImageDownload_StartVerify, METH_O, NULL},
-	 { "ImageDownload_GetVerifyError", _wrap_ImageDownload_GetVerifyError, METH_O, NULL},
-	 { "ImageDownload_ImageDownloadEventSubscribe", _wrap_ImageDownload_ImageDownloadEventSubscribe, METH_VARARGS, NULL},
-	 { "ImageDownload_ImageDownloadEventUnsubscribe", _wrap_ImageDownload_ImageDownloadEventUnsubscribe, METH_VARARGS, NULL},
-	 { "delete_ImageDownload", _wrap_delete_ImageDownload, METH_O, NULL},
+	 { "new_ImageDownload", _wrap_new_ImageDownload, METH_VARARGS, "new_ImageDownload(std::shared_ptr< iMS::IMSSystem > ims, Image img) -> ImageDownload"},
+	 { "ImageDownload_SetFormat", _wrap_ImageDownload_SetFormat, METH_VARARGS, "ImageDownload_SetFormat(ImageDownload self, ImageFormat const & fmt)"},
+	 { "ImageDownload_StartDownload", _wrap_ImageDownload_StartDownload, METH_O, "ImageDownload_StartDownload(ImageDownload self) -> bool"},
+	 { "ImageDownload_StartVerify", _wrap_ImageDownload_StartVerify, METH_O, "ImageDownload_StartVerify(ImageDownload self) -> bool"},
+	 { "ImageDownload_GetVerifyError", _wrap_ImageDownload_GetVerifyError, METH_O, "ImageDownload_GetVerifyError(ImageDownload self) -> int"},
+	 { "ImageDownload_ImageDownloadEventSubscribe", _wrap_ImageDownload_ImageDownloadEventSubscribe, METH_VARARGS, "ImageDownload_ImageDownloadEventSubscribe(ImageDownload self, int const message, IEventHandler handler)"},
+	 { "ImageDownload_ImageDownloadEventUnsubscribe", _wrap_ImageDownload_ImageDownloadEventUnsubscribe, METH_VARARGS, "ImageDownload_ImageDownloadEventUnsubscribe(ImageDownload self, int const message, IEventHandler handler)"},
+	 { "delete_ImageDownload", _wrap_delete_ImageDownload, METH_O, "delete_ImageDownload(ImageDownload self)"},
 	 { "ImageDownload_swigregister", ImageDownload_swigregister, METH_O, NULL},
 	 { "ImageDownload_swiginit", ImageDownload_swiginit, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_rpts_set", _wrap_ImagePlayerConfiguration_rpts_set, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_rpts_get", _wrap_ImagePlayerConfiguration_rpts_get, METH_O, NULL},
-	 { "ImagePlayerConfiguration_n_rpts_set", _wrap_ImagePlayerConfiguration_n_rpts_set, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_n_rpts_get", _wrap_ImagePlayerConfiguration_n_rpts_get, METH_O, NULL},
-	 { "ImagePlayerConfiguration_clk_pol_set", _wrap_ImagePlayerConfiguration_clk_pol_set, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_clk_pol_get", _wrap_ImagePlayerConfiguration_clk_pol_get, METH_O, NULL},
-	 { "ImagePlayerConfiguration_trig_pol_set", _wrap_ImagePlayerConfiguration_trig_pol_set, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_trig_pol_get", _wrap_ImagePlayerConfiguration_trig_pol_get, METH_O, NULL},
-	 { "ImagePlayerConfiguration_delay_set", _wrap_ImagePlayerConfiguration_delay_set, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_delay_get", _wrap_ImagePlayerConfiguration_delay_get, METH_O, NULL},
-	 { "ImagePlayerConfiguration_get_int_ext", _wrap_ImagePlayerConfiguration_get_int_ext, METH_O, NULL},
-	 { "ImagePlayerConfiguration_set_int_ext", _wrap_ImagePlayerConfiguration_set_int_ext, METH_VARARGS, NULL},
-	 { "ImagePlayerConfiguration_get_trig", _wrap_ImagePlayerConfiguration_get_trig, METH_O, NULL},
-	 { "ImagePlayerConfiguration_set_trig", _wrap_ImagePlayerConfiguration_set_trig, METH_VARARGS, NULL},
-	 { "new_ImagePlayerConfiguration", _wrap_new_ImagePlayerConfiguration, METH_VARARGS, NULL},
-	 { "delete_ImagePlayerConfiguration", _wrap_delete_ImagePlayerConfiguration, METH_O, NULL},
+	 { "ImagePlayerConfiguration_rpts_set", _wrap_ImagePlayerConfiguration_rpts_set, METH_VARARGS, "ImagePlayerConfiguration_rpts_set(ImagePlayerConfiguration self, iMS::ImageRepeats rpts)"},
+	 { "ImagePlayerConfiguration_rpts_get", _wrap_ImagePlayerConfiguration_rpts_get, METH_O, "ImagePlayerConfiguration_rpts_get(ImagePlayerConfiguration self) -> iMS::ImageRepeats"},
+	 { "ImagePlayerConfiguration_n_rpts_set", _wrap_ImagePlayerConfiguration_n_rpts_set, METH_VARARGS, "ImagePlayerConfiguration_n_rpts_set(ImagePlayerConfiguration self, int n_rpts)"},
+	 { "ImagePlayerConfiguration_n_rpts_get", _wrap_ImagePlayerConfiguration_n_rpts_get, METH_O, "ImagePlayerConfiguration_n_rpts_get(ImagePlayerConfiguration self) -> int"},
+	 { "ImagePlayerConfiguration_clk_pol_set", _wrap_ImagePlayerConfiguration_clk_pol_set, METH_VARARGS, "ImagePlayerConfiguration_clk_pol_set(ImagePlayerConfiguration self, Polarity clk_pol)"},
+	 { "ImagePlayerConfiguration_clk_pol_get", _wrap_ImagePlayerConfiguration_clk_pol_get, METH_O, "ImagePlayerConfiguration_clk_pol_get(ImagePlayerConfiguration self) -> Polarity"},
+	 { "ImagePlayerConfiguration_trig_pol_set", _wrap_ImagePlayerConfiguration_trig_pol_set, METH_VARARGS, "ImagePlayerConfiguration_trig_pol_set(ImagePlayerConfiguration self, Polarity trig_pol)"},
+	 { "ImagePlayerConfiguration_trig_pol_get", _wrap_ImagePlayerConfiguration_trig_pol_get, METH_O, "ImagePlayerConfiguration_trig_pol_get(ImagePlayerConfiguration self) -> Polarity"},
+	 { "ImagePlayerConfiguration_delay_set", _wrap_ImagePlayerConfiguration_delay_set, METH_VARARGS, "ImagePlayerConfiguration_delay_set(ImagePlayerConfiguration self, PostDelay delay)"},
+	 { "ImagePlayerConfiguration_delay_get", _wrap_ImagePlayerConfiguration_delay_get, METH_O, "ImagePlayerConfiguration_delay_get(ImagePlayerConfiguration self) -> PostDelay"},
+	 { "ImagePlayerConfiguration_get_int_ext", _wrap_ImagePlayerConfiguration_get_int_ext, METH_O, "ImagePlayerConfiguration_get_int_ext(ImagePlayerConfiguration self) -> iMS::ImagePlayer::PointClock"},
+	 { "ImagePlayerConfiguration_set_int_ext", _wrap_ImagePlayerConfiguration_set_int_ext, METH_VARARGS, "ImagePlayerConfiguration_set_int_ext(ImagePlayerConfiguration self, iMS::ImagePlayer::PointClock clk)"},
+	 { "ImagePlayerConfiguration_get_trig", _wrap_ImagePlayerConfiguration_get_trig, METH_O, "ImagePlayerConfiguration_get_trig(ImagePlayerConfiguration self) -> iMS::ImagePlayer::ImageTrigger"},
+	 { "ImagePlayerConfiguration_set_trig", _wrap_ImagePlayerConfiguration_set_trig, METH_VARARGS, "ImagePlayerConfiguration_set_trig(ImagePlayerConfiguration self, iMS::ImagePlayer::ImageTrigger trig_)"},
+	 { "new_ImagePlayerConfiguration", _wrap_new_ImagePlayerConfiguration, METH_VARARGS, "\n"
+		"ImagePlayerConfiguration()\n"
+		"ImagePlayerConfiguration(ImagePlayer::PointClock c)\n"
+		"ImagePlayerConfiguration(ImagePlayer::PointClock c, ImagePlayer::ImageTrigger t)\n"
+		"ImagePlayerConfiguration(ImagePlayer::PointClock c, UnitIntDuration d)\n"
+		"ImagePlayerConfiguration(ImagePlayer::PointClock c, UnitIntDuration d, iMS::ImageRepeats r, int n_rpts)\n"
+		"ImagePlayerConfiguration(iMS::ImageRepeats r)\n"
+		"new_ImagePlayerConfiguration(iMS::ImageRepeats r, int n_rpts) -> ImagePlayerConfiguration\n"
+		""},
+	 { "delete_ImagePlayerConfiguration", _wrap_delete_ImagePlayerConfiguration, METH_O, "delete_ImagePlayerConfiguration(ImagePlayerConfiguration self)"},
 	 { "ImagePlayerConfiguration_swigregister", ImagePlayerConfiguration_swigregister, METH_O, NULL},
 	 { "ImagePlayerConfiguration_swiginit", ImagePlayerConfiguration_swiginit, METH_VARARGS, NULL},
-	 { "new_ImagePlayer", _wrap_new_ImagePlayer, METH_VARARGS, NULL},
-	 { "ImagePlayer_Play", _wrap_ImagePlayer_Play, METH_VARARGS, NULL},
-	 { "ImagePlayer_GetProgress", _wrap_ImagePlayer_GetProgress, METH_O, NULL},
-	 { "ImagePlayer_Stop", _wrap_ImagePlayer_Stop, METH_VARARGS, NULL},
-	 { "ImagePlayer_SetPostDelay", _wrap_ImagePlayer_SetPostDelay, METH_VARARGS, NULL},
-	 { "ImagePlayer_ImagePlayerEventSubscribe", _wrap_ImagePlayer_ImagePlayerEventSubscribe, METH_VARARGS, NULL},
-	 { "ImagePlayer_ImagePlayerEventUnsubscribe", _wrap_ImagePlayer_ImagePlayerEventUnsubscribe, METH_VARARGS, NULL},
-	 { "ImagePlayer_get_cfg", _wrap_ImagePlayer_get_cfg, METH_O, NULL},
-	 { "ImagePlayer_set_cfg", _wrap_ImagePlayer_set_cfg, METH_VARARGS, NULL},
-	 { "delete_ImagePlayer", _wrap_delete_ImagePlayer, METH_O, NULL},
+	 { "new_ImagePlayer", _wrap_new_ImagePlayer, METH_VARARGS, "\n"
+		"ImagePlayer(std::shared_ptr< iMS::IMSSystem > ims, Image img)\n"
+		"ImagePlayer(std::shared_ptr< iMS::IMSSystem > ims, ImageTableEntry ite, kHz InternalClock)\n"
+		"new_ImagePlayer(std::shared_ptr< iMS::IMSSystem > ims, ImageTableEntry ite, int const ExtClockDivide) -> ImagePlayer\n"
+		""},
+	 { "ImagePlayer_Play", _wrap_ImagePlayer_Play, METH_VARARGS, "\n"
+		"ImagePlayer_Play(ImagePlayer self, iMS::ImagePlayer::ImageTrigger start_trig) -> bool\n"
+		"ImagePlayer_Play(ImagePlayer self) -> bool\n"
+		""},
+	 { "ImagePlayer_GetProgress", _wrap_ImagePlayer_GetProgress, METH_O, "ImagePlayer_GetProgress(ImagePlayer self) -> bool"},
+	 { "ImagePlayer_Stop", _wrap_ImagePlayer_Stop, METH_VARARGS, "\n"
+		"ImagePlayer_Stop(ImagePlayer self, iMS::ImagePlayer::StopStyle stop) -> bool\n"
+		"ImagePlayer_Stop(ImagePlayer self) -> bool\n"
+		""},
+	 { "ImagePlayer_SetPostDelay", _wrap_ImagePlayer_SetPostDelay, METH_VARARGS, "ImagePlayer_SetPostDelay(ImagePlayer self, UnitFloatDuration dly)"},
+	 { "ImagePlayer_ImagePlayerEventSubscribe", _wrap_ImagePlayer_ImagePlayerEventSubscribe, METH_VARARGS, "ImagePlayer_ImagePlayerEventSubscribe(ImagePlayer self, int const message, IEventHandler handler)"},
+	 { "ImagePlayer_ImagePlayerEventUnsubscribe", _wrap_ImagePlayer_ImagePlayerEventUnsubscribe, METH_VARARGS, "ImagePlayer_ImagePlayerEventUnsubscribe(ImagePlayer self, int const message, IEventHandler handler)"},
+	 { "ImagePlayer_get_cfg", _wrap_ImagePlayer_get_cfg, METH_O, "ImagePlayer_get_cfg(ImagePlayer self) -> ImagePlayerConfiguration"},
+	 { "ImagePlayer_set_cfg", _wrap_ImagePlayer_set_cfg, METH_VARARGS, "ImagePlayer_set_cfg(ImagePlayer self, ImagePlayerConfiguration py)"},
+	 { "delete_ImagePlayer", _wrap_delete_ImagePlayer, METH_O, "delete_ImagePlayer(ImagePlayer self)"},
 	 { "ImagePlayer_swigregister", ImagePlayer_swigregister, METH_O, NULL},
 	 { "ImagePlayer_swiginit", ImagePlayer_swiginit, METH_VARARGS, NULL},
-	 { "ImageTableViewer___getitem__", _wrap_ImageTableViewer___getitem__, METH_VARARGS, NULL},
-	 { "ImageTableViewer___len__", _wrap_ImageTableViewer___len__, METH_O, NULL},
-	 { "ImageTableViewer___bool__", _wrap_ImageTableViewer___bool__, METH_O, NULL},
-	 { "new_ImageTableViewer", _wrap_new_ImageTableViewer, METH_O, NULL},
-	 { "ImageTableViewer_Entries", _wrap_ImageTableViewer_Entries, METH_O, NULL},
-	 { "ImageTableViewer_Erase", _wrap_ImageTableViewer_Erase, METH_VARARGS, NULL},
-	 { "ImageTableViewer_Clear", _wrap_ImageTableViewer_Clear, METH_O, NULL},
-	 { "delete_ImageTableViewer", _wrap_delete_ImageTableViewer, METH_O, NULL},
+	 { "ImageTableViewer___getitem__", _wrap_ImageTableViewer___getitem__, METH_VARARGS, "ImageTableViewer___getitem__(ImageTableViewer self, size_t i) -> ImageTableEntry"},
+	 { "ImageTableViewer___len__", _wrap_ImageTableViewer___len__, METH_O, "ImageTableViewer___len__(ImageTableViewer self) -> size_t"},
+	 { "ImageTableViewer___bool__", _wrap_ImageTableViewer___bool__, METH_O, "ImageTableViewer___bool__(ImageTableViewer self) -> bool"},
+	 { "new_ImageTableViewer", _wrap_new_ImageTableViewer, METH_O, "new_ImageTableViewer(std::shared_ptr< iMS::IMSSystem > ims) -> ImageTableViewer"},
+	 { "ImageTableViewer_Entries", _wrap_ImageTableViewer_Entries, METH_O, "ImageTableViewer_Entries(ImageTableViewer self) -> int const"},
+	 { "ImageTableViewer_Erase", _wrap_ImageTableViewer_Erase, METH_VARARGS, "\n"
+		"ImageTableViewer_Erase(ImageTableViewer self, std::size_t const idx) -> bool\n"
+		"ImageTableViewer_Erase(ImageTableViewer self, ImageTableEntry ite) -> bool\n"
+		""},
+	 { "ImageTableViewer_Clear", _wrap_ImageTableViewer_Clear, METH_O, "ImageTableViewer_Clear(ImageTableViewer self) -> bool"},
+	 { "delete_ImageTableViewer", _wrap_delete_ImageTableViewer, METH_O, "delete_ImageTableViewer(ImageTableViewer self)"},
 	 { "ImageTableViewer_swigregister", ImageTableViewer_swigregister, METH_O, NULL},
 	 { "ImageTableViewer_swiginit", ImageTableViewer_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationPoint", _wrap_new_CompensationPoint, METH_VARARGS, NULL},
-	 { "CompensationPoint_Amplitude_set", _wrap_CompensationPoint_Amplitude_set, METH_VARARGS, NULL},
-	 { "CompensationPoint_Amplitude_get", _wrap_CompensationPoint_Amplitude_get, METH_O, NULL},
-	 { "CompensationPoint_Phase_set", _wrap_CompensationPoint_Phase_set, METH_VARARGS, NULL},
-	 { "CompensationPoint_Phase_get", _wrap_CompensationPoint_Phase_get, METH_O, NULL},
-	 { "CompensationPoint_SyncDig_set", _wrap_CompensationPoint_SyncDig_set, METH_VARARGS, NULL},
-	 { "CompensationPoint_SyncDig_get", _wrap_CompensationPoint_SyncDig_get, METH_O, NULL},
-	 { "CompensationPoint_SyncAnlg_set", _wrap_CompensationPoint_SyncAnlg_set, METH_VARARGS, NULL},
-	 { "CompensationPoint_SyncAnlg_get", _wrap_CompensationPoint_SyncAnlg_get, METH_O, NULL},
-	 { "delete_CompensationPoint", _wrap_delete_CompensationPoint, METH_O, NULL},
+	 { "new_CompensationPoint", _wrap_new_CompensationPoint, METH_VARARGS, "\n"
+		"CompensationPoint(Percent ampl=iMS::Percent(0.0), Degrees phase=iMS::Degrees(0.0), unsigned int sync_dig=0, double sync_anlg=0.0)\n"
+		"CompensationPoint(Degrees phase, unsigned int sync_dig=0, double sync_anlg=0.0)\n"
+		"CompensationPoint(unsigned int sync_dig, double sync_anlg=0.0)\n"
+		"new_CompensationPoint(double sync_anlg) -> CompensationPoint\n"
+		""},
+	 { "CompensationPoint_Amplitude_set", _wrap_CompensationPoint_Amplitude_set, METH_VARARGS, "CompensationPoint_Amplitude_set(CompensationPoint self, Percent Amplitude)"},
+	 { "CompensationPoint_Amplitude_get", _wrap_CompensationPoint_Amplitude_get, METH_O, "CompensationPoint_Amplitude_get(CompensationPoint self) -> Percent"},
+	 { "CompensationPoint_Phase_set", _wrap_CompensationPoint_Phase_set, METH_VARARGS, "CompensationPoint_Phase_set(CompensationPoint self, Degrees Phase)"},
+	 { "CompensationPoint_Phase_get", _wrap_CompensationPoint_Phase_get, METH_O, "CompensationPoint_Phase_get(CompensationPoint self) -> Degrees"},
+	 { "CompensationPoint_SyncDig_set", _wrap_CompensationPoint_SyncDig_set, METH_VARARGS, "CompensationPoint_SyncDig_set(CompensationPoint self, uint32_t SyncDig)"},
+	 { "CompensationPoint_SyncDig_get", _wrap_CompensationPoint_SyncDig_get, METH_O, "CompensationPoint_SyncDig_get(CompensationPoint self) -> uint32_t"},
+	 { "CompensationPoint_SyncAnlg_set", _wrap_CompensationPoint_SyncAnlg_set, METH_VARARGS, "CompensationPoint_SyncAnlg_set(CompensationPoint self, double SyncAnlg)"},
+	 { "CompensationPoint_SyncAnlg_get", _wrap_CompensationPoint_SyncAnlg_get, METH_O, "CompensationPoint_SyncAnlg_get(CompensationPoint self) -> double"},
+	 { "delete_CompensationPoint", _wrap_delete_CompensationPoint, METH_O, "delete_CompensationPoint(CompensationPoint self)"},
 	 { "CompensationPoint_swigregister", CompensationPoint_swigregister, METH_O, NULL},
 	 { "CompensationPoint_swiginit", CompensationPoint_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationPointSpecification", _wrap_new_CompensationPointSpecification, METH_VARARGS, NULL},
-	 { "CompensationPointSpecification_Freq_set", _wrap_CompensationPointSpecification_Freq_set, METH_VARARGS, NULL},
-	 { "CompensationPointSpecification_Freq_get", _wrap_CompensationPointSpecification_Freq_get, METH_O, NULL},
-	 { "CompensationPointSpecification_Spec_get", _wrap_CompensationPointSpecification_Spec_get, METH_O, NULL},
-	 { "delete_CompensationPointSpecification", _wrap_delete_CompensationPointSpecification, METH_O, NULL},
+	 { "new_CompensationPointSpecification", _wrap_new_CompensationPointSpecification, METH_VARARGS, "\n"
+		"CompensationPointSpecification(CompensationPoint pt=iMS::CompensationPoint(), MHz f=50.0)\n"
+		"new_CompensationPointSpecification(CompensationPointSpecification arg1) -> CompensationPointSpecification\n"
+		""},
+	 { "CompensationPointSpecification_Freq_set", _wrap_CompensationPointSpecification_Freq_set, METH_VARARGS, "CompensationPointSpecification_Freq_set(CompensationPointSpecification self, MHz Freq)"},
+	 { "CompensationPointSpecification_Freq_get", _wrap_CompensationPointSpecification_Freq_get, METH_O, "CompensationPointSpecification_Freq_get(CompensationPointSpecification self) -> MHz"},
+	 { "CompensationPointSpecification_Spec_get", _wrap_CompensationPointSpecification_Spec_get, METH_O, "CompensationPointSpecification_Spec_get(CompensationPointSpecification self) -> CompensationPoint"},
+	 { "delete_CompensationPointSpecification", _wrap_delete_CompensationPointSpecification, METH_O, "delete_CompensationPointSpecification(CompensationPointSpecification self)"},
 	 { "CompensationPointSpecification_swigregister", CompensationPointSpecification_swigregister, METH_O, NULL},
 	 { "CompensationPointSpecification_swiginit", CompensationPointSpecification_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationFunction", _wrap_new_CompensationFunction, METH_VARARGS, NULL},
-	 { "CompensationFunction_AmplitudeInterpolationStyle_set", _wrap_CompensationFunction_AmplitudeInterpolationStyle_set, METH_VARARGS, NULL},
-	 { "CompensationFunction_AmplitudeInterpolationStyle_get", _wrap_CompensationFunction_AmplitudeInterpolationStyle_get, METH_O, NULL},
-	 { "CompensationFunction_PhaseInterpolationStyle_set", _wrap_CompensationFunction_PhaseInterpolationStyle_set, METH_VARARGS, NULL},
-	 { "CompensationFunction_PhaseInterpolationStyle_get", _wrap_CompensationFunction_PhaseInterpolationStyle_get, METH_O, NULL},
-	 { "CompensationFunction_SyncAnlgInterpolationStyle_set", _wrap_CompensationFunction_SyncAnlgInterpolationStyle_set, METH_VARARGS, NULL},
-	 { "CompensationFunction_SyncAnlgInterpolationStyle_get", _wrap_CompensationFunction_SyncAnlgInterpolationStyle_get, METH_O, NULL},
-	 { "CompensationFunction_SyncDigInterpolationStyle_set", _wrap_CompensationFunction_SyncDigInterpolationStyle_set, METH_VARARGS, NULL},
-	 { "CompensationFunction_SyncDigInterpolationStyle_get", _wrap_CompensationFunction_SyncDigInterpolationStyle_get, METH_O, NULL},
-	 { "delete_CompensationFunction", _wrap_delete_CompensationFunction, METH_O, NULL},
+	 { "new_CompensationFunction", _wrap_new_CompensationFunction, METH_VARARGS, "\n"
+		"CompensationFunction()\n"
+		"new_CompensationFunction(CompensationFunction arg1) -> CompensationFunction\n"
+		""},
+	 { "CompensationFunction_AmplitudeInterpolationStyle_set", _wrap_CompensationFunction_AmplitudeInterpolationStyle_set, METH_VARARGS, "CompensationFunction_AmplitudeInterpolationStyle_set(CompensationFunction self, iMS::CompensationFunction::InterpolationStyle AmplitudeInterpolationStyle)"},
+	 { "CompensationFunction_AmplitudeInterpolationStyle_get", _wrap_CompensationFunction_AmplitudeInterpolationStyle_get, METH_O, "CompensationFunction_AmplitudeInterpolationStyle_get(CompensationFunction self) -> iMS::CompensationFunction::InterpolationStyle"},
+	 { "CompensationFunction_PhaseInterpolationStyle_set", _wrap_CompensationFunction_PhaseInterpolationStyle_set, METH_VARARGS, "CompensationFunction_PhaseInterpolationStyle_set(CompensationFunction self, iMS::CompensationFunction::InterpolationStyle PhaseInterpolationStyle)"},
+	 { "CompensationFunction_PhaseInterpolationStyle_get", _wrap_CompensationFunction_PhaseInterpolationStyle_get, METH_O, "CompensationFunction_PhaseInterpolationStyle_get(CompensationFunction self) -> iMS::CompensationFunction::InterpolationStyle"},
+	 { "CompensationFunction_SyncAnlgInterpolationStyle_set", _wrap_CompensationFunction_SyncAnlgInterpolationStyle_set, METH_VARARGS, "CompensationFunction_SyncAnlgInterpolationStyle_set(CompensationFunction self, iMS::CompensationFunction::InterpolationStyle SyncAnlgInterpolationStyle)"},
+	 { "CompensationFunction_SyncAnlgInterpolationStyle_get", _wrap_CompensationFunction_SyncAnlgInterpolationStyle_get, METH_O, "CompensationFunction_SyncAnlgInterpolationStyle_get(CompensationFunction self) -> iMS::CompensationFunction::InterpolationStyle"},
+	 { "CompensationFunction_SyncDigInterpolationStyle_set", _wrap_CompensationFunction_SyncDigInterpolationStyle_set, METH_VARARGS, "CompensationFunction_SyncDigInterpolationStyle_set(CompensationFunction self, iMS::CompensationFunction::InterpolationStyle SyncDigInterpolationStyle)"},
+	 { "CompensationFunction_SyncDigInterpolationStyle_get", _wrap_CompensationFunction_SyncDigInterpolationStyle_get, METH_O, "CompensationFunction_SyncDigInterpolationStyle_get(CompensationFunction self) -> iMS::CompensationFunction::InterpolationStyle"},
+	 { "delete_CompensationFunction", _wrap_delete_CompensationFunction, METH_O, "delete_CompensationFunction(CompensationFunction self)"},
 	 { "CompensationFunction_swigregister", CompensationFunction_swigregister, METH_O, NULL},
 	 { "CompensationFunction_swiginit", CompensationFunction_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationTable", _wrap_new_CompensationTable, METH_VARARGS, NULL},
-	 { "CompensationTable_assign", _wrap_CompensationTable_assign, METH_VARARGS, NULL},
-	 { "CompensationTable_ApplyFunction", _wrap_CompensationTable_ApplyFunction, METH_VARARGS, NULL},
-	 { "CompensationTable_Size", _wrap_CompensationTable_Size, METH_O, NULL},
-	 { "CompensationTable_FrequencyAt", _wrap_CompensationTable_FrequencyAt, METH_VARARGS, NULL},
-	 { "CompensationTable_Save", _wrap_CompensationTable_Save, METH_VARARGS, NULL},
-	 { "CompensationTable_Upper_get", _wrap_CompensationTable_Upper_get, METH_O, NULL},
-	 { "CompensationTable_Lower_get", _wrap_CompensationTable_Lower_get, METH_O, NULL},
-	 { "delete_CompensationTable", _wrap_delete_CompensationTable, METH_O, NULL},
+	 { "new_CompensationTable", _wrap_new_CompensationTable, METH_VARARGS, "\n"
+		"CompensationTable()\n"
+		"CompensationTable(std::shared_ptr< iMS::IMSSystem > iMS)\n"
+		"CompensationTable(int LUTDepth, MHz lower_freq, MHz upper_freq)\n"
+		"CompensationTable(std::shared_ptr< iMS::IMSSystem > iMS, CompensationPoint pt)\n"
+		"CompensationTable(int LUTDepth, MHz lower_freq, MHz upper_freq, CompensationPoint pt)\n"
+		"CompensationTable(std::shared_ptr< iMS::IMSSystem > iMS, std::string const & fileName, RFChannel chan=all)\n"
+		"CompensationTable(int LUTDepth, MHz lower_freq, MHz upper_freq, std::string const & fileNamee, RFChannel chan=all)\n"
+		"CompensationTable(std::shared_ptr< iMS::IMSSystem > iMS, int const entry)\n"
+		"CompensationTable(std::shared_ptr< iMS::IMSSystem > iMS, CompensationTable tbl)\n"
+		"CompensationTable(int LUTDepth, MHz lower_freq, MHz upper_freq, CompensationTable tbl)\n"
+		"new_CompensationTable(CompensationTable arg1) -> CompensationTable\n"
+		""},
+	 { "CompensationTable_assign", _wrap_CompensationTable_assign, METH_VARARGS, "CompensationTable_assign(CompensationTable self, CompensationTable arg2) -> CompensationTable"},
+	 { "CompensationTable_ApplyFunction", _wrap_CompensationTable_ApplyFunction, METH_VARARGS, "CompensationTable_ApplyFunction(CompensationTable self, CompensationFunction func, iMS::CompensationFeature const feat, iMS::CompensationModifier modifier=REPLACE) -> bool"},
+	 { "CompensationTable_Size", _wrap_CompensationTable_Size, METH_O, "CompensationTable_Size(CompensationTable self) -> std::size_t const"},
+	 { "CompensationTable_FrequencyAt", _wrap_CompensationTable_FrequencyAt, METH_VARARGS, "CompensationTable_FrequencyAt(CompensationTable self, unsigned int const index) -> MHz"},
+	 { "CompensationTable_Save", _wrap_CompensationTable_Save, METH_VARARGS, "CompensationTable_Save(CompensationTable self, std::string const & fileName) -> bool const"},
+	 { "CompensationTable_Upper_get", _wrap_CompensationTable_Upper_get, METH_O, "CompensationTable_Upper_get(CompensationTable self) -> MHz"},
+	 { "CompensationTable_Lower_get", _wrap_CompensationTable_Lower_get, METH_O, "CompensationTable_Lower_get(CompensationTable self) -> MHz"},
+	 { "delete_CompensationTable", _wrap_delete_CompensationTable, METH_O, "delete_CompensationTable(CompensationTable self)"},
 	 { "CompensationTable_swigregister", CompensationTable_swigregister, METH_O, NULL},
 	 { "CompensationTable_swiginit", CompensationTable_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationTableExporter", _wrap_new_CompensationTableExporter, METH_VARARGS, NULL},
-	 { "CompensationTableExporter_ProvideGlobalTable", _wrap_CompensationTableExporter_ProvideGlobalTable, METH_VARARGS, NULL},
-	 { "CompensationTableExporter_ProvideChannelTable", _wrap_CompensationTableExporter_ProvideChannelTable, METH_VARARGS, NULL},
-	 { "CompensationTableExporter_ExportGlobalLUT", _wrap_CompensationTableExporter_ExportGlobalLUT, METH_VARARGS, NULL},
-	 { "CompensationTableExporter_ExportChannelLUT", _wrap_CompensationTableExporter_ExportChannelLUT, METH_VARARGS, NULL},
-	 { "delete_CompensationTableExporter", _wrap_delete_CompensationTableExporter, METH_O, NULL},
+	 { "new_CompensationTableExporter", _wrap_new_CompensationTableExporter, METH_VARARGS, "\n"
+		"CompensationTableExporter(std::shared_ptr< iMS::IMSSystem > ims)\n"
+		"CompensationTableExporter(int const channels)\n"
+		"CompensationTableExporter()\n"
+		"new_CompensationTableExporter(CompensationTable tbl) -> CompensationTableExporter\n"
+		""},
+	 { "CompensationTableExporter_ProvideGlobalTable", _wrap_CompensationTableExporter_ProvideGlobalTable, METH_VARARGS, "CompensationTableExporter_ProvideGlobalTable(CompensationTableExporter self, CompensationTable tbl)"},
+	 { "CompensationTableExporter_ProvideChannelTable", _wrap_CompensationTableExporter_ProvideChannelTable, METH_VARARGS, "CompensationTableExporter_ProvideChannelTable(CompensationTableExporter self, RFChannel chan, CompensationTable tbl)"},
+	 { "CompensationTableExporter_ExportGlobalLUT", _wrap_CompensationTableExporter_ExportGlobalLUT, METH_VARARGS, "CompensationTableExporter_ExportGlobalLUT(CompensationTableExporter self, std::string const & fileName) -> bool"},
+	 { "CompensationTableExporter_ExportChannelLUT", _wrap_CompensationTableExporter_ExportChannelLUT, METH_VARARGS, "CompensationTableExporter_ExportChannelLUT(CompensationTableExporter self, std::string const & fileName) -> bool"},
+	 { "delete_CompensationTableExporter", _wrap_delete_CompensationTableExporter, METH_O, "delete_CompensationTableExporter(CompensationTableExporter self)"},
 	 { "CompensationTableExporter_swigregister", CompensationTableExporter_swigregister, METH_O, NULL},
 	 { "CompensationTableExporter_swiginit", CompensationTableExporter_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationTableImporter", _wrap_new_CompensationTableImporter, METH_O, NULL},
-	 { "CompensationTableImporter_IsValid", _wrap_CompensationTableImporter_IsValid, METH_O, NULL},
-	 { "CompensationTableImporter_IsGlobal", _wrap_CompensationTableImporter_IsGlobal, METH_O, NULL},
-	 { "CompensationTableImporter_Channels", _wrap_CompensationTableImporter_Channels, METH_O, NULL},
-	 { "CompensationTableImporter_RetrieveGlobalLUT", _wrap_CompensationTableImporter_RetrieveGlobalLUT, METH_O, NULL},
-	 { "CompensationTableImporter_RetrieveChannelLUT", _wrap_CompensationTableImporter_RetrieveChannelLUT, METH_VARARGS, NULL},
-	 { "CompensationTableImporter_Size_get", _wrap_CompensationTableImporter_Size_get, METH_O, NULL},
-	 { "CompensationTableImporter_LowerFrequency_get", _wrap_CompensationTableImporter_LowerFrequency_get, METH_O, NULL},
-	 { "CompensationTableImporter_UpperFrequency_get", _wrap_CompensationTableImporter_UpperFrequency_get, METH_O, NULL},
-	 { "delete_CompensationTableImporter", _wrap_delete_CompensationTableImporter, METH_O, NULL},
+	 { "new_CompensationTableImporter", _wrap_new_CompensationTableImporter, METH_O, "new_CompensationTableImporter(std::string const & fileName) -> CompensationTableImporter"},
+	 { "CompensationTableImporter_IsValid", _wrap_CompensationTableImporter_IsValid, METH_O, "CompensationTableImporter_IsValid(CompensationTableImporter self) -> bool"},
+	 { "CompensationTableImporter_IsGlobal", _wrap_CompensationTableImporter_IsGlobal, METH_O, "CompensationTableImporter_IsGlobal(CompensationTableImporter self) -> bool"},
+	 { "CompensationTableImporter_Channels", _wrap_CompensationTableImporter_Channels, METH_O, "CompensationTableImporter_Channels(CompensationTableImporter self) -> int"},
+	 { "CompensationTableImporter_RetrieveGlobalLUT", _wrap_CompensationTableImporter_RetrieveGlobalLUT, METH_O, "CompensationTableImporter_RetrieveGlobalLUT(CompensationTableImporter self) -> CompensationTable"},
+	 { "CompensationTableImporter_RetrieveChannelLUT", _wrap_CompensationTableImporter_RetrieveChannelLUT, METH_VARARGS, "CompensationTableImporter_RetrieveChannelLUT(CompensationTableImporter self, RFChannel chan) -> CompensationTable"},
+	 { "CompensationTableImporter_Size_get", _wrap_CompensationTableImporter_Size_get, METH_O, "CompensationTableImporter_Size_get(CompensationTableImporter self) -> int"},
+	 { "CompensationTableImporter_LowerFrequency_get", _wrap_CompensationTableImporter_LowerFrequency_get, METH_O, "CompensationTableImporter_LowerFrequency_get(CompensationTableImporter self) -> MHz"},
+	 { "CompensationTableImporter_UpperFrequency_get", _wrap_CompensationTableImporter_UpperFrequency_get, METH_O, "CompensationTableImporter_UpperFrequency_get(CompensationTableImporter self) -> MHz"},
+	 { "delete_CompensationTableImporter", _wrap_delete_CompensationTableImporter, METH_O, "delete_CompensationTableImporter(CompensationTableImporter self)"},
 	 { "CompensationTableImporter_swigregister", CompensationTableImporter_swigregister, METH_O, NULL},
 	 { "CompensationTableImporter_swiginit", CompensationTableImporter_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationTableDownload", _wrap_new_CompensationTableDownload, METH_VARARGS, NULL},
-	 { "CompensationTableDownload_StartDownload", _wrap_CompensationTableDownload_StartDownload, METH_O, NULL},
-	 { "CompensationTableDownload_StartVerify", _wrap_CompensationTableDownload_StartVerify, METH_O, NULL},
-	 { "CompensationTableDownload_GetVerifyError", _wrap_CompensationTableDownload_GetVerifyError, METH_O, NULL},
-	 { "CompensationTableDownload_CompensationTableDownloadEventSubscribe", _wrap_CompensationTableDownload_CompensationTableDownloadEventSubscribe, METH_VARARGS, NULL},
-	 { "CompensationTableDownload_CompensationTableDownloadEventUnsubscribe", _wrap_CompensationTableDownload_CompensationTableDownloadEventUnsubscribe, METH_VARARGS, NULL},
-	 { "CompensationTableDownload_Store", _wrap_CompensationTableDownload_Store, METH_VARARGS, NULL},
-	 { "delete_CompensationTableDownload", _wrap_delete_CompensationTableDownload, METH_O, NULL},
+	 { "new_CompensationTableDownload", _wrap_new_CompensationTableDownload, METH_VARARGS, "new_CompensationTableDownload(std::shared_ptr< iMS::IMSSystem > ims, CompensationTable tbl) -> CompensationTableDownload"},
+	 { "CompensationTableDownload_StartDownload", _wrap_CompensationTableDownload_StartDownload, METH_O, "CompensationTableDownload_StartDownload(CompensationTableDownload self) -> bool"},
+	 { "CompensationTableDownload_StartVerify", _wrap_CompensationTableDownload_StartVerify, METH_O, "CompensationTableDownload_StartVerify(CompensationTableDownload self) -> bool"},
+	 { "CompensationTableDownload_GetVerifyError", _wrap_CompensationTableDownload_GetVerifyError, METH_O, "CompensationTableDownload_GetVerifyError(CompensationTableDownload self) -> int"},
+	 { "CompensationTableDownload_CompensationTableDownloadEventSubscribe", _wrap_CompensationTableDownload_CompensationTableDownloadEventSubscribe, METH_VARARGS, "CompensationTableDownload_CompensationTableDownloadEventSubscribe(CompensationTableDownload self, int const message, IEventHandler handler)"},
+	 { "CompensationTableDownload_CompensationTableDownloadEventUnsubscribe", _wrap_CompensationTableDownload_CompensationTableDownloadEventUnsubscribe, METH_VARARGS, "CompensationTableDownload_CompensationTableDownloadEventUnsubscribe(CompensationTableDownload self, int const message, IEventHandler handler)"},
+	 { "CompensationTableDownload_Store", _wrap_CompensationTableDownload_Store, METH_VARARGS, "CompensationTableDownload_Store(CompensationTableDownload self, iMS::FileDefault _def, std::string const & FileName) -> iMS::FileSystemIndex const"},
+	 { "delete_CompensationTableDownload", _wrap_delete_CompensationTableDownload, METH_O, "delete_CompensationTableDownload(CompensationTableDownload self)"},
 	 { "CompensationTableDownload_swigregister", CompensationTableDownload_swigregister, METH_O, NULL},
 	 { "CompensationTableDownload_swiginit", CompensationTableDownload_swiginit, METH_VARARGS, NULL},
-	 { "new_ToneBuffer", _wrap_new_ToneBuffer, METH_VARARGS, NULL},
-	 { "ToneBuffer___eq__", _wrap_ToneBuffer___eq__, METH_VARARGS, NULL},
-	 { "ToneBuffer_Size", _wrap_ToneBuffer_Size, METH_O, NULL},
-	 { "ToneBuffer_Name_set", _wrap_ToneBuffer_Name_set, METH_VARARGS, NULL},
-	 { "ToneBuffer_Name_get", _wrap_ToneBuffer_Name_get, METH_O, NULL},
-	 { "ToneBuffer_GetUUID_get", _wrap_ToneBuffer_GetUUID_get, METH_O, NULL},
-	 { "ToneBuffer__getitem", _wrap_ToneBuffer__getitem, METH_VARARGS, NULL},
-	 { "ToneBuffer___setitem__", _wrap_ToneBuffer___setitem__, METH_VARARGS, NULL},
-	 { "ToneBuffer___len__", _wrap_ToneBuffer___len__, METH_O, NULL},
-	 { "delete_ToneBuffer", _wrap_delete_ToneBuffer, METH_O, NULL},
+	 { "new_ToneBuffer", _wrap_new_ToneBuffer, METH_VARARGS, "\n"
+		"ToneBuffer(std::string const & name=\"\")\n"
+		"ToneBuffer(ImagePoint tbe, std::string const & name=\"\")\n"
+		"ToneBuffer(int const entry, std::string const & name=\"\")\n"
+		"new_ToneBuffer(ToneBuffer arg1) -> ToneBuffer\n"
+		""},
+	 { "ToneBuffer___eq__", _wrap_ToneBuffer___eq__, METH_VARARGS, "ToneBuffer___eq__(ToneBuffer self, ToneBuffer rhs) -> bool"},
+	 { "ToneBuffer_Size", _wrap_ToneBuffer_Size, METH_O, "ToneBuffer_Size(ToneBuffer self) -> std::size_t const"},
+	 { "ToneBuffer_Name_set", _wrap_ToneBuffer_Name_set, METH_VARARGS, "ToneBuffer_Name_set(ToneBuffer self, std::string const & Name)"},
+	 { "ToneBuffer_Name_get", _wrap_ToneBuffer_Name_get, METH_O, "ToneBuffer_Name_get(ToneBuffer self) -> std::string const &"},
+	 { "ToneBuffer_GetUUID_get", _wrap_ToneBuffer_GetUUID_get, METH_O, "ToneBuffer_GetUUID_get(ToneBuffer self) -> UUID"},
+	 { "ToneBuffer__getitem", _wrap_ToneBuffer__getitem, METH_VARARGS, "ToneBuffer__getitem(ToneBuffer self, size_t i) -> ImagePoint"},
+	 { "ToneBuffer___setitem__", _wrap_ToneBuffer___setitem__, METH_VARARGS, "ToneBuffer___setitem__(ToneBuffer self, size_t i, ImagePoint val)"},
+	 { "ToneBuffer___len__", _wrap_ToneBuffer___len__, METH_O, "ToneBuffer___len__(ToneBuffer self) -> size_t"},
+	 { "delete_ToneBuffer", _wrap_delete_ToneBuffer, METH_O, "delete_ToneBuffer(ToneBuffer self)"},
 	 { "ToneBuffer_swigregister", ToneBuffer_swigregister, METH_O, NULL},
 	 { "ToneBuffer_swiginit", ToneBuffer_swiginit, METH_VARARGS, NULL},
-	 { "new_ToneBufferDownload", _wrap_new_ToneBufferDownload, METH_VARARGS, NULL},
-	 { "ToneBufferDownload_StartDownloadAll", _wrap_ToneBufferDownload_StartDownloadAll, METH_O, NULL},
-	 { "ToneBufferDownload_StartDownloadRange", _wrap_ToneBufferDownload_StartDownloadRange, METH_VARARGS, NULL},
-	 { "ToneBufferDownload_StartDownloadIndex", _wrap_ToneBufferDownload_StartDownloadIndex, METH_VARARGS, NULL},
-	 { "ToneBufferDownload_ToneBufferDownloadEventSubscribe", _wrap_ToneBufferDownload_ToneBufferDownloadEventSubscribe, METH_VARARGS, NULL},
-	 { "ToneBufferDownload_ToneBufferDownloadEventUnsubscribe", _wrap_ToneBufferDownload_ToneBufferDownloadEventUnsubscribe, METH_VARARGS, NULL},
-	 { "ToneBufferDownload_Store", _wrap_ToneBufferDownload_Store, METH_VARARGS, NULL},
-	 { "delete_ToneBufferDownload", _wrap_delete_ToneBufferDownload, METH_O, NULL},
+	 { "new_ToneBufferDownload", _wrap_new_ToneBufferDownload, METH_VARARGS, "new_ToneBufferDownload(std::shared_ptr< iMS::IMSSystem > ims, ToneBuffer tbl) -> ToneBufferDownload"},
+	 { "ToneBufferDownload_StartDownloadAll", _wrap_ToneBufferDownload_StartDownloadAll, METH_O, "ToneBufferDownload_StartDownloadAll(ToneBufferDownload self) -> bool"},
+	 { "ToneBufferDownload_StartDownloadRange", _wrap_ToneBufferDownload_StartDownloadRange, METH_VARARGS, "ToneBufferDownload_StartDownloadRange(ToneBufferDownload self, std::size_t index, std::size_t count) -> bool"},
+	 { "ToneBufferDownload_StartDownloadIndex", _wrap_ToneBufferDownload_StartDownloadIndex, METH_VARARGS, "ToneBufferDownload_StartDownloadIndex(ToneBufferDownload self, std::size_t index) -> bool"},
+	 { "ToneBufferDownload_ToneBufferDownloadEventSubscribe", _wrap_ToneBufferDownload_ToneBufferDownloadEventSubscribe, METH_VARARGS, "ToneBufferDownload_ToneBufferDownloadEventSubscribe(ToneBufferDownload self, int const message, IEventHandler handler)"},
+	 { "ToneBufferDownload_ToneBufferDownloadEventUnsubscribe", _wrap_ToneBufferDownload_ToneBufferDownloadEventUnsubscribe, METH_VARARGS, "ToneBufferDownload_ToneBufferDownloadEventUnsubscribe(ToneBufferDownload self, int const message, IEventHandler handler)"},
+	 { "ToneBufferDownload_Store", _wrap_ToneBufferDownload_Store, METH_VARARGS, "ToneBufferDownload_Store(ToneBufferDownload self, std::string const & FileName, iMS::FileDefault _def=NON_DEFAULT) -> iMS::FileSystemIndex const"},
+	 { "delete_ToneBufferDownload", _wrap_delete_ToneBufferDownload, METH_O, "delete_ToneBufferDownload(ToneBufferDownload self)"},
 	 { "ToneBufferDownload_swigregister", ToneBufferDownload_swigregister, METH_O, NULL},
 	 { "ToneBufferDownload_swiginit", ToneBufferDownload_swiginit, METH_VARARGS, NULL},
-	 { "new_ToneSequenceEntry", _wrap_new_ToneSequenceEntry, METH_VARARGS, NULL},
-	 { "ToneSequenceEntry___eq__", _wrap_ToneSequenceEntry___eq__, METH_VARARGS, NULL},
-	 { "ToneSequenceEntry_ControlSource", _wrap_ToneSequenceEntry_ControlSource, METH_O, NULL},
-	 { "ToneSequenceEntry_InitialIndex", _wrap_ToneSequenceEntry_InitialIndex, METH_O, NULL},
-	 { "delete_ToneSequenceEntry", _wrap_delete_ToneSequenceEntry, METH_O, NULL},
+	 { "new_ToneSequenceEntry", _wrap_new_ToneSequenceEntry, METH_VARARGS, "\n"
+		"ToneSequenceEntry()\n"
+		"ToneSequenceEntry(ToneBuffer tb, iMS::SignalPath::ToneBufferControl tbc=HOST, unsigned int const initial_index=0)\n"
+		"ToneSequenceEntry(ToneSequenceEntry arg1)\n"
+		"new_ToneSequenceEntry(PyObject * _self, SequenceEntry entry) -> ToneSequenceEntry\n"
+		""},
+	 { "ToneSequenceEntry___eq__", _wrap_ToneSequenceEntry___eq__, METH_VARARGS, "ToneSequenceEntry___eq__(ToneSequenceEntry self, SequenceEntry rhs) -> bool"},
+	 { "ToneSequenceEntry_ControlSource", _wrap_ToneSequenceEntry_ControlSource, METH_O, "ToneSequenceEntry_ControlSource(ToneSequenceEntry self) -> iMS::SignalPath::ToneBufferControl"},
+	 { "ToneSequenceEntry_InitialIndex", _wrap_ToneSequenceEntry_InitialIndex, METH_O, "ToneSequenceEntry_InitialIndex(ToneSequenceEntry self) -> int"},
+	 { "delete_ToneSequenceEntry", _wrap_delete_ToneSequenceEntry, METH_O, "delete_ToneSequenceEntry(ToneSequenceEntry self)"},
 	 { "disown_ToneSequenceEntry", _wrap_disown_ToneSequenceEntry, METH_O, NULL},
 	 { "ToneSequenceEntry_swigregister", ToneSequenceEntry_swigregister, METH_O, NULL},
 	 { "ToneSequenceEntry_swiginit", ToneSequenceEntry_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageGroupList", _wrap_new_ImageGroupList, METH_NOARGS, NULL},
-	 { "delete_ImageGroupList", _wrap_delete_ImageGroupList, METH_O, NULL},
+	 { "new_ImageGroupList", _wrap_new_ImageGroupList, METH_NOARGS, "new_ImageGroupList() -> ImageGroupList"},
+	 { "delete_ImageGroupList", _wrap_delete_ImageGroupList, METH_O, "delete_ImageGroupList(ImageGroupList self)"},
 	 { "ImageGroupList_swigregister", ImageGroupList_swigregister, METH_O, NULL},
 	 { "ImageGroupList_swiginit", ImageGroupList_swiginit, METH_VARARGS, NULL},
-	 { "new_CompensationFunctionList", _wrap_new_CompensationFunctionList, METH_NOARGS, NULL},
-	 { "delete_CompensationFunctionList", _wrap_delete_CompensationFunctionList, METH_O, NULL},
+	 { "new_CompensationFunctionList", _wrap_new_CompensationFunctionList, METH_NOARGS, "new_CompensationFunctionList() -> CompensationFunctionList"},
+	 { "delete_CompensationFunctionList", _wrap_delete_CompensationFunctionList, METH_O, "delete_CompensationFunctionList(CompensationFunctionList self)"},
 	 { "CompensationFunctionList_swigregister", CompensationFunctionList_swigregister, METH_O, NULL},
 	 { "CompensationFunctionList_swiginit", CompensationFunctionList_swiginit, METH_VARARGS, NULL},
-	 { "new_ToneBufferList", _wrap_new_ToneBufferList, METH_NOARGS, NULL},
-	 { "delete_ToneBufferList", _wrap_delete_ToneBufferList, METH_O, NULL},
+	 { "new_ToneBufferList", _wrap_new_ToneBufferList, METH_NOARGS, "new_ToneBufferList() -> ToneBufferList"},
+	 { "delete_ToneBufferList", _wrap_delete_ToneBufferList, METH_O, "delete_ToneBufferList(ToneBufferList self)"},
 	 { "ToneBufferList_swigregister", ToneBufferList_swigregister, METH_O, NULL},
 	 { "ToneBufferList_swiginit", ToneBufferList_swiginit, METH_VARARGS, NULL},
-	 { "new_ImageProject", _wrap_new_ImageProject, METH_VARARGS, NULL},
-	 { "ImageProject_Clear", _wrap_ImageProject_Clear, METH_O, NULL},
-	 { "ImageProject_Save", _wrap_ImageProject_Save, METH_VARARGS, NULL},
-	 { "ImageProject_Load", _wrap_ImageProject_Load, METH_VARARGS, NULL},
-	 { "ImageProject_ImageGroupContainer_set", _wrap_ImageProject_ImageGroupContainer_set, METH_VARARGS, NULL},
-	 { "ImageProject_ImageGroupContainer_get", _wrap_ImageProject_ImageGroupContainer_get, METH_O, NULL},
-	 { "ImageProject_CompensationFunctionContainer_set", _wrap_ImageProject_CompensationFunctionContainer_set, METH_VARARGS, NULL},
-	 { "ImageProject_CompensationFunctionContainer_get", _wrap_ImageProject_CompensationFunctionContainer_get, METH_O, NULL},
-	 { "ImageProject_ToneBufferContainer_set", _wrap_ImageProject_ToneBufferContainer_set, METH_VARARGS, NULL},
-	 { "ImageProject_ToneBufferContainer_get", _wrap_ImageProject_ToneBufferContainer_get, METH_O, NULL},
-	 { "ImageProject_FreeImageContainer_set", _wrap_ImageProject_FreeImageContainer_set, METH_VARARGS, NULL},
-	 { "ImageProject_FreeImageContainer_get", _wrap_ImageProject_FreeImageContainer_get, METH_O, NULL},
-	 { "delete_ImageProject", _wrap_delete_ImageProject, METH_O, NULL},
+	 { "new_ImageProject", _wrap_new_ImageProject, METH_VARARGS, "\n"
+		"ImageProject()\n"
+		"new_ImageProject(std::string const & fileName) -> ImageProject\n"
+		""},
+	 { "ImageProject_Clear", _wrap_ImageProject_Clear, METH_O, "ImageProject_Clear(ImageProject self)"},
+	 { "ImageProject_Save", _wrap_ImageProject_Save, METH_VARARGS, "ImageProject_Save(ImageProject self, std::string const & fileName) -> bool"},
+	 { "ImageProject_Load", _wrap_ImageProject_Load, METH_VARARGS, "ImageProject_Load(ImageProject self, std::string const & fileName) -> bool"},
+	 { "ImageProject_ImageGroupContainer_set", _wrap_ImageProject_ImageGroupContainer_set, METH_VARARGS, "ImageProject_ImageGroupContainer_set(ImageProject self, ImageGroupList ImageGroupContainer)"},
+	 { "ImageProject_ImageGroupContainer_get", _wrap_ImageProject_ImageGroupContainer_get, METH_O, "ImageProject_ImageGroupContainer_get(ImageProject self) -> ImageGroupList"},
+	 { "ImageProject_CompensationFunctionContainer_set", _wrap_ImageProject_CompensationFunctionContainer_set, METH_VARARGS, "ImageProject_CompensationFunctionContainer_set(ImageProject self, CompensationFunctionList CompensationFunctionContainer)"},
+	 { "ImageProject_CompensationFunctionContainer_get", _wrap_ImageProject_CompensationFunctionContainer_get, METH_O, "ImageProject_CompensationFunctionContainer_get(ImageProject self) -> CompensationFunctionList"},
+	 { "ImageProject_ToneBufferContainer_set", _wrap_ImageProject_ToneBufferContainer_set, METH_VARARGS, "ImageProject_ToneBufferContainer_set(ImageProject self, ToneBufferList ToneBufferContainer)"},
+	 { "ImageProject_ToneBufferContainer_get", _wrap_ImageProject_ToneBufferContainer_get, METH_O, "ImageProject_ToneBufferContainer_get(ImageProject self) -> ToneBufferList"},
+	 { "ImageProject_FreeImageContainer_set", _wrap_ImageProject_FreeImageContainer_set, METH_VARARGS, "ImageProject_FreeImageContainer_set(ImageProject self, ImageGroup FreeImageContainer)"},
+	 { "ImageProject_FreeImageContainer_get", _wrap_ImageProject_FreeImageContainer_get, METH_O, "ImageProject_FreeImageContainer_get(ImageProject self) -> ImageGroup"},
+	 { "delete_ImageProject", _wrap_delete_ImageProject, METH_O, "delete_ImageProject(ImageProject self)"},
 	 { "ImageProject_swigregister", ImageProject_swigregister, METH_O, NULL},
 	 { "ImageProject_swiginit", ImageProject_swiginit, METH_VARARGS, NULL},
-	 { "new_SignalPath", _wrap_new_SignalPath, METH_O, NULL},
-	 { "SignalPath_UpdateDDSPowerLevel", _wrap_SignalPath_UpdateDDSPowerLevel, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateRFAmplitude", _wrap_SignalPath_UpdateRFAmplitude, METH_VARARGS, NULL},
-	 { "SignalPath_SwitchRFAmplitudeControlSource", _wrap_SignalPath_SwitchRFAmplitudeControlSource, METH_VARARGS, NULL},
-	 { "SignalPath_UpdatePhaseTuning", _wrap_SignalPath_UpdatePhaseTuning, METH_VARARGS, NULL},
-	 { "SignalPath_SetChannelReversal", _wrap_SignalPath_SetChannelReversal, METH_VARARGS, NULL},
-	 { "SignalPath_EnableImagePathCompensation", _wrap_SignalPath_EnableImagePathCompensation, METH_VARARGS, NULL},
-	 { "SignalPath_EnableXYPhaseCompensation", _wrap_SignalPath_EnableXYPhaseCompensation, METH_VARARGS, NULL},
-	 { "SignalPath_SetXYChannelDelay", _wrap_SignalPath_SetXYChannelDelay, METH_VARARGS, NULL},
-	 { "SignalPath_SetChannelDelay", _wrap_SignalPath_SetChannelDelay, METH_VARARGS, NULL},
-	 { "SignalPath_SetCalibrationTone", _wrap_SignalPath_SetCalibrationTone, METH_VARARGS, NULL},
-	 { "SignalPath_ClearTone", _wrap_SignalPath_ClearTone, METH_O, NULL},
-	 { "SignalPath_SetCalibrationChannelLock", _wrap_SignalPath_SetCalibrationChannelLock, METH_VARARGS, NULL},
-	 { "SignalPath_ClearCalibrationChannelLock", _wrap_SignalPath_ClearCalibrationChannelLock, METH_VARARGS, NULL},
-	 { "SignalPath_GetCalibrationChannelLockState", _wrap_SignalPath_GetCalibrationChannelLockState, METH_VARARGS, NULL},
-	 { "SignalPath_PhaseResync", _wrap_SignalPath_PhaseResync, METH_O, NULL},
-	 { "SignalPath_AutoPhaseResync", _wrap_SignalPath_AutoPhaseResync, METH_VARARGS, NULL},
-	 { "SignalPath_SetEnhancedToneMode", _wrap_SignalPath_SetEnhancedToneMode, METH_VARARGS, NULL},
-	 { "SignalPath_SetEnhancedToneChannel", _wrap_SignalPath_SetEnhancedToneChannel, METH_VARARGS, NULL},
-	 { "SignalPath_ClearEnhancedToneMode", _wrap_SignalPath_ClearEnhancedToneMode, METH_O, NULL},
-	 { "SignalPath_ClearEnhancedToneChannel", _wrap_SignalPath_ClearEnhancedToneChannel, METH_VARARGS, NULL},
-	 { "SignalPath_AssignSynchronousOutput", _wrap_SignalPath_AssignSynchronousOutput, METH_VARARGS, NULL},
-	 { "SignalPath_ConfigureSyncDigitalOutput", _wrap_SignalPath_ConfigureSyncDigitalOutput, METH_VARARGS, NULL},
-	 { "SignalPath_SyncDigitalOutputInvert", _wrap_SignalPath_SyncDigitalOutputInvert, METH_VARARGS, NULL},
-	 { "SignalPath_SyncDigitalOutputMode", _wrap_SignalPath_SyncDigitalOutputMode, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateLocalToneBuffer", _wrap_SignalPath_UpdateLocalToneBuffer, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateLocalToneBufferControl", _wrap_SignalPath_UpdateLocalToneBufferControl, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateLocalToneBufferCompensation", _wrap_SignalPath_UpdateLocalToneBufferCompensation, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateLocalToneBufferIndex", _wrap_SignalPath_UpdateLocalToneBufferIndex, METH_VARARGS, NULL},
-	 { "SignalPath_UpdateEncoder", _wrap_SignalPath_UpdateEncoder, METH_VARARGS, NULL},
-	 { "SignalPath_DisableEncoder", _wrap_SignalPath_DisableEncoder, METH_O, NULL},
-	 { "SignalPath_ReportEncoderVelocity", _wrap_SignalPath_ReportEncoderVelocity, METH_VARARGS, NULL},
-	 { "SignalPath_AddFrequencyOffset", _wrap_SignalPath_AddFrequencyOffset, METH_VARARGS, NULL},
-	 { "SignalPath_SubtractFrequencyOffset", _wrap_SignalPath_SubtractFrequencyOffset, METH_VARARGS, NULL},
-	 { "SignalPath_SignalPathEventSubscribe", _wrap_SignalPath_SignalPathEventSubscribe, METH_VARARGS, NULL},
-	 { "SignalPath_SignalPathEventUnsubscribe", _wrap_SignalPath_SignalPathEventUnsubscribe, METH_VARARGS, NULL},
-	 { "delete_SignalPath", _wrap_delete_SignalPath, METH_O, NULL},
+	 { "new_SignalPath", _wrap_new_SignalPath, METH_O, "new_SignalPath(std::shared_ptr< iMS::IMSSystem > ims) -> SignalPath"},
+	 { "SignalPath_UpdateDDSPowerLevel", _wrap_SignalPath_UpdateDDSPowerLevel, METH_VARARGS, "SignalPath_UpdateDDSPowerLevel(SignalPath self, Percent power) -> bool"},
+	 { "SignalPath_UpdateRFAmplitude", _wrap_SignalPath_UpdateRFAmplitude, METH_VARARGS, "SignalPath_UpdateRFAmplitude(SignalPath self, iMS::SignalPath::AmplitudeControl const src, Percent ampl, RFChannel chan=all) -> bool"},
+	 { "SignalPath_SwitchRFAmplitudeControlSource", _wrap_SignalPath_SwitchRFAmplitudeControlSource, METH_VARARGS, "SignalPath_SwitchRFAmplitudeControlSource(SignalPath self, iMS::SignalPath::AmplitudeControl const src, RFChannel chan=all) -> bool"},
+	 { "SignalPath_UpdatePhaseTuning", _wrap_SignalPath_UpdatePhaseTuning, METH_VARARGS, "SignalPath_UpdatePhaseTuning(SignalPath self, RFChannel channel, Degrees phase) -> bool"},
+	 { "SignalPath_SetChannelReversal", _wrap_SignalPath_SetChannelReversal, METH_VARARGS, "SignalPath_SetChannelReversal(SignalPath self, bool reversal) -> bool"},
+	 { "SignalPath_EnableImagePathCompensation", _wrap_SignalPath_EnableImagePathCompensation, METH_VARARGS, "SignalPath_EnableImagePathCompensation(SignalPath self, iMS::SignalPath::Compensation amplComp, iMS::SignalPath::Compensation phaseComp) -> bool"},
+	 { "SignalPath_EnableXYPhaseCompensation", _wrap_SignalPath_EnableXYPhaseCompensation, METH_VARARGS, "SignalPath_EnableXYPhaseCompensation(SignalPath self, bool XYCompEnable) -> bool"},
+	 { "SignalPath_SetXYChannelDelay", _wrap_SignalPath_SetXYChannelDelay, METH_VARARGS, "SignalPath_SetXYChannelDelay(SignalPath self, NanoSeconds delay) -> bool"},
+	 { "SignalPath_SetChannelDelay", _wrap_SignalPath_SetChannelDelay, METH_VARARGS, "SignalPath_SetChannelDelay(SignalPath self, NanoSeconds first, NanoSeconds second) -> bool"},
+	 { "SignalPath_SetCalibrationTone", _wrap_SignalPath_SetCalibrationTone, METH_VARARGS, "SignalPath_SetCalibrationTone(SignalPath self, FAP fap) -> bool"},
+	 { "SignalPath_ClearTone", _wrap_SignalPath_ClearTone, METH_O, "SignalPath_ClearTone(SignalPath self) -> bool"},
+	 { "SignalPath_SetCalibrationChannelLock", _wrap_SignalPath_SetCalibrationChannelLock, METH_VARARGS, "SignalPath_SetCalibrationChannelLock(SignalPath self, RFChannel chan) -> bool"},
+	 { "SignalPath_ClearCalibrationChannelLock", _wrap_SignalPath_ClearCalibrationChannelLock, METH_VARARGS, "SignalPath_ClearCalibrationChannelLock(SignalPath self, RFChannel chan=all) -> bool"},
+	 { "SignalPath_GetCalibrationChannelLockState", _wrap_SignalPath_GetCalibrationChannelLockState, METH_VARARGS, "SignalPath_GetCalibrationChannelLockState(SignalPath self, RFChannel chan) -> bool"},
+	 { "SignalPath_PhaseResync", _wrap_SignalPath_PhaseResync, METH_O, "SignalPath_PhaseResync(SignalPath self) -> bool"},
+	 { "SignalPath_AutoPhaseResync", _wrap_SignalPath_AutoPhaseResync, METH_VARARGS, "SignalPath_AutoPhaseResync(SignalPath self, bool enable=True) -> bool"},
+	 { "SignalPath_SetEnhancedToneMode", _wrap_SignalPath_SetEnhancedToneMode, METH_VARARGS, "SignalPath_SetEnhancedToneMode(SignalPath self, SweepTone tone_ch1, SweepTone tone_ch2, SweepTone tone_ch3, SweepTone tone_ch4) -> bool"},
+	 { "SignalPath_SetEnhancedToneChannel", _wrap_SignalPath_SetEnhancedToneChannel, METH_VARARGS, "SignalPath_SetEnhancedToneChannel(SignalPath self, RFChannel chan, SweepTone tone) -> bool"},
+	 { "SignalPath_ClearEnhancedToneMode", _wrap_SignalPath_ClearEnhancedToneMode, METH_O, "SignalPath_ClearEnhancedToneMode(SignalPath self) -> bool"},
+	 { "SignalPath_ClearEnhancedToneChannel", _wrap_SignalPath_ClearEnhancedToneChannel, METH_VARARGS, "SignalPath_ClearEnhancedToneChannel(SignalPath self, RFChannel chan) -> bool"},
+	 { "SignalPath_AssignSynchronousOutput", _wrap_SignalPath_AssignSynchronousOutput, METH_VARARGS, "SignalPath_AssignSynchronousOutput(SignalPath self, iMS::SignalPath::SYNC_SINK const & sink, iMS::SignalPath::SYNC_SRC const & src) -> bool"},
+	 { "SignalPath_ConfigureSyncDigitalOutput", _wrap_SignalPath_ConfigureSyncDigitalOutput, METH_VARARGS, "SignalPath_ConfigureSyncDigitalOutput(SignalPath self, NanoSeconds delay, NanoSeconds pulse_length) -> bool"},
+	 { "SignalPath_SyncDigitalOutputInvert", _wrap_SignalPath_SyncDigitalOutputInvert, METH_VARARGS, "SignalPath_SyncDigitalOutputInvert(SignalPath self, bool invert) -> bool"},
+	 { "SignalPath_SyncDigitalOutputMode", _wrap_SignalPath_SyncDigitalOutputMode, METH_VARARGS, "SignalPath_SyncDigitalOutputMode(SignalPath self, iMS::SignalPath::SYNC_DIG_MODE mode, int index) -> bool"},
+	 { "SignalPath_UpdateLocalToneBuffer", _wrap_SignalPath_UpdateLocalToneBuffer, METH_VARARGS, "SignalPath_UpdateLocalToneBuffer(SignalPath self, iMS::SignalPath::ToneBufferControl const & tbc, unsigned int const index, iMS::SignalPath::Compensation const AmplitudeComp=ACTIVE, iMS::SignalPath::Compensation const PhaseComp=ACTIVE) -> bool"},
+	 { "SignalPath_UpdateLocalToneBufferControl", _wrap_SignalPath_UpdateLocalToneBufferControl, METH_VARARGS, "SignalPath_UpdateLocalToneBufferControl(SignalPath self, iMS::SignalPath::ToneBufferControl const & tbc) -> bool"},
+	 { "SignalPath_UpdateLocalToneBufferCompensation", _wrap_SignalPath_UpdateLocalToneBufferCompensation, METH_VARARGS, "SignalPath_UpdateLocalToneBufferCompensation(SignalPath self, iMS::SignalPath::Compensation const AmplitudeComp, iMS::SignalPath::Compensation const PhaseComp) -> bool"},
+	 { "SignalPath_UpdateLocalToneBufferIndex", _wrap_SignalPath_UpdateLocalToneBufferIndex, METH_VARARGS, "SignalPath_UpdateLocalToneBufferIndex(SignalPath self, unsigned int const index) -> bool"},
+	 { "SignalPath_UpdateEncoder", _wrap_SignalPath_UpdateEncoder, METH_VARARGS, "SignalPath_UpdateEncoder(SignalPath self, VelocityConfiguration velcomp) -> bool"},
+	 { "SignalPath_DisableEncoder", _wrap_SignalPath_DisableEncoder, METH_O, "SignalPath_DisableEncoder(SignalPath self) -> bool"},
+	 { "SignalPath_ReportEncoderVelocity", _wrap_SignalPath_ReportEncoderVelocity, METH_VARARGS, "SignalPath_ReportEncoderVelocity(SignalPath self, iMS::SignalPath::ENCODER_CHANNEL chan) -> bool"},
+	 { "SignalPath_AddFrequencyOffset", _wrap_SignalPath_AddFrequencyOffset, METH_VARARGS, "SignalPath_AddFrequencyOffset(SignalPath self, MHz offset, RFChannel chan=all) -> bool"},
+	 { "SignalPath_SubtractFrequencyOffset", _wrap_SignalPath_SubtractFrequencyOffset, METH_VARARGS, "SignalPath_SubtractFrequencyOffset(SignalPath self, MHz offset, RFChannel chan=all) -> bool"},
+	 { "SignalPath_SignalPathEventSubscribe", _wrap_SignalPath_SignalPathEventSubscribe, METH_VARARGS, "SignalPath_SignalPathEventSubscribe(SignalPath self, int const message, IEventHandler handler)"},
+	 { "SignalPath_SignalPathEventUnsubscribe", _wrap_SignalPath_SignalPathEventUnsubscribe, METH_VARARGS, "SignalPath_SignalPathEventUnsubscribe(SignalPath self, int const message, IEventHandler handler)"},
+	 { "delete_SignalPath", _wrap_delete_SignalPath, METH_O, "delete_SignalPath(SignalPath self)"},
 	 { "SignalPath_swigregister", SignalPath_swigregister, METH_O, NULL},
 	 { "SignalPath_swiginit", SignalPath_swiginit, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_EncoderMode_set", _wrap_VelocityConfiguration_EncoderMode_set, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_EncoderMode_get", _wrap_VelocityConfiguration_EncoderMode_get, METH_O, NULL},
-	 { "VelocityConfiguration_VelocityMode_set", _wrap_VelocityConfiguration_VelocityMode_set, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_VelocityMode_get", _wrap_VelocityConfiguration_VelocityMode_get, METH_O, NULL},
-	 { "VelocityConfiguration_TrackingLoopProportionCoeff_set", _wrap_VelocityConfiguration_TrackingLoopProportionCoeff_set, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_TrackingLoopProportionCoeff_get", _wrap_VelocityConfiguration_TrackingLoopProportionCoeff_get, METH_O, NULL},
-	 { "VelocityConfiguration_TrackingLoopIntegrationCoeff_set", _wrap_VelocityConfiguration_TrackingLoopIntegrationCoeff_set, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_TrackingLoopIntegrationCoeff_get", _wrap_VelocityConfiguration_TrackingLoopIntegrationCoeff_get, METH_O, NULL},
-	 { "VelocityConfiguration_VelocityGain_set", _wrap_VelocityConfiguration_VelocityGain_set, METH_VARARGS, NULL},
-	 { "VelocityConfiguration_VelocityGain_get", _wrap_VelocityConfiguration_VelocityGain_get, METH_O, NULL},
-	 { "VelocityConfiguration_SetVelGain", _wrap_VelocityConfiguration_SetVelGain, METH_VARARGS, NULL},
-	 { "new_VelocityConfiguration", _wrap_new_VelocityConfiguration, METH_NOARGS, NULL},
-	 { "delete_VelocityConfiguration", _wrap_delete_VelocityConfiguration, METH_O, NULL},
+	 { "VelocityConfiguration_EncoderMode_set", _wrap_VelocityConfiguration_EncoderMode_set, METH_VARARGS, "VelocityConfiguration_EncoderMode_set(VelocityConfiguration self, iMS::SignalPath::ENCODER_MODE EncoderMode)"},
+	 { "VelocityConfiguration_EncoderMode_get", _wrap_VelocityConfiguration_EncoderMode_get, METH_O, "VelocityConfiguration_EncoderMode_get(VelocityConfiguration self) -> iMS::SignalPath::ENCODER_MODE"},
+	 { "VelocityConfiguration_VelocityMode_set", _wrap_VelocityConfiguration_VelocityMode_set, METH_VARARGS, "VelocityConfiguration_VelocityMode_set(VelocityConfiguration self, iMS::SignalPath::VELOCITY_MODE VelocityMode)"},
+	 { "VelocityConfiguration_VelocityMode_get", _wrap_VelocityConfiguration_VelocityMode_get, METH_O, "VelocityConfiguration_VelocityMode_get(VelocityConfiguration self) -> iMS::SignalPath::VELOCITY_MODE"},
+	 { "VelocityConfiguration_TrackingLoopProportionCoeff_set", _wrap_VelocityConfiguration_TrackingLoopProportionCoeff_set, METH_VARARGS, "VelocityConfiguration_TrackingLoopProportionCoeff_set(VelocityConfiguration self, uint16_t TrackingLoopProportionCoeff)"},
+	 { "VelocityConfiguration_TrackingLoopProportionCoeff_get", _wrap_VelocityConfiguration_TrackingLoopProportionCoeff_get, METH_O, "VelocityConfiguration_TrackingLoopProportionCoeff_get(VelocityConfiguration self) -> uint16_t"},
+	 { "VelocityConfiguration_TrackingLoopIntegrationCoeff_set", _wrap_VelocityConfiguration_TrackingLoopIntegrationCoeff_set, METH_VARARGS, "VelocityConfiguration_TrackingLoopIntegrationCoeff_set(VelocityConfiguration self, uint16_t TrackingLoopIntegrationCoeff)"},
+	 { "VelocityConfiguration_TrackingLoopIntegrationCoeff_get", _wrap_VelocityConfiguration_TrackingLoopIntegrationCoeff_get, METH_O, "VelocityConfiguration_TrackingLoopIntegrationCoeff_get(VelocityConfiguration self) -> uint16_t"},
+	 { "VelocityConfiguration_VelocityGain_set", _wrap_VelocityConfiguration_VelocityGain_set, METH_VARARGS, "VelocityConfiguration_VelocityGain_set(VelocityConfiguration self, VelGain VelocityGain)"},
+	 { "VelocityConfiguration_VelocityGain_get", _wrap_VelocityConfiguration_VelocityGain_get, METH_O, "VelocityConfiguration_VelocityGain_get(VelocityConfiguration self) -> VelGain"},
+	 { "VelocityConfiguration_SetVelGain", _wrap_VelocityConfiguration_SetVelGain, METH_VARARGS, "VelocityConfiguration_SetVelGain(VelocityConfiguration self, std::shared_ptr< iMS::IMSSystem > ims, iMS::SignalPath::ENCODER_CHANNEL chan, kHz EncoderFreq, MHz DesiredFreqDeviation, bool Reverse=False)"},
+	 { "new_VelocityConfiguration", _wrap_new_VelocityConfiguration, METH_NOARGS, "new_VelocityConfiguration() -> VelocityConfiguration"},
+	 { "delete_VelocityConfiguration", _wrap_delete_VelocityConfiguration, METH_O, "delete_VelocityConfiguration(VelocityConfiguration self)"},
 	 { "VelocityConfiguration_swigregister", VelocityConfiguration_swigregister, METH_O, NULL},
 	 { "VelocityConfiguration_swiginit", VelocityConfiguration_swiginit, METH_VARARGS, NULL},
-	 { "new_SystemFunc", _wrap_new_SystemFunc, METH_O, NULL},
-	 { "SystemFunc_ClearNHF", _wrap_SystemFunc_ClearNHF, METH_O, NULL},
-	 { "SystemFunc_SendHeartbeat", _wrap_SystemFunc_SendHeartbeat, METH_O, NULL},
-	 { "SystemFunc_StartHeartbeat", _wrap_SystemFunc_StartHeartbeat, METH_VARARGS, NULL},
-	 { "SystemFunc_StopHeartbeat", _wrap_SystemFunc_StopHeartbeat, METH_O, NULL},
-	 { "SystemFunc_ConfigureNHF", _wrap_SystemFunc_ConfigureNHF, METH_VARARGS, NULL},
-	 { "SystemFunc_EnableAmplifier", _wrap_SystemFunc_EnableAmplifier, METH_VARARGS, NULL},
-	 { "SystemFunc_EnableExternal", _wrap_SystemFunc_EnableExternal, METH_VARARGS, NULL},
-	 { "SystemFunc_EnableRFChannels", _wrap_SystemFunc_EnableRFChannels, METH_VARARGS, NULL},
-	 { "SystemFunc_GetChecksumErrorCount", _wrap_SystemFunc_GetChecksumErrorCount, METH_VARARGS, NULL},
-	 { "SystemFunc_SetDDSUpdateClockSource", _wrap_SystemFunc_SetDDSUpdateClockSource, METH_VARARGS, NULL},
-	 { "SystemFunc_StoreStartupConfig", _wrap_SystemFunc_StoreStartupConfig, METH_VARARGS, NULL},
-	 { "SystemFunc_ReadSystemTemperature", _wrap_SystemFunc_ReadSystemTemperature, METH_VARARGS, NULL},
-	 { "SystemFunc_SetClockReferenceMode", _wrap_SystemFunc_SetClockReferenceMode, METH_VARARGS, NULL},
-	 { "SystemFunc_GetClockReferenceStatus", _wrap_SystemFunc_GetClockReferenceStatus, METH_O, NULL},
-	 { "SystemFunc_GetClockReferenceFrequency", _wrap_SystemFunc_GetClockReferenceFrequency, METH_O, NULL},
-	 { "SystemFunc_GetClockReferenceMode", _wrap_SystemFunc_GetClockReferenceMode, METH_O, NULL},
-	 { "SystemFunc_ConfigureClockGenerator", _wrap_SystemFunc_ConfigureClockGenerator, METH_VARARGS, NULL},
-	 { "SystemFunc_GetClockGenConfiguration", _wrap_SystemFunc_GetClockGenConfiguration, METH_O, NULL},
-	 { "SystemFunc_DisableClockGenerator", _wrap_SystemFunc_DisableClockGenerator, METH_O, NULL},
-	 { "SystemFunc_SystemFuncEventSubscribe", _wrap_SystemFunc_SystemFuncEventSubscribe, METH_VARARGS, NULL},
-	 { "SystemFunc_SystemFuncEventUnsubscribe", _wrap_SystemFunc_SystemFuncEventUnsubscribe, METH_VARARGS, NULL},
-	 { "delete_SystemFunc", _wrap_delete_SystemFunc, METH_O, NULL},
+	 { "new_SystemFunc", _wrap_new_SystemFunc, METH_O, "new_SystemFunc(std::shared_ptr< iMS::IMSSystem > ims) -> SystemFunc"},
+	 { "SystemFunc_ClearNHF", _wrap_SystemFunc_ClearNHF, METH_O, "SystemFunc_ClearNHF(SystemFunc self) -> bool"},
+	 { "SystemFunc_SendHeartbeat", _wrap_SystemFunc_SendHeartbeat, METH_O, "SystemFunc_SendHeartbeat(SystemFunc self) -> bool"},
+	 { "SystemFunc_StartHeartbeat", _wrap_SystemFunc_StartHeartbeat, METH_VARARGS, "SystemFunc_StartHeartbeat(SystemFunc self, int intervalMs)"},
+	 { "SystemFunc_StopHeartbeat", _wrap_SystemFunc_StopHeartbeat, METH_O, "SystemFunc_StopHeartbeat(SystemFunc self)"},
+	 { "SystemFunc_ConfigureNHF", _wrap_SystemFunc_ConfigureNHF, METH_VARARGS, "SystemFunc_ConfigureNHF(SystemFunc self, bool Enabled, int milliSeconds, iMS::SystemFunc::NHFLocalReset reset) -> bool"},
+	 { "SystemFunc_EnableAmplifier", _wrap_SystemFunc_EnableAmplifier, METH_VARARGS, "SystemFunc_EnableAmplifier(SystemFunc self, bool en) -> bool"},
+	 { "SystemFunc_EnableExternal", _wrap_SystemFunc_EnableExternal, METH_VARARGS, "SystemFunc_EnableExternal(SystemFunc self, bool enable) -> bool"},
+	 { "SystemFunc_EnableRFChannels", _wrap_SystemFunc_EnableRFChannels, METH_VARARGS, "SystemFunc_EnableRFChannels(SystemFunc self, bool chan1_2, bool chan3_4) -> bool"},
+	 { "SystemFunc_GetChecksumErrorCount", _wrap_SystemFunc_GetChecksumErrorCount, METH_VARARGS, "SystemFunc_GetChecksumErrorCount(SystemFunc self, bool Reset=True) -> bool"},
+	 { "SystemFunc_SetDDSUpdateClockSource", _wrap_SystemFunc_SetDDSUpdateClockSource, METH_VARARGS, "SystemFunc_SetDDSUpdateClockSource(SystemFunc self, iMS::SystemFunc::UpdateClockSource src=INTERNAL) -> bool"},
+	 { "SystemFunc_StoreStartupConfig", _wrap_SystemFunc_StoreStartupConfig, METH_VARARGS, "SystemFunc_StoreStartupConfig(SystemFunc self, StartupConfiguration cfg) -> bool"},
+	 { "SystemFunc_ReadSystemTemperature", _wrap_SystemFunc_ReadSystemTemperature, METH_VARARGS, "SystemFunc_ReadSystemTemperature(SystemFunc self, iMS::SystemFunc::TemperatureSensor sensor) -> bool"},
+	 { "SystemFunc_SetClockReferenceMode", _wrap_SystemFunc_SetClockReferenceMode, METH_VARARGS, "SystemFunc_SetClockReferenceMode(SystemFunc self, iMS::SystemFunc::PLLLockReference mode, kHz ExternalFixedFreq=iMS::kHz(1000.0)) -> bool"},
+	 { "SystemFunc_GetClockReferenceStatus", _wrap_SystemFunc_GetClockReferenceStatus, METH_O, "SystemFunc_GetClockReferenceStatus(SystemFunc self) -> bool"},
+	 { "SystemFunc_GetClockReferenceFrequency", _wrap_SystemFunc_GetClockReferenceFrequency, METH_O, "SystemFunc_GetClockReferenceFrequency(SystemFunc self) -> bool"},
+	 { "SystemFunc_GetClockReferenceMode", _wrap_SystemFunc_GetClockReferenceMode, METH_O, "SystemFunc_GetClockReferenceMode(SystemFunc self) -> bool"},
+	 { "SystemFunc_ConfigureClockGenerator", _wrap_SystemFunc_ConfigureClockGenerator, METH_VARARGS, "SystemFunc_ConfigureClockGenerator(SystemFunc self, ClockGenConfiguration cfg) -> bool"},
+	 { "SystemFunc_GetClockGenConfiguration", _wrap_SystemFunc_GetClockGenConfiguration, METH_O, "SystemFunc_GetClockGenConfiguration(SystemFunc self) -> ClockGenConfiguration"},
+	 { "SystemFunc_DisableClockGenerator", _wrap_SystemFunc_DisableClockGenerator, METH_O, "SystemFunc_DisableClockGenerator(SystemFunc self) -> bool"},
+	 { "SystemFunc_SystemFuncEventSubscribe", _wrap_SystemFunc_SystemFuncEventSubscribe, METH_VARARGS, "SystemFunc_SystemFuncEventSubscribe(SystemFunc self, int const message, IEventHandler handler)"},
+	 { "SystemFunc_SystemFuncEventUnsubscribe", _wrap_SystemFunc_SystemFuncEventUnsubscribe, METH_VARARGS, "SystemFunc_SystemFuncEventUnsubscribe(SystemFunc self, int const message, IEventHandler handler)"},
+	 { "delete_SystemFunc", _wrap_delete_SystemFunc, METH_O, "delete_SystemFunc(SystemFunc self)"},
 	 { "SystemFunc_swigregister", SystemFunc_swigregister, METH_O, NULL},
 	 { "SystemFunc_swiginit", SystemFunc_swiginit, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFAmplitudeWiper1_set", _wrap_StartupConfiguration_RFAmplitudeWiper1_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFAmplitudeWiper1_get", _wrap_StartupConfiguration_RFAmplitudeWiper1_get, METH_O, NULL},
-	 { "StartupConfiguration_RFAmplitudeWiper2_set", _wrap_StartupConfiguration_RFAmplitudeWiper2_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFAmplitudeWiper2_get", _wrap_StartupConfiguration_RFAmplitudeWiper2_get, METH_O, NULL},
-	 { "StartupConfiguration_DDSPower_set", _wrap_StartupConfiguration_DDSPower_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_DDSPower_get", _wrap_StartupConfiguration_DDSPower_get, METH_O, NULL},
-	 { "StartupConfiguration_AmplitudeControlSource_set", _wrap_StartupConfiguration_AmplitudeControlSource_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_AmplitudeControlSource_get", _wrap_StartupConfiguration_AmplitudeControlSource_get, METH_O, NULL},
-	 { "StartupConfiguration_RFGate_set", _wrap_StartupConfiguration_RFGate_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFGate_get", _wrap_StartupConfiguration_RFGate_get, METH_O, NULL},
-	 { "StartupConfiguration_RFBias12_set", _wrap_StartupConfiguration_RFBias12_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFBias12_get", _wrap_StartupConfiguration_RFBias12_get, METH_O, NULL},
-	 { "StartupConfiguration_RFBias34_set", _wrap_StartupConfiguration_RFBias34_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFBias34_get", _wrap_StartupConfiguration_RFBias34_get, METH_O, NULL},
-	 { "StartupConfiguration_ExtEquipmentEnable_set", _wrap_StartupConfiguration_ExtEquipmentEnable_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ExtEquipmentEnable_get", _wrap_StartupConfiguration_ExtEquipmentEnable_get, METH_O, NULL},
-	 { "StartupConfiguration_LTBUseAmplitudeCompensation_set", _wrap_StartupConfiguration_LTBUseAmplitudeCompensation_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LTBUseAmplitudeCompensation_get", _wrap_StartupConfiguration_LTBUseAmplitudeCompensation_get, METH_O, NULL},
-	 { "StartupConfiguration_LTBUsePhaseCompensation_set", _wrap_StartupConfiguration_LTBUsePhaseCompensation_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LTBUsePhaseCompensation_get", _wrap_StartupConfiguration_LTBUsePhaseCompensation_get, METH_O, NULL},
-	 { "StartupConfiguration_LTBControlSource_set", _wrap_StartupConfiguration_LTBControlSource_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LTBControlSource_get", _wrap_StartupConfiguration_LTBControlSource_get, METH_O, NULL},
-	 { "StartupConfiguration_LocalToneIndex_set", _wrap_StartupConfiguration_LocalToneIndex_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LocalToneIndex_get", _wrap_StartupConfiguration_LocalToneIndex_get, METH_O, NULL},
-	 { "StartupConfiguration_PhaseTuneCh1_set", _wrap_StartupConfiguration_PhaseTuneCh1_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PhaseTuneCh1_get", _wrap_StartupConfiguration_PhaseTuneCh1_get, METH_O, NULL},
-	 { "StartupConfiguration_PhaseTuneCh2_set", _wrap_StartupConfiguration_PhaseTuneCh2_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PhaseTuneCh2_get", _wrap_StartupConfiguration_PhaseTuneCh2_get, METH_O, NULL},
-	 { "StartupConfiguration_PhaseTuneCh3_set", _wrap_StartupConfiguration_PhaseTuneCh3_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PhaseTuneCh3_get", _wrap_StartupConfiguration_PhaseTuneCh3_get, METH_O, NULL},
-	 { "StartupConfiguration_PhaseTuneCh4_set", _wrap_StartupConfiguration_PhaseTuneCh4_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PhaseTuneCh4_get", _wrap_StartupConfiguration_PhaseTuneCh4_get, METH_O, NULL},
-	 { "StartupConfiguration_ChannelReversal_set", _wrap_StartupConfiguration_ChannelReversal_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ChannelReversal_get", _wrap_StartupConfiguration_ChannelReversal_get, METH_O, NULL},
-	 { "StartupConfiguration_ImageUseAmplitudeCompensation_set", _wrap_StartupConfiguration_ImageUseAmplitudeCompensation_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ImageUseAmplitudeCompensation_get", _wrap_StartupConfiguration_ImageUseAmplitudeCompensation_get, METH_O, NULL},
-	 { "StartupConfiguration_ImageUsePhaseCompensation_set", _wrap_StartupConfiguration_ImageUsePhaseCompensation_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ImageUsePhaseCompensation_get", _wrap_StartupConfiguration_ImageUsePhaseCompensation_get, METH_O, NULL},
-	 { "StartupConfiguration_upd_clk_set", _wrap_StartupConfiguration_upd_clk_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_upd_clk_get", _wrap_StartupConfiguration_upd_clk_get, METH_O, NULL},
-	 { "StartupConfiguration_XYCompEnable_set", _wrap_StartupConfiguration_XYCompEnable_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_XYCompEnable_get", _wrap_StartupConfiguration_XYCompEnable_get, METH_O, NULL},
-	 { "StartupConfiguration_LEDGreen_set", _wrap_StartupConfiguration_LEDGreen_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LEDGreen_get", _wrap_StartupConfiguration_LEDGreen_get, METH_O, NULL},
-	 { "StartupConfiguration_LEDYellow_set", _wrap_StartupConfiguration_LEDYellow_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LEDYellow_get", _wrap_StartupConfiguration_LEDYellow_get, METH_O, NULL},
-	 { "StartupConfiguration_LEDRed_set", _wrap_StartupConfiguration_LEDRed_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_LEDRed_get", _wrap_StartupConfiguration_LEDRed_get, METH_O, NULL},
-	 { "StartupConfiguration_GPOutput_set", _wrap_StartupConfiguration_GPOutput_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_GPOutput_get", _wrap_StartupConfiguration_GPOutput_get, METH_O, NULL},
-	 { "StartupConfiguration_ResetOnUnhealthy_set", _wrap_StartupConfiguration_ResetOnUnhealthy_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ResetOnUnhealthy_get", _wrap_StartupConfiguration_ResetOnUnhealthy_get, METH_O, NULL},
-	 { "StartupConfiguration_CommsHealthyCheckEnabled_set", _wrap_StartupConfiguration_CommsHealthyCheckEnabled_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_CommsHealthyCheckEnabled_get", _wrap_StartupConfiguration_CommsHealthyCheckEnabled_get, METH_O, NULL},
-	 { "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set", _wrap_StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get", _wrap_StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get, METH_O, NULL},
-	 { "StartupConfiguration_SyncDigitalSource_set", _wrap_StartupConfiguration_SyncDigitalSource_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_SyncDigitalSource_get", _wrap_StartupConfiguration_SyncDigitalSource_get, METH_O, NULL},
-	 { "StartupConfiguration_SyncAnalogASource_set", _wrap_StartupConfiguration_SyncAnalogASource_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_SyncAnalogASource_get", _wrap_StartupConfiguration_SyncAnalogASource_get, METH_O, NULL},
-	 { "StartupConfiguration_SyncAnalogBSource_set", _wrap_StartupConfiguration_SyncAnalogBSource_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_SyncAnalogBSource_get", _wrap_StartupConfiguration_SyncAnalogBSource_get, METH_O, NULL},
-	 { "StartupConfiguration_PLLMode_set", _wrap_StartupConfiguration_PLLMode_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PLLMode_get", _wrap_StartupConfiguration_PLLMode_get, METH_O, NULL},
-	 { "StartupConfiguration_ExtClockFrequency_set", _wrap_StartupConfiguration_ExtClockFrequency_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_ExtClockFrequency_get", _wrap_StartupConfiguration_ExtClockFrequency_get, METH_O, NULL},
-	 { "StartupConfiguration_PhaseAccClear_set", _wrap_StartupConfiguration_PhaseAccClear_set, METH_VARARGS, NULL},
-	 { "StartupConfiguration_PhaseAccClear_get", _wrap_StartupConfiguration_PhaseAccClear_get, METH_O, NULL},
-	 { "new_StartupConfiguration", _wrap_new_StartupConfiguration, METH_NOARGS, NULL},
-	 { "delete_StartupConfiguration", _wrap_delete_StartupConfiguration, METH_O, NULL},
+	 { "StartupConfiguration_RFAmplitudeWiper1_set", _wrap_StartupConfiguration_RFAmplitudeWiper1_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeWiper1_set(StartupConfiguration self, Percent RFAmplitudeWiper1)"},
+	 { "StartupConfiguration_RFAmplitudeWiper1_get", _wrap_StartupConfiguration_RFAmplitudeWiper1_get, METH_O, "StartupConfiguration_RFAmplitudeWiper1_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_RFAmplitudeWiper2_set", _wrap_StartupConfiguration_RFAmplitudeWiper2_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeWiper2_set(StartupConfiguration self, Percent RFAmplitudeWiper2)"},
+	 { "StartupConfiguration_RFAmplitudeWiper2_get", _wrap_StartupConfiguration_RFAmplitudeWiper2_get, METH_O, "StartupConfiguration_RFAmplitudeWiper2_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_DDSPower_set", _wrap_StartupConfiguration_DDSPower_set, METH_VARARGS, "StartupConfiguration_DDSPower_set(StartupConfiguration self, Percent DDSPower)"},
+	 { "StartupConfiguration_DDSPower_get", _wrap_StartupConfiguration_DDSPower_get, METH_O, "StartupConfiguration_DDSPower_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_AmplitudeControlSource_set", _wrap_StartupConfiguration_AmplitudeControlSource_set, METH_VARARGS, "StartupConfiguration_AmplitudeControlSource_set(StartupConfiguration self, iMS::SignalPath::AmplitudeControl AmplitudeControlSource)"},
+	 { "StartupConfiguration_AmplitudeControlSource_get", _wrap_StartupConfiguration_AmplitudeControlSource_get, METH_O, "StartupConfiguration_AmplitudeControlSource_get(StartupConfiguration self) -> iMS::SignalPath::AmplitudeControl"},
+	 { "StartupConfiguration_RFGate_set", _wrap_StartupConfiguration_RFGate_set, METH_VARARGS, "StartupConfiguration_RFGate_set(StartupConfiguration self, bool RFGate)"},
+	 { "StartupConfiguration_RFGate_get", _wrap_StartupConfiguration_RFGate_get, METH_O, "StartupConfiguration_RFGate_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_RFBias12_set", _wrap_StartupConfiguration_RFBias12_set, METH_VARARGS, "StartupConfiguration_RFBias12_set(StartupConfiguration self, bool RFBias12)"},
+	 { "StartupConfiguration_RFBias12_get", _wrap_StartupConfiguration_RFBias12_get, METH_O, "StartupConfiguration_RFBias12_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_RFBias34_set", _wrap_StartupConfiguration_RFBias34_set, METH_VARARGS, "StartupConfiguration_RFBias34_set(StartupConfiguration self, bool RFBias34)"},
+	 { "StartupConfiguration_RFBias34_get", _wrap_StartupConfiguration_RFBias34_get, METH_O, "StartupConfiguration_RFBias34_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_ExtEquipmentEnable_set", _wrap_StartupConfiguration_ExtEquipmentEnable_set, METH_VARARGS, "StartupConfiguration_ExtEquipmentEnable_set(StartupConfiguration self, bool ExtEquipmentEnable)"},
+	 { "StartupConfiguration_ExtEquipmentEnable_get", _wrap_StartupConfiguration_ExtEquipmentEnable_get, METH_O, "StartupConfiguration_ExtEquipmentEnable_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_LTBUseAmplitudeCompensation_set", _wrap_StartupConfiguration_LTBUseAmplitudeCompensation_set, METH_VARARGS, "StartupConfiguration_LTBUseAmplitudeCompensation_set(StartupConfiguration self, iMS::SignalPath::Compensation LTBUseAmplitudeCompensation)"},
+	 { "StartupConfiguration_LTBUseAmplitudeCompensation_get", _wrap_StartupConfiguration_LTBUseAmplitudeCompensation_get, METH_O, "StartupConfiguration_LTBUseAmplitudeCompensation_get(StartupConfiguration self) -> iMS::SignalPath::Compensation"},
+	 { "StartupConfiguration_LTBUsePhaseCompensation_set", _wrap_StartupConfiguration_LTBUsePhaseCompensation_set, METH_VARARGS, "StartupConfiguration_LTBUsePhaseCompensation_set(StartupConfiguration self, iMS::SignalPath::Compensation LTBUsePhaseCompensation)"},
+	 { "StartupConfiguration_LTBUsePhaseCompensation_get", _wrap_StartupConfiguration_LTBUsePhaseCompensation_get, METH_O, "StartupConfiguration_LTBUsePhaseCompensation_get(StartupConfiguration self) -> iMS::SignalPath::Compensation"},
+	 { "StartupConfiguration_LTBControlSource_set", _wrap_StartupConfiguration_LTBControlSource_set, METH_VARARGS, "StartupConfiguration_LTBControlSource_set(StartupConfiguration self, iMS::SignalPath::ToneBufferControl LTBControlSource)"},
+	 { "StartupConfiguration_LTBControlSource_get", _wrap_StartupConfiguration_LTBControlSource_get, METH_O, "StartupConfiguration_LTBControlSource_get(StartupConfiguration self) -> iMS::SignalPath::ToneBufferControl"},
+	 { "StartupConfiguration_LocalToneIndex_set", _wrap_StartupConfiguration_LocalToneIndex_set, METH_VARARGS, "StartupConfiguration_LocalToneIndex_set(StartupConfiguration self, uint8_t LocalToneIndex)"},
+	 { "StartupConfiguration_LocalToneIndex_get", _wrap_StartupConfiguration_LocalToneIndex_get, METH_O, "StartupConfiguration_LocalToneIndex_get(StartupConfiguration self) -> uint8_t"},
+	 { "StartupConfiguration_PhaseTuneCh1_set", _wrap_StartupConfiguration_PhaseTuneCh1_set, METH_VARARGS, "StartupConfiguration_PhaseTuneCh1_set(StartupConfiguration self, Degrees PhaseTuneCh1)"},
+	 { "StartupConfiguration_PhaseTuneCh1_get", _wrap_StartupConfiguration_PhaseTuneCh1_get, METH_O, "StartupConfiguration_PhaseTuneCh1_get(StartupConfiguration self) -> Degrees"},
+	 { "StartupConfiguration_PhaseTuneCh2_set", _wrap_StartupConfiguration_PhaseTuneCh2_set, METH_VARARGS, "StartupConfiguration_PhaseTuneCh2_set(StartupConfiguration self, Degrees PhaseTuneCh2)"},
+	 { "StartupConfiguration_PhaseTuneCh2_get", _wrap_StartupConfiguration_PhaseTuneCh2_get, METH_O, "StartupConfiguration_PhaseTuneCh2_get(StartupConfiguration self) -> Degrees"},
+	 { "StartupConfiguration_PhaseTuneCh3_set", _wrap_StartupConfiguration_PhaseTuneCh3_set, METH_VARARGS, "StartupConfiguration_PhaseTuneCh3_set(StartupConfiguration self, Degrees PhaseTuneCh3)"},
+	 { "StartupConfiguration_PhaseTuneCh3_get", _wrap_StartupConfiguration_PhaseTuneCh3_get, METH_O, "StartupConfiguration_PhaseTuneCh3_get(StartupConfiguration self) -> Degrees"},
+	 { "StartupConfiguration_PhaseTuneCh4_set", _wrap_StartupConfiguration_PhaseTuneCh4_set, METH_VARARGS, "StartupConfiguration_PhaseTuneCh4_set(StartupConfiguration self, Degrees PhaseTuneCh4)"},
+	 { "StartupConfiguration_PhaseTuneCh4_get", _wrap_StartupConfiguration_PhaseTuneCh4_get, METH_O, "StartupConfiguration_PhaseTuneCh4_get(StartupConfiguration self) -> Degrees"},
+	 { "StartupConfiguration_ChannelReversal_set", _wrap_StartupConfiguration_ChannelReversal_set, METH_VARARGS, "StartupConfiguration_ChannelReversal_set(StartupConfiguration self, bool ChannelReversal)"},
+	 { "StartupConfiguration_ChannelReversal_get", _wrap_StartupConfiguration_ChannelReversal_get, METH_O, "StartupConfiguration_ChannelReversal_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_ImageUseAmplitudeCompensation_set", _wrap_StartupConfiguration_ImageUseAmplitudeCompensation_set, METH_VARARGS, "StartupConfiguration_ImageUseAmplitudeCompensation_set(StartupConfiguration self, iMS::SignalPath::Compensation ImageUseAmplitudeCompensation)"},
+	 { "StartupConfiguration_ImageUseAmplitudeCompensation_get", _wrap_StartupConfiguration_ImageUseAmplitudeCompensation_get, METH_O, "StartupConfiguration_ImageUseAmplitudeCompensation_get(StartupConfiguration self) -> iMS::SignalPath::Compensation"},
+	 { "StartupConfiguration_ImageUsePhaseCompensation_set", _wrap_StartupConfiguration_ImageUsePhaseCompensation_set, METH_VARARGS, "StartupConfiguration_ImageUsePhaseCompensation_set(StartupConfiguration self, iMS::SignalPath::Compensation ImageUsePhaseCompensation)"},
+	 { "StartupConfiguration_ImageUsePhaseCompensation_get", _wrap_StartupConfiguration_ImageUsePhaseCompensation_get, METH_O, "StartupConfiguration_ImageUsePhaseCompensation_get(StartupConfiguration self) -> iMS::SignalPath::Compensation"},
+	 { "StartupConfiguration_upd_clk_set", _wrap_StartupConfiguration_upd_clk_set, METH_VARARGS, "StartupConfiguration_upd_clk_set(StartupConfiguration self, iMS::SystemFunc::UpdateClockSource upd_clk)"},
+	 { "StartupConfiguration_upd_clk_get", _wrap_StartupConfiguration_upd_clk_get, METH_O, "StartupConfiguration_upd_clk_get(StartupConfiguration self) -> iMS::SystemFunc::UpdateClockSource"},
+	 { "StartupConfiguration_XYCompEnable_set", _wrap_StartupConfiguration_XYCompEnable_set, METH_VARARGS, "StartupConfiguration_XYCompEnable_set(StartupConfiguration self, bool XYCompEnable)"},
+	 { "StartupConfiguration_XYCompEnable_get", _wrap_StartupConfiguration_XYCompEnable_get, METH_O, "StartupConfiguration_XYCompEnable_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_LEDGreen_set", _wrap_StartupConfiguration_LEDGreen_set, METH_VARARGS, "StartupConfiguration_LEDGreen_set(StartupConfiguration self, iMS::Auxiliary::LED_SOURCE LEDGreen)"},
+	 { "StartupConfiguration_LEDGreen_get", _wrap_StartupConfiguration_LEDGreen_get, METH_O, "StartupConfiguration_LEDGreen_get(StartupConfiguration self) -> iMS::Auxiliary::LED_SOURCE"},
+	 { "StartupConfiguration_LEDYellow_set", _wrap_StartupConfiguration_LEDYellow_set, METH_VARARGS, "StartupConfiguration_LEDYellow_set(StartupConfiguration self, iMS::Auxiliary::LED_SOURCE LEDYellow)"},
+	 { "StartupConfiguration_LEDYellow_get", _wrap_StartupConfiguration_LEDYellow_get, METH_O, "StartupConfiguration_LEDYellow_get(StartupConfiguration self) -> iMS::Auxiliary::LED_SOURCE"},
+	 { "StartupConfiguration_LEDRed_set", _wrap_StartupConfiguration_LEDRed_set, METH_VARARGS, "StartupConfiguration_LEDRed_set(StartupConfiguration self, iMS::Auxiliary::LED_SOURCE LEDRed)"},
+	 { "StartupConfiguration_LEDRed_get", _wrap_StartupConfiguration_LEDRed_get, METH_O, "StartupConfiguration_LEDRed_get(StartupConfiguration self) -> iMS::Auxiliary::LED_SOURCE"},
+	 { "StartupConfiguration_GPOutput_set", _wrap_StartupConfiguration_GPOutput_set, METH_VARARGS, "StartupConfiguration_GPOutput_set(StartupConfiguration self, uint8_t GPOutput)"},
+	 { "StartupConfiguration_GPOutput_get", _wrap_StartupConfiguration_GPOutput_get, METH_O, "StartupConfiguration_GPOutput_get(StartupConfiguration self) -> uint8_t"},
+	 { "StartupConfiguration_ResetOnUnhealthy_set", _wrap_StartupConfiguration_ResetOnUnhealthy_set, METH_VARARGS, "StartupConfiguration_ResetOnUnhealthy_set(StartupConfiguration self, iMS::SystemFunc::NHFLocalReset ResetOnUnhealthy)"},
+	 { "StartupConfiguration_ResetOnUnhealthy_get", _wrap_StartupConfiguration_ResetOnUnhealthy_get, METH_O, "StartupConfiguration_ResetOnUnhealthy_get(StartupConfiguration self) -> iMS::SystemFunc::NHFLocalReset"},
+	 { "StartupConfiguration_CommsHealthyCheckEnabled_set", _wrap_StartupConfiguration_CommsHealthyCheckEnabled_set, METH_VARARGS, "StartupConfiguration_CommsHealthyCheckEnabled_set(StartupConfiguration self, bool CommsHealthyCheckEnabled)"},
+	 { "StartupConfiguration_CommsHealthyCheckEnabled_get", _wrap_StartupConfiguration_CommsHealthyCheckEnabled_get, METH_O, "StartupConfiguration_CommsHealthyCheckEnabled_get(StartupConfiguration self) -> bool"},
+	 { "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set", _wrap_StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set, METH_VARARGS, "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_set(StartupConfiguration self, unsigned int CommsHealthyCheckTimerMilliseconds)"},
+	 { "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get", _wrap_StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get, METH_O, "StartupConfiguration_CommsHealthyCheckTimerMilliseconds_get(StartupConfiguration self) -> unsigned int"},
+	 { "StartupConfiguration_SyncDigitalSource_set", _wrap_StartupConfiguration_SyncDigitalSource_set, METH_VARARGS, "StartupConfiguration_SyncDigitalSource_set(StartupConfiguration self, iMS::SignalPath::SYNC_SRC SyncDigitalSource)"},
+	 { "StartupConfiguration_SyncDigitalSource_get", _wrap_StartupConfiguration_SyncDigitalSource_get, METH_O, "StartupConfiguration_SyncDigitalSource_get(StartupConfiguration self) -> iMS::SignalPath::SYNC_SRC"},
+	 { "StartupConfiguration_SyncAnalogASource_set", _wrap_StartupConfiguration_SyncAnalogASource_set, METH_VARARGS, "StartupConfiguration_SyncAnalogASource_set(StartupConfiguration self, iMS::SignalPath::SYNC_SRC SyncAnalogASource)"},
+	 { "StartupConfiguration_SyncAnalogASource_get", _wrap_StartupConfiguration_SyncAnalogASource_get, METH_O, "StartupConfiguration_SyncAnalogASource_get(StartupConfiguration self) -> iMS::SignalPath::SYNC_SRC"},
+	 { "StartupConfiguration_SyncAnalogBSource_set", _wrap_StartupConfiguration_SyncAnalogBSource_set, METH_VARARGS, "StartupConfiguration_SyncAnalogBSource_set(StartupConfiguration self, iMS::SignalPath::SYNC_SRC SyncAnalogBSource)"},
+	 { "StartupConfiguration_SyncAnalogBSource_get", _wrap_StartupConfiguration_SyncAnalogBSource_get, METH_O, "StartupConfiguration_SyncAnalogBSource_get(StartupConfiguration self) -> iMS::SignalPath::SYNC_SRC"},
+	 { "StartupConfiguration_PLLMode_set", _wrap_StartupConfiguration_PLLMode_set, METH_VARARGS, "StartupConfiguration_PLLMode_set(StartupConfiguration self, iMS::SystemFunc::PLLLockReference PLLMode)"},
+	 { "StartupConfiguration_PLLMode_get", _wrap_StartupConfiguration_PLLMode_get, METH_O, "StartupConfiguration_PLLMode_get(StartupConfiguration self) -> iMS::SystemFunc::PLLLockReference"},
+	 { "StartupConfiguration_ExtClockFrequency_set", _wrap_StartupConfiguration_ExtClockFrequency_set, METH_VARARGS, "StartupConfiguration_ExtClockFrequency_set(StartupConfiguration self, kHz ExtClockFrequency)"},
+	 { "StartupConfiguration_ExtClockFrequency_get", _wrap_StartupConfiguration_ExtClockFrequency_get, METH_O, "StartupConfiguration_ExtClockFrequency_get(StartupConfiguration self) -> kHz"},
+	 { "StartupConfiguration_PhaseAccClear_set", _wrap_StartupConfiguration_PhaseAccClear_set, METH_VARARGS, "StartupConfiguration_PhaseAccClear_set(StartupConfiguration self, bool PhaseAccClear)"},
+	 { "StartupConfiguration_PhaseAccClear_get", _wrap_StartupConfiguration_PhaseAccClear_get, METH_O, "StartupConfiguration_PhaseAccClear_get(StartupConfiguration self) -> bool"},
+	 { "new_StartupConfiguration", _wrap_new_StartupConfiguration, METH_NOARGS, "new_StartupConfiguration() -> StartupConfiguration"},
+	 { "delete_StartupConfiguration", _wrap_delete_StartupConfiguration, METH_O, "delete_StartupConfiguration(StartupConfiguration self)"},
 	 { "StartupConfiguration_swigregister", StartupConfiguration_swigregister, METH_O, NULL},
 	 { "StartupConfiguration_swiginit", StartupConfiguration_swiginit, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_ClockFreq_set", _wrap_ClockGenConfiguration_ClockFreq_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_ClockFreq_get", _wrap_ClockGenConfiguration_ClockFreq_get, METH_O, NULL},
-	 { "ClockGenConfiguration_OscPhase_set", _wrap_ClockGenConfiguration_OscPhase_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_OscPhase_get", _wrap_ClockGenConfiguration_OscPhase_get, METH_O, NULL},
-	 { "ClockGenConfiguration_DutyCycle_set", _wrap_ClockGenConfiguration_DutyCycle_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_DutyCycle_get", _wrap_ClockGenConfiguration_DutyCycle_get, METH_O, NULL},
-	 { "ClockGenConfiguration_AlwaysOn_set", _wrap_ClockGenConfiguration_AlwaysOn_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_AlwaysOn_get", _wrap_ClockGenConfiguration_AlwaysOn_get, METH_O, NULL},
-	 { "ClockGenConfiguration_GenerateTrigger_set", _wrap_ClockGenConfiguration_GenerateTrigger_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_GenerateTrigger_get", _wrap_ClockGenConfiguration_GenerateTrigger_get, METH_O, NULL},
-	 { "ClockGenConfiguration_ClockPolarity_set", _wrap_ClockGenConfiguration_ClockPolarity_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_ClockPolarity_get", _wrap_ClockGenConfiguration_ClockPolarity_get, METH_O, NULL},
-	 { "ClockGenConfiguration_TrigPolarity_set", _wrap_ClockGenConfiguration_TrigPolarity_set, METH_VARARGS, NULL},
-	 { "ClockGenConfiguration_TrigPolarity_get", _wrap_ClockGenConfiguration_TrigPolarity_get, METH_O, NULL},
-	 { "new_ClockGenConfiguration", _wrap_new_ClockGenConfiguration, METH_NOARGS, NULL},
-	 { "delete_ClockGenConfiguration", _wrap_delete_ClockGenConfiguration, METH_O, NULL},
+	 { "ClockGenConfiguration_ClockFreq_set", _wrap_ClockGenConfiguration_ClockFreq_set, METH_VARARGS, "ClockGenConfiguration_ClockFreq_set(ClockGenConfiguration self, Frequency ClockFreq)"},
+	 { "ClockGenConfiguration_ClockFreq_get", _wrap_ClockGenConfiguration_ClockFreq_get, METH_O, "ClockGenConfiguration_ClockFreq_get(ClockGenConfiguration self) -> Frequency"},
+	 { "ClockGenConfiguration_OscPhase_set", _wrap_ClockGenConfiguration_OscPhase_set, METH_VARARGS, "ClockGenConfiguration_OscPhase_set(ClockGenConfiguration self, Degrees OscPhase)"},
+	 { "ClockGenConfiguration_OscPhase_get", _wrap_ClockGenConfiguration_OscPhase_get, METH_O, "ClockGenConfiguration_OscPhase_get(ClockGenConfiguration self) -> Degrees"},
+	 { "ClockGenConfiguration_DutyCycle_set", _wrap_ClockGenConfiguration_DutyCycle_set, METH_VARARGS, "ClockGenConfiguration_DutyCycle_set(ClockGenConfiguration self, Percent DutyCycle)"},
+	 { "ClockGenConfiguration_DutyCycle_get", _wrap_ClockGenConfiguration_DutyCycle_get, METH_O, "ClockGenConfiguration_DutyCycle_get(ClockGenConfiguration self) -> Percent"},
+	 { "ClockGenConfiguration_AlwaysOn_set", _wrap_ClockGenConfiguration_AlwaysOn_set, METH_VARARGS, "ClockGenConfiguration_AlwaysOn_set(ClockGenConfiguration self, bool AlwaysOn)"},
+	 { "ClockGenConfiguration_AlwaysOn_get", _wrap_ClockGenConfiguration_AlwaysOn_get, METH_O, "ClockGenConfiguration_AlwaysOn_get(ClockGenConfiguration self) -> bool"},
+	 { "ClockGenConfiguration_GenerateTrigger_set", _wrap_ClockGenConfiguration_GenerateTrigger_set, METH_VARARGS, "ClockGenConfiguration_GenerateTrigger_set(ClockGenConfiguration self, bool GenerateTrigger)"},
+	 { "ClockGenConfiguration_GenerateTrigger_get", _wrap_ClockGenConfiguration_GenerateTrigger_get, METH_O, "ClockGenConfiguration_GenerateTrigger_get(ClockGenConfiguration self) -> bool"},
+	 { "ClockGenConfiguration_ClockPolarity_set", _wrap_ClockGenConfiguration_ClockPolarity_set, METH_VARARGS, "ClockGenConfiguration_ClockPolarity_set(ClockGenConfiguration self, Polarity ClockPolarity)"},
+	 { "ClockGenConfiguration_ClockPolarity_get", _wrap_ClockGenConfiguration_ClockPolarity_get, METH_O, "ClockGenConfiguration_ClockPolarity_get(ClockGenConfiguration self) -> Polarity"},
+	 { "ClockGenConfiguration_TrigPolarity_set", _wrap_ClockGenConfiguration_TrigPolarity_set, METH_VARARGS, "ClockGenConfiguration_TrigPolarity_set(ClockGenConfiguration self, Polarity TrigPolarity)"},
+	 { "ClockGenConfiguration_TrigPolarity_get", _wrap_ClockGenConfiguration_TrigPolarity_get, METH_O, "ClockGenConfiguration_TrigPolarity_get(ClockGenConfiguration self) -> Polarity"},
+	 { "new_ClockGenConfiguration", _wrap_new_ClockGenConfiguration, METH_NOARGS, "new_ClockGenConfiguration() -> ClockGenConfiguration"},
+	 { "delete_ClockGenConfiguration", _wrap_delete_ClockGenConfiguration, METH_O, "delete_ClockGenConfiguration(ClockGenConfiguration self)"},
 	 { "ClockGenConfiguration_swigregister", ClockGenConfiguration_swigregister, METH_O, NULL},
 	 { "ClockGenConfiguration_swiginit", ClockGenConfiguration_swiginit, METH_VARARGS, NULL},
-	 { "new_Diagnostics", _wrap_new_Diagnostics, METH_O, NULL},
-	 { "Diagnostics_DiagnosticsEventSubscribe", _wrap_Diagnostics_DiagnosticsEventSubscribe, METH_VARARGS, NULL},
-	 { "Diagnostics_DiagnosticsEventUnsubscribe", _wrap_Diagnostics_DiagnosticsEventUnsubscribe, METH_VARARGS, NULL},
-	 { "Diagnostics_GetTemperature", _wrap_Diagnostics_GetTemperature, METH_VARARGS, NULL},
-	 { "Diagnostics_GetLoggedHours", _wrap_Diagnostics_GetLoggedHours, METH_VARARGS, NULL},
-	 { "Diagnostics_UpdateDiagnostics", _wrap_Diagnostics_UpdateDiagnostics, METH_O, NULL},
-	 { "Diagnostics_GetDiagnosticsData", _wrap_Diagnostics_GetDiagnosticsData, METH_O, NULL},
-	 { "delete_Diagnostics", _wrap_delete_Diagnostics, METH_O, NULL},
+	 { "new_Diagnostics", _wrap_new_Diagnostics, METH_O, "new_Diagnostics(std::shared_ptr< iMS::IMSSystem > ims) -> Diagnostics"},
+	 { "Diagnostics_DiagnosticsEventSubscribe", _wrap_Diagnostics_DiagnosticsEventSubscribe, METH_VARARGS, "Diagnostics_DiagnosticsEventSubscribe(Diagnostics self, int const message, IEventHandler handler)"},
+	 { "Diagnostics_DiagnosticsEventUnsubscribe", _wrap_Diagnostics_DiagnosticsEventUnsubscribe, METH_VARARGS, "Diagnostics_DiagnosticsEventUnsubscribe(Diagnostics self, int const message, IEventHandler handler)"},
+	 { "Diagnostics_GetTemperature", _wrap_Diagnostics_GetTemperature, METH_VARARGS, "Diagnostics_GetTemperature(Diagnostics self, iMS::Diagnostics::TARGET const & tgt) -> bool"},
+	 { "Diagnostics_GetLoggedHours", _wrap_Diagnostics_GetLoggedHours, METH_VARARGS, "Diagnostics_GetLoggedHours(Diagnostics self, iMS::Diagnostics::TARGET const & tgt) -> bool"},
+	 { "Diagnostics_UpdateDiagnostics", _wrap_Diagnostics_UpdateDiagnostics, METH_O, "Diagnostics_UpdateDiagnostics(Diagnostics self) -> bool"},
+	 { "Diagnostics_GetDiagnosticsData", _wrap_Diagnostics_GetDiagnosticsData, METH_O, "Diagnostics_GetDiagnosticsData(Diagnostics self) -> AnalogData"},
+	 { "Diagnostics_GetDiagnosticsDataStr", _wrap_Diagnostics_GetDiagnosticsDataStr, METH_O, "Diagnostics_GetDiagnosticsDataStr(Diagnostics self) -> AnalogDataStr"},
+	 { "delete_Diagnostics", _wrap_delete_Diagnostics, METH_O, "delete_Diagnostics(Diagnostics self)"},
 	 { "Diagnostics_swigregister", Diagnostics_swigregister, METH_O, NULL},
 	 { "Diagnostics_swiginit", Diagnostics_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
@@ -72947,7 +77708,7 @@ static swig_type_info _swigt__p_iMS__ListBaseT_iMS__ToneBuffer_t = {"_p_iMS__Lis
 static swig_type_info _swigt__p_iMS__ListBaseT_std__shared_ptrT_iMS__SequenceEntry_t_t = {"_p_iMS__ListBaseT_std__shared_ptrT_iMS__SequenceEntry_t_t", "iMS::ListBase< std::shared_ptr< iMS::SequenceEntry > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__ListBaseT_std__string_t = {"_p_iMS__ListBaseT_std__string_t", "iMS::ListBase< std::string > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__MHz = {"_p_iMS__MHz", "iMS::MHz *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_iMS__Percent = {"_p_iMS__Percent", "std::map< int,iMS::Percent >::mapped_type *|iMS::Percent *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__Percent = {"_p_iMS__Percent", "std::map< int,iMS::Percent >::mapped_type *|std::map< std::string,iMS::Percent >::mapped_type *|iMS::Percent *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__RFChannel = {"_p_iMS__RFChannel", "iMS::RFChannel *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__SequenceEntry = {"_p_iMS__SequenceEntry", "iMS::SequenceEntry *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__SignalPath = {"_p_iMS__SignalPath", "iMS::SignalPath *", 0, 0, (void*)0, 0};
@@ -72981,7 +77742,9 @@ static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "int8_t *|int_f
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_iMS__DDSScriptRegister_t = {"_p_std__allocatorT_iMS__DDSScriptRegister_t", "std::vector< iMS::DDSScriptRegister >::allocator_type *|std::allocator< iMS::DDSScriptRegister > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t = {"_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t", "std::map< int,iMS::Percent >::allocator_type *|std::allocator< std::pair< int const,iMS::Percent > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t = {"_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t", "std::map< std::string,iMS::Percent >::allocator_type *|std::allocator< std::pair< std::string const,iMS::Percent > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t = {"_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t", "std::vector< std::shared_ptr< iMS::IMSSystem > >::allocator_type *|std::allocator< std::shared_ptr< iMS::IMSSystem > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_std__string_t = {"_p_std__allocatorT_std__string_t", "std::vector< std::string >::allocator_type *|std::allocator< std::string > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_unsigned_char_t = {"_p_std__allocatorT_unsigned_char_t", "std::vector< unsigned char >::allocator_type *|std::allocator< unsigned char > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_int16_t_2_t = {"_p_std__arrayT_int16_t_2_t", "std::array< int16_t,2 > *|std::array< short,2 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_uint8_t_16_t = {"_p_std__arrayT_uint8_t_16_t", "std::array< uint8_t,16 > *|std::array< unsigned char,16 > *", 0, 0, (void*)0, 0};
@@ -72999,6 +77762,7 @@ static swig_type_info _swigt__p_std__dequeT_iMS__Image_t__const_iterator = {"_p_
 static swig_type_info _swigt__p_std__dequeT_iMS__Image_t__iterator = {"_p_std__dequeT_iMS__Image_t__iterator", "iMS::DequeBase< iMS::Image >::iterator *|std::deque< iMS::Image >::iterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__lessT_int_t = {"_p_std__lessT_int_t", "std::less< int > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__lessT_std__string_t = {"_p_std__lessT_std__string_t", "std::less< std::string > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator = {"_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator", "iMS::ListBase< iMS::CompensationFunction >::const_iterator *|std::list< iMS::CompensationFunction,std::allocator< iMS::CompensationFunction > >::const_iterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator = {"_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator", "iMS::ListBase< iMS::CompensationFunction >::iterator *|std::list< iMS::CompensationFunction,std::allocator< iMS::CompensationFunction > >::iterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator = {"_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator", "iMS::ListBase< iMS::CompensationPointSpecification >::const_iterator *|std::list< iMS::CompensationPointSpecification,std::allocator< iMS::CompensationPointSpecification > >::const_iterator *", 0, 0, (void*)0, 0};
@@ -73012,6 +77776,7 @@ static swig_type_info _swigt__p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t
 static swig_type_info _swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator = {"_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator", "iMS::ListBase< std::string >::const_iterator *|std::list< std::string,std::allocator< std::string > >::const_iterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator = {"_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator", "iMS::ListBase< std::string >::iterator *|std::list< std::string,std::allocator< std::string > >::iterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__mapT_int_iMS__Percent_t = {"_p_std__mapT_int_iMS__Percent_t", "std::map< int,iMS::Percent,std::less< int >,std::allocator< std::pair< int const,iMS::Percent > > > *|std::map< int,iMS::Percent > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__mapT_std__string_iMS__Percent_t = {"_p_std__mapT_std__string_iMS__Percent_t", "std::map< std::string,iMS::Percent,std::less< std::string >,std::allocator< std::pair< std::string const,iMS::Percent > > > *|std::map< std::string,iMS::Percent > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__ostream = {"_p_std__ostream", "std::ostream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_SequenceEntry_t = {"_p_std__shared_ptrT_SequenceEntry_t", "std::shared_ptr< SequenceEntry > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_iMS__IMSOption_t = {"_p_std__shared_ptrT_iMS__IMSOption_t", "std::shared_ptr< iMS::IMSOption > *", 0, 0, (void*)0, 0};
@@ -73021,6 +77786,7 @@ static swig_type_info _swigt__p_std__shared_ptrT_iMS__SequenceEntry_t = {"_p_std
 static swig_type_info _swigt__p_std__shared_ptrT_iMS__ToneSequenceEntry_t = {"_p_std__shared_ptrT_iMS__ToneSequenceEntry_t", "std::shared_ptr< iMS::ToneSequenceEntry > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_iMS__DDSScriptRegister_t = {"_p_std__vectorT_iMS__DDSScriptRegister_t", "DDSScript *|std::vector< iMS::DDSScriptRegister,std::allocator< iMS::DDSScriptRegister > > *|std::vector< iMS::DDSScriptRegister > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t = {"_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t", "std::vector< std::shared_ptr< iMS::IMSSystem >,std::allocator< std::shared_ptr< iMS::IMSSystem > > > *|std::vector< std::shared_ptr< iMS::IMSSystem > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_std__string_t = {"_p_std__vectorT_std__string_t", "std::vector< std::string,std::allocator< std::string > > *|std::vector< std::string > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_uint8_t_t = {"_p_std__vectorT_uint8_t_t", "std::vector< std::uint8_t,std::allocator< std::uint8_t > > *|std::vector< uint8_t > *|std::vector< unsigned char,std::allocator< unsigned char > > *|std::vector< unsigned char > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator", "swig::SwigPyIterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "uint8_t *|uint_fast8_t *|uint_least8_t *|unsigned char *", 0, 0, (void*)0, 0};
@@ -73142,7 +77908,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_size_type,
   &_swigt__p_std__allocatorT_iMS__DDSScriptRegister_t,
   &_swigt__p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t,
+  &_swigt__p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t,
   &_swigt__p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t,
+  &_swigt__p_std__allocatorT_std__string_t,
   &_swigt__p_std__allocatorT_unsigned_char_t,
   &_swigt__p_std__arrayT_int16_t_2_t,
   &_swigt__p_std__arrayT_uint8_t_16_t,
@@ -73160,6 +77928,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__dequeT_iMS__Image_t__iterator,
   &_swigt__p_std__invalid_argument,
   &_swigt__p_std__lessT_int_t,
+  &_swigt__p_std__lessT_std__string_t,
   &_swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator,
   &_swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator,
   &_swigt__p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator,
@@ -73173,6 +77942,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator,
   &_swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator,
   &_swigt__p_std__mapT_int_iMS__Percent_t,
+  &_swigt__p_std__mapT_std__string_iMS__Percent_t,
   &_swigt__p_std__ostream,
   &_swigt__p_std__shared_ptrT_SequenceEntry_t,
   &_swigt__p_std__shared_ptrT_iMS__IMSOption_t,
@@ -73182,6 +77952,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__shared_ptrT_iMS__ToneSequenceEntry_t,
   &_swigt__p_std__vectorT_iMS__DDSScriptRegister_t,
   &_swigt__p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t,
+  &_swigt__p_std__vectorT_std__string_t,
   &_swigt__p_std__vectorT_uint8_t_t,
   &_swigt__p_swig__SwigPyIterator,
   &_swigt__p_unsigned_char,
@@ -73303,7 +78074,9 @@ static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_iMS__DDSScriptRegister_t[] = {  {&_swigt__p_std__allocatorT_iMS__DDSScriptRegister_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t[] = {  {&_swigt__p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t[] = {  {&_swigt__p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t[] = {  {&_swigt__p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_std__string_t[] = {  {&_swigt__p_std__allocatorT_std__string_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_unsigned_char_t[] = {  {&_swigt__p_std__allocatorT_unsigned_char_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_int16_t_2_t[] = {  {&_swigt__p_std__arrayT_int16_t_2_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_uint8_t_16_t[] = {  {&_swigt__p_std__arrayT_uint8_t_16_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -73321,6 +78094,7 @@ static swig_cast_info _swigc__p_std__dequeT_iMS__Image_t__const_iterator[] = {  
 static swig_cast_info _swigc__p_std__dequeT_iMS__Image_t__iterator[] = {  {&_swigt__p_std__dequeT_iMS__Image_t__iterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__lessT_int_t[] = {  {&_swigt__p_std__lessT_int_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__lessT_std__string_t[] = {  {&_swigt__p_std__lessT_std__string_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator[] = {  {&_swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator[] = {  {&_swigt__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator[] = {  {&_swigt__p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator, 0, 0, 0},{0, 0, 0, 0}};
@@ -73334,6 +78108,7 @@ static swig_cast_info _swigc__p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t
 static swig_cast_info _swigc__p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator[] = {  {&_swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator[] = {  {&_swigt__p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__mapT_int_iMS__Percent_t[] = {  {&_swigt__p_std__mapT_int_iMS__Percent_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__mapT_std__string_iMS__Percent_t[] = {  {&_swigt__p_std__mapT_std__string_iMS__Percent_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__ostream[] = {  {&_swigt__p_std__ostream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_SequenceEntry_t[] = {  {&_swigt__p_std__shared_ptrT_SequenceEntry_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_iMS__IMSOption_t[] = {  {&_swigt__p_std__shared_ptrT_iMS__IMSOption_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -73343,6 +78118,7 @@ static swig_cast_info _swigc__p_std__shared_ptrT_iMS__SequenceEntry_t[] = {  {&_
 static swig_cast_info _swigc__p_std__shared_ptrT_iMS__ToneSequenceEntry_t[] = {  {&_swigt__p_std__shared_ptrT_iMS__ToneSequenceEntry_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_iMS__DDSScriptRegister_t[] = {  {&_swigt__p_std__vectorT_iMS__DDSScriptRegister_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t[] = {  {&_swigt__p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_std__string_t[] = {  {&_swigt__p_std__vectorT_std__string_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_uint8_t_t[] = {  {&_swigt__p_std__vectorT_uint8_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__SwigPyIterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
@@ -73464,7 +78240,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_size_type,
   _swigc__p_std__allocatorT_iMS__DDSScriptRegister_t,
   _swigc__p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t,
+  _swigc__p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t,
   _swigc__p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t,
+  _swigc__p_std__allocatorT_std__string_t,
   _swigc__p_std__allocatorT_unsigned_char_t,
   _swigc__p_std__arrayT_int16_t_2_t,
   _swigc__p_std__arrayT_uint8_t_16_t,
@@ -73482,6 +78260,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__dequeT_iMS__Image_t__iterator,
   _swigc__p_std__invalid_argument,
   _swigc__p_std__lessT_int_t,
+  _swigc__p_std__lessT_std__string_t,
   _swigc__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator,
   _swigc__p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator,
   _swigc__p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator,
@@ -73495,6 +78274,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator,
   _swigc__p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator,
   _swigc__p_std__mapT_int_iMS__Percent_t,
+  _swigc__p_std__mapT_std__string_iMS__Percent_t,
   _swigc__p_std__ostream,
   _swigc__p_std__shared_ptrT_SequenceEntry_t,
   _swigc__p_std__shared_ptrT_iMS__IMSOption_t,
@@ -73504,6 +78284,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__shared_ptrT_iMS__ToneSequenceEntry_t,
   _swigc__p_std__vectorT_iMS__DDSScriptRegister_t,
   _swigc__p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t,
+  _swigc__p_std__vectorT_std__string_t,
   _swigc__p_std__vectorT_uint8_t_t,
   _swigc__p_swig__SwigPyIterator,
   _swigc__p_unsigned_char,
