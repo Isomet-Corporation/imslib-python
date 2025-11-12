@@ -7,7 +7,7 @@ class iMSScanner:
 
     def scan(self, auto_select=False, match_port=None, index=None):
         print("Scanning for iMS Systems . . .")
-        systems = self.conn.scan()
+        systems = self.conn.Scan()
 
         if len(systems) == 0:
             print("No systems found.")
@@ -58,6 +58,55 @@ class iMSScanner:
         print("Using iMS System:", self.ims.ConnPort())
         return True
 
+    def scan_interface(self, interface, address_hints=None, auto_select=True):
+        """
+        Scan a single interface for iMS systems.
+
+        Args:
+            interface (str): Interface name, e.g. "usb0" or "eth1".
+            address_hints (list[str], optional): Address or range strings to limit the scan.
+            auto_select (bool): If True, automatically select the first found system.
+
+        Returns:
+            bool: True if a system was found and selected, False otherwise.
+        """
+        address_hints = address_hints or []
+        print(f"Scanning interface '{interface}' . . .")
+
+        sys = self.conn.Scan(interface, address_hints)
+        if sys:
+            if auto_select:
+                self.ims = sys
+                print("Found iMS System:", sys.ConnPort())
+            return True
+        else:
+            print("No system found on interface:", interface)
+            return False
+
+    def find(self, interface, system_id, address_hints=None):
+        """
+        Find a specific iMS system by ID.
+
+        Args:
+            interface (str): Interface name, e.g. "usb0".
+            system_id (str): Target system ID (matches IMSSystem.ConnPort()).
+            address_hints (list[str], optional): Address or range strings to narrow the search.
+
+        Returns:
+            bool: True if found and selected, False otherwise.
+        """
+        address_hints = address_hints or []
+        print(f"Searching for system '{system_id}' on '{interface}' . . .")
+
+        sys = self.conn.Find(interface, system_id, address_hints)
+        if sys:
+            self.ims = sys
+            print("Found and selected system:", sys.ConnPort())
+            return True
+        else:
+            print("System not found.")
+            return False
+        
     def get_system(self):
         return self.ims
 

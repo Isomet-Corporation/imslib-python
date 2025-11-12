@@ -27,12 +27,31 @@
 
 namespace iMS {
 
+%rename(_Scan) ConnectionList::Scan();
+%rename(_ScanInterface) ConnectionList::Scan(const std::string&, const std::vector<std::string>& = {});
+
+%extend ConnectionList {
+    %pythoncode %{
+    def Scan(self, *args):
+        """
+        Scan() -> list[IMSSystem]
+        Scan(interfaceName: str, addressHints: list[str] = []) -> IMSSystem or None
+        """
+        if not args:
+            return self._Scan()  # C++ Scan()
+        else:
+            return self._ScanInterface(*args)
+    %}    
+}
   class ConnectionList
   {
   public:
-    ConnectionConfig& config(const std::string& module);
-    const ListBase<std::string>& modules() const;
-    std::vector<std::shared_ptr<IMSSystem>> scan();
+    ConnectionList(unsigned int max_discover_timeout_ms = 500);
+    ConnectionConfig& Config(const std::string& module);
+    const ListBase<std::string>& Modules() const;
+    std::vector<std::shared_ptr<IMSSystem>> Scan();
+    std::shared_ptr<IMSSystem> Scan(const std::string&, const std::vector<std::string>& = {});
+    std::shared_ptr<IMSSystem> Find(const std::string&, const std::string&, const std::vector<std::string>& = {});
   };
 }
 

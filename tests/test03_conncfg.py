@@ -7,7 +7,7 @@ print("Using iMS Library version ", ver.GetVersion())
 
 def iMS_Scan(connList):
     print("Scanning for iMS Systems . . .")
-    systems = connList.scan()
+    systems = connList.Scan()
     if (len(systems) == 0):
         print("No systems found.")
 
