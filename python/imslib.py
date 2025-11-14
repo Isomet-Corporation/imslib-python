@@ -3334,11 +3334,28 @@ class CS_RS422(object):
             _self = self
         _imslib.CS_RS422_swiginit(self, _imslib.new_CS_RS422(_self, *args))
     __swig_destroy__ = _imslib.delete_CS_RS422
+    ParitySetting_NONE = _imslib.CS_RS422_ParitySetting_NONE
+    
+    ParitySetting_ODD = _imslib.CS_RS422_ParitySetting_ODD
+    
+    ParitySetting_EVEN = _imslib.CS_RS422_ParitySetting_EVEN
+    
+    DataBitsSetting_BITS_7 = _imslib.CS_RS422_DataBitsSetting_BITS_7
+    
+    DataBitsSetting_BITS_8 = _imslib.CS_RS422_DataBitsSetting_BITS_8
+    
+    StopBitsSetting_BITS_1 = _imslib.CS_RS422_StopBitsSetting_BITS_1
+    
+    StopBitsSetting_BITS_2 = _imslib.CS_RS422_StopBitsSetting_BITS_2
+    
 
     def Ident(self):
         r"""Ident(CS_RS422 self) -> std::string const &"""
         return _imslib.CS_RS422_Ident(self)
     baud = property(_imslib.CS_RS422_baud_get, _imslib.CS_RS422_baud_set, doc=r"""baud : unsigned int""")
+    parity = property(_imslib.CS_RS422_parity_get, _imslib.CS_RS422_parity_set, doc=r"""parity : iMS::CS_RS422::ParitySetting""")
+    databits = property(_imslib.CS_RS422_databits_get, _imslib.CS_RS422_databits_set, doc=r"""databits : iMS::CS_RS422::DataBitsSetting""")
+    stopbits = property(_imslib.CS_RS422_stopbits_get, _imslib.CS_RS422_stopbits_set, doc=r"""stopbits : iMS::CS_RS422::StopBitsSetting""")
     def __disown__(self):
         self.this.disown()
         _imslib.disown_CS_RS422(self)
@@ -3600,6 +3617,10 @@ class ConnectionList(object):
     def Modules(self):
         r"""Modules(ConnectionList self) -> StringList"""
         return _imslib.ConnectionList_Modules(self)
+
+    def Settings(self, module, settings):
+        r"""Settings(ConnectionList self, std::string const & module, iMS::IConnectionSettings const * settings)"""
+        return _imslib.ConnectionList_Settings(self, module, settings)
 
     def _Scan(self):
         r"""_Scan(ConnectionList self) -> IMSList"""

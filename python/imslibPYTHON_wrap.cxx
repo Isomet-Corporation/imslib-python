@@ -8388,6 +8388,18 @@ SWIG_AsVal_bool (PyObject *obj, bool *val)
 #define iMS_CS_RS422_baud_set(self_, val_) self_->BaudRate(val_)
   
 
+#define iMS_CS_RS422_parity_get(self_) self_->Parity()
+#define iMS_CS_RS422_parity_set(self_, val_) self_->Parity(val_)
+  
+
+#define iMS_CS_RS422_databits_get(self_) self_->DataBits()
+#define iMS_CS_RS422_databits_set(self_, val_) self_->DataBits(val_)
+  
+
+#define iMS_CS_RS422_stopbits_get(self_) self_->StopBits()
+#define iMS_CS_RS422_stopbits_set(self_, val_) self_->StopBits(val_)
+  
+
 SWIGINTERN int
 SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
 {
@@ -44846,6 +44858,192 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_CS_RS422_parity_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  iMS::CS_RS422::ParitySetting arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "CS_RS422_parity_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_parity_set" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CS_RS422_parity_set" "', argument " "2"" of type '" "iMS::CS_RS422::ParitySetting""'");
+  } 
+  arg2 = static_cast< iMS::CS_RS422::ParitySetting >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_CS_RS422_parity_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CS_RS422_parity_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::CS_RS422::ParitySetting result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_parity_get" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::CS_RS422::ParitySetting)iMS_CS_RS422_parity_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CS_RS422_databits_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  iMS::CS_RS422::DataBitsSetting arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "CS_RS422_databits_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_databits_set" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CS_RS422_databits_set" "', argument " "2"" of type '" "iMS::CS_RS422::DataBitsSetting""'");
+  } 
+  arg2 = static_cast< iMS::CS_RS422::DataBitsSetting >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_CS_RS422_databits_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CS_RS422_databits_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::CS_RS422::DataBitsSetting result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_databits_get" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::CS_RS422::DataBitsSetting)iMS_CS_RS422_databits_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CS_RS422_stopbits_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  iMS::CS_RS422::StopBitsSetting arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "CS_RS422_stopbits_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_stopbits_set" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CS_RS422_stopbits_set" "', argument " "2"" of type '" "iMS::CS_RS422::StopBitsSetting""'");
+  } 
+  arg2 = static_cast< iMS::CS_RS422::StopBitsSetting >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_CS_RS422_stopbits_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CS_RS422_stopbits_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::CS_RS422::StopBitsSetting result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__CS_RS422, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CS_RS422_stopbits_get" "', argument " "1"" of type '" "iMS::CS_RS422 *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::CS_RS422 * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::CS_RS422::StopBitsSetting)iMS_CS_RS422_stopbits_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_disown_CS_RS422(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::CS_RS422 *arg1 = (iMS::CS_RS422 *) 0 ;
@@ -47989,6 +48187,55 @@ SWIGINTERN PyObject *_wrap_ConnectionList_Modules(PyObject *self, PyObject *args
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ListBaseT_std__string_t, 0 |  0 );
   return resultobj;
 fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ConnectionList_Settings(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ConnectionList *arg1 = (iMS::ConnectionList *) 0 ;
+  std::string *arg2 = 0 ;
+  iMS::IConnectionSettings *arg3 = (iMS::IConnectionSettings *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ConnectionList_Settings", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ConnectionList, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ConnectionList_Settings" "', argument " "1"" of type '" "iMS::ConnectionList *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ConnectionList * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ConnectionList_Settings" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ConnectionList_Settings" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_iMS__IConnectionSettings, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ConnectionList_Settings" "', argument " "3"" of type '" "iMS::IConnectionSettings const *""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::IConnectionSettings * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->Settings((std::string const &)*arg2,(iMS::IConnectionSettings const *)arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
   return NULL;
 }
 
@@ -76716,6 +76963,12 @@ static PyMethodDef SwigMethods[] = {
 	 { "CS_RS422_Ident", _wrap_CS_RS422_Ident, METH_O, "CS_RS422_Ident(CS_RS422 self) -> std::string const &"},
 	 { "CS_RS422_baud_set", _wrap_CS_RS422_baud_set, METH_VARARGS, "CS_RS422_baud_set(CS_RS422 self, unsigned int baud)"},
 	 { "CS_RS422_baud_get", _wrap_CS_RS422_baud_get, METH_O, "CS_RS422_baud_get(CS_RS422 self) -> unsigned int"},
+	 { "CS_RS422_parity_set", _wrap_CS_RS422_parity_set, METH_VARARGS, "CS_RS422_parity_set(CS_RS422 self, iMS::CS_RS422::ParitySetting parity)"},
+	 { "CS_RS422_parity_get", _wrap_CS_RS422_parity_get, METH_O, "CS_RS422_parity_get(CS_RS422 self) -> iMS::CS_RS422::ParitySetting"},
+	 { "CS_RS422_databits_set", _wrap_CS_RS422_databits_set, METH_VARARGS, "CS_RS422_databits_set(CS_RS422 self, iMS::CS_RS422::DataBitsSetting databits)"},
+	 { "CS_RS422_databits_get", _wrap_CS_RS422_databits_get, METH_O, "CS_RS422_databits_get(CS_RS422 self) -> iMS::CS_RS422::DataBitsSetting"},
+	 { "CS_RS422_stopbits_set", _wrap_CS_RS422_stopbits_set, METH_VARARGS, "CS_RS422_stopbits_set(CS_RS422 self, iMS::CS_RS422::StopBitsSetting stopbits)"},
+	 { "CS_RS422_stopbits_get", _wrap_CS_RS422_stopbits_get, METH_O, "CS_RS422_stopbits_get(CS_RS422 self) -> iMS::CS_RS422::StopBitsSetting"},
 	 { "disown_CS_RS422", _wrap_disown_CS_RS422, METH_O, NULL},
 	 { "CS_RS422_swigregister", CS_RS422_swigregister, METH_O, NULL},
 	 { "CS_RS422_swiginit", CS_RS422_swiginit, METH_VARARGS, NULL},
@@ -76808,6 +77061,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_ConnectionList", _wrap_new_ConnectionList, METH_VARARGS, "ConnectionList(unsigned int max_discover_timeout_ms=500)"},
 	 { "ConnectionList_Config", _wrap_ConnectionList_Config, METH_VARARGS, "ConnectionList_Config(ConnectionList self, std::string const & module) -> ConnectionConfig"},
 	 { "ConnectionList_Modules", _wrap_ConnectionList_Modules, METH_O, "ConnectionList_Modules(ConnectionList self) -> StringList"},
+	 { "ConnectionList_Settings", _wrap_ConnectionList_Settings, METH_VARARGS, "ConnectionList_Settings(ConnectionList self, std::string const & module, iMS::IConnectionSettings const * settings)"},
 	 { "ConnectionList__Scan", _wrap_ConnectionList__Scan, METH_O, "ConnectionList__Scan(ConnectionList self) -> IMSList"},
 	 { "ConnectionList__ScanInterface", _wrap_ConnectionList__ScanInterface, METH_VARARGS, "ConnectionList__ScanInterface(ConnectionList self, std::string const & arg2, StringVector arg3={}) -> std::shared_ptr< iMS::IMSSystem >"},
 	 { "ConnectionList_Find", _wrap_ConnectionList_Find, METH_VARARGS, "ConnectionList_Find(ConnectionList self, std::string const & arg2, std::string const & arg3, StringVector arg4={}) -> std::shared_ptr< iMS::IMSSystem >"},
@@ -78787,6 +79041,13 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "DAC_CURRENT_REFERENCE_EIGHTH_SCALE",SWIG_From_int(static_cast< int >(iMS::DAC_CURRENT_REFERENCE::EIGHTH_SCALE)));
   SWIG_Python_SetConstant(d, "Polarity_NORMAL",SWIG_From_int(static_cast< int >(Polarity::NORMAL)));
   SWIG_Python_SetConstant(d, "Polarity_INVERSE",SWIG_From_int(static_cast< int >(Polarity::INVERSE)));
+  SWIG_Python_SetConstant(d, "CS_RS422_ParitySetting_NONE",SWIG_From_int(static_cast< int >(iMS::CS_RS422::ParitySetting::NONE)));
+  SWIG_Python_SetConstant(d, "CS_RS422_ParitySetting_ODD",SWIG_From_int(static_cast< int >(iMS::CS_RS422::ParitySetting::ODD)));
+  SWIG_Python_SetConstant(d, "CS_RS422_ParitySetting_EVEN",SWIG_From_int(static_cast< int >(iMS::CS_RS422::ParitySetting::EVEN)));
+  SWIG_Python_SetConstant(d, "CS_RS422_DataBitsSetting_BITS_7",SWIG_From_int(static_cast< int >(iMS::CS_RS422::DataBitsSetting::BITS_7)));
+  SWIG_Python_SetConstant(d, "CS_RS422_DataBitsSetting_BITS_8",SWIG_From_int(static_cast< int >(iMS::CS_RS422::DataBitsSetting::BITS_8)));
+  SWIG_Python_SetConstant(d, "CS_RS422_StopBitsSetting_BITS_1",SWIG_From_int(static_cast< int >(iMS::CS_RS422::StopBitsSetting::BITS_1)));
+  SWIG_Python_SetConstant(d, "CS_RS422_StopBitsSetting_BITS_2",SWIG_From_int(static_cast< int >(iMS::CS_RS422::StopBitsSetting::BITS_2)));
   SWIG_Python_SetConstant(d, "FileSystemTypes_NO_FILE",SWIG_From_int(static_cast< int >(iMS::FileSystemTypes::NO_FILE)));
   SWIG_Python_SetConstant(d, "FileSystemTypes_COMPENSATION_TABLE",SWIG_From_int(static_cast< int >(iMS::FileSystemTypes::COMPENSATION_TABLE)));
   SWIG_Python_SetConstant(d, "FileSystemTypes_TONE_BUFFER",SWIG_From_int(static_cast< int >(iMS::FileSystemTypes::TONE_BUFFER)));

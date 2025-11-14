@@ -203,6 +203,9 @@ namespace iMS {
 //%ignore iMS::CS_RS422::ProcessData() const;
 
 %attribute(iMS::CS_RS422, unsigned int, baud, BaudRate, BaudRate);
+%attribute(iMS::CS_RS422, iMS::CS_RS422::ParitySetting, parity, Parity, Parity);
+%attribute(iMS::CS_RS422, iMS::CS_RS422::DataBitsSetting, databits, DataBits, DataBits);
+%attribute(iMS::CS_RS422, iMS::CS_RS422::StopBitsSetting, stopbits, StopBits, StopBits);
 
 namespace iMS {
 
@@ -214,12 +217,32 @@ namespace iMS {
         CS_RS422(std::vector<std::uint8_t> process_data);
 	~CS_RS422();
 
-	void BaudRate(const unsigned int& baud_rate);
-	unsigned int BaudRate() const;
+        enum class ParitySetting {
+            NONE,
+            ODD,
+            EVEN
+        };
 
-		const std::string& Ident() const;
-//		void ProcessData(const std::vector<std::uint8_t>& data);
-//		const std::vector<std::uint8_t>& ProcessData() const;
+        enum class DataBitsSetting {
+            BITS_7,
+            BITS_8
+        };
+
+        enum class StopBitsSetting {
+            BITS_1,
+            BITS_2
+        };
+
+	void BaudRate(unsigned int baud_rate);
+	unsigned int BaudRate() const;
+    void DataBits(DataBitsSetting data_bits);
+    DataBitsSetting DataBits() const;        
+    void Parity(ParitySetting parity);
+    ParitySetting Parity() const;   
+    void StopBits(StopBitsSetting stop_bits);
+    StopBitsSetting StopBits() const;    
+
+        const std::string& Ident() const;
   };
 }
 

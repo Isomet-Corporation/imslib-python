@@ -49,6 +49,7 @@ namespace iMS {
     ConnectionList(unsigned int max_discover_timeout_ms = 500);
     ConnectionConfig& Config(const std::string& module);
     const ListBase<std::string>& Modules() const;
+    void Settings(const std::string& module, const IConnectionSettings* settings);
     std::vector<std::shared_ptr<IMSSystem>> Scan();
     std::shared_ptr<IMSSystem> Scan(const std::string&, const std::vector<std::string>& = {});
     std::shared_ptr<IMSSystem> Find(const std::string&, const std::string&, const std::vector<std::string>& = {});

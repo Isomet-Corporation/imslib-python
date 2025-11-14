@@ -1,8 +1,11 @@
 import imslib
 
 class iMSScanner:
-    def __init__(self):
+    def __init__(self, settings=None):
         self.conn = imslib.ConnectionList()
+        if isinstance(settings, dict):
+            for k, v in settings.items():
+                self.conn.Settings(k, v)
         self.ims = None
 
     def scan(self, auto_select=False, match_port=None, index=None):
