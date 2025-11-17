@@ -42,5 +42,5 @@ fi
 echo "All wheels are in ./wheelhouse"
 
 echo "Deactivating virtual environment"
-source build-env/bin/deactivate
+deactivate
 

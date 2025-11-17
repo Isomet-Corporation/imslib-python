@@ -42,14 +42,11 @@ message(STATUS "Conan toolchain at ${CONAN_TOOLCHAIN_FILE}")
 include(${CONAN_TOOLCHAIN_FILE})
 
 # --- SWIG / Python ----------------------------------------------------------
-find_package(Python3 3.8 COMPONENTS Interpreter Development REQUIRED)
+find_package(Python3 3.8 REQUIRED COMPONENTS Interpreter Development.Module)
 if(Python3_FOUND)
-  # Override Python3_LIBRARIES to point to the stable ABI lib
-  set(Python3_LIBRARIES python3)
-
   message(STATUS "Found Python3 at ${Python3_EXECUTABLE}")
-  message(STATUS "Python3_LIBRARIES: ${Python3_LIBRARIES}")
-  message(STATUS "Python3_LIBRARY_DIRS: ${Python3_LIBRARY_DIRS}")
+  message(STATUS "Python include dirs: ${Python3_INCLUDE_DIRS}")
+  message(STATUS "Python3 Library: ${Python3_LIBRARY}")
 else()
   message(FATAL_ERROR "No Python3 installation found")
 endif()
@@ -88,13 +85,6 @@ endif()
 ##
 find_package(Boost REQUIRED)
 
-# Set source and include directories
-include_directories(
-    ${CMAKE_CURRENT_SOURCE_DIR}
-    ${Python3_INCLUDE_DIRS}
-    ${CMAKE_CURRENT_SOURCE_DIR}/${IMS_LIB_SUBMODULE}/include
-)
-
 # SWIG options:
 #  -c++        : C++ mode
 #  -threads    : Python GIL-safe callback support
@@ -111,17 +101,24 @@ set_property(SOURCE ${SWIG_INTERFACE} PROPERTY CPLUSPLUS ON)
 
 set (UseSWIG_TARGET_NAME_PREFERENCE STANDARD)
 swig_add_library(${SWIG_MODULE_NAME}
-    TYPE SHARED
+    TYPE MODULE
     LANGUAGE python
     SOURCES ${SWIG_INTERFACE}
 ) 
+
+# Set source and include directories
+target_include_directories(${SWIG_MODULE_NAME} PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${Python3_INCLUDE_DIRS}
+    ${CMAKE_CURRENT_SOURCE_DIR}/${IMS_LIB_SUBMODULE}/include
+)
 
 # Add iMS Library directly to this module
 set(IMS_TARGET_NAME ${SWIG_MODULE_NAME})
 add_subdirectory(${IMS_LIB_SUBMODULE})
 
 target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARY_DIRS})
-target_link_libraries(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARIES} ${IMS_LIBRARY_NAME})
+target_link_libraries(${SWIG_MODULE_NAME} PRIVATE Python3::Module ${IMS_LIBRARY_NAME})
 
 if(MSVC)
     add_compile_options(/wd8029)  # Disable warning MSB8029 about building in Temporary Folder
