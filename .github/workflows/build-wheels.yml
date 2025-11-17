@@ -1,0 +1,100 @@
+name: Build and Publish Wheels
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build_wheels:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    env:
+      # Build ABI3 wheel only once per platform/architecture
+      CIBW_BUILD: "cp38-abi3"
+
+      # Skip interpreters we do not use
+      CIBW_SKIP: >
+        pp* *-musllinux* cp39-* cp310-* cp311-* cp312-* cp313-*
+
+      # ARCH selection per platform below
+      CIBW_ARCHS_LINUX: "x86_64 i686 aarch64"
+      CIBW_ARCHS_WINDOWS: "AMD64"
+      CIBW_ARCHS_MACOS: "x86_64 arm64"
+
+      # General env
+      CIBW_ENVIRONMENT: >
+        CMAKE_BUILD_PARALLEL_LEVEL=4
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install python build tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install cibuildwheel scikit-build-core ninja cmake conan swig delocate delvewheel auditwheel
+
+      # --- Linux deps ---
+      - name: Install Linux dependencies
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y swig gcc-multilib g++-multilib
+
+      # --- macOS deps ---
+      - name: Install macOS dependencies
+        if: matrix.os == 'macos-latest'
+        run: brew install swig
+
+      # No special Windows deps needed → cibuildwheel handles toolchain
+
+      - name: Build wheels
+        run: python -m cibuildwheel --output-dir wheelhouse
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}
+          path: wheelhouse/*.whl
+
+  publish_pypi:
+    name: Publish to PyPI
+    needs: build_wheels
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@v1.8.11
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+
+  release:
+    name: Create GitHub Release
+    needs: build_wheels
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/**/*.whl

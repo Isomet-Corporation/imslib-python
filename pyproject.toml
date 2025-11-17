@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "scikit-build-core>=0.11",
+    "setuptools>=61",
+    "wheel",
+    "conan",
+    "swig<=4.3.1",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "imslib"
+version = "2.0.2"
+description = "Python bindings for iMS devices"
+authors = [ { name = "Isomet Corporation", email = "isomet@isomet.com" } ]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: C++",
+]
+
+[project.urls]
+Homepage = "https://github.com/Isomet-Corporation/imslib-python"
+
+[tool.scikit-build]
+cmake.version = ">=3.15"
+cmake.build-type = "Release"
+wheel.packages = ["imslib"]
+wheel.py-api = "cp38"
