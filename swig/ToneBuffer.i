@@ -16,7 +16,7 @@ namespace iMS {
 }
 
 %attributeref(iMS::ToneBuffer, std::string, Name, Name);
-%attribute2(iMS::ToneBuffer, %arg(const std::array<uint8_t, 16>), GetUUID, UUID);
+%attributeval(iMS::ToneBuffer, %arg(const std::array<uint8_t, 16>), GetUUID, UUID);
 
 namespace iMS {
 

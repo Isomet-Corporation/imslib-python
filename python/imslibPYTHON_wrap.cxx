@@ -8207,12 +8207,10 @@ SWIGINTERN bool iMS_RFChannel___lt__(iMS::RFChannel *self,iMS::RFChannel const &
 #define iMS_SweepTone_end_set(self_, val_) self_->end() = val_
   
 
-#define iMS_SweepTone_up_ramp_get(self_) self_->up_ramp()
-#define iMS_SweepTone_up_ramp_set(self_, val_) self_->up_ramp() = val_
+#define iMS_SweepTone_UpRamp_get(self_) new std::chrono::duration<double,std::ratio<1> >(self_->up_ramp())
   
 
-#define iMS_SweepTone_down_ramp_get(self_) self_->down_ramp()
-#define iMS_SweepTone_down_ramp_set(self_, val_) self_->down_ramp() = val_
+#define iMS_SweepTone_DownRamp_get(self_) new std::chrono::duration<double,std::ratio<1> >(self_->down_ramp())
   
 
 #define iMS_SweepTone_n_steps_get(self_) self_->n_steps()
@@ -8573,7 +8571,7 @@ SWIGINTERN void std_vector_Sl_std_shared_ptr_Sl_iMS_IMSSystem_Sg__Sg__insert__SW
 #define iMS_FileSystemTableEntry_IsDefault_get(self_) self_->IsDefault()
   
 
-#define iMS_FileSystemTableEntry_Name_get(self_) self_->Name()
+#define iMS_FileSystemTableEntry_Name_get(self_) *new std::string(self_->Name())
   
 
 #define iMS_FileSystemTableViewer_Entries_get(self_) self_->Entries()
@@ -9189,7 +9187,7 @@ SWIGINTERN bool iMS_ImageTableViewer___bool__(iMS::ImageTableViewer *self){
 #define iMS_ToneBuffer_Name_set(self_, val_) self_->Name() = val_
   
 
-#define iMS_ToneBuffer_GetUUID_get(self_) &self_->UUID()
+#define iMS_ToneBuffer_GetUUID_get(self_) new const std::array<uint8_t,16>(self_->UUID())
   
 SWIGINTERN iMS::TBEntry &iMS_ToneBuffer__getitem(iMS::ToneBuffer *self,size_t i){
             if (i >= self->Size())
@@ -39768,8 +39766,8 @@ SWIGINTERN PyObject *_wrap_new_SweepTone__SWIG_2(PyObject *self, Py_ssize_t nobj
   PyObject *resultobj = 0;
   iMS::FAP arg1 ;
   iMS::FAP arg2 ;
-  std::chrono::duration< double,std::ratio< 1,1 > > arg3 ;
-  std::chrono::duration< double,std::ratio< 1,1 > > arg4 ;
+  std::chrono::duration< double,std::ratio< 1,1 > > *arg3 = 0 ;
+  std::chrono::duration< double,std::ratio< 1,1 > > *arg4 = 0 ;
   int arg5 ;
   iMS::ENHANCED_TONE_MODE arg6 ;
   iMS::DAC_CURRENT_REFERENCE arg7 ;
@@ -39777,9 +39775,9 @@ SWIGINTERN PyObject *_wrap_new_SweepTone__SWIG_2(PyObject *self, Py_ssize_t nobj
   int res1 = 0 ;
   void *argp2 ;
   int res2 = 0 ;
-  void *argp3 ;
+  void *argp3 = 0 ;
   int res3 = 0 ;
-  void *argp4 ;
+  void *argp4 = 0 ;
   int res4 = 0 ;
   int val5 ;
   int ecode5 = 0 ;
@@ -39817,32 +39815,22 @@ SWIGINTERN PyObject *_wrap_new_SweepTone__SWIG_2(PyObject *self, Py_ssize_t nobj
       if (SWIG_IsNewObj(res2)) delete temp;
     }
   }
-  {
-    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_std__chrono__durationT_double_t,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "new_SweepTone" "', argument " "3"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > >""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_SweepTone" "', argument " "3"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > >""'");
-    } else {
-      std::chrono::duration< double,std::ratio< 1,1 > > * temp = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_std__chrono__durationT_double_t,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "new_SweepTone" "', argument " "3"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
   }
-  {
-    res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_std__chrono__durationT_double_t,  0  | 0);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "new_SweepTone" "', argument " "4"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > >""'"); 
-    }  
-    if (!argp4) {
-      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_SweepTone" "', argument " "4"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > >""'");
-    } else {
-      std::chrono::duration< double,std::ratio< 1,1 > > * temp = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp4);
-      arg4 = *temp;
-      if (SWIG_IsNewObj(res4)) delete temp;
-    }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_SweepTone" "', argument " "3"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
   }
+  arg3 = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_std__chrono__durationT_double_t,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "new_SweepTone" "', argument " "4"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_SweepTone" "', argument " "4"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
+  }
+  arg4 = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp4);
   ecode5 = SWIG_AsVal_int(swig_obj[4], &val5);
   if (!SWIG_IsOK(ecode5)) {
     SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_SweepTone" "', argument " "5"" of type '" "int""'");
@@ -39860,7 +39848,7 @@ SWIGINTERN PyObject *_wrap_new_SweepTone__SWIG_2(PyObject *self, Py_ssize_t nobj
   arg7 = static_cast< iMS::DAC_CURRENT_REFERENCE >(val7);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::SweepTone *)new iMS::SweepTone(SWIG_STD_MOVE(arg1),SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),SWIG_STD_MOVE(arg4),arg5,arg6,arg7);
+    result = (iMS::SweepTone *)new iMS::SweepTone(SWIG_STD_MOVE(arg1),SWIG_STD_MOVE(arg2),*arg3,*arg4,arg5,arg6,arg7);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__SweepTone, SWIG_POINTER_NEW |  0 );
@@ -39934,10 +39922,12 @@ SWIGINTERN PyObject *_wrap_new_SweepTone(PyObject *self, PyObject *args) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_iMS__FAP, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_NO_NULL | 0);
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_NO_NULL);
         _v = SWIG_CheckState(res);
         if (_v) {
-          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_NO_NULL | 0);
+          void *vptr = 0;
+          int res = SWIG_ConvertPtr(argv[3], &vptr, SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_NO_NULL);
           _v = SWIG_CheckState(res);
           if (_v) {
             {
@@ -39970,7 +39960,7 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    iMS::SweepTone::SweepTone()\n"
     "    iMS::SweepTone::SweepTone(iMS::FAP)\n"
-    "    iMS::SweepTone::SweepTone(iMS::FAP,iMS::FAP,std::chrono::duration< double,std::ratio< 1,1 > >,std::chrono::duration< double,std::ratio< 1,1 > >,int,iMS::ENHANCED_TONE_MODE,iMS::DAC_CURRENT_REFERENCE)\n"
+    "    iMS::SweepTone::SweepTone(iMS::FAP,iMS::FAP,std::chrono::duration< double,std::ratio< 1,1 > > &,std::chrono::duration< double,std::ratio< 1,1 > > &,int,iMS::ENHANCED_TONE_MODE,iMS::DAC_CURRENT_REFERENCE)\n"
     "    iMS::SweepTone::SweepTone(iMS::SweepTone const &)\n");
   return 0;
 }
@@ -40106,44 +40096,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_SweepTone_up_ramp_set(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  iMS::SweepTone *arg1 = (iMS::SweepTone *) 0 ;
-  std::chrono::duration< double,std::ratio< 1,1 > > *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SweepTone_up_ramp_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__SweepTone, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_up_ramp_set" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
-  }
-  arg1 = reinterpret_cast< iMS::SweepTone * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__chrono__durationT_double_t,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SweepTone_up_ramp_set" "', argument " "2"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "SweepTone_up_ramp_set" "', argument " "2"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
-  }
-  arg2 = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp2);
-  {
-    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    iMS_SweepTone_up_ramp_set(arg1,*arg2);
-    SWIG_PYTHON_THREAD_END_ALLOW;
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SweepTone_up_ramp_get(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_SweepTone_UpRamp_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::SweepTone *arg1 = (iMS::SweepTone *) 0 ;
   void *argp1 = 0 ;
@@ -40156,59 +40109,22 @@ SWIGINTERN PyObject *_wrap_SweepTone_up_ramp_get(PyObject *self, PyObject *args)
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__SweepTone, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_up_ramp_get" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_UpRamp_get" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
   }
   arg1 = reinterpret_cast< iMS::SweepTone * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (std::chrono::duration< double,std::ratio< 1,1 > > *) &iMS_SweepTone_up_ramp_get(arg1);
+    result = (std::chrono::duration< double,std::ratio< 1,1 > > *)iMS_SweepTone_UpRamp_get(arg1);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__chrono__durationT_double_t, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_SweepTone_down_ramp_set(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  iMS::SweepTone *arg1 = (iMS::SweepTone *) 0 ;
-  std::chrono::duration< double,std::ratio< 1,1 > > *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "SweepTone_down_ramp_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__SweepTone, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_down_ramp_set" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
-  }
-  arg1 = reinterpret_cast< iMS::SweepTone * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__chrono__durationT_double_t,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "SweepTone_down_ramp_set" "', argument " "2"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "SweepTone_down_ramp_set" "', argument " "2"" of type '" "std::chrono::duration< double,std::ratio< 1,1 > > &""'"); 
-  }
-  arg2 = reinterpret_cast< std::chrono::duration< double,std::ratio< 1,1 > > * >(argp2);
-  {
-    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    iMS_SweepTone_down_ramp_set(arg1,*arg2);
-    SWIG_PYTHON_THREAD_END_ALLOW;
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_SweepTone_down_ramp_get(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_SweepTone_DownRamp_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::SweepTone *arg1 = (iMS::SweepTone *) 0 ;
   void *argp1 = 0 ;
@@ -40221,15 +40137,15 @@ SWIGINTERN PyObject *_wrap_SweepTone_down_ramp_get(PyObject *self, PyObject *arg
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__SweepTone, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_down_ramp_get" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SweepTone_DownRamp_get" "', argument " "1"" of type '" "iMS::SweepTone *""'"); 
   }
   arg1 = reinterpret_cast< iMS::SweepTone * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (std::chrono::duration< double,std::ratio< 1,1 > > *) &iMS_SweepTone_down_ramp_get(arg1);
+    result = (std::chrono::duration< double,std::ratio< 1,1 > > *)iMS_SweepTone_DownRamp_get(arg1);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__chrono__durationT_double_t, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__chrono__durationT_double_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -48990,6 +48906,7 @@ SWIGINTERN PyObject *_wrap_FileSystemTableEntry_Name_get(PyObject *self, PyObjec
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  delete result;
   return resultobj;
 fail:
   return NULL;
@@ -67148,7 +67065,7 @@ SWIGINTERN PyObject *_wrap_ToneBuffer_GetUUID_get(PyObject *self, PyObject *args
     result = (std::array< uint8_t,16 > *)iMS_ToneBuffer_GetUUID_get(arg1);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__arrayT_uint8_t_16_t, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__arrayT_uint8_t_16_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -76802,10 +76719,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "SweepTone_start_get", _wrap_SweepTone_start_get, METH_O, "SweepTone_start_get(SweepTone self) -> FAP"},
 	 { "SweepTone_end_set", _wrap_SweepTone_end_set, METH_VARARGS, "SweepTone_end_set(SweepTone self, FAP end)"},
 	 { "SweepTone_end_get", _wrap_SweepTone_end_get, METH_O, "SweepTone_end_get(SweepTone self) -> FAP"},
-	 { "SweepTone_up_ramp_set", _wrap_SweepTone_up_ramp_set, METH_VARARGS, "SweepTone_up_ramp_set(SweepTone self, UnitFloatDuration up_ramp)"},
-	 { "SweepTone_up_ramp_get", _wrap_SweepTone_up_ramp_get, METH_O, "SweepTone_up_ramp_get(SweepTone self) -> UnitFloatDuration"},
-	 { "SweepTone_down_ramp_set", _wrap_SweepTone_down_ramp_set, METH_VARARGS, "SweepTone_down_ramp_set(SweepTone self, UnitFloatDuration down_ramp)"},
-	 { "SweepTone_down_ramp_get", _wrap_SweepTone_down_ramp_get, METH_O, "SweepTone_down_ramp_get(SweepTone self) -> UnitFloatDuration"},
+	 { "SweepTone_UpRamp_get", _wrap_SweepTone_UpRamp_get, METH_O, "SweepTone_UpRamp_get(SweepTone self) -> UnitFloatDuration"},
+	 { "SweepTone_DownRamp_get", _wrap_SweepTone_DownRamp_get, METH_O, "SweepTone_DownRamp_get(SweepTone self) -> UnitFloatDuration"},
 	 { "SweepTone_n_steps_set", _wrap_SweepTone_n_steps_set, METH_VARARGS, "SweepTone_n_steps_set(SweepTone self, int n_steps)"},
 	 { "SweepTone_n_steps_get", _wrap_SweepTone_n_steps_get, METH_O, "SweepTone_n_steps_get(SweepTone self) -> int"},
 	 { "SweepTone_mode_set", _wrap_SweepTone_mode_set, METH_VARARGS, "SweepTone_mode_set(SweepTone self, iMS::ENHANCED_TONE_MODE mode)"},

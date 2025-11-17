@@ -23,7 +23,7 @@ namespace iMS
 %attribute(iMS::FileSystemTableEntry, uint32_t, Address, Address);
 %attribute(iMS::FileSystemTableEntry, uint32_t, Length, Length);
 %attribute(iMS::FileSystemTableEntry, bool, IsDefault, IsDefault);
-%attribute(iMS::FileSystemTableEntry, std::string, Name, Name);
+%attributestring(iMS::FileSystemTableEntry, std::string, Name, Name);
 
 namespace iMS{
     %extend FileSystemTableEntry {

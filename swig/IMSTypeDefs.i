@@ -432,8 +432,8 @@ namespace iMS {
 
 %attributeref(iMS::SweepTone, iMS::FAP&, start, start);
 %attributeref(iMS::SweepTone, iMS::FAP&, end, end);
-%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), up_ramp, up_ramp);
-%attributeref(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >&), down_ramp, down_ramp);
+%attributeval(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >), UpRamp, up_ramp);
+%attributeval(iMS::SweepTone, %arg(std::chrono::duration<double, std::ratio<1> >), DownRamp, down_ramp);
 %attributeref(iMS::SweepTone, int, n_steps, n_steps);
 %attributeref(iMS::SweepTone, iMS::ENHANCED_TONE_MODE, mode, mode);
 %attributeref(iMS::SweepTone, iMS::DAC_CURRENT_REFERENCE, scaling, scaling);
@@ -444,15 +444,15 @@ namespace iMS {
   {
     FAP& start(); 
     FAP& end();
-    std::chrono::duration<double, std::ratio<1> >& up_ramp();
-    std::chrono::duration<double, std::ratio<1> >& down_ramp();
+    std::chrono::duration<double, std::ratio<1> > up_ramp();
+    std::chrono::duration<double, std::ratio<1> > down_ramp();
     int& n_steps();
     ENHANCED_TONE_MODE& mode();
     DAC_CURRENT_REFERENCE& scaling();
 
     SweepTone();
     SweepTone(FAP tone);
-    SweepTone(FAP start, FAP end, std::chrono::duration<double> up, std::chrono::duration<double> down, int steps, ENHANCED_TONE_MODE mode, DAC_CURRENT_REFERENCE scaling);
+    SweepTone(FAP start, FAP end, std::chrono::duration<double>& up, std::chrono::duration<double>& down, int steps, ENHANCED_TONE_MODE mode, DAC_CURRENT_REFERENCE scaling);
     SweepTone(const SweepTone &);
     //    SweepTone &operator =(const SweepTone &);
   };

@@ -13,7 +13,11 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CONAN_GENERATORS_DIR "${CMAKE_BINARY_DIR}/conan")
 file(MAKE_DIRECTORY ${CONAN_GENERATORS_DIR})
 
-set(CONAN_TOOLCHAIN_FILE "${CONAN_GENERATORS_DIR}/build/generators/conan_toolchain.cmake")
+if (MSVC)
+   set(CONAN_TOOLCHAIN_FILE "${CONAN_GENERATORS_DIR}/build/generators/conan_toolchain.cmake")
+else()
+   set(CONAN_TOOLCHAIN_FILE "${CONAN_GENERATORS_DIR}/build/Release/generators/conan_toolchain.cmake")
+endif()
 
 if(NOT EXISTS "${CONAN_TOOLCHAIN_FILE}")
     message(STATUS "[CMake] Running Conan install")
