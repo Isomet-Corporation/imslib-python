@@ -23,7 +23,7 @@ def print_settings(cfg):
 conn = imslib.ConnectionList()
 
 print("These are the modules available to the Connection Manager:")
-print(conn.modules())
+print(conn.Modules())
 
 print("We are going to test the CM_ETH module.  Please use an Ethernet connection to the iMS")
 
