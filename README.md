@@ -1,8 +1,8 @@
 # imslib Python Library
 
 ![PyPI Version](https://img.shields.io/pypi/v/imslib)
-![License](https://img.shields.io/github/license/Isomet-Corporation/imslib-python)
-![Build](https://img.shields.io/github/actions/workflow/status/Isomet-Corporation/imslib-python/build.yml)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python Versions](https://img.shields.io/pypi/pyversions/imslib)
 
 ## Overview
 
@@ -18,7 +18,7 @@ The package is designed to simplify development workflows while providing full a
 
 ## Installation
 
-It is recommended to install **Python 3.10 or newer** from the official source:
+It is recommended to install **Python 3.8 or newer** from the official source:
 
 * [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
