@@ -27,7 +27,7 @@ fi
 HEADER_FILE="ims-lib/include/LibVersion.h"
 
 # Run the script
-$PYTHON_EXE cmake/sync_version.py "$HEADER_FILE"
+$PYTHON_EXE sync_version.py "$HEADER_FILE"
 
 OS="$(uname)"
 echo "Detected OS: $OS"
