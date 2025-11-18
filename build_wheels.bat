@@ -16,6 +16,22 @@ IF ERRORLEVEL 1 (
 
 mkdir wheelhouse
 
+REM Sync version from C++ header
+REM Set path to Python executable (adjust if needed)
+set PYTHON_EXE=python
+
+REM Path to the C++ header
+set HEADER_FILE=ims-lib\include\LibVersion.h
+
+REM Run the Python script
+%PYTHON_EXE% sync_version.py %HEADER_FILE%
+
+REM Check for errors
+IF ERRORLEVEL 1 (
+    echo Failed to sync version!
+    exit /b 1
+)        
+
 echo Building 64-bit wheel...
 python -m build --wheel --outdir wheelhouse
 
