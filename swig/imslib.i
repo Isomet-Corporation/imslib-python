@@ -29,6 +29,7 @@
 #include "SignalPath.h"
 #include "SystemFunc.h"
 #include "Diagnostics.h"
+#include "VCO.h"
 
 #include <sstream>
 #include <iomanip>

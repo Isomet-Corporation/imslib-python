@@ -166,3 +166,56 @@ namespace iMS
   };
 
 }
+
+namespace iMS
+{
+  class VCO
+  {
+  public:
+    enum class VCOInput
+    {
+        A,
+        B,
+        Both
+    };
+
+    enum class VCOOutput
+    {
+        CH1_FREQUENCY,
+        CH1_AMPLITUDE,
+        CH2_FREQUENCY,
+        CH2_AMPLITUDE
+    };
+
+    enum class VCOGain
+    {
+        X1 = 0,
+        X2 = 1,
+        X4 = 2,
+        X8 = 3
+    };
+
+    enum class VCOFunction
+    {
+        TRACK,
+        HOLD,
+        CONDITIONAL,
+        CONSTANT,
+        MUTE
+    };
+    
+    VCO(std::shared_ptr<IMSSystem> ims);
+
+	bool ConfigureCICFilter(bool enable, unsigned int filterLength = 6);
+	bool ConfigureIIRFilter(bool enable, double freqCutoff = 10.0, unsigned int cascadeStages = 3);
+    bool SetFrequencyRange(MHz& lowerFreq, MHz& upperFreq, RFChannel ch = RFChannel::all);
+    bool SetAmplitudeRange(Percent& lowerAmpl, Percent& upperAmpl, RFChannel ch = RFChannel::all);
+    bool ApplyDigitalGain(VCOGain gain);
+    bool Route(VCOOutput output, VCOInput input);
+    bool ControlFunction(VCOOutput output, VCOFunction func);
+    bool ExternalRFMute(bool enable = true, RFChannel ch = RFChannel::all);
+    bool SetConstantFrequency(MHz freq, RFChannel ch = RFChannel::all);
+    bool SetConstantAmplitude(Percent ampl, RFChannel ch = RFChannel::all);    
+    bool SaveStartupState();
+  };    
+}

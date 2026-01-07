@@ -5528,6 +5528,95 @@ class VelocityConfiguration(object):
 
 # Register VelocityConfiguration in _imslib:
 _imslib.VelocityConfiguration_swigregister(VelocityConfiguration)
+class VCO(object):
+    r"""Proxy of C++ iMS::VCO class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    VCOInput_A = _imslib.VCO_VCOInput_A
+    
+    VCOInput_B = _imslib.VCO_VCOInput_B
+    
+    VCOInput_Both = _imslib.VCO_VCOInput_Both
+    
+    VCOOutput_CH1_FREQUENCY = _imslib.VCO_VCOOutput_CH1_FREQUENCY
+    
+    VCOOutput_CH1_AMPLITUDE = _imslib.VCO_VCOOutput_CH1_AMPLITUDE
+    
+    VCOOutput_CH2_FREQUENCY = _imslib.VCO_VCOOutput_CH2_FREQUENCY
+    
+    VCOOutput_CH2_AMPLITUDE = _imslib.VCO_VCOOutput_CH2_AMPLITUDE
+    
+    VCOGain_X1 = _imslib.VCO_VCOGain_X1
+    
+    VCOGain_X2 = _imslib.VCO_VCOGain_X2
+    
+    VCOGain_X4 = _imslib.VCO_VCOGain_X4
+    
+    VCOGain_X8 = _imslib.VCO_VCOGain_X8
+    
+    VCOFunction_TRACK = _imslib.VCO_VCOFunction_TRACK
+    
+    VCOFunction_HOLD = _imslib.VCO_VCOFunction_HOLD
+    
+    VCOFunction_CONDITIONAL = _imslib.VCO_VCOFunction_CONDITIONAL
+    
+    VCOFunction_CONSTANT = _imslib.VCO_VCOFunction_CONSTANT
+    
+    VCOFunction_MUTE = _imslib.VCO_VCOFunction_MUTE
+    
+
+    def __init__(self, ims):
+        r"""__init__(VCO self, std::shared_ptr< iMS::IMSSystem > ims) -> VCO"""
+        _imslib.VCO_swiginit(self, _imslib.new_VCO(ims))
+
+    def ConfigureCICFilter(self, enable, filterLength=6):
+        r"""ConfigureCICFilter(VCO self, bool enable, unsigned int filterLength=6) -> bool"""
+        return _imslib.VCO_ConfigureCICFilter(self, enable, filterLength)
+
+    def ConfigureIIRFilter(self, enable, freqCutoff=10.0, cascadeStages=3):
+        r"""ConfigureIIRFilter(VCO self, bool enable, double freqCutoff=10.0, unsigned int cascadeStages=3) -> bool"""
+        return _imslib.VCO_ConfigureIIRFilter(self, enable, freqCutoff, cascadeStages)
+
+    def SetFrequencyRange(self, *args):
+        r"""SetFrequencyRange(VCO self, MHz lowerFreq, MHz upperFreq, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_SetFrequencyRange(self, *args)
+
+    def SetAmplitudeRange(self, *args):
+        r"""SetAmplitudeRange(VCO self, Percent lowerAmpl, Percent upperAmpl, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_SetAmplitudeRange(self, *args)
+
+    def ApplyDigitalGain(self, gain):
+        r"""ApplyDigitalGain(VCO self, iMS::VCO::VCOGain gain) -> bool"""
+        return _imslib.VCO_ApplyDigitalGain(self, gain)
+
+    def Route(self, output, input):
+        r"""Route(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOInput input) -> bool"""
+        return _imslib.VCO_Route(self, output, input)
+
+    def ControlFunction(self, output, func):
+        r"""ControlFunction(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOFunction func) -> bool"""
+        return _imslib.VCO_ControlFunction(self, output, func)
+
+    def ExternalRFMute(self, *args):
+        r"""ExternalRFMute(VCO self, bool enable=True, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_ExternalRFMute(self, *args)
+
+    def SetConstantFrequency(self, *args):
+        r"""SetConstantFrequency(VCO self, MHz freq, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_SetConstantFrequency(self, *args)
+
+    def SetConstantAmplitude(self, *args):
+        r"""SetConstantAmplitude(VCO self, Percent ampl, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_SetConstantAmplitude(self, *args)
+
+    def SaveStartupState(self):
+        r"""SaveStartupState(VCO self) -> bool"""
+        return _imslib.VCO_SaveStartupState(self)
+    __swig_destroy__ = _imslib.delete_VCO
+
+# Register VCO in _imslib:
+_imslib.VCO_swigregister(VCO)
 SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT = _imslib.SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT
 
 SystemFuncEvents_MASTER_CLOCK_REF_FREQ = _imslib.SystemFuncEvents_MASTER_CLOCK_REF_FREQ

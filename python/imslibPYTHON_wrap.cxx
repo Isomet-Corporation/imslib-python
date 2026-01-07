@@ -3805,82 +3805,83 @@ namespace Swig {
 #define SWIGTYPE_p_iMS__ToneSequenceEntry swig_types[87]
 #define SWIGTYPE_p_iMS__UserFileReader swig_types[88]
 #define SWIGTYPE_p_iMS__UserFileWriter swig_types[89]
-#define SWIGTYPE_p_iMS__VelocityConfiguration swig_types[90]
-#define SWIGTYPE_p_iMS__distanceT_std__centi_t swig_types[91]
-#define SWIGTYPE_p_iMS__distanceT_std__deci_t swig_types[92]
-#define SWIGTYPE_p_iMS__distanceT_std__micro_t swig_types[93]
-#define SWIGTYPE_p_iMS__distanceT_std__milli_t swig_types[94]
-#define SWIGTYPE_p_iMS__distanceT_std__nano_t swig_types[95]
-#define SWIGTYPE_p_iMS__distanceT_std__ratioT_1_t_t swig_types[96]
-#define SWIGTYPE_p_iMS__kHz swig_types[97]
-#define SWIGTYPE_p_int swig_types[98]
-#define SWIGTYPE_p_iterator swig_types[99]
-#define SWIGTYPE_p_kHz swig_types[100]
-#define SWIGTYPE_p_key_type swig_types[101]
-#define SWIGTYPE_p_long_long swig_types[102]
-#define SWIGTYPE_p_mapped_type swig_types[103]
-#define SWIGTYPE_p_p_PyObject swig_types[104]
-#define SWIGTYPE_p_post_delay swig_types[105]
-#define SWIGTYPE_p_short swig_types[106]
-#define SWIGTYPE_p_signed_char swig_types[107]
-#define SWIGTYPE_p_size_type swig_types[108]
-#define SWIGTYPE_p_std__allocatorT_iMS__DDSScriptRegister_t swig_types[109]
-#define SWIGTYPE_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t swig_types[110]
-#define SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t swig_types[111]
-#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[112]
-#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[113]
-#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[114]
-#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[115]
-#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[116]
-#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[117]
-#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[118]
-#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[119]
-#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[120]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[121]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[122]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[123]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[124]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[125]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[126]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[127]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[128]
-#define SWIGTYPE_p_std__invalid_argument swig_types[129]
-#define SWIGTYPE_p_std__lessT_int_t swig_types[130]
-#define SWIGTYPE_p_std__lessT_std__string_t swig_types[131]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[132]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[133]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[134]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[135]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[136]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[137]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[138]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[139]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[140]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[141]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[142]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[143]
-#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[144]
-#define SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t swig_types[145]
-#define SWIGTYPE_p_std__ostream swig_types[146]
-#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[147]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[148]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[149]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[150]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[151]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[152]
-#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[153]
-#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[154]
-#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[155]
-#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[156]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[157]
-#define SWIGTYPE_p_unsigned_char swig_types[158]
-#define SWIGTYPE_p_unsigned_int swig_types[159]
-#define SWIGTYPE_p_unsigned_long_long swig_types[160]
-#define SWIGTYPE_p_unsigned_short swig_types[161]
-#define SWIGTYPE_p_value_type swig_types[162]
-#define SWIGTYPE_p_void swig_types[163]
-static swig_type_info *swig_types[165];
-static swig_module_info swig_module = {swig_types, 164, 0, 0, 0, 0};
+#define SWIGTYPE_p_iMS__VCO swig_types[90]
+#define SWIGTYPE_p_iMS__VelocityConfiguration swig_types[91]
+#define SWIGTYPE_p_iMS__distanceT_std__centi_t swig_types[92]
+#define SWIGTYPE_p_iMS__distanceT_std__deci_t swig_types[93]
+#define SWIGTYPE_p_iMS__distanceT_std__micro_t swig_types[94]
+#define SWIGTYPE_p_iMS__distanceT_std__milli_t swig_types[95]
+#define SWIGTYPE_p_iMS__distanceT_std__nano_t swig_types[96]
+#define SWIGTYPE_p_iMS__distanceT_std__ratioT_1_t_t swig_types[97]
+#define SWIGTYPE_p_iMS__kHz swig_types[98]
+#define SWIGTYPE_p_int swig_types[99]
+#define SWIGTYPE_p_iterator swig_types[100]
+#define SWIGTYPE_p_kHz swig_types[101]
+#define SWIGTYPE_p_key_type swig_types[102]
+#define SWIGTYPE_p_long_long swig_types[103]
+#define SWIGTYPE_p_mapped_type swig_types[104]
+#define SWIGTYPE_p_p_PyObject swig_types[105]
+#define SWIGTYPE_p_post_delay swig_types[106]
+#define SWIGTYPE_p_short swig_types[107]
+#define SWIGTYPE_p_signed_char swig_types[108]
+#define SWIGTYPE_p_size_type swig_types[109]
+#define SWIGTYPE_p_std__allocatorT_iMS__DDSScriptRegister_t swig_types[110]
+#define SWIGTYPE_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t swig_types[111]
+#define SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t swig_types[112]
+#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[113]
+#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[114]
+#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[115]
+#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[116]
+#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[117]
+#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[118]
+#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[119]
+#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[120]
+#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[121]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[122]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[123]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[124]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[125]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[126]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[127]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[128]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[129]
+#define SWIGTYPE_p_std__invalid_argument swig_types[130]
+#define SWIGTYPE_p_std__lessT_int_t swig_types[131]
+#define SWIGTYPE_p_std__lessT_std__string_t swig_types[132]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[133]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[134]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[135]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[136]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[137]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[138]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[139]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[140]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[141]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[142]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[143]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[144]
+#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[145]
+#define SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t swig_types[146]
+#define SWIGTYPE_p_std__ostream swig_types[147]
+#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[148]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[149]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[150]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[151]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[152]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[153]
+#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[154]
+#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[155]
+#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[156]
+#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[157]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[158]
+#define SWIGTYPE_p_unsigned_char swig_types[159]
+#define SWIGTYPE_p_unsigned_int swig_types[160]
+#define SWIGTYPE_p_unsigned_long_long swig_types[161]
+#define SWIGTYPE_p_unsigned_short swig_types[162]
+#define SWIGTYPE_p_value_type swig_types[163]
+#define SWIGTYPE_p_void swig_types[164]
+static swig_type_info *swig_types[166];
+static swig_module_info swig_module = {swig_types, 165, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4047,6 +4048,7 @@ namespace swig {
 #include "SignalPath.h"
 #include "SystemFunc.h"
 #include "Diagnostics.h"
+#include "VCO.h"
 
 #include <sstream>
 #include <iomanip>
@@ -71751,6 +71753,1375 @@ SWIGINTERN PyObject *VelocityConfiguration_swiginit(PyObject *SWIGUNUSEDPARM(sel
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_new_VCO(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::shared_ptr< iMS::IMSSystem > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::VCO *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    int newmem = 0;
+    res1 = SWIG_ConvertPtrAndOwn(swig_obj[0], &argp1, SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t,  0 , &newmem);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_VCO" "', argument " "1"" of type '" "std::shared_ptr< iMS::IMSSystem >""'");
+    }
+    if (argp1) arg1 = *(reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1));
+    if (newmem & SWIG_CAST_NEW_MEMORY) delete reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1);
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::VCO *)new iMS::VCO(SWIG_STD_MOVE(arg1));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__VCO, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureCICFilter__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  unsigned int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  unsigned int val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ConfigureCICFilter" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ConfigureCICFilter" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  ecode3 = SWIG_AsVal_unsigned_SS_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VCO_ConfigureCICFilter" "', argument " "3"" of type '" "unsigned int""'");
+  } 
+  arg3 = static_cast< unsigned int >(val3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ConfigureCICFilter(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureCICFilter__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ConfigureCICFilter" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ConfigureCICFilter" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ConfigureCICFilter(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureCICFilter(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_ConfigureCICFilter", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_VCO_ConfigureCICFilter__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_VCO_ConfigureCICFilter__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_ConfigureCICFilter'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::ConfigureCICFilter(bool,unsigned int)\n"
+    "    iMS::VCO::ConfigureCICFilter(bool)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureIIRFilter__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  double arg3 ;
+  unsigned int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  unsigned int val4 ;
+  int ecode4 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ConfigureIIRFilter" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ConfigureIIRFilter" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VCO_ConfigureIIRFilter" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  ecode4 = SWIG_AsVal_unsigned_SS_int(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "VCO_ConfigureIIRFilter" "', argument " "4"" of type '" "unsigned int""'");
+  } 
+  arg4 = static_cast< unsigned int >(val4);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ConfigureIIRFilter(arg2,arg3,arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureIIRFilter__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  double arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ConfigureIIRFilter" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ConfigureIIRFilter" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VCO_ConfigureIIRFilter" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ConfigureIIRFilter(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureIIRFilter__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ConfigureIIRFilter" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ConfigureIIRFilter" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ConfigureIIRFilter(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ConfigureIIRFilter(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_ConfigureIIRFilter", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_VCO_ConfigureIIRFilter__SWIG_2(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_double(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_VCO_ConfigureIIRFilter__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_double(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_unsigned_SS_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_VCO_ConfigureIIRFilter__SWIG_0(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_ConfigureIIRFilter'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::ConfigureIIRFilter(bool,double,unsigned int)\n"
+    "    iMS::VCO::ConfigureIIRFilter(bool,double)\n"
+    "    iMS::VCO::ConfigureIIRFilter(bool)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetFrequencyRange__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::MHz *arg2 = 0 ;
+  iMS::MHz *arg3 = 0 ;
+  iMS::RFChannel arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetFrequencyRange" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__MHz,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetFrequencyRange" "', argument " "2"" of type '" "iMS::MHz &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetFrequencyRange" "', argument " "2"" of type '" "iMS::MHz &""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::MHz * >(argp2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__MHz,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetFrequencyRange" "', argument " "3"" of type '" "iMS::MHz &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetFrequencyRange" "', argument " "3"" of type '" "iMS::MHz &""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::MHz * >(argp3);
+  {
+    res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_iMS__RFChannel,  0  | 0);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "VCO_SetFrequencyRange" "', argument " "4"" of type '" "iMS::RFChannel""'"); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetFrequencyRange" "', argument " "4"" of type '" "iMS::RFChannel""'");
+    } else {
+      iMS::RFChannel * temp = reinterpret_cast< iMS::RFChannel * >(argp4);
+      arg4 = *temp;
+      if (SWIG_IsNewObj(res4)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetFrequencyRange(*arg2,*arg3,SWIG_STD_MOVE(arg4));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetFrequencyRange__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::MHz *arg2 = 0 ;
+  iMS::MHz *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetFrequencyRange" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__MHz,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetFrequencyRange" "', argument " "2"" of type '" "iMS::MHz &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetFrequencyRange" "', argument " "2"" of type '" "iMS::MHz &""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::MHz * >(argp2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__MHz,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetFrequencyRange" "', argument " "3"" of type '" "iMS::MHz &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetFrequencyRange" "', argument " "3"" of type '" "iMS::MHz &""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::MHz * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetFrequencyRange(*arg2,*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetFrequencyRange(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_SetFrequencyRange", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_VCO_SetFrequencyRange__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_iMS__RFChannel, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_VCO_SetFrequencyRange__SWIG_0(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_SetFrequencyRange'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::SetFrequencyRange(iMS::MHz &,iMS::MHz &,iMS::RFChannel)\n"
+    "    iMS::VCO::SetFrequencyRange(iMS::MHz &,iMS::MHz &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetAmplitudeRange__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::Percent *arg2 = 0 ;
+  iMS::Percent *arg3 = 0 ;
+  iMS::RFChannel arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetAmplitudeRange" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__Percent,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetAmplitudeRange" "', argument " "2"" of type '" "iMS::Percent &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetAmplitudeRange" "', argument " "2"" of type '" "iMS::Percent &""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::Percent * >(argp2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__Percent,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetAmplitudeRange" "', argument " "3"" of type '" "iMS::Percent &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetAmplitudeRange" "', argument " "3"" of type '" "iMS::Percent &""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::Percent * >(argp3);
+  {
+    res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_iMS__RFChannel,  0  | 0);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "VCO_SetAmplitudeRange" "', argument " "4"" of type '" "iMS::RFChannel""'"); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetAmplitudeRange" "', argument " "4"" of type '" "iMS::RFChannel""'");
+    } else {
+      iMS::RFChannel * temp = reinterpret_cast< iMS::RFChannel * >(argp4);
+      arg4 = *temp;
+      if (SWIG_IsNewObj(res4)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetAmplitudeRange(*arg2,*arg3,SWIG_STD_MOVE(arg4));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetAmplitudeRange__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::Percent *arg2 = 0 ;
+  iMS::Percent *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetAmplitudeRange" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__Percent,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetAmplitudeRange" "', argument " "2"" of type '" "iMS::Percent &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetAmplitudeRange" "', argument " "2"" of type '" "iMS::Percent &""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::Percent * >(argp2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__Percent,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetAmplitudeRange" "', argument " "3"" of type '" "iMS::Percent &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetAmplitudeRange" "', argument " "3"" of type '" "iMS::Percent &""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::Percent * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetAmplitudeRange(*arg2,*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetAmplitudeRange(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_SetAmplitudeRange", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_VCO_SetAmplitudeRange__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_iMS__RFChannel, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_VCO_SetAmplitudeRange__SWIG_0(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_SetAmplitudeRange'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::SetAmplitudeRange(iMS::Percent &,iMS::Percent &,iMS::RFChannel)\n"
+    "    iMS::VCO::SetAmplitudeRange(iMS::Percent &,iMS::Percent &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ApplyDigitalGain(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::VCO::VCOGain arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "VCO_ApplyDigitalGain", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ApplyDigitalGain" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ApplyDigitalGain" "', argument " "2"" of type '" "iMS::VCO::VCOGain""'");
+  } 
+  arg2 = static_cast< iMS::VCO::VCOGain >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ApplyDigitalGain(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_Route(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::VCO::VCOOutput arg2 ;
+  iMS::VCO::VCOInput arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "VCO_Route", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_Route" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_Route" "', argument " "2"" of type '" "iMS::VCO::VCOOutput""'");
+  } 
+  arg2 = static_cast< iMS::VCO::VCOOutput >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VCO_Route" "', argument " "3"" of type '" "iMS::VCO::VCOInput""'");
+  } 
+  arg3 = static_cast< iMS::VCO::VCOInput >(val3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->Route(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ControlFunction(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::VCO::VCOOutput arg2 ;
+  iMS::VCO::VCOFunction arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "VCO_ControlFunction", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ControlFunction" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ControlFunction" "', argument " "2"" of type '" "iMS::VCO::VCOOutput""'");
+  } 
+  arg2 = static_cast< iMS::VCO::VCOOutput >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VCO_ControlFunction" "', argument " "3"" of type '" "iMS::VCO::VCOFunction""'");
+  } 
+  arg3 = static_cast< iMS::VCO::VCOFunction >(val3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ControlFunction(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ExternalRFMute__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  iMS::RFChannel arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ExternalRFMute" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ExternalRFMute" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__RFChannel,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_ExternalRFMute" "', argument " "3"" of type '" "iMS::RFChannel""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_ExternalRFMute" "', argument " "3"" of type '" "iMS::RFChannel""'");
+    } else {
+      iMS::RFChannel * temp = reinterpret_cast< iMS::RFChannel * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ExternalRFMute(arg2,SWIG_STD_MOVE(arg3));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ExternalRFMute__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ExternalRFMute" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "VCO_ExternalRFMute" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ExternalRFMute(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ExternalRFMute__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_ExternalRFMute" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->ExternalRFMute();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_ExternalRFMute(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_ExternalRFMute", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_VCO_ExternalRFMute__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_VCO_ExternalRFMute__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_bool(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_iMS__RFChannel, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_VCO_ExternalRFMute__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_ExternalRFMute'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::ExternalRFMute(bool,iMS::RFChannel)\n"
+    "    iMS::VCO::ExternalRFMute(bool)\n"
+    "    iMS::VCO::ExternalRFMute()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantFrequency__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::MHz arg2 ;
+  iMS::RFChannel arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetConstantFrequency" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__MHz,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetConstantFrequency" "', argument " "2"" of type '" "iMS::MHz""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantFrequency" "', argument " "2"" of type '" "iMS::MHz""'");
+    } else {
+      iMS::MHz * temp = reinterpret_cast< iMS::MHz * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__RFChannel,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetConstantFrequency" "', argument " "3"" of type '" "iMS::RFChannel""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantFrequency" "', argument " "3"" of type '" "iMS::RFChannel""'");
+    } else {
+      iMS::RFChannel * temp = reinterpret_cast< iMS::RFChannel * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetConstantFrequency(SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantFrequency__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::MHz arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetConstantFrequency" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__MHz,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetConstantFrequency" "', argument " "2"" of type '" "iMS::MHz""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantFrequency" "', argument " "2"" of type '" "iMS::MHz""'");
+    } else {
+      iMS::MHz * temp = reinterpret_cast< iMS::MHz * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetConstantFrequency(SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantFrequency(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_SetConstantFrequency", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_VCO_SetConstantFrequency__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_iMS__MHz, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_iMS__RFChannel, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_VCO_SetConstantFrequency__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_SetConstantFrequency'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::SetConstantFrequency(iMS::MHz,iMS::RFChannel)\n"
+    "    iMS::VCO::SetConstantFrequency(iMS::MHz)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantAmplitude__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::Percent arg2 ;
+  iMS::RFChannel arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetConstantAmplitude" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__Percent,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetConstantAmplitude" "', argument " "2"" of type '" "iMS::Percent""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantAmplitude" "', argument " "2"" of type '" "iMS::Percent""'");
+    } else {
+      iMS::Percent * temp = reinterpret_cast< iMS::Percent * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_iMS__RFChannel,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "VCO_SetConstantAmplitude" "', argument " "3"" of type '" "iMS::RFChannel""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantAmplitude" "', argument " "3"" of type '" "iMS::RFChannel""'");
+    } else {
+      iMS::RFChannel * temp = reinterpret_cast< iMS::RFChannel * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetConstantAmplitude(SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantAmplitude__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  iMS::Percent arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SetConstantAmplitude" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__Percent,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VCO_SetConstantAmplitude" "', argument " "2"" of type '" "iMS::Percent""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "VCO_SetConstantAmplitude" "', argument " "2"" of type '" "iMS::Percent""'");
+    } else {
+      iMS::Percent * temp = reinterpret_cast< iMS::Percent * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetConstantAmplitude(SWIG_STD_MOVE(arg2));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SetConstantAmplitude(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "VCO_SetConstantAmplitude", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_VCO_SetConstantAmplitude__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__VCO, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_iMS__Percent, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_iMS__RFChannel, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_VCO_SetConstantAmplitude__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'VCO_SetConstantAmplitude'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::VCO::SetConstantAmplitude(iMS::Percent,iMS::RFChannel)\n"
+    "    iMS::VCO::SetConstantAmplitude(iMS::Percent)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_VCO_SaveStartupState(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VCO_SaveStartupState" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SaveStartupState();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_VCO(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::VCO *arg1 = (iMS::VCO *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__VCO, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_VCO" "', argument " "1"" of type '" "iMS::VCO *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::VCO * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *VCO_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_iMS__VCO, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *VCO_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_new_SystemFunc(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   std::shared_ptr< iMS::IMSSystem > arg1 ;
@@ -77618,6 +78989,21 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_VelocityConfiguration", _wrap_delete_VelocityConfiguration, METH_O, "delete_VelocityConfiguration(VelocityConfiguration self)"},
 	 { "VelocityConfiguration_swigregister", VelocityConfiguration_swigregister, METH_O, NULL},
 	 { "VelocityConfiguration_swiginit", VelocityConfiguration_swiginit, METH_VARARGS, NULL},
+	 { "new_VCO", _wrap_new_VCO, METH_O, "new_VCO(std::shared_ptr< iMS::IMSSystem > ims) -> VCO"},
+	 { "VCO_ConfigureCICFilter", _wrap_VCO_ConfigureCICFilter, METH_VARARGS, "VCO_ConfigureCICFilter(VCO self, bool enable, unsigned int filterLength=6) -> bool"},
+	 { "VCO_ConfigureIIRFilter", _wrap_VCO_ConfigureIIRFilter, METH_VARARGS, "VCO_ConfigureIIRFilter(VCO self, bool enable, double freqCutoff=10.0, unsigned int cascadeStages=3) -> bool"},
+	 { "VCO_SetFrequencyRange", _wrap_VCO_SetFrequencyRange, METH_VARARGS, "VCO_SetFrequencyRange(VCO self, MHz lowerFreq, MHz upperFreq, RFChannel ch=all) -> bool"},
+	 { "VCO_SetAmplitudeRange", _wrap_VCO_SetAmplitudeRange, METH_VARARGS, "VCO_SetAmplitudeRange(VCO self, Percent lowerAmpl, Percent upperAmpl, RFChannel ch=all) -> bool"},
+	 { "VCO_ApplyDigitalGain", _wrap_VCO_ApplyDigitalGain, METH_VARARGS, "VCO_ApplyDigitalGain(VCO self, iMS::VCO::VCOGain gain) -> bool"},
+	 { "VCO_Route", _wrap_VCO_Route, METH_VARARGS, "VCO_Route(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOInput input) -> bool"},
+	 { "VCO_ControlFunction", _wrap_VCO_ControlFunction, METH_VARARGS, "VCO_ControlFunction(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOFunction func) -> bool"},
+	 { "VCO_ExternalRFMute", _wrap_VCO_ExternalRFMute, METH_VARARGS, "VCO_ExternalRFMute(VCO self, bool enable=True, RFChannel ch=all) -> bool"},
+	 { "VCO_SetConstantFrequency", _wrap_VCO_SetConstantFrequency, METH_VARARGS, "VCO_SetConstantFrequency(VCO self, MHz freq, RFChannel ch=all) -> bool"},
+	 { "VCO_SetConstantAmplitude", _wrap_VCO_SetConstantAmplitude, METH_VARARGS, "VCO_SetConstantAmplitude(VCO self, Percent ampl, RFChannel ch=all) -> bool"},
+	 { "VCO_SaveStartupState", _wrap_VCO_SaveStartupState, METH_O, "VCO_SaveStartupState(VCO self) -> bool"},
+	 { "delete_VCO", _wrap_delete_VCO, METH_O, "delete_VCO(VCO self)"},
+	 { "VCO_swigregister", VCO_swigregister, METH_O, NULL},
+	 { "VCO_swiginit", VCO_swiginit, METH_VARARGS, NULL},
 	 { "new_SystemFunc", _wrap_new_SystemFunc, METH_O, "new_SystemFunc(std::shared_ptr< iMS::IMSSystem > ims) -> SystemFunc"},
 	 { "SystemFunc_ClearNHF", _wrap_SystemFunc_ClearNHF, METH_O, "SystemFunc_ClearNHF(SystemFunc self) -> bool"},
 	 { "SystemFunc_SendHeartbeat", _wrap_SystemFunc_SendHeartbeat, METH_O, "SystemFunc_SendHeartbeat(SystemFunc self) -> bool"},
@@ -77890,6 +79276,7 @@ static swig_type_info _swigt__p_iMS__ToneBufferList = {"_p_iMS__ToneBufferList",
 static swig_type_info _swigt__p_iMS__ToneSequenceEntry = {"_p_iMS__ToneSequenceEntry", "iMS::ToneSequenceEntry *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__UserFileReader = {"_p_iMS__UserFileReader", "iMS::UserFileReader *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__UserFileWriter = {"_p_iMS__UserFileWriter", "iMS::UserFileWriter *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__VCO = {"_p_iMS__VCO", "iMS::VCO *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__VelocityConfiguration = {"_p_iMS__VelocityConfiguration", "iMS::VelocityConfiguration *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__distanceT_std__centi_t = {"_p_iMS__distanceT_std__centi_t", "iMS::distance< std::centi > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__distanceT_std__deci_t = {"_p_iMS__distanceT_std__deci_t", "iMS::distance< std::deci > *", 0, 0, (void*)0, 0};
@@ -78056,6 +79443,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_iMS__ToneSequenceEntry,
   &_swigt__p_iMS__UserFileReader,
   &_swigt__p_iMS__UserFileWriter,
+  &_swigt__p_iMS__VCO,
   &_swigt__p_iMS__VelocityConfiguration,
   &_swigt__p_iMS__distanceT_std__centi_t,
   &_swigt__p_iMS__distanceT_std__deci_t,
@@ -78222,6 +79610,7 @@ static swig_cast_info _swigc__p_iMS__ToneBufferList[] = {  {&_swigt__p_iMS__Tone
 static swig_cast_info _swigc__p_iMS__ToneSequenceEntry[] = {  {&_swigt__p_iMS__ToneSequenceEntry, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__UserFileReader[] = {  {&_swigt__p_iMS__UserFileReader, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__UserFileWriter[] = {  {&_swigt__p_iMS__UserFileWriter, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_iMS__VCO[] = {  {&_swigt__p_iMS__VCO, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__VelocityConfiguration[] = {  {&_swigt__p_iMS__VelocityConfiguration, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__distanceT_std__centi_t[] = {  {&_swigt__p_iMS__distanceT_std__centi_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__distanceT_std__deci_t[] = {  {&_swigt__p_iMS__distanceT_std__deci_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -78388,6 +79777,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_iMS__ToneSequenceEntry,
   _swigc__p_iMS__UserFileReader,
   _swigc__p_iMS__UserFileWriter,
+  _swigc__p_iMS__VCO,
   _swigc__p_iMS__VelocityConfiguration,
   _swigc__p_iMS__distanceT_std__centi_t,
   _swigc__p_iMS__distanceT_std__deci_t,
@@ -79116,6 +80506,22 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "SignalPath_VELOCITY_MODE_SLOW",SWIG_From_int(static_cast< int >(iMS::SignalPath::VELOCITY_MODE::SLOW)));
   SWIG_Python_SetConstant(d, "SignalPath_ENCODER_CHANNEL_CH_X",SWIG_From_int(static_cast< int >(iMS::SignalPath::ENCODER_CHANNEL::CH_X)));
   SWIG_Python_SetConstant(d, "SignalPath_ENCODER_CHANNEL_CH_Y",SWIG_From_int(static_cast< int >(iMS::SignalPath::ENCODER_CHANNEL::CH_Y)));
+  SWIG_Python_SetConstant(d, "VCO_VCOInput_A",SWIG_From_int(static_cast< int >(iMS::VCO::VCOInput::A)));
+  SWIG_Python_SetConstant(d, "VCO_VCOInput_B",SWIG_From_int(static_cast< int >(iMS::VCO::VCOInput::B)));
+  SWIG_Python_SetConstant(d, "VCO_VCOInput_Both",SWIG_From_int(static_cast< int >(iMS::VCO::VCOInput::Both)));
+  SWIG_Python_SetConstant(d, "VCO_VCOOutput_CH1_FREQUENCY",SWIG_From_int(static_cast< int >(iMS::VCO::VCOOutput::CH1_FREQUENCY)));
+  SWIG_Python_SetConstant(d, "VCO_VCOOutput_CH1_AMPLITUDE",SWIG_From_int(static_cast< int >(iMS::VCO::VCOOutput::CH1_AMPLITUDE)));
+  SWIG_Python_SetConstant(d, "VCO_VCOOutput_CH2_FREQUENCY",SWIG_From_int(static_cast< int >(iMS::VCO::VCOOutput::CH2_FREQUENCY)));
+  SWIG_Python_SetConstant(d, "VCO_VCOOutput_CH2_AMPLITUDE",SWIG_From_int(static_cast< int >(iMS::VCO::VCOOutput::CH2_AMPLITUDE)));
+  SWIG_Python_SetConstant(d, "VCO_VCOGain_X1",SWIG_From_int(static_cast< int >(iMS::VCO::VCOGain::X1)));
+  SWIG_Python_SetConstant(d, "VCO_VCOGain_X2",SWIG_From_int(static_cast< int >(iMS::VCO::VCOGain::X2)));
+  SWIG_Python_SetConstant(d, "VCO_VCOGain_X4",SWIG_From_int(static_cast< int >(iMS::VCO::VCOGain::X4)));
+  SWIG_Python_SetConstant(d, "VCO_VCOGain_X8",SWIG_From_int(static_cast< int >(iMS::VCO::VCOGain::X8)));
+  SWIG_Python_SetConstant(d, "VCO_VCOFunction_TRACK",SWIG_From_int(static_cast< int >(iMS::VCO::VCOFunction::TRACK)));
+  SWIG_Python_SetConstant(d, "VCO_VCOFunction_HOLD",SWIG_From_int(static_cast< int >(iMS::VCO::VCOFunction::HOLD)));
+  SWIG_Python_SetConstant(d, "VCO_VCOFunction_CONDITIONAL",SWIG_From_int(static_cast< int >(iMS::VCO::VCOFunction::CONDITIONAL)));
+  SWIG_Python_SetConstant(d, "VCO_VCOFunction_CONSTANT",SWIG_From_int(static_cast< int >(iMS::VCO::VCOFunction::CONSTANT)));
+  SWIG_Python_SetConstant(d, "VCO_VCOFunction_MUTE",SWIG_From_int(static_cast< int >(iMS::VCO::VCOFunction::MUTE)));
   SWIG_Python_SetConstant(d, "SystemFuncEvents_PIXEL_CHECKSUM_ERROR_COUNT",SWIG_From_int(static_cast< int >(iMS::SystemFuncEvents::PIXEL_CHECKSUM_ERROR_COUNT)));
   SWIG_Python_SetConstant(d, "SystemFuncEvents_MASTER_CLOCK_REF_FREQ",SWIG_From_int(static_cast< int >(iMS::SystemFuncEvents::MASTER_CLOCK_REF_FREQ)));
   SWIG_Python_SetConstant(d, "SystemFuncEvents_MASTER_CLOCK_REF_MODE",SWIG_From_int(static_cast< int >(iMS::SystemFuncEvents::MASTER_CLOCK_REF_MODE)));
