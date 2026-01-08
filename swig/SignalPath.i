@@ -169,6 +169,23 @@ namespace iMS
 
 namespace iMS
 {
+	enum class VCOEvents
+	{
+        VCO_UPDATE_AVAILABLE,
+        VCO_READ_FAILED,
+	};
+
+    // Use this to interpret the output of GetVoltageInputData()
+    %pythoncode %{
+    from enum import Enum
+
+    class MEASUREMENT(Enum):
+        ANLG_INPUT_A_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_A_VOLTS
+        ANLG_INPUT_B_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_A_VOLTS
+        ANLG_INPUT_A_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_A_PROCESSED
+        ANLG_INPUT_B_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_B_PROCESSED
+    %}
+
   class VCO
   {
   public:
@@ -195,15 +212,29 @@ namespace iMS
         X8 = 3
     };
 
-    enum class VCOFunction
+    enum class VCOTracking
     {
         TRACK,
         HOLD,
-        CONDITIONAL,
-        CONSTANT,
-        MUTE
+        PIN_CONTROLLED,
+        CONSTANT
     };
-    
+
+    enum class VCOMute
+    {
+        UNMUTE,
+        MUTE,
+        PIN_CONTROLLED
+    };
+
+    enum class MEASURE
+    {
+        ANLG_INPUT_A_VOLTS,
+        ANLG_INPUT_B_VOLTS,
+        ANLG_INPUT_A_PROCESSED,
+        ANLG_INPUT_B_PROCESSED
+    };
+        
     VCO(std::shared_ptr<IMSSystem> ims);
 
 	bool ConfigureCICFilter(bool enable, unsigned int filterLength = 6);
@@ -212,10 +243,15 @@ namespace iMS
     bool SetAmplitudeRange(Percent& lowerAmpl, Percent& upperAmpl, RFChannel ch = RFChannel::all);
     bool ApplyDigitalGain(VCOGain gain);
     bool Route(VCOOutput output, VCOInput input);
-    bool ControlFunction(VCOOutput output, VCOFunction func);
-    bool ExternalRFMute(bool enable = true, RFChannel ch = RFChannel::all);
+    bool TrackingMode(VCOOutput output, VCOTracking func);
+    bool RFMute(VCOMute = VCOMute::MUTE, RFChannel ch = RFChannel::all);
     bool SetConstantFrequency(MHz freq, RFChannel ch = RFChannel::all);
     bool SetConstantAmplitude(Percent ampl, RFChannel ch = RFChannel::all);    
     bool SaveStartupState();
+    bool ReadVoltageInput();
+    const std::map<MEASURE, Percent>& GetVoltageInputData() const;
+    std::map<std::string, Percent> GetVoltageInputDataStr() const;    
+	void VCOEventSubscribe(const int message, IEventHandler* handler);
+	void VCOEventUnsubscribe(const int message, const IEventHandler* handler);     
   };    
 }

@@ -5,7 +5,7 @@ from pathlib import Path
 
 class ImsPyConan(ConanFile):
     name = "imslib"
-    version = "2.0.4"
+    version = "2.0.5"
     license = "MIT"  # Adjust to match your actual license
     author = "Isomet Engineer <isomet@isomet.com>"
     url = "https://your.repo.url"  # Optional

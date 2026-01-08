@@ -5528,6 +5528,19 @@ class VelocityConfiguration(object):
 
 # Register VelocityConfiguration in _imslib:
 _imslib.VelocityConfiguration_swigregister(VelocityConfiguration)
+VCOEvents_VCO_UPDATE_AVAILABLE = _imslib.VCOEvents_VCO_UPDATE_AVAILABLE
+
+VCOEvents_VCO_READ_FAILED = _imslib.VCOEvents_VCO_READ_FAILED
+
+
+from enum import Enum
+
+class MEASUREMENT(Enum):
+    ANLG_INPUT_A_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_A_VOLTS
+    ANLG_INPUT_B_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_A_VOLTS
+    ANLG_INPUT_A_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_A_PROCESSED
+    ANLG_INPUT_B_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_B_PROCESSED
+
 class VCO(object):
     r"""Proxy of C++ iMS::VCO class."""
 
@@ -5555,15 +5568,27 @@ class VCO(object):
     
     VCOGain_X8 = _imslib.VCO_VCOGain_X8
     
-    VCOFunction_TRACK = _imslib.VCO_VCOFunction_TRACK
+    VCOTracking_TRACK = _imslib.VCO_VCOTracking_TRACK
     
-    VCOFunction_HOLD = _imslib.VCO_VCOFunction_HOLD
+    VCOTracking_HOLD = _imslib.VCO_VCOTracking_HOLD
     
-    VCOFunction_CONDITIONAL = _imslib.VCO_VCOFunction_CONDITIONAL
+    VCOTracking_PIN_CONTROLLED = _imslib.VCO_VCOTracking_PIN_CONTROLLED
     
-    VCOFunction_CONSTANT = _imslib.VCO_VCOFunction_CONSTANT
+    VCOTracking_CONSTANT = _imslib.VCO_VCOTracking_CONSTANT
     
-    VCOFunction_MUTE = _imslib.VCO_VCOFunction_MUTE
+    VCOMute_UNMUTE = _imslib.VCO_VCOMute_UNMUTE
+    
+    VCOMute_MUTE = _imslib.VCO_VCOMute_MUTE
+    
+    VCOMute_PIN_CONTROLLED = _imslib.VCO_VCOMute_PIN_CONTROLLED
+    
+    MEASURE_ANLG_INPUT_A_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_A_VOLTS
+    
+    MEASURE_ANLG_INPUT_B_VOLTS = _imslib.VCO_MEASURE_ANLG_INPUT_B_VOLTS
+    
+    MEASURE_ANLG_INPUT_A_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_A_PROCESSED
+    
+    MEASURE_ANLG_INPUT_B_PROCESSED = _imslib.VCO_MEASURE_ANLG_INPUT_B_PROCESSED
     
 
     def __init__(self, ims):
@@ -5594,13 +5619,13 @@ class VCO(object):
         r"""Route(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOInput input) -> bool"""
         return _imslib.VCO_Route(self, output, input)
 
-    def ControlFunction(self, output, func):
-        r"""ControlFunction(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOFunction func) -> bool"""
-        return _imslib.VCO_ControlFunction(self, output, func)
+    def TrackingMode(self, output, func):
+        r"""TrackingMode(VCO self, iMS::VCO::VCOOutput output, iMS::VCO::VCOTracking func) -> bool"""
+        return _imslib.VCO_TrackingMode(self, output, func)
 
-    def ExternalRFMute(self, *args):
-        r"""ExternalRFMute(VCO self, bool enable=True, RFChannel ch=all) -> bool"""
-        return _imslib.VCO_ExternalRFMute(self, *args)
+    def RFMute(self, *args):
+        r"""RFMute(VCO self, iMS::VCO::VCOMute arg2=MUTE, RFChannel ch=all) -> bool"""
+        return _imslib.VCO_RFMute(self, *args)
 
     def SetConstantFrequency(self, *args):
         r"""SetConstantFrequency(VCO self, MHz freq, RFChannel ch=all) -> bool"""
@@ -5613,6 +5638,26 @@ class VCO(object):
     def SaveStartupState(self):
         r"""SaveStartupState(VCO self) -> bool"""
         return _imslib.VCO_SaveStartupState(self)
+
+    def ReadVoltageInput(self):
+        r"""ReadVoltageInput(VCO self) -> bool"""
+        return _imslib.VCO_ReadVoltageInput(self)
+
+    def GetVoltageInputData(self):
+        r"""GetVoltageInputData(VCO self) -> std::map< iMS::VCO::MEASURE,iMS::Percent,std::less< iMS::VCO::MEASURE >,std::allocator< std::pair< iMS::VCO::MEASURE const,iMS::Percent > > > const &"""
+        return _imslib.VCO_GetVoltageInputData(self)
+
+    def GetVoltageInputDataStr(self):
+        r"""GetVoltageInputDataStr(VCO self) -> AnalogDataStr"""
+        return _imslib.VCO_GetVoltageInputDataStr(self)
+
+    def VCOEventSubscribe(self, message, handler):
+        r"""VCOEventSubscribe(VCO self, int const message, IEventHandler handler)"""
+        return _imslib.VCO_VCOEventSubscribe(self, message, handler)
+
+    def VCOEventUnsubscribe(self, message, handler):
+        r"""VCOEventUnsubscribe(VCO self, int const message, IEventHandler handler)"""
+        return _imslib.VCO_VCOEventUnsubscribe(self, message, handler)
     __swig_destroy__ = _imslib.delete_VCO
 
 # Register VCO in _imslib:
