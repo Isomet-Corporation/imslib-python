@@ -121,6 +121,7 @@ namespace iMS
     bool GetCalibrationChannelLockState(const RFChannel& chan);
     bool PhaseResync();
     bool AutoPhaseResync(bool enable = true);
+    bool ExtPhaseResync(bool enable = true);
     bool SetEnhancedToneMode(const SweepTone& tone_ch1, const SweepTone& tone_ch2, const SweepTone& tone_ch3, const SweepTone& tone_ch4);
     bool SetEnhancedToneChannel(const RFChannel& chan, const SweepTone& tone);
     bool ClearEnhancedToneMode();

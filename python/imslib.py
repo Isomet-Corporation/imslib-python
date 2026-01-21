@@ -3380,8 +3380,8 @@ class IMSSystem(object):
         r"""Disconnect(IMSSystem self)"""
         return _imslib.IMSSystem_Disconnect(self)
 
-    def SetTimeouts(self, send_timeout_ms, rx_timeout_ms, free_timeout_ms, discover_timeout_ms):
-        r"""SetTimeouts(IMSSystem self, int send_timeout_ms, int rx_timeout_ms, int free_timeout_ms, int discover_timeout_ms)"""
+    def SetTimeouts(self, send_timeout_ms=500, rx_timeout_ms=5000, free_timeout_ms=30000, discover_timeout_ms=2500):
+        r"""SetTimeouts(IMSSystem self, int send_timeout_ms=500, int rx_timeout_ms=5000, int free_timeout_ms=30000, int discover_timeout_ms=2500)"""
         return _imslib.IMSSystem_SetTimeouts(self, send_timeout_ms, rx_timeout_ms, free_timeout_ms, discover_timeout_ms)
 
     def Open(self):
@@ -5426,6 +5426,10 @@ class SignalPath(object):
     def AutoPhaseResync(self, enable=True):
         r"""AutoPhaseResync(SignalPath self, bool enable=True) -> bool"""
         return _imslib.SignalPath_AutoPhaseResync(self, enable)
+
+    def ExtPhaseResync(self, enable=True):
+        r"""ExtPhaseResync(SignalPath self, bool enable=True) -> bool"""
+        return _imslib.SignalPath_ExtPhaseResync(self, enable)
 
     def SetEnhancedToneMode(self, tone_ch1, tone_ch2, tone_ch3, tone_ch4):
         r"""SetEnhancedToneMode(SignalPath self, SweepTone tone_ch1, SweepTone tone_ch2, SweepTone tone_ch3, SweepTone tone_ch4) -> bool"""

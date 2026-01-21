@@ -329,7 +329,7 @@ namespace iMS {
     static std::shared_ptr<IMSSystem> Create(T&& ... t);
     void Connect();
     void Disconnect();
-  	void SetTimeouts(int send_timeout_ms, int rx_timeout_ms, int free_timeout_ms, int discover_timeout_ms);
+  	void SetTimeouts(int send_timeout_ms=500, int rx_timeout_ms=5000, int free_timeout_ms=30000, int discover_timeout_ms=2500);
     bool Open() const;
     const IMSController& Ctlr() const;
     const IMSSynthesiser& Synth() const;
