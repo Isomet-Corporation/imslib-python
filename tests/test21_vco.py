@@ -213,65 +213,103 @@ class GainWidget(QGroupBox):
 # -------------------------------------------------
 
 class RoutingWidget(QGroupBox):
-    def __init__(self, vco):
+    """
+    output_rows is a list of tuples:
+      (label, output_enum)
+
+    Example:
+      [
+        ("CH1 Frequency", VCO.VCORoute_CH1_FREQ),
+        ("CH1 Level",     VCO.VCORoute_CH1_LEVEL),
+        ("CH2 Frequency", VCO.VCORoute_CH2_FREQ),
+        ("CH2 Level",     VCO.VCORoute_CH2_LEVEL),
+      ]
+    """    
+    def __init__(self, vco, constant_widget, output_rows):
         super().__init__("Routing / Tracking")
         self.vco = vco
+        self.constant_widget = constant_widget
+        self.rows = {}   # output_enum -> row widgets
 
-        layout = QHBoxLayout(self)
+        layout = QGridLayout(self)
 
-        self.output = QComboBox()
-        self.output.addItems([
-            "CH1 Frequency",
-            "CH1 Amplitude",
-            "CH2 Frequency",
-            "CH2 Amplitude"
-        ])
+        # Headers
+        layout.addWidget(QLabel("Output"), 0, 0)
+        layout.addWidget(QLabel("Input"), 0, 1)
+        layout.addWidget(QLabel("Mode"), 0, 2, 1, 4)
 
-        self.input = QComboBox()
-        self.input.addItems(["Input A", "Input B"])
+        for row, (label, output_enum) in enumerate(output_rows, start=1):
+            self._add_row(layout, row, label, output_enum)
 
-        self.track = QComboBox()
-        self.track.addItems([
-            "Track",
-            "Hold / Freeze",
-            "External Pin Control"
-        ])
+        # Listen for ConstantWidget presses
+        constant_widget.constantPressed.connect(self._on_constant_pressed)
 
-        btn = QPushButton("Set")
+    def _add_row(self, layout, row, label, output_enum):
+        layout.addWidget(QLabel(label), row, 0)
 
-        layout.addWidget(self.output)
-        layout.addWidget(self.input)
-        layout.addWidget(self.track)
-        layout.addWidget(btn)
+        # Input selector
+        cb = QComboBox()
+        cb.addItems(["Input A", "Input B"])
+        layout.addWidget(cb, row, 1)
 
-        btn.clicked.connect(self.route)
+        # Radio buttons
+        rb_track = QRadioButton("Track")
+        rb_hold = QRadioButton("Hold")
+        rb_ext = QRadioButton("External")
+        rb_const = QRadioButton("Constant")
+        rb_track.setChecked(True)
 
-    def route(self):
-        out_map = [
-            VCO.VCOOutput_CH1_FREQUENCY,
-            VCO.VCOOutput_CH1_AMPLITUDE,
-            VCO.VCOOutput_CH2_FREQUENCY,
-            VCO.VCOOutput_CH2_AMPLITUDE,
-        ]
+        group = QButtonGroup(self)
+        group.setExclusive(True)
+        for rb in (rb_track, rb_hold, rb_ext, rb_const):
+            group.addButton(rb)
+
+        layout.addWidget(rb_track, row, 2)
+        layout.addWidget(rb_hold,  row, 3)
+        layout.addWidget(rb_ext,   row, 4)
+        layout.addWidget(rb_const, row, 5)
+
+        self.rows[output_enum] = (cb, rb_track, rb_hold, rb_ext, rb_const)
+
+        # Live updates
+        cb.currentIndexChanged.connect(
+            lambda _, out=output_enum: self._route(out)
+        )
+        for rb in (rb_track, rb_hold, rb_ext, rb_const):
+            rb.toggled.connect(
+                lambda checked, out=output_enum: checked and self._route(out)
+            )
+
+    def _route(self, output_enum):
+        cb, rb_track, rb_hold, rb_ext, rb_const = self.rows[output_enum]
+
+        # Input
         in_map = {
             0: VCO.VCOInput_A,
             1: VCO.VCOInput_B,
-        }
-        track_map = [
-            VCO.VCOTracking_TRACK,
-            VCO.VCOTracking_HOLD,
-            VCO.VCOTracking_PIN_CONTROLLED,
-        ]
+        }        
+        channel = RFChannel(1) if cb.currentIndex() == 0 else RFChannel(2)
 
-        self.vco.Route(
-            out_map[self.output.currentIndex()],
-            in_map[self.input.currentIndex()]
-        )
-        self.vco.TrackingMode(
-            out_map[self.output.currentIndex()],
-            track_map[self.track.currentIndex()]
-        )
+        # Mode
+        if rb_track.isChecked():
+            mode = VCO.VCOTracking_TRACK
+        elif rb_hold.isChecked():
+            mode = VCO.VCOTracking_HOLD
+        elif rb_ext.isChecked():
+            mode = VCO.VCOTracking_PIN_CONTROLLED
+        elif rb_const.isChecked():
+            mode = VCO.VCOTracking_CONSTANT
+        else:
+            return
 
+        self.vco.Route(output_enum, in_map[cb.currentIndex()])
+        self.vco.TrackingMode(output_enum, mode)
+
+    def _on_constant_pressed(self, output_enum):
+        if output_enum not in self.rows:
+            return
+        _, _, _, _, rb_const = self.rows[output_enum]
+        rb_const.setChecked(True)   # This auto-triggers Route()
 
 # -------------------------------------------------
 # Muting
@@ -339,6 +377,7 @@ class RFMuteWidget(QGroupBox):
 # -------------------------------------------------
 
 class ConstantWidget(QGroupBox):
+    constantPressed = Signal(object)
     def __init__(self, vco):
         super().__init__("Constant Output")
         self.vco = vco
@@ -370,19 +409,32 @@ class ConstantWidget(QGroupBox):
 
     def set_freq(self):
         try:
+            chan = channel_from_text(self.channel.currentText())
             self.vco.SetConstantFrequency(
                 MHz(float(self.freq.text())),
-                channel_from_text(self.channel.currentText())
+                chan
             )
+            if chan == RFChannel(1) or chan.IsAll():
+                self.constantPressed.emit(VCO.VCOOutput_CH1_FREQUENCY)
+            if chan == RFChannel(2) or chan.IsAll():
+                self.constantPressed.emit(VCO.VCOOutput_CH2_FREQUENCY)
+
         except Exception as e:
             error_box(str(e))
+        
 
     def set_amp(self):
         try:
+            chan = channel_from_text(self.channel.currentText())
             self.vco.SetConstantAmplitude(
                 Percent(float(self.amp.text())),
-                channel_from_text(self.channel.currentText())
+                chan
             )
+            if chan == RFChannel(1) or chan.IsAll():
+                self.constantPressed.emit(VCO.VCOOutput_CH1_AMPLITUDE)
+            if chan == RFChannel(2) or chan.IsAll():
+                self.constantPressed.emit(VCO.VCOOutput_CH2_AMPLITUDE)
+
         except Exception as e:
             error_box(str(e))
 
@@ -400,16 +452,24 @@ class MainWindow(QMainWindow):
         tabs = QTabWidget()
         self.setCentralWidget(tabs)
         
+        output_rows = [
+            ("CH1 Frequency", VCO.VCOOutput_CH1_FREQUENCY),
+            ("CH1 Level",     VCO.VCOOutput_CH1_AMPLITUDE),
+            ("CH2 Frequency", VCO.VCOOutput_CH2_FREQUENCY),
+            ("CH2 Level",     VCO.VCOOutput_CH2_AMPLITUDE),
+        ]        
+
         # Control tab
         control = QWidget()        
         control_layout = QVBoxLayout(control)
 
+        constantWidget = ConstantWidget(vco)
         control_layout.addWidget(FilterWidget(vco))
         control_layout.addWidget(RangeWidget(vco))
         control_layout.addWidget(GainWidget(vco))
-        control_layout.addWidget(RoutingWidget(vco))
+        control_layout.addWidget(RoutingWidget(vco, constantWidget, output_rows))
         control_layout.addWidget(RFMuteWidget(vco))
-        control_layout.addWidget(ConstantWidget(vco))
+        control_layout.addWidget(constantWidget)
 
         btn_save = QPushButton("Save Startup State")
         btn_save.clicked.connect(self.save_state)
