@@ -2,7 +2,7 @@
 
 // Use the Python Stable ABI to avoid rqeuiring a specific minor version of the runtime library
 %begin %{
-#define Py_LIMITED_API 0x03040000
+#define Py_LIMITED_API 0x03080000
 %}
 
 %feature("autodoc", "1");     // Enables auto docstring extraction from C++ comments

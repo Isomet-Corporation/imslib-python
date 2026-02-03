@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-#define Py_LIMITED_API 0x03040000
+#define Py_LIMITED_API 0x03080000
 
 
 

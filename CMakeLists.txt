@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.26)
 
 message(STATUS "Building for Platform: '${CMAKE_GENERATOR_PLATFORM}'")
 cmake_policy(SET CMP0091 NEW) # Required to avoid Conan toolchain error on Windows
@@ -42,11 +42,14 @@ message(STATUS "Conan toolchain at ${CONAN_TOOLCHAIN_FILE}")
 include(${CONAN_TOOLCHAIN_FILE})
 
 # --- SWIG / Python ----------------------------------------------------------
-find_package(Python3 3.8 REQUIRED COMPONENTS Interpreter Development.Module)
+set(Python3_USE_STABLE_ABI TRUE)
+set(Python3_FIND_ABI "ANY")
+
+find_package(Python3 3.8 REQUIRED COMPONENTS Interpreter Development.SABIModule)
 if(Python3_FOUND)
   message(STATUS "Found Python3 at ${Python3_EXECUTABLE}")
   message(STATUS "Python include dirs: ${Python3_INCLUDE_DIRS}")
-  message(STATUS "Python3 Library: ${Python3_LIBRARY}")
+  message(STATUS "Python3 Library: ${Python3_SABI_LIBRARIES}")
 else()
   message(FATAL_ERROR "No Python3 installation found")
 endif()
@@ -112,13 +115,14 @@ target_include_directories(${SWIG_MODULE_NAME} PRIVATE
     ${Python3_INCLUDE_DIRS}
     ${CMAKE_CURRENT_SOURCE_DIR}/${IMS_LIB_SUBMODULE}/include
 )
+target_compile_definitions(${SWIG_MODULE_NAME} PRIVATE Py_LIMITED_API=0x03080000)
 
 # Add iMS Library directly to this module
 set(IMS_TARGET_NAME ${SWIG_MODULE_NAME})
 add_subdirectory(${IMS_LIB_SUBMODULE})
 
-target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_LIBRARY_DIRS})
-target_link_libraries(${SWIG_MODULE_NAME} PRIVATE Python3::Module ${IMS_LIBRARY_NAME})
+target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_SABI_LIBRARY_DIRS})
+target_link_libraries(${SWIG_MODULE_NAME} PRIVATE Python3::SABIModule ${IMS_LIBRARY_NAME})
 
 if(MSVC)
     add_compile_options(/wd8029)  # Disable warning MSB8029 about building in Temporary Folder
