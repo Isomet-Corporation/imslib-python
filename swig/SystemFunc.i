@@ -83,8 +83,10 @@ namespace iMS
 
   struct StartupConfiguration
   {
-    Percent RFAmplitudeWiper1;
-    Percent RFAmplitudeWiper2;
+    Percent RFAmplitudeCh1;
+    Percent RFAmplitudeCh2;
+    Percent RFAmplitudeCh3;
+    Percent RFAmplitudeCh4;
     Percent DDSPower;
     SignalPath::AmplitudeControl AmplitudeControlSource;
     bool RFGate;

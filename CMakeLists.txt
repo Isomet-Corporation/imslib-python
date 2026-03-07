@@ -43,7 +43,11 @@ include(${CONAN_TOOLCHAIN_FILE})
 
 # --- SWIG / Python ----------------------------------------------------------
 set(Python3_USE_STABLE_ABI TRUE)
-set(Python3_FIND_ABI "ANY")
+# if(CMAKE_VERSION VERSION_GREATER_EQUAL "3.30")
+#     set(Python3_FIND_ABI "ANY" "ANY" "ANY" "ANY")
+# else()
+#     set(Python3_FIND_ABI "ANY" "ANY" "ANY")
+# endif()
 
 find_package(Python3 3.8 REQUIRED COMPONENTS Interpreter Development.SABIModule)
 if(Python3_FOUND)
@@ -119,6 +123,7 @@ target_compile_definitions(${SWIG_MODULE_NAME} PRIVATE Py_LIMITED_API=0x03080000
 
 # Add iMS Library directly to this module
 set(IMS_TARGET_NAME ${SWIG_MODULE_NAME})
+set(IMSLIB_SUPPRESS_LIBRARY_BUILD ON)
 add_subdirectory(${IMS_LIB_SUBMODULE})
 
 target_link_directories(${SWIG_MODULE_NAME} PRIVATE ${Python3_SABI_LIBRARY_DIRS})

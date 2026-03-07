@@ -102,6 +102,60 @@ namespace iMS {
   };
 }
 
+%attribute_custom(iMS::ImageFormat, int, Channels, GetChannel, SetChannels, self_->Channels(), self_->Channels(val_));
+%attribute_custom(iMS::ImageFormat, int, FreqBytes, GetFreqBytes, SetFreqBytes, self_->FreqBytes(), self_->FreqBytes(val_));
+%attribute_custom(iMS::ImageFormat, int, AmplBytes, GetAmplBytes, SetAmplBytes, self_->AmplBytes(), self_->AmplBytes(val_));
+%attribute_custom(iMS::ImageFormat, int, PhaseBytes, GetPhaseBytes, SetPhaseBytes, self_->PhaseBytes(), self_->PhaseBytes(val_));
+%attribute_custom(iMS::ImageFormat, int, SyncBytes, GetSyncBytes, SetSyncBytes, self_->SyncBytes(), self_->SyncBytes(val_));
+%attribute_custom(iMS::ImageFormat, bool, EnableAmpl, GetEnableAmpl, SetEnableAmpl, self_->EnableAmpl(), self_->EnableAmpl(val_));
+%attribute_custom(iMS::ImageFormat, bool, EnablePhase, GetEnablePhase, SetEnablePhase, self_->EnablePhase(), self_->EnablePhase(val_));
+%attribute_custom(iMS::ImageFormat, int, SyncAnlgChannels, GetSyncAnlgChannels, SetSyncAnlgChannels, self_->SyncAnlgChannels(), self_->SyncAnlgChannels(val_));
+%attribute_custom(iMS::ImageFormat, bool, EnableSyncDig, GetEnableSyncDig, SetEnableSyncDig, self_->EnableSyncDig(), self_->EnableSyncDig(val_));
+%attribute_custom(iMS::ImageFormat, bool, CombineChannelPairs, GetCombineChannelPairs, SetCombineChannelPairs, self_->CombineChannelPairs(), self_->CombineChannelPairs(val_));
+%attribute_custom(iMS::ImageFormat, bool, CombineAllChannels, GetCombineAllChannels, SetCombineAllChannels, self_->CombineAllChannels(), self_->CombineAllChannels(val_));
+
+namespace iMS {
+class ImageFormat
+	{
+	public:
+		ImageFormat();
+		ImageFormat(std::shared_ptr<IMSSystem> ims);
+
+		// int Channels() const;
+		// void Channels(int value);
+
+		// int FreqBytes() const;
+		// void FreqBytes(int value);
+
+		// int AmplBytes() const;
+		// void AmplBytes(int value);
+
+		// int PhaseBytes() const;
+		// void PhaseBytes(int value);
+
+		// int SyncBytes() const;
+		// void SyncBytes(int value);
+
+		// bool EnableAmpl() const;
+		// void EnableAmpl(bool value);
+
+		// bool EnablePhase() const;
+		// void EnablePhase(bool value);
+
+		// int SyncAnlgChannels() const;
+		// void SyncAnlgChannels(int value);
+
+		// bool EnableSyncDig() const;
+		// void EnableSyncDig(bool value);
+
+		// bool CombineChannelPairs() const;
+		// void CombineChannelPairs(bool value);
+
+		// bool CombineAllChannels() const;
+		// void CombineAllChannels(bool value);
+	};
+}
+
 %attribute_custom(iMS::Image, iMS::Frequency&, ClockRate, GetClockRate, SetClockRate, self_->ClockRate(), self_->ClockRate(val_));
 %attribute_custom(iMS::Image, int, ExtClockDivide, GetExtClockDivide, SetExtClockDivide, self_->ExtClockDivide(), self_->ExtClockDivide(val_));
 %attributeref(iMS::Image, std::string, Description, Description);

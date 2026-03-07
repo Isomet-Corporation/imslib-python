@@ -53,3 +53,5 @@ build/
 venv/
 .vscode
 *.bak
+CMakeUserPresets.json
+build - Copy.bat

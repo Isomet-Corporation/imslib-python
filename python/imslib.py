@@ -4328,6 +4328,33 @@ class ImagePoint(object):
 
 # Register ImagePoint in _imslib:
 _imslib.ImagePoint_swigregister(ImagePoint)
+class ImageFormat(object):
+    r"""Proxy of C++ iMS::ImageFormat class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        r"""
+        __init__(ImageFormat self) -> ImageFormat
+        __init__(ImageFormat self, std::shared_ptr< iMS::IMSSystem > ims) -> ImageFormat
+        """
+        _imslib.ImageFormat_swiginit(self, _imslib.new_ImageFormat(*args))
+    Channels = property(_imslib.ImageFormat_Channels_get, _imslib.ImageFormat_Channels_set, doc=r"""Channels : int""")
+    FreqBytes = property(_imslib.ImageFormat_FreqBytes_get, _imslib.ImageFormat_FreqBytes_set, doc=r"""FreqBytes : int""")
+    AmplBytes = property(_imslib.ImageFormat_AmplBytes_get, _imslib.ImageFormat_AmplBytes_set, doc=r"""AmplBytes : int""")
+    PhaseBytes = property(_imslib.ImageFormat_PhaseBytes_get, _imslib.ImageFormat_PhaseBytes_set, doc=r"""PhaseBytes : int""")
+    SyncBytes = property(_imslib.ImageFormat_SyncBytes_get, _imslib.ImageFormat_SyncBytes_set, doc=r"""SyncBytes : int""")
+    EnableAmpl = property(_imslib.ImageFormat_EnableAmpl_get, _imslib.ImageFormat_EnableAmpl_set, doc=r"""EnableAmpl : bool""")
+    EnablePhase = property(_imslib.ImageFormat_EnablePhase_get, _imslib.ImageFormat_EnablePhase_set, doc=r"""EnablePhase : bool""")
+    SyncAnlgChannels = property(_imslib.ImageFormat_SyncAnlgChannels_get, _imslib.ImageFormat_SyncAnlgChannels_set, doc=r"""SyncAnlgChannels : int""")
+    EnableSyncDig = property(_imslib.ImageFormat_EnableSyncDig_get, _imslib.ImageFormat_EnableSyncDig_set, doc=r"""EnableSyncDig : bool""")
+    CombineChannelPairs = property(_imslib.ImageFormat_CombineChannelPairs_get, _imslib.ImageFormat_CombineChannelPairs_set, doc=r"""CombineChannelPairs : bool""")
+    CombineAllChannels = property(_imslib.ImageFormat_CombineAllChannels_get, _imslib.ImageFormat_CombineAllChannels_set, doc=r"""CombineAllChannels : bool""")
+    __swig_destroy__ = _imslib.delete_ImageFormat
+
+# Register ImageFormat in _imslib:
+_imslib.ImageFormat_swigregister(ImageFormat)
 class Image(DequeBase_ImagePoint):
     r"""Proxy of C++ iMS::Image class."""
 
@@ -4572,7 +4599,7 @@ class ImageDownload(object):
         _imslib.ImageDownload_swiginit(self, _imslib.new_ImageDownload(ims, img))
 
     def SetFormat(self, fmt):
-        r"""SetFormat(ImageDownload self, ImageFormat const & fmt)"""
+        r"""SetFormat(ImageDownload self, ImageFormat fmt)"""
         return _imslib.ImageDownload_SetFormat(self, fmt)
 
     def StartDownload(self):
@@ -5810,8 +5837,10 @@ class StartupConfiguration(object):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    RFAmplitudeWiper1 = property(_imslib.StartupConfiguration_RFAmplitudeWiper1_get, _imslib.StartupConfiguration_RFAmplitudeWiper1_set, doc=r"""RFAmplitudeWiper1 : iMS::Percent""")
-    RFAmplitudeWiper2 = property(_imslib.StartupConfiguration_RFAmplitudeWiper2_get, _imslib.StartupConfiguration_RFAmplitudeWiper2_set, doc=r"""RFAmplitudeWiper2 : iMS::Percent""")
+    RFAmplitudeCh1 = property(_imslib.StartupConfiguration_RFAmplitudeCh1_get, _imslib.StartupConfiguration_RFAmplitudeCh1_set, doc=r"""RFAmplitudeCh1 : iMS::Percent""")
+    RFAmplitudeCh2 = property(_imslib.StartupConfiguration_RFAmplitudeCh2_get, _imslib.StartupConfiguration_RFAmplitudeCh2_set, doc=r"""RFAmplitudeCh2 : iMS::Percent""")
+    RFAmplitudeCh3 = property(_imslib.StartupConfiguration_RFAmplitudeCh3_get, _imslib.StartupConfiguration_RFAmplitudeCh3_set, doc=r"""RFAmplitudeCh3 : iMS::Percent""")
+    RFAmplitudeCh4 = property(_imslib.StartupConfiguration_RFAmplitudeCh4_get, _imslib.StartupConfiguration_RFAmplitudeCh4_set, doc=r"""RFAmplitudeCh4 : iMS::Percent""")
     DDSPower = property(_imslib.StartupConfiguration_DDSPower_get, _imslib.StartupConfiguration_DDSPower_set, doc=r"""DDSPower : iMS::Percent""")
     AmplitudeControlSource = property(_imslib.StartupConfiguration_AmplitudeControlSource_get, _imslib.StartupConfiguration_AmplitudeControlSource_set, doc=r"""AmplitudeControlSource : iMS::SignalPath::AmplitudeControl""")
     RFGate = property(_imslib.StartupConfiguration_RFGate_get, _imslib.StartupConfiguration_RFGate_set, doc=r"""RFGate : bool""")

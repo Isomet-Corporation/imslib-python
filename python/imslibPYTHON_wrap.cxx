@@ -3720,60 +3720,60 @@ namespace Swig {
 #define SWIGTYPE_p_CompensationTable swig_types[2]
 #define SWIGTYPE_p_FileSystemTable swig_types[3]
 #define SWIGTYPE_p_Image swig_types[4]
-#define SWIGTYPE_p_ImageFormat swig_types[5]
-#define SWIGTYPE_p_ImageGroup swig_types[6]
-#define SWIGTYPE_p_ImagePlayer__ImageTrigger swig_types[7]
-#define SWIGTYPE_p_ImagePlayer__PointClock swig_types[8]
-#define SWIGTYPE_p_ImagePoint swig_types[9]
-#define SWIGTYPE_p_ImageTable swig_types[10]
-#define SWIGTYPE_p_MHz swig_types[11]
-#define SWIGTYPE_p_ToneBuffer swig_types[12]
-#define SWIGTYPE_p_allocator_type swig_types[13]
-#define SWIGTYPE_p_char swig_types[14]
-#define SWIGTYPE_p_const_iterator swig_types[15]
-#define SWIGTYPE_p_difference_type swig_types[16]
-#define SWIGTYPE_p_iMS__AODevice swig_types[17]
-#define SWIGTYPE_p_iMS__AODeviceList swig_types[18]
-#define SWIGTYPE_p_iMS__Auxiliary swig_types[19]
-#define SWIGTYPE_p_iMS__CS_ETH swig_types[20]
-#define SWIGTYPE_p_iMS__CS_RS422 swig_types[21]
-#define SWIGTYPE_p_iMS__ClockGenConfiguration swig_types[22]
-#define SWIGTYPE_p_iMS__CompensationFunction swig_types[23]
-#define SWIGTYPE_p_iMS__CompensationFunctionList swig_types[24]
-#define SWIGTYPE_p_iMS__CompensationPoint swig_types[25]
-#define SWIGTYPE_p_iMS__CompensationPointSpecification swig_types[26]
-#define SWIGTYPE_p_iMS__CompensationTable swig_types[27]
-#define SWIGTYPE_p_iMS__CompensationTableDownload swig_types[28]
-#define SWIGTYPE_p_iMS__CompensationTableExporter swig_types[29]
-#define SWIGTYPE_p_iMS__CompensationTableImporter swig_types[30]
-#define SWIGTYPE_p_iMS__ConnectionConfig swig_types[31]
-#define SWIGTYPE_p_iMS__ConnectionList swig_types[32]
-#define SWIGTYPE_p_iMS__Crystal swig_types[33]
-#define SWIGTYPE_p_iMS__DDSScriptDownload swig_types[34]
-#define SWIGTYPE_p_iMS__DDSScriptRegister swig_types[35]
-#define SWIGTYPE_p_iMS__Degrees swig_types[36]
-#define SWIGTYPE_p_iMS__DequeBaseT_iMS__CompensationPoint_t swig_types[37]
-#define SWIGTYPE_p_iMS__DequeBaseT_iMS__CompensationTable_t swig_types[38]
-#define SWIGTYPE_p_iMS__DequeBaseT_iMS__ImagePoint_t swig_types[39]
-#define SWIGTYPE_p_iMS__DequeBaseT_iMS__Image_t swig_types[40]
-#define SWIGTYPE_p_iMS__Diagnostics swig_types[41]
-#define SWIGTYPE_p_iMS__DownloadEvents swig_types[42]
-#define SWIGTYPE_p_iMS__FAP swig_types[43]
-#define SWIGTYPE_p_iMS__FWVersion swig_types[44]
-#define SWIGTYPE_p_iMS__FileSystemManager swig_types[45]
-#define SWIGTYPE_p_iMS__FileSystemTableEntry swig_types[46]
-#define SWIGTYPE_p_iMS__FileSystemTableViewer swig_types[47]
-#define SWIGTYPE_p_iMS__Frequency swig_types[48]
-#define SWIGTYPE_p_iMS__IConnectionSettings swig_types[49]
-#define SWIGTYPE_p_iMS__IEventHandler swig_types[50]
-#define SWIGTYPE_p_iMS__IMSController swig_types[51]
-#define SWIGTYPE_p_iMS__IMSControllerCapabilities swig_types[52]
-#define SWIGTYPE_p_iMS__IMSOption swig_types[53]
-#define SWIGTYPE_p_iMS__IMSSynthesiser swig_types[54]
-#define SWIGTYPE_p_iMS__IMSSynthesiserCapabilities swig_types[55]
-#define SWIGTYPE_p_iMS__IMSSystem swig_types[56]
-#define SWIGTYPE_p_iMS__Image swig_types[57]
-#define SWIGTYPE_p_iMS__ImageDownload swig_types[58]
+#define SWIGTYPE_p_ImageGroup swig_types[5]
+#define SWIGTYPE_p_ImagePlayer__ImageTrigger swig_types[6]
+#define SWIGTYPE_p_ImagePlayer__PointClock swig_types[7]
+#define SWIGTYPE_p_ImagePoint swig_types[8]
+#define SWIGTYPE_p_ImageTable swig_types[9]
+#define SWIGTYPE_p_MHz swig_types[10]
+#define SWIGTYPE_p_ToneBuffer swig_types[11]
+#define SWIGTYPE_p_allocator_type swig_types[12]
+#define SWIGTYPE_p_char swig_types[13]
+#define SWIGTYPE_p_const_iterator swig_types[14]
+#define SWIGTYPE_p_difference_type swig_types[15]
+#define SWIGTYPE_p_iMS__AODevice swig_types[16]
+#define SWIGTYPE_p_iMS__AODeviceList swig_types[17]
+#define SWIGTYPE_p_iMS__Auxiliary swig_types[18]
+#define SWIGTYPE_p_iMS__CS_ETH swig_types[19]
+#define SWIGTYPE_p_iMS__CS_RS422 swig_types[20]
+#define SWIGTYPE_p_iMS__ClockGenConfiguration swig_types[21]
+#define SWIGTYPE_p_iMS__CompensationFunction swig_types[22]
+#define SWIGTYPE_p_iMS__CompensationFunctionList swig_types[23]
+#define SWIGTYPE_p_iMS__CompensationPoint swig_types[24]
+#define SWIGTYPE_p_iMS__CompensationPointSpecification swig_types[25]
+#define SWIGTYPE_p_iMS__CompensationTable swig_types[26]
+#define SWIGTYPE_p_iMS__CompensationTableDownload swig_types[27]
+#define SWIGTYPE_p_iMS__CompensationTableExporter swig_types[28]
+#define SWIGTYPE_p_iMS__CompensationTableImporter swig_types[29]
+#define SWIGTYPE_p_iMS__ConnectionConfig swig_types[30]
+#define SWIGTYPE_p_iMS__ConnectionList swig_types[31]
+#define SWIGTYPE_p_iMS__Crystal swig_types[32]
+#define SWIGTYPE_p_iMS__DDSScriptDownload swig_types[33]
+#define SWIGTYPE_p_iMS__DDSScriptRegister swig_types[34]
+#define SWIGTYPE_p_iMS__Degrees swig_types[35]
+#define SWIGTYPE_p_iMS__DequeBaseT_iMS__CompensationPoint_t swig_types[36]
+#define SWIGTYPE_p_iMS__DequeBaseT_iMS__CompensationTable_t swig_types[37]
+#define SWIGTYPE_p_iMS__DequeBaseT_iMS__ImagePoint_t swig_types[38]
+#define SWIGTYPE_p_iMS__DequeBaseT_iMS__Image_t swig_types[39]
+#define SWIGTYPE_p_iMS__Diagnostics swig_types[40]
+#define SWIGTYPE_p_iMS__DownloadEvents swig_types[41]
+#define SWIGTYPE_p_iMS__FAP swig_types[42]
+#define SWIGTYPE_p_iMS__FWVersion swig_types[43]
+#define SWIGTYPE_p_iMS__FileSystemManager swig_types[44]
+#define SWIGTYPE_p_iMS__FileSystemTableEntry swig_types[45]
+#define SWIGTYPE_p_iMS__FileSystemTableViewer swig_types[46]
+#define SWIGTYPE_p_iMS__Frequency swig_types[47]
+#define SWIGTYPE_p_iMS__IConnectionSettings swig_types[48]
+#define SWIGTYPE_p_iMS__IEventHandler swig_types[49]
+#define SWIGTYPE_p_iMS__IMSController swig_types[50]
+#define SWIGTYPE_p_iMS__IMSControllerCapabilities swig_types[51]
+#define SWIGTYPE_p_iMS__IMSOption swig_types[52]
+#define SWIGTYPE_p_iMS__IMSSynthesiser swig_types[53]
+#define SWIGTYPE_p_iMS__IMSSynthesiserCapabilities swig_types[54]
+#define SWIGTYPE_p_iMS__IMSSystem swig_types[55]
+#define SWIGTYPE_p_iMS__Image swig_types[56]
+#define SWIGTYPE_p_iMS__ImageDownload swig_types[57]
+#define SWIGTYPE_p_iMS__ImageFormat swig_types[58]
 #define SWIGTYPE_p_iMS__ImageGroup swig_types[59]
 #define SWIGTYPE_p_iMS__ImageGroupList swig_types[60]
 #define SWIGTYPE_p_iMS__ImagePlayer swig_types[61]
@@ -8935,6 +8935,50 @@ SWIG_From_float  (float value)
   return SWIG_From_double  (value);
 }
 
+
+#define iMS_ImageFormat_Channels_get(self_) self_->Channels()
+#define iMS_ImageFormat_Channels_set(self_, val_) self_->Channels(val_)
+  
+
+#define iMS_ImageFormat_FreqBytes_get(self_) self_->FreqBytes()
+#define iMS_ImageFormat_FreqBytes_set(self_, val_) self_->FreqBytes(val_)
+  
+
+#define iMS_ImageFormat_AmplBytes_get(self_) self_->AmplBytes()
+#define iMS_ImageFormat_AmplBytes_set(self_, val_) self_->AmplBytes(val_)
+  
+
+#define iMS_ImageFormat_PhaseBytes_get(self_) self_->PhaseBytes()
+#define iMS_ImageFormat_PhaseBytes_set(self_, val_) self_->PhaseBytes(val_)
+  
+
+#define iMS_ImageFormat_SyncBytes_get(self_) self_->SyncBytes()
+#define iMS_ImageFormat_SyncBytes_set(self_, val_) self_->SyncBytes(val_)
+  
+
+#define iMS_ImageFormat_EnableAmpl_get(self_) self_->EnableAmpl()
+#define iMS_ImageFormat_EnableAmpl_set(self_, val_) self_->EnableAmpl(val_)
+  
+
+#define iMS_ImageFormat_EnablePhase_get(self_) self_->EnablePhase()
+#define iMS_ImageFormat_EnablePhase_set(self_, val_) self_->EnablePhase(val_)
+  
+
+#define iMS_ImageFormat_SyncAnlgChannels_get(self_) self_->SyncAnlgChannels()
+#define iMS_ImageFormat_SyncAnlgChannels_set(self_, val_) self_->SyncAnlgChannels(val_)
+  
+
+#define iMS_ImageFormat_EnableSyncDig_get(self_) self_->EnableSyncDig()
+#define iMS_ImageFormat_EnableSyncDig_set(self_, val_) self_->EnableSyncDig(val_)
+  
+
+#define iMS_ImageFormat_CombineChannelPairs_get(self_) self_->CombineChannelPairs()
+#define iMS_ImageFormat_CombineChannelPairs_set(self_, val_) self_->CombineChannelPairs(val_)
+  
+
+#define iMS_ImageFormat_CombineAllChannels_get(self_) self_->CombineAllChannels()
+#define iMS_ImageFormat_CombineAllChannels_set(self_, val_) self_->CombineAllChannels(val_)
+  
 
 #define iMS_Image_ClockRate_get(self_) self_->ClockRate()
 #define iMS_Image_ClockRate_set(self_, val_) self_->ClockRate(val_)
@@ -56393,6 +56437,803 @@ SWIGINTERN PyObject *ImagePoint_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObjec
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_new_ImageFormat__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::ImageFormat *)new iMS::ImageFormat();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ImageFormat, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ImageFormat__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::shared_ptr< iMS::IMSSystem > arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  iMS::ImageFormat *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    int newmem = 0;
+    res1 = SWIG_ConvertPtrAndOwn(swig_obj[0], &argp1, SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t,  0 , &newmem);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_ImageFormat" "', argument " "1"" of type '" "std::shared_ptr< iMS::IMSSystem >""'");
+    }
+    if (argp1) arg1 = *(reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1));
+    if (newmem & SWIG_CAST_NEW_MEMORY) delete reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1);
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::ImageFormat *)new iMS::ImageFormat(SWIG_STD_MOVE(arg1));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__ImageFormat, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ImageFormat(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_ImageFormat", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_ImageFormat__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_ImageFormat__SWIG_1(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_ImageFormat'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::ImageFormat::ImageFormat()\n"
+    "    iMS::ImageFormat::ImageFormat(std::shared_ptr< iMS::IMSSystem >)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_Channels_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_Channels_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_Channels_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_Channels_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_Channels_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_Channels_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_Channels_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_Channels_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_FreqBytes_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_FreqBytes_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_FreqBytes_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_FreqBytes_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_FreqBytes_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_FreqBytes_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_FreqBytes_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_FreqBytes_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_AmplBytes_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_AmplBytes_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_AmplBytes_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_AmplBytes_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_AmplBytes_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_AmplBytes_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_AmplBytes_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_AmplBytes_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_PhaseBytes_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_PhaseBytes_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_PhaseBytes_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_PhaseBytes_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_PhaseBytes_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_PhaseBytes_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_PhaseBytes_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_PhaseBytes_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_SyncBytes_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_SyncBytes_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_SyncBytes_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_SyncBytes_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_SyncBytes_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_SyncBytes_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_SyncBytes_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_SyncBytes_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnableAmpl_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_EnableAmpl_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnableAmpl_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_EnableAmpl_set" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_EnableAmpl_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnableAmpl_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnableAmpl_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)iMS_ImageFormat_EnableAmpl_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnablePhase_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_EnablePhase_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnablePhase_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_EnablePhase_set" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_EnablePhase_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnablePhase_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnablePhase_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)iMS_ImageFormat_EnablePhase_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_SyncAnlgChannels_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_SyncAnlgChannels_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_SyncAnlgChannels_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_SyncAnlgChannels_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_SyncAnlgChannels_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_SyncAnlgChannels_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_SyncAnlgChannels_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)iMS_ImageFormat_SyncAnlgChannels_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnableSyncDig_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_EnableSyncDig_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnableSyncDig_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_EnableSyncDig_set" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_EnableSyncDig_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_EnableSyncDig_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_EnableSyncDig_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)iMS_ImageFormat_EnableSyncDig_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_CombineChannelPairs_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_CombineChannelPairs_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_CombineChannelPairs_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_CombineChannelPairs_set" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_CombineChannelPairs_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_CombineChannelPairs_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_CombineChannelPairs_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)iMS_ImageFormat_CombineChannelPairs_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_CombineAllChannels_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "ImageFormat_CombineAllChannels_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_CombineAllChannels_set" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ImageFormat_CombineAllChannels_set" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    iMS_ImageFormat_CombineAllChannels_set(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ImageFormat_CombineAllChannels_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageFormat_CombineAllChannels_get" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)iMS_ImageFormat_CombineAllChannels_get(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_ImageFormat(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::ImageFormat *arg1 = (iMS::ImageFormat *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__ImageFormat, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ImageFormat" "', argument " "1"" of type '" "iMS::ImageFormat *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::ImageFormat * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ImageFormat_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_iMS__ImageFormat, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *ImageFormat_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_new_Image__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   std::string *arg1 = 0 ;
@@ -61051,7 +61892,7 @@ fail:
 SWIGINTERN PyObject *_wrap_ImageDownload_SetFormat(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::ImageDownload *arg1 = (iMS::ImageDownload *) 0 ;
-  ImageFormat *arg2 = 0 ;
+  iMS::ImageFormat *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -61065,17 +61906,17 @@ SWIGINTERN PyObject *_wrap_ImageDownload_SetFormat(PyObject *self, PyObject *arg
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDownload_SetFormat" "', argument " "1"" of type '" "iMS::ImageDownload *""'"); 
   }
   arg1 = reinterpret_cast< iMS::ImageDownload * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_ImageFormat,  0  | 0);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_iMS__ImageFormat,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDownload_SetFormat" "', argument " "2"" of type '" "ImageFormat const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDownload_SetFormat" "', argument " "2"" of type '" "iMS::ImageFormat const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ImageDownload_SetFormat" "', argument " "2"" of type '" "ImageFormat const &""'"); 
+    SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "ImageDownload_SetFormat" "', argument " "2"" of type '" "iMS::ImageFormat const &""'"); 
   }
-  arg2 = reinterpret_cast< ImageFormat * >(argp2);
+  arg2 = reinterpret_cast< iMS::ImageFormat * >(argp2);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    (arg1)->SetFormat((ImageFormat const &)*arg2);
+    (arg1)->SetFormat((iMS::ImageFormat const &)*arg2);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -74735,7 +75576,7 @@ SWIGINTERN PyObject *SystemFunc_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObjec
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper1_set(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh1_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
   iMS::Percent *arg2 = (iMS::Percent *) 0 ;
@@ -74746,20 +75587,20 @@ SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper1_set(PyObject *
   PyObject *swig_obj[2] ;
   
   (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeWiper1_set", 2, 2, swig_obj)) SWIG_fail;
+  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeCh1_set", 2, 2, swig_obj)) SWIG_fail;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeWiper1_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh1_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
   }
   arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_iMS__Percent, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeWiper1_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeCh1_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
   }
   arg2 = reinterpret_cast< iMS::Percent * >(argp2);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    if (arg1) (arg1)->RFAmplitudeWiper1 = *arg2;
+    if (arg1) (arg1)->RFAmplitudeCh1 = *arg2;
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -74769,7 +75610,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper1_get(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh1_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
   void *argp1 = 0 ;
@@ -74782,12 +75623,12 @@ SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper1_get(PyObject *
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeWiper1_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh1_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
   }
   arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::Percent *)& ((arg1)->RFAmplitudeWiper1);
+    result = (iMS::Percent *)& ((arg1)->RFAmplitudeCh1);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__Percent, 0 |  0 );
@@ -74797,7 +75638,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper2_set(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh2_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
   iMS::Percent *arg2 = (iMS::Percent *) 0 ;
@@ -74808,20 +75649,20 @@ SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper2_set(PyObject *
   PyObject *swig_obj[2] ;
   
   (void)self;
-  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeWiper2_set", 2, 2, swig_obj)) SWIG_fail;
+  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeCh2_set", 2, 2, swig_obj)) SWIG_fail;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeWiper2_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh2_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
   }
   arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_iMS__Percent, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeWiper2_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeCh2_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
   }
   arg2 = reinterpret_cast< iMS::Percent * >(argp2);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    if (arg1) (arg1)->RFAmplitudeWiper2 = *arg2;
+    if (arg1) (arg1)->RFAmplitudeCh2 = *arg2;
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -74831,7 +75672,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper2_get(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh2_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
   void *argp1 = 0 ;
@@ -74844,12 +75685,136 @@ SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeWiper2_get(PyObject *
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeWiper2_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh2_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
   }
   arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (iMS::Percent *)& ((arg1)->RFAmplitudeWiper2);
+    result = (iMS::Percent *)& ((arg1)->RFAmplitudeCh2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__Percent, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh3_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
+  iMS::Percent *arg2 = (iMS::Percent *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeCh3_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh3_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_iMS__Percent, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeCh3_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::Percent * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->RFAmplitudeCh3 = *arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh3_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::Percent *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh3_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::Percent *)& ((arg1)->RFAmplitudeCh3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__Percent, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh4_set(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
+  iMS::Percent *arg2 = (iMS::Percent *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "StartupConfiguration_RFAmplitudeCh4_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh4_set" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_iMS__Percent, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StartupConfiguration_RFAmplitudeCh4_set" "', argument " "2"" of type '" "iMS::Percent *""'"); 
+  }
+  arg2 = reinterpret_cast< iMS::Percent * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->RFAmplitudeCh4 = *arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StartupConfiguration_RFAmplitudeCh4_get(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::StartupConfiguration *arg1 = (iMS::StartupConfiguration *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::Percent *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__StartupConfiguration, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StartupConfiguration_RFAmplitudeCh4_get" "', argument " "1"" of type '" "iMS::StartupConfiguration *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::StartupConfiguration * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::Percent *)& ((arg1)->RFAmplitudeCh4);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__Percent, 0 |  0 );
@@ -79175,6 +80140,35 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_ImagePoint", _wrap_delete_ImagePoint, METH_O, "delete_ImagePoint(ImagePoint self)"},
 	 { "ImagePoint_swigregister", ImagePoint_swigregister, METH_O, NULL},
 	 { "ImagePoint_swiginit", ImagePoint_swiginit, METH_VARARGS, NULL},
+	 { "new_ImageFormat", _wrap_new_ImageFormat, METH_VARARGS, "\n"
+		"ImageFormat()\n"
+		"new_ImageFormat(std::shared_ptr< iMS::IMSSystem > ims) -> ImageFormat\n"
+		""},
+	 { "ImageFormat_Channels_set", _wrap_ImageFormat_Channels_set, METH_VARARGS, "ImageFormat_Channels_set(ImageFormat self, int Channels)"},
+	 { "ImageFormat_Channels_get", _wrap_ImageFormat_Channels_get, METH_O, "ImageFormat_Channels_get(ImageFormat self) -> int"},
+	 { "ImageFormat_FreqBytes_set", _wrap_ImageFormat_FreqBytes_set, METH_VARARGS, "ImageFormat_FreqBytes_set(ImageFormat self, int FreqBytes)"},
+	 { "ImageFormat_FreqBytes_get", _wrap_ImageFormat_FreqBytes_get, METH_O, "ImageFormat_FreqBytes_get(ImageFormat self) -> int"},
+	 { "ImageFormat_AmplBytes_set", _wrap_ImageFormat_AmplBytes_set, METH_VARARGS, "ImageFormat_AmplBytes_set(ImageFormat self, int AmplBytes)"},
+	 { "ImageFormat_AmplBytes_get", _wrap_ImageFormat_AmplBytes_get, METH_O, "ImageFormat_AmplBytes_get(ImageFormat self) -> int"},
+	 { "ImageFormat_PhaseBytes_set", _wrap_ImageFormat_PhaseBytes_set, METH_VARARGS, "ImageFormat_PhaseBytes_set(ImageFormat self, int PhaseBytes)"},
+	 { "ImageFormat_PhaseBytes_get", _wrap_ImageFormat_PhaseBytes_get, METH_O, "ImageFormat_PhaseBytes_get(ImageFormat self) -> int"},
+	 { "ImageFormat_SyncBytes_set", _wrap_ImageFormat_SyncBytes_set, METH_VARARGS, "ImageFormat_SyncBytes_set(ImageFormat self, int SyncBytes)"},
+	 { "ImageFormat_SyncBytes_get", _wrap_ImageFormat_SyncBytes_get, METH_O, "ImageFormat_SyncBytes_get(ImageFormat self) -> int"},
+	 { "ImageFormat_EnableAmpl_set", _wrap_ImageFormat_EnableAmpl_set, METH_VARARGS, "ImageFormat_EnableAmpl_set(ImageFormat self, bool EnableAmpl)"},
+	 { "ImageFormat_EnableAmpl_get", _wrap_ImageFormat_EnableAmpl_get, METH_O, "ImageFormat_EnableAmpl_get(ImageFormat self) -> bool"},
+	 { "ImageFormat_EnablePhase_set", _wrap_ImageFormat_EnablePhase_set, METH_VARARGS, "ImageFormat_EnablePhase_set(ImageFormat self, bool EnablePhase)"},
+	 { "ImageFormat_EnablePhase_get", _wrap_ImageFormat_EnablePhase_get, METH_O, "ImageFormat_EnablePhase_get(ImageFormat self) -> bool"},
+	 { "ImageFormat_SyncAnlgChannels_set", _wrap_ImageFormat_SyncAnlgChannels_set, METH_VARARGS, "ImageFormat_SyncAnlgChannels_set(ImageFormat self, int SyncAnlgChannels)"},
+	 { "ImageFormat_SyncAnlgChannels_get", _wrap_ImageFormat_SyncAnlgChannels_get, METH_O, "ImageFormat_SyncAnlgChannels_get(ImageFormat self) -> int"},
+	 { "ImageFormat_EnableSyncDig_set", _wrap_ImageFormat_EnableSyncDig_set, METH_VARARGS, "ImageFormat_EnableSyncDig_set(ImageFormat self, bool EnableSyncDig)"},
+	 { "ImageFormat_EnableSyncDig_get", _wrap_ImageFormat_EnableSyncDig_get, METH_O, "ImageFormat_EnableSyncDig_get(ImageFormat self) -> bool"},
+	 { "ImageFormat_CombineChannelPairs_set", _wrap_ImageFormat_CombineChannelPairs_set, METH_VARARGS, "ImageFormat_CombineChannelPairs_set(ImageFormat self, bool CombineChannelPairs)"},
+	 { "ImageFormat_CombineChannelPairs_get", _wrap_ImageFormat_CombineChannelPairs_get, METH_O, "ImageFormat_CombineChannelPairs_get(ImageFormat self) -> bool"},
+	 { "ImageFormat_CombineAllChannels_set", _wrap_ImageFormat_CombineAllChannels_set, METH_VARARGS, "ImageFormat_CombineAllChannels_set(ImageFormat self, bool CombineAllChannels)"},
+	 { "ImageFormat_CombineAllChannels_get", _wrap_ImageFormat_CombineAllChannels_get, METH_O, "ImageFormat_CombineAllChannels_get(ImageFormat self) -> bool"},
+	 { "delete_ImageFormat", _wrap_delete_ImageFormat, METH_O, "delete_ImageFormat(ImageFormat self)"},
+	 { "ImageFormat_swigregister", ImageFormat_swigregister, METH_O, NULL},
+	 { "ImageFormat_swiginit", ImageFormat_swiginit, METH_VARARGS, NULL},
 	 { "new_Image", _wrap_new_Image, METH_VARARGS, "\n"
 		"Image(std::string const & name=\"\")\n"
 		"Image(size_t nPts, ImagePoint pt, std::string const & name=\"\")\n"
@@ -79282,7 +80276,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "ImageGroup_swigregister", ImageGroup_swigregister, METH_O, NULL},
 	 { "ImageGroup_swiginit", ImageGroup_swiginit, METH_VARARGS, NULL},
 	 { "new_ImageDownload", _wrap_new_ImageDownload, METH_VARARGS, "new_ImageDownload(std::shared_ptr< iMS::IMSSystem > ims, Image img) -> ImageDownload"},
-	 { "ImageDownload_SetFormat", _wrap_ImageDownload_SetFormat, METH_VARARGS, "ImageDownload_SetFormat(ImageDownload self, ImageFormat const & fmt)"},
+	 { "ImageDownload_SetFormat", _wrap_ImageDownload_SetFormat, METH_VARARGS, "ImageDownload_SetFormat(ImageDownload self, ImageFormat fmt)"},
 	 { "ImageDownload_StartDownload", _wrap_ImageDownload_StartDownload, METH_O, "ImageDownload_StartDownload(ImageDownload self) -> bool"},
 	 { "ImageDownload_StartVerify", _wrap_ImageDownload_StartVerify, METH_O, "ImageDownload_StartVerify(ImageDownload self) -> bool"},
 	 { "ImageDownload_GetVerifyError", _wrap_ImageDownload_GetVerifyError, METH_O, "ImageDownload_GetVerifyError(ImageDownload self) -> int"},
@@ -79622,10 +80616,14 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_SystemFunc", _wrap_delete_SystemFunc, METH_O, "delete_SystemFunc(SystemFunc self)"},
 	 { "SystemFunc_swigregister", SystemFunc_swigregister, METH_O, NULL},
 	 { "SystemFunc_swiginit", SystemFunc_swiginit, METH_VARARGS, NULL},
-	 { "StartupConfiguration_RFAmplitudeWiper1_set", _wrap_StartupConfiguration_RFAmplitudeWiper1_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeWiper1_set(StartupConfiguration self, Percent RFAmplitudeWiper1)"},
-	 { "StartupConfiguration_RFAmplitudeWiper1_get", _wrap_StartupConfiguration_RFAmplitudeWiper1_get, METH_O, "StartupConfiguration_RFAmplitudeWiper1_get(StartupConfiguration self) -> Percent"},
-	 { "StartupConfiguration_RFAmplitudeWiper2_set", _wrap_StartupConfiguration_RFAmplitudeWiper2_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeWiper2_set(StartupConfiguration self, Percent RFAmplitudeWiper2)"},
-	 { "StartupConfiguration_RFAmplitudeWiper2_get", _wrap_StartupConfiguration_RFAmplitudeWiper2_get, METH_O, "StartupConfiguration_RFAmplitudeWiper2_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_RFAmplitudeCh1_set", _wrap_StartupConfiguration_RFAmplitudeCh1_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeCh1_set(StartupConfiguration self, Percent RFAmplitudeCh1)"},
+	 { "StartupConfiguration_RFAmplitudeCh1_get", _wrap_StartupConfiguration_RFAmplitudeCh1_get, METH_O, "StartupConfiguration_RFAmplitudeCh1_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_RFAmplitudeCh2_set", _wrap_StartupConfiguration_RFAmplitudeCh2_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeCh2_set(StartupConfiguration self, Percent RFAmplitudeCh2)"},
+	 { "StartupConfiguration_RFAmplitudeCh2_get", _wrap_StartupConfiguration_RFAmplitudeCh2_get, METH_O, "StartupConfiguration_RFAmplitudeCh2_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_RFAmplitudeCh3_set", _wrap_StartupConfiguration_RFAmplitudeCh3_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeCh3_set(StartupConfiguration self, Percent RFAmplitudeCh3)"},
+	 { "StartupConfiguration_RFAmplitudeCh3_get", _wrap_StartupConfiguration_RFAmplitudeCh3_get, METH_O, "StartupConfiguration_RFAmplitudeCh3_get(StartupConfiguration self) -> Percent"},
+	 { "StartupConfiguration_RFAmplitudeCh4_set", _wrap_StartupConfiguration_RFAmplitudeCh4_set, METH_VARARGS, "StartupConfiguration_RFAmplitudeCh4_set(StartupConfiguration self, Percent RFAmplitudeCh4)"},
+	 { "StartupConfiguration_RFAmplitudeCh4_get", _wrap_StartupConfiguration_RFAmplitudeCh4_get, METH_O, "StartupConfiguration_RFAmplitudeCh4_get(StartupConfiguration self) -> Percent"},
 	 { "StartupConfiguration_DDSPower_set", _wrap_StartupConfiguration_DDSPower_set, METH_VARARGS, "StartupConfiguration_DDSPower_set(StartupConfiguration self, Percent DDSPower)"},
 	 { "StartupConfiguration_DDSPower_get", _wrap_StartupConfiguration_DDSPower_get, METH_O, "StartupConfiguration_DDSPower_get(StartupConfiguration self) -> Percent"},
 	 { "StartupConfiguration_AmplitudeControlSource_set", _wrap_StartupConfiguration_AmplitudeControlSource_set, METH_VARARGS, "StartupConfiguration_AmplitudeControlSource_set(StartupConfiguration self, iMS::SignalPath::AmplitudeControl AmplitudeControlSource)"},
@@ -79784,7 +80782,6 @@ static swig_type_info _swigt__p_CompensationPointSpecification = {"_p_Compensati
 static swig_type_info _swigt__p_CompensationTable = {"_p_CompensationTable", "CompensationTable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_FileSystemTable = {"_p_FileSystemTable", "FileSystemTable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Image = {"_p_Image", "Image *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_ImageFormat = {"_p_ImageFormat", "ImageFormat *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ImageGroup = {"_p_ImageGroup", "ImageGroup *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ImagePlayer__ImageTrigger = {"_p_ImagePlayer__ImageTrigger", "ImagePlayer::ImageTrigger *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ImagePlayer__PointClock = {"_p_ImagePlayer__PointClock", "ImagePlayer::PointClock *", 0, 0, (void*)0, 0};
@@ -79838,6 +80835,7 @@ static swig_type_info _swigt__p_iMS__IMSSynthesiserCapabilities = {"_p_iMS__IMSS
 static swig_type_info _swigt__p_iMS__IMSSystem = {"_p_iMS__IMSSystem", "iMS::IMSSystem *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__Image = {"_p_iMS__Image", "iMS::Image *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__ImageDownload = {"_p_iMS__ImageDownload", "iMS::ImageDownload *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__ImageFormat = {"_p_iMS__ImageFormat", "iMS::ImageFormat *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__ImageGroup = {"_p_iMS__ImageGroup", "iMS::ImageGroup *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__ImageGroupList = {"_p_iMS__ImageGroupList", "iMS::ImageGroupList *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__ImagePlayer = {"_p_iMS__ImagePlayer", "iMS::ImagePlayer *", 0, 0, (void*)0, 0};
@@ -79952,7 +80950,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_CompensationTable,
   &_swigt__p_FileSystemTable,
   &_swigt__p_Image,
-  &_swigt__p_ImageFormat,
   &_swigt__p_ImageGroup,
   &_swigt__p_ImagePlayer__ImageTrigger,
   &_swigt__p_ImagePlayer__PointClock,
@@ -80006,6 +81003,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_iMS__IMSSystem,
   &_swigt__p_iMS__Image,
   &_swigt__p_iMS__ImageDownload,
+  &_swigt__p_iMS__ImageFormat,
   &_swigt__p_iMS__ImageGroup,
   &_swigt__p_iMS__ImageGroupList,
   &_swigt__p_iMS__ImagePlayer,
@@ -80120,7 +81118,6 @@ static swig_cast_info _swigc__p_CompensationPointSpecification[] = {  {&_swigt__
 static swig_cast_info _swigc__p_CompensationTable[] = {  {&_swigt__p_CompensationTable, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_FileSystemTable[] = {  {&_swigt__p_FileSystemTable, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Image[] = {  {&_swigt__p_Image, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_ImageFormat[] = {  {&_swigt__p_ImageFormat, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ImageGroup[] = {  {&_swigt__p_ImageGroup, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ImagePlayer__ImageTrigger[] = {  {&_swigt__p_ImagePlayer__ImageTrigger, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ImagePlayer__PointClock[] = {  {&_swigt__p_ImagePlayer__PointClock, 0, 0, 0},{0, 0, 0, 0}};
@@ -80174,6 +81171,7 @@ static swig_cast_info _swigc__p_iMS__IMSSynthesiserCapabilities[] = {  {&_swigt_
 static swig_cast_info _swigc__p_iMS__IMSSystem[] = {  {&_swigt__p_iMS__IMSSystem, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__Image[] = {  {&_swigt__p_iMS__Image, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__ImageDownload[] = {  {&_swigt__p_iMS__ImageDownload, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_iMS__ImageFormat[] = {  {&_swigt__p_iMS__ImageFormat, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__ImageGroup[] = {  {&_swigt__p_iMS__ImageGroup, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__ImageGroupList[] = {  {&_swigt__p_iMS__ImageGroupList, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__ImagePlayer[] = {  {&_swigt__p_iMS__ImagePlayer, 0, 0, 0},{0, 0, 0, 0}};
@@ -80288,7 +81286,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_CompensationTable,
   _swigc__p_FileSystemTable,
   _swigc__p_Image,
-  _swigc__p_ImageFormat,
   _swigc__p_ImageGroup,
   _swigc__p_ImagePlayer__ImageTrigger,
   _swigc__p_ImagePlayer__PointClock,
@@ -80342,6 +81339,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_iMS__IMSSystem,
   _swigc__p_iMS__Image,
   _swigc__p_iMS__ImageDownload,
+  _swigc__p_iMS__ImageFormat,
   _swigc__p_iMS__ImageGroup,
   _swigc__p_iMS__ImageGroupList,
   _swigc__p_iMS__ImagePlayer,
