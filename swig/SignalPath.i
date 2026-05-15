@@ -114,6 +114,9 @@ namespace iMS
     bool SetXYChannelDelay(std::chrono::duration<uint64_t, std::ratio<1,1000000000>> delay);
     bool SetChannelDelay(std::chrono::duration<uint64_t, std::ratio<1,1000000000>> first,
 					 	     std::chrono::duration<uint64_t, std::ratio<1,1000000000>> second);
+    bool SetRFDutyCycle(bool enable, 
+            std::chrono::duration<uint64_t, std::ratio<1,1000000000>> delay,
+            std::chrono::duration<uint64_t, std::ratio<1,1000000000>> width);
     bool SetCalibrationTone(const FAP& fap);
     bool ClearTone();
     bool SetCalibrationChannelLock(const RFChannel& chan);

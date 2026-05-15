@@ -5426,6 +5426,10 @@ class SignalPath(object):
         r"""SetChannelDelay(SignalPath self, NanoSeconds first, NanoSeconds second) -> bool"""
         return _imslib.SignalPath_SetChannelDelay(self, first, second)
 
+    def SetRFDutyCycle(self, enable, delay, width):
+        r"""SetRFDutyCycle(SignalPath self, bool enable, NanoSeconds delay, NanoSeconds width) -> bool"""
+        return _imslib.SignalPath_SetRFDutyCycle(self, enable, delay, width)
+
     def SetCalibrationTone(self, fap):
         r"""SetCalibrationTone(SignalPath self, FAP fap) -> bool"""
         return _imslib.SignalPath_SetCalibrationTone(self, fap)

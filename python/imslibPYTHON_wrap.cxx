@@ -70680,6 +70680,73 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_SignalPath_SetRFDutyCycle(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::SignalPath *arg1 = (iMS::SignalPath *) 0 ;
+  bool arg2 ;
+  std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > arg3 ;
+  std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  void *argp4 ;
+  int res4 = 0 ;
+  PyObject *swig_obj[4] ;
+  bool result;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "SignalPath_SetRFDutyCycle", 4, 4, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__SignalPath, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SignalPath_SetRFDutyCycle" "', argument " "1"" of type '" "iMS::SignalPath *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::SignalPath * >(argp1);
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SignalPath_SetRFDutyCycle" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "SignalPath_SetRFDutyCycle" "', argument " "3"" of type '" "std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > >""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "SignalPath_SetRFDutyCycle" "', argument " "3"" of type '" "std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > >""'");
+    } else {
+      std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > * temp = reinterpret_cast< std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t,  0  | 0);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "SignalPath_SetRFDutyCycle" "', argument " "4"" of type '" "std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > >""'"); 
+    }  
+    if (!argp4) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "SignalPath_SetRFDutyCycle" "', argument " "4"" of type '" "std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > >""'");
+    } else {
+      std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > * temp = reinterpret_cast< std::chrono::duration< uint64_t,std::ratio< 1,1000000000 > > * >(argp4);
+      arg4 = *temp;
+      if (SWIG_IsNewObj(res4)) delete temp;
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->SetRFDutyCycle(arg2,SWIG_STD_MOVE(arg3),SWIG_STD_MOVE(arg4));
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_SignalPath_SetCalibrationTone(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::SignalPath *arg1 = (iMS::SignalPath *) 0 ;
@@ -80526,6 +80593,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "SignalPath_EnableXYPhaseCompensation", _wrap_SignalPath_EnableXYPhaseCompensation, METH_VARARGS, "SignalPath_EnableXYPhaseCompensation(SignalPath self, bool XYCompEnable) -> bool"},
 	 { "SignalPath_SetXYChannelDelay", _wrap_SignalPath_SetXYChannelDelay, METH_VARARGS, "SignalPath_SetXYChannelDelay(SignalPath self, NanoSeconds delay) -> bool"},
 	 { "SignalPath_SetChannelDelay", _wrap_SignalPath_SetChannelDelay, METH_VARARGS, "SignalPath_SetChannelDelay(SignalPath self, NanoSeconds first, NanoSeconds second) -> bool"},
+	 { "SignalPath_SetRFDutyCycle", _wrap_SignalPath_SetRFDutyCycle, METH_VARARGS, "SignalPath_SetRFDutyCycle(SignalPath self, bool enable, NanoSeconds delay, NanoSeconds width) -> bool"},
 	 { "SignalPath_SetCalibrationTone", _wrap_SignalPath_SetCalibrationTone, METH_VARARGS, "SignalPath_SetCalibrationTone(SignalPath self, FAP fap) -> bool"},
 	 { "SignalPath_ClearTone", _wrap_SignalPath_ClearTone, METH_O, "SignalPath_ClearTone(SignalPath self) -> bool"},
 	 { "SignalPath_SetCalibrationChannelLock", _wrap_SignalPath_SetCalibrationChannelLock, METH_VARARGS, "SignalPath_SetCalibrationChannelLock(SignalPath self, RFChannel chan) -> bool"},
