@@ -330,6 +330,7 @@ namespace iMS {
     void Connect();
     void Disconnect();
   	void SetTimeouts(int send_timeout_ms=500, int rx_timeout_ms=5000, int free_timeout_ms=30000, int discover_timeout_ms=2500);
+    void SetMessageSerialisation(bool enable);
     bool Open() const;
     const IMSController& Ctlr() const;
     const IMSSynthesiser& Synth() const;

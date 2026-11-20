@@ -3384,6 +3384,10 @@ class IMSSystem(object):
         r"""SetTimeouts(IMSSystem self, int send_timeout_ms=500, int rx_timeout_ms=5000, int free_timeout_ms=30000, int discover_timeout_ms=2500)"""
         return _imslib.IMSSystem_SetTimeouts(self, send_timeout_ms, rx_timeout_ms, free_timeout_ms, discover_timeout_ms)
 
+    def SetMessageSerialisation(self, enable):
+        r"""SetMessageSerialisation(IMSSystem self, bool enable)"""
+        return _imslib.IMSSystem_SetMessageSerialisation(self, enable)
+
     def Open(self):
         r"""Open(IMSSystem self) -> bool"""
         return _imslib.IMSSystem_Open(self)

@@ -45513,6 +45513,52 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_IMSSystem_SetMessageSerialisation(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::IMSSystem *arg1 = (iMS::IMSSystem *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::shared_ptr< iMS::IMSSystem > tempshared1 ;
+  std::shared_ptr< iMS::IMSSystem > *smartarg1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "IMSSystem_SetMessageSerialisation", 2, 2, swig_obj)) SWIG_fail;
+  {
+    int newmem = 0;
+    res1 = SWIG_ConvertPtrAndOwn(swig_obj[0], &argp1, SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t, 0 |  0 , &newmem);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IMSSystem_SetMessageSerialisation" "', argument " "1"" of type '" "iMS::IMSSystem *""'");
+    }
+    if (newmem & SWIG_CAST_NEW_MEMORY) {
+      tempshared1 = *reinterpret_cast< std::shared_ptr<  iMS::IMSSystem > * >(argp1);
+      delete reinterpret_cast< std::shared_ptr<  iMS::IMSSystem > * >(argp1);
+      arg1 = const_cast< iMS::IMSSystem * >(tempshared1.get());
+    } else {
+      smartarg1 = reinterpret_cast< std::shared_ptr<  iMS::IMSSystem > * >(argp1);
+      arg1 = const_cast< iMS::IMSSystem * >((smartarg1 ? smartarg1->get() : 0));
+    }
+  }
+  ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IMSSystem_SetMessageSerialisation" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->SetMessageSerialisation(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_IMSSystem_Open(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   iMS::IMSSystem *arg1 = (iMS::IMSSystem *) 0 ;
@@ -79880,6 +79926,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "IMSSystem_Connect", _wrap_IMSSystem_Connect, METH_O, "IMSSystem_Connect(IMSSystem self)"},
 	 { "IMSSystem_Disconnect", _wrap_IMSSystem_Disconnect, METH_O, "IMSSystem_Disconnect(IMSSystem self)"},
 	 { "IMSSystem_SetTimeouts", _wrap_IMSSystem_SetTimeouts, METH_VARARGS, "IMSSystem_SetTimeouts(IMSSystem self, int send_timeout_ms=500, int rx_timeout_ms=5000, int free_timeout_ms=30000, int discover_timeout_ms=2500)"},
+	 { "IMSSystem_SetMessageSerialisation", _wrap_IMSSystem_SetMessageSerialisation, METH_VARARGS, "IMSSystem_SetMessageSerialisation(IMSSystem self, bool enable)"},
 	 { "IMSSystem_Open", _wrap_IMSSystem_Open, METH_O, "IMSSystem_Open(IMSSystem self) -> bool"},
 	 { "IMSSystem_Ctlr", _wrap_IMSSystem_Ctlr, METH_O, "IMSSystem_Ctlr(IMSSystem self) -> IMSController"},
 	 { "IMSSystem_Synth", _wrap_IMSSystem_Synth, METH_O, "IMSSystem_Synth(IMSSystem self) -> IMSSynthesiser"},
